@@ -1,0 +1,33 @@
+# Left out of this repository: build outputs, caches, IDE state and harness
+# configuration found in the run workspaces. Packaged builds and files over
+# 100 MB are attached to the GitHub release of the run (see RELEASE_ASSETS.txt
+# in its folder).
+build/
+.cache/
+.tmp/
+__pycache__/
+*.pyc
+.idea/
+
+# Unreal Engine generated folders
+Intermediate/
+Saved/
+DerivedDataCache/
+Binaries/
+
+# Blender backups
+*.blend1
+*.blend@
+
+# Harness configuration
+.claude/
+.codex/
+.cline/
+.mcp.json
+opencode.json
+opencode.jsonc
+
+# Release assets of individual runs
+/Claude-Opus-5.5/_work/
+/Claude-Sonnet-5.5/MorphRig/source/audio/voice/en_US-ljspeech-high.onnx
+/GPT-6-Astra/MorphRig/presentation/frames/
