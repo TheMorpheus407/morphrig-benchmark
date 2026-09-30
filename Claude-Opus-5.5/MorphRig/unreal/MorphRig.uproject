@@ -1,0 +1,13 @@
+{
+  "FileVersion": 3,
+  "EngineAssociation": "5.8",
+  "Category": "",
+  "Description": "MorphRig Operative character showcase (Linux x86-64 showcase client)",
+  "Modules": [
+    { "Name": "MorphRig", "Type": "Runtime", "LoadingPhase": "Default", "AdditionalDependencies": ["Engine", "Slate", "SlateCore", "UMG"] }
+  ],
+  "Plugins": [
+    { "Name": "PythonScriptPlugin", "Enabled": true },
+    { "Name": "EditorScriptingUtilities", "Enabled": true }
+  ]
+}

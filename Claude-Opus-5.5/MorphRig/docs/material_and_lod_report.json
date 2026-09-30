@@ -1,0 +1,281 @@
+{
+ "lods": {
+  "LOD0": {
+   "triangles": 45524,
+   "limit": 80000,
+   "within_limit": true,
+   "vertices": 23201,
+   "material_slots": [
+    "M_Armor",
+    "M_Cyber",
+    "M_Eye",
+    "M_Hair",
+    "M_Mouth",
+    "M_Skin",
+    "M_Suit"
+   ],
+   "max_bone_influences": 4,
+   "per_object_triangles": {
+    "MR_Boot_L": 1210,
+    "MR_Boot_R": 1210,
+    "MR_CyberArm": 5158,
+    "MR_Eye_L": 1216,
+    "MR_Eye_R": 1216,
+    "MR_Gear": 10196,
+    "MR_Hair": 2988,
+    "MR_HairTail": 456,
+    "MR_HandL": 1232,
+    "MR_Head": 8618,
+    "MR_Mouth": 3608,
+    "MR_PropBeacon": 1408,
+    "MR_PropCell": 272,
+    "MR_Suit": 6736
+   }
+  },
+  "LOD1": {
+   "triangles": 22623,
+   "limit": 40000,
+   "within_limit": true,
+   "vertices": 11734,
+   "material_slots": [
+    "M_Armor",
+    "M_Cyber",
+    "M_Eye",
+    "M_Hair",
+    "M_Mouth",
+    "M_Skin",
+    "M_Suit"
+   ],
+   "max_bone_influences": 4,
+   "per_object_triangles": {
+    "MR_Boot_L_LOD1": 604,
+    "MR_Boot_R_LOD1": 604,
+    "MR_CyberArm_LOD1": 2320,
+    "MR_Eye_L_LOD1": 546,
+    "MR_Eye_R_LOD1": 546,
+    "MR_Gear_LOD1": 4588,
+    "MR_Hair_LOD1": 1494,
+    "MR_HairTail_LOD1": 250,
+    "MR_HandL_LOD1": 738,
+    "MR_Head_LOD1": 5342,
+    "MR_Mouth_LOD1": 1442,
+    "MR_PropBeacon_LOD1": 632,
+    "MR_PropCell_LOD1": 149,
+    "MR_Suit_LOD1": 3368
+   }
+  },
+  "LOD2": {
+   "triangles": 10717,
+   "limit": 20000,
+   "within_limit": true,
+   "vertices": 5682,
+   "material_slots": [
+    "M_Armor",
+    "M_Cyber",
+    "M_Eye",
+    "M_Hair",
+    "M_Mouth",
+    "M_Skin",
+    "M_Suit"
+   ],
+   "max_bone_influences": 4,
+   "per_object_triangles": {
+    "MR_Boot_L_LOD2": 302,
+    "MR_Boot_R_LOD2": 302,
+    "MR_CyberArm_LOD2": 1031,
+    "MR_Eye_L_LOD2": 266,
+    "MR_Eye_R_LOD2": 266,
+    "MR_Gear_LOD2": 2038,
+    "MR_Hair_LOD2": 746,
+    "MR_HairTail_LOD2": 136,
+    "MR_HandL_LOD2": 393,
+    "MR_Head_LOD2": 2584,
+    "MR_Mouth_LOD2": 648,
+    "MR_PropBeacon_LOD2": 309,
+    "MR_PropCell_LOD2": 80,
+    "MR_Suit_LOD2": 1616
+   }
+  }
+ },
+ "material_slots_total": 7,
+ "material_slot_limit": 8,
+ "textures": [
+  {
+   "file": "T_Armor_BC.png",
+   "width": 2048,
+   "height": 2048,
+   "est_gpu_mb": 5.33
+  },
+  {
+   "file": "T_Armor_M.png",
+   "width": 2048,
+   "height": 2048,
+   "est_gpu_mb": 5.33
+  },
+  {
+   "file": "T_Armor_N.png",
+   "width": 2048,
+   "height": 2048,
+   "est_gpu_mb": 5.33
+  },
+  {
+   "file": "T_Armor_ORM.png",
+   "width": 2048,
+   "height": 2048,
+   "est_gpu_mb": 5.33
+  },
+  {
+   "file": "T_Cyber_BC.png",
+   "width": 2048,
+   "height": 2048,
+   "est_gpu_mb": 5.33
+  },
+  {
+   "file": "T_Cyber_M.png",
+   "width": 2048,
+   "height": 2048,
+   "est_gpu_mb": 5.33
+  },
+  {
+   "file": "T_Cyber_N.png",
+   "width": 2048,
+   "height": 2048,
+   "est_gpu_mb": 5.33
+  },
+  {
+   "file": "T_Cyber_ORM.png",
+   "width": 2048,
+   "height": 2048,
+   "est_gpu_mb": 5.33
+  },
+  {
+   "file": "T_Eye_BC.png",
+   "width": 1024,
+   "height": 1024,
+   "est_gpu_mb": 1.33
+  },
+  {
+   "file": "T_Eye_M.png",
+   "width": 1024,
+   "height": 1024,
+   "est_gpu_mb": 1.33
+  },
+  {
+   "file": "T_Eye_N.png",
+   "width": 1024,
+   "height": 1024,
+   "est_gpu_mb": 1.33
+  },
+  {
+   "file": "T_Eye_ORM.png",
+   "width": 1024,
+   "height": 1024,
+   "est_gpu_mb": 1.33
+  },
+  {
+   "file": "T_Hair_BC.png",
+   "width": 1024,
+   "height": 1024,
+   "est_gpu_mb": 1.33
+  },
+  {
+   "file": "T_Hair_M.png",
+   "width": 1024,
+   "height": 1024,
+   "est_gpu_mb": 1.33
+  },
+  {
+   "file": "T_Hair_N.png",
+   "width": 1024,
+   "height": 1024,
+   "est_gpu_mb": 1.33
+  },
+  {
+   "file": "T_Hair_ORM.png",
+   "width": 1024,
+   "height": 1024,
+   "est_gpu_mb": 1.33
+  },
+  {
+   "file": "T_Mouth_BC.png",
+   "width": 1024,
+   "height": 1024,
+   "est_gpu_mb": 1.33
+  },
+  {
+   "file": "T_Mouth_M.png",
+   "width": 1024,
+   "height": 1024,
+   "est_gpu_mb": 1.33
+  },
+  {
+   "file": "T_Mouth_N.png",
+   "width": 1024,
+   "height": 1024,
+   "est_gpu_mb": 1.33
+  },
+  {
+   "file": "T_Mouth_ORM.png",
+   "width": 1024,
+   "height": 1024,
+   "est_gpu_mb": 1.33
+  },
+  {
+   "file": "T_Skin_BC.png",
+   "width": 4096,
+   "height": 4096,
+   "est_gpu_mb": 21.33
+  },
+  {
+   "file": "T_Skin_M.png",
+   "width": 4096,
+   "height": 4096,
+   "est_gpu_mb": 21.33
+  },
+  {
+   "file": "T_Skin_N.png",
+   "width": 4096,
+   "height": 4096,
+   "est_gpu_mb": 21.33
+  },
+  {
+   "file": "T_Skin_ORM.png",
+   "width": 4096,
+   "height": 4096,
+   "est_gpu_mb": 21.33
+  },
+  {
+   "file": "T_Suit_BC.png",
+   "width": 4096,
+   "height": 4096,
+   "est_gpu_mb": 21.33
+  },
+  {
+   "file": "T_Suit_M.png",
+   "width": 4096,
+   "height": 4096,
+   "est_gpu_mb": 21.33
+  },
+  {
+   "file": "T_Suit_N.png",
+   "width": 4096,
+   "height": 4096,
+   "est_gpu_mb": 21.33
+  },
+  {
+   "file": "T_Suit_ORM.png",
+   "width": 4096,
+   "height": 4096,
+   "est_gpu_mb": 21.33
+  }
+ ],
+ "texture_max_dimension": 4096,
+ "texture_memory_estimate_mb": 229.2,
+ "texture_memory_note": "estimate: BC7 / BC5 1 byte per texel, full mip chain (x 4/3); 28 PBR maps + icon",
+ "deform_bone_count": 85,
+ "bone_count_including_sockets": 96,
+ "bone_influence_limit_export": 8,
+ "bone_influences_authored": 4,
+ "height_m": 1.786,
+ "units": "Blender metres (+Z up, character faces -Y, character left = +X); FBX / Unreal centimetres (export copy converted, all bone scales 1), imported character height 180 cm"
+}

@@ -1,0 +1,4043 @@
+{
+ "idle_relaxed": {
+  "loop_seam": 0.048,
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.0,
+  "min_body_at": "MR_Boot_L@0",
+  "body_clear_cm": -0.28,
+  "body_clear_at": "forearm_l->gear@88",
+  "body_clear_bad_samples": 1,
+  "fixes": 8,
+  "fix_log": [
+   [
+    "key",
+    "0.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "58.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "120.0",
+    "0.0"
+   ],
+   [
+    "frame",
+    "76",
+    "l",
+    "0.35"
+   ],
+   [
+    "frame",
+    "86",
+    "l",
+    "0.35"
+   ],
+   [
+    "frame",
+    "102",
+    "l",
+    "0.34"
+   ],
+   [
+    "frame",
+    "92",
+    "l",
+    "0.34"
+   ],
+   [
+    "frame",
+    "89",
+    "l",
+    "0.31"
+   ]
+  ]
+ },
+ "walk_f": {
+  "loop_seam": 0.046,
+  "min_sole_at": "l:heel@3",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.02,
+   "r": 0.01
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.09,
+  "min_body_at": "MR_Boot_R@3",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "walk_fl": {
+  "loop_seam": 0.046,
+  "min_sole_at": "l:heel@3",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.02,
+   "r": 0.01
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.08,
+  "min_body_at": "MR_Boot_R@3",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "walk_l": {
+  "loop_seam": 0.045,
+  "min_sole_at": "l:heel@3",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.02,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.07,
+  "min_body_at": "MR_Boot_R@3",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "walk_bl": {
+  "loop_seam": 0.046,
+  "min_sole_at": "l:heel@4",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.01
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.08,
+  "min_body_at": "MR_Boot_L@0",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "walk_b": {
+  "loop_seam": 0.049,
+  "min_sole_at": "l:heel@4",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.01
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.08,
+  "min_body_at": "MR_Boot_L@0",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "walk_br": {
+  "loop_seam": 0.097,
+  "min_sole_at": "l:heel@4",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.01
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.08,
+  "min_body_at": "MR_Boot_L@0",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "walk_r": {
+  "loop_seam": 0.105,
+  "min_sole_at": "l:heel@3",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.02,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.07,
+  "min_body_at": "MR_Boot_R@3",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "walk_fr": {
+  "loop_seam": 0.092,
+  "min_sole_at": "l:heel@3",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.02,
+   "r": 0.01
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.08,
+  "min_body_at": "MR_Boot_R@3",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "run_f": {
+  "loop_seam": 0.081,
+  "min_sole_at": "l:heel@1",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.01
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.11,
+  "min_body_at": "MR_Boot_R@17",
+  "body_clear_cm": -0.27,
+  "body_clear_at": "bracer_l->gear@0",
+  "body_clear_bad_samples": 1,
+  "fixes": 8,
+  "fix_log": [
+   [
+    "key",
+    "1.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "2.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "3.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "4.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "17.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "18.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "19.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "20.0",
+    "0.0"
+   ]
+  ]
+ },
+ "run_fl": {
+  "loop_seam": 0.045,
+  "min_sole_at": "l:heel@1",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.01
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.12,
+  "min_body_at": "MR_Boot_L@7",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "run_l": {
+  "loop_seam": 0.047,
+  "min_sole_at": "l:heel@2",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.01
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.09,
+  "min_body_at": "MR_Boot_L@7",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "run_bl": {
+  "loop_seam": 0.047,
+  "min_sole_at": "l:heel@2",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.02
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.08,
+  "min_body_at": "MR_Boot_L@0",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "run_b": {
+  "loop_seam": 0.065,
+  "min_sole_at": "l:heel@2",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.08,
+  "min_body_at": "MR_Boot_L@0",
+  "body_clear_cm": -0.3,
+  "body_clear_at": "bracer_l->gear@2",
+  "body_clear_bad_samples": 1,
+  "fixes": 7,
+  "fix_log": [
+   [
+    "key",
+    "0.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "1.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "3.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "18.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "19.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "20.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "21.0",
+    "0.0"
+   ]
+  ]
+ },
+ "run_br": {
+  "loop_seam": 0.153,
+  "min_sole_at": "l:heel@2",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.02
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.08,
+  "min_body_at": "MR_Boot_L@0",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "run_r": {
+  "loop_seam": 0.126,
+  "min_sole_at": "l:heel@2",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.01
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.09,
+  "min_body_at": "MR_Boot_L@7",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "run_fr": {
+  "loop_seam": 0.11,
+  "min_sole_at": "l:heel@1",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.01
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.12,
+  "min_body_at": "MR_Boot_L@7",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "sprint_f": {
+  "loop_seam": 0.092,
+  "min_sole_at": "l:heel@1",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.09,
+  "min_body_at": "MR_Boot_R@14",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "melee_1": {
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.06,
+  "min_body_at": "MR_Boot_R@9",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "melee_2": {
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.08,
+  "min_body_at": "MR_Boot_R@6",
+  "body_clear_cm": -0.28,
+  "body_clear_at": "cyber_r->gear@6",
+  "body_clear_bad_samples": 1,
+  "fixes": 1,
+  "fix_log": [
+   [
+    "key",
+    "6.0",
+    "0.28"
+   ]
+  ]
+ },
+ "melee_3": {
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.11,
+  "min_body_at": "MR_Boot_R@12",
+  "body_clear_cm": -0.26,
+  "body_clear_at": "cyber_r->gear@8",
+  "body_clear_bad_samples": 2,
+  "fixes": 3,
+  "fix_log": [
+   [
+    "key",
+    "8.0",
+    "0.26"
+   ],
+   [
+    "key",
+    "10.0",
+    "0.26"
+   ],
+   [
+    "frame",
+    "6",
+    "r",
+    "0.68"
+   ]
+  ]
+ },
+ "ranged_fire": {
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.0,
+  "min_body_at": "MR_Boot_L@0",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "ranged_burst": {
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.0,
+  "min_body_at": "MR_Boot_L@0",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "reload": {
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.0,
+  "min_body_at": "MR_Boot_L@0",
+  "body_clear_cm": -0.3,
+  "body_clear_at": "forearm_l->gear@40",
+  "body_clear_bad_samples": 1,
+  "fixes": 8,
+  "fix_log": [
+   [
+    "key",
+    "22.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "31.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "33.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "38.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "42.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "45.0",
+    "0.0"
+   ],
+   [
+    "frame",
+    "35",
+    "l",
+    "1.42"
+   ],
+   [
+    "stuck",
+    "40",
+    "0.32"
+   ]
+  ]
+ },
+ "cast_directional": {
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.07,
+  "min_body_at": "MR_Boot_R@12",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 1,
+  "fix_log": [
+   [
+    "key",
+    "8.0",
+    "0.0"
+   ]
+  ]
+ },
+ "cast_ground": {
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.05,
+  "min_body_at": "MR_Boot_R@16",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "cast_self": {
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.0,
+  "min_body_at": "MR_Boot_L@0",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 1,
+  "fix_log": [
+   [
+    "key",
+    "8.0",
+    "0.0"
+   ]
+  ]
+ },
+ "channel_start": {
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 1.5,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.0,
+  "min_body_at": "MR_Boot_L@0",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "channel_loop": {
+  "loop_seam": 0.038,
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.0,
+  "min_body_at": "MR_Boot_L@0",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "channel_end": {
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 1.5,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.0,
+  "min_body_at": "MR_Boot_L@0",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "channel_interrupt": {
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 1.5,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.0,
+  "min_body_at": "MR_Boot_L@2",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "charge_start": {
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 3.86,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.0,
+  "min_body_at": "MR_Boot_L@0",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "charge_hold": {
+  "loop_seam": 0.041,
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.0,
+  "min_body_at": "MR_Boot_L@0",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "charge_release": {
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 3.86,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.11,
+  "min_body_at": "MR_Boot_R@15",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "charge_cancel": {
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 3.86,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.0,
+  "min_body_at": "MR_Boot_L@0",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "deploy": {
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.11,
+  "min_body_at": "MR_Boot_R@26",
+  "body_clear_cm": -5.0,
+  "body_clear_at": "hand_l->gear@8",
+  "body_clear_bad_samples": 9,
+  "fixes": 11,
+  "fix_log": [
+   [
+    "key",
+    "6.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "10.0",
+    "5.43"
+   ],
+   [
+    "key",
+    "11.0",
+    "5.43"
+   ],
+   [
+    "key",
+    "26.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "30.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "31.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "35.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "42.0",
+    "0.0"
+   ],
+   [
+    "frame",
+    "13",
+    "l",
+    "5.99"
+   ],
+   [
+    "frame",
+    "15",
+    "l",
+    "6.0"
+   ],
+   [
+    "stuck",
+    "12",
+    "6.0"
+   ]
+  ]
+ },
+ "uplink_start": {
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.0,
+  "min_body_at": "MR_Boot_L@0",
+  "body_clear_cm": -0.29,
+  "body_clear_at": "bracer_l->gear@12",
+  "body_clear_bad_samples": 1,
+  "fixes": 2,
+  "fix_log": [
+   [
+    "key",
+    "20.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "24.0",
+    "0.0"
+   ]
+  ]
+ },
+ "uplink_loop": {
+  "loop_seam": 0.043,
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.0,
+  "min_body_at": "MR_Boot_L@0",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 10,
+  "fix_log": [
+   [
+    "key",
+    "0.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "5.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "10.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "16.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "22.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "28.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "34.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "39.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "45.0",
+    "0.0"
+   ],
+   [
+    "frame",
+    "34",
+    "l",
+    "0.35"
+   ]
+  ]
+ },
+ "uplink_end": {
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.0,
+  "min_body_at": "MR_Boot_L@0",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 3,
+  "fix_log": [
+   [
+    "key",
+    "0.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "4.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "8.0",
+    "0.0"
+   ]
+  ]
+ },
+ "uplink_cancel": {
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.0,
+  "min_body_at": "MR_Boot_L@0",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 2,
+  "fix_log": [
+   [
+    "key",
+    "0.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "3.0",
+    "0.0"
+   ]
+  ]
+ },
+ "hit_f": {
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.0,
+  "min_body_at": "MR_Boot_L@0",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "hit_b": {
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.0,
+  "min_body_at": "MR_Boot_L@0",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "hit_l": {
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.0,
+  "min_body_at": "MR_Boot_L@0",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "hit_r": {
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.0,
+  "min_body_at": "MR_Boot_L@0",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "stun_start": {
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 1.66,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.0,
+  "min_body_at": "MR_Boot_L@0",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 5,
+  "fix_log": [
+   [
+    "key",
+    "12.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "24.0",
+    "0.0"
+   ],
+   [
+    "frame",
+    "17",
+    "l",
+    "3.0"
+   ],
+   [
+    "frame",
+    "15",
+    "l",
+    "1.68"
+   ],
+   [
+    "frame",
+    "14",
+    "l",
+    "0.4"
+   ]
+  ]
+ },
+ "stun_loop": {
+  "loop_seam": 0.062,
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.0,
+  "min_body_at": "MR_Boot_L@0",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 8,
+  "fix_log": [
+   [
+    "key",
+    "0.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "20.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "40.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "60.0",
+    "0.0"
+   ],
+   [
+    "frame",
+    "27",
+    "l",
+    "1.73"
+   ],
+   [
+    "frame",
+    "21",
+    "l",
+    "1.23"
+   ],
+   [
+    "frame",
+    "20",
+    "l",
+    "1.21"
+   ],
+   [
+    "frame",
+    "54",
+    "l",
+    "0.94"
+   ]
+  ]
+ },
+ "stun_end": {
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 1.66,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.0,
+  "min_body_at": "MR_Boot_L@0",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 5,
+  "fix_log": [
+   [
+    "key",
+    "0.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "6.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "10.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "14.0",
+    "0.0"
+   ],
+   [
+    "frame",
+    "13",
+    "l",
+    "0.67"
+   ]
+  ]
+ },
+ "knockback": {
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.07,
+  "min_body_at": "MR_Boot_R@3",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "knockup_start": {
+  "min_sole_at": "r:toe@3",
+  "min_sole_z_cm": -0.03,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 2.21,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.01,
+  "min_body_at": "MR_Boot_R@3",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "knockup_air": {
+  "loop_seam": 0.044,
+  "min_sole_at": "r:toe@0",
+  "min_sole_z_cm": 13.02,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": 13.62,
+  "min_body_at": "MR_Boot_R@0",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "knockdown_front": {
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 7.11,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.48,
+  "min_body_at": "MR_Gear@32",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 16,
+  "fix_log": [
+   [
+    "key",
+    "34.0",
+    "MR_Gear",
+    "0.13"
+   ],
+   [
+    "key",
+    "42.0",
+    "MR_Gear",
+    "0.13"
+   ],
+   [
+    "0",
+    "15",
+    "MR_Gear",
+    "leg_l",
+    "-15.46"
+   ],
+   [
+    "1",
+    "16",
+    "MR_Gear",
+    "leg_l",
+    "-7.56"
+   ],
+   [
+    "2",
+    "31",
+    "MR_Gear",
+    "leg_l",
+    "-6.65"
+   ],
+   [
+    "3",
+    "31",
+    "MR_Gear",
+    "leg_l",
+    "-4.29"
+   ],
+   [
+    "4",
+    "16",
+    "MR_Gear",
+    "leg_l",
+    "-3.84"
+   ],
+   [
+    "5",
+    "17",
+    "MR_Gear",
+    "leg_r",
+    "-3.09"
+   ],
+   [
+    "6",
+    "31",
+    "MR_Gear",
+    "leg_l",
+    "-2.41"
+   ],
+   [
+    "7",
+    "17",
+    "MR_Gear",
+    "leg_l",
+    "-2.29"
+   ],
+   [
+    "8",
+    "17",
+    "MR_Gear",
+    "leg_l",
+    "-1.87"
+   ],
+   [
+    "9",
+    "17",
+    "MR_Gear",
+    "leg_l",
+    "-1.34"
+   ],
+   [
+    "10",
+    "33",
+    "MR_Gear",
+    "leg_l",
+    "-1.21"
+   ],
+   [
+    "11",
+    "31",
+    "MR_Gear",
+    "leg_l",
+    "-1.11"
+   ],
+   [
+    "12",
+    "33",
+    "MR_Gear",
+    "leg_l",
+    "-0.94"
+   ],
+   [
+    "13",
+    "17",
+    "MR_Gear",
+    "leg_l",
+    "-0.82"
+   ]
+  ]
+ },
+ "knockdown_back": {
+  "min_sole_at": "r:heel@32",
+  "min_sole_z_cm": -1.29,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 9.89,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.46,
+  "min_body_at": "MR_CyberArm@21",
+  "body_clear_cm": -1.8,
+  "body_clear_at": "hand_l->body@18",
+  "body_clear_bad_samples": 1,
+  "fixes": 10,
+  "fix_log": [
+   [
+    "key",
+    "20.0",
+    "MR_Suit",
+    "0.01"
+   ],
+   [
+    "key",
+    "34.0",
+    "MR_Boot_R",
+    "0.29"
+   ],
+   [
+    "key",
+    "40.0",
+    "MR_Boot_R",
+    "0.29"
+   ],
+   [
+    "0",
+    "23",
+    "MR_HandL",
+    "arm_l",
+    "-7.07"
+   ],
+   [
+    "1",
+    "23",
+    "MR_CyberArm",
+    "arm_r",
+    "-4.88"
+   ],
+   [
+    "2",
+    "21",
+    "MR_CyberArm",
+    "arm_r",
+    "-1.01"
+   ],
+   [
+    "3",
+    "21",
+    "MR_HandL",
+    "arm_l",
+    "-1.52"
+   ],
+   [
+    "4",
+    "30",
+    "MR_Boot_L",
+    "foot_l",
+    "-0.87"
+   ],
+   [
+    "frame",
+    "17",
+    "r",
+    "6.0"
+   ],
+   [
+    "stuck",
+    "17",
+    "0.33"
+   ]
+  ]
+ },
+ "prone_front": {
+  "loop_seam": 0.055,
+  "min_sole_at": "l:toe@0",
+  "min_sole_z_cm": 12.64,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": 0.13,
+  "min_body_at": "MR_Gear@0",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 3,
+  "fix_log": [
+   [
+    "key",
+    "0.0",
+    "MR_Gear",
+    "0.13"
+   ],
+   [
+    "key",
+    "30.0",
+    "MR_Gear",
+    "0.13"
+   ],
+   [
+    "key",
+    "60.0",
+    "MR_Gear",
+    "0.13"
+   ]
+  ]
+ },
+ "prone_back": {
+  "loop_seam": 0.05,
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -1.19,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": 0.29,
+  "min_body_at": "MR_Boot_R@0",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 3,
+  "fix_log": [
+   [
+    "key",
+    "0.0",
+    "MR_Boot_R",
+    "0.29"
+   ],
+   [
+    "key",
+    "30.0",
+    "MR_Boot_R",
+    "0.29"
+   ],
+   [
+    "key",
+    "60.0",
+    "MR_Boot_R",
+    "0.29"
+   ]
+  ]
+ },
+ "getup_front": {
+  "min_sole_at": "l:heel@34",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 7.11,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -1.12,
+  "min_body_at": "MR_Gear@6",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 15,
+  "fix_log": [
+   [
+    "key",
+    "0.0",
+    "MR_Gear",
+    "0.13"
+   ],
+   [
+    "key",
+    "10.0",
+    "MR_Gear",
+    "-0.0"
+   ],
+   [
+    "key",
+    "34.0",
+    "MR_Boot_L",
+    "-0.0"
+   ],
+   [
+    "0",
+    "40",
+    "MR_Boot_R",
+    "foot_r",
+    "-9.54"
+   ],
+   [
+    "1",
+    "13",
+    "MR_Gear",
+    "leg_r",
+    "-6.23"
+   ],
+   [
+    "2",
+    "14",
+    "MR_Gear",
+    "leg_r",
+    "-5.43"
+   ],
+   [
+    "3",
+    "12",
+    "MR_Gear",
+    "leg_r",
+    "-6.09"
+   ],
+   [
+    "4",
+    "13",
+    "MR_Gear",
+    "leg_r",
+    "-5.17"
+   ],
+   [
+    "5",
+    "31",
+    "MR_Gear",
+    "leg_r",
+    "-4.87"
+   ],
+   [
+    "6",
+    "14",
+    "MR_Gear",
+    "leg_r",
+    "-2.16"
+   ],
+   [
+    "7",
+    "13",
+    "MR_Gear",
+    "leg_r",
+    "-1.73"
+   ],
+   [
+    "8",
+    "12",
+    "MR_Gear",
+    "leg_r",
+    "-0.74"
+   ],
+   [
+    "9",
+    "30",
+    "MR_Gear",
+    "leg_r",
+    "-0.68"
+   ],
+   [
+    "10",
+    "14",
+    "MR_Gear",
+    "leg_r",
+    "-0.67"
+   ],
+   [
+    "key",
+    "31.0",
+    "0.0"
+   ]
+  ]
+ },
+ "getup_back": {
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -1.19,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 9.89,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.33,
+  "min_body_at": "MR_Gear@25",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 16,
+  "fix_log": [
+   [
+    "key",
+    "0.0",
+    "MR_Boot_R",
+    "0.29"
+   ],
+   [
+    "key",
+    "14.0",
+    "MR_Suit",
+    "0.01"
+   ],
+   [
+    "key",
+    "20.0",
+    "MR_Suit",
+    "0.01"
+   ],
+   [
+    "key",
+    "28.0",
+    "MR_Gear",
+    "-0.11"
+   ],
+   [
+    "key",
+    "38.0",
+    "MR_Boot_L",
+    "-0.0"
+   ],
+   [
+    "0",
+    "25",
+    "MR_Gear",
+    "leg_r",
+    "-10.15"
+   ],
+   [
+    "1",
+    "43",
+    "MR_Boot_R",
+    "foot_r",
+    "-6.64"
+   ],
+   [
+    "2",
+    "26",
+    "MR_Gear",
+    "leg_r",
+    "-2.45"
+   ],
+   [
+    "3",
+    "24",
+    "MR_Gear",
+    "leg_r",
+    "-3.01"
+   ],
+   [
+    "4",
+    "9",
+    "MR_HandL",
+    "arm_l",
+    "-2.32"
+   ],
+   [
+    "5",
+    "24",
+    "MR_Gear",
+    "leg_r",
+    "-1.46"
+   ],
+   [
+    "key",
+    "38.0",
+    "0.0"
+   ],
+   [
+    "frame",
+    "40",
+    "l",
+    "4.53"
+   ],
+   [
+    "frame",
+    "41",
+    "l",
+    "4.95"
+   ],
+   [
+    "frame",
+    "23",
+    "r",
+    "1.08"
+   ],
+   [
+    "frame",
+    "42",
+    "l",
+    "1.06"
+   ]
+  ]
+ },
+ "sleep_start": {
+  "min_sole_at": "r:toe@28",
+  "min_sole_z_cm": -0.07,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 2.53,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -1.33,
+  "min_body_at": "MR_Gear@46",
+  "body_clear_cm": -0.45,
+  "body_clear_at": "bracer_l->body@50",
+  "body_clear_bad_samples": 5,
+  "fixes": 4,
+  "fix_log": [
+   [
+    "key",
+    "40.0",
+    "MR_Gear",
+    "-0.11"
+   ],
+   [
+    "key",
+    "60.0",
+    "MR_Gear",
+    "-0.26"
+   ],
+   [
+    "0",
+    "32",
+    "MR_Boot_R",
+    "foot_r",
+    "-3.96"
+   ],
+   [
+    "key",
+    "60.0",
+    "0.0"
+   ]
+  ]
+ },
+ "sleep_loop": {
+  "loop_seam": 0.084,
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.26,
+  "min_body_at": "MR_Gear@0",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 8,
+  "fix_log": [
+   [
+    "key",
+    "0.0",
+    "MR_Gear",
+    "-0.26"
+   ],
+   [
+    "key",
+    "45.0",
+    "MR_Gear",
+    "-0.26"
+   ],
+   [
+    "key",
+    "90.0",
+    "MR_Gear",
+    "-0.26"
+   ],
+   [
+    "key",
+    "0.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "45.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "90.0",
+    "0.0"
+   ],
+   [
+    "frame",
+    "34",
+    "l",
+    "0.34"
+   ],
+   [
+    "frame",
+    "78",
+    "l",
+    "0.32"
+   ]
+  ]
+ },
+ "sleep_end": {
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 2.53,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.26,
+  "min_body_at": "MR_Gear@0",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 11,
+  "fix_log": [
+   [
+    "key",
+    "0.0",
+    "MR_Gear",
+    "-0.26"
+   ],
+   [
+    "key",
+    "5.0",
+    "MR_Gear",
+    "-0.26"
+   ],
+   [
+    "key",
+    "16.0",
+    "MR_Boot_L",
+    "-0.0"
+   ],
+   [
+    "0",
+    "22",
+    "MR_Boot_R",
+    "foot_r",
+    "-7.02"
+   ],
+   [
+    "1",
+    "11",
+    "MR_Gear",
+    "leg_r",
+    "-0.79"
+   ],
+   [
+    "key",
+    "0.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "16.0",
+    "0.0"
+   ],
+   [
+    "frame",
+    "18",
+    "l",
+    "4.91"
+   ],
+   [
+    "frame",
+    "20",
+    "l",
+    "5.26"
+   ],
+   [
+    "frame",
+    "19",
+    "l",
+    "5.01"
+   ],
+   [
+    "frame",
+    "7",
+    "l",
+    "2.42"
+   ]
+  ]
+ },
+ "death_front": {
+  "min_sole_at": "r:heel@40",
+  "min_sole_z_cm": -0.87,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 9.89,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.5,
+  "min_body_at": "MR_CyberArm@32",
+  "body_clear_cm": -1.69,
+  "body_clear_at": "hand_l->body@36",
+  "body_clear_bad_samples": 1,
+  "fixes": 17,
+  "fix_log": [
+   [
+    "key",
+    "28.0",
+    "MR_Suit",
+    "0.34"
+   ],
+   [
+    "key",
+    "40.0",
+    "MR_Boot_R",
+    "0.3"
+   ],
+   [
+    "key",
+    "46.0",
+    "MR_Boot_R",
+    "0.3"
+   ],
+   [
+    "key",
+    "66.0",
+    "MR_Boot_R",
+    "0.3"
+   ],
+   [
+    "0",
+    "32",
+    "MR_CyberArm",
+    "arm_r",
+    "-2.83"
+   ],
+   [
+    "1",
+    "32",
+    "MR_HandL",
+    "arm_l",
+    "-4.14"
+   ],
+   [
+    "2",
+    "31",
+    "MR_Suit",
+    "cog",
+    "-4.07"
+   ],
+   [
+    "3",
+    "32",
+    "MR_Suit",
+    "cog",
+    "-4.04"
+   ],
+   [
+    "4",
+    "30",
+    "MR_CyberArm",
+    "arm_r",
+    "-0.82"
+   ],
+   [
+    "5",
+    "31",
+    "MR_CyberArm",
+    "arm_r",
+    "-0.76"
+   ],
+   [
+    "6",
+    "33",
+    "MR_CyberArm",
+    "arm_r",
+    "-0.92"
+   ],
+   [
+    "key",
+    "40.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "46.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "66.0",
+    "0.0"
+   ],
+   [
+    "frame",
+    "36",
+    "l",
+    "2.84"
+   ],
+   [
+    "stuck",
+    "35",
+    "0.6"
+   ],
+   [
+    "key",
+    "36.0",
+    "MR_Gear",
+    "0.51"
+   ]
+  ]
+ },
+ "death_back": {
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 7.11,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.59,
+  "min_body_at": "MR_Gear@32",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 42,
+  "fix_log": [
+   [
+    "key",
+    "24.0",
+    "MR_Gear",
+    "0.54"
+   ],
+   [
+    "key",
+    "38.0",
+    "MR_Gear",
+    "-0.22"
+   ],
+   [
+    "key",
+    "44.0",
+    "MR_Gear",
+    "-0.22"
+   ],
+   [
+    "key",
+    "66.0",
+    "MR_Gear",
+    "-0.22"
+   ],
+   [
+    "0",
+    "30",
+    "MR_HandL",
+    "arm_l",
+    "-11.38"
+   ],
+   [
+    "1",
+    "20",
+    "MR_Gear",
+    "leg_l",
+    "-6.43"
+   ],
+   [
+    "2",
+    "32",
+    "MR_Gear",
+    "leg_r",
+    "-5.56"
+   ],
+   [
+    "3",
+    "31",
+    "MR_Gear",
+    "leg_r",
+    "-4.11"
+   ],
+   [
+    "4",
+    "34",
+    "MR_Gear",
+    "leg_r",
+    "-4.6"
+   ],
+   [
+    "5",
+    "30",
+    "MR_Gear",
+    "leg_r",
+    "-4.07"
+   ],
+   [
+    "6",
+    "21",
+    "MR_Gear",
+    "leg_l",
+    "-3.89"
+   ],
+   [
+    "7",
+    "32",
+    "MR_Gear",
+    "leg_r",
+    "-3.5"
+   ],
+   [
+    "8",
+    "30",
+    "MR_Gear",
+    "leg_r",
+    "-3.27"
+   ],
+   [
+    "9",
+    "21",
+    "MR_Gear",
+    "leg_l",
+    "-2.97"
+   ],
+   [
+    "10",
+    "31",
+    "MR_Gear",
+    "leg_r",
+    "-2.66"
+   ],
+   [
+    "11",
+    "33",
+    "MR_Gear",
+    "leg_r",
+    "-2.49"
+   ],
+   [
+    "12",
+    "35",
+    "MR_Gear",
+    "leg_r",
+    "-3.15"
+   ],
+   [
+    "13",
+    "30",
+    "MR_Gear",
+    "leg_r",
+    "-2.38"
+   ],
+   [
+    "14",
+    "34",
+    "MR_Gear",
+    "leg_r",
+    "-2.35"
+   ],
+   [
+    "15",
+    "32",
+    "MR_Gear",
+    "leg_r",
+    "-2.21"
+   ],
+   [
+    "16",
+    "31",
+    "MR_Gear",
+    "leg_r",
+    "-1.67"
+   ],
+   [
+    "17",
+    "28",
+    "MR_CyberArm",
+    "arm_r",
+    "-1.59"
+   ],
+   [
+    "18",
+    "29",
+    "MR_Gear",
+    "leg_r",
+    "-1.86"
+   ],
+   [
+    "19",
+    "30",
+    "MR_Gear",
+    "leg_r",
+    "-1.57"
+   ],
+   [
+    "20",
+    "21",
+    "MR_Gear",
+    "leg_l",
+    "-1.52"
+   ],
+   [
+    "21",
+    "28",
+    "MR_Gear",
+    "leg_r",
+    "-1.39"
+   ],
+   [
+    "22",
+    "30",
+    "MR_CyberArm",
+    "arm_r",
+    "-1.37"
+   ],
+   [
+    "23",
+    "32",
+    "MR_Gear",
+    "leg_r",
+    "-1.25"
+   ],
+   [
+    "24",
+    "33",
+    "MR_Gear",
+    "leg_r",
+    "-1.18"
+   ],
+   [
+    "25",
+    "31",
+    "MR_CyberArm",
+    "arm_r",
+    "-1.12"
+   ],
+   [
+    "26",
+    "34",
+    "MR_Gear",
+    "leg_r",
+    "-1.09"
+   ],
+   [
+    "27",
+    "36",
+    "MR_Gear",
+    "leg_r",
+    "-1.32"
+   ],
+   [
+    "28",
+    "29",
+    "MR_Gear",
+    "leg_r",
+    "-1.08"
+   ],
+   [
+    "29",
+    "28",
+    "MR_Gear",
+    "leg_r",
+    "-1.02"
+   ],
+   [
+    "30",
+    "35",
+    "MR_Gear",
+    "leg_r",
+    "-0.99"
+   ],
+   [
+    "31",
+    "31",
+    "MR_Gear",
+    "leg_r",
+    "-0.98"
+   ],
+   [
+    "32",
+    "30",
+    "MR_Gear",
+    "leg_r",
+    "-0.93"
+   ],
+   [
+    "33",
+    "22",
+    "MR_Gear",
+    "leg_l",
+    "-0.92"
+   ],
+   [
+    "34",
+    "32",
+    "MR_CyberArm",
+    "arm_r",
+    "-0.82"
+   ],
+   [
+    "35",
+    "22",
+    "MR_Gear",
+    "leg_l",
+    "-0.76"
+   ]
+  ]
+ },
+ "respawn": {
+  "min_sole_at": "r:toe@44",
+  "min_sole_z_cm": -0.79,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 2.29,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.54,
+  "min_body_at": "MR_Boot_R@44",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 9,
+  "fix_log": [
+   [
+    "key",
+    "0.0",
+    "MR_Gear",
+    "-0.38"
+   ],
+   [
+    "key",
+    "22.0",
+    "MR_Gear",
+    "-0.38"
+   ],
+   [
+    "key",
+    "34.0",
+    "MR_Boot_L",
+    "-0.0"
+   ],
+   [
+    "0",
+    "41",
+    "MR_Boot_R",
+    "foot_r",
+    "-5.18"
+   ],
+   [
+    "key",
+    "0.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "22.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "34.0",
+    "0.0"
+   ],
+   [
+    "frame",
+    "36",
+    "l",
+    "4.33"
+   ],
+   [
+    "frame",
+    "32",
+    "l",
+    "0.32"
+   ]
+  ]
+ },
+ "start_f": {
+  "min_sole_at": "l:heel@15",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 0.39,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.11,
+  "min_body_at": "MR_Boot_R@15",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 5,
+  "fix_log": [
+   [
+    "key",
+    "0.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "1.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "2.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "3.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "4.0",
+    "0.0"
+   ]
+  ]
+ },
+ "stop_f": {
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.01
+  },
+  "pelvis_drift_cm": 1.77,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.11,
+  "min_body_at": "MR_Boot_R@3",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "turn_l90": {
+  "min_sole_at": "l:toe@18",
+  "min_sole_z_cm": -0.36,
+  "foot_slide_cm": {
+   "l": 0.01,
+   "r": 0.01
+  },
+  "pelvis_drift_cm": 1.94,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.25,
+  "min_body_at": "MR_Boot_L@18",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "turn_r90": {
+  "min_sole_at": "r:toe@18",
+  "min_sole_z_cm": -0.36,
+  "foot_slide_cm": {
+   "l": 0.01,
+   "r": 0.01
+  },
+  "pelvis_drift_cm": 1.94,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.25,
+  "min_body_at": "MR_Boot_R@18",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "pivot_l180": {
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.01,
+   "r": 0.02
+  },
+  "pelvis_drift_cm": 0.35,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.12,
+  "min_body_at": "MR_Boot_L@25",
+  "body_clear_cm": -0.27,
+  "body_clear_at": "bracer_l->gear@2",
+  "body_clear_bad_samples": 2,
+  "fixes": 1,
+  "fix_log": [
+   [
+    "key",
+    "20.0",
+    "0.0"
+   ]
+  ]
+ },
+ "pivot_r180": {
+  "min_sole_at": "l:heel@12",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.02,
+   "r": 0.01
+  },
+  "pelvis_drift_cm": 0.35,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.12,
+  "min_body_at": "MR_Boot_L@2",
+  "body_clear_cm": -0.27,
+  "body_clear_at": "bracer_l->gear@0",
+  "body_clear_bad_samples": 2,
+  "fixes": 1,
+  "fix_log": [
+   [
+    "key",
+    "20.0",
+    "0.0"
+   ]
+  ]
+ },
+ "jump_start": {
+  "min_sole_at": "r:toe@13",
+  "min_sole_z_cm": -0.9,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 1.5,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.42,
+  "min_body_at": "MR_Boot_R@13",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "jump_air": {
+  "loop_seam": 0.042,
+  "min_sole_at": "l:toe@0",
+  "min_sole_z_cm": 2.38,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": 3.04,
+  "min_body_at": "MR_Boot_L@0",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "jump_land": {
+  "min_sole_at": "l:heel@5",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 1.5,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.09,
+  "min_body_at": "MR_Boot_L@0",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "fall": {
+  "loop_seam": 0.044,
+  "min_sole_at": "r:toe@15",
+  "min_sole_z_cm": 2.89,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": 3.21,
+  "min_body_at": "MR_Boot_R@15",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "land_heavy": {
+  "min_sole_at": "l:heel@6",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 1.26,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.07,
+  "min_body_at": "MR_Boot_L@0",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 3,
+  "fix_log": [
+   [
+    "key",
+    "6.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "14.0",
+    "0.0"
+   ],
+   [
+    "frame",
+    "19",
+    "l",
+    "0.8"
+   ]
+  ]
+ },
+ "dash_f": {
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.01,
+   "r": 0.01
+  },
+  "pelvis_drift_cm": 200.0,
+  "root_travel_cm": 200.0,
+  "min_body_z_cm": -0.07,
+  "min_body_at": "MR_Boot_L@3",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "dash_b": {
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.01,
+   "r": 0.01
+  },
+  "pelvis_drift_cm": 200.0,
+  "root_travel_cm": 200.0,
+  "min_body_z_cm": -0.07,
+  "min_body_at": "MR_Boot_L@3",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "dash_l": {
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.01,
+   "r": 0.01
+  },
+  "pelvis_drift_cm": 200.0,
+  "root_travel_cm": 200.0,
+  "min_body_z_cm": -0.07,
+  "min_body_at": "MR_Boot_L@3",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "dash_r": {
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.01,
+   "r": 0.01
+  },
+  "pelvis_drift_cm": 200.0,
+  "root_travel_cm": 200.0,
+  "min_body_z_cm": -0.07,
+  "min_body_at": "MR_Boot_L@3",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "blink_out": {
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 4.11,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.0,
+  "min_body_at": "MR_Boot_L@0",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 1,
+  "fix_log": [
+   [
+    "key",
+    "6.0",
+    "0.0"
+   ]
+  ]
+ },
+ "blink_in": {
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 1.11,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.0,
+  "min_body_at": "MR_Boot_L@0",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 2,
+  "fix_log": [
+   [
+    "key",
+    "0.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "5.0",
+    "0.0"
+   ]
+  ]
+ },
+ "idle_combat": {
+  "loop_seam": 0.047,
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.0,
+  "min_body_at": "MR_Boot_L@0",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "idle_wounded": {
+  "loop_seam": 0.085,
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.0,
+  "min_body_at": "MR_Boot_L@0",
+  "body_clear_cm": -0.3,
+  "body_clear_at": "forearm_l->gear@34",
+  "body_clear_bad_samples": 36,
+  "fixes": 26,
+  "fix_log": [
+   [
+    "key",
+    "0.0",
+    "0.2"
+   ],
+   [
+    "key",
+    "40.0",
+    "0.2"
+   ],
+   [
+    "key",
+    "62.0",
+    "0.28"
+   ],
+   [
+    "key",
+    "80.0",
+    "0.2"
+   ],
+   [
+    "key",
+    "120.0",
+    "0.2"
+   ],
+   [
+    "frame",
+    "22",
+    "l",
+    "0.5"
+   ],
+   [
+    "frame",
+    "82",
+    "l",
+    "0.5"
+   ],
+   [
+    "frame",
+    "113",
+    "l",
+    "0.47"
+   ],
+   [
+    "frame",
+    "80",
+    "l",
+    "0.43"
+   ],
+   [
+    "frame",
+    "44",
+    "l",
+    "0.33"
+   ],
+   [
+    "frame",
+    "1",
+    "l",
+    "0.31"
+   ],
+   [
+    "frame",
+    "29",
+    "l",
+    "0.32"
+   ],
+   [
+    "frame",
+    "49",
+    "l",
+    "0.31"
+   ],
+   [
+    "frame",
+    "58",
+    "l",
+    "0.31"
+   ],
+   [
+    "frame",
+    "57",
+    "l",
+    "0.31"
+   ],
+   [
+    "frame",
+    "28",
+    "l",
+    "0.31"
+   ],
+   [
+    "frame",
+    "24",
+    "l",
+    "0.33"
+   ],
+   [
+    "frame",
+    "108",
+    "l",
+    "0.31"
+   ],
+   [
+    "frame",
+    "102",
+    "l",
+    "0.31"
+   ],
+   [
+    "frame",
+    "87",
+    "l",
+    "0.31"
+   ],
+   [
+    "frame",
+    "18",
+    "l",
+    "0.31"
+   ],
+   [
+    "frame",
+    "56",
+    "l",
+    "0.3"
+   ],
+   [
+    "frame",
+    "91",
+    "l",
+    "0.3"
+   ],
+   [
+    "frame",
+    "52",
+    "l",
+    "0.3"
+   ],
+   [
+    "frame",
+    "53",
+    "l",
+    "0.3"
+   ],
+   [
+    "frame",
+    "19",
+    "l",
+    "0.3"
+   ]
+  ]
+ },
+ "greet": {
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.0,
+  "min_body_at": "MR_Boot_L@0",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 5,
+  "fix_log": [
+   [
+    "key",
+    "0.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "12.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "20.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "42.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "54.0",
+    "0.0"
+   ]
+  ]
+ },
+ "victory": {
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 1.87,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.01,
+  "min_body_at": "MR_Boot_L@22",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 2,
+  "fix_log": [
+   [
+    "key",
+    "56.0",
+    "0.19"
+   ],
+   [
+    "key",
+    "80.0",
+    "0.19"
+   ]
+  ]
+ },
+ "defeat": {
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.0,
+  "min_body_at": "MR_Boot_L@0",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 14,
+  "fix_log": [
+   [
+    "key",
+    "0.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "14.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "26.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "34.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "42.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "60.0",
+    "0.21"
+   ],
+   [
+    "key",
+    "80.0",
+    "0.21"
+   ],
+   [
+    "frame",
+    "29",
+    "l",
+    "5.99"
+   ],
+   [
+    "frame",
+    "55",
+    "l",
+    "5.98"
+   ],
+   [
+    "frame",
+    "26",
+    "l",
+    "5.93"
+   ],
+   [
+    "frame",
+    "8",
+    "l",
+    "5.97"
+   ],
+   [
+    "frame",
+    "34",
+    "l",
+    "5.93"
+   ],
+   [
+    "frame",
+    "45",
+    "l",
+    "5.99"
+   ],
+   [
+    "frame",
+    "69",
+    "l",
+    "0.36"
+   ]
+  ]
+ },
+ "aim_down_left": {
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.0,
+  "min_body_at": "MR_Boot_L@0",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "aim_down_center": {
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.0,
+  "min_body_at": "MR_Boot_L@0",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "aim_down_right": {
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.0,
+  "min_body_at": "MR_Boot_L@0",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "aim_level_left": {
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.0,
+  "min_body_at": "MR_Boot_L@0",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "aim_level_center": {
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.0,
+  "min_body_at": "MR_Boot_L@0",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "aim_level_right": {
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.0,
+  "min_body_at": "MR_Boot_L@0",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "aim_up_left": {
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.0,
+  "min_body_at": "MR_Boot_L@0",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "aim_up_center": {
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.0,
+  "min_body_at": "MR_Boot_L@0",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "aim_up_right": {
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.0,
+  "min_body_at": "MR_Boot_L@0",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "dialogue": {
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.0,
+  "min_body_at": "MR_Boot_L@0",
+  "body_clear_cm": -0.32,
+  "body_clear_at": "forearm_l->gear@412",
+  "body_clear_bad_samples": 14,
+  "fixes": 41,
+  "fix_log": [
+   [
+    "key",
+    "0.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "7.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "26.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "33.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "43.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "55.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "197.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "214.0",
+    "0.29"
+   ],
+   [
+    "key",
+    "347.0",
+    "0.27"
+   ],
+   [
+    "key",
+    "359.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "376.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "400.0",
+    "0.26"
+   ],
+   [
+    "key",
+    "411.0",
+    "0.24"
+   ],
+   [
+    "key",
+    "424.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "492.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "502.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "528.0",
+    "0.0"
+   ],
+   [
+    "frame",
+    "517",
+    "l",
+    "5.99"
+   ],
+   [
+    "frame",
+    "395",
+    "l",
+    "0.35"
+   ],
+   [
+    "frame",
+    "356",
+    "l",
+    "0.35"
+   ],
+   [
+    "frame",
+    "352",
+    "l",
+    "0.79"
+   ],
+   [
+    "frame",
+    "422",
+    "l",
+    "0.34"
+   ],
+   [
+    "frame",
+    "402",
+    "l",
+    "0.34"
+   ],
+   [
+    "frame",
+    "410",
+    "l",
+    "0.35"
+   ],
+   [
+    "frame",
+    "408",
+    "l",
+    "0.35"
+   ],
+   [
+    "frame",
+    "393",
+    "l",
+    "0.34"
+   ],
+   [
+    "frame",
+    "396",
+    "l",
+    "0.35"
+   ],
+   [
+    "frame",
+    "399",
+    "l",
+    "0.35"
+   ],
+   [
+    "frame",
+    "357",
+    "l",
+    "0.34"
+   ],
+   [
+    "frame",
+    "409",
+    "l",
+    "0.34"
+   ],
+   [
+    "frame",
+    "210",
+    "l",
+    "0.34"
+   ],
+   [
+    "frame",
+    "419",
+    "l",
+    "0.33"
+   ],
+   [
+    "frame",
+    "417",
+    "l",
+    "0.34"
+   ],
+   [
+    "frame",
+    "415",
+    "l",
+    "0.49"
+   ],
+   [
+    "frame",
+    "354",
+    "l",
+    "0.33"
+   ],
+   [
+    "frame",
+    "351",
+    "l",
+    "0.35"
+   ],
+   [
+    "frame",
+    "349",
+    "l",
+    "0.34"
+   ],
+   [
+    "frame",
+    "348",
+    "l",
+    "0.33"
+   ],
+   [
+    "frame",
+    "413",
+    "l",
+    "0.33"
+   ],
+   [
+    "frame",
+    "215",
+    "l",
+    "0.33"
+   ]
+  ]
+ },
+ "demo_deformation": {
+  "min_sole_at": "l:toe@117",
+  "min_sole_z_cm": -0.39,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.28,
+  "min_body_at": "MR_Boot_L@75",
+  "body_clear_cm": -0.23,
+  "body_clear_at": "forearm_l->gear@174",
+  "body_clear_bad_samples": 9,
+  "fixes": 18,
+  "fix_log": [
+   [
+    "key",
+    "20.0",
+    "MR_Boot_L",
+    "0.85"
+   ],
+   [
+    "key",
+    "45.0",
+    "MR_Boot_L",
+    "0.85"
+   ],
+   [
+    "key",
+    "285.0",
+    "MR_Boot_L",
+    "0.0"
+   ],
+   [
+    "key",
+    "300.0",
+    "MR_Boot_L",
+    "0.0"
+   ],
+   [
+    "0",
+    "244",
+    "MR_Boot_R",
+    "foot_r",
+    "-1.13"
+   ],
+   [
+    "key",
+    "0.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "65.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "130.0",
+    "0.0"
+   ],
+   [
+    "key",
+    "150.0",
+    "0.24"
+   ],
+   [
+    "key",
+    "175.0",
+    "0.24"
+   ],
+   [
+    "key",
+    "195.0",
+    "0.0"
+   ],
+   [
+    "frame",
+    "142",
+    "r",
+    "2.23"
+   ],
+   [
+    "frame",
+    "183",
+    "r",
+    "1.34"
+   ],
+   [
+    "frame",
+    "177",
+    "l",
+    "0.35"
+   ],
+   [
+    "frame",
+    "148",
+    "l",
+    "0.33"
+   ],
+   [
+    "frame",
+    "176",
+    "l",
+    "0.33"
+   ],
+   [
+    "frame",
+    "147",
+    "l",
+    "0.31"
+   ],
+   [
+    "frame",
+    "150",
+    "l",
+    "0.3"
+   ]
+  ]
+ },
+ "ctl_blink_l": {
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.0,
+  "min_body_at": "MR_Boot_L@0",
+  "body_clear_cm": -0.33,
+  "body_clear_at": "forearm_l->gear@0",
+  "body_clear_bad_samples": 1,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "ctl_blink_r": {
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.0,
+  "min_body_at": "MR_Boot_L@0",
+  "body_clear_cm": -0.33,
+  "body_clear_at": "forearm_l->gear@0",
+  "body_clear_bad_samples": 1,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "ctl_wide_l": {
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.0,
+  "min_body_at": "MR_Boot_L@0",
+  "body_clear_cm": -0.33,
+  "body_clear_at": "forearm_l->gear@0",
+  "body_clear_bad_samples": 1,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "ctl_wide_r": {
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.0,
+  "min_body_at": "MR_Boot_L@0",
+  "body_clear_cm": -0.33,
+  "body_clear_at": "forearm_l->gear@0",
+  "body_clear_bad_samples": 1,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "ctl_squint_l": {
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.0,
+  "min_body_at": "MR_Boot_L@0",
+  "body_clear_cm": -0.33,
+  "body_clear_at": "forearm_l->gear@0",
+  "body_clear_bad_samples": 1,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "ctl_squint_r": {
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.0,
+  "min_body_at": "MR_Boot_L@0",
+  "body_clear_cm": -0.33,
+  "body_clear_at": "forearm_l->gear@0",
+  "body_clear_bad_samples": 1,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "ctl_jaw_open": {
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.0,
+  "min_body_at": "MR_Boot_L@0",
+  "body_clear_cm": -0.33,
+  "body_clear_at": "forearm_l->gear@0",
+  "body_clear_bad_samples": 1,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "ctl_jaw_left": {
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.0,
+  "min_body_at": "MR_Boot_L@0",
+  "body_clear_cm": -0.33,
+  "body_clear_at": "forearm_l->gear@0",
+  "body_clear_bad_samples": 1,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "ctl_jaw_right": {
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.0,
+  "min_body_at": "MR_Boot_L@0",
+  "body_clear_cm": -0.33,
+  "body_clear_at": "forearm_l->gear@0",
+  "body_clear_bad_samples": 1,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "ctl_look_left": {
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.0,
+  "min_body_at": "MR_Boot_L@0",
+  "body_clear_cm": -0.33,
+  "body_clear_at": "forearm_l->gear@0",
+  "body_clear_bad_samples": 1,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "ctl_look_right": {
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.0,
+  "min_body_at": "MR_Boot_L@0",
+  "body_clear_cm": -0.33,
+  "body_clear_at": "forearm_l->gear@0",
+  "body_clear_bad_samples": 1,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "ctl_look_up": {
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.0,
+  "min_body_at": "MR_Boot_L@0",
+  "body_clear_cm": -0.33,
+  "body_clear_at": "forearm_l->gear@0",
+  "body_clear_bad_samples": 1,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "ctl_look_down": {
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.0,
+  "min_body_at": "MR_Boot_L@0",
+  "body_clear_cm": -0.33,
+  "body_clear_at": "forearm_l->gear@0",
+  "body_clear_bad_samples": 1,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "ctl_tongue_up": {
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.0,
+  "min_body_at": "MR_Boot_L@0",
+  "body_clear_cm": -0.33,
+  "body_clear_at": "forearm_l->gear@0",
+  "body_clear_bad_samples": 1,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "ctl_tongue_down": {
+  "min_sole_at": "l:heel@0",
+  "min_sole_z_cm": -0.0,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.0,
+  "min_body_at": "MR_Boot_L@0",
+  "body_clear_cm": -0.33,
+  "body_clear_at": "forearm_l->gear@0",
+  "body_clear_bad_samples": 1,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "dead_front": {
+  "min_sole_at": "r:heel@0",
+  "min_sole_z_cm": -0.87,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": 0.3,
+  "min_body_at": "MR_Boot_R@0",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 0,
+  "fix_log": []
+ },
+ "dead_back": {
+  "min_sole_at": "r:toe@0",
+  "min_sole_z_cm": 10.57,
+  "foot_slide_cm": {
+   "l": 0.0,
+   "r": 0.0
+  },
+  "pelvis_drift_cm": 0.0,
+  "root_travel_cm": 0.0,
+  "min_body_z_cm": -0.22,
+  "min_body_at": "MR_Gear@0",
+  "body_clear_cm": 0.0,
+  "body_clear_at": "@-1",
+  "body_clear_bad_samples": 0,
+  "fixes": 0,
+  "fix_log": []
+ }
+}

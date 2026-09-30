@@ -1,0 +1,3091 @@
+{
+ "skeleton": "SKEL_Operative (Unreal asset created with /Game/MorphRig/Character/SK_Operative)",
+ "root_bone": "root (single stable root at the ground origin, independent of pelvis)",
+ "conventions": {
+  "blender": "metres, +Z up, character faces -Y, character left = +X, bone Y along the bone",
+  "unreal": "centimetres, +Z up, mesh faces +Y in component space (component yaw -90 on the character so the actor faces +X); FBX written in centimetres (export copy converted, every bone scale 1), no import-scale repair",
+  "unit_conversion": "Unreal = Blender x 100 with Y flipped (x, -y, z) for mesh-space positions"
+ },
+ "bone_count": 96,
+ "deform_bone_count": 85,
+ "bones": [
+  {
+   "name": "root",
+   "parent": null,
+   "deform": true,
+   "head_blender_m": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "tail_blender_m": [
+    0.0,
+    -0.25,
+    0.0
+   ],
+   "head_unreal_cm": [
+    0.0,
+    -0.0,
+    0.0
+   ],
+   "bone_axis_y_blender": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "bone_axis_z_blender": [
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  {
+   "name": "pelvis",
+   "parent": "root",
+   "deform": true,
+   "head_blender_m": [
+    0.0,
+    0.015,
+    0.955
+   ],
+   "tail_blender_m": [
+    0.0,
+    0.025,
+    1.04
+   ],
+   "head_unreal_cm": [
+    0.0,
+    -1.5,
+    95.5
+   ],
+   "bone_axis_y_blender": [
+    0.0,
+    0.1168,
+    0.9932
+   ],
+   "bone_axis_z_blender": [
+    0.0,
+    -0.9932,
+    0.1168
+   ]
+  },
+  {
+   "name": "spine_01",
+   "parent": "pelvis",
+   "deform": true,
+   "head_blender_m": [
+    0.0,
+    0.025,
+    1.04
+   ],
+   "tail_blender_m": [
+    0.0,
+    0.035,
+    1.16
+   ],
+   "head_unreal_cm": [
+    0.0,
+    -2.5,
+    104.0
+   ],
+   "bone_axis_y_blender": [
+    0.0,
+    0.083,
+    0.9965
+   ],
+   "bone_axis_z_blender": [
+    0.0,
+    -0.9965,
+    0.083
+   ]
+  },
+  {
+   "name": "spine_02",
+   "parent": "spine_01",
+   "deform": true,
+   "head_blender_m": [
+    0.0,
+    0.035,
+    1.16
+   ],
+   "tail_blender_m": [
+    0.0,
+    0.035,
+    1.285
+   ],
+   "head_unreal_cm": [
+    0.0,
+    -3.5,
+    116.0
+   ],
+   "bone_axis_y_blender": [
+    -0.0,
+    0.0,
+    1.0
+   ],
+   "bone_axis_z_blender": [
+    -0.0,
+    -1.0,
+    0.0
+   ]
+  },
+  {
+   "name": "spine_03",
+   "parent": "spine_02",
+   "deform": true,
+   "head_blender_m": [
+    0.0,
+    0.035,
+    1.285
+   ],
+   "tail_blender_m": [
+    0.0,
+    0.036,
+    1.455
+   ],
+   "head_unreal_cm": [
+    0.0,
+    -3.5,
+    128.5
+   ],
+   "bone_axis_y_blender": [
+    0.0,
+    0.0059,
+    1.0
+   ],
+   "bone_axis_z_blender": [
+    0.0,
+    -1.0,
+    0.0059
+   ]
+  },
+  {
+   "name": "neck_01",
+   "parent": "spine_03",
+   "deform": true,
+   "head_blender_m": [
+    0.0,
+    0.036,
+    1.455
+   ],
+   "tail_blender_m": [
+    0.0,
+    0.026,
+    1.522
+   ],
+   "head_unreal_cm": [
+    0.0,
+    -3.6,
+    145.5
+   ],
+   "bone_axis_y_blender": [
+    0.0,
+    -0.1476,
+    0.989
+   ],
+   "bone_axis_z_blender": [
+    0.0,
+    -0.989,
+    -0.1476
+   ]
+  },
+  {
+   "name": "neck_02",
+   "parent": "neck_01",
+   "deform": true,
+   "head_blender_m": [
+    0.0,
+    0.026,
+    1.522
+   ],
+   "tail_blender_m": [
+    0.0,
+    0.012,
+    1.588
+   ],
+   "head_unreal_cm": [
+    0.0,
+    -2.6,
+    152.2
+   ],
+   "bone_axis_y_blender": [
+    -0.0,
+    -0.2075,
+    0.9782
+   ],
+   "bone_axis_z_blender": [
+    0.0,
+    -0.9782,
+    -0.2075
+   ]
+  },
+  {
+   "name": "head",
+   "parent": "neck_02",
+   "deform": true,
+   "head_blender_m": [
+    0.0,
+    0.012,
+    1.588
+   ],
+   "tail_blender_m": [
+    0.0,
+    0.012,
+    1.785
+   ],
+   "head_unreal_cm": [
+    0.0,
+    -1.2,
+    158.8
+   ],
+   "bone_axis_y_blender": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "bone_axis_z_blender": [
+    -0.0,
+    -1.0,
+    0.0
+   ]
+  },
+  {
+   "name": "eye_l",
+   "parent": "head",
+   "deform": true,
+   "head_blender_m": [
+    0.0318,
+    -0.065,
+    1.672
+   ],
+   "tail_blender_m": [
+    0.0318,
+    -0.087,
+    1.672
+   ],
+   "head_unreal_cm": [
+    3.18,
+    6.5,
+    167.2
+   ],
+   "bone_axis_y_blender": [
+    -0.0,
+    -1.0,
+    0.0
+   ],
+   "bone_axis_z_blender": [
+    0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "name": "lid_upper_l",
+   "parent": "head",
+   "deform": true,
+   "head_blender_m": [
+    0.0318,
+    -0.065,
+    1.672
+   ],
+   "tail_blender_m": [
+    0.0318,
+    -0.083,
+    1.676
+   ],
+   "head_unreal_cm": [
+    3.18,
+    6.5,
+    167.2
+   ],
+   "bone_axis_y_blender": [
+    -0.0,
+    -0.9762,
+    0.2169
+   ],
+   "bone_axis_z_blender": [
+    -0.0,
+    0.2169,
+    0.9762
+   ]
+  },
+  {
+   "name": "lid_lower_l",
+   "parent": "head",
+   "deform": true,
+   "head_blender_m": [
+    0.0318,
+    -0.065,
+    1.672
+   ],
+   "tail_blender_m": [
+    0.0318,
+    -0.083,
+    1.668
+   ],
+   "head_unreal_cm": [
+    3.18,
+    6.5,
+    167.2
+   ],
+   "bone_axis_y_blender": [
+    -0.0,
+    -0.9762,
+    -0.2169
+   ],
+   "bone_axis_z_blender": [
+    -0.0,
+    -0.2169,
+    0.9762
+   ]
+  },
+  {
+   "name": "eye_r",
+   "parent": "head",
+   "deform": true,
+   "head_blender_m": [
+    -0.0318,
+    -0.065,
+    1.672
+   ],
+   "tail_blender_m": [
+    -0.0318,
+    -0.087,
+    1.672
+   ],
+   "head_unreal_cm": [
+    -3.18,
+    6.5,
+    167.2
+   ],
+   "bone_axis_y_blender": [
+    -0.0,
+    -1.0,
+    0.0
+   ],
+   "bone_axis_z_blender": [
+    0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "name": "lid_upper_r",
+   "parent": "head",
+   "deform": true,
+   "head_blender_m": [
+    -0.0318,
+    -0.065,
+    1.672
+   ],
+   "tail_blender_m": [
+    -0.0318,
+    -0.083,
+    1.676
+   ],
+   "head_unreal_cm": [
+    -3.18,
+    6.5,
+    167.2
+   ],
+   "bone_axis_y_blender": [
+    -0.0,
+    -0.9762,
+    0.2169
+   ],
+   "bone_axis_z_blender": [
+    -0.0,
+    0.2169,
+    0.9762
+   ]
+  },
+  {
+   "name": "lid_lower_r",
+   "parent": "head",
+   "deform": true,
+   "head_blender_m": [
+    -0.0318,
+    -0.065,
+    1.672
+   ],
+   "tail_blender_m": [
+    -0.0318,
+    -0.083,
+    1.668
+   ],
+   "head_unreal_cm": [
+    -3.18,
+    6.5,
+    167.2
+   ],
+   "bone_axis_y_blender": [
+    -0.0,
+    -0.9762,
+    -0.2169
+   ],
+   "bone_axis_z_blender": [
+    -0.0,
+    -0.2169,
+    0.9762
+   ]
+  },
+  {
+   "name": "jaw",
+   "parent": "head",
+   "deform": true,
+   "head_blender_m": [
+    0.0,
+    0.004,
+    1.626
+   ],
+   "tail_blender_m": [
+    0.0,
+    -0.074,
+    1.566
+   ],
+   "head_unreal_cm": [
+    0.0,
+    -0.4,
+    162.6
+   ],
+   "bone_axis_y_blender": [
+    -0.0,
+    -0.7926,
+    -0.6097
+   ],
+   "bone_axis_z_blender": [
+    0.0,
+    0.6097,
+    -0.7926
+   ]
+  },
+  {
+   "name": "tongue_01",
+   "parent": "jaw",
+   "deform": true,
+   "head_blender_m": [
+    0.0,
+    -0.03,
+    1.59
+   ],
+   "tail_blender_m": [
+    0.0,
+    -0.05,
+    1.594
+   ],
+   "head_unreal_cm": [
+    0.0,
+    3.0,
+    159.0
+   ],
+   "bone_axis_y_blender": [
+    0.0,
+    -0.9806,
+    0.1961
+   ],
+   "bone_axis_z_blender": [
+    0.0,
+    0.1961,
+    0.9806
+   ]
+  },
+  {
+   "name": "tongue_02",
+   "parent": "tongue_01",
+   "deform": true,
+   "head_blender_m": [
+    0.0,
+    -0.05,
+    1.594
+   ],
+   "tail_blender_m": [
+    0.0,
+    -0.066,
+    1.597
+   ],
+   "head_unreal_cm": [
+    0.0,
+    5.0,
+    159.4
+   ],
+   "bone_axis_y_blender": [
+    0.0,
+    -0.9829,
+    0.1843
+   ],
+   "bone_axis_z_blender": [
+    0.0,
+    0.1843,
+    0.9829
+   ]
+  },
+  {
+   "name": "tongue_03",
+   "parent": "tongue_02",
+   "deform": true,
+   "head_blender_m": [
+    0.0,
+    -0.066,
+    1.597
+   ],
+   "tail_blender_m": [
+    0.0,
+    -0.08,
+    1.599
+   ],
+   "head_unreal_cm": [
+    0.0,
+    6.6,
+    159.7
+   ],
+   "bone_axis_y_blender": [
+    0.0,
+    -0.9899,
+    0.1414
+   ],
+   "bone_axis_z_blender": [
+    0.0,
+    0.1414,
+    0.9899
+   ]
+  },
+  {
+   "name": "hair_tail_01",
+   "parent": "head",
+   "deform": true,
+   "head_blender_m": [
+    0.0,
+    0.098,
+    1.73
+   ],
+   "tail_blender_m": [
+    0.0,
+    0.124,
+    1.7
+   ],
+   "head_unreal_cm": [
+    0.0,
+    -9.8,
+    173.0
+   ],
+   "bone_axis_y_blender": [
+    -0.0,
+    0.6549,
+    -0.7557
+   ],
+   "bone_axis_z_blender": [
+    0.0,
+    0.7557,
+    0.6549
+   ]
+  },
+  {
+   "name": "hair_tail_02",
+   "parent": "hair_tail_01",
+   "deform": true,
+   "head_blender_m": [
+    0.0,
+    0.124,
+    1.7
+   ],
+   "tail_blender_m": [
+    0.0,
+    0.136,
+    1.66
+   ],
+   "head_unreal_cm": [
+    0.0,
+    -12.4,
+    170.0
+   ],
+   "bone_axis_y_blender": [
+    0.0,
+    0.2873,
+    -0.9578
+   ],
+   "bone_axis_z_blender": [
+    0.0,
+    0.9578,
+    0.2873
+   ]
+  },
+  {
+   "name": "hair_tail_03",
+   "parent": "hair_tail_02",
+   "deform": true,
+   "head_blender_m": [
+    0.0,
+    0.136,
+    1.66
+   ],
+   "tail_blender_m": [
+    0.0,
+    0.14,
+    1.62
+   ],
+   "head_unreal_cm": [
+    0.0,
+    -13.6,
+    166.0
+   ],
+   "bone_axis_y_blender": [
+    0.0,
+    0.0995,
+    -0.995
+   ],
+   "bone_axis_z_blender": [
+    0.0,
+    0.995,
+    0.0995
+   ]
+  },
+  {
+   "name": "hair_tail_04",
+   "parent": "hair_tail_03",
+   "deform": true,
+   "head_blender_m": [
+    0.0,
+    0.14,
+    1.62
+   ],
+   "tail_blender_m": [
+    0.0,
+    0.14,
+    1.585
+   ],
+   "head_unreal_cm": [
+    0.0,
+    -14.0,
+    162.0
+   ],
+   "bone_axis_y_blender": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "bone_axis_z_blender": [
+    -0.0,
+    1.0,
+    -0.0
+   ]
+  },
+  {
+   "name": "sock_fx_head",
+   "parent": "head",
+   "deform": false,
+   "head_blender_m": [
+    0.0,
+    0.0,
+    1.8
+   ],
+   "tail_blender_m": [
+    0.0,
+    0.0,
+    1.83
+   ],
+   "head_unreal_cm": [
+    0.0,
+    -0.0,
+    180.0
+   ],
+   "bone_axis_y_blender": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "bone_axis_z_blender": [
+    0.0,
+    -1.0,
+    0.0
+   ]
+  },
+  {
+   "name": "clavicle_l",
+   "parent": "spine_03",
+   "deform": true,
+   "head_blender_m": [
+    0.022,
+    -0.002,
+    1.432
+   ],
+   "tail_blender_m": [
+    0.178,
+    0.03,
+    1.428
+   ],
+   "head_unreal_cm": [
+    2.2,
+    0.2,
+    143.2
+   ],
+   "bone_axis_y_blender": [
+    0.9793,
+    0.2009,
+    -0.0251
+   ],
+   "bone_axis_z_blender": [
+    0.0246,
+    0.005,
+    0.9997
+   ]
+  },
+  {
+   "name": "upperarm_l",
+   "parent": "clavicle_l",
+   "deform": true,
+   "head_blender_m": [
+    0.178,
+    0.03,
+    1.428
+   ],
+   "tail_blender_m": [
+    0.3841,
+    0.01251,
+    1.2219
+   ],
+   "head_unreal_cm": [
+    17.8,
+    -3.0,
+    142.8
+   ],
+   "bone_axis_y_blender": [
+    0.7058,
+    -0.0599,
+    -0.7058
+   ],
+   "bone_axis_z_blender": [
+    -0.0424,
+    -0.9982,
+    0.0424
+   ]
+  },
+  {
+   "name": "upperarm_twist_01_l",
+   "parent": "upperarm_l",
+   "deform": true,
+   "head_blender_m": [
+    0.28105,
+    0.02126,
+    1.32495
+   ],
+   "tail_blender_m": [
+    0.3841,
+    0.01251,
+    1.2219
+   ],
+   "head_unreal_cm": [
+    28.105,
+    -2.126,
+    132.495
+   ],
+   "bone_axis_y_blender": [
+    0.7058,
+    -0.0599,
+    -0.7058
+   ],
+   "bone_axis_z_blender": [
+    -0.0424,
+    -0.9982,
+    0.0424
+   ]
+  },
+  {
+   "name": "lowerarm_l",
+   "parent": "upperarm_l",
+   "deform": true,
+   "head_blender_m": [
+    0.3841,
+    0.01251,
+    1.2219
+   ],
+   "tail_blender_m": [
+    0.55655,
+    -0.05098,
+    1.04945
+   ],
+   "head_unreal_cm": [
+    38.41,
+    -1.251,
+    122.19
+   ],
+   "bone_axis_y_blender": [
+    0.6843,
+    -0.252,
+    -0.6843
+   ],
+   "bone_axis_z_blender": [
+    -0.1782,
+    -0.9677,
+    0.1782
+   ]
+  },
+  {
+   "name": "lowerarm_twist_01_l",
+   "parent": "lowerarm_l",
+   "deform": true,
+   "head_blender_m": [
+    0.48757,
+    -0.02558,
+    1.11843
+   ],
+   "tail_blender_m": [
+    0.55655,
+    -0.05098,
+    1.04945
+   ],
+   "head_unreal_cm": [
+    48.757,
+    2.558,
+    111.843
+   ],
+   "bone_axis_y_blender": [
+    0.6843,
+    -0.252,
+    -0.6843
+   ],
+   "bone_axis_z_blender": [
+    -0.1782,
+    -0.9677,
+    0.1782
+   ]
+  },
+  {
+   "name": "hand_l",
+   "parent": "lowerarm_l",
+   "deform": true,
+   "head_blender_m": [
+    0.55655,
+    -0.05098,
+    1.04945
+   ],
+   "tail_blender_m": [
+    0.62141,
+    -0.08365,
+    0.98459
+   ],
+   "head_unreal_cm": [
+    55.655,
+    5.098,
+    104.945
+   ],
+   "bone_axis_y_blender": [
+    0.6661,
+    -0.3355,
+    -0.6661
+   ],
+   "bone_axis_z_blender": [
+    0.7071,
+    -0.0,
+    0.7071
+   ]
+  },
+  {
+   "name": "index_metacarpal_l",
+   "parent": "hand_l",
+   "deform": true,
+   "head_blender_m": [
+    0.56191,
+    -0.06949,
+    1.04409
+   ],
+   "tail_blender_m": [
+    0.61449,
+    -0.10151,
+    0.9901
+   ],
+   "head_unreal_cm": [
+    56.191,
+    6.949,
+    104.409
+   ],
+   "bone_axis_y_blender": [
+    0.6421,
+    -0.391,
+    -0.6594
+   ],
+   "bone_axis_z_blender": [
+    0.715,
+    -0.0048,
+    0.6991
+   ]
+  },
+  {
+   "name": "index_01_l",
+   "parent": "index_metacarpal_l",
+   "deform": true,
+   "head_blender_m": [
+    0.61449,
+    -0.10151,
+    0.9901
+   ],
+   "tail_blender_m": [
+    0.63862,
+    -0.11519,
+    0.9599
+   ],
+   "head_unreal_cm": [
+    61.449,
+    10.151,
+    99.01
+   ],
+   "bone_axis_y_blender": [
+    0.5886,
+    -0.3335,
+    -0.7364
+   ],
+   "bone_axis_z_blender": [
+    0.7729,
+    -0.0351,
+    0.6336
+   ]
+  },
+  {
+   "name": "index_02_l",
+   "parent": "index_01_l",
+   "deform": true,
+   "head_blender_m": [
+    0.63862,
+    -0.11519,
+    0.9599
+   ],
+   "tail_blender_m": [
+    0.64967,
+    -0.12296,
+    0.94007
+   ],
+   "head_unreal_cm": [
+    63.862,
+    11.519,
+    95.99
+   ],
+   "bone_axis_y_blender": [
+    0.4604,
+    -0.3239,
+    -0.8265
+   ],
+   "bone_axis_z_blender": [
+    0.8554,
+    -0.0868,
+    0.5106
+   ]
+  },
+  {
+   "name": "index_03_l",
+   "parent": "index_02_l",
+   "deform": true,
+   "head_blender_m": [
+    0.64967,
+    -0.12296,
+    0.94007
+   ],
+   "tail_blender_m": [
+    0.6576,
+    -0.12969,
+    0.92125
+   ],
+   "head_unreal_cm": [
+    64.967,
+    12.296,
+    94.007
+   ],
+   "bone_axis_y_blender": [
+    0.3685,
+    -0.3131,
+    -0.8753
+   ],
+   "bone_axis_z_blender": [
+    0.8989,
+    -0.1202,
+    0.4214
+   ]
+  },
+  {
+   "name": "middle_metacarpal_l",
+   "parent": "hand_l",
+   "deform": true,
+   "head_blender_m": [
+    0.56387,
+    -0.05884,
+    1.04213
+   ],
+   "tail_blender_m": [
+    0.62141,
+    -0.08365,
+    0.98459
+   ],
+   "head_unreal_cm": [
+    56.387,
+    5.884,
+    104.213
+   ],
+   "bone_axis_y_blender": [
+    0.6764,
+    -0.2916,
+    -0.6764
+   ],
+   "bone_axis_z_blender": [
+    0.7071,
+    0.0,
+    0.7071
+   ]
+  },
+  {
+   "name": "middle_01_l",
+   "parent": "middle_metacarpal_l",
+   "deform": true,
+   "head_blender_m": [
+    0.62141,
+    -0.08365,
+    0.98459
+   ],
+   "tail_blender_m": [
+    0.64864,
+    -0.0953,
+    0.95071
+   ],
+   "head_unreal_cm": [
+    62.141,
+    8.365,
+    98.459
+   ],
+   "bone_axis_y_blender": [
+    0.6051,
+    -0.259,
+    -0.7529
+   ],
+   "bone_axis_z_blender": [
+    0.7746,
+    -0.0272,
+    0.6319
+   ]
+  },
+  {
+   "name": "middle_02_l",
+   "parent": "middle_01_l",
+   "deform": true,
+   "head_blender_m": [
+    0.64864,
+    -0.0953,
+    0.95071
+   ],
+   "tail_blender_m": [
+    0.66198,
+    -0.10234,
+    0.92712
+   ],
+   "head_unreal_cm": [
+    64.864,
+    9.53,
+    95.071
+   ],
+   "bone_axis_y_blender": [
+    0.4764,
+    -0.2515,
+    -0.8425
+   ],
+   "bone_axis_z_blender": [
+    0.8597,
+    -0.0674,
+    0.5063
+   ]
+  },
+  {
+   "name": "middle_03_l",
+   "parent": "middle_02_l",
+   "deform": true,
+   "head_blender_m": [
+    0.66198,
+    -0.10234,
+    0.92712
+   ],
+   "tail_blender_m": [
+    0.67062,
+    -0.10781,
+    0.90708
+   ],
+   "head_unreal_cm": [
+    66.198,
+    10.234,
+    92.712
+   ],
+   "bone_axis_y_blender": [
+    0.384,
+    -0.2431,
+    -0.8908
+   ],
+   "bone_axis_z_blender": [
+    0.9048,
+    -0.0933,
+    0.4155
+   ]
+  },
+  {
+   "name": "ring_metacarpal_l",
+   "parent": "hand_l",
+   "deform": true,
+   "head_blender_m": [
+    0.56601,
+    -0.04723,
+    1.03999
+   ],
+   "tail_blender_m": [
+    0.62179,
+    -0.06377,
+    0.9835
+   ],
+   "head_unreal_cm": [
+    56.601,
+    4.723,
+    103.999
+   ],
+   "bone_axis_y_blender": [
+    0.6879,
+    -0.2039,
+    -0.6966
+   ],
+   "bone_axis_z_blender": [
+    0.7114,
+    -0.0013,
+    0.7028
+   ]
+  },
+  {
+   "name": "ring_01_l",
+   "parent": "ring_metacarpal_l",
+   "deform": true,
+   "head_blender_m": [
+    0.62179,
+    -0.06377,
+    0.9835
+   ],
+   "tail_blender_m": [
+    0.64772,
+    -0.07145,
+    0.95136
+   ],
+   "head_unreal_cm": [
+    62.179,
+    6.377,
+    98.35
+   ],
+   "bone_axis_y_blender": [
+    0.6173,
+    -0.1828,
+    -0.7652
+   ],
+   "bone_axis_z_blender": [
+    0.7759,
+    -0.0192,
+    0.6306
+   ]
+  },
+  {
+   "name": "ring_02_l",
+   "parent": "ring_01_l",
+   "deform": true,
+   "head_blender_m": [
+    0.64772,
+    -0.07145,
+    0.95136
+   ],
+   "tail_blender_m": [
+    0.66066,
+    -0.07615,
+    0.92872
+   ],
+   "head_unreal_cm": [
+    64.772,
+    7.145,
+    95.136
+   ],
+   "bone_axis_y_blender": [
+    0.4884,
+    -0.1776,
+    -0.8544
+   ],
+   "bone_axis_z_blender": [
+    0.8629,
+    -0.0476,
+    0.5031
+   ]
+  },
+  {
+   "name": "ring_03_l",
+   "parent": "ring_02_l",
+   "deform": true,
+   "head_blender_m": [
+    0.66066,
+    -0.07615,
+    0.92872
+   ],
+   "tail_blender_m": [
+    0.66916,
+    -0.07984,
+    0.90932
+   ],
+   "head_unreal_cm": [
+    66.066,
+    7.615,
+    92.872
+   ],
+   "bone_axis_y_blender": [
+    0.3955,
+    -0.1716,
+    -0.9023
+   ],
+   "bone_axis_z_blender": [
+    0.9092,
+    -0.0659,
+    0.4111
+   ]
+  },
+  {
+   "name": "pinky_metacarpal_l",
+   "parent": "hand_l",
+   "deform": true,
+   "head_blender_m": [
+    0.56726,
+    -0.03659,
+    1.03733
+   ],
+   "tail_blender_m": [
+    0.61743,
+    -0.04408,
+    0.98504
+   ],
+   "head_unreal_cm": [
+    56.726,
+    3.659,
+    103.733
+   ],
+   "bone_axis_y_blender": [
+    0.6886,
+    -0.1029,
+    -0.7178
+   ],
+   "bone_axis_z_blender": [
+    0.7214,
+    -0.0021,
+    0.6925
+   ]
+  },
+  {
+   "name": "pinky_01_l",
+   "parent": "pinky_metacarpal_l",
+   "deform": true,
+   "head_blender_m": [
+    0.61743,
+    -0.04408,
+    0.98504
+   ],
+   "tail_blender_m": [
+    0.63808,
+    -0.04728,
+    0.9595
+   ],
+   "head_unreal_cm": [
+    61.743,
+    4.408,
+    98.504
+   ],
+   "bone_axis_y_blender": [
+    0.626,
+    -0.0969,
+    -0.7738
+   ],
+   "bone_axis_z_blender": [
+    0.7768,
+    -0.0102,
+    0.6297
+   ]
+  },
+  {
+   "name": "pinky_02_l",
+   "parent": "pinky_01_l",
+   "deform": true,
+   "head_blender_m": [
+    0.63808,
+    -0.04728,
+    0.9595
+   ],
+   "tail_blender_m": [
+    0.64802,
+    -0.04916,
+    0.94225
+   ],
+   "head_unreal_cm": [
+    63.808,
+    4.728,
+    95.95
+   ],
+   "bone_axis_y_blender": [
+    0.4967,
+    -0.0941,
+    -0.8628
+   ],
+   "bone_axis_z_blender": [
+    0.8652,
+    -0.0252,
+    0.5009
+   ]
+  },
+  {
+   "name": "pinky_03_l",
+   "parent": "pinky_02_l",
+   "deform": true,
+   "head_blender_m": [
+    0.64802,
+    -0.04916,
+    0.94225
+   ],
+   "tail_blender_m": [
+    0.65589,
+    -0.05094,
+    0.92449
+   ],
+   "head_unreal_cm": [
+    64.802,
+    4.916,
+    94.225
+   ],
+   "bone_axis_y_blender": [
+    0.4036,
+    -0.091,
+    -0.9104
+   ],
+   "bone_axis_z_blender": [
+    0.9123,
+    -0.0349,
+    0.4079
+   ]
+  },
+  {
+   "name": "thumb_01_l",
+   "parent": "hand_l",
+   "deform": true,
+   "head_blender_m": [
+    0.55704,
+    -0.0734,
+    1.03482
+   ],
+   "tail_blender_m": [
+    0.55908,
+    -0.10871,
+    1.00541
+   ],
+   "head_unreal_cm": [
+    55.704,
+    7.34,
+    103.482
+   ],
+   "bone_axis_y_blender": [
+    0.0443,
+    -0.7677,
+    -0.6393
+   ],
+   "bone_axis_z_blender": [
+    0.331,
+    -0.5925,
+    0.7344
+   ]
+  },
+  {
+   "name": "thumb_02_l",
+   "parent": "thumb_01_l",
+   "deform": true,
+   "head_blender_m": [
+    0.55908,
+    -0.10871,
+    1.00541
+   ],
+   "tail_blender_m": [
+    0.56708,
+    -0.13197,
+    0.98341
+   ],
+   "head_unreal_cm": [
+    55.908,
+    10.871,
+    100.541
+   ],
+   "bone_axis_y_blender": [
+    0.2426,
+    -0.7047,
+    -0.6668
+   ],
+   "bone_axis_z_blender": [
+    0.2922,
+    -0.6023,
+    0.7428
+   ]
+  },
+  {
+   "name": "thumb_03_l",
+   "parent": "thumb_02_l",
+   "deform": true,
+   "head_blender_m": [
+    0.56708,
+    -0.13197,
+    0.98341
+   ],
+   "tail_blender_m": [
+    0.57818,
+    -0.14867,
+    0.96246
+   ],
+   "head_unreal_cm": [
+    56.708,
+    13.197,
+    98.341
+   ],
+   "bone_axis_y_blender": [
+    0.3826,
+    -0.576,
+    -0.7224
+   ],
+   "bone_axis_z_blender": [
+    0.2924,
+    -0.6662,
+    0.686
+   ]
+  },
+  {
+   "name": "sock_hand_l_grip",
+   "parent": "hand_l",
+   "deform": false,
+   "head_blender_m": [
+    0.56918,
+    -0.06732,
+    0.99722
+   ],
+   "tail_blender_m": [
+    0.58971,
+    -0.07487,
+    0.97669
+   ],
+   "head_unreal_cm": [
+    56.918,
+    6.732,
+    99.722
+   ],
+   "bone_axis_y_blender": [
+    0.6843,
+    -0.252,
+    -0.6843
+   ],
+   "bone_axis_z_blender": [
+    0.6421,
+    -0.2364,
+    0.7292
+   ]
+  },
+  {
+   "name": "sock_fx_palm_l",
+   "parent": "hand_l",
+   "deform": false,
+   "head_blender_m": [
+    0.55504,
+    -0.06732,
+    0.98308
+   ],
+   "tail_blender_m": [
+    0.55504,
+    -0.06732,
+    1.01308
+   ],
+   "head_unreal_cm": [
+    55.504,
+    6.732,
+    98.308
+   ],
+   "bone_axis_y_blender": [
+    0.0,
+    -0.0,
+    1.0
+   ],
+   "bone_axis_z_blender": [
+    -0.0,
+    -1.0,
+    -0.0
+   ]
+  },
+  {
+   "name": "clavicle_r",
+   "parent": "spine_03",
+   "deform": true,
+   "head_blender_m": [
+    -0.022,
+    -0.002,
+    1.432
+   ],
+   "tail_blender_m": [
+    -0.178,
+    0.03,
+    1.428
+   ],
+   "head_unreal_cm": [
+    -2.2,
+    0.2,
+    143.2
+   ],
+   "bone_axis_y_blender": [
+    -0.9793,
+    0.2009,
+    -0.0251
+   ],
+   "bone_axis_z_blender": [
+    -0.0246,
+    0.005,
+    0.9997
+   ]
+  },
+  {
+   "name": "upperarm_r",
+   "parent": "clavicle_r",
+   "deform": true,
+   "head_blender_m": [
+    -0.178,
+    0.03,
+    1.428
+   ],
+   "tail_blender_m": [
+    -0.3841,
+    0.01251,
+    1.2219
+   ],
+   "head_unreal_cm": [
+    -17.8,
+    -3.0,
+    142.8
+   ],
+   "bone_axis_y_blender": [
+    -0.7058,
+    -0.0599,
+    -0.7058
+   ],
+   "bone_axis_z_blender": [
+    0.0424,
+    -0.9982,
+    0.0424
+   ]
+  },
+  {
+   "name": "upperarm_twist_01_r",
+   "parent": "upperarm_r",
+   "deform": true,
+   "head_blender_m": [
+    -0.28105,
+    0.02126,
+    1.32495
+   ],
+   "tail_blender_m": [
+    -0.3841,
+    0.01251,
+    1.2219
+   ],
+   "head_unreal_cm": [
+    -28.105,
+    -2.126,
+    132.495
+   ],
+   "bone_axis_y_blender": [
+    -0.7058,
+    -0.0599,
+    -0.7058
+   ],
+   "bone_axis_z_blender": [
+    0.0424,
+    -0.9982,
+    0.0424
+   ]
+  },
+  {
+   "name": "lowerarm_r",
+   "parent": "upperarm_r",
+   "deform": true,
+   "head_blender_m": [
+    -0.3841,
+    0.01251,
+    1.2219
+   ],
+   "tail_blender_m": [
+    -0.55655,
+    -0.05098,
+    1.04945
+   ],
+   "head_unreal_cm": [
+    -38.41,
+    -1.251,
+    122.19
+   ],
+   "bone_axis_y_blender": [
+    -0.6843,
+    -0.252,
+    -0.6843
+   ],
+   "bone_axis_z_blender": [
+    0.1782,
+    -0.9677,
+    0.1782
+   ]
+  },
+  {
+   "name": "lowerarm_twist_01_r",
+   "parent": "lowerarm_r",
+   "deform": true,
+   "head_blender_m": [
+    -0.48757,
+    -0.02558,
+    1.11843
+   ],
+   "tail_blender_m": [
+    -0.55655,
+    -0.05098,
+    1.04945
+   ],
+   "head_unreal_cm": [
+    -48.757,
+    2.558,
+    111.843
+   ],
+   "bone_axis_y_blender": [
+    -0.6843,
+    -0.252,
+    -0.6843
+   ],
+   "bone_axis_z_blender": [
+    0.1782,
+    -0.9677,
+    0.1782
+   ]
+  },
+  {
+   "name": "hand_r",
+   "parent": "lowerarm_r",
+   "deform": true,
+   "head_blender_m": [
+    -0.55655,
+    -0.05098,
+    1.04945
+   ],
+   "tail_blender_m": [
+    -0.62141,
+    -0.08365,
+    0.98459
+   ],
+   "head_unreal_cm": [
+    -55.655,
+    5.098,
+    104.945
+   ],
+   "bone_axis_y_blender": [
+    -0.6661,
+    -0.3355,
+    -0.6661
+   ],
+   "bone_axis_z_blender": [
+    -0.7071,
+    -0.0,
+    0.7071
+   ]
+  },
+  {
+   "name": "index_metacarpal_r",
+   "parent": "hand_r",
+   "deform": true,
+   "head_blender_m": [
+    -0.56191,
+    -0.06949,
+    1.04409
+   ],
+   "tail_blender_m": [
+    -0.61449,
+    -0.10151,
+    0.9901
+   ],
+   "head_unreal_cm": [
+    -56.191,
+    6.949,
+    104.409
+   ],
+   "bone_axis_y_blender": [
+    -0.6421,
+    -0.391,
+    -0.6594
+   ],
+   "bone_axis_z_blender": [
+    -0.715,
+    -0.0048,
+    0.6991
+   ]
+  },
+  {
+   "name": "index_01_r",
+   "parent": "index_metacarpal_r",
+   "deform": true,
+   "head_blender_m": [
+    -0.61449,
+    -0.10151,
+    0.9901
+   ],
+   "tail_blender_m": [
+    -0.63862,
+    -0.11519,
+    0.9599
+   ],
+   "head_unreal_cm": [
+    -61.449,
+    10.151,
+    99.01
+   ],
+   "bone_axis_y_blender": [
+    -0.5886,
+    -0.3335,
+    -0.7364
+   ],
+   "bone_axis_z_blender": [
+    -0.7729,
+    -0.0351,
+    0.6336
+   ]
+  },
+  {
+   "name": "index_02_r",
+   "parent": "index_01_r",
+   "deform": true,
+   "head_blender_m": [
+    -0.63862,
+    -0.11519,
+    0.9599
+   ],
+   "tail_blender_m": [
+    -0.64967,
+    -0.12296,
+    0.94007
+   ],
+   "head_unreal_cm": [
+    -63.862,
+    11.519,
+    95.99
+   ],
+   "bone_axis_y_blender": [
+    -0.4604,
+    -0.3239,
+    -0.8265
+   ],
+   "bone_axis_z_blender": [
+    -0.8554,
+    -0.0868,
+    0.5106
+   ]
+  },
+  {
+   "name": "index_03_r",
+   "parent": "index_02_r",
+   "deform": true,
+   "head_blender_m": [
+    -0.64967,
+    -0.12296,
+    0.94007
+   ],
+   "tail_blender_m": [
+    -0.6576,
+    -0.12969,
+    0.92125
+   ],
+   "head_unreal_cm": [
+    -64.967,
+    12.296,
+    94.007
+   ],
+   "bone_axis_y_blender": [
+    -0.3685,
+    -0.3131,
+    -0.8753
+   ],
+   "bone_axis_z_blender": [
+    -0.8989,
+    -0.1202,
+    0.4214
+   ]
+  },
+  {
+   "name": "middle_metacarpal_r",
+   "parent": "hand_r",
+   "deform": true,
+   "head_blender_m": [
+    -0.56387,
+    -0.05884,
+    1.04213
+   ],
+   "tail_blender_m": [
+    -0.62141,
+    -0.08365,
+    0.98459
+   ],
+   "head_unreal_cm": [
+    -56.387,
+    5.884,
+    104.213
+   ],
+   "bone_axis_y_blender": [
+    -0.6764,
+    -0.2916,
+    -0.6764
+   ],
+   "bone_axis_z_blender": [
+    -0.7071,
+    -0.0,
+    0.7071
+   ]
+  },
+  {
+   "name": "middle_01_r",
+   "parent": "middle_metacarpal_r",
+   "deform": true,
+   "head_blender_m": [
+    -0.62141,
+    -0.08365,
+    0.98459
+   ],
+   "tail_blender_m": [
+    -0.64864,
+    -0.0953,
+    0.95071
+   ],
+   "head_unreal_cm": [
+    -62.141,
+    8.365,
+    98.459
+   ],
+   "bone_axis_y_blender": [
+    -0.6051,
+    -0.259,
+    -0.7529
+   ],
+   "bone_axis_z_blender": [
+    -0.7746,
+    -0.0272,
+    0.6319
+   ]
+  },
+  {
+   "name": "middle_02_r",
+   "parent": "middle_01_r",
+   "deform": true,
+   "head_blender_m": [
+    -0.64864,
+    -0.0953,
+    0.95071
+   ],
+   "tail_blender_m": [
+    -0.66198,
+    -0.10234,
+    0.92712
+   ],
+   "head_unreal_cm": [
+    -64.864,
+    9.53,
+    95.071
+   ],
+   "bone_axis_y_blender": [
+    -0.4764,
+    -0.2515,
+    -0.8425
+   ],
+   "bone_axis_z_blender": [
+    -0.8597,
+    -0.0674,
+    0.5063
+   ]
+  },
+  {
+   "name": "middle_03_r",
+   "parent": "middle_02_r",
+   "deform": true,
+   "head_blender_m": [
+    -0.66198,
+    -0.10234,
+    0.92712
+   ],
+   "tail_blender_m": [
+    -0.67062,
+    -0.10781,
+    0.90708
+   ],
+   "head_unreal_cm": [
+    -66.198,
+    10.234,
+    92.712
+   ],
+   "bone_axis_y_blender": [
+    -0.384,
+    -0.2431,
+    -0.8908
+   ],
+   "bone_axis_z_blender": [
+    -0.9048,
+    -0.0933,
+    0.4155
+   ]
+  },
+  {
+   "name": "ring_metacarpal_r",
+   "parent": "hand_r",
+   "deform": true,
+   "head_blender_m": [
+    -0.56601,
+    -0.04723,
+    1.03999
+   ],
+   "tail_blender_m": [
+    -0.62179,
+    -0.06377,
+    0.9835
+   ],
+   "head_unreal_cm": [
+    -56.601,
+    4.723,
+    103.999
+   ],
+   "bone_axis_y_blender": [
+    -0.6879,
+    -0.2039,
+    -0.6966
+   ],
+   "bone_axis_z_blender": [
+    -0.7114,
+    -0.0013,
+    0.7028
+   ]
+  },
+  {
+   "name": "ring_01_r",
+   "parent": "ring_metacarpal_r",
+   "deform": true,
+   "head_blender_m": [
+    -0.62179,
+    -0.06377,
+    0.9835
+   ],
+   "tail_blender_m": [
+    -0.64772,
+    -0.07145,
+    0.95136
+   ],
+   "head_unreal_cm": [
+    -62.179,
+    6.377,
+    98.35
+   ],
+   "bone_axis_y_blender": [
+    -0.6173,
+    -0.1828,
+    -0.7652
+   ],
+   "bone_axis_z_blender": [
+    -0.7759,
+    -0.0192,
+    0.6306
+   ]
+  },
+  {
+   "name": "ring_02_r",
+   "parent": "ring_01_r",
+   "deform": true,
+   "head_blender_m": [
+    -0.64772,
+    -0.07145,
+    0.95136
+   ],
+   "tail_blender_m": [
+    -0.66066,
+    -0.07615,
+    0.92872
+   ],
+   "head_unreal_cm": [
+    -64.772,
+    7.145,
+    95.136
+   ],
+   "bone_axis_y_blender": [
+    -0.4884,
+    -0.1776,
+    -0.8544
+   ],
+   "bone_axis_z_blender": [
+    -0.8629,
+    -0.0476,
+    0.5031
+   ]
+  },
+  {
+   "name": "ring_03_r",
+   "parent": "ring_02_r",
+   "deform": true,
+   "head_blender_m": [
+    -0.66066,
+    -0.07615,
+    0.92872
+   ],
+   "tail_blender_m": [
+    -0.66916,
+    -0.07984,
+    0.90932
+   ],
+   "head_unreal_cm": [
+    -66.066,
+    7.615,
+    92.872
+   ],
+   "bone_axis_y_blender": [
+    -0.3955,
+    -0.1716,
+    -0.9023
+   ],
+   "bone_axis_z_blender": [
+    -0.9092,
+    -0.0659,
+    0.4111
+   ]
+  },
+  {
+   "name": "pinky_metacarpal_r",
+   "parent": "hand_r",
+   "deform": true,
+   "head_blender_m": [
+    -0.56726,
+    -0.03659,
+    1.03733
+   ],
+   "tail_blender_m": [
+    -0.61743,
+    -0.04408,
+    0.98504
+   ],
+   "head_unreal_cm": [
+    -56.726,
+    3.659,
+    103.733
+   ],
+   "bone_axis_y_blender": [
+    -0.6886,
+    -0.1029,
+    -0.7178
+   ],
+   "bone_axis_z_blender": [
+    -0.7214,
+    -0.0021,
+    0.6925
+   ]
+  },
+  {
+   "name": "pinky_01_r",
+   "parent": "pinky_metacarpal_r",
+   "deform": true,
+   "head_blender_m": [
+    -0.61743,
+    -0.04408,
+    0.98504
+   ],
+   "tail_blender_m": [
+    -0.63808,
+    -0.04728,
+    0.9595
+   ],
+   "head_unreal_cm": [
+    -61.743,
+    4.408,
+    98.504
+   ],
+   "bone_axis_y_blender": [
+    -0.626,
+    -0.0969,
+    -0.7738
+   ],
+   "bone_axis_z_blender": [
+    -0.7768,
+    -0.0102,
+    0.6297
+   ]
+  },
+  {
+   "name": "pinky_02_r",
+   "parent": "pinky_01_r",
+   "deform": true,
+   "head_blender_m": [
+    -0.63808,
+    -0.04728,
+    0.9595
+   ],
+   "tail_blender_m": [
+    -0.64802,
+    -0.04916,
+    0.94225
+   ],
+   "head_unreal_cm": [
+    -63.808,
+    4.728,
+    95.95
+   ],
+   "bone_axis_y_blender": [
+    -0.4967,
+    -0.0941,
+    -0.8628
+   ],
+   "bone_axis_z_blender": [
+    -0.8652,
+    -0.0252,
+    0.5009
+   ]
+  },
+  {
+   "name": "pinky_03_r",
+   "parent": "pinky_02_r",
+   "deform": true,
+   "head_blender_m": [
+    -0.64802,
+    -0.04916,
+    0.94225
+   ],
+   "tail_blender_m": [
+    -0.65589,
+    -0.05094,
+    0.92449
+   ],
+   "head_unreal_cm": [
+    -64.802,
+    4.916,
+    94.225
+   ],
+   "bone_axis_y_blender": [
+    -0.4036,
+    -0.091,
+    -0.9104
+   ],
+   "bone_axis_z_blender": [
+    -0.9123,
+    -0.0349,
+    0.4079
+   ]
+  },
+  {
+   "name": "thumb_01_r",
+   "parent": "hand_r",
+   "deform": true,
+   "head_blender_m": [
+    -0.55704,
+    -0.0734,
+    1.03482
+   ],
+   "tail_blender_m": [
+    -0.55908,
+    -0.10871,
+    1.00541
+   ],
+   "head_unreal_cm": [
+    -55.704,
+    7.34,
+    103.482
+   ],
+   "bone_axis_y_blender": [
+    -0.0443,
+    -0.7677,
+    -0.6393
+   ],
+   "bone_axis_z_blender": [
+    -0.331,
+    -0.5925,
+    0.7344
+   ]
+  },
+  {
+   "name": "thumb_02_r",
+   "parent": "thumb_01_r",
+   "deform": true,
+   "head_blender_m": [
+    -0.55908,
+    -0.10871,
+    1.00541
+   ],
+   "tail_blender_m": [
+    -0.56708,
+    -0.13197,
+    0.98341
+   ],
+   "head_unreal_cm": [
+    -55.908,
+    10.871,
+    100.541
+   ],
+   "bone_axis_y_blender": [
+    -0.2426,
+    -0.7047,
+    -0.6668
+   ],
+   "bone_axis_z_blender": [
+    -0.2922,
+    -0.6023,
+    0.7428
+   ]
+  },
+  {
+   "name": "thumb_03_r",
+   "parent": "thumb_02_r",
+   "deform": true,
+   "head_blender_m": [
+    -0.56708,
+    -0.13197,
+    0.98341
+   ],
+   "tail_blender_m": [
+    -0.57818,
+    -0.14867,
+    0.96246
+   ],
+   "head_unreal_cm": [
+    -56.708,
+    13.197,
+    98.341
+   ],
+   "bone_axis_y_blender": [
+    -0.3826,
+    -0.576,
+    -0.7224
+   ],
+   "bone_axis_z_blender": [
+    -0.2924,
+    -0.6662,
+    0.686
+   ]
+  },
+  {
+   "name": "sock_hand_r_grip",
+   "parent": "hand_r",
+   "deform": false,
+   "head_blender_m": [
+    -0.56918,
+    -0.06732,
+    0.99722
+   ],
+   "tail_blender_m": [
+    -0.58971,
+    -0.07487,
+    0.97669
+   ],
+   "head_unreal_cm": [
+    -56.918,
+    6.732,
+    99.722
+   ],
+   "bone_axis_y_blender": [
+    -0.6843,
+    -0.252,
+    -0.6843
+   ],
+   "bone_axis_z_blender": [
+    -0.6421,
+    -0.2364,
+    0.7292
+   ]
+  },
+  {
+   "name": "blade_r",
+   "parent": "lowerarm_r",
+   "deform": true,
+   "head_blender_m": [
+    -0.56037,
+    -0.00588,
+    1.05129
+   ],
+   "tail_blender_m": [
+    -0.49194,
+    0.01931,
+    1.11971
+   ],
+   "head_unreal_cm": [
+    -56.037,
+    0.588,
+    105.129
+   ],
+   "bone_axis_y_blender": [
+    0.6843,
+    0.252,
+    0.6843
+   ],
+   "bone_axis_z_blender": [
+    -0.7071,
+    0.0,
+    0.7071
+   ]
+  },
+  {
+   "name": "sock_blade_base_r",
+   "parent": "blade_r",
+   "deform": false,
+   "head_blender_m": [
+    -0.56037,
+    -0.00588,
+    1.05129
+   ],
+   "tail_blender_m": [
+    -0.53984,
+    0.00168,
+    1.07181
+   ],
+   "head_unreal_cm": [
+    -56.037,
+    0.588,
+    105.129
+   ],
+   "bone_axis_y_blender": [
+    0.6843,
+    0.252,
+    0.6843
+   ],
+   "bone_axis_z_blender": [
+    -0.6421,
+    -0.2364,
+    0.7292
+   ]
+  },
+  {
+   "name": "sock_blade_tip_r",
+   "parent": "blade_r",
+   "deform": false,
+   "head_blender_m": [
+    -0.34824,
+    0.07223,
+    1.26342
+   ],
+   "tail_blender_m": [
+    -0.32771,
+    0.07978,
+    1.28395
+   ],
+   "head_unreal_cm": [
+    -34.824,
+    -7.223,
+    126.342
+   ],
+   "bone_axis_y_blender": [
+    0.6843,
+    0.252,
+    0.6843
+   ],
+   "bone_axis_z_blender": [
+    -0.6421,
+    -0.2364,
+    0.7292
+   ]
+  },
+  {
+   "name": "prop_cell",
+   "parent": "lowerarm_r",
+   "deform": true,
+   "head_blender_m": [
+    -0.48848,
+    -0.01394,
+    1.18257
+   ],
+   "tail_blender_m": [
+    -0.5227,
+    -0.02654,
+    1.14836
+   ],
+   "head_unreal_cm": [
+    -48.848,
+    1.394,
+    118.257
+   ],
+   "bone_axis_y_blender": [
+    -0.6843,
+    -0.252,
+    -0.6843
+   ],
+   "bone_axis_z_blender": [
+    -0.7071,
+    -0.0,
+    0.7071
+   ]
+  },
+  {
+   "name": "sock_muzzle_r",
+   "parent": "lowerarm_r",
+   "deform": false,
+   "head_blender_m": [
+    -0.59044,
+    -0.05149,
+    1.08061
+   ],
+   "tail_blender_m": [
+    -0.61097,
+    -0.05905,
+    1.06008
+   ],
+   "head_unreal_cm": [
+    -59.044,
+    5.149,
+    108.061
+   ],
+   "bone_axis_y_blender": [
+    -0.6843,
+    -0.252,
+    -0.6843
+   ],
+   "bone_axis_z_blender": [
+    -0.6421,
+    -0.2364,
+    0.7292
+   ]
+  },
+  {
+   "name": "sock_cell_slot_r",
+   "parent": "lowerarm_r",
+   "deform": false,
+   "head_blender_m": [
+    -0.48848,
+    -0.01394,
+    1.18257
+   ],
+   "tail_blender_m": [
+    -0.50901,
+    -0.0215,
+    1.16204
+   ],
+   "head_unreal_cm": [
+    -48.848,
+    1.394,
+    118.257
+   ],
+   "bone_axis_y_blender": [
+    -0.6843,
+    -0.252,
+    -0.6843
+   ],
+   "bone_axis_z_blender": [
+    -0.6421,
+    -0.2364,
+    0.7292
+   ]
+  },
+  {
+   "name": "sock_fx_chest",
+   "parent": "spine_03",
+   "deform": false,
+   "head_blender_m": [
+    0.0,
+    -0.12,
+    1.33
+   ],
+   "tail_blender_m": [
+    0.0,
+    -0.15,
+    1.33
+   ],
+   "head_unreal_cm": [
+    0.0,
+    12.0,
+    133.0
+   ],
+   "bone_axis_y_blender": [
+    -0.0,
+    -1.0,
+    -0.0
+   ],
+   "bone_axis_z_blender": [
+    0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "name": "thigh_l",
+   "parent": "pelvis",
+   "deform": true,
+   "head_blender_m": [
+    0.092,
+    0.005,
+    0.93
+   ],
+   "tail_blender_m": [
+    0.1,
+    -0.012,
+    0.505
+   ],
+   "head_unreal_cm": [
+    9.2,
+    -0.5,
+    93.0
+   ],
+   "bone_axis_y_blender": [
+    0.0188,
+    -0.04,
+    -0.999
+   ],
+   "bone_axis_z_blender": [
+    -0.0008,
+    -0.9992,
+    0.04
+   ]
+  },
+  {
+   "name": "thigh_twist_01_l",
+   "parent": "thigh_l",
+   "deform": true,
+   "head_blender_m": [
+    0.096,
+    -0.0035,
+    0.7175
+   ],
+   "tail_blender_m": [
+    0.1,
+    -0.012,
+    0.505
+   ],
+   "head_unreal_cm": [
+    9.6,
+    0.35,
+    71.75
+   ],
+   "bone_axis_y_blender": [
+    0.0188,
+    -0.04,
+    -0.999
+   ],
+   "bone_axis_z_blender": [
+    -0.0008,
+    -0.9992,
+    0.04
+   ]
+  },
+  {
+   "name": "calf_l",
+   "parent": "thigh_l",
+   "deform": true,
+   "head_blender_m": [
+    0.1,
+    -0.012,
+    0.505
+   ],
+   "tail_blender_m": [
+    0.106,
+    0.02,
+    0.095
+   ],
+   "head_unreal_cm": [
+    10.0,
+    1.2,
+    50.5
+   ],
+   "bone_axis_y_blender": [
+    0.0146,
+    0.0778,
+    -0.9969
+   ],
+   "bone_axis_z_blender": [
+    0.0011,
+    -0.997,
+    -0.0778
+   ]
+  },
+  {
+   "name": "foot_l",
+   "parent": "calf_l",
+   "deform": true,
+   "head_blender_m": [
+    0.106,
+    0.02,
+    0.095
+   ],
+   "tail_blender_m": [
+    0.1198,
+    -0.11128,
+    0.034
+   ],
+   "head_unreal_cm": [
+    10.6,
+    -2.0,
+    9.5
+   ],
+   "bone_axis_y_blender": [
+    0.0949,
+    -0.9028,
+    -0.4195
+   ],
+   "bone_axis_z_blender": [
+    0.0438,
+    -0.4172,
+    0.9078
+   ]
+  },
+  {
+   "name": "ball_l",
+   "parent": "foot_l",
+   "deform": true,
+   "head_blender_m": [
+    0.1198,
+    -0.11128,
+    0.034
+   ],
+   "tail_blender_m": [
+    0.12711,
+    -0.18089,
+    0.03
+   ],
+   "head_unreal_cm": [
+    11.98,
+    11.128,
+    3.4
+   ],
+   "bone_axis_y_blender": [
+    0.1044,
+    -0.9929,
+    -0.0571
+   ],
+   "bone_axis_z_blender": [
+    0.006,
+    -0.0567,
+    0.9984
+   ]
+  },
+  {
+   "name": "thigh_r",
+   "parent": "pelvis",
+   "deform": true,
+   "head_blender_m": [
+    -0.092,
+    0.005,
+    0.93
+   ],
+   "tail_blender_m": [
+    -0.1,
+    -0.012,
+    0.505
+   ],
+   "head_unreal_cm": [
+    -9.2,
+    -0.5,
+    93.0
+   ],
+   "bone_axis_y_blender": [
+    -0.0188,
+    -0.04,
+    -0.999
+   ],
+   "bone_axis_z_blender": [
+    0.0008,
+    -0.9992,
+    0.04
+   ]
+  },
+  {
+   "name": "thigh_twist_01_r",
+   "parent": "thigh_r",
+   "deform": true,
+   "head_blender_m": [
+    -0.096,
+    -0.0035,
+    0.7175
+   ],
+   "tail_blender_m": [
+    -0.1,
+    -0.012,
+    0.505
+   ],
+   "head_unreal_cm": [
+    -9.6,
+    0.35,
+    71.75
+   ],
+   "bone_axis_y_blender": [
+    -0.0188,
+    -0.04,
+    -0.999
+   ],
+   "bone_axis_z_blender": [
+    0.0008,
+    -0.9992,
+    0.04
+   ]
+  },
+  {
+   "name": "calf_r",
+   "parent": "thigh_r",
+   "deform": true,
+   "head_blender_m": [
+    -0.1,
+    -0.012,
+    0.505
+   ],
+   "tail_blender_m": [
+    -0.106,
+    0.02,
+    0.095
+   ],
+   "head_unreal_cm": [
+    -10.0,
+    1.2,
+    50.5
+   ],
+   "bone_axis_y_blender": [
+    -0.0146,
+    0.0778,
+    -0.9969
+   ],
+   "bone_axis_z_blender": [
+    -0.0011,
+    -0.997,
+    -0.0778
+   ]
+  },
+  {
+   "name": "foot_r",
+   "parent": "calf_r",
+   "deform": true,
+   "head_blender_m": [
+    -0.106,
+    0.02,
+    0.095
+   ],
+   "tail_blender_m": [
+    -0.1198,
+    -0.11128,
+    0.034
+   ],
+   "head_unreal_cm": [
+    -10.6,
+    -2.0,
+    9.5
+   ],
+   "bone_axis_y_blender": [
+    -0.0949,
+    -0.9028,
+    -0.4195
+   ],
+   "bone_axis_z_blender": [
+    -0.0438,
+    -0.4172,
+    0.9078
+   ]
+  },
+  {
+   "name": "ball_r",
+   "parent": "foot_r",
+   "deform": true,
+   "head_blender_m": [
+    -0.1198,
+    -0.11128,
+    0.034
+   ],
+   "tail_blender_m": [
+    -0.12711,
+    -0.18089,
+    0.03
+   ],
+   "head_unreal_cm": [
+    -11.98,
+    11.128,
+    3.4
+   ],
+   "bone_axis_y_blender": [
+    -0.1044,
+    -0.9929,
+    -0.0571
+   ],
+   "bone_axis_z_blender": [
+    -0.006,
+    -0.0567,
+    0.9984
+   ]
+  },
+  {
+   "name": "prop_beacon",
+   "parent": "pelvis",
+   "deform": true,
+   "head_blender_m": [
+    0.0,
+    0.122,
+    0.968
+   ],
+   "tail_blender_m": [
+    0.0,
+    0.122,
+    1.028
+   ],
+   "head_unreal_cm": [
+    0.0,
+    -12.2,
+    96.8
+   ],
+   "bone_axis_y_blender": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "bone_axis_z_blender": [
+    0.0,
+    1.0,
+    -0.0
+   ]
+  },
+  {
+   "name": "sock_beacon_holster",
+   "parent": "pelvis",
+   "deform": false,
+   "head_blender_m": [
+    0.0,
+    0.122,
+    0.968
+   ],
+   "tail_blender_m": [
+    0.0,
+    0.122,
+    0.998
+   ],
+   "head_unreal_cm": [
+    0.0,
+    -12.2,
+    96.8
+   ],
+   "bone_axis_y_blender": [
+    0.0,
+    -0.0,
+    1.0
+   ],
+   "bone_axis_z_blender": [
+    0.0,
+    -1.0,
+    -0.0
+   ]
+  },
+  {
+   "name": "sock_fx_ground",
+   "parent": "root",
+   "deform": false,
+   "head_blender_m": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "tail_blender_m": [
+    0.0,
+    -0.03,
+    0.0
+   ],
+   "head_unreal_cm": [
+    0.0,
+    -0.0,
+    0.0
+   ],
+   "bone_axis_y_blender": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "bone_axis_z_blender": [
+    0.0,
+    0.0,
+    1.0
+   ]
+  }
+ ],
+ "sockets": [
+  {
+   "socket": "hand_l_grip",
+   "bone": "sock_hand_l_grip",
+   "parent_bone": "hand_l",
+   "rest_location_m": [
+    0.56918,
+    -0.06732,
+    0.99722
+   ],
+   "description": "Left palm grip centre (cell/beacon handling)",
+   "unreal_socket": "hand_l_grip"
+  },
+  {
+   "socket": "hand_r_grip",
+   "bone": "sock_hand_r_grip",
+   "parent_bone": "hand_r",
+   "rest_location_m": [
+    -0.56918,
+    -0.06732,
+    0.99722
+   ],
+   "description": "Right (cyber) palm grip centre",
+   "unreal_socket": "hand_r_grip"
+  },
+  {
+   "socket": "muzzle_r",
+   "bone": "sock_muzzle_r",
+   "parent_bone": "lowerarm_r",
+   "rest_location_m": [
+    -0.59044,
+    -0.05149,
+    1.08061
+   ],
+   "description": "Wrist emitter muzzle; +X of socket = fire direction",
+   "unreal_socket": "muzzle_r"
+  },
+  {
+   "socket": "cell_slot_r",
+   "bone": "sock_cell_slot_r",
+   "parent_bone": "lowerarm_r",
+   "rest_location_m": [
+    -0.48848,
+    -0.01394,
+    1.18257
+   ],
+   "description": "Power cell cradle on the cyber forearm",
+   "unreal_socket": "cell_slot_r"
+  },
+  {
+   "socket": "blade_base_r",
+   "bone": "sock_blade_base_r",
+   "parent_bone": "blade_r",
+   "rest_location_m": [
+    -0.56037,
+    -0.00588,
+    1.05129
+   ],
+   "description": "Forearm blade pivot/base",
+   "unreal_socket": "blade_base_r"
+  },
+  {
+   "socket": "blade_tip_r",
+   "bone": "sock_blade_tip_r",
+   "parent_bone": "blade_r",
+   "rest_location_m": [
+    -0.34824,
+    0.07223,
+    1.26342
+   ],
+   "description": "Forearm blade tip (folded rest pose)",
+   "unreal_socket": "blade_tip_r"
+  },
+  {
+   "socket": "beacon_holster",
+   "bone": "sock_beacon_holster",
+   "parent_bone": "pelvis",
+   "rest_location_m": [
+    0.0,
+    0.122,
+    0.968
+   ],
+   "description": "Beacon holster on the back of the belt",
+   "unreal_socket": "beacon_holster"
+  },
+  {
+   "socket": "fx_chest",
+   "bone": "sock_fx_chest",
+   "parent_bone": "spine_03",
+   "rest_location_m": [
+    0.0,
+    -0.12,
+    1.33
+   ],
+   "description": "Chest effect anchor",
+   "unreal_socket": "fx_chest"
+  },
+  {
+   "socket": "fx_head",
+   "bone": "sock_fx_head",
+   "parent_bone": "head",
+   "rest_location_m": [
+    0.0,
+    0.0,
+    1.8
+   ],
+   "description": "Overhead effect anchor",
+   "unreal_socket": "fx_head"
+  },
+  {
+   "socket": "fx_ground",
+   "bone": "sock_fx_ground",
+   "parent_bone": "root",
+   "rest_location_m": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "description": "Ground effect anchor (casts, blink)",
+   "unreal_socket": "fx_ground"
+  },
+  {
+   "socket": "fx_palm_l",
+   "bone": "sock_fx_palm_l",
+   "parent_bone": "hand_l",
+   "rest_location_m": [
+    0.55504,
+    -0.06732,
+    0.98308
+   ],
+   "description": "Left palm effect anchor (self cast)",
+   "unreal_socket": "fx_palm_l"
+  }
+ ],
+ "morph_targets": [
+  "browInnerUp_L",
+  "browInnerUp_R",
+  "browOuterUp_L",
+  "browOuterUp_R",
+  "browDown_L",
+  "browDown_R",
+  "eyeSquint_L",
+  "eyeSquint_R",
+  "cheekRaise_L",
+  "cheekRaise_R",
+  "cheekPuff",
+  "noseSneer_L",
+  "noseSneer_R",
+  "mouthSmile_L",
+  "mouthSmile_R",
+  "mouthFrown_L",
+  "mouthFrown_R",
+  "mouthStretch_L",
+  "mouthStretch_R",
+  "mouthPucker",
+  "mouthFunnel",
+  "mouthPress",
+  "mouthRollUpper",
+  "mouthRollLower",
+  "mouthUpperUp_L",
+  "mouthUpperUp_R",
+  "mouthLowerDown_L",
+  "mouthLowerDown_R",
+  "mouthClose",
+  "mouthLeft",
+  "mouthRight",
+  "V_MBP",
+  "V_FV",
+  "V_TH",
+  "V_LNT",
+  "V_SS",
+  "V_CH",
+  "V_KG",
+  "V_R",
+  "V_AA",
+  "V_EH",
+  "V_EE",
+  "V_IH",
+  "V_OH",
+  "V_OO"
+ ],
+ "face_control_poses": [
+  "ctl_blink_l",
+  "ctl_blink_r",
+  "ctl_wide_l",
+  "ctl_wide_r",
+  "ctl_squint_l",
+  "ctl_squint_r",
+  "ctl_jaw_open",
+  "ctl_jaw_left",
+  "ctl_jaw_right",
+  "ctl_look_left",
+  "ctl_look_right",
+  "ctl_look_up",
+  "ctl_look_down",
+  "ctl_tongue_up",
+  "ctl_tongue_down"
+ ]
+}

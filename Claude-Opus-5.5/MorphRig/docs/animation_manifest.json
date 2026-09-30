@@ -1,0 +1,6880 @@
+{
+ "character": "MorphRig Operative",
+ "sample_rate_fps": 30,
+ "frame_convention": "frames 0..N inclusive at 30 fps, duration = N / 30 s; loops repeat frame 0 at N",
+ "units": "Blender metres / Unreal centimetres; root motion only on dash_* (2 m nominal)",
+ "required_count": 96,
+ "delivered_required": 96,
+ "missing_required": [],
+ "clips": [
+  {
+   "id": "idle_relaxed",
+   "required": true,
+   "form": "loop",
+   "loop": true,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    120
+   ],
+   "frame_count": 121,
+   "duration_s": 4.0,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "any",
+   "exit_states": "any",
+   "event_markers": [],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_idle_relaxed",
+   "source_action_baked": "SK_idle_relaxed",
+   "export_file": "export/animations/idle_relaxed.fbx",
+   "export_take": "SK_idle_relaxed",
+   "unreal_asset": "/Game/MorphRig/Animations/A_idle_relaxed",
+   "face_curves": [],
+   "notes": "relaxed breathing, weight shifts left/right, glances",
+   "required_form": "loop",
+   "required_root_movement": "in_place",
+   "required_duration": "2–5",
+   "duration_in_range": true,
+   "required_behavior": "Relaxed breathing and attentive weight shifts.",
+   "qa": {
+    "loop_seam": 0.048,
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.0,
+    "body_clear_cm": -0.28,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "idle_combat",
+   "required": true,
+   "form": "loop",
+   "loop": true,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    90
+   ],
+   "frame_count": 91,
+   "duration_s": 3.0,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "any",
+   "exit_states": "any",
+   "event_markers": [],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_idle_combat",
+   "source_action_baked": "SK_idle_combat",
+   "export_file": "export/animations/idle_combat.fbx",
+   "export_take": "SK_idle_combat",
+   "unreal_asset": "/Game/MorphRig/Animations/A_idle_combat",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "eyeSquint_L",
+    "eyeSquint_R"
+   ],
+   "notes": "ready stance, light bounce, guard adjustments, scanning glances",
+   "required_form": "loop",
+   "required_root_movement": "in_place",
+   "required_duration": "2–5",
+   "duration_in_range": true,
+   "required_behavior": "Ready stance with free hands and readable silhouette.",
+   "qa": {
+    "loop_seam": 0.047,
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.0,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "idle_wounded",
+   "required": true,
+   "form": "loop",
+   "loop": true,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    120
+   ],
+   "frame_count": 121,
+   "duration_s": 4.0,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "any",
+   "exit_states": "any",
+   "event_markers": [],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_idle_wounded",
+   "source_action_baked": "SK_idle_wounded",
+   "export_file": "export/animations/idle_wounded.fbx",
+   "export_take": "SK_idle_wounded",
+   "unreal_asset": "/Game/MorphRig/Animations/A_idle_wounded",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "browInnerUp_L",
+    "browInnerUp_R",
+    "cheekRaise_L",
+    "cheekRaise_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthStretch_L",
+    "mouthStretch_R",
+    "mouthUpperUp_L",
+    "mouthUpperUp_R",
+    "noseSneer_L",
+    "noseSneer_R"
+   ],
+   "notes": "injured but alert: favours the right leg, clutches the ribs, laboured breathing, a wince",
+   "required_form": "loop",
+   "required_root_movement": "in_place",
+   "required_duration": "2–5",
+   "duration_in_range": true,
+   "required_behavior": "Injured but alert; no new skeleton or detached limbs.",
+   "qa": {
+    "loop_seam": 0.085,
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.0,
+    "body_clear_cm": -0.3,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "walk_f",
+   "required": true,
+   "form": "loop",
+   "loop": true,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    31
+   ],
+   "frame_count": 32,
+   "duration_s": 1.0333,
+   "nominal_speed_cms": 150.0,
+   "entry_states": "locomotion",
+   "exit_states": "locomotion",
+   "event_markers": [
+    {
+     "frame": 0,
+     "time_s": 0.0,
+     "name": "foot_l_down"
+    },
+    {
+     "frame": 16,
+     "time_s": 0.5333,
+     "name": "foot_r_down"
+    },
+    {
+     "frame": 19,
+     "time_s": 0.6333,
+     "name": "foot_l_up"
+    },
+    {
+     "frame": 3,
+     "time_s": 0.1,
+     "name": "foot_r_up"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_walk_f",
+   "source_action_baked": "SK_walk_f",
+   "export_file": "export/animations/walk_f.fbx",
+   "export_take": "SK_walk_f",
+   "unreal_asset": "/Game/MorphRig/Animations/A_walk_f",
+   "face_curves": [],
+   "notes": "walk cycle, travel +0 deg rel. facing, stride 1.55 m",
+   "required_form": "loop",
+   "required_root_movement": "in_place",
+   "required_duration": "0.6–1.8",
+   "duration_in_range": true,
+   "required_behavior": "Walk forward; retain facing, synchronized contacts, genuine directional gait.",
+   "qa": {
+    "loop_seam": 0.046,
+    "foot_slide_cm": {
+     "l": 0.02,
+     "r": 0.01
+    },
+    "min_body_z_cm": -0.09,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "walk_fl",
+   "required": true,
+   "form": "loop",
+   "loop": true,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    31
+   ],
+   "frame_count": 32,
+   "duration_s": 1.0333,
+   "nominal_speed_cms": 150.0,
+   "entry_states": "locomotion",
+   "exit_states": "locomotion",
+   "event_markers": [
+    {
+     "frame": 0,
+     "time_s": 0.0,
+     "name": "foot_l_down"
+    },
+    {
+     "frame": 16,
+     "time_s": 0.5333,
+     "name": "foot_r_down"
+    },
+    {
+     "frame": 19,
+     "time_s": 0.6333,
+     "name": "foot_l_up"
+    },
+    {
+     "frame": 3,
+     "time_s": 0.1,
+     "name": "foot_r_up"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_walk_fl",
+   "source_action_baked": "SK_walk_fl",
+   "export_file": "export/animations/walk_fl.fbx",
+   "export_take": "SK_walk_fl",
+   "unreal_asset": "/Game/MorphRig/Animations/A_walk_fl",
+   "face_curves": [],
+   "notes": "walk cycle, travel +45 deg rel. facing, stride 1.55 m",
+   "required_form": "loop",
+   "required_root_movement": "in_place",
+   "required_duration": "0.6–1.8",
+   "duration_in_range": true,
+   "required_behavior": "Walk forward-left; retain facing, synchronized contacts, genuine directional gait.",
+   "qa": {
+    "loop_seam": 0.046,
+    "foot_slide_cm": {
+     "l": 0.02,
+     "r": 0.01
+    },
+    "min_body_z_cm": -0.08,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "walk_l",
+   "required": true,
+   "form": "loop",
+   "loop": true,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    31
+   ],
+   "frame_count": 32,
+   "duration_s": 1.0333,
+   "nominal_speed_cms": 150.0,
+   "entry_states": "locomotion",
+   "exit_states": "locomotion",
+   "event_markers": [
+    {
+     "frame": 0,
+     "time_s": 0.0,
+     "name": "foot_l_down"
+    },
+    {
+     "frame": 16,
+     "time_s": 0.5333,
+     "name": "foot_r_down"
+    },
+    {
+     "frame": 19,
+     "time_s": 0.6333,
+     "name": "foot_l_up"
+    },
+    {
+     "frame": 3,
+     "time_s": 0.1,
+     "name": "foot_r_up"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_walk_l",
+   "source_action_baked": "SK_walk_l",
+   "export_file": "export/animations/walk_l.fbx",
+   "export_take": "SK_walk_l",
+   "unreal_asset": "/Game/MorphRig/Animations/A_walk_l",
+   "face_curves": [],
+   "notes": "walk cycle, travel +90 deg rel. facing, stride 1.55 m",
+   "required_form": "loop",
+   "required_root_movement": "in_place",
+   "required_duration": "0.6–1.8",
+   "duration_in_range": true,
+   "required_behavior": "Walk left strafe; retain facing, synchronized contacts, genuine directional gait.",
+   "qa": {
+    "loop_seam": 0.045,
+    "foot_slide_cm": {
+     "l": 0.02,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.07,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "walk_bl",
+   "required": true,
+   "form": "loop",
+   "loop": true,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    31
+   ],
+   "frame_count": 32,
+   "duration_s": 1.0333,
+   "nominal_speed_cms": 150.0,
+   "entry_states": "locomotion",
+   "exit_states": "locomotion",
+   "event_markers": [
+    {
+     "frame": 0,
+     "time_s": 0.0,
+     "name": "foot_l_down"
+    },
+    {
+     "frame": 16,
+     "time_s": 0.5333,
+     "name": "foot_r_down"
+    },
+    {
+     "frame": 19,
+     "time_s": 0.6333,
+     "name": "foot_l_up"
+    },
+    {
+     "frame": 3,
+     "time_s": 0.1,
+     "name": "foot_r_up"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_walk_bl",
+   "source_action_baked": "SK_walk_bl",
+   "export_file": "export/animations/walk_bl.fbx",
+   "export_take": "SK_walk_bl",
+   "unreal_asset": "/Game/MorphRig/Animations/A_walk_bl",
+   "face_curves": [],
+   "notes": "walk cycle, travel +135 deg rel. facing, stride 1.55 m",
+   "required_form": "loop",
+   "required_root_movement": "in_place",
+   "required_duration": "0.6–1.8",
+   "duration_in_range": true,
+   "required_behavior": "Walk back-left; retain facing, synchronized contacts, genuine directional gait.",
+   "qa": {
+    "loop_seam": 0.046,
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.01
+    },
+    "min_body_z_cm": -0.08,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "walk_b",
+   "required": true,
+   "form": "loop",
+   "loop": true,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    31
+   ],
+   "frame_count": 32,
+   "duration_s": 1.0333,
+   "nominal_speed_cms": 150.0,
+   "entry_states": "locomotion",
+   "exit_states": "locomotion",
+   "event_markers": [
+    {
+     "frame": 0,
+     "time_s": 0.0,
+     "name": "foot_l_down"
+    },
+    {
+     "frame": 16,
+     "time_s": 0.5333,
+     "name": "foot_r_down"
+    },
+    {
+     "frame": 19,
+     "time_s": 0.6333,
+     "name": "foot_l_up"
+    },
+    {
+     "frame": 3,
+     "time_s": 0.1,
+     "name": "foot_r_up"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_walk_b",
+   "source_action_baked": "SK_walk_b",
+   "export_file": "export/animations/walk_b.fbx",
+   "export_take": "SK_walk_b",
+   "unreal_asset": "/Game/MorphRig/Animations/A_walk_b",
+   "face_curves": [],
+   "notes": "walk cycle, travel +180 deg rel. facing, stride 1.55 m",
+   "required_form": "loop",
+   "required_root_movement": "in_place",
+   "required_duration": "0.6–1.8",
+   "duration_in_range": true,
+   "required_behavior": "Walk backward; retain facing, synchronized contacts, genuine directional gait.",
+   "qa": {
+    "loop_seam": 0.049,
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.01
+    },
+    "min_body_z_cm": -0.08,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "walk_br",
+   "required": true,
+   "form": "loop",
+   "loop": true,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    31
+   ],
+   "frame_count": 32,
+   "duration_s": 1.0333,
+   "nominal_speed_cms": 150.0,
+   "entry_states": "locomotion",
+   "exit_states": "locomotion",
+   "event_markers": [
+    {
+     "frame": 0,
+     "time_s": 0.0,
+     "name": "foot_l_down"
+    },
+    {
+     "frame": 16,
+     "time_s": 0.5333,
+     "name": "foot_r_down"
+    },
+    {
+     "frame": 19,
+     "time_s": 0.6333,
+     "name": "foot_l_up"
+    },
+    {
+     "frame": 3,
+     "time_s": 0.1,
+     "name": "foot_r_up"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_walk_br",
+   "source_action_baked": "SK_walk_br",
+   "export_file": "export/animations/walk_br.fbx",
+   "export_take": "SK_walk_br",
+   "unreal_asset": "/Game/MorphRig/Animations/A_walk_br",
+   "face_curves": [],
+   "notes": "walk cycle, travel -135 deg rel. facing, stride 1.55 m",
+   "required_form": "loop",
+   "required_root_movement": "in_place",
+   "required_duration": "0.6–1.8",
+   "duration_in_range": true,
+   "required_behavior": "Walk back-right; retain facing, synchronized contacts, genuine directional gait.",
+   "qa": {
+    "loop_seam": 0.097,
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.01
+    },
+    "min_body_z_cm": -0.08,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "walk_r",
+   "required": true,
+   "form": "loop",
+   "loop": true,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    31
+   ],
+   "frame_count": 32,
+   "duration_s": 1.0333,
+   "nominal_speed_cms": 150.0,
+   "entry_states": "locomotion",
+   "exit_states": "locomotion",
+   "event_markers": [
+    {
+     "frame": 0,
+     "time_s": 0.0,
+     "name": "foot_l_down"
+    },
+    {
+     "frame": 16,
+     "time_s": 0.5333,
+     "name": "foot_r_down"
+    },
+    {
+     "frame": 19,
+     "time_s": 0.6333,
+     "name": "foot_l_up"
+    },
+    {
+     "frame": 3,
+     "time_s": 0.1,
+     "name": "foot_r_up"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_walk_r",
+   "source_action_baked": "SK_walk_r",
+   "export_file": "export/animations/walk_r.fbx",
+   "export_take": "SK_walk_r",
+   "unreal_asset": "/Game/MorphRig/Animations/A_walk_r",
+   "face_curves": [],
+   "notes": "walk cycle, travel -90 deg rel. facing, stride 1.55 m",
+   "required_form": "loop",
+   "required_root_movement": "in_place",
+   "required_duration": "0.6–1.8",
+   "duration_in_range": true,
+   "required_behavior": "Walk right strafe; retain facing, synchronized contacts, genuine directional gait.",
+   "qa": {
+    "loop_seam": 0.105,
+    "foot_slide_cm": {
+     "l": 0.02,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.07,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "walk_fr",
+   "required": true,
+   "form": "loop",
+   "loop": true,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    31
+   ],
+   "frame_count": 32,
+   "duration_s": 1.0333,
+   "nominal_speed_cms": 150.0,
+   "entry_states": "locomotion",
+   "exit_states": "locomotion",
+   "event_markers": [
+    {
+     "frame": 0,
+     "time_s": 0.0,
+     "name": "foot_l_down"
+    },
+    {
+     "frame": 16,
+     "time_s": 0.5333,
+     "name": "foot_r_down"
+    },
+    {
+     "frame": 19,
+     "time_s": 0.6333,
+     "name": "foot_l_up"
+    },
+    {
+     "frame": 3,
+     "time_s": 0.1,
+     "name": "foot_r_up"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_walk_fr",
+   "source_action_baked": "SK_walk_fr",
+   "export_file": "export/animations/walk_fr.fbx",
+   "export_take": "SK_walk_fr",
+   "unreal_asset": "/Game/MorphRig/Animations/A_walk_fr",
+   "face_curves": [],
+   "notes": "walk cycle, travel -45 deg rel. facing, stride 1.55 m",
+   "required_form": "loop",
+   "required_root_movement": "in_place",
+   "required_duration": "0.6–1.8",
+   "duration_in_range": true,
+   "required_behavior": "Walk forward-right; retain facing, synchronized contacts, genuine directional gait.",
+   "qa": {
+    "loop_seam": 0.092,
+    "foot_slide_cm": {
+     "l": 0.02,
+     "r": 0.01
+    },
+    "min_body_z_cm": -0.08,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "run_f",
+   "required": true,
+   "form": "loop",
+   "loop": true,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    21
+   ],
+   "frame_count": 22,
+   "duration_s": 0.7,
+   "nominal_speed_cms": 400.0,
+   "entry_states": "locomotion",
+   "exit_states": "locomotion",
+   "event_markers": [
+    {
+     "frame": 0,
+     "time_s": 0.0,
+     "name": "foot_l_down"
+    },
+    {
+     "frame": 10,
+     "time_s": 0.3333,
+     "name": "foot_r_down"
+    },
+    {
+     "frame": 7,
+     "time_s": 0.2333,
+     "name": "foot_l_up"
+    },
+    {
+     "frame": 18,
+     "time_s": 0.6,
+     "name": "foot_r_up"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_run_f",
+   "source_action_baked": "SK_run_f",
+   "export_file": "export/animations/run_f.fbx",
+   "export_take": "SK_run_f",
+   "unreal_asset": "/Game/MorphRig/Animations/A_run_f",
+   "face_curves": [],
+   "notes": "run cycle, travel +0 deg rel. facing, stride 2.80 m",
+   "required_form": "loop",
+   "required_root_movement": "in_place",
+   "required_duration": "0.6–1.8",
+   "duration_in_range": true,
+   "required_behavior": "Run forward; retain facing, synchronized contacts, genuine directional gait.",
+   "qa": {
+    "loop_seam": 0.081,
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.01
+    },
+    "min_body_z_cm": -0.11,
+    "body_clear_cm": -0.27,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "run_fl",
+   "required": true,
+   "form": "loop",
+   "loop": true,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    21
+   ],
+   "frame_count": 22,
+   "duration_s": 0.7,
+   "nominal_speed_cms": 400.0,
+   "entry_states": "locomotion",
+   "exit_states": "locomotion",
+   "event_markers": [
+    {
+     "frame": 0,
+     "time_s": 0.0,
+     "name": "foot_l_down"
+    },
+    {
+     "frame": 10,
+     "time_s": 0.3333,
+     "name": "foot_r_down"
+    },
+    {
+     "frame": 7,
+     "time_s": 0.2333,
+     "name": "foot_l_up"
+    },
+    {
+     "frame": 18,
+     "time_s": 0.6,
+     "name": "foot_r_up"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_run_fl",
+   "source_action_baked": "SK_run_fl",
+   "export_file": "export/animations/run_fl.fbx",
+   "export_take": "SK_run_fl",
+   "unreal_asset": "/Game/MorphRig/Animations/A_run_fl",
+   "face_curves": [],
+   "notes": "run cycle, travel +45 deg rel. facing, stride 2.80 m",
+   "required_form": "loop",
+   "required_root_movement": "in_place",
+   "required_duration": "0.6–1.8",
+   "duration_in_range": true,
+   "required_behavior": "Run forward-left; retain facing, synchronized contacts, genuine directional gait.",
+   "qa": {
+    "loop_seam": 0.045,
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.01
+    },
+    "min_body_z_cm": -0.12,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "run_l",
+   "required": true,
+   "form": "loop",
+   "loop": true,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    21
+   ],
+   "frame_count": 22,
+   "duration_s": 0.7,
+   "nominal_speed_cms": 400.0,
+   "entry_states": "locomotion",
+   "exit_states": "locomotion",
+   "event_markers": [
+    {
+     "frame": 0,
+     "time_s": 0.0,
+     "name": "foot_l_down"
+    },
+    {
+     "frame": 10,
+     "time_s": 0.3333,
+     "name": "foot_r_down"
+    },
+    {
+     "frame": 7,
+     "time_s": 0.2333,
+     "name": "foot_l_up"
+    },
+    {
+     "frame": 18,
+     "time_s": 0.6,
+     "name": "foot_r_up"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_run_l",
+   "source_action_baked": "SK_run_l",
+   "export_file": "export/animations/run_l.fbx",
+   "export_take": "SK_run_l",
+   "unreal_asset": "/Game/MorphRig/Animations/A_run_l",
+   "face_curves": [],
+   "notes": "run cycle, travel +90 deg rel. facing, stride 2.80 m",
+   "required_form": "loop",
+   "required_root_movement": "in_place",
+   "required_duration": "0.6–1.8",
+   "duration_in_range": true,
+   "required_behavior": "Run left strafe; retain facing, synchronized contacts, genuine directional gait.",
+   "qa": {
+    "loop_seam": 0.047,
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.01
+    },
+    "min_body_z_cm": -0.09,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "run_bl",
+   "required": true,
+   "form": "loop",
+   "loop": true,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    21
+   ],
+   "frame_count": 22,
+   "duration_s": 0.7,
+   "nominal_speed_cms": 400.0,
+   "entry_states": "locomotion",
+   "exit_states": "locomotion",
+   "event_markers": [
+    {
+     "frame": 0,
+     "time_s": 0.0,
+     "name": "foot_l_down"
+    },
+    {
+     "frame": 10,
+     "time_s": 0.3333,
+     "name": "foot_r_down"
+    },
+    {
+     "frame": 7,
+     "time_s": 0.2333,
+     "name": "foot_l_up"
+    },
+    {
+     "frame": 18,
+     "time_s": 0.6,
+     "name": "foot_r_up"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_run_bl",
+   "source_action_baked": "SK_run_bl",
+   "export_file": "export/animations/run_bl.fbx",
+   "export_take": "SK_run_bl",
+   "unreal_asset": "/Game/MorphRig/Animations/A_run_bl",
+   "face_curves": [],
+   "notes": "run cycle, travel +135 deg rel. facing, stride 2.80 m",
+   "required_form": "loop",
+   "required_root_movement": "in_place",
+   "required_duration": "0.6–1.8",
+   "duration_in_range": true,
+   "required_behavior": "Run back-left; retain facing, synchronized contacts, genuine directional gait.",
+   "qa": {
+    "loop_seam": 0.047,
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.02
+    },
+    "min_body_z_cm": -0.08,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "run_b",
+   "required": true,
+   "form": "loop",
+   "loop": true,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    21
+   ],
+   "frame_count": 22,
+   "duration_s": 0.7,
+   "nominal_speed_cms": 400.0,
+   "entry_states": "locomotion",
+   "exit_states": "locomotion",
+   "event_markers": [
+    {
+     "frame": 0,
+     "time_s": 0.0,
+     "name": "foot_l_down"
+    },
+    {
+     "frame": 10,
+     "time_s": 0.3333,
+     "name": "foot_r_down"
+    },
+    {
+     "frame": 7,
+     "time_s": 0.2333,
+     "name": "foot_l_up"
+    },
+    {
+     "frame": 18,
+     "time_s": 0.6,
+     "name": "foot_r_up"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_run_b",
+   "source_action_baked": "SK_run_b",
+   "export_file": "export/animations/run_b.fbx",
+   "export_take": "SK_run_b",
+   "unreal_asset": "/Game/MorphRig/Animations/A_run_b",
+   "face_curves": [],
+   "notes": "run cycle, travel +180 deg rel. facing, stride 2.80 m",
+   "required_form": "loop",
+   "required_root_movement": "in_place",
+   "required_duration": "0.6–1.8",
+   "duration_in_range": true,
+   "required_behavior": "Run backward; retain facing, synchronized contacts, genuine directional gait.",
+   "qa": {
+    "loop_seam": 0.065,
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.08,
+    "body_clear_cm": -0.3,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "run_br",
+   "required": true,
+   "form": "loop",
+   "loop": true,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    21
+   ],
+   "frame_count": 22,
+   "duration_s": 0.7,
+   "nominal_speed_cms": 400.0,
+   "entry_states": "locomotion",
+   "exit_states": "locomotion",
+   "event_markers": [
+    {
+     "frame": 0,
+     "time_s": 0.0,
+     "name": "foot_l_down"
+    },
+    {
+     "frame": 10,
+     "time_s": 0.3333,
+     "name": "foot_r_down"
+    },
+    {
+     "frame": 7,
+     "time_s": 0.2333,
+     "name": "foot_l_up"
+    },
+    {
+     "frame": 18,
+     "time_s": 0.6,
+     "name": "foot_r_up"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_run_br",
+   "source_action_baked": "SK_run_br",
+   "export_file": "export/animations/run_br.fbx",
+   "export_take": "SK_run_br",
+   "unreal_asset": "/Game/MorphRig/Animations/A_run_br",
+   "face_curves": [],
+   "notes": "run cycle, travel -135 deg rel. facing, stride 2.80 m",
+   "required_form": "loop",
+   "required_root_movement": "in_place",
+   "required_duration": "0.6–1.8",
+   "duration_in_range": true,
+   "required_behavior": "Run back-right; retain facing, synchronized contacts, genuine directional gait.",
+   "qa": {
+    "loop_seam": 0.153,
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.02
+    },
+    "min_body_z_cm": -0.08,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "run_r",
+   "required": true,
+   "form": "loop",
+   "loop": true,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    21
+   ],
+   "frame_count": 22,
+   "duration_s": 0.7,
+   "nominal_speed_cms": 400.0,
+   "entry_states": "locomotion",
+   "exit_states": "locomotion",
+   "event_markers": [
+    {
+     "frame": 0,
+     "time_s": 0.0,
+     "name": "foot_l_down"
+    },
+    {
+     "frame": 10,
+     "time_s": 0.3333,
+     "name": "foot_r_down"
+    },
+    {
+     "frame": 7,
+     "time_s": 0.2333,
+     "name": "foot_l_up"
+    },
+    {
+     "frame": 18,
+     "time_s": 0.6,
+     "name": "foot_r_up"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_run_r",
+   "source_action_baked": "SK_run_r",
+   "export_file": "export/animations/run_r.fbx",
+   "export_take": "SK_run_r",
+   "unreal_asset": "/Game/MorphRig/Animations/A_run_r",
+   "face_curves": [],
+   "notes": "run cycle, travel -90 deg rel. facing, stride 2.80 m",
+   "required_form": "loop",
+   "required_root_movement": "in_place",
+   "required_duration": "0.6–1.8",
+   "duration_in_range": true,
+   "required_behavior": "Run right strafe; retain facing, synchronized contacts, genuine directional gait.",
+   "qa": {
+    "loop_seam": 0.126,
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.01
+    },
+    "min_body_z_cm": -0.09,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "run_fr",
+   "required": true,
+   "form": "loop",
+   "loop": true,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    21
+   ],
+   "frame_count": 22,
+   "duration_s": 0.7,
+   "nominal_speed_cms": 400.0,
+   "entry_states": "locomotion",
+   "exit_states": "locomotion",
+   "event_markers": [
+    {
+     "frame": 0,
+     "time_s": 0.0,
+     "name": "foot_l_down"
+    },
+    {
+     "frame": 10,
+     "time_s": 0.3333,
+     "name": "foot_r_down"
+    },
+    {
+     "frame": 7,
+     "time_s": 0.2333,
+     "name": "foot_l_up"
+    },
+    {
+     "frame": 18,
+     "time_s": 0.6,
+     "name": "foot_r_up"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_run_fr",
+   "source_action_baked": "SK_run_fr",
+   "export_file": "export/animations/run_fr.fbx",
+   "export_take": "SK_run_fr",
+   "unreal_asset": "/Game/MorphRig/Animations/A_run_fr",
+   "face_curves": [],
+   "notes": "run cycle, travel -45 deg rel. facing, stride 2.80 m",
+   "required_form": "loop",
+   "required_root_movement": "in_place",
+   "required_duration": "0.6–1.8",
+   "duration_in_range": true,
+   "required_behavior": "Run forward-right; retain facing, synchronized contacts, genuine directional gait.",
+   "qa": {
+    "loop_seam": 0.11,
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.01
+    },
+    "min_body_z_cm": -0.12,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "sprint_f",
+   "required": true,
+   "form": "loop",
+   "loop": true,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    19
+   ],
+   "frame_count": 20,
+   "duration_s": 0.6333,
+   "nominal_speed_cms": 650.0,
+   "entry_states": "locomotion",
+   "exit_states": "locomotion",
+   "event_markers": [
+    {
+     "frame": 0,
+     "time_s": 0.0,
+     "name": "foot_l_down"
+    },
+    {
+     "frame": 10,
+     "time_s": 0.3333,
+     "name": "foot_r_down"
+    },
+    {
+     "frame": 6,
+     "time_s": 0.2,
+     "name": "foot_l_up"
+    },
+    {
+     "frame": 15,
+     "time_s": 0.5,
+     "name": "foot_r_up"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_sprint_f",
+   "source_action_baked": "SK_sprint_f",
+   "export_file": "export/animations/sprint_f.fbx",
+   "export_take": "SK_sprint_f",
+   "unreal_asset": "/Game/MorphRig/Animations/A_sprint_f",
+   "face_curves": [],
+   "notes": "sprint cycle, travel +0 deg rel. facing, stride 4.12 m",
+   "required_form": "loop",
+   "required_root_movement": "in_place",
+   "required_duration": "0.4–1.2",
+   "duration_in_range": true,
+   "required_behavior": "Distinct full-effort forward sprint; not only a faster walk.",
+   "qa": {
+    "loop_seam": 0.092,
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.09,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "start_f",
+   "required": true,
+   "form": "one_shot",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    28
+   ],
+   "frame_count": 29,
+   "duration_s": 0.9333,
+   "nominal_speed_cms": 150.0,
+   "entry_states": "idle_relaxed|idle_combat",
+   "exit_states": "walk_f@0.516",
+   "event_markers": [
+    {
+     "frame": 3,
+     "time_s": 0.1,
+     "name": "foot_l_up"
+    },
+    {
+     "frame": 12,
+     "time_s": 0.4,
+     "name": "foot_l_down"
+    },
+    {
+     "frame": 15,
+     "time_s": 0.5,
+     "name": "foot_r_up"
+    },
+    {
+     "frame": 27,
+     "time_s": 0.9,
+     "name": "foot_r_down"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_start_f",
+   "source_action_baked": "SK_start_f",
+   "export_file": "export/animations/start_f.fbx",
+   "export_take": "SK_start_f",
+   "unreal_asset": "/Game/MorphRig/Animations/A_start_f",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthPress",
+    "mouthRollLower"
+   ],
+   "notes": "accelerate from stand: lean, left step, right step into the walk cycle (exit phase 0.516)",
+   "required_form": "one_shot",
+   "required_root_movement": "in_place",
+   "required_duration": "0.2–1.0",
+   "duration_in_range": true,
+   "required_behavior": "Accelerate from stand to forward travel.",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.11,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 0.39
+   }
+  },
+  {
+   "id": "stop_f",
+   "required": true,
+   "form": "one_shot",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    26
+   ],
+   "frame_count": 27,
+   "duration_s": 0.8667,
+   "nominal_speed_cms": 150.0,
+   "entry_states": "walk_f@0.0|run_f",
+   "exit_states": "idle_combat",
+   "event_markers": [
+    {
+     "frame": 0,
+     "time_s": 0.0,
+     "name": "foot_l_down"
+    },
+    {
+     "frame": 3,
+     "time_s": 0.1,
+     "name": "foot_r_up"
+    },
+    {
+     "frame": 14,
+     "time_s": 0.4667,
+     "name": "foot_r_down"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_stop_f",
+   "source_action_baked": "SK_stop_f",
+   "export_file": "export/animations/stop_f.fbx",
+   "export_take": "SK_stop_f",
+   "unreal_asset": "/Game/MorphRig/Animations/A_stop_f",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthPress",
+    "mouthRollLower"
+   ],
+   "notes": "brake from walk (enter at left heel strike): right foot plants beside, weight settles back",
+   "required_form": "one_shot",
+   "required_root_movement": "in_place",
+   "required_duration": "0.2–1.0",
+   "duration_in_range": true,
+   "required_behavior": "Brake into a planted stance.",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.01
+    },
+    "min_body_z_cm": -0.11,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 1.77
+   }
+  },
+  {
+   "id": "turn_l90",
+   "required": true,
+   "form": "one_shot",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    26
+   ],
+   "frame_count": 27,
+   "duration_s": 0.8667,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "idle_combat|idle_relaxed",
+   "exit_states": "idle_combat",
+   "event_markers": [
+    {
+     "frame": 3,
+     "time_s": 0.1,
+     "name": "foot_l_up"
+    },
+    {
+     "frame": 11,
+     "time_s": 0.3667,
+     "name": "foot_l_down"
+    },
+    {
+     "frame": 9,
+     "time_s": 0.3,
+     "name": "foot_r_up"
+    },
+    {
+     "frame": 19,
+     "time_s": 0.6333,
+     "name": "foot_r_down"
+    },
+    {
+     "frame": 24,
+     "time_s": 0.8,
+     "name": "foot_l_down"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_turn_l90",
+   "source_action_baked": "SK_turn_l90",
+   "export_file": "export/animations/turn_l90.fbx",
+   "export_take": "SK_turn_l90",
+   "unreal_asset": "/Game/MorphRig/Animations/A_turn_l90",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "eyeSquint_L",
+    "eyeSquint_R"
+   ],
+   "notes": "turn +90 deg in place with two steps; the body rotates relative to the root, the controller rotates the actor by the same amount (turn_yaw curve) and counter-rotates the mesh",
+   "required_form": "one_shot",
+   "required_root_movement": "in_place",
+   "required_duration": "0.2–1.0",
+   "duration_in_range": true,
+   "required_behavior": "Turn left 90 degrees with foot placement.",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.01,
+     "r": 0.01
+    },
+    "min_body_z_cm": -0.25,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 1.94
+   }
+  },
+  {
+   "id": "turn_r90",
+   "required": true,
+   "form": "one_shot",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    26
+   ],
+   "frame_count": 27,
+   "duration_s": 0.8667,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "idle_combat|idle_relaxed",
+   "exit_states": "idle_combat",
+   "event_markers": [
+    {
+     "frame": 3,
+     "time_s": 0.1,
+     "name": "foot_r_up"
+    },
+    {
+     "frame": 11,
+     "time_s": 0.3667,
+     "name": "foot_r_down"
+    },
+    {
+     "frame": 9,
+     "time_s": 0.3,
+     "name": "foot_l_up"
+    },
+    {
+     "frame": 19,
+     "time_s": 0.6333,
+     "name": "foot_l_down"
+    },
+    {
+     "frame": 24,
+     "time_s": 0.8,
+     "name": "foot_r_down"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_turn_r90",
+   "source_action_baked": "SK_turn_r90",
+   "export_file": "export/animations/turn_r90.fbx",
+   "export_take": "SK_turn_r90",
+   "unreal_asset": "/Game/MorphRig/Animations/A_turn_r90",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "eyeSquint_L",
+    "eyeSquint_R"
+   ],
+   "notes": "turn -90 deg in place with two steps; the body rotates relative to the root, the controller rotates the actor by the same amount (turn_yaw curve) and counter-rotates the mesh",
+   "required_form": "one_shot",
+   "required_root_movement": "in_place",
+   "required_duration": "0.2–1.0",
+   "duration_in_range": true,
+   "required_behavior": "Turn right 90 degrees with foot placement.",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.01,
+     "r": 0.01
+    },
+    "min_body_z_cm": -0.25,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 1.94
+   }
+  },
+  {
+   "id": "pivot_l180",
+   "required": true,
+   "form": "one_shot",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    30
+   ],
+   "frame_count": 31,
+   "duration_s": 1.0,
+   "nominal_speed_cms": 400.0,
+   "entry_states": "run_f@0.0",
+   "exit_states": "run_f@0.5 (rotated 180)",
+   "event_markers": [
+    {
+     "frame": 0,
+     "time_s": 0.0,
+     "name": "foot_l_down"
+    },
+    {
+     "frame": 2,
+     "time_s": 0.0667,
+     "name": "foot_r_up"
+    },
+    {
+     "frame": 9,
+     "time_s": 0.3,
+     "name": "foot_r_down"
+    },
+    {
+     "frame": 12,
+     "time_s": 0.4,
+     "name": "foot_l_up"
+    },
+    {
+     "frame": 16,
+     "time_s": 0.5333,
+     "name": "foot_r_up"
+    },
+    {
+     "frame": 19,
+     "time_s": 0.6333,
+     "name": "foot_l_down"
+    },
+    {
+     "frame": 25,
+     "time_s": 0.8333,
+     "name": "foot_l_up"
+    },
+    {
+     "frame": 30,
+     "time_s": 1.0,
+     "name": "foot_r_down"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_pivot_l180",
+   "source_action_baked": "SK_pivot_l180",
+   "export_file": "export/animations/pivot_l180.fbx",
+   "export_take": "SK_pivot_l180",
+   "unreal_asset": "/Game/MorphRig/Animations/A_pivot_l180",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthPress",
+    "mouthRollLower"
+   ],
+   "notes": "moving direction change: pivot foot plants, brake step, pivot step +180 deg, push off; world velocity reverses (speed curve), actor yaw follows the turn_yaw curve",
+   "required_form": "one_shot",
+   "required_root_movement": "in_place",
+   "required_duration": "0.2–1.0",
+   "duration_in_range": true,
+   "required_behavior": "Left 180-degree moving direction change.",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.01,
+     "r": 0.02
+    },
+    "min_body_z_cm": -0.12,
+    "body_clear_cm": -0.27,
+    "pelvis_drift_cm": 0.35
+   }
+  },
+  {
+   "id": "pivot_r180",
+   "required": true,
+   "form": "one_shot",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    30
+   ],
+   "frame_count": 31,
+   "duration_s": 1.0,
+   "nominal_speed_cms": 400.0,
+   "entry_states": "run_f@0.0",
+   "exit_states": "run_f@0.5 (rotated 180)",
+   "event_markers": [
+    {
+     "frame": 0,
+     "time_s": 0.0,
+     "name": "foot_r_down"
+    },
+    {
+     "frame": 2,
+     "time_s": 0.0667,
+     "name": "foot_l_up"
+    },
+    {
+     "frame": 9,
+     "time_s": 0.3,
+     "name": "foot_l_down"
+    },
+    {
+     "frame": 12,
+     "time_s": 0.4,
+     "name": "foot_r_up"
+    },
+    {
+     "frame": 16,
+     "time_s": 0.5333,
+     "name": "foot_l_up"
+    },
+    {
+     "frame": 19,
+     "time_s": 0.6333,
+     "name": "foot_r_down"
+    },
+    {
+     "frame": 25,
+     "time_s": 0.8333,
+     "name": "foot_r_up"
+    },
+    {
+     "frame": 30,
+     "time_s": 1.0,
+     "name": "foot_l_down"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_pivot_r180",
+   "source_action_baked": "SK_pivot_r180",
+   "export_file": "export/animations/pivot_r180.fbx",
+   "export_take": "SK_pivot_r180",
+   "unreal_asset": "/Game/MorphRig/Animations/A_pivot_r180",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthPress",
+    "mouthRollLower"
+   ],
+   "notes": "moving direction change: pivot foot plants, brake step, pivot step -180 deg, push off; world velocity reverses (speed curve), actor yaw follows the turn_yaw curve",
+   "required_form": "one_shot",
+   "required_root_movement": "in_place",
+   "required_duration": "0.2–1.0",
+   "duration_in_range": true,
+   "required_behavior": "Right 180-degree moving direction change.",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.02,
+     "r": 0.01
+    },
+    "min_body_z_cm": -0.12,
+    "body_clear_cm": -0.27,
+    "pelvis_drift_cm": 0.35
+   }
+  },
+  {
+   "id": "jump_start",
+   "required": true,
+   "form": "one_shot",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    16
+   ],
+   "frame_count": 17,
+   "duration_s": 0.5333,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "idle|locomotion",
+   "exit_states": "jump_air",
+   "event_markers": [
+    {
+     "frame": 7,
+     "time_s": 0.2333,
+     "name": "jump_load"
+    },
+    {
+     "frame": 12,
+     "time_s": 0.4,
+     "name": "takeoff"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_jump_start",
+   "source_action_baked": "SK_jump_start",
+   "export_file": "export/animations/jump_start.fbx",
+   "export_take": "SK_jump_start",
+   "unreal_asset": "/Game/MorphRig/Animations/A_jump_start",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthPress",
+    "mouthRollLower"
+   ],
+   "notes": "anticipation crouch with arm back-swing, explosive extension; feet leave the floor at f12 (controller launches the capsule on the 'takeoff' event)",
+   "required_form": "one_shot",
+   "required_root_movement": "in_place",
+   "required_duration": "0.2–1.2",
+   "duration_in_range": true,
+   "required_behavior": "Visible anticipation and takeoff.",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.42,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 1.5
+   }
+  },
+  {
+   "id": "jump_air",
+   "required": true,
+   "form": "loop",
+   "loop": true,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    24
+   ],
+   "frame_count": 25,
+   "duration_s": 0.8,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "jump_start",
+   "exit_states": "jump_land|fall",
+   "event_markers": [],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_jump_air",
+   "source_action_baked": "SK_jump_air",
+   "export_file": "export/animations/jump_air.fbx",
+   "export_take": "SK_jump_air",
+   "unreal_asset": "/Game/MorphRig/Animations/A_jump_air",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthPress",
+    "mouthRollLower"
+   ],
+   "notes": "controllable airborne posture: gentle limb drift, looks toward the landing",
+   "required_form": "loop",
+   "required_root_movement": "in_place",
+   "required_duration": "0.2–1.2",
+   "duration_in_range": true,
+   "required_behavior": "Controllable airborne posture.",
+   "qa": {
+    "loop_seam": 0.042,
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": 3.04,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "jump_land",
+   "required": true,
+   "form": "one_shot",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    20
+   ],
+   "frame_count": 21,
+   "duration_s": 0.6667,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "jump_air",
+   "exit_states": "idle|locomotion",
+   "event_markers": [
+    {
+     "frame": 0,
+     "time_s": 0.0,
+     "name": "land_contact"
+    },
+    {
+     "frame": 0,
+     "time_s": 0.0,
+     "name": "foot_l_down"
+    },
+    {
+     "frame": 1,
+     "time_s": 0.0333,
+     "name": "foot_r_down"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_jump_land",
+   "source_action_baked": "SK_jump_land",
+   "export_file": "export/animations/jump_land.fbx",
+   "export_take": "SK_jump_land",
+   "unreal_asset": "/Game/MorphRig/Animations/A_jump_land",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthPress",
+    "mouthRollLower"
+   ],
+   "notes": "soft landing: toes first, knees absorb, recover to the stance",
+   "required_form": "one_shot",
+   "required_root_movement": "in_place",
+   "required_duration": "0.2–1.2",
+   "duration_in_range": true,
+   "required_behavior": "Soft landing with compression and recovery.",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.09,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 1.5
+   }
+  },
+  {
+   "id": "fall",
+   "required": true,
+   "form": "loop",
+   "loop": true,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    30
+   ],
+   "frame_count": 31,
+   "duration_s": 1.0,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "jump_air|knockup_air|any",
+   "exit_states": "jump_land|land_heavy",
+   "event_markers": [],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_fall",
+   "source_action_baked": "SK_fall",
+   "export_file": "export/animations/fall.fbx",
+   "export_take": "SK_fall",
+   "unreal_asset": "/Game/MorphRig/Animations/A_fall",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "browInnerUp_L",
+    "browInnerUp_R",
+    "browOuterUp_L",
+    "browOuterUp_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthFunnel"
+   ],
+   "notes": "long-fall posture: arms up and wide, legs apart, looks down",
+   "required_form": "loop",
+   "required_root_movement": "in_place",
+   "required_duration": "0.2–1.2",
+   "duration_in_range": true,
+   "required_behavior": "Long-fall posture, distinct from the jump apex.",
+   "qa": {
+    "loop_seam": 0.044,
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": 3.21,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "land_heavy",
+   "required": true,
+   "form": "one_shot",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    36
+   ],
+   "frame_count": 37,
+   "duration_s": 1.2,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "fall",
+   "exit_states": "idle_combat",
+   "event_markers": [
+    {
+     "frame": 0,
+     "time_s": 0.0,
+     "name": "land_contact"
+    },
+    {
+     "frame": 6,
+     "time_s": 0.2,
+     "name": "hand_l_contact"
+    },
+    {
+     "frame": 18,
+     "time_s": 0.6,
+     "name": "hand_l_release"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_land_heavy",
+   "source_action_baked": "SK_land_heavy",
+   "export_file": "export/animations/land_heavy.fbx",
+   "export_take": "SK_land_heavy",
+   "unreal_asset": "/Game/MorphRig/Animations/A_land_heavy",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "browInnerUp_L",
+    "browInnerUp_R",
+    "cheekRaise_L",
+    "cheekRaise_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthPress",
+    "mouthRollLower",
+    "mouthStretch_L",
+    "mouthStretch_R",
+    "mouthUpperUp_L",
+    "mouthUpperUp_R",
+    "noseSneer_L",
+    "noseSneer_R"
+   ],
+   "notes": "hard landing: deep compression with a left-hand floor touch, heavy recovery",
+   "required_form": "one_shot",
+   "required_root_movement": "in_place",
+   "required_duration": "0.2–1.2",
+   "duration_in_range": true,
+   "required_behavior": "Hard landing with clear weight and recovery.",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.07,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 1.26
+   }
+  },
+  {
+   "id": "dash_f",
+   "required": true,
+   "form": "one_shot",
+   "loop": false,
+   "root_motion_policy": "root_motion",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    16
+   ],
+   "frame_count": 17,
+   "duration_s": 0.5333,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "combat|locomotion",
+   "exit_states": "combat|locomotion",
+   "event_markers": [
+    {
+     "frame": 2,
+     "time_s": 0.0667,
+     "name": "dash_start"
+    },
+    {
+     "frame": 3,
+     "time_s": 0.1,
+     "name": "foot_r_up"
+    },
+    {
+     "frame": 5,
+     "time_s": 0.1667,
+     "name": "foot_l_up"
+    },
+    {
+     "frame": 11,
+     "time_s": 0.3667,
+     "name": "foot_r_down"
+    },
+    {
+     "frame": 13,
+     "time_s": 0.4333,
+     "name": "foot_l_down"
+    },
+    {
+     "frame": 14,
+     "time_s": 0.4667,
+     "name": "dash_end"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_dash_f",
+   "source_action_baked": "SK_dash_f",
+   "export_file": "export/animations/dash_f.fbx",
+   "export_take": "SK_dash_f",
+   "unreal_asset": "/Game/MorphRig/Animations/A_dash_f",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthPress",
+    "mouthRollLower"
+   ],
+   "notes": "ground dash +0 deg: root bone travels 2.0 m (drives the capsule)",
+   "required_form": "one_shot",
+   "required_root_movement": "root_motion",
+   "required_duration": "0.25–0.65",
+   "duration_in_range": true,
+   "required_behavior": "Ground dash forward, 2 m nominal horizontal displacement; controller/capsule tracks motion.",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.01,
+     "r": 0.01
+    },
+    "min_body_z_cm": -0.07,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 200.0
+   }
+  },
+  {
+   "id": "dash_b",
+   "required": true,
+   "form": "one_shot",
+   "loop": false,
+   "root_motion_policy": "root_motion",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    16
+   ],
+   "frame_count": 17,
+   "duration_s": 0.5333,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "combat|locomotion",
+   "exit_states": "combat|locomotion",
+   "event_markers": [
+    {
+     "frame": 2,
+     "time_s": 0.0667,
+     "name": "dash_start"
+    },
+    {
+     "frame": 3,
+     "time_s": 0.1,
+     "name": "foot_r_up"
+    },
+    {
+     "frame": 5,
+     "time_s": 0.1667,
+     "name": "foot_l_up"
+    },
+    {
+     "frame": 11,
+     "time_s": 0.3667,
+     "name": "foot_r_down"
+    },
+    {
+     "frame": 13,
+     "time_s": 0.4333,
+     "name": "foot_l_down"
+    },
+    {
+     "frame": 14,
+     "time_s": 0.4667,
+     "name": "dash_end"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_dash_b",
+   "source_action_baked": "SK_dash_b",
+   "export_file": "export/animations/dash_b.fbx",
+   "export_take": "SK_dash_b",
+   "unreal_asset": "/Game/MorphRig/Animations/A_dash_b",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthPress",
+    "mouthRollLower"
+   ],
+   "notes": "ground dash +180 deg: root bone travels 2.0 m (drives the capsule)",
+   "required_form": "one_shot",
+   "required_root_movement": "root_motion",
+   "required_duration": "0.25–0.65",
+   "duration_in_range": true,
+   "required_behavior": "Ground dash backward, 2 m nominal horizontal displacement; controller/capsule tracks motion.",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.01,
+     "r": 0.01
+    },
+    "min_body_z_cm": -0.07,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 200.0
+   }
+  },
+  {
+   "id": "dash_l",
+   "required": true,
+   "form": "one_shot",
+   "loop": false,
+   "root_motion_policy": "root_motion",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    16
+   ],
+   "frame_count": 17,
+   "duration_s": 0.5333,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "combat|locomotion",
+   "exit_states": "combat|locomotion",
+   "event_markers": [
+    {
+     "frame": 2,
+     "time_s": 0.0667,
+     "name": "dash_start"
+    },
+    {
+     "frame": 3,
+     "time_s": 0.1,
+     "name": "foot_r_up"
+    },
+    {
+     "frame": 5,
+     "time_s": 0.1667,
+     "name": "foot_l_up"
+    },
+    {
+     "frame": 11,
+     "time_s": 0.3667,
+     "name": "foot_r_down"
+    },
+    {
+     "frame": 13,
+     "time_s": 0.4333,
+     "name": "foot_l_down"
+    },
+    {
+     "frame": 14,
+     "time_s": 0.4667,
+     "name": "dash_end"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_dash_l",
+   "source_action_baked": "SK_dash_l",
+   "export_file": "export/animations/dash_l.fbx",
+   "export_take": "SK_dash_l",
+   "unreal_asset": "/Game/MorphRig/Animations/A_dash_l",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthPress",
+    "mouthRollLower"
+   ],
+   "notes": "ground dash +90 deg: root bone travels 2.0 m (drives the capsule)",
+   "required_form": "one_shot",
+   "required_root_movement": "root_motion",
+   "required_duration": "0.25–0.65",
+   "duration_in_range": true,
+   "required_behavior": "Ground dash left, 2 m nominal horizontal displacement; controller/capsule tracks motion.",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.01,
+     "r": 0.01
+    },
+    "min_body_z_cm": -0.07,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 200.0
+   }
+  },
+  {
+   "id": "dash_r",
+   "required": true,
+   "form": "one_shot",
+   "loop": false,
+   "root_motion_policy": "root_motion",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    16
+   ],
+   "frame_count": 17,
+   "duration_s": 0.5333,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "combat|locomotion",
+   "exit_states": "combat|locomotion",
+   "event_markers": [
+    {
+     "frame": 2,
+     "time_s": 0.0667,
+     "name": "dash_start"
+    },
+    {
+     "frame": 3,
+     "time_s": 0.1,
+     "name": "foot_r_up"
+    },
+    {
+     "frame": 5,
+     "time_s": 0.1667,
+     "name": "foot_l_up"
+    },
+    {
+     "frame": 11,
+     "time_s": 0.3667,
+     "name": "foot_r_down"
+    },
+    {
+     "frame": 13,
+     "time_s": 0.4333,
+     "name": "foot_l_down"
+    },
+    {
+     "frame": 14,
+     "time_s": 0.4667,
+     "name": "dash_end"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_dash_r",
+   "source_action_baked": "SK_dash_r",
+   "export_file": "export/animations/dash_r.fbx",
+   "export_take": "SK_dash_r",
+   "unreal_asset": "/Game/MorphRig/Animations/A_dash_r",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthPress",
+    "mouthRollLower"
+   ],
+   "notes": "ground dash -90 deg: root bone travels 2.0 m (drives the capsule)",
+   "required_form": "one_shot",
+   "required_root_movement": "root_motion",
+   "required_duration": "0.25–0.65",
+   "duration_in_range": true,
+   "required_behavior": "Ground dash right, 2 m nominal horizontal displacement; controller/capsule tracks motion.",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.01,
+     "r": 0.01
+    },
+    "min_body_z_cm": -0.07,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 200.0
+   }
+  },
+  {
+   "id": "blink_out",
+   "required": true,
+   "form": "one_shot",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    12
+   ],
+   "frame_count": 13,
+   "duration_s": 0.4,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "combat|locomotion",
+   "exit_states": "blink_in",
+   "event_markers": [
+    {
+     "frame": 4,
+     "time_s": 0.1333,
+     "name": "blink_charge"
+    },
+    {
+     "frame": 11,
+     "time_s": 0.3667,
+     "name": "blink_teleport"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_blink_out",
+   "source_action_baked": "SK_blink_out",
+   "export_file": "export/animations/blink_out.fbx",
+   "export_take": "SK_blink_out",
+   "unreal_asset": "/Game/MorphRig/Animations/A_blink_out",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "browInnerUp_L",
+    "browInnerUp_R",
+    "browOuterUp_L",
+    "browOuterUp_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthFunnel",
+    "mouthPress",
+    "mouthRollLower"
+   ],
+   "notes": "compress and vanish: gather, crouch, burst; actor teleport happens on 'blink_teleport' (no baked travel)",
+   "required_form": "one_shot",
+   "required_root_movement": "in_place",
+   "required_duration": "0.15–0.6",
+   "duration_in_range": true,
+   "required_behavior": "Anticipation and disappearance transition; actor teleport is an event, not baked travel.",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.0,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 4.11
+   }
+  },
+  {
+   "id": "blink_in",
+   "required": true,
+   "form": "one_shot",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    14
+   ],
+   "frame_count": 15,
+   "duration_s": 0.4667,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "blink_out",
+   "exit_states": "combat",
+   "event_markers": [
+    {
+     "frame": 0,
+     "time_s": 0.0,
+     "name": "blink_appear"
+    },
+    {
+     "frame": 0,
+     "time_s": 0.0,
+     "name": "foot_l_down"
+    },
+    {
+     "frame": 0,
+     "time_s": 0.0,
+     "name": "foot_r_down"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_blink_in",
+   "source_action_baked": "SK_blink_in",
+   "export_file": "export/animations/blink_in.fbx",
+   "export_take": "SK_blink_in",
+   "unreal_asset": "/Game/MorphRig/Animations/A_blink_in",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthPress",
+    "mouthRollLower"
+   ],
+   "notes": "reappear compressed, plant and settle at the destination",
+   "required_form": "one_shot",
+   "required_root_movement": "in_place",
+   "required_duration": "0.15–0.6",
+   "duration_in_range": true,
+   "required_behavior": "Reappearance, plant and settle at destination.",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.0,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 1.11
+   }
+  },
+  {
+   "id": "melee_1",
+   "required": true,
+   "form": "one_shot",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    22
+   ],
+   "frame_count": 23,
+   "duration_s": 0.7333,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "combat",
+   "exit_states": "combat|melee_2",
+   "event_markers": [
+    {
+     "frame": 2,
+     "time_s": 0.0667,
+     "name": "blade_out"
+    },
+    {
+     "frame": 8,
+     "time_s": 0.2667,
+     "name": "hit_start"
+    },
+    {
+     "frame": 11,
+     "time_s": 0.3667,
+     "name": "hit_end"
+    },
+    {
+     "frame": 14,
+     "time_s": 0.4667,
+     "name": "recovery_start"
+    },
+    {
+     "frame": 14,
+     "time_s": 0.4667,
+     "name": "combo_open"
+    },
+    {
+     "frame": 21,
+     "time_s": 0.7,
+     "name": "combo_close"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_melee_1",
+   "source_action_baked": "SK_melee_1",
+   "export_file": "export/animations/melee_1.fbx",
+   "export_take": "SK_melee_1",
+   "unreal_asset": "/Game/MorphRig/Animations/A_melee_1",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthFrown_L",
+    "mouthFrown_R",
+    "mouthPress",
+    "mouthRollLower",
+    "mouthUpperUp_L",
+    "mouthUpperUp_R",
+    "noseSneer_L",
+    "noseSneer_R"
+   ],
+   "notes": "diagonal forearm-blade slash high-right to low-left",
+   "required_form": "one_shot",
+   "required_root_movement": "in_place",
+   "required_duration": "0.4–1.2",
+   "duration_in_range": true,
+   "required_behavior": "Diagonal forearm-blade slash. Supply hit-window and recovery markers.",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.06,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "melee_2",
+   "required": true,
+   "form": "one_shot",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    22
+   ],
+   "frame_count": 23,
+   "duration_s": 0.7333,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "combat|melee_1",
+   "exit_states": "combat|melee_3",
+   "event_markers": [
+    {
+     "frame": 10,
+     "time_s": 0.3333,
+     "name": "hit_start"
+    },
+    {
+     "frame": 13,
+     "time_s": 0.4333,
+     "name": "hit_end"
+    },
+    {
+     "frame": 16,
+     "time_s": 0.5333,
+     "name": "recovery_start"
+    },
+    {
+     "frame": 16,
+     "time_s": 0.5333,
+     "name": "combo_open"
+    },
+    {
+     "frame": 21,
+     "time_s": 0.7,
+     "name": "combo_close"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_melee_2",
+   "source_action_baked": "SK_melee_2",
+   "export_file": "export/animations/melee_2.fbx",
+   "export_take": "SK_melee_2",
+   "unreal_asset": "/Game/MorphRig/Animations/A_melee_2",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthFrown_L",
+    "mouthFrown_R",
+    "mouthPress",
+    "mouthRollLower",
+    "mouthUpperUp_L",
+    "mouthUpperUp_R",
+    "noseSneer_L",
+    "noseSneer_R"
+   ],
+   "notes": "reverse (backhand) slash left-to-right with weight shift onto the front foot then back",
+   "required_form": "one_shot",
+   "required_root_movement": "in_place",
+   "required_duration": "0.4–1.2",
+   "duration_in_range": true,
+   "required_behavior": "Reverse slash with different preparation and weight shift. Supply hit-window and recovery markers.",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.08,
+    "body_clear_cm": -0.28,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "melee_3",
+   "required": true,
+   "form": "one_shot",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    34
+   ],
+   "frame_count": 35,
+   "duration_s": 1.1333,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "combat|melee_2",
+   "exit_states": "combat",
+   "event_markers": [
+    {
+     "frame": 12,
+     "time_s": 0.4,
+     "name": "hit_start"
+    },
+    {
+     "frame": 16,
+     "time_s": 0.5333,
+     "name": "hit_end"
+    },
+    {
+     "frame": 21,
+     "time_s": 0.7,
+     "name": "recovery_start"
+    },
+    {
+     "frame": 13,
+     "time_s": 0.4333,
+     "name": "foot_l_down"
+    },
+    {
+     "frame": 28,
+     "time_s": 0.9333,
+     "name": "foot_l_down"
+    },
+    {
+     "frame": 30,
+     "time_s": 1.0,
+     "name": "blade_in"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_melee_3",
+   "source_action_baked": "SK_melee_3",
+   "export_file": "export/animations/melee_3.fbx",
+   "export_take": "SK_melee_3",
+   "unreal_asset": "/Game/MorphRig/Animations/A_melee_3",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthFrown_L",
+    "mouthFrown_R",
+    "mouthPress",
+    "mouthRollLower",
+    "mouthUpperUp_L",
+    "mouthUpperUp_R",
+    "noseSneer_L",
+    "noseSneer_R"
+   ],
+   "notes": "committed overhead finisher with lunge step and blade retraction",
+   "required_form": "one_shot",
+   "required_root_movement": "in_place",
+   "required_duration": "0.4–1.2",
+   "duration_in_range": true,
+   "required_behavior": "Committed finisher with distinct follow-through. Supply hit-window and recovery markers.",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.11,
+    "body_clear_cm": -0.26,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "ranged_fire",
+   "required": true,
+   "form": "one_shot",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "upper_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    12
+   ],
+   "frame_count": 13,
+   "duration_s": 0.4,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "any_locomotion",
+   "exit_states": "previous",
+   "event_markers": [
+    {
+     "frame": 2,
+     "time_s": 0.0667,
+     "name": "muzzle_fire"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_ranged_fire",
+   "source_action_baked": "SK_ranged_fire",
+   "export_file": "export/animations/ranged_fire.fbx",
+   "export_take": "SK_ranged_fire",
+   "unreal_asset": "/Game/MorphRig/Animations/A_ranged_fire",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthFrown_L",
+    "mouthFrown_R",
+    "mouthPress",
+    "mouthRollLower",
+    "mouthUpperUp_L",
+    "mouthUpperUp_R",
+    "noseSneer_L",
+    "noseSneer_R"
+   ],
+   "notes": "wrist-emitter single shot with recoil; upper-body layer (legs untouched)",
+   "required_form": "one_shot",
+   "required_root_movement": "in_place",
+   "required_duration": "0.15–0.5",
+   "duration_in_range": true,
+   "required_behavior": "Wrist-emitter single shot, recoil and recovery; supports moving upper-body layering.",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.0,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "ranged_burst",
+   "required": true,
+   "form": "one_shot",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "upper_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    22
+   ],
+   "frame_count": 23,
+   "duration_s": 0.7333,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "any_locomotion",
+   "exit_states": "previous",
+   "event_markers": [
+    {
+     "frame": 2,
+     "time_s": 0.0667,
+     "name": "muzzle_fire_1"
+    },
+    {
+     "frame": 8,
+     "time_s": 0.2667,
+     "name": "muzzle_fire_2"
+    },
+    {
+     "frame": 14,
+     "time_s": 0.4667,
+     "name": "muzzle_fire_3"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_ranged_burst",
+   "source_action_baked": "SK_ranged_burst",
+   "export_file": "export/animations/ranged_burst.fbx",
+   "export_take": "SK_ranged_burst",
+   "unreal_asset": "/Game/MorphRig/Animations/A_ranged_burst",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthFrown_L",
+    "mouthFrown_R",
+    "mouthPress",
+    "mouthRollLower",
+    "mouthUpperUp_L",
+    "mouthUpperUp_R",
+    "noseSneer_L",
+    "noseSneer_R"
+   ],
+   "notes": "three-shot burst; three distinct muzzle events",
+   "required_form": "one_shot",
+   "required_root_movement": "in_place",
+   "required_duration": "0.35–0.8",
+   "duration_in_range": true,
+   "required_behavior": "Three-shot burst with three distinct muzzle-event markers.",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.0,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "reload",
+   "required": true,
+   "form": "one_shot",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "upper_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    56
+   ],
+   "frame_count": 57,
+   "duration_s": 1.8667,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "combat|locomotion",
+   "exit_states": "previous",
+   "event_markers": [
+    {
+     "frame": 15,
+     "time_s": 0.5,
+     "name": "cell_grab"
+    },
+    {
+     "frame": 22,
+     "time_s": 0.7333,
+     "name": "cell_out"
+    },
+    {
+     "frame": 31,
+     "time_s": 1.0333,
+     "name": "cell_charge"
+    },
+    {
+     "frame": 45,
+     "time_s": 1.5,
+     "name": "cell_seated"
+    },
+    {
+     "frame": 47,
+     "time_s": 1.5667,
+     "name": "reload_handoff"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_reload",
+   "source_action_baked": "SK_reload",
+   "export_file": "export/animations/reload.fbx",
+   "export_take": "SK_reload",
+   "unreal_asset": "/Game/MorphRig/Animations/A_reload",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthPress",
+    "mouthRollLower"
+   ],
+   "notes": "left hand pulls the power cell from the cyber-forearm cradle, recharges it on the hip pad, flips and re-seats it; cell parent switches at grab/seat frames",
+   "required_form": "one_shot",
+   "required_root_movement": "in_place",
+   "required_duration": "1–2.5",
+   "duration_in_range": true,
+   "required_behavior": "Physical emitter-cell manipulation with correct hand/object contact.",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.0,
+    "body_clear_cm": -0.3,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "cast_directional",
+   "required": true,
+   "form": "one_shot",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "upper_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    26
+   ],
+   "frame_count": 27,
+   "duration_s": 0.8667,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "combat|locomotion",
+   "exit_states": "previous",
+   "event_markers": [
+    {
+     "frame": 4,
+     "time_s": 0.1333,
+     "name": "cast_gather"
+    },
+    {
+     "frame": 12,
+     "time_s": 0.4,
+     "name": "cast_release"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_cast_directional",
+   "source_action_baked": "SK_cast_directional",
+   "export_file": "export/animations/cast_directional.fbx",
+   "export_take": "SK_cast_directional",
+   "unreal_asset": "/Game/MorphRig/Animations/A_cast_directional",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthFrown_L",
+    "mouthFrown_R",
+    "mouthPress",
+    "mouthRollLower",
+    "mouthUpperUp_L",
+    "mouthUpperUp_R",
+    "noseSneer_L",
+    "noseSneer_R"
+   ],
+   "notes": "left palm gathers at the right shoulder then thrusts toward the target",
+   "required_form": "one_shot",
+   "required_root_movement": "in_place",
+   "required_duration": "0.4–1.2",
+   "duration_in_range": true,
+   "required_behavior": "Readable direction-targeted release.",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.07,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "cast_ground",
+   "required": true,
+   "form": "one_shot",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    32
+   ],
+   "frame_count": 33,
+   "duration_s": 1.0667,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "combat",
+   "exit_states": "combat",
+   "event_markers": [
+    {
+     "frame": 6,
+     "time_s": 0.2,
+     "name": "cast_gather"
+    },
+    {
+     "frame": 16,
+     "time_s": 0.5333,
+     "name": "cast_release"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_cast_ground",
+   "source_action_baked": "SK_cast_ground",
+   "export_file": "export/animations/cast_ground.fbx",
+   "export_take": "SK_cast_ground",
+   "unreal_asset": "/Game/MorphRig/Animations/A_cast_ground",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthFrown_L",
+    "mouthFrown_R",
+    "mouthPress",
+    "mouthRollLower",
+    "mouthUpperUp_L",
+    "mouthUpperUp_R",
+    "noseSneer_L",
+    "noseSneer_R"
+   ],
+   "notes": "ground-targeted slam 2 m ahead with look-down",
+   "required_form": "one_shot",
+   "required_root_movement": "in_place",
+   "required_duration": "0.5–1.5",
+   "duration_in_range": true,
+   "required_behavior": "Ground-targeted placement/cast with look direction.",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.05,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "cast_self",
+   "required": true,
+   "form": "one_shot",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    26
+   ],
+   "frame_count": 27,
+   "duration_s": 0.8667,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "combat",
+   "exit_states": "combat",
+   "event_markers": [
+    {
+     "frame": 4,
+     "time_s": 0.1333,
+     "name": "cast_gather"
+    },
+    {
+     "frame": 12,
+     "time_s": 0.4,
+     "name": "cast_release"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_cast_self",
+   "source_action_baked": "SK_cast_self",
+   "export_file": "export/animations/cast_self.fbx",
+   "export_take": "SK_cast_self",
+   "unreal_asset": "/Game/MorphRig/Animations/A_cast_self",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "browInnerUp_L",
+    "browInnerUp_R",
+    "browOuterUp_L",
+    "browOuterUp_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthFunnel",
+    "mouthPress",
+    "mouthRollLower"
+   ],
+   "notes": "defensive self-centred pulse: arms cross, then burst outward",
+   "required_form": "one_shot",
+   "required_root_movement": "in_place",
+   "required_duration": "0.4–1.2",
+   "duration_in_range": true,
+   "required_behavior": "Self-centered defensive/emission cast.",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.0,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "channel_start",
+   "required": true,
+   "form": "one_shot",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    16
+   ],
+   "frame_count": 17,
+   "duration_s": 0.5333,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "combat",
+   "exit_states": "channel_loop",
+   "event_markers": [
+    {
+     "frame": 10,
+     "time_s": 0.3333,
+     "name": "foot_l_down"
+    },
+    {
+     "frame": 16,
+     "time_s": 0.5333,
+     "name": "channel_begin"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_channel_start",
+   "source_action_baked": "SK_channel_start",
+   "export_file": "export/animations/channel_start.fbx",
+   "export_take": "SK_channel_start",
+   "unreal_asset": "/Game/MorphRig/Animations/A_channel_start",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthPress",
+    "mouthRollLower"
+   ],
+   "notes": "brace and raise the left palm, right hand supports the left forearm",
+   "required_form": "one_shot",
+   "required_root_movement": "in_place",
+   "required_duration": "0.2–0.8",
+   "duration_in_range": true,
+   "required_behavior": "Enter sustainable channel pose.",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.0,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 1.5
+   }
+  },
+  {
+   "id": "channel_loop",
+   "required": true,
+   "form": "loop",
+   "loop": true,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    40
+   ],
+   "frame_count": 41,
+   "duration_s": 1.3333,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "channel_start",
+   "exit_states": "channel_end|channel_interrupt",
+   "event_markers": [
+    {
+     "frame": 0,
+     "time_s": 0.0,
+     "name": "channel_pulse"
+    },
+    {
+     "frame": 20,
+     "time_s": 0.6667,
+     "name": "channel_pulse"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_channel_loop",
+   "source_action_baked": "SK_channel_loop",
+   "export_file": "export/animations/channel_loop.fbx",
+   "export_take": "SK_channel_loop",
+   "unreal_asset": "/Game/MorphRig/Animations/A_channel_loop",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthPress",
+    "mouthRollLower"
+   ],
+   "notes": "sustained beam; restrained pulses and breathing",
+   "required_form": "loop",
+   "required_root_movement": "in_place",
+   "required_duration": "0.6–2",
+   "duration_in_range": true,
+   "required_behavior": "Sustained beam-like emission, with restrained motion.",
+   "qa": {
+    "loop_seam": 0.038,
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.0,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "channel_end",
+   "required": true,
+   "form": "one_shot",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    18
+   ],
+   "frame_count": 19,
+   "duration_s": 0.6,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "channel_loop",
+   "exit_states": "combat",
+   "event_markers": [
+    {
+     "frame": 6,
+     "time_s": 0.2,
+     "name": "channel_complete"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_channel_end",
+   "source_action_baked": "SK_channel_end",
+   "export_file": "export/animations/channel_end.fbx",
+   "export_take": "SK_channel_end",
+   "unreal_asset": "/Game/MorphRig/Animations/A_channel_end",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "browOuterUp_L",
+    "browOuterUp_R",
+    "cheekRaise_L",
+    "cheekRaise_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthPress",
+    "mouthRollLower",
+    "mouthSmile_L",
+    "mouthSmile_R",
+    "mouthStretch_L",
+    "mouthStretch_R"
+   ],
+   "notes": "deliberate successful release: final push then relax",
+   "required_form": "one_shot",
+   "required_root_movement": "in_place",
+   "required_duration": "0.2–0.8",
+   "duration_in_range": true,
+   "required_behavior": "Deliberate successful channel release.",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.0,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 1.5
+   }
+  },
+  {
+   "id": "channel_interrupt",
+   "required": true,
+   "form": "one_shot",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    14
+   ],
+   "frame_count": 15,
+   "duration_s": 0.4667,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "channel_loop|channel_start",
+   "exit_states": "combat",
+   "event_markers": [
+    {
+     "frame": 1,
+     "time_s": 0.0333,
+     "name": "channel_broken"
+    },
+    {
+     "frame": 8,
+     "time_s": 0.2667,
+     "name": "foot_l_down"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_channel_interrupt",
+   "source_action_baked": "SK_channel_interrupt",
+   "export_file": "export/animations/channel_interrupt.fbx",
+   "export_take": "SK_channel_interrupt",
+   "unreal_asset": "/Game/MorphRig/Animations/A_channel_interrupt",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "browInnerUp_L",
+    "browInnerUp_R",
+    "cheekRaise_L",
+    "cheekRaise_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthPress",
+    "mouthRollLower",
+    "mouthStretch_L",
+    "mouthStretch_R",
+    "mouthUpperUp_L",
+    "mouthUpperUp_R",
+    "noseSneer_L",
+    "noseSneer_R"
+   ],
+   "notes": "forced interruption: jolt back, arms thrown up, stagger step",
+   "required_form": "one_shot",
+   "required_root_movement": "in_place",
+   "required_duration": "0.15–0.6",
+   "duration_in_range": true,
+   "required_behavior": "Forced channel interruption distinct from completion.",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.0,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 1.5
+   }
+  },
+  {
+   "id": "charge_start",
+   "required": true,
+   "form": "one_shot",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    20
+   ],
+   "frame_count": 21,
+   "duration_s": 0.6667,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "combat",
+   "exit_states": "charge_hold",
+   "event_markers": [
+    {
+     "frame": 4,
+     "time_s": 0.1333,
+     "name": "charge_begin"
+    },
+    {
+     "frame": 20,
+     "time_s": 0.6667,
+     "name": "charge_full"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_charge_start",
+   "source_action_baked": "SK_charge_start",
+   "export_file": "export/animations/charge_start.fbx",
+   "export_take": "SK_charge_start",
+   "unreal_asset": "/Game/MorphRig/Animations/A_charge_start",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthFrown_L",
+    "mouthFrown_R",
+    "mouthPress",
+    "mouthRollLower",
+    "mouthUpperUp_L",
+    "mouthUpperUp_R",
+    "noseSneer_L",
+    "noseSneer_R"
+   ],
+   "notes": "coil the cyber fist back, accumulate energy",
+   "required_form": "one_shot",
+   "required_root_movement": "in_place",
+   "required_duration": "0.3–1",
+   "duration_in_range": true,
+   "required_behavior": "Wind up and accumulate energy.",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.0,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 3.86
+   }
+  },
+  {
+   "id": "charge_hold",
+   "required": true,
+   "form": "loop",
+   "loop": true,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    30
+   ],
+   "frame_count": 31,
+   "duration_s": 1.0,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "charge_start",
+   "exit_states": "charge_release|charge_cancel",
+   "event_markers": [],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_charge_hold",
+   "source_action_baked": "SK_charge_hold",
+   "export_file": "export/animations/charge_hold.fbx",
+   "export_take": "SK_charge_hold",
+   "unreal_asset": "/Game/MorphRig/Animations/A_charge_hold",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthFrown_L",
+    "mouthFrown_R",
+    "mouthPress",
+    "mouthUpperUp_L",
+    "mouthUpperUp_R",
+    "noseSneer_L",
+    "noseSneer_R"
+   ],
+   "notes": "hold stored charge; trembling fist, breathing",
+   "required_form": "loop",
+   "required_root_movement": "in_place",
+   "required_duration": "0.5–1.5",
+   "duration_in_range": true,
+   "required_behavior": "Hold charge without freezing the whole character.",
+   "qa": {
+    "loop_seam": 0.041,
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.0,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "charge_release",
+   "required": true,
+   "form": "one_shot",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    22
+   ],
+   "frame_count": 23,
+   "duration_s": 0.7333,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "charge_hold",
+   "exit_states": "combat",
+   "event_markers": [
+    {
+     "frame": 7,
+     "time_s": 0.2333,
+     "name": "charge_release"
+    },
+    {
+     "frame": 8,
+     "time_s": 0.2667,
+     "name": "hit_start"
+    },
+    {
+     "frame": 10,
+     "time_s": 0.3333,
+     "name": "hit_end"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_charge_release",
+   "source_action_baked": "SK_charge_release",
+   "export_file": "export/animations/charge_release.fbx",
+   "export_take": "SK_charge_release",
+   "unreal_asset": "/Game/MorphRig/Animations/A_charge_release",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthFrown_L",
+    "mouthFrown_R",
+    "mouthPress",
+    "mouthUpperUp_L",
+    "mouthUpperUp_R",
+    "noseSneer_L",
+    "noseSneer_R"
+   ],
+   "notes": "forceful cyber-fist punch with weight transfer onto the front foot",
+   "required_form": "one_shot",
+   "required_root_movement": "in_place",
+   "required_duration": "0.3–1",
+   "duration_in_range": true,
+   "required_behavior": "Forceful release with weight transfer.",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.11,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 3.86
+   }
+  },
+  {
+   "id": "charge_cancel",
+   "required": true,
+   "form": "one_shot",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    16
+   ],
+   "frame_count": 17,
+   "duration_s": 0.5333,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "charge_hold|charge_start",
+   "exit_states": "combat",
+   "event_markers": [
+    {
+     "frame": 3,
+     "time_s": 0.1,
+     "name": "charge_cancelled"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_charge_cancel",
+   "source_action_baked": "SK_charge_cancel",
+   "export_file": "export/animations/charge_cancel.fbx",
+   "export_take": "SK_charge_cancel",
+   "unreal_asset": "/Game/MorphRig/Animations/A_charge_cancel",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "browInnerUp_L",
+    "browInnerUp_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthFrown_L",
+    "mouthFrown_R",
+    "mouthPress",
+    "mouthStretch_L",
+    "mouthStretch_R",
+    "mouthUpperUp_L",
+    "mouthUpperUp_R",
+    "noseSneer_L",
+    "noseSneer_R"
+   ],
+   "notes": "safely vent the stored charge: lower and shake out the arm",
+   "required_form": "one_shot",
+   "required_root_movement": "in_place",
+   "required_duration": "0.2–0.7",
+   "duration_in_range": true,
+   "required_behavior": "Safely cancel the stored charge.",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.0,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 3.86
+   }
+  },
+  {
+   "id": "deploy",
+   "required": true,
+   "form": "one_shot",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    50
+   ],
+   "frame_count": 51,
+   "duration_s": 1.6667,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "combat",
+   "exit_states": "combat",
+   "event_markers": [
+    {
+     "frame": 10,
+     "time_s": 0.3333,
+     "name": "beacon_grab"
+    },
+    {
+     "frame": 24,
+     "time_s": 0.8,
+     "name": "foot_l_down"
+    },
+    {
+     "frame": 30,
+     "time_s": 1.0,
+     "name": "beacon_release"
+    },
+    {
+     "frame": 31,
+     "time_s": 1.0333,
+     "name": "beacon_deployed"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_deploy",
+   "source_action_baked": "SK_deploy",
+   "export_file": "export/animations/deploy.fbx",
+   "export_take": "SK_deploy",
+   "unreal_asset": "/Game/MorphRig/Animations/A_deploy",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthPress",
+    "mouthRollLower"
+   ],
+   "notes": "left hand takes the beacon from the back holster, crouches and places it 55 cm ahead",
+   "required_form": "one_shot",
+   "required_root_movement": "in_place",
+   "required_duration": "0.6–1.8",
+   "duration_in_range": true,
+   "required_behavior": "Place a visible small drone/beacon prop using believable contact.",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.11,
+    "body_clear_cm": -5.0,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "uplink_start",
+   "required": true,
+   "form": "one_shot",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    24
+   ],
+   "frame_count": 25,
+   "duration_s": 0.8,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "combat",
+   "exit_states": "uplink_loop",
+   "event_markers": [
+    {
+     "frame": 20,
+     "time_s": 0.6667,
+     "name": "uplink_begin"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_uplink_start",
+   "source_action_baked": "SK_uplink_start",
+   "export_file": "export/animations/uplink_start.fbx",
+   "export_take": "SK_uplink_start",
+   "unreal_asset": "/Game/MorphRig/Animations/A_uplink_start",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthPress",
+    "mouthRollLower"
+   ],
+   "notes": "raise the cyber forearm console; left index finger begins the recall sequence",
+   "required_form": "one_shot",
+   "required_root_movement": "in_place",
+   "required_duration": "0.4–1",
+   "duration_in_range": true,
+   "required_behavior": "Begin recall-like console gesture.",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.0,
+    "body_clear_cm": -0.29,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "uplink_loop",
+   "required": true,
+   "form": "loop",
+   "loop": true,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    45
+   ],
+   "frame_count": 46,
+   "duration_s": 1.5,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "uplink_start",
+   "exit_states": "uplink_end|uplink_cancel",
+   "event_markers": [
+    {
+     "frame": 5,
+     "time_s": 0.1667,
+     "name": "uplink_tap"
+    },
+    {
+     "frame": 16,
+     "time_s": 0.5333,
+     "name": "uplink_tap"
+    },
+    {
+     "frame": 28,
+     "time_s": 0.9333,
+     "name": "uplink_tap"
+    },
+    {
+     "frame": 39,
+     "time_s": 1.3,
+     "name": "uplink_tap"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_uplink_loop",
+   "source_action_baked": "SK_uplink_loop",
+   "export_file": "export/animations/uplink_loop.fbx",
+   "export_take": "SK_uplink_loop",
+   "unreal_asset": "/Game/MorphRig/Animations/A_uplink_loop",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthPress",
+    "mouthRollLower"
+   ],
+   "notes": "sustained console input: taps, feet planted",
+   "required_form": "loop",
+   "required_root_movement": "in_place",
+   "required_duration": "1–2",
+   "duration_in_range": true,
+   "required_behavior": "Maintain recall gesture; feet remain planted.",
+   "qa": {
+    "loop_seam": 0.043,
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.0,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "uplink_end",
+   "required": true,
+   "form": "one_shot",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    18
+   ],
+   "frame_count": 19,
+   "duration_s": 0.6,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "uplink_loop",
+   "exit_states": "combat|blink_out",
+   "event_markers": [
+    {
+     "frame": 4,
+     "time_s": 0.1333,
+     "name": "uplink_tap"
+    },
+    {
+     "frame": 6,
+     "time_s": 0.2,
+     "name": "uplink_complete"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_uplink_end",
+   "source_action_baked": "SK_uplink_end",
+   "export_file": "export/animations/uplink_end.fbx",
+   "export_take": "SK_uplink_end",
+   "unreal_asset": "/Game/MorphRig/Animations/A_uplink_end",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "browOuterUp_L",
+    "browOuterUp_R",
+    "cheekRaise_L",
+    "cheekRaise_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthPress",
+    "mouthRollLower",
+    "mouthSmile_L",
+    "mouthSmile_R",
+    "mouthStretch_L",
+    "mouthStretch_R"
+   ],
+   "notes": "successful completion cue: final tap, flourish, nod",
+   "required_form": "one_shot",
+   "required_root_movement": "in_place",
+   "required_duration": "0.2–0.8",
+   "duration_in_range": true,
+   "required_behavior": "Successful completion cue; later blink is separate.",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.0,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "uplink_cancel",
+   "required": true,
+   "form": "one_shot",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    15
+   ],
+   "frame_count": 16,
+   "duration_s": 0.5,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "uplink_loop|uplink_start",
+   "exit_states": "combat",
+   "event_markers": [
+    {
+     "frame": 2,
+     "time_s": 0.0667,
+     "name": "uplink_cancelled"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_uplink_cancel",
+   "source_action_baked": "SK_uplink_cancel",
+   "export_file": "export/animations/uplink_cancel.fbx",
+   "export_take": "SK_uplink_cancel",
+   "unreal_asset": "/Game/MorphRig/Animations/A_uplink_cancel",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthFrown_L",
+    "mouthFrown_R",
+    "mouthPress",
+    "mouthRollLower",
+    "mouthUpperUp_L",
+    "mouthUpperUp_R",
+    "noseSneer_L",
+    "noseSneer_R"
+   ],
+   "notes": "interrupted recall: swipe away and drop back to control",
+   "required_form": "one_shot",
+   "required_root_movement": "in_place",
+   "required_duration": "0.2–0.7",
+   "duration_in_range": true,
+   "required_behavior": "Interrupted/canceled recall, clean return to control.",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.0,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "hit_f",
+   "required": true,
+   "form": "additive",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "additive_upper",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    12
+   ],
+   "frame_count": 13,
+   "duration_s": 0.4,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "any",
+   "exit_states": "any",
+   "event_markers": [
+    {
+     "frame": 0,
+     "time_s": 0.0,
+     "name": "hit_impact"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_hit_f",
+   "source_action_baked": "SK_hit_f",
+   "export_file": "export/animations/hit_f.fbx",
+   "export_take": "SK_hit_f",
+   "unreal_asset": "/Game/MorphRig/Animations/A_hit_f",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "browInnerUp_L",
+    "browInnerUp_R",
+    "cheekRaise_L",
+    "cheekRaise_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthStretch_L",
+    "mouthStretch_R",
+    "mouthUpperUp_L",
+    "mouthUpperUp_R",
+    "noseSneer_L",
+    "noseSneer_R"
+   ],
+   "notes": "impact from the front: chest and head snap back; additive relative to frame 0 (combat idle), legs untouched",
+   "required_form": "additive",
+   "required_root_movement": "in_place",
+   "required_duration": "0.15–0.5",
+   "duration_in_range": true,
+   "required_behavior": "Reaction to hit from front; layer over idle and motion without snapping planted feet.",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.0,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "hit_b",
+   "required": true,
+   "form": "additive",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "additive_upper",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    12
+   ],
+   "frame_count": 13,
+   "duration_s": 0.4,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "any",
+   "exit_states": "any",
+   "event_markers": [
+    {
+     "frame": 0,
+     "time_s": 0.0,
+     "name": "hit_impact"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_hit_b",
+   "source_action_baked": "SK_hit_b",
+   "export_file": "export/animations/hit_b.fbx",
+   "export_take": "SK_hit_b",
+   "unreal_asset": "/Game/MorphRig/Animations/A_hit_b",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "browInnerUp_L",
+    "browInnerUp_R",
+    "cheekRaise_L",
+    "cheekRaise_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthStretch_L",
+    "mouthStretch_R",
+    "mouthUpperUp_L",
+    "mouthUpperUp_R",
+    "noseSneer_L",
+    "noseSneer_R"
+   ],
+   "notes": "impact from behind: torso lurches forward; additive relative to frame 0 (combat idle), legs untouched",
+   "required_form": "additive",
+   "required_root_movement": "in_place",
+   "required_duration": "0.15–0.5",
+   "duration_in_range": true,
+   "required_behavior": "Reaction to hit from back; layer over idle and motion without snapping planted feet.",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.0,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "hit_l",
+   "required": true,
+   "form": "additive",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "additive_upper",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    12
+   ],
+   "frame_count": 13,
+   "duration_s": 0.4,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "any",
+   "exit_states": "any",
+   "event_markers": [
+    {
+     "frame": 0,
+     "time_s": 0.0,
+     "name": "hit_impact"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_hit_l",
+   "source_action_baked": "SK_hit_l",
+   "export_file": "export/animations/hit_l.fbx",
+   "export_take": "SK_hit_l",
+   "unreal_asset": "/Game/MorphRig/Animations/A_hit_l",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "browInnerUp_L",
+    "browInnerUp_R",
+    "cheekRaise_L",
+    "cheekRaise_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthStretch_L",
+    "mouthStretch_R",
+    "mouthUpperUp_L",
+    "mouthUpperUp_R",
+    "noseSneer_L",
+    "noseSneer_R"
+   ],
+   "notes": "impact from the left: bend and twist right; additive relative to frame 0 (combat idle), legs untouched",
+   "required_form": "additive",
+   "required_root_movement": "in_place",
+   "required_duration": "0.15–0.5",
+   "duration_in_range": true,
+   "required_behavior": "Reaction to hit from left; layer over idle and motion without snapping planted feet.",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.0,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "hit_r",
+   "required": true,
+   "form": "additive",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "additive_upper",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    12
+   ],
+   "frame_count": 13,
+   "duration_s": 0.4,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "any",
+   "exit_states": "any",
+   "event_markers": [
+    {
+     "frame": 0,
+     "time_s": 0.0,
+     "name": "hit_impact"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_hit_r",
+   "source_action_baked": "SK_hit_r",
+   "export_file": "export/animations/hit_r.fbx",
+   "export_take": "SK_hit_r",
+   "unreal_asset": "/Game/MorphRig/Animations/A_hit_r",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "browInnerUp_L",
+    "browInnerUp_R",
+    "cheekRaise_L",
+    "cheekRaise_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthStretch_L",
+    "mouthStretch_R",
+    "mouthUpperUp_L",
+    "mouthUpperUp_R",
+    "noseSneer_L",
+    "noseSneer_R"
+   ],
+   "notes": "impact from the right: bend and twist left; additive relative to frame 0 (combat idle), legs untouched",
+   "required_form": "additive",
+   "required_root_movement": "in_place",
+   "required_duration": "0.15–0.5",
+   "duration_in_range": true,
+   "required_behavior": "Reaction to hit from right; layer over idle and motion without snapping planted feet.",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.0,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "stun_start",
+   "required": true,
+   "form": "one_shot",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    24
+   ],
+   "frame_count": 25,
+   "duration_s": 0.8,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "any",
+   "exit_states": "stun_loop",
+   "event_markers": [
+    {
+     "frame": 1,
+     "time_s": 0.0333,
+     "name": "stun_applied"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_stun_start",
+   "source_action_baked": "SK_stun_start",
+   "export_file": "export/animations/stun_start.fbx",
+   "export_take": "SK_stun_start",
+   "unreal_asset": "/Game/MorphRig/Animations/A_stun_start",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "browInnerUp_L",
+    "browInnerUp_R",
+    "browOuterUp_L",
+    "browOuterUp_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthFrown_L",
+    "mouthFrown_R",
+    "mouthFunnel",
+    "mouthPress",
+    "mouthStretch_L",
+    "mouthStretch_R"
+   ],
+   "notes": "lose control: jolt, head snaps, knees buckle into the dazed stance",
+   "required_form": "one_shot",
+   "required_root_movement": "in_place",
+   "required_duration": "0.3–3",
+   "duration_in_range": true,
+   "required_behavior": "Lose control and enter stun.",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.0,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 1.66
+   }
+  },
+  {
+   "id": "stun_loop",
+   "required": true,
+   "form": "loop",
+   "loop": true,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    60
+   ],
+   "frame_count": 61,
+   "duration_s": 2.0,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "stun_start",
+   "exit_states": "stun_end",
+   "event_markers": [],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_stun_loop",
+   "source_action_baked": "SK_stun_loop",
+   "export_file": "export/animations/stun_loop.fbx",
+   "export_take": "SK_stun_loop",
+   "unreal_asset": "/Game/MorphRig/Animations/A_stun_loop",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "browInnerUp_L",
+    "browInnerUp_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthFrown_L",
+    "mouthFrown_R",
+    "mouthPress",
+    "mouthStretch_L",
+    "mouthStretch_R"
+   ],
+   "notes": "disoriented: head circles, body sways, breathing; feet planted",
+   "required_form": "loop",
+   "required_root_movement": "in_place",
+   "required_duration": "0.3–3",
+   "duration_in_range": true,
+   "required_behavior": "Disoriented stable pose, alive and breathing.",
+   "qa": {
+    "loop_seam": 0.062,
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.0,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "stun_end",
+   "required": true,
+   "form": "one_shot",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    26
+   ],
+   "frame_count": 27,
+   "duration_s": 0.8667,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "stun_loop",
+   "exit_states": "combat",
+   "event_markers": [
+    {
+     "frame": 16,
+     "time_s": 0.5333,
+     "name": "control_regained"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_stun_end",
+   "source_action_baked": "SK_stun_end",
+   "export_file": "export/animations/stun_end.fbx",
+   "export_take": "SK_stun_end",
+   "unreal_asset": "/Game/MorphRig/Animations/A_stun_end",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "browInnerUp_L",
+    "browInnerUp_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthFrown_L",
+    "mouthFrown_R",
+    "mouthPress",
+    "mouthRollLower",
+    "mouthStretch_L",
+    "mouthStretch_R"
+   ],
+   "notes": "shake it off and regain control without sliding the feet",
+   "required_form": "one_shot",
+   "required_root_movement": "in_place",
+   "required_duration": "0.3–3",
+   "duration_in_range": true,
+   "required_behavior": "Regain control without sliding.",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.0,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 1.66
+   }
+  },
+  {
+   "id": "knockback",
+   "required": true,
+   "form": "one_shot",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    34
+   ],
+   "frame_count": 35,
+   "duration_s": 1.1333,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "any",
+   "exit_states": "combat",
+   "event_markers": [
+    {
+     "frame": 0,
+     "time_s": 0.0,
+     "name": "knockback_impact"
+    },
+    {
+     "frame": 22,
+     "time_s": 0.7333,
+     "name": "control_regained"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_knockback",
+   "source_action_baked": "SK_knockback",
+   "export_file": "export/animations/knockback.fbx",
+   "export_take": "SK_knockback",
+   "unreal_asset": "/Game/MorphRig/Animations/A_knockback",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "browInnerUp_L",
+    "browInnerUp_R",
+    "cheekRaise_L",
+    "cheekRaise_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthFrown_L",
+    "mouthFrown_R",
+    "mouthPress",
+    "mouthStretch_L",
+    "mouthStretch_R",
+    "mouthUpperUp_L",
+    "mouthUpperUp_R",
+    "noseSneer_L",
+    "noseSneer_R"
+   ],
+   "notes": "reaction to host-driven backward travel: braced, bent over the impact, arms thrown forward; the controller moves the capsule back (feet skid visually)",
+   "required_form": "one_shot",
+   "required_root_movement": "in_place",
+   "required_duration": "0.3–3",
+   "duration_in_range": true,
+   "required_behavior": "Reaction to backward forced travel; travel is controlled by the host.",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.07,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "knockup_start",
+   "required": true,
+   "form": "one_shot",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    16
+   ],
+   "frame_count": 17,
+   "duration_s": 0.5333,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "any",
+   "exit_states": "knockup_air",
+   "event_markers": [
+    {
+     "frame": 0,
+     "time_s": 0.0,
+     "name": "knockup_impact"
+    },
+    {
+     "frame": 4,
+     "time_s": 0.1333,
+     "name": "feet_leave_ground"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_knockup_start",
+   "source_action_baked": "SK_knockup_start",
+   "export_file": "export/animations/knockup_start.fbx",
+   "export_take": "SK_knockup_start",
+   "unreal_asset": "/Game/MorphRig/Animations/A_knockup_start",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "browInnerUp_L",
+    "browInnerUp_R",
+    "browOuterUp_L",
+    "browOuterUp_R",
+    "cheekRaise_L",
+    "cheekRaise_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthFunnel",
+    "mouthStretch_L",
+    "mouthStretch_R",
+    "mouthUpperUp_L",
+    "mouthUpperUp_R",
+    "noseSneer_L",
+    "noseSneer_R"
+   ],
+   "notes": "forced launch without anticipation: the body is flung up, legs leave the floor limp",
+   "required_form": "one_shot",
+   "required_root_movement": "in_place",
+   "required_duration": "0.3–3",
+   "duration_in_range": true,
+   "required_behavior": "Forced launch, distinct from voluntary jump.",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.01,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 2.21
+   }
+  },
+  {
+   "id": "knockup_air",
+   "required": true,
+   "form": "loop",
+   "loop": true,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    30
+   ],
+   "frame_count": 31,
+   "duration_s": 1.0,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "knockup_start",
+   "exit_states": "knockdown_front|knockdown_back|jump_land|land_heavy",
+   "event_markers": [],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_knockup_air",
+   "source_action_baked": "SK_knockup_air",
+   "export_file": "export/animations/knockup_air.fbx",
+   "export_take": "SK_knockup_air",
+   "unreal_asset": "/Game/MorphRig/Animations/A_knockup_air",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "browInnerUp_L",
+    "browInnerUp_R",
+    "browOuterUp_L",
+    "browOuterUp_R",
+    "cheekRaise_L",
+    "cheekRaise_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthFunnel",
+    "mouthStretch_L",
+    "mouthStretch_R",
+    "mouthUpperUp_L",
+    "mouthUpperUp_R",
+    "noseSneer_L",
+    "noseSneer_R"
+   ],
+   "notes": "helpless airborne tumble",
+   "required_form": "loop",
+   "required_root_movement": "in_place",
+   "required_duration": "0.3–3",
+   "duration_in_range": true,
+   "required_behavior": "Helpless airborne pose.",
+   "qa": {
+    "loop_seam": 0.044,
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": 13.62,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "knockdown_front",
+   "required": true,
+   "form": "one_shot",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    42
+   ],
+   "frame_count": 43,
+   "duration_s": 1.4,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "any",
+   "exit_states": "prone_front",
+   "event_markers": [
+    {
+     "frame": 0,
+     "time_s": 0.0,
+     "name": "knockdown_impact"
+    },
+    {
+     "frame": 9,
+     "time_s": 0.3,
+     "name": "foot_l_down"
+    },
+    {
+     "frame": 18,
+     "time_s": 0.6,
+     "name": "knees_contact"
+    },
+    {
+     "frame": 24,
+     "time_s": 0.8,
+     "name": "hands_contact"
+    },
+    {
+     "frame": 34,
+     "time_s": 1.1333,
+     "name": "body_contact"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_knockdown_front",
+   "source_action_baked": "SK_knockdown_front",
+   "export_file": "export/animations/knockdown_front.fbx",
+   "export_take": "SK_knockdown_front",
+   "unreal_asset": "/Game/MorphRig/Animations/A_knockdown_front",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "browInnerUp_L",
+    "browInnerUp_R",
+    "cheekRaise_L",
+    "cheekRaise_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthStretch_L",
+    "mouthStretch_R",
+    "mouthUpperUp_L",
+    "mouthUpperUp_R",
+    "noseSneer_L",
+    "noseSneer_R"
+   ],
+   "notes": "stumble forward onto the knees, hands catch, chest settles face-down",
+   "required_form": "one_shot",
+   "required_root_movement": "in_place",
+   "required_duration": "0.3–3",
+   "duration_in_range": true,
+   "required_behavior": "Fall into a face-down position.",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.48,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 7.11
+   }
+  },
+  {
+   "id": "knockdown_back",
+   "required": true,
+   "form": "one_shot",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    40
+   ],
+   "frame_count": 41,
+   "duration_s": 1.3333,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "any",
+   "exit_states": "prone_back",
+   "event_markers": [
+    {
+     "frame": 0,
+     "time_s": 0.0,
+     "name": "knockdown_impact"
+    },
+    {
+     "frame": 11,
+     "time_s": 0.3667,
+     "name": "foot_l_down"
+    },
+    {
+     "frame": 20,
+     "time_s": 0.6667,
+     "name": "hips_contact"
+    },
+    {
+     "frame": 30,
+     "time_s": 1.0,
+     "name": "back_contact"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_knockdown_back",
+   "source_action_baked": "SK_knockdown_back",
+   "export_file": "export/animations/knockdown_back.fbx",
+   "export_take": "SK_knockdown_back",
+   "unreal_asset": "/Game/MorphRig/Animations/A_knockdown_back",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "browInnerUp_L",
+    "browInnerUp_R",
+    "cheekRaise_L",
+    "cheekRaise_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthStretch_L",
+    "mouthStretch_R",
+    "mouthUpperUp_L",
+    "mouthUpperUp_R",
+    "noseSneer_L",
+    "noseSneer_R"
+   ],
+   "notes": "stagger back, sit down onto the hands, roll onto the back (chin tucked)",
+   "required_form": "one_shot",
+   "required_root_movement": "in_place",
+   "required_duration": "0.3–3",
+   "duration_in_range": true,
+   "required_behavior": "Fall into a face-up position.",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.46,
+    "body_clear_cm": -1.8,
+    "pelvis_drift_cm": 9.89
+   }
+  },
+  {
+   "id": "prone_front",
+   "required": true,
+   "form": "loop",
+   "loop": true,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    60
+   ],
+   "frame_count": 61,
+   "duration_s": 2.0,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "knockdown_front",
+   "exit_states": "getup_front",
+   "event_markers": [],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_prone_front",
+   "source_action_baked": "SK_prone_front",
+   "export_file": "export/animations/prone_front.fbx",
+   "export_take": "SK_prone_front",
+   "unreal_asset": "/Game/MorphRig/Animations/A_prone_front",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "browInnerUp_L",
+    "browInnerUp_R",
+    "cheekRaise_L",
+    "cheekRaise_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthStretch_L",
+    "mouthStretch_R",
+    "mouthUpperUp_L",
+    "mouthUpperUp_R",
+    "noseSneer_L",
+    "noseSneer_R"
+   ],
+   "notes": "face-down on the floor, restrained breathing",
+   "required_form": "loop",
+   "required_root_movement": "in_place",
+   "required_duration": "0.3–3",
+   "duration_in_range": true,
+   "required_behavior": "Face-down floor pose with restrained life motion.",
+   "qa": {
+    "loop_seam": 0.055,
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": 0.13,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "prone_back",
+   "required": true,
+   "form": "loop",
+   "loop": true,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    60
+   ],
+   "frame_count": 61,
+   "duration_s": 2.0,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "knockdown_back",
+   "exit_states": "getup_back",
+   "event_markers": [],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_prone_back",
+   "source_action_baked": "SK_prone_back",
+   "export_file": "export/animations/prone_back.fbx",
+   "export_take": "SK_prone_back",
+   "unreal_asset": "/Game/MorphRig/Animations/A_prone_back",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "browInnerUp_L",
+    "browInnerUp_R",
+    "cheekRaise_L",
+    "cheekRaise_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthStretch_L",
+    "mouthStretch_R",
+    "mouthUpperUp_L",
+    "mouthUpperUp_R",
+    "noseSneer_L",
+    "noseSneer_R"
+   ],
+   "notes": "face-up on the floor, restrained breathing",
+   "required_form": "loop",
+   "required_root_movement": "in_place",
+   "required_duration": "0.3–3",
+   "duration_in_range": true,
+   "required_behavior": "Face-up floor pose with restrained life motion.",
+   "qa": {
+    "loop_seam": 0.05,
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": 0.29,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "getup_front",
+   "required": true,
+   "form": "one_shot",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    64
+   ],
+   "frame_count": 65,
+   "duration_s": 2.1333,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "prone_front",
+   "exit_states": "combat",
+   "event_markers": [
+    {
+     "frame": 10,
+     "time_s": 0.3333,
+     "name": "hands_contact"
+    },
+    {
+     "frame": 28,
+     "time_s": 0.9333,
+     "name": "foot_r_under"
+    },
+    {
+     "frame": 34,
+     "time_s": 1.1333,
+     "name": "knee_contact"
+    },
+    {
+     "frame": 46,
+     "time_s": 1.5333,
+     "name": "foot_l_down"
+    },
+    {
+     "frame": 58,
+     "time_s": 1.9333,
+     "name": "foot_l_down"
+    },
+    {
+     "frame": 64,
+     "time_s": 2.1333,
+     "name": "control_regained"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_getup_front",
+   "source_action_baked": "SK_getup_front",
+   "export_file": "export/animations/getup_front.fbx",
+   "export_take": "SK_getup_front",
+   "unreal_asset": "/Game/MorphRig/Animations/A_getup_front",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "browInnerUp_L",
+    "browInnerUp_R",
+    "cheekRaise_L",
+    "cheekRaise_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthPress",
+    "mouthRollLower",
+    "mouthStretch_L",
+    "mouthStretch_R",
+    "mouthUpperUp_L",
+    "mouthUpperUp_R",
+    "noseSneer_L",
+    "noseSneer_R"
+   ],
+   "notes": "push up with both hands, bring the right knee under, kneel, plant the left foot, stand",
+   "required_form": "one_shot",
+   "required_root_movement": "in_place",
+   "required_duration": "0.3–3",
+   "duration_in_range": true,
+   "required_behavior": "Stand from face-down through plausible supporting contacts.",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -1.12,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 7.11
+   }
+  },
+  {
+   "id": "getup_back",
+   "required": true,
+   "form": "one_shot",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    64
+   ],
+   "frame_count": 65,
+   "duration_s": 2.1333,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "prone_back",
+   "exit_states": "combat",
+   "event_markers": [
+    {
+     "frame": 14,
+     "time_s": 0.4667,
+     "name": "hips_contact"
+    },
+    {
+     "frame": 28,
+     "time_s": 0.9333,
+     "name": "knee_contact"
+    },
+    {
+     "frame": 48,
+     "time_s": 1.6,
+     "name": "foot_l_down"
+    },
+    {
+     "frame": 60,
+     "time_s": 2.0,
+     "name": "foot_l_down"
+    },
+    {
+     "frame": 64,
+     "time_s": 2.1333,
+     "name": "control_regained"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_getup_back",
+   "source_action_baked": "SK_getup_back",
+   "export_file": "export/animations/getup_back.fbx",
+   "export_take": "SK_getup_back",
+   "unreal_asset": "/Game/MorphRig/Animations/A_getup_back",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "browInnerUp_L",
+    "browInnerUp_R",
+    "cheekRaise_L",
+    "cheekRaise_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthPress",
+    "mouthRollLower",
+    "mouthStretch_L",
+    "mouthStretch_R",
+    "mouthUpperUp_L",
+    "mouthUpperUp_R",
+    "noseSneer_L",
+    "noseSneer_R"
+   ],
+   "notes": "sit up on the hands, roll onto the right knee, stand",
+   "required_form": "one_shot",
+   "required_root_movement": "in_place",
+   "required_duration": "0.3–3",
+   "duration_in_range": true,
+   "required_behavior": "Stand from face-up through plausible supporting contacts.",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.33,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 9.89
+   }
+  },
+  {
+   "id": "sleep_start",
+   "required": true,
+   "form": "one_shot",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    60
+   ],
+   "frame_count": 61,
+   "duration_s": 2.0,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "any",
+   "exit_states": "sleep_loop",
+   "event_markers": [
+    {
+     "frame": 40,
+     "time_s": 1.3333,
+     "name": "knee_contact"
+    },
+    {
+     "frame": 60,
+     "time_s": 2.0,
+     "name": "asleep"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_sleep_start",
+   "source_action_baked": "SK_sleep_start",
+   "export_file": "export/animations/sleep_start.fbx",
+   "export_take": "SK_sleep_start",
+   "unreal_asset": "/Game/MorphRig/Animations/A_sleep_start",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "eyeSquint_L",
+    "eyeSquint_R"
+   ],
+   "notes": "drowsy: head drops, knees fold, settles into a stable kneeling sleep posture",
+   "required_form": "one_shot",
+   "required_root_movement": "in_place",
+   "required_duration": "0.3–3",
+   "duration_in_range": true,
+   "required_behavior": "Enter a stable sleep posture.",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -1.33,
+    "body_clear_cm": -0.45,
+    "pelvis_drift_cm": 2.53
+   }
+  },
+  {
+   "id": "sleep_loop",
+   "required": true,
+   "form": "loop",
+   "loop": true,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    90
+   ],
+   "frame_count": 91,
+   "duration_s": 3.0,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "sleep_start",
+   "exit_states": "sleep_end",
+   "event_markers": [],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_sleep_loop",
+   "source_action_baked": "SK_sleep_loop",
+   "export_file": "export/animations/sleep_loop.fbx",
+   "export_take": "SK_sleep_loop",
+   "unreal_asset": "/Game/MorphRig/Animations/A_sleep_loop",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "eyeSquint_L",
+    "eyeSquint_R"
+   ],
+   "notes": "sustained sleep: slow breathing and slight head nod",
+   "required_form": "loop",
+   "required_root_movement": "in_place",
+   "required_duration": "0.3–3",
+   "duration_in_range": true,
+   "required_behavior": "Sustained sleeping posture with breathing.",
+   "qa": {
+    "loop_seam": 0.084,
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.26,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "sleep_end",
+   "required": true,
+   "form": "one_shot",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    45
+   ],
+   "frame_count": 46,
+   "duration_s": 1.5,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "sleep_loop",
+   "exit_states": "combat",
+   "event_markers": [
+    {
+     "frame": 5,
+     "time_s": 0.1667,
+     "name": "awake"
+    },
+    {
+     "frame": 40,
+     "time_s": 1.3333,
+     "name": "foot_l_down"
+    },
+    {
+     "frame": 45,
+     "time_s": 1.5,
+     "name": "control_regained"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_sleep_end",
+   "source_action_baked": "SK_sleep_end",
+   "export_file": "export/animations/sleep_end.fbx",
+   "export_take": "SK_sleep_end",
+   "unreal_asset": "/Game/MorphRig/Animations/A_sleep_end",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "browInnerUp_L",
+    "browInnerUp_R",
+    "browOuterUp_L",
+    "browOuterUp_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthFunnel",
+    "mouthPress",
+    "mouthRollLower"
+   ],
+   "notes": "startled awake: head snaps up, eyes open, rises to readiness",
+   "required_form": "one_shot",
+   "required_root_movement": "in_place",
+   "required_duration": "0.3–3",
+   "duration_in_range": true,
+   "required_behavior": "Awaken and return to readiness.",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.26,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 2.53
+   }
+  },
+  {
+   "id": "death_front",
+   "required": true,
+   "form": "one_shot",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    66
+   ],
+   "frame_count": 67,
+   "duration_s": 2.2,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "any",
+   "exit_states": "dead_front",
+   "event_markers": [
+    {
+     "frame": 0,
+     "time_s": 0.0,
+     "name": "death_impact"
+    },
+    {
+     "frame": 14,
+     "time_s": 0.4667,
+     "name": "foot_l_down"
+    },
+    {
+     "frame": 28,
+     "time_s": 0.9333,
+     "name": "hips_contact"
+    },
+    {
+     "frame": 40,
+     "time_s": 1.3333,
+     "name": "body_contact"
+    },
+    {
+     "frame": 46,
+     "time_s": 1.5333,
+     "name": "dead"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_death_front",
+   "source_action_baked": "SK_death_front",
+   "export_file": "export/animations/death_front.fbx",
+   "export_take": "SK_death_front",
+   "unreal_asset": "/Game/MorphRig/Animations/A_death_front",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "browInnerUp_L",
+    "browInnerUp_R",
+    "cheekRaise_L",
+    "cheekRaise_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthStretch_L",
+    "mouthStretch_R",
+    "mouthUpperUp_L",
+    "mouthUpperUp_R",
+    "noseSneer_L",
+    "noseSneer_R"
+   ],
+   "notes": "front impact: thrown back, stagger step, knees give, falls onto the back (face up)",
+   "required_form": "one_shot",
+   "required_root_movement": "in_place",
+   "required_duration": "1–4",
+   "duration_in_range": true,
+   "required_behavior": "Front-impact death ending in a clear stable body pose.",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.5,
+    "body_clear_cm": -1.69,
+    "pelvis_drift_cm": 9.89
+   }
+  },
+  {
+   "id": "death_back",
+   "required": true,
+   "form": "one_shot",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    66
+   ],
+   "frame_count": 67,
+   "duration_s": 2.2,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "any",
+   "exit_states": "dead_back",
+   "event_markers": [
+    {
+     "frame": 0,
+     "time_s": 0.0,
+     "name": "death_impact"
+    },
+    {
+     "frame": 12,
+     "time_s": 0.4,
+     "name": "foot_r_down"
+    },
+    {
+     "frame": 24,
+     "time_s": 0.8,
+     "name": "knees_contact"
+    },
+    {
+     "frame": 38,
+     "time_s": 1.2667,
+     "name": "body_contact"
+    },
+    {
+     "frame": 44,
+     "time_s": 1.4667,
+     "name": "dead"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_death_back",
+   "source_action_baked": "SK_death_back",
+   "export_file": "export/animations/death_back.fbx",
+   "export_take": "SK_death_back",
+   "unreal_asset": "/Game/MorphRig/Animations/A_death_back",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "browInnerUp_L",
+    "browInnerUp_R",
+    "cheekRaise_L",
+    "cheekRaise_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthStretch_L",
+    "mouthStretch_R",
+    "mouthUpperUp_L",
+    "mouthUpperUp_R",
+    "noseSneer_L",
+    "noseSneer_R"
+   ],
+   "notes": "back impact: chest thrown forward, stumbles, knees hit the floor, collapses face down; no hand catch (distinct contacts from death_front)",
+   "required_form": "one_shot",
+   "required_root_movement": "in_place",
+   "required_duration": "1–4",
+   "duration_in_range": true,
+   "required_behavior": "Back-impact death, not a mirrored duplicate with impossible contacts.",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.59,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 7.11
+   }
+  },
+  {
+   "id": "dead_front",
+   "required": true,
+   "form": "pose",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    1
+   ],
+   "frame_count": 2,
+   "duration_s": 0.0333,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "death_front",
+   "exit_states": "respawn",
+   "event_markers": [],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_dead_front",
+   "source_action_baked": "SK_dead_front",
+   "export_file": "export/animations/dead_front.fbx",
+   "export_take": "SK_dead_front",
+   "unreal_asset": "/Game/MorphRig/Animations/A_dead_front",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "browInnerUp_L",
+    "browInnerUp_R",
+    "cheekRaise_L",
+    "cheekRaise_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthStretch_L",
+    "mouthStretch_R",
+    "mouthUpperUp_L",
+    "mouthUpperUp_R",
+    "noseSneer_L",
+    "noseSneer_R"
+   ],
+   "notes": "held final pose of death_front (identical to its last frame)",
+   "required_form": "pose",
+   "required_root_movement": "in_place",
+   "required_duration": "pose",
+   "duration_in_range": true,
+   "required_behavior": "Held final pose of death_front.",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": 0.3,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "dead_back",
+   "required": true,
+   "form": "pose",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    1
+   ],
+   "frame_count": 2,
+   "duration_s": 0.0333,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "death_back",
+   "exit_states": "respawn",
+   "event_markers": [],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_dead_back",
+   "source_action_baked": "SK_dead_back",
+   "export_file": "export/animations/dead_back.fbx",
+   "export_take": "SK_dead_back",
+   "unreal_asset": "/Game/MorphRig/Animations/A_dead_back",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "browInnerUp_L",
+    "browInnerUp_R",
+    "cheekRaise_L",
+    "cheekRaise_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthStretch_L",
+    "mouthStretch_R",
+    "mouthUpperUp_L",
+    "mouthUpperUp_R",
+    "noseSneer_L",
+    "noseSneer_R"
+   ],
+   "notes": "held final pose of death_back (identical to its last frame)",
+   "required_form": "pose",
+   "required_root_movement": "in_place",
+   "required_duration": "pose",
+   "duration_in_range": true,
+   "required_behavior": "Held final pose of death_back.",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.22,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "respawn",
+   "required": true,
+   "form": "one_shot",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    76
+   ],
+   "frame_count": 77,
+   "duration_s": 2.5333,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "dead_front|dead_back|any",
+   "exit_states": "combat",
+   "event_markers": [
+    {
+     "frame": 0,
+     "time_s": 0.0,
+     "name": "respawn_begin"
+    },
+    {
+     "frame": 22,
+     "time_s": 0.7333,
+     "name": "reconstructed"
+    },
+    {
+     "frame": 48,
+     "time_s": 1.6,
+     "name": "foot_l_down"
+    },
+    {
+     "frame": 58,
+     "time_s": 1.9333,
+     "name": "activate"
+    },
+    {
+     "frame": 76,
+     "time_s": 2.5333,
+     "name": "control_regained"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_respawn",
+   "source_action_baked": "SK_respawn",
+   "export_file": "export/animations/respawn.fbx",
+   "export_take": "SK_respawn",
+   "unreal_asset": "/Game/MorphRig/Animations/A_respawn",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "browOuterUp_L",
+    "browOuterUp_R",
+    "cheekRaise_L",
+    "cheekRaise_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthPress",
+    "mouthRollLower",
+    "mouthSmile_L",
+    "mouthSmile_R",
+    "mouthStretch_L",
+    "mouthStretch_R"
+   ],
+   "notes": "reconstruct kneeling with head down, power up, rise and settle into the ready stance",
+   "required_form": "one_shot",
+   "required_root_movement": "in_place",
+   "required_duration": "1–4",
+   "duration_in_range": true,
+   "required_behavior": "Reconstruct/activate and settle into a ready living stance; not reverse playback of a death.",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.54,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 2.29
+   }
+  },
+  {
+   "id": "greet",
+   "required": true,
+   "form": "one_shot",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    54
+   ],
+   "frame_count": 55,
+   "duration_s": 1.8,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "idle",
+   "exit_states": "idle_relaxed",
+   "event_markers": [
+    {
+     "frame": 20,
+     "time_s": 0.6667,
+     "name": "greet_salute"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_greet",
+   "source_action_baked": "SK_greet",
+   "export_file": "export/animations/greet.fbx",
+   "export_take": "SK_greet",
+   "unreal_asset": "/Game/MorphRig/Animations/A_greet",
+   "face_curves": [
+    "browOuterUp_L",
+    "browOuterUp_R",
+    "cheekRaise_L",
+    "cheekRaise_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthSmile_L",
+    "mouthSmile_R",
+    "mouthStretch_L",
+    "mouthStretch_R"
+   ],
+   "notes": "two-finger salute from the brow with the organic hand, nod and half smile",
+   "required_form": "one_shot",
+   "required_root_movement": "in_place",
+   "required_duration": "1–4",
+   "duration_in_range": true,
+   "required_behavior": "Short intentional social greeting.",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.0,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "victory",
+   "required": true,
+   "form": "one_shot",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    80
+   ],
+   "frame_count": 81,
+   "duration_s": 2.6667,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "any",
+   "exit_states": "idle_combat",
+   "event_markers": [
+    {
+     "frame": 10,
+     "time_s": 0.3333,
+     "name": "victory_pump"
+    },
+    {
+     "frame": 22,
+     "time_s": 0.7333,
+     "name": "victory_pump"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_victory",
+   "source_action_baked": "SK_victory",
+   "export_file": "export/animations/victory.fbx",
+   "export_take": "SK_victory",
+   "unreal_asset": "/Game/MorphRig/Animations/A_victory",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "browOuterUp_L",
+    "browOuterUp_R",
+    "cheekRaise_L",
+    "cheekRaise_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthSmile_L",
+    "mouthSmile_R",
+    "mouthStretch_L",
+    "mouthStretch_R"
+   ],
+   "notes": "cyber fist pump, glowing grin, then a confident arms-crossed stance",
+   "required_form": "one_shot",
+   "required_root_movement": "in_place",
+   "required_duration": "1–4",
+   "duration_in_range": true,
+   "required_behavior": "Confident celebration with readable face and hands.",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.01,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 1.87
+   }
+  },
+  {
+   "id": "defeat",
+   "required": true,
+   "form": "one_shot",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    80
+   ],
+   "frame_count": 81,
+   "duration_s": 2.6667,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "any",
+   "exit_states": "idle_relaxed",
+   "event_markers": [
+    {
+     "frame": 14,
+     "time_s": 0.4667,
+     "name": "defeat_exhale"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_defeat",
+   "source_action_baked": "SK_defeat",
+   "export_file": "export/animations/defeat.fbx",
+   "export_take": "SK_defeat",
+   "unreal_asset": "/Game/MorphRig/Animations/A_defeat",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "browInnerUp_L",
+    "browInnerUp_R",
+    "mouthFrown_L",
+    "mouthFrown_R",
+    "mouthPress",
+    "mouthStretch_L",
+    "mouthStretch_R"
+   ],
+   "notes": "nonfatal disappointment: shoulders drop, head shake, hands on hips, exhale",
+   "required_form": "one_shot",
+   "required_root_movement": "in_place",
+   "required_duration": "1–4",
+   "duration_in_range": true,
+   "required_behavior": "Disappointment, nonfatal, distinct from death.",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.0,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "dialogue",
+   "required": true,
+   "form": "one_shot",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    528
+   ],
+   "frame_count": 529,
+   "duration_s": 17.6,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "idle_relaxed",
+   "exit_states": "idle_relaxed",
+   "event_markers": [
+    {
+     "frame": 10,
+     "time_s": 0.3333,
+     "name": "line_start"
+    },
+    {
+     "frame": 60,
+     "time_s": 2.0,
+     "name": "line_start"
+    },
+    {
+     "frame": 202,
+     "time_s": 6.7333,
+     "name": "line_start"
+    },
+    {
+     "frame": 243,
+     "time_s": 8.1,
+     "name": "line_start"
+    },
+    {
+     "frame": 342,
+     "time_s": 11.4,
+     "name": "line_start"
+    },
+    {
+     "frame": 373,
+     "time_s": 12.4333,
+     "name": "line_start"
+    },
+    {
+     "frame": 425,
+     "time_s": 14.1667,
+     "name": "line_start"
+    },
+    {
+     "frame": 459,
+     "time_s": 15.3,
+     "name": "line_start"
+    },
+    {
+     "frame": 0,
+     "time_s": 0.0,
+     "name": "audio_start"
+    },
+    {
+     "frame": 33,
+     "time_s": 1.1,
+     "name": "gesture_heart"
+    },
+    {
+     "frame": 214,
+     "time_s": 7.1333,
+     "name": "console_raise"
+    },
+    {
+     "frame": 345,
+     "time_s": 11.5,
+     "name": "emotion_shift"
+    },
+    {
+     "frame": 435,
+     "time_s": 14.5,
+     "name": "gesture_point"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_dialogue",
+   "source_action_baked": "SK_dialogue",
+   "export_file": "export/animations/dialogue.fbx",
+   "export_take": "SK_dialogue",
+   "unreal_asset": "/Game/MorphRig/Animations/A_dialogue",
+   "face_curves": [
+    "V_AA",
+    "V_CH",
+    "V_EE",
+    "V_EH",
+    "V_FV",
+    "V_IH",
+    "V_KG",
+    "V_LNT",
+    "V_MBP",
+    "V_OH",
+    "V_OO",
+    "V_R",
+    "V_SS",
+    "V_TH",
+    "browDown_L",
+    "browDown_R",
+    "browInnerUp_L",
+    "browInnerUp_R",
+    "browOuterUp_L",
+    "cheekRaise_L",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthFrown_L",
+    "mouthFrown_R",
+    "mouthPress",
+    "mouthRollLower",
+    "mouthSmile_L",
+    "mouthSmile_R",
+    "mouthStretch_L",
+    "mouthStretch_R",
+    "mouthUpperUp_L",
+    "mouthUpperUp_R",
+    "noseSneer_L",
+    "noseSneer_R"
+   ],
+   "notes": "spoken performance: 'East lane is mine. Give me ninety seconds, and this whole network stabilizes. Hold on. Something is rewriting the grid from the inside. No. Not on my watch. Hold the line. I'm patching the node myself.'",
+   "required_form": "one_shot",
+   "required_root_movement": "in_place",
+   "required_duration": "12–18",
+   "duration_in_range": true,
+   "required_behavior": "Original spoken performance with synchronized lips, eyes, facial expression, hand gestures and body acting; include audio and alignment.",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.0,
+    "body_clear_cm": -0.32,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "aim_down_left",
+   "required": true,
+   "form": "pose",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "upper_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    1
+   ],
+   "frame_count": 2,
+   "duration_s": 0.0333,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "aim_offset",
+   "exit_states": "aim_offset",
+   "event_markers": [],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_aim_down_left",
+   "source_action_baked": "SK_aim_down_left",
+   "export_file": "export/animations/aim_down_left.fbx",
+   "export_take": "SK_aim_down_left",
+   "unreal_asset": "/Game/MorphRig/Animations/A_aim_down_left",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthPress",
+    "mouthRollLower"
+   ],
+   "notes": "aim sample yaw +60 deg (+ = left), pitch -35 deg (+ = up); forearm/emitter exactly along the aim ray; legs identical to idle_combat",
+   "required_form": "pose",
+   "required_root_movement": "in_place",
+   "required_duration": "pose",
+   "duration_in_range": true,
+   "required_behavior": "Aim pose at pitch down / yaw left; nine calibrated grid samples, stable wrists and shoulders.",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.0,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "aim_down_center",
+   "required": true,
+   "form": "pose",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "upper_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    1
+   ],
+   "frame_count": 2,
+   "duration_s": 0.0333,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "aim_offset",
+   "exit_states": "aim_offset",
+   "event_markers": [],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_aim_down_center",
+   "source_action_baked": "SK_aim_down_center",
+   "export_file": "export/animations/aim_down_center.fbx",
+   "export_take": "SK_aim_down_center",
+   "unreal_asset": "/Game/MorphRig/Animations/A_aim_down_center",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthPress",
+    "mouthRollLower"
+   ],
+   "notes": "aim sample yaw +0 deg (+ = left), pitch -35 deg (+ = up); forearm/emitter exactly along the aim ray; legs identical to idle_combat",
+   "required_form": "pose",
+   "required_root_movement": "in_place",
+   "required_duration": "pose",
+   "duration_in_range": true,
+   "required_behavior": "Aim pose at pitch down / yaw center; nine calibrated grid samples, stable wrists and shoulders.",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.0,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "aim_down_right",
+   "required": true,
+   "form": "pose",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "upper_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    1
+   ],
+   "frame_count": 2,
+   "duration_s": 0.0333,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "aim_offset",
+   "exit_states": "aim_offset",
+   "event_markers": [],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_aim_down_right",
+   "source_action_baked": "SK_aim_down_right",
+   "export_file": "export/animations/aim_down_right.fbx",
+   "export_take": "SK_aim_down_right",
+   "unreal_asset": "/Game/MorphRig/Animations/A_aim_down_right",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthPress",
+    "mouthRollLower"
+   ],
+   "notes": "aim sample yaw -60 deg (+ = left), pitch -35 deg (+ = up); forearm/emitter exactly along the aim ray; legs identical to idle_combat",
+   "required_form": "pose",
+   "required_root_movement": "in_place",
+   "required_duration": "pose",
+   "duration_in_range": true,
+   "required_behavior": "Aim pose at pitch down / yaw right; nine calibrated grid samples, stable wrists and shoulders.",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.0,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "aim_level_left",
+   "required": true,
+   "form": "pose",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "upper_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    1
+   ],
+   "frame_count": 2,
+   "duration_s": 0.0333,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "aim_offset",
+   "exit_states": "aim_offset",
+   "event_markers": [],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_aim_level_left",
+   "source_action_baked": "SK_aim_level_left",
+   "export_file": "export/animations/aim_level_left.fbx",
+   "export_take": "SK_aim_level_left",
+   "unreal_asset": "/Game/MorphRig/Animations/A_aim_level_left",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthPress",
+    "mouthRollLower"
+   ],
+   "notes": "aim sample yaw +60 deg (+ = left), pitch +0 deg (+ = up); forearm/emitter exactly along the aim ray; legs identical to idle_combat",
+   "required_form": "pose",
+   "required_root_movement": "in_place",
+   "required_duration": "pose",
+   "duration_in_range": true,
+   "required_behavior": "Aim pose at pitch level / yaw left; nine calibrated grid samples, stable wrists and shoulders.",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.0,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "aim_level_center",
+   "required": true,
+   "form": "pose",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "upper_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    1
+   ],
+   "frame_count": 2,
+   "duration_s": 0.0333,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "aim_offset",
+   "exit_states": "aim_offset",
+   "event_markers": [],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_aim_level_center",
+   "source_action_baked": "SK_aim_level_center",
+   "export_file": "export/animations/aim_level_center.fbx",
+   "export_take": "SK_aim_level_center",
+   "unreal_asset": "/Game/MorphRig/Animations/A_aim_level_center",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthPress",
+    "mouthRollLower"
+   ],
+   "notes": "aim sample yaw +0 deg (+ = left), pitch +0 deg (+ = up); forearm/emitter exactly along the aim ray; legs identical to idle_combat",
+   "required_form": "pose",
+   "required_root_movement": "in_place",
+   "required_duration": "pose",
+   "duration_in_range": true,
+   "required_behavior": "Aim pose at pitch level / yaw center; nine calibrated grid samples, stable wrists and shoulders.",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.0,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "aim_level_right",
+   "required": true,
+   "form": "pose",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "upper_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    1
+   ],
+   "frame_count": 2,
+   "duration_s": 0.0333,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "aim_offset",
+   "exit_states": "aim_offset",
+   "event_markers": [],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_aim_level_right",
+   "source_action_baked": "SK_aim_level_right",
+   "export_file": "export/animations/aim_level_right.fbx",
+   "export_take": "SK_aim_level_right",
+   "unreal_asset": "/Game/MorphRig/Animations/A_aim_level_right",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthPress",
+    "mouthRollLower"
+   ],
+   "notes": "aim sample yaw -60 deg (+ = left), pitch +0 deg (+ = up); forearm/emitter exactly along the aim ray; legs identical to idle_combat",
+   "required_form": "pose",
+   "required_root_movement": "in_place",
+   "required_duration": "pose",
+   "duration_in_range": true,
+   "required_behavior": "Aim pose at pitch level / yaw right; nine calibrated grid samples, stable wrists and shoulders.",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.0,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "aim_up_left",
+   "required": true,
+   "form": "pose",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "upper_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    1
+   ],
+   "frame_count": 2,
+   "duration_s": 0.0333,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "aim_offset",
+   "exit_states": "aim_offset",
+   "event_markers": [],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_aim_up_left",
+   "source_action_baked": "SK_aim_up_left",
+   "export_file": "export/animations/aim_up_left.fbx",
+   "export_take": "SK_aim_up_left",
+   "unreal_asset": "/Game/MorphRig/Animations/A_aim_up_left",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthPress",
+    "mouthRollLower"
+   ],
+   "notes": "aim sample yaw +60 deg (+ = left), pitch +35 deg (+ = up); forearm/emitter exactly along the aim ray; legs identical to idle_combat",
+   "required_form": "pose",
+   "required_root_movement": "in_place",
+   "required_duration": "pose",
+   "duration_in_range": true,
+   "required_behavior": "Aim pose at pitch up / yaw left; nine calibrated grid samples, stable wrists and shoulders.",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.0,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "aim_up_center",
+   "required": true,
+   "form": "pose",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "upper_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    1
+   ],
+   "frame_count": 2,
+   "duration_s": 0.0333,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "aim_offset",
+   "exit_states": "aim_offset",
+   "event_markers": [],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_aim_up_center",
+   "source_action_baked": "SK_aim_up_center",
+   "export_file": "export/animations/aim_up_center.fbx",
+   "export_take": "SK_aim_up_center",
+   "unreal_asset": "/Game/MorphRig/Animations/A_aim_up_center",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthPress",
+    "mouthRollLower"
+   ],
+   "notes": "aim sample yaw +0 deg (+ = left), pitch +35 deg (+ = up); forearm/emitter exactly along the aim ray; legs identical to idle_combat",
+   "required_form": "pose",
+   "required_root_movement": "in_place",
+   "required_duration": "pose",
+   "duration_in_range": true,
+   "required_behavior": "Aim pose at pitch up / yaw center; nine calibrated grid samples, stable wrists and shoulders.",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.0,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "aim_up_right",
+   "required": true,
+   "form": "pose",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "upper_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    1
+   ],
+   "frame_count": 2,
+   "duration_s": 0.0333,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "aim_offset",
+   "exit_states": "aim_offset",
+   "event_markers": [],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_aim_up_right",
+   "source_action_baked": "SK_aim_up_right",
+   "export_file": "export/animations/aim_up_right.fbx",
+   "export_take": "SK_aim_up_right",
+   "unreal_asset": "/Game/MorphRig/Animations/A_aim_up_right",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthPress",
+    "mouthRollLower"
+   ],
+   "notes": "aim sample yaw -60 deg (+ = left), pitch +35 deg (+ = up); forearm/emitter exactly along the aim ray; legs identical to idle_combat",
+   "required_form": "pose",
+   "required_root_movement": "in_place",
+   "required_duration": "pose",
+   "duration_in_range": true,
+   "required_behavior": "Aim pose at pitch up / yaw right; nine calibrated grid samples, stable wrists and shoulders.",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.0,
+    "body_clear_cm": 0.0,
+    "pelvis_drift_cm": 0.0
+   }
+  }
+ ],
+ "extra_clips": [
+  {
+   "id": "ctl_blink_l",
+   "required": false,
+   "form": "pose",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "additive_face",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    1
+   ],
+   "frame_count": 2,
+   "duration_s": 0.0333,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "any",
+   "exit_states": "any",
+   "event_markers": [],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_ctl_blink_l",
+   "source_action_baked": "SK_ctl_blink_l",
+   "export_file": "export/animations/ctl_blink_l.fbx",
+   "export_take": "SK_ctl_blink_l",
+   "unreal_asset": "/Game/MorphRig/Animations/A_ctl_blink_l",
+   "face_curves": [],
+   "notes": "extra: face control pose (frame 1 = full control)",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.0,
+    "body_clear_cm": -0.33,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "ctl_blink_r",
+   "required": false,
+   "form": "pose",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "additive_face",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    1
+   ],
+   "frame_count": 2,
+   "duration_s": 0.0333,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "any",
+   "exit_states": "any",
+   "event_markers": [],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_ctl_blink_r",
+   "source_action_baked": "SK_ctl_blink_r",
+   "export_file": "export/animations/ctl_blink_r.fbx",
+   "export_take": "SK_ctl_blink_r",
+   "unreal_asset": "/Game/MorphRig/Animations/A_ctl_blink_r",
+   "face_curves": [],
+   "notes": "extra: face control pose (frame 1 = full control)",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.0,
+    "body_clear_cm": -0.33,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "ctl_jaw_left",
+   "required": false,
+   "form": "pose",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "additive_face",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    1
+   ],
+   "frame_count": 2,
+   "duration_s": 0.0333,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "any",
+   "exit_states": "any",
+   "event_markers": [],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_ctl_jaw_left",
+   "source_action_baked": "SK_ctl_jaw_left",
+   "export_file": "export/animations/ctl_jaw_left.fbx",
+   "export_take": "SK_ctl_jaw_left",
+   "unreal_asset": "/Game/MorphRig/Animations/A_ctl_jaw_left",
+   "face_curves": [],
+   "notes": "extra: face control pose (frame 1 = full control)",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.0,
+    "body_clear_cm": -0.33,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "ctl_jaw_open",
+   "required": false,
+   "form": "pose",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "additive_face",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    1
+   ],
+   "frame_count": 2,
+   "duration_s": 0.0333,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "any",
+   "exit_states": "any",
+   "event_markers": [],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_ctl_jaw_open",
+   "source_action_baked": "SK_ctl_jaw_open",
+   "export_file": "export/animations/ctl_jaw_open.fbx",
+   "export_take": "SK_ctl_jaw_open",
+   "unreal_asset": "/Game/MorphRig/Animations/A_ctl_jaw_open",
+   "face_curves": [],
+   "notes": "extra: face control pose (frame 1 = full control)",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.0,
+    "body_clear_cm": -0.33,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "ctl_jaw_right",
+   "required": false,
+   "form": "pose",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "additive_face",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    1
+   ],
+   "frame_count": 2,
+   "duration_s": 0.0333,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "any",
+   "exit_states": "any",
+   "event_markers": [],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_ctl_jaw_right",
+   "source_action_baked": "SK_ctl_jaw_right",
+   "export_file": "export/animations/ctl_jaw_right.fbx",
+   "export_take": "SK_ctl_jaw_right",
+   "unreal_asset": "/Game/MorphRig/Animations/A_ctl_jaw_right",
+   "face_curves": [],
+   "notes": "extra: face control pose (frame 1 = full control)",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.0,
+    "body_clear_cm": -0.33,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "ctl_look_down",
+   "required": false,
+   "form": "pose",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "additive_face",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    1
+   ],
+   "frame_count": 2,
+   "duration_s": 0.0333,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "any",
+   "exit_states": "any",
+   "event_markers": [],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_ctl_look_down",
+   "source_action_baked": "SK_ctl_look_down",
+   "export_file": "export/animations/ctl_look_down.fbx",
+   "export_take": "SK_ctl_look_down",
+   "unreal_asset": "/Game/MorphRig/Animations/A_ctl_look_down",
+   "face_curves": [],
+   "notes": "extra: face control pose (frame 1 = full control)",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.0,
+    "body_clear_cm": -0.33,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "ctl_look_left",
+   "required": false,
+   "form": "pose",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "additive_face",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    1
+   ],
+   "frame_count": 2,
+   "duration_s": 0.0333,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "any",
+   "exit_states": "any",
+   "event_markers": [],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_ctl_look_left",
+   "source_action_baked": "SK_ctl_look_left",
+   "export_file": "export/animations/ctl_look_left.fbx",
+   "export_take": "SK_ctl_look_left",
+   "unreal_asset": "/Game/MorphRig/Animations/A_ctl_look_left",
+   "face_curves": [],
+   "notes": "extra: face control pose (frame 1 = full control)",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.0,
+    "body_clear_cm": -0.33,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "ctl_look_right",
+   "required": false,
+   "form": "pose",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "additive_face",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    1
+   ],
+   "frame_count": 2,
+   "duration_s": 0.0333,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "any",
+   "exit_states": "any",
+   "event_markers": [],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_ctl_look_right",
+   "source_action_baked": "SK_ctl_look_right",
+   "export_file": "export/animations/ctl_look_right.fbx",
+   "export_take": "SK_ctl_look_right",
+   "unreal_asset": "/Game/MorphRig/Animations/A_ctl_look_right",
+   "face_curves": [],
+   "notes": "extra: face control pose (frame 1 = full control)",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.0,
+    "body_clear_cm": -0.33,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "ctl_look_up",
+   "required": false,
+   "form": "pose",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "additive_face",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    1
+   ],
+   "frame_count": 2,
+   "duration_s": 0.0333,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "any",
+   "exit_states": "any",
+   "event_markers": [],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_ctl_look_up",
+   "source_action_baked": "SK_ctl_look_up",
+   "export_file": "export/animations/ctl_look_up.fbx",
+   "export_take": "SK_ctl_look_up",
+   "unreal_asset": "/Game/MorphRig/Animations/A_ctl_look_up",
+   "face_curves": [],
+   "notes": "extra: face control pose (frame 1 = full control)",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.0,
+    "body_clear_cm": -0.33,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "ctl_squint_l",
+   "required": false,
+   "form": "pose",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "additive_face",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    1
+   ],
+   "frame_count": 2,
+   "duration_s": 0.0333,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "any",
+   "exit_states": "any",
+   "event_markers": [],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_ctl_squint_l",
+   "source_action_baked": "SK_ctl_squint_l",
+   "export_file": "export/animations/ctl_squint_l.fbx",
+   "export_take": "SK_ctl_squint_l",
+   "unreal_asset": "/Game/MorphRig/Animations/A_ctl_squint_l",
+   "face_curves": [
+    "eyeSquint_L"
+   ],
+   "notes": "extra: face control pose (frame 1 = full control)",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.0,
+    "body_clear_cm": -0.33,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "ctl_squint_r",
+   "required": false,
+   "form": "pose",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "additive_face",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    1
+   ],
+   "frame_count": 2,
+   "duration_s": 0.0333,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "any",
+   "exit_states": "any",
+   "event_markers": [],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_ctl_squint_r",
+   "source_action_baked": "SK_ctl_squint_r",
+   "export_file": "export/animations/ctl_squint_r.fbx",
+   "export_take": "SK_ctl_squint_r",
+   "unreal_asset": "/Game/MorphRig/Animations/A_ctl_squint_r",
+   "face_curves": [
+    "eyeSquint_R"
+   ],
+   "notes": "extra: face control pose (frame 1 = full control)",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.0,
+    "body_clear_cm": -0.33,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "ctl_tongue_down",
+   "required": false,
+   "form": "pose",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "additive_face",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    1
+   ],
+   "frame_count": 2,
+   "duration_s": 0.0333,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "any",
+   "exit_states": "any",
+   "event_markers": [],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_ctl_tongue_down",
+   "source_action_baked": "SK_ctl_tongue_down",
+   "export_file": "export/animations/ctl_tongue_down.fbx",
+   "export_take": "SK_ctl_tongue_down",
+   "unreal_asset": "/Game/MorphRig/Animations/A_ctl_tongue_down",
+   "face_curves": [],
+   "notes": "extra: face control pose (frame 1 = full control)",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.0,
+    "body_clear_cm": -0.33,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "ctl_tongue_up",
+   "required": false,
+   "form": "pose",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "additive_face",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    1
+   ],
+   "frame_count": 2,
+   "duration_s": 0.0333,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "any",
+   "exit_states": "any",
+   "event_markers": [],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_ctl_tongue_up",
+   "source_action_baked": "SK_ctl_tongue_up",
+   "export_file": "export/animations/ctl_tongue_up.fbx",
+   "export_take": "SK_ctl_tongue_up",
+   "unreal_asset": "/Game/MorphRig/Animations/A_ctl_tongue_up",
+   "face_curves": [],
+   "notes": "extra: face control pose (frame 1 = full control)",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.0,
+    "body_clear_cm": -0.33,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "ctl_wide_l",
+   "required": false,
+   "form": "pose",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "additive_face",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    1
+   ],
+   "frame_count": 2,
+   "duration_s": 0.0333,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "any",
+   "exit_states": "any",
+   "event_markers": [],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_ctl_wide_l",
+   "source_action_baked": "SK_ctl_wide_l",
+   "export_file": "export/animations/ctl_wide_l.fbx",
+   "export_take": "SK_ctl_wide_l",
+   "unreal_asset": "/Game/MorphRig/Animations/A_ctl_wide_l",
+   "face_curves": [],
+   "notes": "extra: face control pose (frame 1 = full control)",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.0,
+    "body_clear_cm": -0.33,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "ctl_wide_r",
+   "required": false,
+   "form": "pose",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "additive_face",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    1
+   ],
+   "frame_count": 2,
+   "duration_s": 0.0333,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "any",
+   "exit_states": "any",
+   "event_markers": [],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_ctl_wide_r",
+   "source_action_baked": "SK_ctl_wide_r",
+   "export_file": "export/animations/ctl_wide_r.fbx",
+   "export_take": "SK_ctl_wide_r",
+   "unreal_asset": "/Game/MorphRig/Animations/A_ctl_wide_r",
+   "face_curves": [],
+   "notes": "extra: face control pose (frame 1 = full control)",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.0,
+    "body_clear_cm": -0.33,
+    "pelvis_drift_cm": 0.0
+   }
+  },
+  {
+   "id": "demo_deformation",
+   "required": false,
+   "form": "one_shot",
+   "loop": false,
+   "root_motion_policy": "in_place",
+   "intended_layer": "full_body",
+   "sample_rate_fps": 30,
+   "frame_range": [
+    0,
+    330
+   ],
+   "frame_count": 331,
+   "duration_s": 11.0,
+   "nominal_speed_cms": 0.0,
+   "entry_states": "idle_relaxed",
+   "exit_states": "idle_relaxed",
+   "event_markers": [
+    {
+     "frame": 30,
+     "time_s": 1.0,
+     "name": "overhead_reach"
+    },
+    {
+     "frame": 95,
+     "time_s": 3.1667,
+     "name": "deep_squat"
+    },
+    {
+     "frame": 160,
+     "time_s": 5.3333,
+     "name": "crossed_arm_reach"
+    },
+    {
+     "frame": 225,
+     "time_s": 7.5,
+     "name": "torso_twist"
+    },
+    {
+     "frame": 262,
+     "time_s": 8.7333,
+     "name": "kneel"
+    },
+    {
+     "frame": 292,
+     "time_s": 9.7333,
+     "name": "hand_support"
+    },
+    {
+     "frame": 322,
+     "time_s": 10.7333,
+     "name": "closed_grip"
+    }
+   ],
+   "source_blend": "source/Operative.blend",
+   "source_action_editable": "RIG_demo_deformation",
+   "source_action_baked": "SK_demo_deformation",
+   "export_file": "export/animations/demo_deformation.fbx",
+   "export_take": "SK_demo_deformation",
+   "unreal_asset": "/Game/MorphRig/Animations/A_demo_deformation",
+   "face_curves": [
+    "browDown_L",
+    "browDown_R",
+    "eyeSquint_L",
+    "eyeSquint_R",
+    "mouthFrown_L",
+    "mouthFrown_R",
+    "mouthPress",
+    "mouthRollLower",
+    "mouthUpperUp_L",
+    "mouthUpperUp_R",
+    "noseSneer_L",
+    "noseSneer_R"
+   ],
+   "notes": "extra: deformation demonstration poses (not an inventory entry)",
+   "qa": {
+    "foot_slide_cm": {
+     "l": 0.0,
+     "r": 0.0
+    },
+    "min_body_z_cm": -0.28,
+    "body_clear_cm": -0.23,
+    "pelvis_drift_cm": 0.0
+   }
+  }
+ ]
+}

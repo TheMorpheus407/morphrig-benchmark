@@ -1,0 +1,3999 @@
+{
+ "aim_down_center": {
+  "id": "aim_down_center",
+  "frames": 1,
+  "loop": false,
+  "form": "pose",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "upper_body",
+  "entry": "aim_offset",
+  "exit": "aim_offset",
+  "markers": [],
+  "notes": "aim sample yaw +0 deg (+ = left), pitch -35 deg (+ = up); forearm/emitter exactly along the aim ray; legs identical to idle_combat",
+  "extra": {
+   "aim_yaw_deg": 0.0,
+   "aim_pitch_deg": -35.0,
+   "no_floor_fix": true
+  },
+  "frame_range": [
+   0,
+   1
+  ],
+  "blender_action": "SK_aim_down_center",
+  "rig_action": "RIG_aim_down_center"
+ },
+ "aim_down_left": {
+  "id": "aim_down_left",
+  "frames": 1,
+  "loop": false,
+  "form": "pose",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "upper_body",
+  "entry": "aim_offset",
+  "exit": "aim_offset",
+  "markers": [],
+  "notes": "aim sample yaw +60 deg (+ = left), pitch -35 deg (+ = up); forearm/emitter exactly along the aim ray; legs identical to idle_combat",
+  "extra": {
+   "aim_yaw_deg": 60.0,
+   "aim_pitch_deg": -35.0,
+   "no_floor_fix": true
+  },
+  "frame_range": [
+   0,
+   1
+  ],
+  "blender_action": "SK_aim_down_left",
+  "rig_action": "RIG_aim_down_left"
+ },
+ "aim_down_right": {
+  "id": "aim_down_right",
+  "frames": 1,
+  "loop": false,
+  "form": "pose",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "upper_body",
+  "entry": "aim_offset",
+  "exit": "aim_offset",
+  "markers": [],
+  "notes": "aim sample yaw -60 deg (+ = left), pitch -35 deg (+ = up); forearm/emitter exactly along the aim ray; legs identical to idle_combat",
+  "extra": {
+   "aim_yaw_deg": -60.0,
+   "aim_pitch_deg": -35.0,
+   "no_floor_fix": true
+  },
+  "frame_range": [
+   0,
+   1
+  ],
+  "blender_action": "SK_aim_down_right",
+  "rig_action": "RIG_aim_down_right"
+ },
+ "aim_level_center": {
+  "id": "aim_level_center",
+  "frames": 1,
+  "loop": false,
+  "form": "pose",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "upper_body",
+  "entry": "aim_offset",
+  "exit": "aim_offset",
+  "markers": [],
+  "notes": "aim sample yaw +0 deg (+ = left), pitch +0 deg (+ = up); forearm/emitter exactly along the aim ray; legs identical to idle_combat",
+  "extra": {
+   "aim_yaw_deg": 0.0,
+   "aim_pitch_deg": 0.0,
+   "no_floor_fix": true
+  },
+  "frame_range": [
+   0,
+   1
+  ],
+  "blender_action": "SK_aim_level_center",
+  "rig_action": "RIG_aim_level_center"
+ },
+ "aim_level_left": {
+  "id": "aim_level_left",
+  "frames": 1,
+  "loop": false,
+  "form": "pose",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "upper_body",
+  "entry": "aim_offset",
+  "exit": "aim_offset",
+  "markers": [],
+  "notes": "aim sample yaw +60 deg (+ = left), pitch +0 deg (+ = up); forearm/emitter exactly along the aim ray; legs identical to idle_combat",
+  "extra": {
+   "aim_yaw_deg": 60.0,
+   "aim_pitch_deg": 0.0,
+   "no_floor_fix": true
+  },
+  "frame_range": [
+   0,
+   1
+  ],
+  "blender_action": "SK_aim_level_left",
+  "rig_action": "RIG_aim_level_left"
+ },
+ "aim_level_right": {
+  "id": "aim_level_right",
+  "frames": 1,
+  "loop": false,
+  "form": "pose",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "upper_body",
+  "entry": "aim_offset",
+  "exit": "aim_offset",
+  "markers": [],
+  "notes": "aim sample yaw -60 deg (+ = left), pitch +0 deg (+ = up); forearm/emitter exactly along the aim ray; legs identical to idle_combat",
+  "extra": {
+   "aim_yaw_deg": -60.0,
+   "aim_pitch_deg": 0.0,
+   "no_floor_fix": true
+  },
+  "frame_range": [
+   0,
+   1
+  ],
+  "blender_action": "SK_aim_level_right",
+  "rig_action": "RIG_aim_level_right"
+ },
+ "aim_up_center": {
+  "id": "aim_up_center",
+  "frames": 1,
+  "loop": false,
+  "form": "pose",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "upper_body",
+  "entry": "aim_offset",
+  "exit": "aim_offset",
+  "markers": [],
+  "notes": "aim sample yaw +0 deg (+ = left), pitch +35 deg (+ = up); forearm/emitter exactly along the aim ray; legs identical to idle_combat",
+  "extra": {
+   "aim_yaw_deg": 0.0,
+   "aim_pitch_deg": 35.0,
+   "no_floor_fix": true
+  },
+  "frame_range": [
+   0,
+   1
+  ],
+  "blender_action": "SK_aim_up_center",
+  "rig_action": "RIG_aim_up_center"
+ },
+ "aim_up_left": {
+  "id": "aim_up_left",
+  "frames": 1,
+  "loop": false,
+  "form": "pose",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "upper_body",
+  "entry": "aim_offset",
+  "exit": "aim_offset",
+  "markers": [],
+  "notes": "aim sample yaw +60 deg (+ = left), pitch +35 deg (+ = up); forearm/emitter exactly along the aim ray; legs identical to idle_combat",
+  "extra": {
+   "aim_yaw_deg": 60.0,
+   "aim_pitch_deg": 35.0,
+   "no_floor_fix": true
+  },
+  "frame_range": [
+   0,
+   1
+  ],
+  "blender_action": "SK_aim_up_left",
+  "rig_action": "RIG_aim_up_left"
+ },
+ "aim_up_right": {
+  "id": "aim_up_right",
+  "frames": 1,
+  "loop": false,
+  "form": "pose",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "upper_body",
+  "entry": "aim_offset",
+  "exit": "aim_offset",
+  "markers": [],
+  "notes": "aim sample yaw -60 deg (+ = left), pitch +35 deg (+ = up); forearm/emitter exactly along the aim ray; legs identical to idle_combat",
+  "extra": {
+   "aim_yaw_deg": -60.0,
+   "aim_pitch_deg": 35.0,
+   "no_floor_fix": true
+  },
+  "frame_range": [
+   0,
+   1
+  ],
+  "blender_action": "SK_aim_up_right",
+  "rig_action": "RIG_aim_up_right"
+ },
+ "blink_in": {
+  "id": "blink_in",
+  "frames": 14,
+  "loop": false,
+  "form": "one_shot",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "full_body",
+  "entry": "blink_out",
+  "exit": "combat",
+  "markers": [
+   [
+    0,
+    "blink_appear"
+   ],
+   [
+    0,
+    "foot_l_down"
+   ],
+   [
+    0,
+    "foot_r_down"
+   ]
+  ],
+  "notes": "reappear compressed, plant and settle at the destination",
+  "extra": {},
+  "frame_range": [
+   0,
+   14
+  ],
+  "blender_action": "SK_blink_in",
+  "rig_action": "RIG_blink_in"
+ },
+ "blink_out": {
+  "id": "blink_out",
+  "frames": 12,
+  "loop": false,
+  "form": "one_shot",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "full_body",
+  "entry": "combat|locomotion",
+  "exit": "blink_in",
+  "markers": [
+   [
+    4,
+    "blink_charge"
+   ],
+   [
+    11,
+    "blink_teleport"
+   ]
+  ],
+  "notes": "compress and vanish: gather, crouch, burst; actor teleport happens on 'blink_teleport' (no baked travel)",
+  "extra": {},
+  "frame_range": [
+   0,
+   12
+  ],
+  "blender_action": "SK_blink_out",
+  "rig_action": "RIG_blink_out"
+ },
+ "cast_directional": {
+  "id": "cast_directional",
+  "frames": 26,
+  "loop": false,
+  "form": "one_shot",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "upper_body",
+  "entry": "combat|locomotion",
+  "exit": "previous",
+  "markers": [
+   [
+    4,
+    "cast_gather"
+   ],
+   [
+    12,
+    "cast_release"
+   ]
+  ],
+  "notes": "left palm gathers at the right shoulder then thrusts toward the target",
+  "extra": {},
+  "frame_range": [
+   0,
+   26
+  ],
+  "blender_action": "SK_cast_directional",
+  "rig_action": "RIG_cast_directional"
+ },
+ "cast_ground": {
+  "id": "cast_ground",
+  "frames": 32,
+  "loop": false,
+  "form": "one_shot",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "full_body",
+  "entry": "combat",
+  "exit": "combat",
+  "markers": [
+   [
+    6,
+    "cast_gather"
+   ],
+   [
+    16,
+    "cast_release"
+   ]
+  ],
+  "notes": "ground-targeted slam 2 m ahead with look-down",
+  "extra": {
+   "target_offset_cm": [
+    0,
+    200,
+    0
+   ]
+  },
+  "frame_range": [
+   0,
+   32
+  ],
+  "blender_action": "SK_cast_ground",
+  "rig_action": "RIG_cast_ground"
+ },
+ "cast_self": {
+  "id": "cast_self",
+  "frames": 26,
+  "loop": false,
+  "form": "one_shot",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "full_body",
+  "entry": "combat",
+  "exit": "combat",
+  "markers": [
+   [
+    4,
+    "cast_gather"
+   ],
+   [
+    12,
+    "cast_release"
+   ]
+  ],
+  "notes": "defensive self-centred pulse: arms cross, then burst outward",
+  "extra": {},
+  "frame_range": [
+   0,
+   26
+  ],
+  "blender_action": "SK_cast_self",
+  "rig_action": "RIG_cast_self"
+ },
+ "channel_end": {
+  "id": "channel_end",
+  "frames": 18,
+  "loop": false,
+  "form": "one_shot",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "full_body",
+  "entry": "channel_loop",
+  "exit": "combat",
+  "markers": [
+   [
+    6,
+    "channel_complete"
+   ]
+  ],
+  "notes": "deliberate successful release: final push then relax",
+  "extra": {},
+  "frame_range": [
+   0,
+   18
+  ],
+  "blender_action": "SK_channel_end",
+  "rig_action": "RIG_channel_end"
+ },
+ "channel_interrupt": {
+  "id": "channel_interrupt",
+  "frames": 14,
+  "loop": false,
+  "form": "one_shot",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "full_body",
+  "entry": "channel_loop|channel_start",
+  "exit": "combat",
+  "markers": [
+   [
+    1,
+    "channel_broken"
+   ],
+   [
+    8,
+    "foot_l_down"
+   ]
+  ],
+  "notes": "forced interruption: jolt back, arms thrown up, stagger step",
+  "extra": {},
+  "frame_range": [
+   0,
+   14
+  ],
+  "blender_action": "SK_channel_interrupt",
+  "rig_action": "RIG_channel_interrupt"
+ },
+ "channel_loop": {
+  "id": "channel_loop",
+  "frames": 40,
+  "loop": true,
+  "form": "loop",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "full_body",
+  "entry": "channel_start",
+  "exit": "channel_end|channel_interrupt",
+  "markers": [
+   [
+    0,
+    "channel_pulse"
+   ],
+   [
+    20,
+    "channel_pulse"
+   ]
+  ],
+  "notes": "sustained beam; restrained pulses and breathing",
+  "extra": {},
+  "frame_range": [
+   0,
+   40
+  ],
+  "blender_action": "SK_channel_loop",
+  "rig_action": "RIG_channel_loop"
+ },
+ "channel_start": {
+  "id": "channel_start",
+  "frames": 16,
+  "loop": false,
+  "form": "one_shot",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "full_body",
+  "entry": "combat",
+  "exit": "channel_loop",
+  "markers": [
+   [
+    10,
+    "foot_l_down"
+   ],
+   [
+    16,
+    "channel_begin"
+   ]
+  ],
+  "notes": "brace and raise the left palm, right hand supports the left forearm",
+  "extra": {},
+  "frame_range": [
+   0,
+   16
+  ],
+  "blender_action": "SK_channel_start",
+  "rig_action": "RIG_channel_start"
+ },
+ "charge_cancel": {
+  "id": "charge_cancel",
+  "frames": 16,
+  "loop": false,
+  "form": "one_shot",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "full_body",
+  "entry": "charge_hold|charge_start",
+  "exit": "combat",
+  "markers": [
+   [
+    3,
+    "charge_cancelled"
+   ]
+  ],
+  "notes": "safely vent the stored charge: lower and shake out the arm",
+  "extra": {},
+  "frame_range": [
+   0,
+   16
+  ],
+  "blender_action": "SK_charge_cancel",
+  "rig_action": "RIG_charge_cancel"
+ },
+ "charge_hold": {
+  "id": "charge_hold",
+  "frames": 30,
+  "loop": true,
+  "form": "loop",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "full_body",
+  "entry": "charge_start",
+  "exit": "charge_release|charge_cancel",
+  "markers": [],
+  "notes": "hold stored charge; trembling fist, breathing",
+  "extra": {},
+  "frame_range": [
+   0,
+   30
+  ],
+  "blender_action": "SK_charge_hold",
+  "rig_action": "RIG_charge_hold"
+ },
+ "charge_release": {
+  "id": "charge_release",
+  "frames": 22,
+  "loop": false,
+  "form": "one_shot",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "full_body",
+  "entry": "charge_hold",
+  "exit": "combat",
+  "markers": [
+   [
+    7,
+    "charge_release"
+   ],
+   [
+    8,
+    "hit_start"
+   ],
+   [
+    10,
+    "hit_end"
+   ]
+  ],
+  "notes": "forceful cyber-fist punch with weight transfer onto the front foot",
+  "extra": {},
+  "frame_range": [
+   0,
+   22
+  ],
+  "blender_action": "SK_charge_release",
+  "rig_action": "RIG_charge_release"
+ },
+ "charge_start": {
+  "id": "charge_start",
+  "frames": 20,
+  "loop": false,
+  "form": "one_shot",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "full_body",
+  "entry": "combat",
+  "exit": "charge_hold",
+  "markers": [
+   [
+    4,
+    "charge_begin"
+   ],
+   [
+    20,
+    "charge_full"
+   ]
+  ],
+  "notes": "coil the cyber fist back, accumulate energy",
+  "extra": {},
+  "frame_range": [
+   0,
+   20
+  ],
+  "blender_action": "SK_charge_start",
+  "rig_action": "RIG_charge_start"
+ },
+ "ctl_blink_l": {
+  "id": "ctl_blink_l",
+  "frames": 1,
+  "loop": false,
+  "form": "pose",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "additive_face",
+  "entry": "any",
+  "exit": "any",
+  "markers": [],
+  "notes": "extra: face control pose (frame 1 = full control)",
+  "extra": {
+   "no_floor_fix": true,
+   "no_contact_fix": true,
+   "no_tail_sim": true
+  },
+  "frame_range": [
+   0,
+   1
+  ],
+  "blender_action": "SK_ctl_blink_l",
+  "rig_action": "RIG_ctl_blink_l"
+ },
+ "ctl_blink_r": {
+  "id": "ctl_blink_r",
+  "frames": 1,
+  "loop": false,
+  "form": "pose",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "additive_face",
+  "entry": "any",
+  "exit": "any",
+  "markers": [],
+  "notes": "extra: face control pose (frame 1 = full control)",
+  "extra": {
+   "no_floor_fix": true,
+   "no_contact_fix": true,
+   "no_tail_sim": true
+  },
+  "frame_range": [
+   0,
+   1
+  ],
+  "blender_action": "SK_ctl_blink_r",
+  "rig_action": "RIG_ctl_blink_r"
+ },
+ "ctl_jaw_left": {
+  "id": "ctl_jaw_left",
+  "frames": 1,
+  "loop": false,
+  "form": "pose",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "additive_face",
+  "entry": "any",
+  "exit": "any",
+  "markers": [],
+  "notes": "extra: face control pose (frame 1 = full control)",
+  "extra": {
+   "no_floor_fix": true,
+   "no_contact_fix": true,
+   "no_tail_sim": true
+  },
+  "frame_range": [
+   0,
+   1
+  ],
+  "blender_action": "SK_ctl_jaw_left",
+  "rig_action": "RIG_ctl_jaw_left"
+ },
+ "ctl_jaw_open": {
+  "id": "ctl_jaw_open",
+  "frames": 1,
+  "loop": false,
+  "form": "pose",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "additive_face",
+  "entry": "any",
+  "exit": "any",
+  "markers": [],
+  "notes": "extra: face control pose (frame 1 = full control)",
+  "extra": {
+   "no_floor_fix": true,
+   "no_contact_fix": true,
+   "no_tail_sim": true
+  },
+  "frame_range": [
+   0,
+   1
+  ],
+  "blender_action": "SK_ctl_jaw_open",
+  "rig_action": "RIG_ctl_jaw_open"
+ },
+ "ctl_jaw_right": {
+  "id": "ctl_jaw_right",
+  "frames": 1,
+  "loop": false,
+  "form": "pose",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "additive_face",
+  "entry": "any",
+  "exit": "any",
+  "markers": [],
+  "notes": "extra: face control pose (frame 1 = full control)",
+  "extra": {
+   "no_floor_fix": true,
+   "no_contact_fix": true,
+   "no_tail_sim": true
+  },
+  "frame_range": [
+   0,
+   1
+  ],
+  "blender_action": "SK_ctl_jaw_right",
+  "rig_action": "RIG_ctl_jaw_right"
+ },
+ "ctl_look_down": {
+  "id": "ctl_look_down",
+  "frames": 1,
+  "loop": false,
+  "form": "pose",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "additive_face",
+  "entry": "any",
+  "exit": "any",
+  "markers": [],
+  "notes": "extra: face control pose (frame 1 = full control)",
+  "extra": {
+   "no_floor_fix": true,
+   "no_contact_fix": true,
+   "no_tail_sim": true
+  },
+  "frame_range": [
+   0,
+   1
+  ],
+  "blender_action": "SK_ctl_look_down",
+  "rig_action": "RIG_ctl_look_down"
+ },
+ "ctl_look_left": {
+  "id": "ctl_look_left",
+  "frames": 1,
+  "loop": false,
+  "form": "pose",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "additive_face",
+  "entry": "any",
+  "exit": "any",
+  "markers": [],
+  "notes": "extra: face control pose (frame 1 = full control)",
+  "extra": {
+   "no_floor_fix": true,
+   "no_contact_fix": true,
+   "no_tail_sim": true
+  },
+  "frame_range": [
+   0,
+   1
+  ],
+  "blender_action": "SK_ctl_look_left",
+  "rig_action": "RIG_ctl_look_left"
+ },
+ "ctl_look_right": {
+  "id": "ctl_look_right",
+  "frames": 1,
+  "loop": false,
+  "form": "pose",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "additive_face",
+  "entry": "any",
+  "exit": "any",
+  "markers": [],
+  "notes": "extra: face control pose (frame 1 = full control)",
+  "extra": {
+   "no_floor_fix": true,
+   "no_contact_fix": true,
+   "no_tail_sim": true
+  },
+  "frame_range": [
+   0,
+   1
+  ],
+  "blender_action": "SK_ctl_look_right",
+  "rig_action": "RIG_ctl_look_right"
+ },
+ "ctl_look_up": {
+  "id": "ctl_look_up",
+  "frames": 1,
+  "loop": false,
+  "form": "pose",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "additive_face",
+  "entry": "any",
+  "exit": "any",
+  "markers": [],
+  "notes": "extra: face control pose (frame 1 = full control)",
+  "extra": {
+   "no_floor_fix": true,
+   "no_contact_fix": true,
+   "no_tail_sim": true
+  },
+  "frame_range": [
+   0,
+   1
+  ],
+  "blender_action": "SK_ctl_look_up",
+  "rig_action": "RIG_ctl_look_up"
+ },
+ "ctl_squint_l": {
+  "id": "ctl_squint_l",
+  "frames": 1,
+  "loop": false,
+  "form": "pose",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "additive_face",
+  "entry": "any",
+  "exit": "any",
+  "markers": [],
+  "notes": "extra: face control pose (frame 1 = full control)",
+  "extra": {
+   "no_floor_fix": true,
+   "no_contact_fix": true,
+   "no_tail_sim": true
+  },
+  "frame_range": [
+   0,
+   1
+  ],
+  "blender_action": "SK_ctl_squint_l",
+  "rig_action": "RIG_ctl_squint_l"
+ },
+ "ctl_squint_r": {
+  "id": "ctl_squint_r",
+  "frames": 1,
+  "loop": false,
+  "form": "pose",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "additive_face",
+  "entry": "any",
+  "exit": "any",
+  "markers": [],
+  "notes": "extra: face control pose (frame 1 = full control)",
+  "extra": {
+   "no_floor_fix": true,
+   "no_contact_fix": true,
+   "no_tail_sim": true
+  },
+  "frame_range": [
+   0,
+   1
+  ],
+  "blender_action": "SK_ctl_squint_r",
+  "rig_action": "RIG_ctl_squint_r"
+ },
+ "ctl_tongue_down": {
+  "id": "ctl_tongue_down",
+  "frames": 1,
+  "loop": false,
+  "form": "pose",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "additive_face",
+  "entry": "any",
+  "exit": "any",
+  "markers": [],
+  "notes": "extra: face control pose (frame 1 = full control)",
+  "extra": {
+   "no_floor_fix": true,
+   "no_contact_fix": true,
+   "no_tail_sim": true
+  },
+  "frame_range": [
+   0,
+   1
+  ],
+  "blender_action": "SK_ctl_tongue_down",
+  "rig_action": "RIG_ctl_tongue_down"
+ },
+ "ctl_tongue_up": {
+  "id": "ctl_tongue_up",
+  "frames": 1,
+  "loop": false,
+  "form": "pose",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "additive_face",
+  "entry": "any",
+  "exit": "any",
+  "markers": [],
+  "notes": "extra: face control pose (frame 1 = full control)",
+  "extra": {
+   "no_floor_fix": true,
+   "no_contact_fix": true,
+   "no_tail_sim": true
+  },
+  "frame_range": [
+   0,
+   1
+  ],
+  "blender_action": "SK_ctl_tongue_up",
+  "rig_action": "RIG_ctl_tongue_up"
+ },
+ "ctl_wide_l": {
+  "id": "ctl_wide_l",
+  "frames": 1,
+  "loop": false,
+  "form": "pose",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "additive_face",
+  "entry": "any",
+  "exit": "any",
+  "markers": [],
+  "notes": "extra: face control pose (frame 1 = full control)",
+  "extra": {
+   "no_floor_fix": true,
+   "no_contact_fix": true,
+   "no_tail_sim": true
+  },
+  "frame_range": [
+   0,
+   1
+  ],
+  "blender_action": "SK_ctl_wide_l",
+  "rig_action": "RIG_ctl_wide_l"
+ },
+ "ctl_wide_r": {
+  "id": "ctl_wide_r",
+  "frames": 1,
+  "loop": false,
+  "form": "pose",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "additive_face",
+  "entry": "any",
+  "exit": "any",
+  "markers": [],
+  "notes": "extra: face control pose (frame 1 = full control)",
+  "extra": {
+   "no_floor_fix": true,
+   "no_contact_fix": true,
+   "no_tail_sim": true
+  },
+  "frame_range": [
+   0,
+   1
+  ],
+  "blender_action": "SK_ctl_wide_r",
+  "rig_action": "RIG_ctl_wide_r"
+ },
+ "dash_b": {
+  "id": "dash_b",
+  "frames": 16,
+  "loop": false,
+  "form": "one_shot",
+  "root": "root_motion",
+  "speed_cms": 0.0,
+  "layer": "full_body",
+  "entry": "combat|locomotion",
+  "exit": "combat|locomotion",
+  "markers": [
+   [
+    2,
+    "dash_start"
+   ],
+   [
+    3,
+    "foot_r_up"
+   ],
+   [
+    5,
+    "foot_l_up"
+   ],
+   [
+    11,
+    "foot_r_down"
+   ],
+   [
+    13,
+    "foot_l_down"
+   ],
+   [
+    14,
+    "dash_end"
+   ]
+  ],
+  "notes": "ground dash +180 deg: root bone travels 2.0 m (drives the capsule)",
+  "extra": {
+   "root_travel_m": 2.0,
+   "dash_dir": [
+    1.2246467991473532e-16,
+    1.0,
+    0.0
+   ]
+  },
+  "frame_range": [
+   0,
+   16
+  ],
+  "blender_action": "SK_dash_b",
+  "rig_action": "RIG_dash_b"
+ },
+ "dash_f": {
+  "id": "dash_f",
+  "frames": 16,
+  "loop": false,
+  "form": "one_shot",
+  "root": "root_motion",
+  "speed_cms": 0.0,
+  "layer": "full_body",
+  "entry": "combat|locomotion",
+  "exit": "combat|locomotion",
+  "markers": [
+   [
+    2,
+    "dash_start"
+   ],
+   [
+    3,
+    "foot_r_up"
+   ],
+   [
+    5,
+    "foot_l_up"
+   ],
+   [
+    11,
+    "foot_r_down"
+   ],
+   [
+    13,
+    "foot_l_down"
+   ],
+   [
+    14,
+    "dash_end"
+   ]
+  ],
+  "notes": "ground dash +0 deg: root bone travels 2.0 m (drives the capsule)",
+  "extra": {
+   "root_travel_m": 2.0,
+   "dash_dir": [
+    0.0,
+    -1.0,
+    0.0
+   ]
+  },
+  "frame_range": [
+   0,
+   16
+  ],
+  "blender_action": "SK_dash_f",
+  "rig_action": "RIG_dash_f"
+ },
+ "dash_l": {
+  "id": "dash_l",
+  "frames": 16,
+  "loop": false,
+  "form": "one_shot",
+  "root": "root_motion",
+  "speed_cms": 0.0,
+  "layer": "full_body",
+  "entry": "combat|locomotion",
+  "exit": "combat|locomotion",
+  "markers": [
+   [
+    2,
+    "dash_start"
+   ],
+   [
+    3,
+    "foot_r_up"
+   ],
+   [
+    5,
+    "foot_l_up"
+   ],
+   [
+    11,
+    "foot_r_down"
+   ],
+   [
+    13,
+    "foot_l_down"
+   ],
+   [
+    14,
+    "dash_end"
+   ]
+  ],
+  "notes": "ground dash +90 deg: root bone travels 2.0 m (drives the capsule)",
+  "extra": {
+   "root_travel_m": 2.0,
+   "dash_dir": [
+    1.0,
+    -6.123233995736766e-17,
+    0.0
+   ]
+  },
+  "frame_range": [
+   0,
+   16
+  ],
+  "blender_action": "SK_dash_l",
+  "rig_action": "RIG_dash_l"
+ },
+ "dash_r": {
+  "id": "dash_r",
+  "frames": 16,
+  "loop": false,
+  "form": "one_shot",
+  "root": "root_motion",
+  "speed_cms": 0.0,
+  "layer": "full_body",
+  "entry": "combat|locomotion",
+  "exit": "combat|locomotion",
+  "markers": [
+   [
+    2,
+    "dash_start"
+   ],
+   [
+    3,
+    "foot_r_up"
+   ],
+   [
+    5,
+    "foot_l_up"
+   ],
+   [
+    11,
+    "foot_r_down"
+   ],
+   [
+    13,
+    "foot_l_down"
+   ],
+   [
+    14,
+    "dash_end"
+   ]
+  ],
+  "notes": "ground dash -90 deg: root bone travels 2.0 m (drives the capsule)",
+  "extra": {
+   "root_travel_m": 2.0,
+   "dash_dir": [
+    -1.0,
+    -6.123233995736766e-17,
+    0.0
+   ]
+  },
+  "frame_range": [
+   0,
+   16
+  ],
+  "blender_action": "SK_dash_r",
+  "rig_action": "RIG_dash_r"
+ },
+ "dead_back": {
+  "id": "dead_back",
+  "frames": 1,
+  "loop": false,
+  "form": "pose",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "full_body",
+  "entry": "death_back",
+  "exit": "respawn",
+  "markers": [],
+  "notes": "held final pose of death_back (identical to its last frame)",
+  "extra": {
+   "pose_from": "death_back",
+   "no_floor_fix": true
+  },
+  "frame_range": [
+   0,
+   1
+  ],
+  "blender_action": "SK_dead_back",
+  "rig_action": "RIG_dead_back"
+ },
+ "dead_front": {
+  "id": "dead_front",
+  "frames": 1,
+  "loop": false,
+  "form": "pose",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "full_body",
+  "entry": "death_front",
+  "exit": "respawn",
+  "markers": [],
+  "notes": "held final pose of death_front (identical to its last frame)",
+  "extra": {
+   "pose_from": "death_front",
+   "no_floor_fix": true
+  },
+  "frame_range": [
+   0,
+   1
+  ],
+  "blender_action": "SK_dead_front",
+  "rig_action": "RIG_dead_front"
+ },
+ "death_back": {
+  "id": "death_back",
+  "frames": 66,
+  "loop": false,
+  "form": "one_shot",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "full_body",
+  "entry": "any",
+  "exit": "dead_back",
+  "markers": [
+   [
+    0,
+    "death_impact"
+   ],
+   [
+    12,
+    "foot_r_down"
+   ],
+   [
+    24,
+    "knees_contact"
+   ],
+   [
+    38,
+    "body_contact"
+   ],
+   [
+    44,
+    "dead"
+   ]
+  ],
+  "notes": "back impact: chest thrown forward, stumbles, knees hit the floor, collapses face down; no hand catch (distinct contacts from death_front)",
+  "extra": {},
+  "frame_range": [
+   0,
+   66
+  ],
+  "blender_action": "SK_death_back",
+  "rig_action": "RIG_death_back"
+ },
+ "death_front": {
+  "id": "death_front",
+  "frames": 66,
+  "loop": false,
+  "form": "one_shot",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "full_body",
+  "entry": "any",
+  "exit": "dead_front",
+  "markers": [
+   [
+    0,
+    "death_impact"
+   ],
+   [
+    14,
+    "foot_l_down"
+   ],
+   [
+    28,
+    "hips_contact"
+   ],
+   [
+    40,
+    "body_contact"
+   ],
+   [
+    46,
+    "dead"
+   ]
+  ],
+  "notes": "front impact: thrown back, stagger step, knees give, falls onto the back (face up)",
+  "extra": {},
+  "frame_range": [
+   0,
+   66
+  ],
+  "blender_action": "SK_death_front",
+  "rig_action": "RIG_death_front"
+ },
+ "defeat": {
+  "id": "defeat",
+  "frames": 80,
+  "loop": false,
+  "form": "one_shot",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "full_body",
+  "entry": "any",
+  "exit": "idle_relaxed",
+  "markers": [
+   [
+    14,
+    "defeat_exhale"
+   ]
+  ],
+  "notes": "nonfatal disappointment: shoulders drop, head shake, hands on hips, exhale",
+  "extra": {},
+  "frame_range": [
+   0,
+   80
+  ],
+  "blender_action": "SK_defeat",
+  "rig_action": "RIG_defeat"
+ },
+ "demo_deformation": {
+  "id": "demo_deformation",
+  "frames": 330,
+  "loop": false,
+  "form": "one_shot",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "full_body",
+  "entry": "idle_relaxed",
+  "exit": "idle_relaxed",
+  "markers": [
+   [
+    30,
+    "overhead_reach"
+   ],
+   [
+    95,
+    "deep_squat"
+   ],
+   [
+    160,
+    "crossed_arm_reach"
+   ],
+   [
+    225,
+    "torso_twist"
+   ],
+   [
+    262,
+    "kneel"
+   ],
+   [
+    292,
+    "hand_support"
+   ],
+   [
+    322,
+    "closed_grip"
+   ]
+  ],
+  "notes": "extra: deformation demonstration poses (not an inventory entry)",
+  "extra": {},
+  "frame_range": [
+   0,
+   330
+  ],
+  "blender_action": "SK_demo_deformation",
+  "rig_action": "RIG_demo_deformation"
+ },
+ "deploy": {
+  "id": "deploy",
+  "frames": 50,
+  "loop": false,
+  "form": "one_shot",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "full_body",
+  "entry": "combat",
+  "exit": "combat",
+  "markers": [
+   [
+    10,
+    "beacon_grab"
+   ],
+   [
+    24,
+    "foot_l_down"
+   ],
+   [
+    30,
+    "beacon_release"
+   ],
+   [
+    31,
+    "beacon_deployed"
+   ]
+  ],
+  "notes": "left hand takes the beacon from the back holster, crouches and places it 55 cm ahead",
+  "extra": {
+   "contacts": {
+    "beacon_in_hand": [
+     11,
+     30
+    ]
+   }
+  },
+  "frame_range": [
+   0,
+   50
+  ],
+  "blender_action": "SK_deploy",
+  "rig_action": "RIG_deploy"
+ },
+ "dialogue": {
+  "id": "dialogue",
+  "frames": 528,
+  "loop": false,
+  "form": "one_shot",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "full_body",
+  "entry": "idle_relaxed",
+  "exit": "idle_relaxed",
+  "markers": [
+   [
+    10,
+    "line_start"
+   ],
+   [
+    60,
+    "line_start"
+   ],
+   [
+    202,
+    "line_start"
+   ],
+   [
+    243,
+    "line_start"
+   ],
+   [
+    342,
+    "line_start"
+   ],
+   [
+    373,
+    "line_start"
+   ],
+   [
+    425,
+    "line_start"
+   ],
+   [
+    459,
+    "line_start"
+   ],
+   [
+    0,
+    "audio_start"
+   ],
+   [
+    33,
+    "gesture_heart"
+   ],
+   [
+    214,
+    "console_raise"
+   ],
+   [
+    345,
+    "emotion_shift"
+   ],
+   [
+    435,
+    "gesture_point"
+   ]
+  ],
+  "notes": "spoken performance: 'East lane is mine. Give me ninety seconds, and this whole network stabilizes. Hold on. Something is rewriting the grid from the inside. No. Not on my watch. Hold the line. I'm patching the node myself.'",
+  "extra": {
+   "audio": "source/audio/dialogue.wav",
+   "alignment": "source/audio/dialogue_alignment.json",
+   "no_floor_fix": true,
+   "mbp_frames": [
+    34,
+    68,
+    162,
+    251,
+    298,
+    390,
+    464,
+    465,
+    468,
+    491,
+    492
+   ],
+   "contacts": {
+    "fist_on_chest": [
+     33,
+     43
+    ],
+    "finger_on_console": [
+     264,
+     286
+    ],
+    "hand_on_chest": [
+     492,
+     502
+    ]
+   }
+  },
+  "frame_range": [
+   0,
+   528
+  ],
+  "blender_action": "SK_dialogue",
+  "rig_action": "RIG_dialogue"
+ },
+ "fall": {
+  "id": "fall",
+  "frames": 30,
+  "loop": true,
+  "form": "loop",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "full_body",
+  "entry": "jump_air|knockup_air|any",
+  "exit": "jump_land|land_heavy",
+  "markers": [],
+  "notes": "long-fall posture: arms up and wide, legs apart, looks down",
+  "extra": {
+   "no_floor_fix": true
+  },
+  "frame_range": [
+   0,
+   30
+  ],
+  "blender_action": "SK_fall",
+  "rig_action": "RIG_fall"
+ },
+ "getup_back": {
+  "id": "getup_back",
+  "frames": 64,
+  "loop": false,
+  "form": "one_shot",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "full_body",
+  "entry": "prone_back",
+  "exit": "combat",
+  "markers": [
+   [
+    14,
+    "hips_contact"
+   ],
+   [
+    28,
+    "knee_contact"
+   ],
+   [
+    48,
+    "foot_l_down"
+   ],
+   [
+    60,
+    "foot_l_down"
+   ],
+   [
+    64,
+    "control_regained"
+   ]
+  ],
+  "notes": "sit up on the hands, roll onto the right knee, stand",
+  "extra": {},
+  "frame_range": [
+   0,
+   64
+  ],
+  "blender_action": "SK_getup_back",
+  "rig_action": "RIG_getup_back"
+ },
+ "getup_front": {
+  "id": "getup_front",
+  "frames": 64,
+  "loop": false,
+  "form": "one_shot",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "full_body",
+  "entry": "prone_front",
+  "exit": "combat",
+  "markers": [
+   [
+    10,
+    "hands_contact"
+   ],
+   [
+    28,
+    "foot_r_under"
+   ],
+   [
+    34,
+    "knee_contact"
+   ],
+   [
+    46,
+    "foot_l_down"
+   ],
+   [
+    58,
+    "foot_l_down"
+   ],
+   [
+    64,
+    "control_regained"
+   ]
+  ],
+  "notes": "push up with both hands, bring the right knee under, kneel, plant the left foot, stand",
+  "extra": {},
+  "frame_range": [
+   0,
+   64
+  ],
+  "blender_action": "SK_getup_front",
+  "rig_action": "RIG_getup_front"
+ },
+ "greet": {
+  "id": "greet",
+  "frames": 54,
+  "loop": false,
+  "form": "one_shot",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "full_body",
+  "entry": "idle",
+  "exit": "idle_relaxed",
+  "markers": [
+   [
+    20,
+    "greet_salute"
+   ]
+  ],
+  "notes": "two-finger salute from the brow with the organic hand, nod and half smile",
+  "extra": {},
+  "frame_range": [
+   0,
+   54
+  ],
+  "blender_action": "SK_greet",
+  "rig_action": "RIG_greet"
+ },
+ "hit_b": {
+  "id": "hit_b",
+  "frames": 12,
+  "loop": false,
+  "form": "additive",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "additive_upper",
+  "entry": "any",
+  "exit": "any",
+  "markers": [
+   [
+    0,
+    "hit_impact"
+   ]
+  ],
+  "notes": "impact from behind: torso lurches forward; additive relative to frame 0 (combat idle), legs untouched",
+  "extra": {},
+  "frame_range": [
+   0,
+   12
+  ],
+  "blender_action": "SK_hit_b",
+  "rig_action": "RIG_hit_b"
+ },
+ "hit_f": {
+  "id": "hit_f",
+  "frames": 12,
+  "loop": false,
+  "form": "additive",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "additive_upper",
+  "entry": "any",
+  "exit": "any",
+  "markers": [
+   [
+    0,
+    "hit_impact"
+   ]
+  ],
+  "notes": "impact from the front: chest and head snap back; additive relative to frame 0 (combat idle), legs untouched",
+  "extra": {},
+  "frame_range": [
+   0,
+   12
+  ],
+  "blender_action": "SK_hit_f",
+  "rig_action": "RIG_hit_f"
+ },
+ "hit_l": {
+  "id": "hit_l",
+  "frames": 12,
+  "loop": false,
+  "form": "additive",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "additive_upper",
+  "entry": "any",
+  "exit": "any",
+  "markers": [
+   [
+    0,
+    "hit_impact"
+   ]
+  ],
+  "notes": "impact from the left: bend and twist right; additive relative to frame 0 (combat idle), legs untouched",
+  "extra": {},
+  "frame_range": [
+   0,
+   12
+  ],
+  "blender_action": "SK_hit_l",
+  "rig_action": "RIG_hit_l"
+ },
+ "hit_r": {
+  "id": "hit_r",
+  "frames": 12,
+  "loop": false,
+  "form": "additive",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "additive_upper",
+  "entry": "any",
+  "exit": "any",
+  "markers": [
+   [
+    0,
+    "hit_impact"
+   ]
+  ],
+  "notes": "impact from the right: bend and twist left; additive relative to frame 0 (combat idle), legs untouched",
+  "extra": {},
+  "frame_range": [
+   0,
+   12
+  ],
+  "blender_action": "SK_hit_r",
+  "rig_action": "RIG_hit_r"
+ },
+ "idle_combat": {
+  "id": "idle_combat",
+  "frames": 90,
+  "loop": true,
+  "form": "loop",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "full_body",
+  "entry": "any",
+  "exit": "any",
+  "markers": [],
+  "notes": "ready stance, light bounce, guard adjustments, scanning glances",
+  "extra": {},
+  "frame_range": [
+   0,
+   90
+  ],
+  "blender_action": "SK_idle_combat",
+  "rig_action": "RIG_idle_combat"
+ },
+ "idle_relaxed": {
+  "id": "idle_relaxed",
+  "frames": 120,
+  "loop": true,
+  "form": "loop",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "full_body",
+  "entry": "any",
+  "exit": "any",
+  "markers": [],
+  "notes": "relaxed breathing, weight shifts left/right, glances",
+  "extra": {},
+  "frame_range": [
+   0,
+   120
+  ],
+  "blender_action": "SK_idle_relaxed",
+  "rig_action": "RIG_idle_relaxed"
+ },
+ "idle_wounded": {
+  "id": "idle_wounded",
+  "frames": 120,
+  "loop": true,
+  "form": "loop",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "full_body",
+  "entry": "any",
+  "exit": "any",
+  "markers": [],
+  "notes": "injured but alert: favours the right leg, clutches the ribs, laboured breathing, a wince",
+  "extra": {},
+  "frame_range": [
+   0,
+   120
+  ],
+  "blender_action": "SK_idle_wounded",
+  "rig_action": "RIG_idle_wounded"
+ },
+ "jump_air": {
+  "id": "jump_air",
+  "frames": 24,
+  "loop": true,
+  "form": "loop",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "full_body",
+  "entry": "jump_start",
+  "exit": "jump_land|fall",
+  "markers": [],
+  "notes": "controllable airborne posture: gentle limb drift, looks toward the landing",
+  "extra": {
+   "no_floor_fix": true
+  },
+  "frame_range": [
+   0,
+   24
+  ],
+  "blender_action": "SK_jump_air",
+  "rig_action": "RIG_jump_air"
+ },
+ "jump_land": {
+  "id": "jump_land",
+  "frames": 20,
+  "loop": false,
+  "form": "one_shot",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "full_body",
+  "entry": "jump_air",
+  "exit": "idle|locomotion",
+  "markers": [
+   [
+    0,
+    "land_contact"
+   ],
+   [
+    0,
+    "foot_l_down"
+   ],
+   [
+    1,
+    "foot_r_down"
+   ]
+  ],
+  "notes": "soft landing: toes first, knees absorb, recover to the stance",
+  "extra": {},
+  "frame_range": [
+   0,
+   20
+  ],
+  "blender_action": "SK_jump_land",
+  "rig_action": "RIG_jump_land"
+ },
+ "jump_start": {
+  "id": "jump_start",
+  "frames": 16,
+  "loop": false,
+  "form": "one_shot",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "full_body",
+  "entry": "idle|locomotion",
+  "exit": "jump_air",
+  "markers": [
+   [
+    7,
+    "jump_load"
+   ],
+   [
+    12,
+    "takeoff"
+   ]
+  ],
+  "notes": "anticipation crouch with arm back-swing, explosive extension; feet leave the floor at f12 (controller launches the capsule on the 'takeoff' event)",
+  "extra": {
+   "no_floor_fix": true
+  },
+  "frame_range": [
+   0,
+   16
+  ],
+  "blender_action": "SK_jump_start",
+  "rig_action": "RIG_jump_start"
+ },
+ "knockback": {
+  "id": "knockback",
+  "frames": 34,
+  "loop": false,
+  "form": "one_shot",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "full_body",
+  "entry": "any",
+  "exit": "combat",
+  "markers": [
+   [
+    0,
+    "knockback_impact"
+   ],
+   [
+    22,
+    "control_regained"
+   ]
+  ],
+  "notes": "reaction to host-driven backward travel: braced, bent over the impact, arms thrown forward; the controller moves the capsule back (feet skid visually)",
+  "extra": {},
+  "frame_range": [
+   0,
+   34
+  ],
+  "blender_action": "SK_knockback",
+  "rig_action": "RIG_knockback"
+ },
+ "knockdown_back": {
+  "id": "knockdown_back",
+  "frames": 40,
+  "loop": false,
+  "form": "one_shot",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "full_body",
+  "entry": "any",
+  "exit": "prone_back",
+  "markers": [
+   [
+    0,
+    "knockdown_impact"
+   ],
+   [
+    11,
+    "foot_l_down"
+   ],
+   [
+    20,
+    "hips_contact"
+   ],
+   [
+    30,
+    "back_contact"
+   ]
+  ],
+  "notes": "stagger back, sit down onto the hands, roll onto the back (chin tucked)",
+  "extra": {},
+  "frame_range": [
+   0,
+   40
+  ],
+  "blender_action": "SK_knockdown_back",
+  "rig_action": "RIG_knockdown_back"
+ },
+ "knockdown_front": {
+  "id": "knockdown_front",
+  "frames": 42,
+  "loop": false,
+  "form": "one_shot",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "full_body",
+  "entry": "any",
+  "exit": "prone_front",
+  "markers": [
+   [
+    0,
+    "knockdown_impact"
+   ],
+   [
+    9,
+    "foot_l_down"
+   ],
+   [
+    18,
+    "knees_contact"
+   ],
+   [
+    24,
+    "hands_contact"
+   ],
+   [
+    34,
+    "body_contact"
+   ]
+  ],
+  "notes": "stumble forward onto the knees, hands catch, chest settles face-down",
+  "extra": {},
+  "frame_range": [
+   0,
+   42
+  ],
+  "blender_action": "SK_knockdown_front",
+  "rig_action": "RIG_knockdown_front"
+ },
+ "knockup_air": {
+  "id": "knockup_air",
+  "frames": 30,
+  "loop": true,
+  "form": "loop",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "full_body",
+  "entry": "knockup_start",
+  "exit": "knockdown_front|knockdown_back|jump_land|land_heavy",
+  "markers": [],
+  "notes": "helpless airborne tumble",
+  "extra": {},
+  "frame_range": [
+   0,
+   30
+  ],
+  "blender_action": "SK_knockup_air",
+  "rig_action": "RIG_knockup_air"
+ },
+ "knockup_start": {
+  "id": "knockup_start",
+  "frames": 16,
+  "loop": false,
+  "form": "one_shot",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "full_body",
+  "entry": "any",
+  "exit": "knockup_air",
+  "markers": [
+   [
+    0,
+    "knockup_impact"
+   ],
+   [
+    4,
+    "feet_leave_ground"
+   ]
+  ],
+  "notes": "forced launch without anticipation: the body is flung up, legs leave the floor limp",
+  "extra": {},
+  "frame_range": [
+   0,
+   16
+  ],
+  "blender_action": "SK_knockup_start",
+  "rig_action": "RIG_knockup_start"
+ },
+ "land_heavy": {
+  "id": "land_heavy",
+  "frames": 36,
+  "loop": false,
+  "form": "one_shot",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "full_body",
+  "entry": "fall",
+  "exit": "idle_combat",
+  "markers": [
+   [
+    0,
+    "land_contact"
+   ],
+   [
+    6,
+    "hand_l_contact"
+   ],
+   [
+    18,
+    "hand_l_release"
+   ]
+  ],
+  "notes": "hard landing: deep compression with a left-hand floor touch, heavy recovery",
+  "extra": {},
+  "frame_range": [
+   0,
+   36
+  ],
+  "blender_action": "SK_land_heavy",
+  "rig_action": "RIG_land_heavy"
+ },
+ "melee_1": {
+  "id": "melee_1",
+  "frames": 22,
+  "loop": false,
+  "form": "one_shot",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "full_body",
+  "entry": "combat",
+  "exit": "combat|melee_2",
+  "markers": [
+   [
+    2,
+    "blade_out"
+   ],
+   [
+    8,
+    "hit_start"
+   ],
+   [
+    11,
+    "hit_end"
+   ],
+   [
+    14,
+    "recovery_start"
+   ],
+   [
+    14,
+    "combo_open"
+   ],
+   [
+    21,
+    "combo_close"
+   ]
+  ],
+  "notes": "diagonal forearm-blade slash high-right to low-left",
+  "extra": {},
+  "frame_range": [
+   0,
+   22
+  ],
+  "blender_action": "SK_melee_1",
+  "rig_action": "RIG_melee_1"
+ },
+ "melee_2": {
+  "id": "melee_2",
+  "frames": 22,
+  "loop": false,
+  "form": "one_shot",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "full_body",
+  "entry": "combat|melee_1",
+  "exit": "combat|melee_3",
+  "markers": [
+   [
+    10,
+    "hit_start"
+   ],
+   [
+    13,
+    "hit_end"
+   ],
+   [
+    16,
+    "recovery_start"
+   ],
+   [
+    16,
+    "combo_open"
+   ],
+   [
+    21,
+    "combo_close"
+   ]
+  ],
+  "notes": "reverse (backhand) slash left-to-right with weight shift onto the front foot then back",
+  "extra": {},
+  "frame_range": [
+   0,
+   22
+  ],
+  "blender_action": "SK_melee_2",
+  "rig_action": "RIG_melee_2"
+ },
+ "melee_3": {
+  "id": "melee_3",
+  "frames": 34,
+  "loop": false,
+  "form": "one_shot",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "full_body",
+  "entry": "combat|melee_2",
+  "exit": "combat",
+  "markers": [
+   [
+    12,
+    "hit_start"
+   ],
+   [
+    16,
+    "hit_end"
+   ],
+   [
+    21,
+    "recovery_start"
+   ],
+   [
+    13,
+    "foot_l_down"
+   ],
+   [
+    28,
+    "foot_l_down"
+   ],
+   [
+    30,
+    "blade_in"
+   ]
+  ],
+  "notes": "committed overhead finisher with lunge step and blade retraction",
+  "extra": {},
+  "frame_range": [
+   0,
+   34
+  ],
+  "blender_action": "SK_melee_3",
+  "rig_action": "RIG_melee_3"
+ },
+ "pivot_l180": {
+  "id": "pivot_l180",
+  "frames": 30,
+  "loop": false,
+  "form": "one_shot",
+  "root": "in_place",
+  "speed_cms": 400.0,
+  "layer": "full_body",
+  "entry": "run_f@0.0",
+  "exit": "run_f@0.5 (rotated 180)",
+  "markers": [
+   [
+    0,
+    "foot_l_down"
+   ],
+   [
+    2,
+    "foot_r_up"
+   ],
+   [
+    9,
+    "foot_r_down"
+   ],
+   [
+    12,
+    "foot_l_up"
+   ],
+   [
+    16,
+    "foot_r_up"
+   ],
+   [
+    19,
+    "foot_l_down"
+   ],
+   [
+    25,
+    "foot_l_up"
+   ],
+   [
+    30,
+    "foot_r_down"
+   ]
+  ],
+  "notes": "moving direction change: pivot foot plants, brake step, pivot step +180 deg, push off; world velocity reverses (speed curve), actor yaw follows the turn_yaw curve",
+  "extra": {
+   "speed_curve_cms": [
+    400.0,
+    397.8,
+    391.3,
+    380.4,
+    365.4,
+    346.4,
+    323.6,
+    297.3,
+    267.7,
+    235.1,
+    200.0,
+    162.7,
+    123.6,
+    83.2,
+    41.8,
+    0.0,
+    -41.8,
+    -83.2,
+    -123.6,
+    -162.7,
+    -200.0,
+    -235.1,
+    -267.7,
+    -297.3,
+    -323.6,
+    -346.4,
+    -365.4,
+    -380.4,
+    -391.3,
+    -397.8,
+    -400.0
+   ],
+   "travel_dir": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "turn_yaw_deg": [
+    0.0,
+    0.0,
+    0.0,
+    0.208,
+    1.541,
+    4.79,
+    10.426,
+    18.633,
+    29.354,
+    42.33,
+    57.139,
+    73.237,
+    90.0,
+    106.763,
+    122.861,
+    137.67,
+    150.646,
+    161.367,
+    169.574,
+    175.21,
+    178.459,
+    179.792,
+    180.0,
+    180.0,
+    180.0,
+    180.0,
+    180.0,
+    180.0,
+    180.0,
+    180.0,
+    180.0
+   ],
+   "turn_total_deg": 180.0
+  },
+  "frame_range": [
+   0,
+   30
+  ],
+  "blender_action": "SK_pivot_l180",
+  "rig_action": "RIG_pivot_l180"
+ },
+ "pivot_r180": {
+  "id": "pivot_r180",
+  "frames": 30,
+  "loop": false,
+  "form": "one_shot",
+  "root": "in_place",
+  "speed_cms": 400.0,
+  "layer": "full_body",
+  "entry": "run_f@0.0",
+  "exit": "run_f@0.5 (rotated 180)",
+  "markers": [
+   [
+    0,
+    "foot_r_down"
+   ],
+   [
+    2,
+    "foot_l_up"
+   ],
+   [
+    9,
+    "foot_l_down"
+   ],
+   [
+    12,
+    "foot_r_up"
+   ],
+   [
+    16,
+    "foot_l_up"
+   ],
+   [
+    19,
+    "foot_r_down"
+   ],
+   [
+    25,
+    "foot_r_up"
+   ],
+   [
+    30,
+    "foot_l_down"
+   ]
+  ],
+  "notes": "moving direction change: pivot foot plants, brake step, pivot step -180 deg, push off; world velocity reverses (speed curve), actor yaw follows the turn_yaw curve",
+  "extra": {
+   "speed_curve_cms": [
+    400.0,
+    397.8,
+    391.3,
+    380.4,
+    365.4,
+    346.4,
+    323.6,
+    297.3,
+    267.7,
+    235.1,
+    200.0,
+    162.7,
+    123.6,
+    83.2,
+    41.8,
+    0.0,
+    -41.8,
+    -83.2,
+    -123.6,
+    -162.7,
+    -200.0,
+    -235.1,
+    -267.7,
+    -297.3,
+    -323.6,
+    -346.4,
+    -365.4,
+    -380.4,
+    -391.3,
+    -397.8,
+    -400.0
+   ],
+   "travel_dir": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "turn_yaw_deg": [
+    -0.0,
+    -0.0,
+    -0.0,
+    -0.208,
+    -1.541,
+    -4.79,
+    -10.426,
+    -18.633,
+    -29.354,
+    -42.33,
+    -57.139,
+    -73.237,
+    -90.0,
+    -106.763,
+    -122.861,
+    -137.67,
+    -150.646,
+    -161.367,
+    -169.574,
+    -175.21,
+    -178.459,
+    -179.792,
+    -180.0,
+    -180.0,
+    -180.0,
+    -180.0,
+    -180.0,
+    -180.0,
+    -180.0,
+    -180.0,
+    -180.0
+   ],
+   "turn_total_deg": -180.0
+  },
+  "frame_range": [
+   0,
+   30
+  ],
+  "blender_action": "SK_pivot_r180",
+  "rig_action": "RIG_pivot_r180"
+ },
+ "prone_back": {
+  "id": "prone_back",
+  "frames": 60,
+  "loop": true,
+  "form": "loop",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "full_body",
+  "entry": "knockdown_back",
+  "exit": "getup_back",
+  "markers": [],
+  "notes": "face-up on the floor, restrained breathing",
+  "extra": {},
+  "frame_range": [
+   0,
+   60
+  ],
+  "blender_action": "SK_prone_back",
+  "rig_action": "RIG_prone_back"
+ },
+ "prone_front": {
+  "id": "prone_front",
+  "frames": 60,
+  "loop": true,
+  "form": "loop",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "full_body",
+  "entry": "knockdown_front",
+  "exit": "getup_front",
+  "markers": [],
+  "notes": "face-down on the floor, restrained breathing",
+  "extra": {},
+  "frame_range": [
+   0,
+   60
+  ],
+  "blender_action": "SK_prone_front",
+  "rig_action": "RIG_prone_front"
+ },
+ "ranged_burst": {
+  "id": "ranged_burst",
+  "frames": 22,
+  "loop": false,
+  "form": "one_shot",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "upper_body",
+  "entry": "any_locomotion",
+  "exit": "previous",
+  "markers": [
+   [
+    2,
+    "muzzle_fire_1"
+   ],
+   [
+    8,
+    "muzzle_fire_2"
+   ],
+   [
+    14,
+    "muzzle_fire_3"
+   ]
+  ],
+  "notes": "three-shot burst; three distinct muzzle events",
+  "extra": {},
+  "frame_range": [
+   0,
+   22
+  ],
+  "blender_action": "SK_ranged_burst",
+  "rig_action": "RIG_ranged_burst"
+ },
+ "ranged_fire": {
+  "id": "ranged_fire",
+  "frames": 12,
+  "loop": false,
+  "form": "one_shot",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "upper_body",
+  "entry": "any_locomotion",
+  "exit": "previous",
+  "markers": [
+   [
+    2,
+    "muzzle_fire"
+   ]
+  ],
+  "notes": "wrist-emitter single shot with recoil; upper-body layer (legs untouched)",
+  "extra": {},
+  "frame_range": [
+   0,
+   12
+  ],
+  "blender_action": "SK_ranged_fire",
+  "rig_action": "RIG_ranged_fire"
+ },
+ "reload": {
+  "id": "reload",
+  "frames": 56,
+  "loop": false,
+  "form": "one_shot",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "upper_body",
+  "entry": "combat|locomotion",
+  "exit": "previous",
+  "markers": [
+   [
+    15,
+    "cell_grab"
+   ],
+   [
+    22,
+    "cell_out"
+   ],
+   [
+    31,
+    "cell_charge"
+   ],
+   [
+    45,
+    "cell_seated"
+   ],
+   [
+    47,
+    "reload_handoff"
+   ]
+  ],
+  "notes": "left hand pulls the power cell from the cyber-forearm cradle, recharges it on the hip pad, flips and re-seats it; cell parent switches at grab/seat frames",
+  "extra": {
+   "contacts": {
+    "cell_in_hand": [
+     16,
+     45
+    ]
+   }
+  },
+  "frame_range": [
+   0,
+   56
+  ],
+  "blender_action": "SK_reload",
+  "rig_action": "RIG_reload"
+ },
+ "respawn": {
+  "id": "respawn",
+  "frames": 76,
+  "loop": false,
+  "form": "one_shot",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "full_body",
+  "entry": "dead_front|dead_back|any",
+  "exit": "combat",
+  "markers": [
+   [
+    0,
+    "respawn_begin"
+   ],
+   [
+    22,
+    "reconstructed"
+   ],
+   [
+    48,
+    "foot_l_down"
+   ],
+   [
+    58,
+    "activate"
+   ],
+   [
+    76,
+    "control_regained"
+   ]
+  ],
+  "notes": "reconstruct kneeling with head down, power up, rise and settle into the ready stance",
+  "extra": {},
+  "frame_range": [
+   0,
+   76
+  ],
+  "blender_action": "SK_respawn",
+  "rig_action": "RIG_respawn"
+ },
+ "run_b": {
+  "id": "run_b",
+  "frames": 21,
+  "loop": true,
+  "form": "loop",
+  "root": "in_place",
+  "speed_cms": 400.0,
+  "layer": "full_body",
+  "entry": "locomotion",
+  "exit": "locomotion",
+  "markers": [
+   [
+    0,
+    "foot_l_down"
+   ],
+   [
+    10,
+    "foot_r_down"
+   ],
+   [
+    7,
+    "foot_l_up"
+   ],
+   [
+    18,
+    "foot_r_up"
+   ]
+  ],
+  "notes": "run cycle, travel +180 deg rel. facing, stride 2.80 m",
+  "extra": {
+   "reach_drop_max_cm": 6.93,
+   "travel_dir": [
+    1.2246467991473532e-16,
+    1.0,
+    0.0
+   ],
+   "stride_m": 2.8
+  },
+  "frame_range": [
+   0,
+   21
+  ],
+  "blender_action": "SK_run_b",
+  "rig_action": "RIG_run_b"
+ },
+ "run_bl": {
+  "id": "run_bl",
+  "frames": 21,
+  "loop": true,
+  "form": "loop",
+  "root": "in_place",
+  "speed_cms": 400.0,
+  "layer": "full_body",
+  "entry": "locomotion",
+  "exit": "locomotion",
+  "markers": [
+   [
+    0,
+    "foot_l_down"
+   ],
+   [
+    10,
+    "foot_r_down"
+   ],
+   [
+    7,
+    "foot_l_up"
+   ],
+   [
+    18,
+    "foot_r_up"
+   ]
+  ],
+  "notes": "run cycle, travel +135 deg rel. facing, stride 2.80 m",
+  "extra": {
+   "reach_drop_max_cm": 7.65,
+   "travel_dir": [
+    0.7071067811865476,
+    0.7071067811865475,
+    0.0
+   ],
+   "stride_m": 2.8
+  },
+  "frame_range": [
+   0,
+   21
+  ],
+  "blender_action": "SK_run_bl",
+  "rig_action": "RIG_run_bl"
+ },
+ "run_br": {
+  "id": "run_br",
+  "frames": 21,
+  "loop": true,
+  "form": "loop",
+  "root": "in_place",
+  "speed_cms": 400.0,
+  "layer": "full_body",
+  "entry": "locomotion",
+  "exit": "locomotion",
+  "markers": [
+   [
+    0,
+    "foot_l_down"
+   ],
+   [
+    10,
+    "foot_r_down"
+   ],
+   [
+    7,
+    "foot_l_up"
+   ],
+   [
+    18,
+    "foot_r_up"
+   ]
+  ],
+  "notes": "run cycle, travel -135 deg rel. facing, stride 2.80 m",
+  "extra": {
+   "reach_drop_max_cm": 7.95,
+   "travel_dir": [
+    -0.7071067811865476,
+    0.7071067811865475,
+    0.0
+   ],
+   "stride_m": 2.8
+  },
+  "frame_range": [
+   0,
+   21
+  ],
+  "blender_action": "SK_run_br",
+  "rig_action": "RIG_run_br"
+ },
+ "run_f": {
+  "id": "run_f",
+  "frames": 21,
+  "loop": true,
+  "form": "loop",
+  "root": "in_place",
+  "speed_cms": 400.0,
+  "layer": "full_body",
+  "entry": "locomotion",
+  "exit": "locomotion",
+  "markers": [
+   [
+    0,
+    "foot_l_down"
+   ],
+   [
+    10,
+    "foot_r_down"
+   ],
+   [
+    7,
+    "foot_l_up"
+   ],
+   [
+    18,
+    "foot_r_up"
+   ]
+  ],
+  "notes": "run cycle, travel +0 deg rel. facing, stride 2.80 m",
+  "extra": {
+   "reach_drop_max_cm": 8.2,
+   "travel_dir": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "stride_m": 2.8
+  },
+  "frame_range": [
+   0,
+   21
+  ],
+  "blender_action": "SK_run_f",
+  "rig_action": "RIG_run_f"
+ },
+ "run_fl": {
+  "id": "run_fl",
+  "frames": 21,
+  "loop": true,
+  "form": "loop",
+  "root": "in_place",
+  "speed_cms": 400.0,
+  "layer": "full_body",
+  "entry": "locomotion",
+  "exit": "locomotion",
+  "markers": [
+   [
+    0,
+    "foot_l_down"
+   ],
+   [
+    10,
+    "foot_r_down"
+   ],
+   [
+    7,
+    "foot_l_up"
+   ],
+   [
+    18,
+    "foot_r_up"
+   ]
+  ],
+  "notes": "run cycle, travel +45 deg rel. facing, stride 2.80 m",
+  "extra": {
+   "reach_drop_max_cm": 9.07,
+   "travel_dir": [
+    0.7071067811865475,
+    -0.7071067811865476,
+    0.0
+   ],
+   "stride_m": 2.8
+  },
+  "frame_range": [
+   0,
+   21
+  ],
+  "blender_action": "SK_run_fl",
+  "rig_action": "RIG_run_fl"
+ },
+ "run_fr": {
+  "id": "run_fr",
+  "frames": 21,
+  "loop": true,
+  "form": "loop",
+  "root": "in_place",
+  "speed_cms": 400.0,
+  "layer": "full_body",
+  "entry": "locomotion",
+  "exit": "locomotion",
+  "markers": [
+   [
+    0,
+    "foot_l_down"
+   ],
+   [
+    10,
+    "foot_r_down"
+   ],
+   [
+    7,
+    "foot_l_up"
+   ],
+   [
+    18,
+    "foot_r_up"
+   ]
+  ],
+  "notes": "run cycle, travel -45 deg rel. facing, stride 2.80 m",
+  "extra": {
+   "reach_drop_max_cm": 8.71,
+   "travel_dir": [
+    -0.7071067811865475,
+    -0.7071067811865476,
+    0.0
+   ],
+   "stride_m": 2.8
+  },
+  "frame_range": [
+   0,
+   21
+  ],
+  "blender_action": "SK_run_fr",
+  "rig_action": "RIG_run_fr"
+ },
+ "run_l": {
+  "id": "run_l",
+  "frames": 21,
+  "loop": true,
+  "form": "loop",
+  "root": "in_place",
+  "speed_cms": 400.0,
+  "layer": "full_body",
+  "entry": "locomotion",
+  "exit": "locomotion",
+  "markers": [
+   [
+    0,
+    "foot_l_down"
+   ],
+   [
+    10,
+    "foot_r_down"
+   ],
+   [
+    7,
+    "foot_l_up"
+   ],
+   [
+    18,
+    "foot_r_up"
+   ]
+  ],
+  "notes": "run cycle, travel +90 deg rel. facing, stride 2.80 m",
+  "extra": {
+   "reach_drop_max_cm": 9.97,
+   "travel_dir": [
+    1.0,
+    -6.123233995736766e-17,
+    0.0
+   ],
+   "stride_m": 2.8
+  },
+  "frame_range": [
+   0,
+   21
+  ],
+  "blender_action": "SK_run_l",
+  "rig_action": "RIG_run_l"
+ },
+ "run_r": {
+  "id": "run_r",
+  "frames": 21,
+  "loop": true,
+  "form": "loop",
+  "root": "in_place",
+  "speed_cms": 400.0,
+  "layer": "full_body",
+  "entry": "locomotion",
+  "exit": "locomotion",
+  "markers": [
+   [
+    0,
+    "foot_l_down"
+   ],
+   [
+    10,
+    "foot_r_down"
+   ],
+   [
+    7,
+    "foot_l_up"
+   ],
+   [
+    18,
+    "foot_r_up"
+   ]
+  ],
+  "notes": "run cycle, travel -90 deg rel. facing, stride 2.80 m",
+  "extra": {
+   "reach_drop_max_cm": 9.48,
+   "travel_dir": [
+    -1.0,
+    -6.123233995736766e-17,
+    0.0
+   ],
+   "stride_m": 2.8
+  },
+  "frame_range": [
+   0,
+   21
+  ],
+  "blender_action": "SK_run_r",
+  "rig_action": "RIG_run_r"
+ },
+ "sleep_end": {
+  "id": "sleep_end",
+  "frames": 45,
+  "loop": false,
+  "form": "one_shot",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "full_body",
+  "entry": "sleep_loop",
+  "exit": "combat",
+  "markers": [
+   [
+    5,
+    "awake"
+   ],
+   [
+    40,
+    "foot_l_down"
+   ],
+   [
+    45,
+    "control_regained"
+   ]
+  ],
+  "notes": "startled awake: head snaps up, eyes open, rises to readiness",
+  "extra": {},
+  "frame_range": [
+   0,
+   45
+  ],
+  "blender_action": "SK_sleep_end",
+  "rig_action": "RIG_sleep_end"
+ },
+ "sleep_loop": {
+  "id": "sleep_loop",
+  "frames": 90,
+  "loop": true,
+  "form": "loop",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "full_body",
+  "entry": "sleep_start",
+  "exit": "sleep_end",
+  "markers": [],
+  "notes": "sustained sleep: slow breathing and slight head nod",
+  "extra": {},
+  "frame_range": [
+   0,
+   90
+  ],
+  "blender_action": "SK_sleep_loop",
+  "rig_action": "RIG_sleep_loop"
+ },
+ "sleep_start": {
+  "id": "sleep_start",
+  "frames": 60,
+  "loop": false,
+  "form": "one_shot",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "full_body",
+  "entry": "any",
+  "exit": "sleep_loop",
+  "markers": [
+   [
+    40,
+    "knee_contact"
+   ],
+   [
+    60,
+    "asleep"
+   ]
+  ],
+  "notes": "drowsy: head drops, knees fold, settles into a stable kneeling sleep posture",
+  "extra": {},
+  "frame_range": [
+   0,
+   60
+  ],
+  "blender_action": "SK_sleep_start",
+  "rig_action": "RIG_sleep_start"
+ },
+ "sprint_f": {
+  "id": "sprint_f",
+  "frames": 19,
+  "loop": true,
+  "form": "loop",
+  "root": "in_place",
+  "speed_cms": 650.0,
+  "layer": "full_body",
+  "entry": "locomotion",
+  "exit": "locomotion",
+  "markers": [
+   [
+    0,
+    "foot_l_down"
+   ],
+   [
+    10,
+    "foot_r_down"
+   ],
+   [
+    6,
+    "foot_l_up"
+   ],
+   [
+    15,
+    "foot_r_up"
+   ]
+  ],
+  "notes": "sprint cycle, travel +0 deg rel. facing, stride 4.12 m",
+  "extra": {
+   "reach_drop_max_cm": 18.69,
+   "travel_dir": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "stride_m": 4.116666666666666
+  },
+  "frame_range": [
+   0,
+   19
+  ],
+  "blender_action": "SK_sprint_f",
+  "rig_action": "RIG_sprint_f"
+ },
+ "start_f": {
+  "id": "start_f",
+  "frames": 28,
+  "loop": false,
+  "form": "one_shot",
+  "root": "in_place",
+  "speed_cms": 150.0,
+  "layer": "full_body",
+  "entry": "idle_relaxed|idle_combat",
+  "exit": "walk_f@0.516",
+  "markers": [
+   [
+    3,
+    "foot_l_up"
+   ],
+   [
+    12,
+    "foot_l_down"
+   ],
+   [
+    15,
+    "foot_r_up"
+   ],
+   [
+    27,
+    "foot_r_down"
+   ]
+  ],
+  "notes": "accelerate from stand: lean, left step, right step into the walk cycle (exit phase 0.516)",
+  "extra": {
+   "speed_curve_cms": [
+    0.0,
+    1.3,
+    6.6,
+    16.2,
+    29.7,
+    46.4,
+    65.3,
+    85.1,
+    104.6,
+    122.3,
+    136.8,
+    146.5,
+    150.0,
+    150.0,
+    150.0,
+    150.0,
+    150.0,
+    150.0,
+    150.0,
+    150.0,
+    150.0,
+    150.0,
+    150.0,
+    150.0,
+    150.0,
+    150.0,
+    150.0,
+    150.0,
+    150.0
+   ],
+   "travel_dir": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "exit_phase": 0.5161290322580645,
+   "world_travel_m": 1.0786171154724427
+  },
+  "frame_range": [
+   0,
+   28
+  ],
+  "blender_action": "SK_start_f",
+  "rig_action": "RIG_start_f"
+ },
+ "stop_f": {
+  "id": "stop_f",
+  "frames": 26,
+  "loop": false,
+  "form": "one_shot",
+  "root": "in_place",
+  "speed_cms": 150.0,
+  "layer": "full_body",
+  "entry": "walk_f@0.0|run_f",
+  "exit": "idle_combat",
+  "markers": [
+   [
+    0,
+    "foot_l_down"
+   ],
+   [
+    3,
+    "foot_r_up"
+   ],
+   [
+    14,
+    "foot_r_down"
+   ]
+  ],
+  "notes": "brake from walk (enter at left heel strike): right foot plants beside, weight settles back",
+  "extra": {
+   "speed_curve_cms": [
+    150.0,
+    147.8,
+    141.7,
+    132.3,
+    120.3,
+    106.3,
+    91.0,
+    75.0,
+    59.0,
+    43.7,
+    29.7,
+    17.7,
+    8.3,
+    2.2,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "travel_dir": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "world_travel_m": 0.35000000000000014
+  },
+  "frame_range": [
+   0,
+   26
+  ],
+  "blender_action": "SK_stop_f",
+  "rig_action": "RIG_stop_f"
+ },
+ "stun_end": {
+  "id": "stun_end",
+  "frames": 26,
+  "loop": false,
+  "form": "one_shot",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "full_body",
+  "entry": "stun_loop",
+  "exit": "combat",
+  "markers": [
+   [
+    16,
+    "control_regained"
+   ]
+  ],
+  "notes": "shake it off and regain control without sliding the feet",
+  "extra": {},
+  "frame_range": [
+   0,
+   26
+  ],
+  "blender_action": "SK_stun_end",
+  "rig_action": "RIG_stun_end"
+ },
+ "stun_loop": {
+  "id": "stun_loop",
+  "frames": 60,
+  "loop": true,
+  "form": "loop",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "full_body",
+  "entry": "stun_start",
+  "exit": "stun_end",
+  "markers": [],
+  "notes": "disoriented: head circles, body sways, breathing; feet planted",
+  "extra": {},
+  "frame_range": [
+   0,
+   60
+  ],
+  "blender_action": "SK_stun_loop",
+  "rig_action": "RIG_stun_loop"
+ },
+ "stun_start": {
+  "id": "stun_start",
+  "frames": 24,
+  "loop": false,
+  "form": "one_shot",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "full_body",
+  "entry": "any",
+  "exit": "stun_loop",
+  "markers": [
+   [
+    1,
+    "stun_applied"
+   ]
+  ],
+  "notes": "lose control: jolt, head snaps, knees buckle into the dazed stance",
+  "extra": {},
+  "frame_range": [
+   0,
+   24
+  ],
+  "blender_action": "SK_stun_start",
+  "rig_action": "RIG_stun_start"
+ },
+ "turn_l90": {
+  "id": "turn_l90",
+  "frames": 26,
+  "loop": false,
+  "form": "one_shot",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "full_body",
+  "entry": "idle_combat|idle_relaxed",
+  "exit": "idle_combat",
+  "markers": [
+   [
+    3,
+    "foot_l_up"
+   ],
+   [
+    11,
+    "foot_l_down"
+   ],
+   [
+    9,
+    "foot_r_up"
+   ],
+   [
+    19,
+    "foot_r_down"
+   ],
+   [
+    24,
+    "foot_l_down"
+   ]
+  ],
+  "notes": "turn +90 deg in place with two steps; the body rotates relative to the root, the controller rotates the actor by the same amount (turn_yaw curve) and counter-rotates the mesh",
+  "extra": {
+   "turn_yaw_deg": [
+    0.0,
+    0.0,
+    0.079,
+    0.587,
+    1.841,
+    4.041,
+    7.291,
+    11.603,
+    16.916,
+    23.104,
+    29.994,
+    37.372,
+    45.0,
+    52.628,
+    60.006,
+    66.896,
+    73.084,
+    78.397,
+    82.709,
+    85.959,
+    88.159,
+    89.413,
+    89.921,
+    90.0,
+    90.0,
+    90.0,
+    90.0
+   ],
+   "turn_total_deg": 90.0
+  },
+  "frame_range": [
+   0,
+   26
+  ],
+  "blender_action": "SK_turn_l90",
+  "rig_action": "RIG_turn_l90"
+ },
+ "turn_r90": {
+  "id": "turn_r90",
+  "frames": 26,
+  "loop": false,
+  "form": "one_shot",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "full_body",
+  "entry": "idle_combat|idle_relaxed",
+  "exit": "idle_combat",
+  "markers": [
+   [
+    3,
+    "foot_r_up"
+   ],
+   [
+    11,
+    "foot_r_down"
+   ],
+   [
+    9,
+    "foot_l_up"
+   ],
+   [
+    19,
+    "foot_l_down"
+   ],
+   [
+    24,
+    "foot_r_down"
+   ]
+  ],
+  "notes": "turn -90 deg in place with two steps; the body rotates relative to the root, the controller rotates the actor by the same amount (turn_yaw curve) and counter-rotates the mesh",
+  "extra": {
+   "turn_yaw_deg": [
+    -0.0,
+    -0.0,
+    -0.079,
+    -0.587,
+    -1.841,
+    -4.041,
+    -7.291,
+    -11.603,
+    -16.916,
+    -23.104,
+    -29.994,
+    -37.372,
+    -45.0,
+    -52.628,
+    -60.006,
+    -66.896,
+    -73.084,
+    -78.397,
+    -82.709,
+    -85.959,
+    -88.159,
+    -89.413,
+    -89.921,
+    -90.0,
+    -90.0,
+    -90.0,
+    -90.0
+   ],
+   "turn_total_deg": -90.0
+  },
+  "frame_range": [
+   0,
+   26
+  ],
+  "blender_action": "SK_turn_r90",
+  "rig_action": "RIG_turn_r90"
+ },
+ "uplink_cancel": {
+  "id": "uplink_cancel",
+  "frames": 15,
+  "loop": false,
+  "form": "one_shot",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "full_body",
+  "entry": "uplink_loop|uplink_start",
+  "exit": "combat",
+  "markers": [
+   [
+    2,
+    "uplink_cancelled"
+   ]
+  ],
+  "notes": "interrupted recall: swipe away and drop back to control",
+  "extra": {},
+  "frame_range": [
+   0,
+   15
+  ],
+  "blender_action": "SK_uplink_cancel",
+  "rig_action": "RIG_uplink_cancel"
+ },
+ "uplink_end": {
+  "id": "uplink_end",
+  "frames": 18,
+  "loop": false,
+  "form": "one_shot",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "full_body",
+  "entry": "uplink_loop",
+  "exit": "combat|blink_out",
+  "markers": [
+   [
+    4,
+    "uplink_tap"
+   ],
+   [
+    6,
+    "uplink_complete"
+   ]
+  ],
+  "notes": "successful completion cue: final tap, flourish, nod",
+  "extra": {},
+  "frame_range": [
+   0,
+   18
+  ],
+  "blender_action": "SK_uplink_end",
+  "rig_action": "RIG_uplink_end"
+ },
+ "uplink_loop": {
+  "id": "uplink_loop",
+  "frames": 45,
+  "loop": true,
+  "form": "loop",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "full_body",
+  "entry": "uplink_start",
+  "exit": "uplink_end|uplink_cancel",
+  "markers": [
+   [
+    5,
+    "uplink_tap"
+   ],
+   [
+    16,
+    "uplink_tap"
+   ],
+   [
+    28,
+    "uplink_tap"
+   ],
+   [
+    39,
+    "uplink_tap"
+   ]
+  ],
+  "notes": "sustained console input: taps, feet planted",
+  "extra": {},
+  "frame_range": [
+   0,
+   45
+  ],
+  "blender_action": "SK_uplink_loop",
+  "rig_action": "RIG_uplink_loop"
+ },
+ "uplink_start": {
+  "id": "uplink_start",
+  "frames": 24,
+  "loop": false,
+  "form": "one_shot",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "full_body",
+  "entry": "combat",
+  "exit": "uplink_loop",
+  "markers": [
+   [
+    20,
+    "uplink_begin"
+   ]
+  ],
+  "notes": "raise the cyber forearm console; left index finger begins the recall sequence",
+  "extra": {},
+  "frame_range": [
+   0,
+   24
+  ],
+  "blender_action": "SK_uplink_start",
+  "rig_action": "RIG_uplink_start"
+ },
+ "victory": {
+  "id": "victory",
+  "frames": 80,
+  "loop": false,
+  "form": "one_shot",
+  "root": "in_place",
+  "speed_cms": 0.0,
+  "layer": "full_body",
+  "entry": "any",
+  "exit": "idle_combat",
+  "markers": [
+   [
+    10,
+    "victory_pump"
+   ],
+   [
+    22,
+    "victory_pump"
+   ]
+  ],
+  "notes": "cyber fist pump, glowing grin, then a confident arms-crossed stance",
+  "extra": {},
+  "frame_range": [
+   0,
+   80
+  ],
+  "blender_action": "SK_victory",
+  "rig_action": "RIG_victory"
+ },
+ "walk_b": {
+  "id": "walk_b",
+  "frames": 31,
+  "loop": true,
+  "form": "loop",
+  "root": "in_place",
+  "speed_cms": 150.0,
+  "layer": "full_body",
+  "entry": "locomotion",
+  "exit": "locomotion",
+  "markers": [
+   [
+    0,
+    "foot_l_down"
+   ],
+   [
+    16,
+    "foot_r_down"
+   ],
+   [
+    19,
+    "foot_l_up"
+   ],
+   [
+    3,
+    "foot_r_up"
+   ]
+  ],
+  "notes": "walk cycle, travel +180 deg rel. facing, stride 1.55 m",
+  "extra": {
+   "reach_drop_max_cm": 9.2,
+   "travel_dir": [
+    1.2246467991473532e-16,
+    1.0,
+    0.0
+   ],
+   "stride_m": 1.5500000000000003
+  },
+  "frame_range": [
+   0,
+   31
+  ],
+  "blender_action": "SK_walk_b",
+  "rig_action": "RIG_walk_b"
+ },
+ "walk_bl": {
+  "id": "walk_bl",
+  "frames": 31,
+  "loop": true,
+  "form": "loop",
+  "root": "in_place",
+  "speed_cms": 150.0,
+  "layer": "full_body",
+  "entry": "locomotion",
+  "exit": "locomotion",
+  "markers": [
+   [
+    0,
+    "foot_l_down"
+   ],
+   [
+    16,
+    "foot_r_down"
+   ],
+   [
+    19,
+    "foot_l_up"
+   ],
+   [
+    3,
+    "foot_r_up"
+   ]
+  ],
+  "notes": "walk cycle, travel +135 deg rel. facing, stride 1.55 m",
+  "extra": {
+   "reach_drop_max_cm": 9.23,
+   "travel_dir": [
+    0.7071067811865476,
+    0.7071067811865475,
+    0.0
+   ],
+   "stride_m": 1.5500000000000003
+  },
+  "frame_range": [
+   0,
+   31
+  ],
+  "blender_action": "SK_walk_bl",
+  "rig_action": "RIG_walk_bl"
+ },
+ "walk_br": {
+  "id": "walk_br",
+  "frames": 31,
+  "loop": true,
+  "form": "loop",
+  "root": "in_place",
+  "speed_cms": 150.0,
+  "layer": "full_body",
+  "entry": "locomotion",
+  "exit": "locomotion",
+  "markers": [
+   [
+    0,
+    "foot_l_down"
+   ],
+   [
+    16,
+    "foot_r_down"
+   ],
+   [
+    19,
+    "foot_l_up"
+   ],
+   [
+    3,
+    "foot_r_up"
+   ]
+  ],
+  "notes": "walk cycle, travel -135 deg rel. facing, stride 1.55 m",
+  "extra": {
+   "reach_drop_max_cm": 9.41,
+   "travel_dir": [
+    -0.7071067811865476,
+    0.7071067811865475,
+    0.0
+   ],
+   "stride_m": 1.5500000000000003
+  },
+  "frame_range": [
+   0,
+   31
+  ],
+  "blender_action": "SK_walk_br",
+  "rig_action": "RIG_walk_br"
+ },
+ "walk_f": {
+  "id": "walk_f",
+  "frames": 31,
+  "loop": true,
+  "form": "loop",
+  "root": "in_place",
+  "speed_cms": 150.0,
+  "layer": "full_body",
+  "entry": "locomotion",
+  "exit": "locomotion",
+  "markers": [
+   [
+    0,
+    "foot_l_down"
+   ],
+   [
+    16,
+    "foot_r_down"
+   ],
+   [
+    19,
+    "foot_l_up"
+   ],
+   [
+    3,
+    "foot_r_up"
+   ]
+  ],
+  "notes": "walk cycle, travel +0 deg rel. facing, stride 1.55 m",
+  "extra": {
+   "reach_drop_max_cm": 6.84,
+   "travel_dir": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "stride_m": 1.5500000000000003
+  },
+  "frame_range": [
+   0,
+   31
+  ],
+  "blender_action": "SK_walk_f",
+  "rig_action": "RIG_walk_f"
+ },
+ "walk_fl": {
+  "id": "walk_fl",
+  "frames": 31,
+  "loop": true,
+  "form": "loop",
+  "root": "in_place",
+  "speed_cms": 150.0,
+  "layer": "full_body",
+  "entry": "locomotion",
+  "exit": "locomotion",
+  "markers": [
+   [
+    0,
+    "foot_l_down"
+   ],
+   [
+    16,
+    "foot_r_down"
+   ],
+   [
+    19,
+    "foot_l_up"
+   ],
+   [
+    3,
+    "foot_r_up"
+   ]
+  ],
+  "notes": "walk cycle, travel +45 deg rel. facing, stride 1.55 m",
+  "extra": {
+   "reach_drop_max_cm": 7.09,
+   "travel_dir": [
+    0.7071067811865475,
+    -0.7071067811865476,
+    0.0
+   ],
+   "stride_m": 1.5500000000000003
+  },
+  "frame_range": [
+   0,
+   31
+  ],
+  "blender_action": "SK_walk_fl",
+  "rig_action": "RIG_walk_fl"
+ },
+ "walk_fr": {
+  "id": "walk_fr",
+  "frames": 31,
+  "loop": true,
+  "form": "loop",
+  "root": "in_place",
+  "speed_cms": 150.0,
+  "layer": "full_body",
+  "entry": "locomotion",
+  "exit": "locomotion",
+  "markers": [
+   [
+    0,
+    "foot_l_down"
+   ],
+   [
+    16,
+    "foot_r_down"
+   ],
+   [
+    19,
+    "foot_l_up"
+   ],
+   [
+    3,
+    "foot_r_up"
+   ]
+  ],
+  "notes": "walk cycle, travel -45 deg rel. facing, stride 1.55 m",
+  "extra": {
+   "reach_drop_max_cm": 7.1,
+   "travel_dir": [
+    -0.7071067811865475,
+    -0.7071067811865476,
+    0.0
+   ],
+   "stride_m": 1.5500000000000003
+  },
+  "frame_range": [
+   0,
+   31
+  ],
+  "blender_action": "SK_walk_fr",
+  "rig_action": "RIG_walk_fr"
+ },
+ "walk_l": {
+  "id": "walk_l",
+  "frames": 31,
+  "loop": true,
+  "form": "loop",
+  "root": "in_place",
+  "speed_cms": 150.0,
+  "layer": "full_body",
+  "entry": "locomotion",
+  "exit": "locomotion",
+  "markers": [
+   [
+    0,
+    "foot_l_down"
+   ],
+   [
+    16,
+    "foot_r_down"
+   ],
+   [
+    19,
+    "foot_l_up"
+   ],
+   [
+    3,
+    "foot_r_up"
+   ]
+  ],
+  "notes": "walk cycle, travel +90 deg rel. facing, stride 1.55 m",
+  "extra": {
+   "reach_drop_max_cm": 8.23,
+   "travel_dir": [
+    1.0,
+    -6.123233995736766e-17,
+    0.0
+   ],
+   "stride_m": 1.5500000000000003
+  },
+  "frame_range": [
+   0,
+   31
+  ],
+  "blender_action": "SK_walk_l",
+  "rig_action": "RIG_walk_l"
+ },
+ "walk_r": {
+  "id": "walk_r",
+  "frames": 31,
+  "loop": true,
+  "form": "loop",
+  "root": "in_place",
+  "speed_cms": 150.0,
+  "layer": "full_body",
+  "entry": "locomotion",
+  "exit": "locomotion",
+  "markers": [
+   [
+    0,
+    "foot_l_down"
+   ],
+   [
+    16,
+    "foot_r_down"
+   ],
+   [
+    19,
+    "foot_l_up"
+   ],
+   [
+    3,
+    "foot_r_up"
+   ]
+  ],
+  "notes": "walk cycle, travel -90 deg rel. facing, stride 1.55 m",
+  "extra": {
+   "reach_drop_max_cm": 8.21,
+   "travel_dir": [
+    -1.0,
+    -6.123233995736766e-17,
+    0.0
+   ],
+   "stride_m": 1.5500000000000003
+  },
+  "frame_range": [
+   0,
+   31
+  ],
+  "blender_action": "SK_walk_r",
+  "rig_action": "RIG_walk_r"
+ }
+}

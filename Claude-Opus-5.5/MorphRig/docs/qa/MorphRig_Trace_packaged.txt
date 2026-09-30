@@ -1,0 +1,266 @@
+# MorphRig deterministic showcase sequence (fixed step 1/60 s)
+# time	state	clip	trace	speed_cms	location_cm
+   0.017	STEP	reset, relaxed idle
+   0.017	Locomotion	idle_relaxed	reset	0.0	-2600,1800,100
+   1.500	STEP	start + walk forward
+   1.500	Transition	start_f	state EMorphState::Locomotion -> Transition clip=start_f	0.0	-2600,1800,92
+   1.583	Transition	start_f	event foot_l_up @start_f	116.7	-2594,1800,92
+   1.883	Transition	start_f	event foot_l_down @start_f	150.0	-2549,1800,92
+   1.983	Transition	start_f	event foot_r_up @start_f	150.0	-2534,1800,92
+   2.317	Locomotion	walk_f (blend)	state EMorphState::Transition -> Locomotion clip=none	150.0	-2484,1800,92
+   3.500	STEP	run forward
+   5.000	STEP	strafe left while facing forward
+   6.200	STEP	run back-right (independent facing)
+   7.400	STEP	walk forward
+   8.800	STEP	stop
+   8.800	Transition	stop_f	state EMorphState::Locomotion -> Transition clip=stop_f	150.0	-1798,1628,92
+   8.800	Transition	stop_f	event foot_l_down @stop_f	150.0	-1798,1628,92
+   8.883	Transition	stop_f	event foot_r_up @stop_f	0.0	-1796,1628,92
+   9.250	Transition	stop_f	event foot_r_down @stop_f	0.0	-1796,1628,92
+   9.550	Locomotion	idle_relaxed	state EMorphState::Transition -> Locomotion clip=none	0.0	-1796,1628,92
+  10.000	STEP	sprint
+  10.000	Transition	start_f	state EMorphState::Locomotion -> Transition clip=start_f	0.0	-1796,1628,92
+  10.083	Transition	start_f	event foot_l_up @start_f	116.7	-1790,1628,92
+  10.383	Transition	start_f	event foot_l_down @start_f	536.7	-1689,1628,92
+  10.483	Transition	start_f	event foot_r_up @start_f	650.0	-1627,1628,92
+  10.817	Locomotion	sprint_f	state EMorphState::Transition -> Locomotion clip=none	650.0	-1411,1628,92
+  11.600	STEP	sprint -> stop
+  11.667	Transition	stop_f	state EMorphState::Locomotion -> Transition clip=stop_f	116.9	-884,1628,92
+  11.667	Transition	stop_f	event foot_l_down @stop_f	116.9	-884,1628,92
+  11.750	Transition	stop_f	event foot_r_up @stop_f	0.0	-882,1628,92
+  12.117	Transition	stop_f	event foot_r_down @stop_f	0.0	-882,1628,92
+  12.417	Locomotion	idle_relaxed	state EMorphState::Transition -> Locomotion clip=none	0.0	-882,1628,92
+  13.000	STEP	turn left 90 (aim target to the left)
+  13.000	Transition	turn_l90	state EMorphState::Locomotion -> Transition clip=turn_l90	0.0	-882,1628,92
+  13.083	Transition	turn_l90	event foot_l_up @turn_l90	0.0	-882,1628,92
+  13.283	Transition	turn_l90	event foot_r_up @turn_l90	0.0	-882,1628,92
+  13.350	Transition	turn_l90	event foot_l_down @turn_l90	0.0	-882,1628,92
+  13.617	Transition	turn_l90	event foot_r_down @turn_l90	0.0	-882,1628,92
+  13.750	Locomotion	idle_relaxed	state EMorphState::Transition -> Locomotion clip=none	0.0	-882,1628,92
+  14.500	STEP	jump
+  14.500	Airborne	jump_start	state EMorphState::Locomotion -> Airborne clip=jump_start	0.0	-882,1628,92
+  14.717	Airborne	jump_start	event jump_load @jump_start	0.0	-882,1628,92
+  14.883	Airborne	jump_start	event takeoff @jump_start	0.0	-882,1628,92
+  15.867	Airborne	land_heavy	landed heavy (air 0.98s)	0.0	-882,1628,90
+  15.883	Airborne	land_heavy	event land_contact @land_heavy	0.0	-882,1628,92
+  16.067	Airborne	land_heavy	event hand_l_contact @land_heavy	0.0	-882,1628,92
+  16.200	STEP	dash forward (root motion 2 m)
+  16.200	Dash	dash_f	state EMorphState::Airborne -> Dash clip=dash_f	0.0	-882,1628,92
+  16.250	Dash	dash_f	event dash_start @dash_f	0.0	-882,1628,92
+  16.283	Dash	dash_f	event foot_r_up @dash_f	0.0	-882,1609,92
+  16.350	Dash	dash_f	event foot_l_up @dash_f	0.0	-882,1542,92
+  16.550	Dash	dash_f	event foot_r_down @dash_f	0.0	-882,1436,92
+  16.617	Dash	dash_f	event foot_l_down @dash_f	0.0	-882,1428,92
+  16.633	Locomotion	idle_relaxed	state EMorphState::Dash -> Locomotion clip=none	0.0	-882,1428,92
+  17.200	STEP	melee combo 1-2-3
+  17.200	Action	melee_1	state EMorphState::Locomotion -> Action clip=melee_1	0.0	-882,1428,92
+  17.250	Action	melee_1	event blade_out @melee_1	0.0	-882,1428,92
+  17.450	Action	melee_1	event hit_start @melee_1	0.0	-882,1428,92
+  17.550	Action	melee_1	event hit_end @melee_1	0.0	-882,1428,92
+  17.600	STEP	combo input
+  17.617	Action	melee_2	combo -> melee_2	0.0	-882,1428,92
+  17.917	STEP	combo input
+  17.933	Action	melee_2	event hit_start @melee_2	0.0	-882,1428,92
+  18.033	Action	melee_2	event hit_end @melee_2	0.0	-882,1428,92
+  18.083	Action	melee_3	combo -> melee_3	0.0	-882,1428,92
+  18.467	Action	melee_3	event hit_start @melee_3	0.0	-882,1428,92
+  18.500	Action	melee_3	event foot_l_down @melee_3	0.0	-882,1428,92
+  18.600	Action	melee_3	event hit_end @melee_3	0.0	-882,1428,92
+  18.767	Action	melee_3	event recovery_start @melee_3	0.0	-882,1428,92
+  19.017	Action	melee_3	event foot_l_down @melee_3	0.0	-882,1428,92
+  19.083	Action	melee_3	event blade_in @melee_3	0.0	-882,1428,92
+  19.117	Locomotion	idle_relaxed	state EMorphState::Action -> Locomotion clip=none	0.0	-882,1428,92
+  20.217	STEP	walk + fire (upper-body layer)
+  20.217	Locomotion	idle_relaxed	upper-body ranged_fire	0.0	-882,1428,92
+  20.267	Locomotion	idle_relaxed	event muzzle_fire @ranged_fire	70.0	-882,1430,92
+  21.017	STEP	burst while walking
+  21.017	Locomotion	walk_b (blend)	upper-body ranged_burst	150.0	-882,1541,92
+  21.067	Locomotion	walk_b (blend)	event muzzle_fire_1 @ranged_burst	150.0	-882,1549,92
+  21.267	Locomotion	walk_b (blend)	event muzzle_fire_2 @ranged_burst	150.0	-882,1579,92
+  21.467	Locomotion	walk_b (blend)	event muzzle_fire_3 @ranged_burst	150.0	-882,1609,92
+  22.017	STEP	reload while walking
+  22.017	Locomotion	walk_b (blend)	upper-body reload	150.0	-882,1691,92
+  22.500	Locomotion	walk_b (blend)	event cell_grab @reload	150.0	-882,1764,92
+  22.750	Locomotion	walk_b (blend)	event cell_out @reload	150.0	-882,1801,92
+  23.050	Locomotion	walk_b (blend)	event cell_charge @reload	150.0	-882,1846,92
+  23.516	Locomotion	walk_b (blend)	event cell_seated @reload	150.0	-882,1916,92
+  23.583	Locomotion	walk_b (blend)	event reload_handoff @reload	150.0	-882,1926,92
+  24.016	STEP	stop, directional cast
+  24.816	STEP	cast directional
+  24.816	Action	cast_directional	state EMorphState::Locomotion -> Action clip=cast_directional	0.0	-882,1993,92
+  24.933	Action	cast_directional	event cast_gather @cast_directional	0.0	-882,1993,92
+  25.200	Action	cast_directional	event cast_release @cast_directional	0.0	-882,1993,92
+  25.583	Locomotion	idle_relaxed	state EMorphState::Action -> Locomotion clip=none	0.0	-882,1993,92
+  26.016	STEP	cast ground
+  26.016	Action	cast_ground	state EMorphState::Locomotion -> Action clip=cast_ground	0.0	-882,1993,92
+  26.200	Action	cast_ground	event cast_gather @cast_ground	0.0	-882,1993,92
+  26.533	Action	cast_ground	event cast_release @cast_ground	0.0	-882,1993,92
+  26.983	Locomotion	idle_relaxed	state EMorphState::Action -> Locomotion clip=none	0.0	-882,1993,92
+  27.616	STEP	channel start (held)
+  27.616	Channel	channel_start	state EMorphState::Locomotion -> Channel clip=channel_start	0.0	-882,1993,92
+  27.933	Channel	channel_start	event foot_l_down @channel_start	0.0	-882,1993,92
+  28.100	Channel	channel_loop	event channel_pulse @channel_loop	0.0	-882,1993,92
+  28.750	Channel	channel_loop	event channel_pulse @channel_loop	0.0	-882,1993,92
+  29.216	STEP	hit during channel -> interrupt
+  29.216	Channel	channel_loop	hit hit_f (additive)	0.0	-882,1993,92
+  29.216	Channel	channel_interrupt	channel interrupted	0.0	-882,1993,92
+  29.216	Channel	channel_interrupt	event hit_impact @hit_f	0.0	-882,1993,92
+  29.233	Channel	channel_interrupt	event channel_broken @channel_interrupt	0.0	-882,1993,92
+  29.466	Channel	channel_interrupt	event foot_l_down @channel_interrupt	0.0	-882,1993,92
+  29.616	Locomotion	idle_relaxed	state EMorphState::Channel -> Locomotion clip=none	0.0	-882,1993,92
+  30.616	STEP	charge (held)
+  30.616	Charge	charge_start	state EMorphState::Locomotion -> Charge clip=charge_start	0.0	-882,1993,92
+  30.733	Charge	charge_start	event charge_begin @charge_start	0.0	-882,1993,92
+  32.016	STEP	charge release
+  32.016	Charge	charge_release	charge released after 1.40s	0.0	-882,1993,92
+  32.233	Charge	charge_release	event charge_release @charge_release	0.0	-882,1993,92
+  32.266	Charge	charge_release	event hit_start @charge_release	0.0	-882,1993,92
+  32.333	Charge	charge_release	event hit_end @charge_release	0.0	-882,1993,92
+  32.683	Locomotion	idle_relaxed	state EMorphState::Charge -> Locomotion clip=none	0.0	-882,1993,92
+  33.416	STEP	charge again
+  33.416	Charge	charge_start	state EMorphState::Locomotion -> Charge clip=charge_start	0.0	-882,1993,92
+  33.533	Charge	charge_start	event charge_begin @charge_start	0.0	-882,1993,92
+  34.216	STEP	charge cancel
+  34.216	Charge	charge_cancel	charge cancelled	0.0	-882,1993,92
+  34.300	Charge	charge_cancel	event charge_cancelled @charge_cancel	0.0	-882,1993,92
+  34.683	Locomotion	idle_relaxed	state EMorphState::Charge -> Locomotion clip=none	0.0	-882,1993,92
+  35.416	STEP	deploy beacon
+  35.416	Action	deploy	state EMorphState::Locomotion -> Action clip=deploy	0.0	-882,1993,92
+  35.733	Action	deploy	event beacon_grab @deploy	0.0	-882,1993,92
+  36.216	Action	deploy	event foot_l_down @deploy	0.0	-882,1993,92
+  36.416	Action	deploy	event beacon_release @deploy	0.0	-882,1993,92
+  36.450	Action	deploy	event beacon_deployed @deploy	0.0	-882,1993,92
+  36.983	Locomotion	idle_relaxed	state EMorphState::Action -> Locomotion clip=none	0.0	-882,1993,92
+  37.416	STEP	uplink (held to completion)
+  37.416	Uplink	uplink_start	state EMorphState::Locomotion -> Uplink clip=uplink_start	0.0	-882,1993,92
+  38.066	Uplink	uplink_start	event uplink_begin @uplink_start	0.0	-882,1993,92
+  38.316	Uplink	uplink_loop	event uplink_tap @uplink_loop	0.0	-882,1993,92
+  38.683	Uplink	uplink_loop	event uplink_tap @uplink_loop	0.0	-882,1993,92
+  39.100	Uplink	uplink_loop	event uplink_tap @uplink_loop	0.0	-882,1993,92
+  39.466	Uplink	uplink_loop	event uplink_tap @uplink_loop	0.0	-882,1993,92
+  39.833	Uplink	uplink_loop	event uplink_tap @uplink_loop	0.0	-882,1993,92
+  40.016	Uplink	uplink_end	uplink complete	0.0	-882,1993,92
+  40.133	Uplink	uplink_end	event uplink_tap @uplink_end	0.0	-882,1993,92
+  40.200	Uplink	uplink_end	event uplink_complete @uplink_end	0.0	-882,1993,92
+  40.566	Locomotion	idle_relaxed	state EMorphState::Uplink -> Locomotion clip=none	0.0	-882,1993,92
+  41.216	STEP	uplink release
+  41.616	STEP	blink
+  41.616	Blink	blink_out	state EMorphState::Locomotion -> Blink clip=blink_out	0.0	-882,1993,92
+  41.733	Blink	blink_out	event blink_charge @blink_out	0.0	-882,1993,92
+  41.966	Blink	blink_out	event blink_teleport @blink_out	0.0	-882,1993,92
+  42.000	Blink	blink_in	event foot_r_down @blink_in	0.0	-882,1493,92
+  42.000	Blink	blink_in	event foot_l_down @blink_in	0.0	-882,1493,92
+  42.000	Blink	blink_in	event blink_appear @blink_in	0.0	-882,1493,92
+  42.400	Locomotion	idle_relaxed	state EMorphState::Blink -> Locomotion clip=none	0.0	-882,1493,92
+  43.016	STEP	hit while running
+  43.616	STEP	hit left
+  43.616	Locomotion	run_l (blend)	hit hit_l (additive)	400.0	-1069,1493,92
+  43.616	Locomotion	run_l (blend)	event hit_impact @hit_l	400.0	-1069,1493,92
+  44.416	STEP	stop, stun
+  44.416	Stun	stun_start	state EMorphState::Locomotion -> Stun clip=stun_start	400.0	-1389,1493,92
+  44.433	Stun	stun_start	event stun_applied @stun_start	166.4	-1392,1493,92
+  47.933	Stun	stun_end	event control_regained @stun_end	0.0	-1394,1493,92
+  48.216	Locomotion	idle_relaxed	state EMorphState::Stun -> Locomotion clip=none	0.0	-1394,1493,92
+  49.016	STEP	knockback
+  49.016	Knockback	knockback	state EMorphState::Locomotion -> Knockback clip=knockback	0.0	-1394,1493,92
+  49.016	Knockback	knockback	event knockback_impact @knockback	0.0	-1394,1493,92
+  49.749	Knockback	knockback	event control_regained @knockback	0.0	-1395,1585,92
+  50.049	Locomotion	idle_relaxed	state EMorphState::Knockback -> Locomotion clip=none	0.0	-1395,1585,92
+  50.616	STEP	knockdown (hit from behind -> face down)
+  50.616	Down	knockdown_front	state EMorphState::Locomotion -> Down clip=knockdown_front	0.0	-1395,1585,92
+  50.616	Down	knockdown_front	event knockdown_impact @knockdown_front	0.0	-1395,1585,92
+  50.899	Down	knockdown_front	event foot_l_down @knockdown_front	0.0	-1395,1585,92
+  51.199	Down	knockdown_front	event knees_contact @knockdown_front	0.0	-1395,1585,92
+  51.416	Down	knockdown_front	event hands_contact @knockdown_front	0.0	-1395,1585,92
+  51.749	Down	knockdown_front	event body_contact @knockdown_front	0.0	-1395,1585,92
+  54.133	Down	getup_front	event hands_contact @getup_front	0.0	-1395,1585,92
+  54.749	Down	getup_front	event foot_r_under @getup_front	0.0	-1395,1585,92
+  54.949	Down	getup_front	event knee_contact @getup_front	0.0	-1395,1585,92
+  55.349	Down	getup_front	event foot_l_down @getup_front	0.0	-1395,1585,92
+  55.749	Down	getup_front	event foot_l_down @getup_front	0.0	-1395,1585,92
+  55.883	Locomotion	idle_relaxed	state EMorphState::Down -> Locomotion clip=none	0.0	-1395,1585,92
+  57.016	STEP	knockup -> lands on back
+  57.016	Knockup	knockup_start	state EMorphState::Locomotion -> Knockup clip=knockup_start	0.0	-1395,1585,92
+  57.016	Knockup	knockup_start	event knockup_impact @knockup_start	0.0	-1395,1585,92
+  57.133	Knockup	knockup_start	event feet_leave_ground @knockup_start	0.0	-1395,1585,92
+  58.599	Down	knockdown_back	knockup landed -> knockdown_back	150.0	-1396,1806,91
+  58.616	Down	knockdown_back	event knockdown_impact @knockdown_back	80.4	-1396,1807,92
+  58.966	Down	knockdown_back	event foot_l_down @knockdown_back	0.0	-1396,1808,92
+  59.266	Down	knockdown_back	event hips_contact @knockdown_back	0.0	-1396,1808,92
+  59.616	Down	knockdown_back	event back_contact @knockdown_back	0.0	-1396,1808,92
+  62.266	Down	getup_back	event hips_contact @getup_back	0.0	-1396,1808,92
+  62.749	Down	getup_back	event knee_contact @getup_back	0.0	-1396,1808,92
+  63.416	Down	getup_back	event foot_l_down @getup_back	0.0	-1396,1808,92
+  63.816	Down	getup_back	event foot_l_down @getup_back	0.0	-1396,1808,92
+  63.883	Locomotion	idle_relaxed	state EMorphState::Down -> Locomotion clip=none	0.0	-1396,1808,92
+  64.016	STEP	sleep
+  64.016	Sleep	sleep_start	state EMorphState::Locomotion -> Sleep clip=sleep_start	0.0	-1396,1808,92
+  65.349	Sleep	sleep_start	event knee_contact @sleep_start	0.0	-1396,1808,92
+  67.017	STEP	wake
+  67.167	Sleep	sleep_end	event awake @sleep_end	0.0	-1396,1808,92
+  68.350	Sleep	sleep_end	event foot_l_down @sleep_end	0.0	-1396,1808,92
+  68.450	Locomotion	idle_relaxed	state EMorphState::Sleep -> Locomotion clip=none	0.0	-1396,1808,92
+  69.000	STEP	cast self, death during the cast
+  69.000	Action	cast_self	state EMorphState::Locomotion -> Action clip=cast_self	0.0	-1396,1808,92
+  69.117	Action	cast_self	event cast_gather @cast_self	0.0	-1396,1808,92
+  69.384	Action	cast_self	event cast_release @cast_self	0.0	-1396,1808,92
+  69.400	STEP	death (front impact) overrides the cast
+  69.400	Dead	death_front	state EMorphState::Action -> Dead clip=death_front	0.0	-1396,1808,92
+  69.400	Dead	death_front	event death_impact @death_front	0.0	-1396,1808,92
+  69.850	Dead	death_front	event foot_l_down @death_front	0.0	-1396,1808,92
+  70.000	STEP	second death request is ignored
+  70.334	Dead	death_front	event hips_contact @death_front	0.0	-1396,1808,92
+  70.734	Dead	death_front	event body_contact @death_front	0.0	-1396,1808,92
+  70.934	Dead	death_front	event dead @death_front	0.0	-1396,1808,92
+  73.001	STEP	respawn
+  73.001	Respawn	respawn	state Dead -> Respawn clip=respawn	0.0	-1396,1808,92
+  73.001	Respawn	respawn	event respawn_begin @respawn	0.0	-1396,1808,92
+  73.735	Respawn	respawn	event reconstructed @respawn	0.0	-1396,1808,92
+  74.601	Respawn	respawn	event foot_l_down @respawn	0.0	-1396,1808,92
+  74.935	Respawn	respawn	event activate @respawn	0.0	-1396,1808,92
+  75.435	Locomotion	idle_relaxed	state EMorphState::Respawn -> Locomotion clip=none	0.0	-1396,1808,92
+  76.002	STEP	jump then death in the air
+  76.002	Airborne	jump_start	state EMorphState::Locomotion -> Airborne clip=jump_start	0.0	-1396,1808,92
+  76.218	Airborne	jump_start	event jump_load @jump_start	0.0	-1396,1808,92
+  76.385	Airborne	jump_start	event takeoff @jump_start	0.0	-1396,1808,92
+  76.502	STEP	death (back impact) while airborne
+  76.502	Dead	death_back	state EMorphState::Airborne -> Dead clip=death_back	0.0	-1396,1808,141
+  76.502	Dead	death_back	event death_impact @death_back	0.0	-1396,1808,141
+  76.885	Dead	death_back	event foot_r_down @death_back	0.0	-1396,1808,92
+  77.302	Dead	death_back	event knees_contact @death_back	0.0	-1396,1808,92
+  77.769	Dead	death_back	event body_contact @death_back	0.0	-1396,1808,92
+  77.969	Dead	death_back	event dead @death_back	0.0	-1396,1808,92
+  80.003	STEP	respawn
+  80.003	Respawn	respawn	state Dead -> Respawn clip=respawn	0.0	-1396,1808,92
+  80.003	Respawn	respawn	event respawn_begin @respawn	0.0	-1396,1808,92
+  80.736	Respawn	respawn	event reconstructed @respawn	0.0	-1396,1808,92
+  81.603	Respawn	respawn	event foot_l_down @respawn	0.0	-1396,1808,92
+  81.936	Respawn	respawn	event activate @respawn	0.0	-1396,1808,92
+  82.436	Locomotion	idle_relaxed	state EMorphState::Respawn -> Locomotion clip=none	0.0	-1396,1808,92
+  83.003	STEP	greet
+  83.003	Emote	greet	state EMorphState::Locomotion -> Emote clip=greet	0.0	-1396,1808,92
+  83.653	Emote	greet	event greet_salute @greet	0.0	-1396,1808,92
+  84.704	Locomotion	idle_relaxed	state EMorphState::Emote -> Locomotion clip=none	0.0	-1396,1808,92
+  85.004	STEP	dialogue with audio
+  85.004	Dialogue	dialogue	state EMorphState::Locomotion -> Dialogue clip=dialogue	0.0	-1396,1808,92
+  85.004	Dialogue	dialogue	event audio_start @dialogue	0.0	-1396,1808,92
+  85.320	Dialogue	dialogue	event line_start @dialogue	0.0	-1396,1808,92
+  86.104	Dialogue	dialogue	event gesture_heart @dialogue	0.0	-1396,1808,92
+  87.004	Dialogue	dialogue	event line_start @dialogue	0.0	-1396,1808,92
+  91.722	Dialogue	dialogue	event line_start @dialogue	0.0	-1396,1808,92
+  92.122	Dialogue	dialogue	event console_raise @dialogue	0.0	-1396,1808,92
+  93.089	Dialogue	dialogue	event line_start @dialogue	0.0	-1396,1808,92
+  96.406	Dialogue	dialogue	event line_start @dialogue	0.0	-1396,1808,92
+  96.506	Dialogue	dialogue	event emotion_shift @dialogue	0.0	-1396,1808,92
+  97.440	Dialogue	dialogue	event line_start @dialogue	0.0	-1396,1808,92
+  99.173	Dialogue	dialogue	event line_start @dialogue	0.0	-1396,1808,92
+  99.507	Dialogue	dialogue	event gesture_point @dialogue	0.0	-1396,1808,92
+ 100.307	Dialogue	dialogue	event line_start @dialogue	0.0	-1396,1808,92
+ 102.557	Locomotion	idle_relaxed	state EMorphState::Dialogue -> Locomotion clip=none	0.0	-1396,1808,92
+ 104.008	STEP	victory
+ 104.008	Emote	victory	state EMorphState::Locomotion -> Emote clip=victory	0.0	-1396,1808,92
+ 104.324	Emote	victory	event victory_pump @victory	0.0	-1396,1808,92
+ 104.741	Emote	victory	event victory_pump @victory	0.0	-1396,1808,92
+ 106.575	Locomotion	idle_relaxed	state EMorphState::Emote -> Locomotion clip=none	0.0	-1396,1808,92
+ 107.508	STEP	end
+ 107.508	Locomotion	idle_relaxed	reset	0.0	-1396,1808,92

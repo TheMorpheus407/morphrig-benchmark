@@ -1,0 +1,26 @@
+Parts of this run that are not stored in git (packaged builds and files
+over 100 MB) are attached to the release
+https://github.com/TheMorpheus407/morphrig-benchmark/releases/tag/claude-opus-5-5
+
+name      MorphRig-build.tar.zst
+contents  MorphRig/build/ (packaged Linux build and build logs)
+size      467504886 bytes
+sha256    933877e6609b9b8e9b09a706e09d87a02898adcd7cd67c1908ea327ed475de52
+download  https://github.com/TheMorpheus407/morphrig-benchmark/releases/download/claude-opus-5-5/MorphRig-build.tar.zst
+
+name      _work.tar.zst.part00
+contents  _work/ (working folder of the run), part 1 of 2
+size      1992294400 bytes
+sha256    9477117c06add1f30d4c13689f7a8fdfaa4c17b70da8f076b19ac1c08b7797f9
+download  https://github.com/TheMorpheus407/morphrig-benchmark/releases/download/claude-opus-5-5/_work.tar.zst.part00
+
+name      _work.tar.zst.part01
+contents  _work/ (working folder of the run), part 2 of 2
+size      102965342 bytes
+sha256    7d5d2df5de0d40b589f8f7098a5db58a19dcfd6eb38231ef7be7409bc01fb2d2
+download  https://github.com/TheMorpheus407/morphrig-benchmark/releases/download/claude-opus-5-5/_work.tar.zst.part01
+
+Unpack an archive inside this folder:  zstd -d < NAME | tar -x
+Join the split archive first:  cat _work.tar.zst.part00 _work.tar.zst.part01 | zstd -d | tar -x
+Unreal runtime folders (Saved/) are not included.
+Blender backup files (.blend1) are not included.

@@ -1,0 +1,22 @@
+{
+  "instances": 10,
+  "frames": 4317,
+  "warmup_s": 10.0,
+  "capture_s": 30.0,
+  "avg_fps": 143.9,
+  "frame_ms": {"avg": 6.951, "p50": 7.214, "p95": 11.984, "p99": 15.902, "max": 40.982},
+  "game_thread_ms": {"avg": 2.204, "p50": 2.130, "p95": 2.878, "p99": 3.397, "max": 9.306},
+  "render_thread_ms": {"avg": 2.101, "p50": 1.733, "p95": 2.761, "p99": 12.929, "max": 33.062},
+  "gpu_ms": {"avg": 6.300, "p50": 6.858, "p95": 10.958, "p99": 12.445, "max": 26.068},
+  "resolution": "1920x1080",
+  "rhi": "Vulkan",
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "gpu_driver": "595.71",
+  "cpu": "AMD Ryzen 9 9950X 16-Core Processor",
+  "cpu_cores": 16,
+  "cpu_threads": 32,
+  "ram_gb": 92,
+  "fixed_timestep": false,
+  "vsync": "off",
+  "frame_generation": "none"
+}
