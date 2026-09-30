@@ -1,0 +1,79 @@
+{
+  "file": "export/Beacon.fbx",
+  "fbx_version": 7400,
+  "units": {
+    "UnitScaleFactor": 100.0,
+    "OriginalUnitScaleFactor": 100.0
+  },
+  "materials": [
+    [
+      873698354,
+      "M_Skin\u0000\u0001Material"
+    ],
+    [
+      420543846,
+      "M_Weave\u0000\u0001Material"
+    ],
+    [
+      994263951,
+      "M_Ceramic\u0000\u0001Material"
+    ],
+    [
+      564123214,
+      "M_Alloy\u0000\u0001Material"
+    ],
+    [
+      770822836,
+      "M_TeamAccent\u0000\u0001Material"
+    ],
+    [
+      213425713,
+      "M_Hair\u0000\u0001Material"
+    ],
+    [
+      874282321,
+      "M_EyeWhite\u0000\u0001Material"
+    ],
+    [
+      163372246,
+      "M_Iris\u0000\u0001Material"
+    ]
+  ],
+  "geometry": [
+    {
+      "vertices": 272,
+      "bounds_min": [
+        -0.03350000083446503,
+        -0.0004999637603759766,
+        -0.032999999821186066
+      ],
+      "bounds_max": [
+        0.03350000083446503,
+        0.07249999046325684,
+        0.019999999552965164
+      ],
+      "polygon_material_histogram": {
+        "3": 98,
+        "4": 162
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "Beacon\u0000\u0001Model",
+      "properties": {
+        "Lcl Rotation": [
+          0.0,
+          -0.0,
+          180.00000500895632
+        ],
+        "DefaultAttributeIndex": [
+          0
+        ],
+        "InheritType": [
+          1
+        ]
+      }
+    }
+  ]
+}

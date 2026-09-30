@@ -1,0 +1,10 @@
+{
+  "match_error_m": {
+    "joint_error_m": 0.0002266962053985781,
+    "end_error_m": 1.4057727354849284e-07
+  },
+  "ik_hand_displacement_m": 0.056568678634027605,
+  "baked_vs_live_ik_hand_matrix_error": 4.76837158203125e-07,
+  "source_saved": false,
+  "passes": true
+}

@@ -1,0 +1,92 @@
+{
+  "motion_capture": "presentation/frames/runtime_delivery_motion",
+  "terrain_capture": "presentation/frames/runtime_delivery_terrain",
+  "full_resolution_motion_frames": [
+    30,
+    129,
+    192,
+    540,
+    570,
+    632,
+    636,
+    638,
+    645,
+    750,
+    820,
+    930,
+    990,
+    1011,
+    1040,
+    1175,
+    1275,
+    1410
+  ],
+  "full_resolution_terrain_frames": [
+    30,
+    60,
+    100,
+    140,
+    170
+  ],
+  "terrain_sequence_samples": [
+    25,
+    35,
+    45,
+    55,
+    65,
+    75,
+    85,
+    125,
+    135,
+    145,
+    155,
+    165,
+    175,
+    185
+  ],
+  "corrected": [
+    "cyber_elbow_linear_skinning",
+    "shoulder_cuff_penetration",
+    "deploy_framing",
+    "recovery_framing",
+    "persistent_beacon_unit_basis_materials",
+    "post_blink_target_obstruction"
+  ],
+  "pending": [],
+  "source_unchanged": true,
+  "visual_acceptance_passed": true,
+  "beacon_fix_capture": "docs/validation/beacon_release_fixed/frames",
+  "beacon_fix_full_resolution_frames": [
+    32,
+    36,
+    40,
+    50,
+    65,
+    100
+  ],
+  "target_fix_image": "docs/validation/target_clearance_fixed/inspection.png",
+  "remaining_verification": null,
+  "acceptance_scope": "Sampled native 1920x1080 frames listed here, with final saved-capture recheck of beacon persistence and post-blink full-body visibility. Separate reports cover source geometry, event behavior, UI and performance.",
+  "final_recheck_at_utc": "2026-09-28T15:58:17.993177+00:00",
+  "final_recheck_frames": [
+    632,
+    636,
+    638,
+    645,
+    1175,
+    1275,
+    1410
+  ],
+  "final_recheck_frame_sha256": {
+    "632": "5b5ec45bed5a3d199892a635d5e6025252cfc17e0f67661d95bf3eb47da02111",
+    "636": "7ca934bee26898e8be9462026cdfe4b61ae3e0de87c5ffdc05c6287d4546a29a",
+    "638": "1d9d56d86ff0c736e5206582f711a6c3cce4a302cce17efb72b5a1d9dc228299",
+    "645": "46b86c09b073e43ee7ca0ab567c6eb2e302041302f294776e523d2158082b984",
+    "1175": "e26077ab26715b5983e2438c0f5e060924e9ffd5cec8b36f595c4ac8ef7d8320",
+    "1275": "7198de1bb758b945b87b10949cd75e402a3bf172197cfb77fe7d4cf0eba3f955",
+    "1410": "42b00a32582a181f4e696a6167416ba46bc6eac67d2a02e2d627125399945476"
+  },
+  "source_sha256": "643750f8d297ed65586bc3be82bdc244b9cd3cd80aa84f69edacd04e1a43f980",
+  "motion_capture_frame_count": 1500,
+  "terrain_capture_frame_count": 211
+}

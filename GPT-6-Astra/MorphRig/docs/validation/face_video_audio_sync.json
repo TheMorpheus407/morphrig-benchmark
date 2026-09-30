@@ -1,0 +1,8 @@
+{
+  "source_rate": 22050,
+  "source_duration": 13.932789115646258,
+  "decoded_video_audio_duration": 13.978412698412699,
+  "video_vs_source_audio_lag_samples": 0,
+  "lag_seconds": 0.0,
+  "normalized_correlation": 0.9999557810823501
+}

@@ -1,0 +1,39 @@
+00:00.555  blend            | Read blend: "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/source/Operative.blend"
+{
+  "match_arm_L": {
+    "joint_error_m": 6.0185454448237685e-06,
+    "end_error_m": 1.6895741925311934e-07
+  },
+  "match_leg_L": {
+    "joint_error_m": 2.301643651607458e-05,
+    "end_error_m": 6.999185021242475e-08
+  },
+  "curl_L": {
+    "tip_displacement_m": 0.10544177351662483
+  },
+  "roll_L": {
+    "ankle_displacement_m": 0.07824242677766628
+  },
+  "match_arm_R": {
+    "joint_error_m": 6.1549732883315075e-06,
+    "end_error_m": 3.3719536697502804e-07
+  },
+  "match_leg_R": {
+    "joint_error_m": 2.2925644734310602e-05,
+    "end_error_m": 7.497002108953188e-08
+  },
+  "curl_R": {
+    "tip_displacement_m": 0.10544177351662483
+  },
+  "roll_R": {
+    "ankle_displacement_m": 0.07824256812609182
+  },
+  "global_scale": [
+    1.25,
+    1.25,
+    1.25
+  ]
+}
+Blender 5.1.1
+
+Blender quit

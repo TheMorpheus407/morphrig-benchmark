@@ -1,0 +1,28 @@
+[
+  {
+    "file": "presentation/turntable.mp4",
+    "encoding": "libx264 CRF18, slow, yuv420p; face audio AAC128k with silence pad to 14s",
+    "width": 1920,
+    "height": 1080,
+    "fps": "30/1",
+    "frames": 240,
+    "video_duration_s": 8.0,
+    "audio_streams": 0,
+    "source_sha256": "643750f8d297ed65586bc3be82bdc244b9cd3cd80aa84f69edacd04e1a43f980",
+    "passed": true
+  },
+  {
+    "file": "presentation/face_performance.mp4",
+    "encoding": "libx264 CRF18, slow, yuv420p; face audio AAC128k with silence pad to 14s",
+    "width": 1920,
+    "height": 1080,
+    "fps": "30/1",
+    "frames": 420,
+    "video_duration_s": 14.0,
+    "audio_streams": 1,
+    "source_sha256": "643750f8d297ed65586bc3be82bdc244b9cd3cd80aa84f69edacd04e1a43f980",
+    "passed": true,
+    "audio_duration_s": 14.0,
+    "audio_codec": "aac"
+  }
+]

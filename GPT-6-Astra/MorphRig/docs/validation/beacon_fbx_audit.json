@@ -1,0 +1,55 @@
+{
+  "file": "export/Beacon.fbx",
+  "fbx_version": 7400,
+  "units": {
+    "UnitScaleFactor": 0.9999999776482582,
+    "OriginalUnitScaleFactor": 0.9999999776482582
+  },
+  "materials": [
+    [
+      889118781,
+      "M_Alloy\u0000\u0001Material"
+    ],
+    [
+      367130931,
+      "M_TeamAccent\u0000\u0001Material"
+    ]
+  ],
+  "geometry": [
+    {
+      "vertices": 272,
+      "bounds_min": [
+        -3.3500001430511475,
+        -2.0,
+        -0.049996376037597656
+      ],
+      "bounds_max": [
+        3.3500001430511475,
+        3.299999952316284,
+        7.249999046325684
+      ],
+      "polygon_material_histogram": {
+        "0": 98,
+        "1": 162
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "Beacon\u0000\u0001Model",
+      "properties": {
+        "Lcl Rotation": [
+          0.0,
+          -0.0,
+          180.00000500895632
+        ],
+        "DefaultAttributeIndex": [
+          0
+        ],
+        "InheritType": [
+          1
+        ]
+      }
+    }
+  ]
+}

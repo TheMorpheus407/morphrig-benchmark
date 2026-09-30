@@ -1,0 +1,25 @@
+{
+  "trace": "docs/validation/runtime_controls/state_event_trace.log",
+  "scope": "Observed state/marker execution; visual contact, capsule displacement, UI input and frame performance require separate evidence.",
+  "passed": 1,
+  "total": 3,
+  "checks": [
+    {
+      "check": "all required animations loaded",
+      "pass_": false,
+      "evidence": "not logged"
+    },
+    {
+      "check": "event loop identity recorded",
+      "pass_": false,
+      "evidence": 0
+    },
+    {
+      "check": "no duplicate marker execution per generation and loop",
+      "pass_": true,
+      "evidence": []
+    }
+  ],
+  "transitions": [],
+  "events": []
+}

@@ -1,0 +1,7 @@
+{
+  "source": "docs/validation/Operative_Cell_Preview.blend",
+  "source_mtime": 1790422204.1806657,
+  "source_sha256": "5109081c4474192db4c89c4cfbd8021fcf0ab198a58d2e01814d0c1aa7e29ee7",
+  "deploy_frames_tested": 3,
+  "method": "Nearest rigid-body surface and signed inside test on closed outward-normal alloy body; lens/window excluded from inside test."
+}

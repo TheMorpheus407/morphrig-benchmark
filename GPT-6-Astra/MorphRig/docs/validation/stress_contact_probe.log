@@ -1,0 +1,6 @@
+00:01.412  blend            | Read blend: "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/source/Operative.blend"
+00:05.994  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/docs/validation/acceptance/planted_hand_support.png'
+{"TEST__planted_hand_support": {"whole_min_z": -1.1920928955078125e-07, "palmL_min_z": -1.1920928955078125e-07, "palmR_min_z": 0.02499985694885254, "allhandL_min_z": -1.1920928955078125e-07, "allhandR_min_z": 0.02499985694885254}, "TEST__kneeling": {"whole_min_z": -2.5186416507949616e-08, "palmL_min_z": 0.5594345927238464, "palmR_min_z": 0.8967708349227905, "allhandL_min_z": 0.5263912081718445, "allhandR_min_z": 0.8841937780380249}, "TEST__deep_squat": {"whole_min_z": -9.78508509774656e-08, "palmL_min_z": 0.9310491681098938, "palmR_min_z": 0.9310491681098938, "allhandL_min_z": 0.9310491681098938, "allhandR_min_z": 0.9310491681098938}}
+Blender 5.1.1
+
+Blender quit

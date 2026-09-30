@@ -1,0 +1,13 @@
+{
+  "source": "source/Operative.blend",
+  "frame": 1,
+  "actions": [
+    "TEST__overhead_reach",
+    "TEST__deep_squat",
+    "TEST__crossed_arm_reach",
+    "TEST__large_torso_twist",
+    "TEST__kneeling",
+    "TEST__planted_hand_support",
+    "TEST__closed_grip"
+  ]
+}

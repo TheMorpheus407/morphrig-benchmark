@@ -1,0 +1,38 @@
+{
+  "build_result": "BuildCookRun SUCCESSFUL exit0",
+  "build_seconds": 24.15,
+  "package": "build/Linux",
+  "source": "source/Operative.blend",
+  "native_asset": "/Game/Operative/SM_Beacon",
+  "geometry_validation": "../beacon_native_import.json",
+  "source_contract": "../../beacon_export_contract.json",
+  "saved_source_export_identical_to_validated_geometry": true,
+  "checks": {
+    "held": "frames/frame_000033.png",
+    "released": "frames/frame_000036.png",
+    "persistent_after_hand_withdrawal": "frames/frame_000100.png"
+  },
+  "runtime_trace": "state_event_trace.log",
+  "runtime_capture": "120 fixed 30 Hz frames; 4 seconds; exit 0",
+  "basis": "Blender bone-local(x,y,z) -> Unreal bone-local(z,-x,y)",
+  "runtime_scale": [
+    1,
+    1,
+    1
+  ],
+  "materials": [
+    "M_Alloy",
+    "M_TeamAccent"
+  ],
+  "runtime_world_bounds_min_cm": [
+    63,
+    -33.35,
+    -0.01
+  ],
+  "runtime_world_bounds_max_cm": [
+    68.32,
+    -26.65,
+    7.3
+  ],
+  "fix": "Explicit centimeter static geometry, exported beacon/socket basis, and two compact shared material sections; the copied socket world transform persists after release."
+}

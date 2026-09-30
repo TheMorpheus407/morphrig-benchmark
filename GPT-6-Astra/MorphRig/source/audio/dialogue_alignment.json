@@ -1,0 +1,1566 @@
+{
+  "schema_version": 1,
+  "transcript": "Hold this lane. I can stabilize the network, but I need a clear signal. There... the relay is responding. Keep your eyes on the crossing. We have a path now. Move with me.",
+  "duration": 13.932789115646258,
+  "sample_rate": 22050,
+  "channels": 1,
+  "sample_width_bits": 16,
+  "voice": "eSpeak NG built-in en-us+f3 (formant synthesis)",
+  "alignment_method": "Native eSpeak NG phoneme and word events from the same PCM synthesis callback; 0.300 s leading rest added to both audio and events.",
+  "words": [
+    {
+      "text": "Hold",
+      "start": 0.3,
+      "end": 0.768
+    },
+    {
+      "text": "this",
+      "start": 0.768,
+      "end": 1.0
+    },
+    {
+      "text": "lane",
+      "start": 1.0,
+      "end": 1.914
+    },
+    {
+      "text": "I",
+      "start": 1.914,
+      "end": 2.019
+    },
+    {
+      "text": "can",
+      "start": 2.019,
+      "end": 2.278
+    },
+    {
+      "text": "stabilize",
+      "start": 2.278,
+      "end": 2.978
+    },
+    {
+      "text": "the",
+      "start": 2.978,
+      "end": 3.115
+    },
+    {
+      "text": "network",
+      "start": 3.115,
+      "end": 3.958
+    },
+    {
+      "text": "but",
+      "start": 3.958,
+      "end": 4.205
+    },
+    {
+      "text": "I",
+      "start": 4.205,
+      "end": 4.323
+    },
+    {
+      "text": "need",
+      "start": 4.323,
+      "end": 4.598
+    },
+    {
+      "text": "a",
+      "start": 4.598,
+      "end": 4.668
+    },
+    {
+      "text": "clear",
+      "start": 4.668,
+      "end": 5.063
+    },
+    {
+      "text": "signal",
+      "start": 5.063,
+      "end": 6.033
+    },
+    {
+      "text": "There",
+      "start": 6.033,
+      "end": 6.85
+    },
+    {
+      "text": "the",
+      "start": 6.85,
+      "end": 6.988
+    },
+    {
+      "text": "relay",
+      "start": 6.988,
+      "end": 7.295
+    },
+    {
+      "text": "is",
+      "start": 7.295,
+      "end": 7.457
+    },
+    {
+      "text": "responding",
+      "start": 7.457,
+      "end": 8.704
+    },
+    {
+      "text": "Keep",
+      "start": 8.704,
+      "end": 9.101
+    },
+    {
+      "text": "your",
+      "start": 9.101,
+      "end": 9.275
+    },
+    {
+      "text": "eyes",
+      "start": 9.275,
+      "end": 9.548
+    },
+    {
+      "text": "on",
+      "start": 9.548,
+      "end": 9.814
+    },
+    {
+      "text": "crossing",
+      "start": 9.814,
+      "end": 10.93
+    },
+    {
+      "text": "We",
+      "start": 10.93,
+      "end": 11.063
+    },
+    {
+      "text": "have",
+      "start": 11.063,
+      "end": 11.308
+    },
+    {
+      "text": "a",
+      "start": 11.308,
+      "end": 11.378
+    },
+    {
+      "text": "path",
+      "start": 11.378,
+      "end": 11.741
+    },
+    {
+      "text": "now",
+      "start": 11.741,
+      "end": 12.642
+    },
+    {
+      "text": "Move",
+      "start": 12.642,
+      "end": 13.034
+    },
+    {
+      "text": "with",
+      "start": 13.034,
+      "end": 13.24
+    },
+    {
+      "text": "me",
+      "start": 13.24,
+      "end": 13.4828
+    }
+  ],
+  "phonemes": [
+    {
+      "phoneme": "h",
+      "start": 0.313,
+      "viseme": "consonant",
+      "end": 0.374
+    },
+    {
+      "phoneme": "'oU",
+      "start": 0.374,
+      "viseme": "rounded_vowel",
+      "end": 0.68
+    },
+    {
+      "phoneme": "l",
+      "start": 0.68,
+      "viseme": "tongue_teeth",
+      "end": 0.709
+    },
+    {
+      "phoneme": "d",
+      "start": 0.709,
+      "viseme": "consonant",
+      "end": 0.782
+    },
+    {
+      "phoneme": "D",
+      "start": 0.782,
+      "viseme": "tongue_teeth",
+      "end": 0.835
+    },
+    {
+      "phoneme": "I",
+      "start": 0.835,
+      "viseme": "wide_vowel",
+      "end": 0.914
+    },
+    {
+      "phoneme": "s",
+      "start": 0.914,
+      "viseme": "consonant",
+      "end": 1.0
+    },
+    {
+      "phoneme": "l",
+      "start": 1.0,
+      "viseme": "tongue_teeth",
+      "end": 1.113
+    },
+    {
+      "phoneme": "'eI",
+      "start": 1.113,
+      "viseme": "wide_vowel",
+      "end": 1.354
+    },
+    {
+      "phoneme": "n",
+      "start": 1.354,
+      "viseme": "consonant",
+      "end": 1.483
+    },
+    {
+      "phoneme": "_:",
+      "start": 1.483,
+      "viseme": "neutral",
+      "end": 1.914
+    },
+    {
+      "phoneme": "_",
+      "start": 1.914,
+      "viseme": "neutral",
+      "end": 1.914
+    },
+    {
+      "phoneme": "aI",
+      "start": 1.914,
+      "viseme": "open_vowel",
+      "end": 2.065
+    },
+    {
+      "phoneme": "k",
+      "start": 2.065,
+      "viseme": "consonant",
+      "end": 2.12
+    },
+    {
+      "phoneme": "a",
+      "start": 2.12,
+      "viseme": "open_vowel",
+      "end": 2.21
+    },
+    {
+      "phoneme": "n",
+      "start": 2.21,
+      "viseme": "consonant",
+      "end": 2.292
+    },
+    {
+      "phoneme": "s",
+      "start": 2.292,
+      "viseme": "consonant",
+      "end": 2.373
+    },
+    {
+      "phoneme": "t",
+      "start": 2.373,
+      "viseme": "consonant",
+      "end": 2.42
+    },
+    {
+      "phoneme": "'eI",
+      "start": 2.42,
+      "viseme": "wide_vowel",
+      "end": 2.583
+    },
+    {
+      "phoneme": "b",
+      "start": 2.583,
+      "viseme": "lip_close",
+      "end": 2.641
+    },
+    {
+      "phoneme": "I2",
+      "start": 2.641,
+      "viseme": "wide_vowel",
+      "end": 2.714
+    },
+    {
+      "phoneme": "l",
+      "start": 2.714,
+      "viseme": "tongue_teeth",
+      "end": 2.78
+    },
+    {
+      "phoneme": ",aI",
+      "start": 2.78,
+      "viseme": "open_vowel",
+      "end": 2.894
+    },
+    {
+      "phoneme": "z",
+      "start": 2.894,
+      "viseme": "consonant",
+      "end": 2.992
+    },
+    {
+      "phoneme": "D",
+      "start": 2.992,
+      "viseme": "tongue_teeth",
+      "end": 3.047
+    },
+    {
+      "phoneme": "@2",
+      "start": 3.047,
+      "viseme": "open_vowel",
+      "end": 3.126
+    },
+    {
+      "phoneme": "n",
+      "start": 3.126,
+      "viseme": "consonant",
+      "end": 3.239
+    },
+    {
+      "phoneme": "'E",
+      "start": 3.239,
+      "viseme": "wide_vowel",
+      "end": 3.432
+    },
+    {
+      "phoneme": "t",
+      "start": 3.432,
+      "viseme": "consonant",
+      "end": 3.479
+    },
+    {
+      "phoneme": "w",
+      "start": 3.479,
+      "viseme": "rounded_vowel",
+      "end": 3.569
+    },
+    {
+      "phoneme": "3:",
+      "start": 3.569,
+      "viseme": "consonant",
+      "end": 3.69
+    },
+    {
+      "phoneme": "k",
+      "start": 3.69,
+      "viseme": "consonant",
+      "end": 3.743
+    },
+    {
+      "phoneme": "_:",
+      "start": 3.743,
+      "viseme": "neutral",
+      "end": 3.958
+    },
+    {
+      "phoneme": "_",
+      "start": 3.958,
+      "viseme": "neutral",
+      "end": 3.973
+    },
+    {
+      "phoneme": "b",
+      "start": 3.973,
+      "viseme": "lip_close",
+      "end": 4.002
+    },
+    {
+      "phoneme": ",V",
+      "start": 4.002,
+      "viseme": "open_vowel",
+      "end": 4.158
+    },
+    {
+      "phoneme": "t",
+      "start": 4.158,
+      "viseme": "consonant",
+      "end": 4.205
+    },
+    {
+      "phoneme": "aI",
+      "start": 4.205,
+      "viseme": "open_vowel",
+      "end": 4.334
+    },
+    {
+      "phoneme": "n",
+      "start": 4.334,
+      "viseme": "consonant",
+      "end": 4.432
+    },
+    {
+      "phoneme": "'i:",
+      "start": 4.432,
+      "viseme": "wide_vowel",
+      "end": 4.542
+    },
+    {
+      "phoneme": "d",
+      "start": 4.542,
+      "viseme": "consonant",
+      "end": 4.598
+    },
+    {
+      "phoneme": "a#",
+      "start": 4.598,
+      "viseme": "open_vowel",
+      "end": 4.726
+    },
+    {
+      "phoneme": "k",
+      "start": 4.726,
+      "viseme": "consonant",
+      "end": 4.796
+    },
+    {
+      "phoneme": "l",
+      "start": 4.796,
+      "viseme": "tongue_teeth",
+      "end": 4.88
+    },
+    {
+      "phoneme": "'i@3",
+      "start": 4.88,
+      "viseme": "open_vowel",
+      "end": 5.077
+    },
+    {
+      "phoneme": "s",
+      "start": 5.077,
+      "viseme": "consonant",
+      "end": 5.163
+    },
+    {
+      "phoneme": "'I",
+      "start": 5.163,
+      "viseme": "wide_vowel",
+      "end": 5.343
+    },
+    {
+      "phoneme": "g",
+      "start": 5.343,
+      "viseme": "consonant",
+      "end": 5.431
+    },
+    {
+      "phoneme": "n",
+      "start": 5.431,
+      "viseme": "consonant",
+      "end": 5.503
+    },
+    {
+      "phoneme": "@L",
+      "start": 5.503,
+      "viseme": "open_vowel",
+      "end": 5.602
+    },
+    {
+      "phoneme": "_:",
+      "start": 5.602,
+      "viseme": "neutral",
+      "end": 6.033
+    },
+    {
+      "phoneme": "_",
+      "start": 6.033,
+      "viseme": "neutral",
+      "end": 6.047
+    },
+    {
+      "phoneme": "D",
+      "start": 6.047,
+      "viseme": "tongue_teeth",
+      "end": 6.151
+    },
+    {
+      "phoneme": "'e@",
+      "start": 6.151,
+      "viseme": "open_vowel",
+      "end": 6.527
+    },
+    {
+      "phoneme": "_:",
+      "start": 6.527,
+      "viseme": "neutral",
+      "end": 6.85
+    },
+    {
+      "phoneme": "_",
+      "start": 6.85,
+      "viseme": "neutral",
+      "end": 6.864
+    },
+    {
+      "phoneme": "D",
+      "start": 6.864,
+      "viseme": "tongue_teeth",
+      "end": 6.919
+    },
+    {
+      "phoneme": "@2",
+      "start": 6.919,
+      "viseme": "open_vowel",
+      "end": 6.999
+    },
+    {
+      "phoneme": "r",
+      "start": 6.999,
+      "viseme": "consonant",
+      "end": 7.065
+    },
+    {
+      "phoneme": "'i:",
+      "start": 7.065,
+      "viseme": "wide_vowel",
+      "end": 7.164
+    },
+    {
+      "phoneme": "l",
+      "start": 7.164,
+      "viseme": "tongue_teeth",
+      "end": 7.225
+    },
+    {
+      "phoneme": "eI",
+      "start": 7.225,
+      "viseme": "wide_vowel",
+      "end": 7.295
+    },
+    {
+      "phoneme": "I",
+      "start": 7.295,
+      "viseme": "wide_vowel",
+      "end": 7.379
+    },
+    {
+      "phoneme": "z",
+      "start": 7.379,
+      "viseme": "consonant",
+      "end": 7.457
+    },
+    {
+      "phoneme": "r",
+      "start": 7.457,
+      "viseme": "consonant",
+      "end": 7.512
+    },
+    {
+      "phoneme": "I#",
+      "start": 7.512,
+      "viseme": "wide_vowel",
+      "end": 7.559
+    },
+    {
+      "phoneme": "s",
+      "start": 7.559,
+      "viseme": "consonant",
+      "end": 7.66
+    },
+    {
+      "phoneme": "p",
+      "start": 7.66,
+      "viseme": "lip_close",
+      "end": 7.698
+    },
+    {
+      "phoneme": "'0",
+      "start": 7.698,
+      "viseme": "neutral",
+      "end": 7.907
+    },
+    {
+      "phoneme": "n",
+      "start": 7.907,
+      "viseme": "consonant",
+      "end": 8.053
+    },
+    {
+      "phoneme": "d",
+      "start": 8.053,
+      "viseme": "consonant",
+      "end": 8.073
+    },
+    {
+      "phoneme": "I",
+      "start": 8.073,
+      "viseme": "wide_vowel",
+      "end": 8.186
+    },
+    {
+      "phoneme": "N",
+      "start": 8.186,
+      "viseme": "consonant",
+      "end": 8.273
+    },
+    {
+      "phoneme": "_:",
+      "start": 8.273,
+      "viseme": "neutral",
+      "end": 8.704
+    },
+    {
+      "phoneme": "_",
+      "start": 8.704,
+      "viseme": "neutral",
+      "end": 8.762
+    },
+    {
+      "phoneme": "k",
+      "start": 8.762,
+      "viseme": "consonant",
+      "end": 8.828
+    },
+    {
+      "phoneme": "'i:",
+      "start": 8.828,
+      "viseme": "wide_vowel",
+      "end": 9.01
+    },
+    {
+      "phoneme": "p",
+      "start": 9.01,
+      "viseme": "lip_close",
+      "end": 9.101
+    },
+    {
+      "phoneme": "j",
+      "start": 9.101,
+      "viseme": "wide_vowel",
+      "end": 9.182
+    },
+    {
+      "phoneme": "U@",
+      "start": 9.182,
+      "viseme": "open_vowel",
+      "end": 9.261
+    },
+    {
+      "phoneme": "r-",
+      "start": 9.261,
+      "viseme": "consonant",
+      "end": 9.319
+    },
+    {
+      "phoneme": "'aI",
+      "start": 9.319,
+      "viseme": "open_vowel",
+      "end": 9.49
+    },
+    {
+      "phoneme": "z",
+      "start": 9.49,
+      "viseme": "consonant",
+      "end": 9.548
+    },
+    {
+      "phoneme": "O2",
+      "start": 9.548,
+      "viseme": "rounded_vowel",
+      "end": 9.635
+    },
+    {
+      "phoneme": "n",
+      "start": 9.635,
+      "viseme": "consonant",
+      "end": 9.702
+    },
+    {
+      "phoneme": "D",
+      "start": 9.702,
+      "viseme": "tongue_teeth",
+      "end": 9.754
+    },
+    {
+      "phoneme": "@2",
+      "start": 9.754,
+      "viseme": "open_vowel",
+      "end": 9.872
+    },
+    {
+      "phoneme": "k",
+      "start": 9.872,
+      "viseme": "consonant",
+      "end": 9.943
+    },
+    {
+      "phoneme": "r",
+      "start": 9.943,
+      "viseme": "consonant",
+      "end": 10.024
+    },
+    {
+      "phoneme": "'O2",
+      "start": 10.024,
+      "viseme": "rounded_vowel",
+      "end": 10.206
+    },
+    {
+      "phoneme": "s",
+      "start": 10.206,
+      "viseme": "consonant",
+      "end": 10.292
+    },
+    {
+      "phoneme": "I",
+      "start": 10.292,
+      "viseme": "wide_vowel",
+      "end": 10.411
+    },
+    {
+      "phoneme": "N",
+      "start": 10.411,
+      "viseme": "consonant",
+      "end": 10.499
+    },
+    {
+      "phoneme": "_:",
+      "start": 10.499,
+      "viseme": "neutral",
+      "end": 10.93
+    },
+    {
+      "phoneme": "_",
+      "start": 10.93,
+      "viseme": "neutral",
+      "end": 10.93
+    },
+    {
+      "phoneme": "w",
+      "start": 10.93,
+      "viseme": "rounded_vowel",
+      "end": 11.014
+    },
+    {
+      "phoneme": "i:",
+      "start": 11.014,
+      "viseme": "wide_vowel",
+      "end": 11.077
+    },
+    {
+      "phoneme": "h",
+      "start": 11.077,
+      "viseme": "consonant",
+      "end": 11.151
+    },
+    {
+      "phoneme": "a",
+      "start": 11.151,
+      "viseme": "open_vowel",
+      "end": 11.25
+    },
+    {
+      "phoneme": "v",
+      "start": 11.25,
+      "viseme": "labiodental",
+      "end": 11.308
+    },
+    {
+      "phoneme": "a#",
+      "start": 11.308,
+      "viseme": "open_vowel",
+      "end": 11.436
+    },
+    {
+      "phoneme": "p",
+      "start": 11.436,
+      "viseme": "lip_close",
+      "end": 11.474
+    },
+    {
+      "phoneme": "'aa",
+      "start": 11.474,
+      "viseme": "open_vowel",
+      "end": 11.644
+    },
+    {
+      "phoneme": "T",
+      "start": 11.644,
+      "viseme": "tongue_teeth",
+      "end": 11.741
+    },
+    {
+      "phoneme": "n",
+      "start": 11.741,
+      "viseme": "consonant",
+      "end": 11.909
+    },
+    {
+      "phoneme": "'aU",
+      "start": 11.909,
+      "viseme": "open_vowel",
+      "end": 12.211
+    },
+    {
+      "phoneme": "_:",
+      "start": 12.211,
+      "viseme": "neutral",
+      "end": 12.642
+    },
+    {
+      "phoneme": "_",
+      "start": 12.642,
+      "viseme": "neutral",
+      "end": 12.642
+    },
+    {
+      "phoneme": "m",
+      "start": 12.642,
+      "viseme": "lip_close",
+      "end": 12.775
+    },
+    {
+      "phoneme": "'u:",
+      "start": 12.775,
+      "viseme": "rounded_vowel",
+      "end": 12.955
+    },
+    {
+      "phoneme": "v",
+      "start": 12.955,
+      "viseme": "labiodental",
+      "end": 13.034
+    },
+    {
+      "phoneme": "w",
+      "start": 13.034,
+      "viseme": "rounded_vowel",
+      "end": 13.121
+    },
+    {
+      "phoneme": "I",
+      "start": 13.121,
+      "viseme": "wide_vowel",
+      "end": 13.176
+    },
+    {
+      "phoneme": "D",
+      "start": 13.176,
+      "viseme": "tongue_teeth",
+      "end": 13.24
+    },
+    {
+      "phoneme": "m",
+      "start": 13.24,
+      "viseme": "lip_close",
+      "end": 13.341
+    },
+    {
+      "phoneme": ",i:",
+      "start": 13.341,
+      "viseme": "wide_vowel",
+      "end": 13.466
+    },
+    {
+      "phoneme": "_:",
+      "start": 13.466,
+      "viseme": "neutral",
+      "end": 13.476
+    },
+    {
+      "phoneme": "_",
+      "start": 13.476,
+      "viseme": "neutral",
+      "end": 13.4828
+    }
+  ],
+  "visemes": [
+    {
+      "name": "consonant",
+      "start": 0.313,
+      "end": 0.374,
+      "value": 1.0
+    },
+    {
+      "name": "rounded_vowel",
+      "start": 0.374,
+      "end": 0.68,
+      "value": 1.0
+    },
+    {
+      "name": "tongue_teeth",
+      "start": 0.68,
+      "end": 0.709,
+      "value": 1.0
+    },
+    {
+      "name": "consonant",
+      "start": 0.709,
+      "end": 0.782,
+      "value": 1.0
+    },
+    {
+      "name": "tongue_teeth",
+      "start": 0.782,
+      "end": 0.835,
+      "value": 1.0
+    },
+    {
+      "name": "wide_vowel",
+      "start": 0.835,
+      "end": 0.914,
+      "value": 1.0
+    },
+    {
+      "name": "consonant",
+      "start": 0.914,
+      "end": 1.0,
+      "value": 1.0
+    },
+    {
+      "name": "tongue_teeth",
+      "start": 1.0,
+      "end": 1.113,
+      "value": 1.0
+    },
+    {
+      "name": "wide_vowel",
+      "start": 1.113,
+      "end": 1.354,
+      "value": 1.0
+    },
+    {
+      "name": "consonant",
+      "start": 1.354,
+      "end": 1.483,
+      "value": 1.0
+    },
+    {
+      "name": "open_vowel",
+      "start": 1.914,
+      "end": 2.065,
+      "value": 1.0
+    },
+    {
+      "name": "consonant",
+      "start": 2.065,
+      "end": 2.12,
+      "value": 1.0
+    },
+    {
+      "name": "open_vowel",
+      "start": 2.12,
+      "end": 2.21,
+      "value": 1.0
+    },
+    {
+      "name": "consonant",
+      "start": 2.21,
+      "end": 2.292,
+      "value": 1.0
+    },
+    {
+      "name": "consonant",
+      "start": 2.292,
+      "end": 2.373,
+      "value": 1.0
+    },
+    {
+      "name": "consonant",
+      "start": 2.373,
+      "end": 2.42,
+      "value": 1.0
+    },
+    {
+      "name": "wide_vowel",
+      "start": 2.42,
+      "end": 2.583,
+      "value": 1.0
+    },
+    {
+      "name": "lip_close",
+      "start": 2.583,
+      "end": 2.641,
+      "value": 1.0
+    },
+    {
+      "name": "wide_vowel",
+      "start": 2.641,
+      "end": 2.714,
+      "value": 1.0
+    },
+    {
+      "name": "tongue_teeth",
+      "start": 2.714,
+      "end": 2.78,
+      "value": 1.0
+    },
+    {
+      "name": "open_vowel",
+      "start": 2.78,
+      "end": 2.894,
+      "value": 1.0
+    },
+    {
+      "name": "consonant",
+      "start": 2.894,
+      "end": 2.992,
+      "value": 1.0
+    },
+    {
+      "name": "tongue_teeth",
+      "start": 2.992,
+      "end": 3.047,
+      "value": 1.0
+    },
+    {
+      "name": "open_vowel",
+      "start": 3.047,
+      "end": 3.126,
+      "value": 1.0
+    },
+    {
+      "name": "consonant",
+      "start": 3.126,
+      "end": 3.239,
+      "value": 1.0
+    },
+    {
+      "name": "wide_vowel",
+      "start": 3.239,
+      "end": 3.432,
+      "value": 1.0
+    },
+    {
+      "name": "consonant",
+      "start": 3.432,
+      "end": 3.479,
+      "value": 1.0
+    },
+    {
+      "name": "rounded_vowel",
+      "start": 3.479,
+      "end": 3.569,
+      "value": 1.0
+    },
+    {
+      "name": "consonant",
+      "start": 3.569,
+      "end": 3.69,
+      "value": 1.0
+    },
+    {
+      "name": "consonant",
+      "start": 3.69,
+      "end": 3.743,
+      "value": 1.0
+    },
+    {
+      "name": "lip_close",
+      "start": 3.973,
+      "end": 4.002,
+      "value": 1.0
+    },
+    {
+      "name": "open_vowel",
+      "start": 4.002,
+      "end": 4.158,
+      "value": 1.0
+    },
+    {
+      "name": "consonant",
+      "start": 4.158,
+      "end": 4.205,
+      "value": 1.0
+    },
+    {
+      "name": "open_vowel",
+      "start": 4.205,
+      "end": 4.334,
+      "value": 1.0
+    },
+    {
+      "name": "consonant",
+      "start": 4.334,
+      "end": 4.432,
+      "value": 1.0
+    },
+    {
+      "name": "wide_vowel",
+      "start": 4.432,
+      "end": 4.542,
+      "value": 1.0
+    },
+    {
+      "name": "consonant",
+      "start": 4.542,
+      "end": 4.598,
+      "value": 1.0
+    },
+    {
+      "name": "open_vowel",
+      "start": 4.598,
+      "end": 4.726,
+      "value": 1.0
+    },
+    {
+      "name": "consonant",
+      "start": 4.726,
+      "end": 4.796,
+      "value": 1.0
+    },
+    {
+      "name": "tongue_teeth",
+      "start": 4.796,
+      "end": 4.88,
+      "value": 1.0
+    },
+    {
+      "name": "open_vowel",
+      "start": 4.88,
+      "end": 5.077,
+      "value": 1.0
+    },
+    {
+      "name": "consonant",
+      "start": 5.077,
+      "end": 5.163,
+      "value": 1.0
+    },
+    {
+      "name": "wide_vowel",
+      "start": 5.163,
+      "end": 5.343,
+      "value": 1.0
+    },
+    {
+      "name": "consonant",
+      "start": 5.343,
+      "end": 5.431,
+      "value": 1.0
+    },
+    {
+      "name": "consonant",
+      "start": 5.431,
+      "end": 5.503,
+      "value": 1.0
+    },
+    {
+      "name": "open_vowel",
+      "start": 5.503,
+      "end": 5.602,
+      "value": 1.0
+    },
+    {
+      "name": "tongue_teeth",
+      "start": 6.047,
+      "end": 6.151,
+      "value": 1.0
+    },
+    {
+      "name": "open_vowel",
+      "start": 6.151,
+      "end": 6.527,
+      "value": 1.0
+    },
+    {
+      "name": "tongue_teeth",
+      "start": 6.864,
+      "end": 6.919,
+      "value": 1.0
+    },
+    {
+      "name": "open_vowel",
+      "start": 6.919,
+      "end": 6.999,
+      "value": 1.0
+    },
+    {
+      "name": "consonant",
+      "start": 6.999,
+      "end": 7.065,
+      "value": 1.0
+    },
+    {
+      "name": "wide_vowel",
+      "start": 7.065,
+      "end": 7.164,
+      "value": 1.0
+    },
+    {
+      "name": "tongue_teeth",
+      "start": 7.164,
+      "end": 7.225,
+      "value": 1.0
+    },
+    {
+      "name": "wide_vowel",
+      "start": 7.225,
+      "end": 7.295,
+      "value": 1.0
+    },
+    {
+      "name": "wide_vowel",
+      "start": 7.295,
+      "end": 7.379,
+      "value": 1.0
+    },
+    {
+      "name": "consonant",
+      "start": 7.379,
+      "end": 7.457,
+      "value": 1.0
+    },
+    {
+      "name": "consonant",
+      "start": 7.457,
+      "end": 7.512,
+      "value": 1.0
+    },
+    {
+      "name": "wide_vowel",
+      "start": 7.512,
+      "end": 7.559,
+      "value": 1.0
+    },
+    {
+      "name": "consonant",
+      "start": 7.559,
+      "end": 7.66,
+      "value": 1.0
+    },
+    {
+      "name": "lip_close",
+      "start": 7.66,
+      "end": 7.698,
+      "value": 1.0
+    },
+    {
+      "name": "consonant",
+      "start": 7.907,
+      "end": 8.053,
+      "value": 1.0
+    },
+    {
+      "name": "consonant",
+      "start": 8.053,
+      "end": 8.073,
+      "value": 1.0
+    },
+    {
+      "name": "wide_vowel",
+      "start": 8.073,
+      "end": 8.186,
+      "value": 1.0
+    },
+    {
+      "name": "consonant",
+      "start": 8.186,
+      "end": 8.273,
+      "value": 1.0
+    },
+    {
+      "name": "consonant",
+      "start": 8.762,
+      "end": 8.828,
+      "value": 1.0
+    },
+    {
+      "name": "wide_vowel",
+      "start": 8.828,
+      "end": 9.01,
+      "value": 1.0
+    },
+    {
+      "name": "lip_close",
+      "start": 9.01,
+      "end": 9.101,
+      "value": 1.0
+    },
+    {
+      "name": "wide_vowel",
+      "start": 9.101,
+      "end": 9.182,
+      "value": 1.0
+    },
+    {
+      "name": "open_vowel",
+      "start": 9.182,
+      "end": 9.261,
+      "value": 1.0
+    },
+    {
+      "name": "consonant",
+      "start": 9.261,
+      "end": 9.319,
+      "value": 1.0
+    },
+    {
+      "name": "open_vowel",
+      "start": 9.319,
+      "end": 9.49,
+      "value": 1.0
+    },
+    {
+      "name": "consonant",
+      "start": 9.49,
+      "end": 9.548,
+      "value": 1.0
+    },
+    {
+      "name": "rounded_vowel",
+      "start": 9.548,
+      "end": 9.635,
+      "value": 1.0
+    },
+    {
+      "name": "consonant",
+      "start": 9.635,
+      "end": 9.702,
+      "value": 1.0
+    },
+    {
+      "name": "tongue_teeth",
+      "start": 9.702,
+      "end": 9.754,
+      "value": 1.0
+    },
+    {
+      "name": "open_vowel",
+      "start": 9.754,
+      "end": 9.872,
+      "value": 1.0
+    },
+    {
+      "name": "consonant",
+      "start": 9.872,
+      "end": 9.943,
+      "value": 1.0
+    },
+    {
+      "name": "consonant",
+      "start": 9.943,
+      "end": 10.024,
+      "value": 1.0
+    },
+    {
+      "name": "rounded_vowel",
+      "start": 10.024,
+      "end": 10.206,
+      "value": 1.0
+    },
+    {
+      "name": "consonant",
+      "start": 10.206,
+      "end": 10.292,
+      "value": 1.0
+    },
+    {
+      "name": "wide_vowel",
+      "start": 10.292,
+      "end": 10.411,
+      "value": 1.0
+    },
+    {
+      "name": "consonant",
+      "start": 10.411,
+      "end": 10.499,
+      "value": 1.0
+    },
+    {
+      "name": "rounded_vowel",
+      "start": 10.93,
+      "end": 11.014,
+      "value": 1.0
+    },
+    {
+      "name": "wide_vowel",
+      "start": 11.014,
+      "end": 11.077,
+      "value": 1.0
+    },
+    {
+      "name": "consonant",
+      "start": 11.077,
+      "end": 11.151,
+      "value": 1.0
+    },
+    {
+      "name": "open_vowel",
+      "start": 11.151,
+      "end": 11.25,
+      "value": 1.0
+    },
+    {
+      "name": "labiodental",
+      "start": 11.25,
+      "end": 11.308,
+      "value": 1.0
+    },
+    {
+      "name": "open_vowel",
+      "start": 11.308,
+      "end": 11.436,
+      "value": 1.0
+    },
+    {
+      "name": "lip_close",
+      "start": 11.436,
+      "end": 11.474,
+      "value": 1.0
+    },
+    {
+      "name": "open_vowel",
+      "start": 11.474,
+      "end": 11.644,
+      "value": 1.0
+    },
+    {
+      "name": "tongue_teeth",
+      "start": 11.644,
+      "end": 11.741,
+      "value": 1.0
+    },
+    {
+      "name": "consonant",
+      "start": 11.741,
+      "end": 11.909,
+      "value": 1.0
+    },
+    {
+      "name": "open_vowel",
+      "start": 11.909,
+      "end": 12.211,
+      "value": 1.0
+    },
+    {
+      "name": "lip_close",
+      "start": 12.642,
+      "end": 12.775,
+      "value": 1.0
+    },
+    {
+      "name": "rounded_vowel",
+      "start": 12.775,
+      "end": 12.955,
+      "value": 1.0
+    },
+    {
+      "name": "labiodental",
+      "start": 12.955,
+      "end": 13.034,
+      "value": 1.0
+    },
+    {
+      "name": "rounded_vowel",
+      "start": 13.034,
+      "end": 13.121,
+      "value": 1.0
+    },
+    {
+      "name": "wide_vowel",
+      "start": 13.121,
+      "end": 13.176,
+      "value": 1.0
+    },
+    {
+      "name": "tongue_teeth",
+      "start": 13.176,
+      "end": 13.24,
+      "value": 1.0
+    },
+    {
+      "name": "lip_close",
+      "start": 13.24,
+      "end": 13.341,
+      "value": 1.0
+    },
+    {
+      "name": "wide_vowel",
+      "start": 13.341,
+      "end": 13.466,
+      "value": 1.0
+    }
+  ],
+  "viseme_mapping": {
+    "h": "consonant",
+    "'oU": "rounded_vowel",
+    "l": "tongue_teeth",
+    "d": "consonant",
+    "D": "tongue_teeth",
+    "I": "wide_vowel",
+    "s": "consonant",
+    "'eI": "wide_vowel",
+    "n": "consonant",
+    "_:": "neutral",
+    "_": "neutral",
+    "aI": "open_vowel",
+    "k": "consonant",
+    "a": "open_vowel",
+    "t": "consonant",
+    "b": "lip_close",
+    "I2": "wide_vowel",
+    ",aI": "open_vowel",
+    "z": "consonant",
+    "@2": "open_vowel",
+    "'E": "wide_vowel",
+    "w": "rounded_vowel",
+    "3:": "consonant",
+    ",V": "open_vowel",
+    "'i:": "wide_vowel",
+    "a#": "open_vowel",
+    "'i@3": "open_vowel",
+    "'I": "wide_vowel",
+    "g": "consonant",
+    "@L": "open_vowel",
+    "'e@": "open_vowel",
+    "r": "consonant",
+    "eI": "wide_vowel",
+    "I#": "wide_vowel",
+    "p": "lip_close",
+    "'0": "neutral",
+    "N": "consonant",
+    "j": "wide_vowel",
+    "U@": "open_vowel",
+    "r-": "consonant",
+    "'aI": "open_vowel",
+    "O2": "rounded_vowel",
+    "'O2": "rounded_vowel",
+    "i:": "wide_vowel",
+    "v": "labiodental",
+    "'aa": "open_vowel",
+    "T": "tongue_teeth",
+    "'aU": "open_vowel",
+    "m": "lip_close",
+    "'u:": "rounded_vowel",
+    ",i:": "wide_vowel"
+  },
+  "emotional_beats": [
+    {
+      "start": 0,
+      "end": 6.6,
+      "expression": "concern",
+      "gaze": "front then crossing left",
+      "gesture": "left palm caution"
+    },
+    {
+      "start": 6.6,
+      "end": 10.3,
+      "expression": "focus",
+      "gaze": "wrist emitter then camera",
+      "gesture": "relay recognition"
+    },
+    {
+      "start": 10.3,
+      "end": 13.932789115646258,
+      "expression": "joy_confidence",
+      "gaze": "front",
+      "gesture": "open invitation then settle"
+    }
+  ]
+}

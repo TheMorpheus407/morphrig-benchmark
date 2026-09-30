@@ -1,0 +1,240 @@
+{
+  "lods": [
+    {
+      "name": "Operative_LOD0",
+      "triangles": 42904,
+      "vertices": 21749,
+      "materials": 8,
+      "shape_keys": 33
+    },
+    {
+      "name": "Operative_LOD1",
+      "triangles": 19257,
+      "vertices": 9878,
+      "materials": 8,
+      "shape_keys": 33
+    },
+    {
+      "name": "Operative_LOD2",
+      "triangles": 11260,
+      "vertices": 5864,
+      "materials": 8,
+      "shape_keys": 33
+    }
+  ],
+  "material_slots": 8,
+  "deformation_bones": 64,
+  "max_influences": 2,
+  "textures": {
+    "count": 16,
+    "resolution": [
+      512,
+      512
+    ],
+    "format": "RGBA8 PNG",
+    "uncompressed_mipmapped_bytes": 22369600,
+    "estimate_note": "Uncompressed RGBA8 full mip estimate (21.333 MiB), not measured native GPU compressed residency."
+  },
+  "height_m": 1.8,
+  "units": "metres; identity mesh/armature transforms",
+  "team_variants": {
+    "A": {
+      "accent": [
+        0.01,
+        0.68,
+        0.67
+      ],
+      "icon": "square (runtime cube silhouette)"
+    },
+    "B": {
+      "accent": [
+        1,
+        0.2,
+        0.035
+      ],
+      "icon": "circle (runtime sphere silhouette)"
+    }
+  },
+  "materials": [
+    {
+      "slot": 0,
+      "name": "M_Skin",
+      "roughness": 0.5,
+      "metalness": 0,
+      "basecolor_texture": "source/textures/M_Skin_BaseColor.png",
+      "normal_texture": "source/textures/M_Skin_Normal.png"
+    },
+    {
+      "slot": 1,
+      "name": "M_Weave",
+      "roughness": 0.7,
+      "metalness": 0,
+      "basecolor_texture": "source/textures/M_Weave_BaseColor.png",
+      "normal_texture": "source/textures/M_Weave_Normal.png"
+    },
+    {
+      "slot": 2,
+      "name": "M_Ceramic",
+      "roughness": 0.3,
+      "metalness": 0.4,
+      "basecolor_texture": "source/textures/M_Ceramic_BaseColor.png",
+      "normal_texture": "source/textures/M_Ceramic_Normal.png"
+    },
+    {
+      "slot": 3,
+      "name": "M_Alloy",
+      "roughness": 0.32,
+      "metalness": 0.82,
+      "basecolor_texture": "source/textures/M_Alloy_BaseColor.png",
+      "normal_texture": "source/textures/M_Alloy_Normal.png"
+    },
+    {
+      "slot": 4,
+      "name": "M_TeamAccent",
+      "roughness": 0.27,
+      "metalness": 0.5,
+      "basecolor_texture": "source/textures/M_TeamAccent_BaseColor.png",
+      "normal_texture": "source/textures/M_TeamAccent_Normal.png"
+    },
+    {
+      "slot": 5,
+      "name": "M_Hair",
+      "roughness": 0.4,
+      "metalness": 0,
+      "basecolor_texture": "source/textures/M_Hair_BaseColor.png",
+      "normal_texture": "source/textures/M_Hair_Normal.png"
+    },
+    {
+      "slot": 6,
+      "name": "M_EyeWhite",
+      "roughness": 0.15,
+      "metalness": 0,
+      "basecolor_texture": "source/textures/M_EyeWhite_BaseColor.png",
+      "normal_texture": "source/textures/M_EyeWhite_Normal.png"
+    },
+    {
+      "slot": 7,
+      "name": "M_Iris",
+      "roughness": 0.22,
+      "metalness": 0.05,
+      "basecolor_texture": "source/textures/M_Iris_BaseColor.png",
+      "normal_texture": "source/textures/M_Iris_Normal.png"
+    }
+  ],
+  "actual_neutral_bounds_m": {
+    "min": [
+      -0.638535737991333,
+      -0.257999986410141,
+      -1.8626445941194447e-09
+    ],
+    "max": [
+      0.638535737991333,
+      0.09200000017881393,
+      1.7999999523162842
+    ]
+  },
+  "unreal_import": {
+    "deform_bones": 64,
+    "imported_morph_targets": 32,
+    "native_targets_with_deltas": 32,
+    "intentionally_nonempty_source_targets": 32,
+    "source_shape_keys": 33,
+    "reserved_zero_authored_delta_shape": "wrist_flex.R",
+    "reserved_target_native_delta_count": 0,
+    "reserved_target_note": "Zero authored source displacement on the rigid cybernetic forearm; intentionally omitted by the final Unreal importer. The source slider remains reserved for future authoring.",
+    "name_sanitization": "period -> underscore",
+    "runtime_lod_triangles": [
+      42864,
+      19225,
+      11236
+    ],
+    "runtime_sections_per_lod": [
+      8,
+      8,
+      8
+    ],
+    "triangle_note": "Native importer removes degenerate triangles; source triangle accounting remains above.",
+    "native_targets_with_deltas_per_lod": [
+      32,
+      32,
+      32
+    ],
+    "native_delta_evidence": "docs/validation/final_verified_package/state_event_trace.log",
+    "geometry_revision": "Final imported mesh after linear-skin, open shoulder cuff and reload casing corrections.",
+    "final_native_report": "docs/unreal_native_mesh_report.json"
+  },
+  "unreal_imported_morph_target_count": 32,
+  "unreal_imported_bone_count": 64,
+  "unreal_imported_material_slots": 8,
+  "unreal_native_render_lods": [
+    {
+      "lod": 0,
+      "triangles": 42864,
+      "vertices": 39898,
+      "sections": 8
+    },
+    {
+      "lod": 1,
+      "triangles": 19225,
+      "vertices": 19748,
+      "sections": 8
+    },
+    {
+      "lod": 2,
+      "triangles": 11236,
+      "vertices": 12383,
+      "sections": 8
+    }
+  ],
+  "source_audit": "docs/validation/final_source_audit.json",
+  "skinning": "Linear blend skinning, Preserve Volume disabled on all three source LODs; native Unreal uses the same method.",
+  "native_skin_correction": {
+    "caps_removed_per_lod": 4,
+    "triangle_reduction_per_lod": [
+      40,
+      24,
+      24
+    ],
+    "rigid_cyber_joint_weights": true,
+    "actions_changed": false,
+    "source_patch": "source/generators/patch_native_skin.py",
+    "render_evidence": [
+      "docs/validation/linear_skin/death_front_linear.png",
+      "docs/validation/linear_skin/respawn_linear.png"
+    ]
+  },
+  "cell_clearance_correction": {
+    "source_patch": "source/generators/patch_cell_clearance.py",
+    "cell_vertices_changed_per_lod": [
+      192,
+      112,
+      48
+    ],
+    "topology_and_actions_changed": false,
+    "validation": "docs/validation/acceptance/contact_surfaces.json",
+    "reload_frames_tested": 70,
+    "interior_hand_vertices": 0,
+    "hand_prop_surface_intersection_pairs": 0,
+    "held_surface_clearance_mm": [
+      0.264,
+      2.224
+    ],
+    "validated_lods": [
+      0,
+      1,
+      2
+    ]
+  },
+  "released_beacon": {
+    "vertices": 272,
+    "triangles": 536,
+    "sections": 2,
+    "shared_materials": [
+      "M_Alloy",
+      "M_TeamAccent"
+    ],
+    "additional_unique_materials": 0,
+    "verified_native_height_cm": 7.3,
+    "evidence": "docs/validation/beacon_native_import.json"
+  }
+}

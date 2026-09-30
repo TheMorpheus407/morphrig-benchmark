@@ -1,0 +1,77 @@
+{
+  "source": "source/Operative.blend",
+  "checks": [
+    {
+      "clip": "walk_f",
+      "frame": 7,
+      "view": "side",
+      "file": "walk_f_7_side.png"
+    },
+    {
+      "clip": "walk_l",
+      "frame": 10,
+      "view": "front",
+      "file": "walk_l_10_front.png"
+    },
+    {
+      "clip": "run_f",
+      "frame": 8,
+      "view": "side",
+      "file": "run_f_8_side.png"
+    },
+    {
+      "clip": "melee_3",
+      "frame": 15,
+      "view": "front",
+      "file": "melee_3_15_front.png"
+    },
+    {
+      "clip": "reload",
+      "frame": 35,
+      "view": "front",
+      "file": "reload_35_front.png"
+    },
+    {
+      "clip": "deploy",
+      "frame": 30,
+      "view": "side",
+      "file": "deploy_30_side.png"
+    },
+    {
+      "clip": "knockdown_front",
+      "frame": 34,
+      "view": "side",
+      "file": "knockdown_front_34_side.png"
+    },
+    {
+      "clip": "knockdown_back",
+      "frame": 37,
+      "view": "side",
+      "file": "knockdown_back_37_side.png"
+    },
+    {
+      "clip": "getup_front",
+      "frame": 35,
+      "view": "side",
+      "file": "getup_front_35_side.png"
+    },
+    {
+      "clip": "getup_back",
+      "frame": 40,
+      "view": "side",
+      "file": "getup_back_40_side.png"
+    },
+    {
+      "clip": "dialogue",
+      "frame": 75,
+      "view": "face",
+      "file": "dialogue_75_face.png"
+    },
+    {
+      "clip": "dialogue",
+      "frame": 325,
+      "view": "face",
+      "file": "dialogue_325_face.png"
+    }
+  ]
+}

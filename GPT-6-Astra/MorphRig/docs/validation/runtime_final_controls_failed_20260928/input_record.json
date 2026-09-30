@@ -1,0 +1,6 @@
+{
+  "valid": false,
+  "date": "2026-09-28",
+  "reason": "Input was not delivered after XWayland/native pointer mismatch. Images do not prove their labels. Original September26 record is unmatched_record_20260926.json and does not describe this failed attempt.",
+  "superseded_by": "../runtime_final_controls/input_record.json"
+}

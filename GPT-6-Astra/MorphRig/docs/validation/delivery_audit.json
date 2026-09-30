@@ -1,0 +1,665 @@
+{
+  "scope": "File, metadata and media validation; visual quality requires separate inspection.",
+  "passed": 128,
+  "total": 128,
+  "checks": [
+    {
+      "check": "file:README.md",
+      "pass": true,
+      "detail": 6517
+    },
+    {
+      "check": "file:source/Operative.blend",
+      "pass": true,
+      "detail": 22043022
+    },
+    {
+      "check": "file:source/audio/dialogue.wav",
+      "pass": true,
+      "detail": 614480
+    },
+    {
+      "check": "file:source/audio/dialogue.txt",
+      "pass": true,
+      "detail": 172
+    },
+    {
+      "check": "file:source/audio/dialogue_alignment.json",
+      "pass": true,
+      "detail": 27659
+    },
+    {
+      "check": "file:export/Operative.fbx",
+      "pass": true,
+      "detail": 2615228
+    },
+    {
+      "check": "file:unreal/MorphRig.uproject",
+      "pass": true,
+      "detail": 501
+    },
+    {
+      "check": "file:docs/rig_usage.md",
+      "pass": true,
+      "detail": 8745
+    },
+    {
+      "check": "file:docs/skeleton_and_sockets.json",
+      "pass": true,
+      "detail": 23892
+    },
+    {
+      "check": "file:docs/animation_manifest.json",
+      "pass": true,
+      "detail": 87855
+    },
+    {
+      "check": "file:docs/animation_state_contract.md",
+      "pass": true,
+      "detail": 6358
+    },
+    {
+      "check": "file:docs/material_and_lod_report.json",
+      "pass": true,
+      "detail": 6343
+    },
+    {
+      "check": "file:docs/THIRD_PARTY_ASSETS.csv",
+      "pass": true,
+      "detail": 1682
+    },
+    {
+      "check": "file:docs/build_and_import_instructions.md",
+      "pass": true,
+      "detail": 9056
+    },
+    {
+      "check": "file:docs/known_issues.md",
+      "pass": true,
+      "detail": 1370
+    },
+    {
+      "check": "file:tools/export_and_bake.py",
+      "pass": true,
+      "detail": 5963
+    },
+    {
+      "check": "file:tools/build_linux.sh",
+      "pass": true,
+      "detail": 2011
+    },
+    {
+      "check": "file:presentation/turntable.mp4",
+      "pass": true,
+      "detail": 2013010
+    },
+    {
+      "check": "file:presentation/motion_showcase.mp4",
+      "pass": true,
+      "detail": 11010728
+    },
+    {
+      "check": "file:presentation/face_performance.mp4",
+      "pass": true,
+      "detail": 1810718
+    },
+    {
+      "check": "task inventory contains 96 distinct entries",
+      "pass": true,
+      "detail": 96
+    },
+    {
+      "check": "manifest covers exact required IDs",
+      "pass": true,
+      "detail": {
+        "missing": [],
+        "extra": []
+      }
+    },
+    {
+      "check": "export:idle_relaxed",
+      "pass": true,
+      "detail": "export/animations/idle_relaxed.fbx"
+    },
+    {
+      "check": "export:idle_combat",
+      "pass": true,
+      "detail": "export/animations/idle_combat.fbx"
+    },
+    {
+      "check": "export:idle_wounded",
+      "pass": true,
+      "detail": "export/animations/idle_wounded.fbx"
+    },
+    {
+      "check": "export:walk_f",
+      "pass": true,
+      "detail": "export/animations/walk_f.fbx"
+    },
+    {
+      "check": "export:walk_fl",
+      "pass": true,
+      "detail": "export/animations/walk_fl.fbx"
+    },
+    {
+      "check": "export:walk_l",
+      "pass": true,
+      "detail": "export/animations/walk_l.fbx"
+    },
+    {
+      "check": "export:walk_bl",
+      "pass": true,
+      "detail": "export/animations/walk_bl.fbx"
+    },
+    {
+      "check": "export:walk_b",
+      "pass": true,
+      "detail": "export/animations/walk_b.fbx"
+    },
+    {
+      "check": "export:walk_br",
+      "pass": true,
+      "detail": "export/animations/walk_br.fbx"
+    },
+    {
+      "check": "export:walk_r",
+      "pass": true,
+      "detail": "export/animations/walk_r.fbx"
+    },
+    {
+      "check": "export:walk_fr",
+      "pass": true,
+      "detail": "export/animations/walk_fr.fbx"
+    },
+    {
+      "check": "export:run_f",
+      "pass": true,
+      "detail": "export/animations/run_f.fbx"
+    },
+    {
+      "check": "export:run_fl",
+      "pass": true,
+      "detail": "export/animations/run_fl.fbx"
+    },
+    {
+      "check": "export:run_l",
+      "pass": true,
+      "detail": "export/animations/run_l.fbx"
+    },
+    {
+      "check": "export:run_bl",
+      "pass": true,
+      "detail": "export/animations/run_bl.fbx"
+    },
+    {
+      "check": "export:run_b",
+      "pass": true,
+      "detail": "export/animations/run_b.fbx"
+    },
+    {
+      "check": "export:run_br",
+      "pass": true,
+      "detail": "export/animations/run_br.fbx"
+    },
+    {
+      "check": "export:run_r",
+      "pass": true,
+      "detail": "export/animations/run_r.fbx"
+    },
+    {
+      "check": "export:run_fr",
+      "pass": true,
+      "detail": "export/animations/run_fr.fbx"
+    },
+    {
+      "check": "export:sprint_f",
+      "pass": true,
+      "detail": "export/animations/sprint_f.fbx"
+    },
+    {
+      "check": "export:start_f",
+      "pass": true,
+      "detail": "export/animations/start_f.fbx"
+    },
+    {
+      "check": "export:stop_f",
+      "pass": true,
+      "detail": "export/animations/stop_f.fbx"
+    },
+    {
+      "check": "export:turn_l90",
+      "pass": true,
+      "detail": "export/animations/turn_l90.fbx"
+    },
+    {
+      "check": "export:turn_r90",
+      "pass": true,
+      "detail": "export/animations/turn_r90.fbx"
+    },
+    {
+      "check": "export:pivot_l180",
+      "pass": true,
+      "detail": "export/animations/pivot_l180.fbx"
+    },
+    {
+      "check": "export:pivot_r180",
+      "pass": true,
+      "detail": "export/animations/pivot_r180.fbx"
+    },
+    {
+      "check": "export:jump_start",
+      "pass": true,
+      "detail": "export/animations/jump_start.fbx"
+    },
+    {
+      "check": "export:jump_air",
+      "pass": true,
+      "detail": "export/animations/jump_air.fbx"
+    },
+    {
+      "check": "export:jump_land",
+      "pass": true,
+      "detail": "export/animations/jump_land.fbx"
+    },
+    {
+      "check": "export:fall",
+      "pass": true,
+      "detail": "export/animations/fall.fbx"
+    },
+    {
+      "check": "export:land_heavy",
+      "pass": true,
+      "detail": "export/animations/land_heavy.fbx"
+    },
+    {
+      "check": "export:dash_f",
+      "pass": true,
+      "detail": "export/animations/dash_f.fbx"
+    },
+    {
+      "check": "export:dash_b",
+      "pass": true,
+      "detail": "export/animations/dash_b.fbx"
+    },
+    {
+      "check": "export:dash_l",
+      "pass": true,
+      "detail": "export/animations/dash_l.fbx"
+    },
+    {
+      "check": "export:dash_r",
+      "pass": true,
+      "detail": "export/animations/dash_r.fbx"
+    },
+    {
+      "check": "export:blink_out",
+      "pass": true,
+      "detail": "export/animations/blink_out.fbx"
+    },
+    {
+      "check": "export:blink_in",
+      "pass": true,
+      "detail": "export/animations/blink_in.fbx"
+    },
+    {
+      "check": "export:melee_1",
+      "pass": true,
+      "detail": "export/animations/melee_1.fbx"
+    },
+    {
+      "check": "export:melee_2",
+      "pass": true,
+      "detail": "export/animations/melee_2.fbx"
+    },
+    {
+      "check": "export:melee_3",
+      "pass": true,
+      "detail": "export/animations/melee_3.fbx"
+    },
+    {
+      "check": "export:ranged_fire",
+      "pass": true,
+      "detail": "export/animations/ranged_fire.fbx"
+    },
+    {
+      "check": "export:ranged_burst",
+      "pass": true,
+      "detail": "export/animations/ranged_burst.fbx"
+    },
+    {
+      "check": "export:reload",
+      "pass": true,
+      "detail": "export/animations/reload.fbx"
+    },
+    {
+      "check": "export:cast_directional",
+      "pass": true,
+      "detail": "export/animations/cast_directional.fbx"
+    },
+    {
+      "check": "export:cast_ground",
+      "pass": true,
+      "detail": "export/animations/cast_ground.fbx"
+    },
+    {
+      "check": "export:cast_self",
+      "pass": true,
+      "detail": "export/animations/cast_self.fbx"
+    },
+    {
+      "check": "export:channel_start",
+      "pass": true,
+      "detail": "export/animations/channel_start.fbx"
+    },
+    {
+      "check": "export:channel_loop",
+      "pass": true,
+      "detail": "export/animations/channel_loop.fbx"
+    },
+    {
+      "check": "export:channel_end",
+      "pass": true,
+      "detail": "export/animations/channel_end.fbx"
+    },
+    {
+      "check": "export:channel_interrupt",
+      "pass": true,
+      "detail": "export/animations/channel_interrupt.fbx"
+    },
+    {
+      "check": "export:charge_start",
+      "pass": true,
+      "detail": "export/animations/charge_start.fbx"
+    },
+    {
+      "check": "export:charge_hold",
+      "pass": true,
+      "detail": "export/animations/charge_hold.fbx"
+    },
+    {
+      "check": "export:charge_release",
+      "pass": true,
+      "detail": "export/animations/charge_release.fbx"
+    },
+    {
+      "check": "export:charge_cancel",
+      "pass": true,
+      "detail": "export/animations/charge_cancel.fbx"
+    },
+    {
+      "check": "export:uplink_start",
+      "pass": true,
+      "detail": "export/animations/uplink_start.fbx"
+    },
+    {
+      "check": "export:uplink_loop",
+      "pass": true,
+      "detail": "export/animations/uplink_loop.fbx"
+    },
+    {
+      "check": "export:uplink_end",
+      "pass": true,
+      "detail": "export/animations/uplink_end.fbx"
+    },
+    {
+      "check": "export:uplink_cancel",
+      "pass": true,
+      "detail": "export/animations/uplink_cancel.fbx"
+    },
+    {
+      "check": "export:hit_f",
+      "pass": true,
+      "detail": "export/animations/hit_f.fbx"
+    },
+    {
+      "check": "export:hit_b",
+      "pass": true,
+      "detail": "export/animations/hit_b.fbx"
+    },
+    {
+      "check": "export:hit_l",
+      "pass": true,
+      "detail": "export/animations/hit_l.fbx"
+    },
+    {
+      "check": "export:hit_r",
+      "pass": true,
+      "detail": "export/animations/hit_r.fbx"
+    },
+    {
+      "check": "export:stun_start",
+      "pass": true,
+      "detail": "export/animations/stun_start.fbx"
+    },
+    {
+      "check": "export:stun_loop",
+      "pass": true,
+      "detail": "export/animations/stun_loop.fbx"
+    },
+    {
+      "check": "export:stun_end",
+      "pass": true,
+      "detail": "export/animations/stun_end.fbx"
+    },
+    {
+      "check": "export:knockback",
+      "pass": true,
+      "detail": "export/animations/knockback.fbx"
+    },
+    {
+      "check": "export:knockup_start",
+      "pass": true,
+      "detail": "export/animations/knockup_start.fbx"
+    },
+    {
+      "check": "export:knockup_air",
+      "pass": true,
+      "detail": "export/animations/knockup_air.fbx"
+    },
+    {
+      "check": "export:respawn",
+      "pass": true,
+      "detail": "export/animations/respawn.fbx"
+    },
+    {
+      "check": "export:greet",
+      "pass": true,
+      "detail": "export/animations/greet.fbx"
+    },
+    {
+      "check": "export:victory",
+      "pass": true,
+      "detail": "export/animations/victory.fbx"
+    },
+    {
+      "check": "export:defeat",
+      "pass": true,
+      "detail": "export/animations/defeat.fbx"
+    },
+    {
+      "check": "export:dialogue",
+      "pass": true,
+      "detail": "export/animations/dialogue.fbx"
+    },
+    {
+      "check": "export:aim_down_left",
+      "pass": true,
+      "detail": "export/animations/aim_down_left.fbx"
+    },
+    {
+      "check": "export:aim_down_center",
+      "pass": true,
+      "detail": "export/animations/aim_down_center.fbx"
+    },
+    {
+      "check": "export:aim_down_right",
+      "pass": true,
+      "detail": "export/animations/aim_down_right.fbx"
+    },
+    {
+      "check": "export:aim_level_left",
+      "pass": true,
+      "detail": "export/animations/aim_level_left.fbx"
+    },
+    {
+      "check": "export:aim_level_center",
+      "pass": true,
+      "detail": "export/animations/aim_level_center.fbx"
+    },
+    {
+      "check": "export:aim_level_right",
+      "pass": true,
+      "detail": "export/animations/aim_level_right.fbx"
+    },
+    {
+      "check": "export:aim_up_left",
+      "pass": true,
+      "detail": "export/animations/aim_up_left.fbx"
+    },
+    {
+      "check": "export:aim_up_center",
+      "pass": true,
+      "detail": "export/animations/aim_up_center.fbx"
+    },
+    {
+      "check": "export:aim_up_right",
+      "pass": true,
+      "detail": "export/animations/aim_up_right.fbx"
+    },
+    {
+      "check": "export:knockdown_front",
+      "pass": true,
+      "detail": "export/animations/knockdown_front.fbx"
+    },
+    {
+      "check": "export:knockdown_back",
+      "pass": true,
+      "detail": "export/animations/knockdown_back.fbx"
+    },
+    {
+      "check": "export:prone_front",
+      "pass": true,
+      "detail": "export/animations/prone_front.fbx"
+    },
+    {
+      "check": "export:prone_back",
+      "pass": true,
+      "detail": "export/animations/prone_back.fbx"
+    },
+    {
+      "check": "export:getup_front",
+      "pass": true,
+      "detail": "export/animations/getup_front.fbx"
+    },
+    {
+      "check": "export:getup_back",
+      "pass": true,
+      "detail": "export/animations/getup_back.fbx"
+    },
+    {
+      "check": "export:sleep_start",
+      "pass": true,
+      "detail": "export/animations/sleep_start.fbx"
+    },
+    {
+      "check": "export:sleep_loop",
+      "pass": true,
+      "detail": "export/animations/sleep_loop.fbx"
+    },
+    {
+      "check": "export:sleep_end",
+      "pass": true,
+      "detail": "export/animations/sleep_end.fbx"
+    },
+    {
+      "check": "export:death_back",
+      "pass": true,
+      "detail": "export/animations/death_back.fbx"
+    },
+    {
+      "check": "export:dead_front",
+      "pass": true,
+      "detail": "export/animations/dead_front.fbx"
+    },
+    {
+      "check": "export:dead_back",
+      "pass": true,
+      "detail": "export/animations/dead_back.fbx"
+    },
+    {
+      "check": "export:death_front",
+      "pass": true,
+      "detail": "export/animations/death_front.fbx"
+    },
+    {
+      "check": "export:deploy",
+      "pass": true,
+      "detail": "export/animations/deploy.fbx"
+    },
+    {
+      "check": "spoken performance duration in 12\u201318 s",
+      "pass": true,
+      "detail": 13.932789115646258
+    },
+    {
+      "check": "speech PCM format",
+      "pass": true,
+      "detail": {
+        "channels": 1,
+        "bits": 16,
+        "sample_rate": 22050
+      }
+    },
+    {
+      "check": "alignment duration matches actual WAV",
+      "pass": true,
+      "detail": 13.932789115646258
+    },
+    {
+      "check": "phoneme event times monotonic",
+      "pass": true,
+      "detail": 118
+    },
+    {
+      "check": "speech has all seven mapped visemes",
+      "pass": true,
+      "detail": [
+        "consonant",
+        "labiodental",
+        "lip_close",
+        "neutral",
+        "open_vowel",
+        "rounded_vowel",
+        "tongue_teeth",
+        "wide_vowel"
+      ]
+    },
+    {
+      "check": "playable video:turntable",
+      "pass": true,
+      "detail": "8.000000"
+    },
+    {
+      "check": "playable video:motion_showcase",
+      "pass": true,
+      "detail": "57.033333"
+    },
+    {
+      "check": "playable video:face_performance",
+      "pass": true,
+      "detail": "14.000000"
+    },
+    {
+      "check": "face performance includes audio",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "standalone Linux executable present",
+      "pass": true,
+      "detail": [
+        "build/Linux/MorphRig/Binaries/Linux/MorphRig"
+      ]
+    }
+  ]
+}

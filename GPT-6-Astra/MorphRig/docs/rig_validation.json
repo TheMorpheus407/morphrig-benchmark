@@ -1,0 +1,111 @@
+{
+  "morphs": {
+    "neutral": {
+      "values": {},
+      "render": "docs/rig_validation/neutral.png"
+    },
+    "blink_left": {
+      "values": {
+        "blink.L": 1
+      },
+      "render": "docs/rig_validation/blink_left.png"
+    },
+    "jaw_open": {
+      "values": {
+        "jaw_open": 0.8
+      },
+      "render": "docs/rig_validation/jaw_open.png"
+    },
+    "AA": {
+      "values": {
+        "viseme_AA": 1
+      },
+      "render": "docs/rig_validation/AA.png"
+    },
+    "MBP": {
+      "values": {
+        "viseme_MBP": 1
+      },
+      "render": "docs/rig_validation/MBP.png"
+    },
+    "asymmetric_joy": {
+      "values": {
+        "smile.L": 0.85,
+        "brow_up.R": 0.5,
+        "cheek.L": 0.3
+      },
+      "render": "docs/rig_validation/asymmetric_joy.png"
+    }
+  },
+  "controls": {
+    "match_arm_L": {
+      "joint_error_m": 6.0185454448237685e-06,
+      "end_error_m": 1.6895741925311934e-07
+    },
+    "match_leg_L": {
+      "joint_error_m": 2.301643651607458e-05,
+      "end_error_m": 6.999185021242475e-08
+    },
+    "curl_L": {
+      "tip_displacement_m": 0.10544177351662483
+    },
+    "roll_L": {
+      "ankle_displacement_m": 0.07824242677766628
+    },
+    "match_arm_R": {
+      "joint_error_m": 6.1549732883315075e-06,
+      "end_error_m": 3.3719536697502804e-07
+    },
+    "match_leg_R": {
+      "joint_error_m": 2.2925644734310602e-05,
+      "end_error_m": 7.497002108953188e-08
+    },
+    "curl_R": {
+      "tip_displacement_m": 0.10544177351662483
+    },
+    "roll_R": {
+      "ankle_displacement_m": 0.07824256812609182
+    },
+    "global_scale": {
+      "scale": [
+        1.25,
+        1.25,
+        1.25
+      ]
+    }
+  },
+  "neutral_bounds_m": {
+    "min": [
+      -0.638535737991333,
+      -0.257999986410141,
+      -1.8626445941194447e-09
+    ],
+    "max": [
+      0.638535737991333,
+      0.09200000017881393,
+      1.7999999523162842
+    ]
+  },
+  "deform_roots": [
+    "root"
+  ],
+  "loose_vertices": 0,
+  "posed_ik_fk_matching": {
+    "arm.L": {
+      "joint_error_m": 0.000171994098046008,
+      "end_error_m": 1.2310379476739693e-07
+    },
+    "leg.L": {
+      "joint_error_m": 5.42367735781378e-05,
+      "end_error_m": 2.2500259981366246e-07
+    },
+    "arm.R": {
+      "joint_error_m": 1.4362624728456747e-06,
+      "end_error_m": 1.2731557704981462e-07
+    },
+    "leg.R": {
+      "joint_error_m": 0.00022193450916827974,
+      "end_error_m": 1.737759081973225e-07
+    }
+  }
+}

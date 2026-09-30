@@ -1,0 +1,130 @@
+00:00.654  blend            | Read blend: "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/source/Operative.blend"
+[
+  {
+    "offset": [
+      -0.02,
+      0.008,
+      0.068
+    ],
+    "max_penetration": 0.0,
+    "max_gap": 0.00012112477270420641,
+    "hand_min_z": 0.011640965938568115,
+    "score": 0.000605623863521032,
+    "contacts": [
+      {
+        "phase": 0.35185185185185186,
+        "penetration": 0,
+        "gap": 0.00012103521294193342,
+        "inside_count": 0
+      },
+      {
+        "phase": 0.5370370370370371,
+        "penetration": 0,
+        "gap": 0.00012071910896338522,
+        "inside_count": 0
+      },
+      {
+        "phase": 0.5925925925925926,
+        "penetration": 0,
+        "gap": 0.00012112477270420641,
+        "inside_count": 0
+      }
+    ]
+  },
+  {
+    "offset": [
+      -0.015,
+      0.012,
+      0.068
+    ],
+    "max_penetration": 0.0,
+    "max_gap": 0.00021142966579645872,
+    "hand_min_z": 0.011640965938568115,
+    "score": 0.0010571483289822936,
+    "contacts": [
+      {
+        "phase": 0.35185185185185186,
+        "penetration": 0,
+        "gap": 0.0002109765773639083,
+        "inside_count": 0
+      },
+      {
+        "phase": 0.5370370370370371,
+        "penetration": 0,
+        "gap": 0.00021098712750244886,
+        "inside_count": 0
+      },
+      {
+        "phase": 0.5925925925925926,
+        "penetration": 0,
+        "gap": 0.00021142966579645872,
+        "inside_count": 0
+      }
+    ]
+  },
+  {
+    "offset": [
+      -0.015,
+      0.016,
+      0.068
+    ],
+    "max_penetration": 0.0,
+    "max_gap": 0.0003143934009131044,
+    "hand_min_z": 0.011640965938568115,
+    "score": 0.001571967004565522,
+    "contacts": [
+      {
+        "phase": 0.35185185185185186,
+        "penetration": 0,
+        "gap": 0.0003143934009131044,
+        "inside_count": 0
+      },
+      {
+        "phase": 0.5370370370370371,
+        "penetration": 0,
+        "gap": 0.0003141227352898568,
+        "inside_count": 0
+      },
+      {
+        "phase": 0.5925925925925926,
+        "penetration": 0,
+        "gap": 0.00031430317903868854,
+        "inside_count": 0
+      }
+    ]
+  },
+  {
+    "offset": [
+      -0.015,
+      0.008,
+      0.068
+    ],
+    "max_penetration": 0.0,
+    "max_gap": 0.0004037035978399217,
+    "hand_min_z": 0.011640965938568115,
+    "score": 0.0020185179891996086,
+    "contacts": [
+      {
+        "phase": 0.35185185185185186,
+        "penetration": 0,
+        "gap": 0.0004037035978399217,
+        "inside_count": 0
+      },
+      {
+        "phase": 0.5370370370370371,
+        "penetration": 0,
+        "gap": 0.0004035139281768352,
+        "inside_count": 0
+      },
+      {
+        "phase": 0.5925925925925926,
+        "penetration": 0,
+        "gap": 0.0004035929450765252,
+        "inside_count": 0
+      }
+    ]
+  }
+]
+Blender 5.1.1
+
+Blender quit

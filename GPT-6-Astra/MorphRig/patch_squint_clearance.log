@@ -1,0 +1,6 @@
+00:00.645  blend            | Read blend: "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/source/Operative.blend"
+Info: Saved as "Operative.blend"
+SQUINT_CLEARANCE [{"mesh": "Operative_LOD0", "target": "squint.L", "eye_vertices": 1352, "full_value_recession_m": 0.004}, {"mesh": "Operative_LOD0", "target": "squint.R", "eye_vertices": 1352, "full_value_recession_m": 0.004}, {"mesh": "Operative_LOD1", "target": "squint.L", "eye_vertices": 496, "full_value_recession_m": 0.004}, {"mesh": "Operative_LOD1", "target": "squint.R", "eye_vertices": 496, "full_value_recession_m": 0.004}, {"mesh": "Operative_LOD2", "target": "squint.L", "eye_vertices": 216, "full_value_recession_m": 0.004}, {"mesh": "Operative_LOD2", "target": "squint.R", "eye_vertices": 216, "full_value_recession_m": 0.004}]
+Blender 5.1.1
+
+Blender quit

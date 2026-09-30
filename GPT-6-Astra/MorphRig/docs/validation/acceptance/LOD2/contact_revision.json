@@ -1,0 +1,10 @@
+{
+  "source": "source/Operative.blend",
+  "lod": 2,
+  "source_mtime": 1790422269.8612506,
+  "source_sha256": "643750f8d297ed65586bc3be82bdc244b9cd3cd80aa84f69edacd04e1a43f980",
+  "deploy_frames_tested": 55,
+  "reload_frames_tested": 70,
+  "skinning": "linear blend; Preserve Volume disabled",
+  "method": "Nearest rigid-body surface and signed inside test on closed outward-normal alloy body; lens/window excluded from inside test."
+}

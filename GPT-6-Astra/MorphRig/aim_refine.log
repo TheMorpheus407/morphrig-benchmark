@@ -1,0 +1,14 @@
+00:01.274  blend            | Read blend: "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/source/Operative.blend"
+ANIMATION 01/96 aim_down_left: 2 frames
+ANIMATION 02/96 aim_down_center: 2 frames
+ANIMATION 03/96 aim_down_right: 2 frames
+ANIMATION 04/96 aim_level_left: 2 frames
+ANIMATION 05/96 aim_level_center: 2 frames
+ANIMATION 06/96 aim_level_right: 2 frames
+ANIMATION 07/96 aim_up_left: 2 frames
+ANIMATION 08/96 aim_up_center: 2 frames
+ANIMATION 09/96 aim_up_right: 2 frames
+Info: Saved as "Operative.blend"
+Blender 5.1.1
+
+Blender quit

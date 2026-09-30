@@ -1,0 +1,13 @@
+{
+  "fps": 30,
+  "frames": 420,
+  "source": "source/Operative.blend",
+  "render": "Blender EEVEE, delivered real-time LOD0 mesh and materials",
+  "cues": [
+    {
+      "frame": 0,
+      "time": 0.0,
+      "clip": "dialogue"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "programs": [],
+  "stream_groups": [],
+  "streams": [
+    {
+      "codec_name": "h264",
+      "width": 1920,
+      "height": 1080,
+      "r_frame_rate": "30/1",
+      "duration": "8.000000",
+      "nb_read_frames": "240"
+    }
+  ],
+  "source": "source/Operative.blend",
+  "source_mtime": 1790422269.8612506,
+  "encoding": "libx264, CRF18, slow, yuv420p",
+  "passed": true,
+  "source_sha256": "643750f8d297ed65586bc3be82bdc244b9cd3cd80aa84f69edacd04e1a43f980",
+  "media_file": "presentation/turntable.mp4",
+  "superseding_combined_report": "source_media_final.json"
+}

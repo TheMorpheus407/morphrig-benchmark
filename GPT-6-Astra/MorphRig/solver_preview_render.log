@@ -1,0 +1,9 @@
+00:00.899  blend            | Read blend: "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/source/Solver_Preview.blend"
+/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/tools/render_presentation.py:36: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  scene.world.use_nodes=True
+/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/tools/render_presentation.py:62: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat=bpy.data.materials.new('Presentation_NeutralFloor');mat.diffuse_color=(.115,.13,.15,1);mat.use_nodes=True
+00:02.657  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/docs/validation/preview_run_f_1_side.png'
+Blender 5.1.1
+
+Blender quit

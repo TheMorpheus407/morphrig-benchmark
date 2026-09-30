@@ -1,0 +1,8 @@
+00:00.638  blend            | Read blend: "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/source/Operative.blend"
+00:03.312  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/docs/validation/reload_cell_after/front.png'
+00:05.421  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/docs/validation/reload_cell_after/side.png'
+00:07.319  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/docs/validation/reload_cell_after/back.png'
+00:09.298  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/docs/validation/reload_cell_after/under.png'
+Blender 5.1.1
+
+Blender quit

@@ -1,0 +1,349 @@
+00:00.690  blend            | Read blend: "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/source/Operative.blend"
+[
+  {
+    "offset": [
+      0.015,
+      0.089,
+      0.115
+    ],
+    "max_penetration": 0.0,
+    "max_gap": 1.1254754066467285,
+    "hand_min_z": 0.011640846729278564,
+    "score": 5.607377033233643,
+    "contacts": [
+      {
+        "phase": 0.0,
+        "penetration": 0,
+        "gap": 0.288095623254776,
+        "inside_count": 0
+      },
+      {
+        "phase": 0.018518518518518517,
+        "penetration": 0,
+        "gap": 0.3038395941257477,
+        "inside_count": 0
+      },
+      {
+        "phase": 0.037037037037037035,
+        "penetration": 0,
+        "gap": 0.29056328535079956,
+        "inside_count": 0
+      },
+      {
+        "phase": 0.05555555555555555,
+        "penetration": 0,
+        "gap": 0.23981651663780212,
+        "inside_count": 0
+      },
+      {
+        "phase": 0.07407407407407407,
+        "penetration": 0,
+        "gap": 0.16980218887329102,
+        "inside_count": 0
+      },
+      {
+        "phase": 0.09259259259259259,
+        "penetration": 0,
+        "gap": 0.12467954307794571,
+        "inside_count": 0
+      },
+      {
+        "phase": 0.1111111111111111,
+        "penetration": 0,
+        "gap": 0.09783962368965149,
+        "inside_count": 0
+      },
+      {
+        "phase": 0.12962962962962962,
+        "penetration": 0,
+        "gap": 0.06358220428228378,
+        "inside_count": 0
+      },
+      {
+        "phase": 0.14814814814814814,
+        "penetration": 0,
+        "gap": 0.02404937706887722,
+        "inside_count": 0
+      },
+      {
+        "phase": 0.16666666666666666,
+        "penetration": 0,
+        "gap": 0.0007298905402421951,
+        "inside_count": 0
+      },
+      {
+        "phase": 0.18518518518518517,
+        "penetration": 0,
+        "gap": 0.00012105496716685593,
+        "inside_count": 0
+      },
+      {
+        "phase": 0.2037037037037037,
+        "penetration": 0,
+        "gap": 0.00012105496716685593,
+        "inside_count": 0
+      },
+      {
+        "phase": 0.2222222222222222,
+        "penetration": 0,
+        "gap": 0.00012105496716685593,
+        "inside_count": 0
+      },
+      {
+        "phase": 0.24074074074074073,
+        "penetration": 0,
+        "gap": 0.00012138292368035764,
+        "inside_count": 0
+      },
+      {
+        "phase": 0.25925925925925924,
+        "penetration": 0,
+        "gap": 0.00012115771096432582,
+        "inside_count": 0
+      },
+      {
+        "phase": 0.2777777777777778,
+        "penetration": 0,
+        "gap": 0.00012125319335609674,
+        "inside_count": 0
+      },
+      {
+        "phase": 0.2962962962962963,
+        "penetration": 0,
+        "gap": 0.00012104311463190243,
+        "inside_count": 0
+      },
+      {
+        "phase": 0.3148148148148148,
+        "penetration": 0,
+        "gap": 0.00012103521294193342,
+        "inside_count": 0
+      },
+      {
+        "phase": 0.3333333333333333,
+        "penetration": 0,
+        "gap": 0.0001211089693242684,
+        "inside_count": 0
+      },
+      {
+        "phase": 0.35185185185185186,
+        "penetration": 0,
+        "gap": 0.000121319702884648,
+        "inside_count": 0
+      },
+      {
+        "phase": 0.37037037037037035,
+        "penetration": 0,
+        "gap": 0.00012139345926698297,
+        "inside_count": 0
+      },
+      {
+        "phase": 0.3888888888888889,
+        "penetration": 0,
+        "gap": 0.00012097199214622378,
+        "inside_count": 0
+      },
+      {
+        "phase": 0.4074074074074074,
+        "penetration": 0,
+        "gap": 0.00012088770017726347,
+        "inside_count": 0
+      },
+      {
+        "phase": 0.42592592592592593,
+        "penetration": 0,
+        "gap": 0.00012077179417246953,
+        "inside_count": 0
+      },
+      {
+        "phase": 0.4444444444444444,
+        "penetration": 0,
+        "gap": 0.00012096145655959845,
+        "inside_count": 0
+      },
+      {
+        "phase": 0.46296296296296297,
+        "penetration": 0,
+        "gap": 0.00012113004049751908,
+        "inside_count": 0
+      },
+      {
+        "phase": 0.48148148148148145,
+        "penetration": 0,
+        "gap": 0.00012108789815101773,
+        "inside_count": 0
+      },
+      {
+        "phase": 0.5,
+        "penetration": 0,
+        "gap": 0.00012096145655959845,
+        "inside_count": 0
+      },
+      {
+        "phase": 0.5185185185185185,
+        "penetration": 0,
+        "gap": 0.00012098252773284912,
+        "inside_count": 0
+      },
+      {
+        "phase": 0.5370370370370371,
+        "penetration": 0,
+        "gap": 0.00012097199214622378,
+        "inside_count": 0
+      },
+      {
+        "phase": 0.5555555555555556,
+        "penetration": 0,
+        "gap": 0.00012096145655959845,
+        "inside_count": 0
+      },
+      {
+        "phase": 0.5740740740740741,
+        "penetration": 0,
+        "gap": 0.00012101940956199542,
+        "inside_count": 0
+      },
+      {
+        "phase": 0.5925925925925926,
+        "penetration": 0,
+        "gap": 0.00012139872706029564,
+        "inside_count": 0
+      },
+      {
+        "phase": 0.6111111111111112,
+        "penetration": 0,
+        "gap": 0.0007241368293762207,
+        "inside_count": 0
+      },
+      {
+        "phase": 0.6296296296296297,
+        "penetration": 0,
+        "gap": 0.0019568533170968294,
+        "inside_count": 0
+      },
+      {
+        "phase": 0.6481481481481481,
+        "penetration": 0,
+        "gap": 0.014321530237793922,
+        "inside_count": 0
+      },
+      {
+        "phase": 0.6666666666666666,
+        "penetration": 0,
+        "gap": 0.029886631295084953,
+        "inside_count": 0
+      },
+      {
+        "phase": 0.6851851851851852,
+        "penetration": 0,
+        "gap": 0.03887138515710831,
+        "inside_count": 0
+      },
+      {
+        "phase": 0.7037037037037037,
+        "penetration": 0,
+        "gap": 0.027010099962353706,
+        "inside_count": 0
+      },
+      {
+        "phase": 0.7222222222222222,
+        "penetration": 0,
+        "gap": 0.021449850872159004,
+        "inside_count": 0
+      },
+      {
+        "phase": 0.7407407407407407,
+        "penetration": 0,
+        "gap": 0.025161027908325195,
+        "inside_count": 0
+      },
+      {
+        "phase": 0.7592592592592593,
+        "penetration": 0,
+        "gap": 0.05161070078611374,
+        "inside_count": 0
+      },
+      {
+        "phase": 0.7777777777777778,
+        "penetration": 0,
+        "gap": 0.1051592230796814,
+        "inside_count": 0
+      },
+      {
+        "phase": 0.7962962962962963,
+        "penetration": 0,
+        "gap": 0.1790536642074585,
+        "inside_count": 0
+      },
+      {
+        "phase": 0.8148148148148148,
+        "penetration": 0,
+        "gap": 0.2704851031303406,
+        "inside_count": 0
+      },
+      {
+        "phase": 0.8333333333333334,
+        "penetration": 0,
+        "gap": 0.3789179027080536,
+        "inside_count": 0
+      },
+      {
+        "phase": 0.8518518518518519,
+        "penetration": 0,
+        "gap": 0.49684032797813416,
+        "inside_count": 0
+      },
+      {
+        "phase": 0.8703703703703703,
+        "penetration": 0,
+        "gap": 0.6107354164123535,
+        "inside_count": 0
+      },
+      {
+        "phase": 0.8888888888888888,
+        "penetration": 0,
+        "gap": 0.7187095880508423,
+        "inside_count": 0
+      },
+      {
+        "phase": 0.9074074074074074,
+        "penetration": 0,
+        "gap": 0.8197053074836731,
+        "inside_count": 0
+      },
+      {
+        "phase": 0.9259259259259259,
+        "penetration": 0,
+        "gap": 0.9113537073135376,
+        "inside_count": 0
+      },
+      {
+        "phase": 0.9444444444444444,
+        "penetration": 0,
+        "gap": 0.989970326423645,
+        "inside_count": 0
+      },
+      {
+        "phase": 0.9629629629629629,
+        "penetration": 0,
+        "gap": 1.0554226636886597,
+        "inside_count": 0
+      },
+      {
+        "phase": 0.9814814814814815,
+        "penetration": 0,
+        "gap": 1.1050732135772705,
+        "inside_count": 0
+      },
+      {
+        "phase": 1.0,
+        "penetration": 0,
+        "gap": 1.1254754066467285,
+        "inside_count": 0
+      }
+    ]
+  }
+]
+Blender 5.1.1
+
+Blender quit

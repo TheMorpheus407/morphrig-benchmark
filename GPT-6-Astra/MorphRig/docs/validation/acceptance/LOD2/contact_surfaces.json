@@ -1,0 +1,1127 @@
+[
+  {
+    "clip": "reload",
+    "frame": 1,
+    "minimum_vertex_to_surface_distance_m": 0.6199471950531006,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 2,
+    "minimum_vertex_to_surface_distance_m": 0.5999293327331543,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 3,
+    "minimum_vertex_to_surface_distance_m": 0.5432484149932861,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 4,
+    "minimum_vertex_to_surface_distance_m": 0.45805370807647705,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 5,
+    "minimum_vertex_to_surface_distance_m": 0.361091673374176,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 6,
+    "minimum_vertex_to_surface_distance_m": 0.26396557688713074,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 7,
+    "minimum_vertex_to_surface_distance_m": 0.17850913107395172,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 8,
+    "minimum_vertex_to_surface_distance_m": 0.10990528017282486,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 9,
+    "minimum_vertex_to_surface_distance_m": 0.06196386367082596,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 10,
+    "minimum_vertex_to_surface_distance_m": 0.035508740693330765,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 11,
+    "minimum_vertex_to_surface_distance_m": 0.016918452456593513,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 12,
+    "minimum_vertex_to_surface_distance_m": 0.007635780610144138,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 13,
+    "minimum_vertex_to_surface_distance_m": 0.004099708981812,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 14,
+    "minimum_vertex_to_surface_distance_m": 0.0035907223355025053,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 15,
+    "minimum_vertex_to_surface_distance_m": 0.0035907223355025053,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 16,
+    "minimum_vertex_to_surface_distance_m": 0.0035907223355025053,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 17,
+    "minimum_vertex_to_surface_distance_m": 0.0035907223355025053,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 18,
+    "minimum_vertex_to_surface_distance_m": 0.0035907223355025053,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 19,
+    "minimum_vertex_to_surface_distance_m": 0.0035907223355025053,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 20,
+    "minimum_vertex_to_surface_distance_m": 0.0035907223355025053,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 21,
+    "minimum_vertex_to_surface_distance_m": 0.0035907223355025053,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 22,
+    "minimum_vertex_to_surface_distance_m": 0.0035884499084204435,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 23,
+    "minimum_vertex_to_surface_distance_m": 0.003549897577613592,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 24,
+    "minimum_vertex_to_surface_distance_m": 0.0034435882698744535,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 25,
+    "minimum_vertex_to_surface_distance_m": 0.0032416631001979113,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 26,
+    "minimum_vertex_to_surface_distance_m": 0.0028170703444629908,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 27,
+    "minimum_vertex_to_surface_distance_m": 0.002295942511409521,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 28,
+    "minimum_vertex_to_surface_distance_m": 0.002045760629698634,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 29,
+    "minimum_vertex_to_surface_distance_m": 0.0014808566775172949,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 30,
+    "minimum_vertex_to_surface_distance_m": 0.0010007822420448065,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 31,
+    "minimum_vertex_to_surface_distance_m": 0.0009191445424221456,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 32,
+    "minimum_vertex_to_surface_distance_m": 0.0009191445424221456,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 33,
+    "minimum_vertex_to_surface_distance_m": 0.0009191445424221456,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 34,
+    "minimum_vertex_to_surface_distance_m": 0.0009191445424221456,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 35,
+    "minimum_vertex_to_surface_distance_m": 0.0009191445424221456,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 36,
+    "minimum_vertex_to_surface_distance_m": 0.0009191445424221456,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 37,
+    "minimum_vertex_to_surface_distance_m": 0.0009191445424221456,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 38,
+    "minimum_vertex_to_surface_distance_m": 0.0009191445424221456,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 39,
+    "minimum_vertex_to_surface_distance_m": 0.0009191445424221456,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 40,
+    "minimum_vertex_to_surface_distance_m": 0.0009191445424221456,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 41,
+    "minimum_vertex_to_surface_distance_m": 0.0009714937186799943,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 42,
+    "minimum_vertex_to_surface_distance_m": 0.0012943351175636053,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 43,
+    "minimum_vertex_to_surface_distance_m": 0.0018119685119017959,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 44,
+    "minimum_vertex_to_surface_distance_m": 0.0021947468630969524,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 45,
+    "minimum_vertex_to_surface_distance_m": 0.0023120176047086716,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 46,
+    "minimum_vertex_to_surface_distance_m": 0.0027682026848196983,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 47,
+    "minimum_vertex_to_surface_distance_m": 0.003173825331032276,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 48,
+    "minimum_vertex_to_surface_distance_m": 0.0033682724460959435,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 49,
+    "minimum_vertex_to_surface_distance_m": 0.0034932964481413364,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 50,
+    "minimum_vertex_to_surface_distance_m": 0.003561439225450158,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 51,
+    "minimum_vertex_to_surface_distance_m": 0.0035884252283722162,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 52,
+    "minimum_vertex_to_surface_distance_m": 0.003590456210076809,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 53,
+    "minimum_vertex_to_surface_distance_m": 0.003590456210076809,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 54,
+    "minimum_vertex_to_surface_distance_m": 0.0035907223355025053,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 55,
+    "minimum_vertex_to_surface_distance_m": 0.0035907223355025053,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 56,
+    "minimum_vertex_to_surface_distance_m": 0.0035907223355025053,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 57,
+    "minimum_vertex_to_surface_distance_m": 0.0035907223355025053,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 58,
+    "minimum_vertex_to_surface_distance_m": 0.004099708981812,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 59,
+    "minimum_vertex_to_surface_distance_m": 0.007635780610144138,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 60,
+    "minimum_vertex_to_surface_distance_m": 0.016918452456593513,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 61,
+    "minimum_vertex_to_surface_distance_m": 0.035508740693330765,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 62,
+    "minimum_vertex_to_surface_distance_m": 0.06196386367082596,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 63,
+    "minimum_vertex_to_surface_distance_m": 0.10990528017282486,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 64,
+    "minimum_vertex_to_surface_distance_m": 0.17850913107395172,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 65,
+    "minimum_vertex_to_surface_distance_m": 0.26396557688713074,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 66,
+    "minimum_vertex_to_surface_distance_m": 0.361091673374176,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 67,
+    "minimum_vertex_to_surface_distance_m": 0.45805370807647705,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 68,
+    "minimum_vertex_to_surface_distance_m": 0.5432484149932861,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 69,
+    "minimum_vertex_to_surface_distance_m": 0.5999293327331543,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "reload",
+    "frame": 70,
+    "minimum_vertex_to_surface_distance_m": 0.6199471950531006,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "deploy",
+    "frame": 1,
+    "minimum_vertex_to_surface_distance_m": 0.2833954393863678,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "deploy",
+    "frame": 2,
+    "minimum_vertex_to_surface_distance_m": 0.3001576066017151,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "deploy",
+    "frame": 3,
+    "minimum_vertex_to_surface_distance_m": 0.2898201048374176,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "deploy",
+    "frame": 4,
+    "minimum_vertex_to_surface_distance_m": 0.24149088561534882,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "deploy",
+    "frame": 5,
+    "minimum_vertex_to_surface_distance_m": 0.16976001858711243,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "deploy",
+    "frame": 6,
+    "minimum_vertex_to_surface_distance_m": 0.12468206882476807,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "deploy",
+    "frame": 7,
+    "minimum_vertex_to_surface_distance_m": 0.09826409071683884,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "deploy",
+    "frame": 8,
+    "minimum_vertex_to_surface_distance_m": 0.06529659032821655,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "deploy",
+    "frame": 9,
+    "minimum_vertex_to_surface_distance_m": 0.02765878476202488,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "deploy",
+    "frame": 10,
+    "minimum_vertex_to_surface_distance_m": 0.0007301364094018936,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "deploy",
+    "frame": 11,
+    "minimum_vertex_to_surface_distance_m": 0.0007242951542139053,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "deploy",
+    "frame": 12,
+    "minimum_vertex_to_surface_distance_m": 0.0007242951542139053,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "deploy",
+    "frame": 13,
+    "minimum_vertex_to_surface_distance_m": 0.0007242951542139053,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "deploy",
+    "frame": 14,
+    "minimum_vertex_to_surface_distance_m": 0.0007239412516355515,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "deploy",
+    "frame": 15,
+    "minimum_vertex_to_surface_distance_m": 0.000724167563021183,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "deploy",
+    "frame": 16,
+    "minimum_vertex_to_surface_distance_m": 0.0007241405546665192,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "deploy",
+    "frame": 17,
+    "minimum_vertex_to_surface_distance_m": 0.0007241368293762207,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "deploy",
+    "frame": 18,
+    "minimum_vertex_to_surface_distance_m": 0.0007240474224090576,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "deploy",
+    "frame": 19,
+    "minimum_vertex_to_surface_distance_m": 0.0007241144776344299,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "deploy",
+    "frame": 20,
+    "minimum_vertex_to_surface_distance_m": 0.0007238984107971191,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "deploy",
+    "frame": 21,
+    "minimum_vertex_to_surface_distance_m": 0.0007240474224090576,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "deploy",
+    "frame": 22,
+    "minimum_vertex_to_surface_distance_m": 0.0007241666316986084,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "deploy",
+    "frame": 23,
+    "minimum_vertex_to_surface_distance_m": 0.0007239580154418945,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "deploy",
+    "frame": 24,
+    "minimum_vertex_to_surface_distance_m": 0.0007238388061523438,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "deploy",
+    "frame": 25,
+    "minimum_vertex_to_surface_distance_m": 0.0007240772247314453,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "deploy",
+    "frame": 26,
+    "minimum_vertex_to_surface_distance_m": 0.000724107027053833,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "deploy",
+    "frame": 27,
+    "minimum_vertex_to_surface_distance_m": 0.0007238686084747314,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "deploy",
+    "frame": 28,
+    "minimum_vertex_to_surface_distance_m": 0.0007243752479553223,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "deploy",
+    "frame": 29,
+    "minimum_vertex_to_surface_distance_m": 0.0007239580154418945,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "deploy",
+    "frame": 30,
+    "minimum_vertex_to_surface_distance_m": 0.0007239580154418945,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "deploy",
+    "frame": 31,
+    "minimum_vertex_to_surface_distance_m": 0.0007241964340209961,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "deploy",
+    "frame": 32,
+    "minimum_vertex_to_surface_distance_m": 0.0007242560386657715,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "deploy",
+    "frame": 33,
+    "minimum_vertex_to_surface_distance_m": 0.0007241964340209961,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "deploy",
+    "frame": 34,
+    "minimum_vertex_to_surface_distance_m": 0.0007241368293762207,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "deploy",
+    "frame": 35,
+    "minimum_vertex_to_surface_distance_m": 0.003952478989958763,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "deploy",
+    "frame": 36,
+    "minimum_vertex_to_surface_distance_m": 0.01765325479209423,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "deploy",
+    "frame": 37,
+    "minimum_vertex_to_surface_distance_m": 0.03237616643309593,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "deploy",
+    "frame": 38,
+    "minimum_vertex_to_surface_distance_m": 0.03889431804418564,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "deploy",
+    "frame": 39,
+    "minimum_vertex_to_surface_distance_m": 0.027010278776288033,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "deploy",
+    "frame": 40,
+    "minimum_vertex_to_surface_distance_m": 0.021794136613607407,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "deploy",
+    "frame": 41,
+    "minimum_vertex_to_surface_distance_m": 0.025216996669769287,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "deploy",
+    "frame": 42,
+    "minimum_vertex_to_surface_distance_m": 0.05163778364658356,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "deploy",
+    "frame": 43,
+    "minimum_vertex_to_surface_distance_m": 0.1051592230796814,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "deploy",
+    "frame": 44,
+    "minimum_vertex_to_surface_distance_m": 0.1790539026260376,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "deploy",
+    "frame": 45,
+    "minimum_vertex_to_surface_distance_m": 0.2704850435256958,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "deploy",
+    "frame": 46,
+    "minimum_vertex_to_surface_distance_m": 0.37895986437797546,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "deploy",
+    "frame": 47,
+    "minimum_vertex_to_surface_distance_m": 0.4969211518764496,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "deploy",
+    "frame": 48,
+    "minimum_vertex_to_surface_distance_m": 0.6109077334403992,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "deploy",
+    "frame": 49,
+    "minimum_vertex_to_surface_distance_m": 0.7188544869422913,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "deploy",
+    "frame": 50,
+    "minimum_vertex_to_surface_distance_m": 0.8198401927947998,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "deploy",
+    "frame": 51,
+    "minimum_vertex_to_surface_distance_m": 0.9114857912063599,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "deploy",
+    "frame": 52,
+    "minimum_vertex_to_surface_distance_m": 0.9901359677314758,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "deploy",
+    "frame": 53,
+    "minimum_vertex_to_surface_distance_m": 1.0556256771087646,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "deploy",
+    "frame": 54,
+    "minimum_vertex_to_surface_distance_m": 1.105318546295166,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  },
+  {
+    "clip": "deploy",
+    "frame": 55,
+    "minimum_vertex_to_surface_distance_m": 1.1257457733154297,
+    "triangle_overlap_pairs": 0,
+    "hand_vertices_inside_rigid_body": 0,
+    "max_hand_vertex_penetration_m": 0,
+    "penetration_by_joint_m": {}
+  }
+]

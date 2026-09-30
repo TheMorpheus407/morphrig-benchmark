@@ -1,0 +1,3959 @@
+{
+  "method": "Evaluate actual armature pose every source frame; compare parent bone tail and child bone head for all eight limb connections. Foot samples use evaluated skinned mesh vertices assigned to foot/toe bones.",
+  "clips": [
+    {
+      "id": "idle_relaxed",
+      "max_joint_gap_m": 4.775496697159521e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 2.4556028870053846e-07,
+          "frame": 98
+        },
+        "shin.L->foot.L": {
+          "distance_m": 3.7502129418386853e-07,
+          "frame": 98
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 4.141779027089621e-07,
+          "frame": 77
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 2.4906701020962467e-07,
+          "frame": 86
+        },
+        "shin.R->foot.R": {
+          "distance_m": 3.1181508742087205e-07,
+          "frame": 17
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 4.775496697159521e-07,
+          "frame": 106
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": [
+        {
+          "frame": 1,
+          "L": 0.00028074628789909184,
+          "R": 0.0002808654389809817
+        },
+        {
+          "frame": 54,
+          "L": 0.006247612182050943,
+          "R": 0.006284802220761776
+        }
+      ]
+    },
+    {
+      "id": "idle_combat",
+      "max_joint_gap_m": 4.4759328055011003e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 2.2302015940987714e-07,
+          "frame": 41
+        },
+        "shin.L->foot.L": {
+          "distance_m": 3.270838825293011e-07,
+          "frame": 81
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 4.142951600092007e-07,
+          "frame": 26
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 2.590885169713211e-07,
+          "frame": 24
+        },
+        "shin.R->foot.R": {
+          "distance_m": 2.6648196977016395e-07,
+          "frame": 24
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 4.4759328055011003e-07,
+          "frame": 31
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": [
+        {
+          "frame": 1,
+          "L": -1.6310062278535042e-07,
+          "R": -4.664688546540674e-08
+        },
+        {
+          "frame": 42,
+          "L": -7.970999149620184e-08,
+          "R": -1.4739775622274465e-08
+        }
+      ]
+    },
+    {
+      "id": "idle_wounded",
+      "max_joint_gap_m": 5.274674302467065e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 2.240135726090209e-07,
+          "frame": 16
+        },
+        "shin.L->foot.L": {
+          "distance_m": 3.8836039691931453e-07,
+          "frame": 11
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 5.274674302467065e-07,
+          "frame": 11
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 2.430305843099965e-07,
+          "frame": 63
+        },
+        "shin.R->foot.R": {
+          "distance_m": 2.4722009931559945e-07,
+          "frame": 17
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 3.770878986732654e-07,
+          "frame": 65
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": [
+        {
+          "frame": 1,
+          "L": 8.305259768803808e-08,
+          "R": 5.293943416972979e-08
+        },
+        {
+          "frame": 52,
+          "L": 8.305259768803808e-08,
+          "R": 5.293943416972979e-08
+        }
+      ]
+    },
+    {
+      "id": "walk_f",
+      "max_joint_gap_m": 3.627331060240971e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 2.6656007498500226e-07,
+          "frame": 23
+        },
+        "shin.L->foot.L": {
+          "distance_m": 3.351933324099181e-07,
+          "frame": 21
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 3.627331060240971e-07,
+          "frame": 7
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 1.8005141576520461e-07,
+          "frame": 20
+        },
+        "shin.R->foot.R": {
+          "distance_m": 2.5331974029541016e-07,
+          "frame": 13
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 3.627331060240971e-07,
+          "frame": 19
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": [
+        {
+          "frame": 1,
+          "L": 0.0036560401786118746,
+          "R": 0.015742938965559006
+        },
+        {
+          "frame": 12,
+          "L": 0.0008358688792213798,
+          "R": 0.025144917890429497
+        }
+      ]
+    },
+    {
+      "id": "walk_fl",
+      "max_joint_gap_m": 3.726966302080217e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 2.6362845320931273e-07,
+          "frame": 19
+        },
+        "shin.L->foot.L": {
+          "distance_m": 2.861449773560691e-07,
+          "frame": 9
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 3.726966302080217e-07,
+          "frame": 15
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 2.0271193773169504e-07,
+          "frame": 2
+        },
+        "shin.R->foot.R": {
+          "distance_m": 2.6499359672931936e-07,
+          "frame": 13
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 3.726966302080217e-07,
+          "frame": 11
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": [
+        {
+          "frame": 1,
+          "L": 0.00365601759403944,
+          "R": 0.01574297994375229
+        },
+        {
+          "frame": 12,
+          "L": 0.0008358709746971726,
+          "R": 0.025144781917333603
+        }
+      ]
+    },
+    {
+      "id": "walk_l",
+      "max_joint_gap_m": 3.880218902184734e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 2.7028258364226004e-07,
+          "frame": 21
+        },
+        "shin.L->foot.L": {
+          "distance_m": 3.482698170101715e-07,
+          "frame": 14
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 3.878340760128421e-07,
+          "frame": 16
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 2.0445023080724841e-07,
+          "frame": 7
+        },
+        "shin.R->foot.R": {
+          "distance_m": 3.0694674037567554e-07,
+          "frame": 13
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 3.880218902184734e-07,
+          "frame": 5
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": [
+        {
+          "frame": 1,
+          "L": 0.003656096290796995,
+          "R": 0.025859873741865158
+        },
+        {
+          "frame": 12,
+          "L": 0.006511040963232517,
+          "R": 0.01959015056490898
+        }
+      ]
+    },
+    {
+      "id": "walk_bl",
+      "max_joint_gap_m": 3.7284554505971693e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 2.890402785132948e-07,
+          "frame": 18
+        },
+        "shin.L->foot.L": {
+          "distance_m": 3.4850882183094324e-07,
+          "frame": 15
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 3.7284554505971693e-07,
+          "frame": 2
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 2.2351741790771484e-07,
+          "frame": 8
+        },
+        "shin.R->foot.R": {
+          "distance_m": 3.234787783934535e-07,
+          "frame": 9
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 2.986047331594191e-07,
+          "frame": 15
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": [
+        {
+          "frame": 1,
+          "L": 0.0036560818552970886,
+          "R": 0.015743032097816467
+        },
+        {
+          "frame": 12,
+          "L": 0.0008359604980796576,
+          "R": 0.025144807994365692
+        }
+      ]
+    },
+    {
+      "id": "walk_b",
+      "max_joint_gap_m": 3.268079787412481e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 3.264680847556389e-07,
+          "frame": 19
+        },
+        "shin.L->foot.L": {
+          "distance_m": 3.268079787412481e-07,
+          "frame": 10
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 2.7092364185417753e-07,
+          "frame": 19
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 2.0701354726329154e-07,
+          "frame": 7
+        },
+        "shin.R->foot.R": {
+          "distance_m": 2.9988008435812754e-07,
+          "frame": 3
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 2.7092364185417753e-07,
+          "frame": 7
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": [
+        {
+          "frame": 1,
+          "L": 0.0036559742875397205,
+          "R": 0.01574292592704296
+        },
+        {
+          "frame": 12,
+          "L": 0.00083595619071275,
+          "R": 0.025144852697849274
+        }
+      ]
+    },
+    {
+      "id": "walk_br",
+      "max_joint_gap_m": 3.931196319542205e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 2.7516760397880357e-07,
+          "frame": 9
+        },
+        "shin.L->foot.L": {
+          "distance_m": 3.931196319542205e-07,
+          "frame": 17
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 2.986047331594191e-07,
+          "frame": 3
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 2.623620161661358e-07,
+          "frame": 9
+        },
+        "shin.R->foot.R": {
+          "distance_m": 2.8292592683505304e-07,
+          "frame": 22
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 2.986047331594191e-07,
+          "frame": 15
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": [
+        {
+          "frame": 1,
+          "L": 0.0036559514701366425,
+          "R": 0.01574300229549408
+        },
+        {
+          "frame": 12,
+          "L": 0.0008359874482266605,
+          "R": 0.02514483407139778
+        }
+      ]
+    },
+    {
+      "id": "walk_r",
+      "max_joint_gap_m": 3.880218902184734e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 2.1545579643430195e-07,
+          "frame": 23
+        },
+        "shin.L->foot.L": {
+          "distance_m": 3.517589460048937e-07,
+          "frame": 2
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 3.878340760128421e-07,
+          "frame": 16
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 1.9884118653956829e-07,
+          "frame": 1
+        },
+        "shin.R->foot.R": {
+          "distance_m": 3.3004053766702e-07,
+          "frame": 1
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 3.880218902184734e-07,
+          "frame": 5
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": [
+        {
+          "frame": 1,
+          "L": 0.003655999433249235,
+          "R": 0.025859780609607697
+        },
+        {
+          "frame": 12,
+          "L": 0.006511061452329159,
+          "R": 0.019589945673942566
+        }
+      ]
+    },
+    {
+      "id": "walk_fr",
+      "max_joint_gap_m": 3.726966302080217e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 2.1139176128970247e-07,
+          "frame": 10
+        },
+        "shin.L->foot.L": {
+          "distance_m": 3.4482587770837945e-07,
+          "frame": 1
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 3.726966302080217e-07,
+          "frame": 23
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 2.6151431761360534e-07,
+          "frame": 12
+        },
+        "shin.R->foot.R": {
+          "distance_m": 2.4755668231600746e-07,
+          "frame": 11
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 3.726966302080217e-07,
+          "frame": 3
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": [
+        {
+          "frame": 1,
+          "L": 0.0036560003645718098,
+          "R": 0.015742966905236244
+        },
+        {
+          "frame": 12,
+          "L": 0.0008358035702258348,
+          "R": 0.02514478750526905
+        }
+      ]
+    },
+    {
+      "id": "run_f",
+      "max_joint_gap_m": 3.6584296071668383e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 2.0914776396182476e-07,
+          "frame": 18
+        },
+        "shin.L->foot.L": {
+          "distance_m": 2.827296549232345e-07,
+          "frame": 21
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 3.61471055237461e-07,
+          "frame": 18
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 1.838648718484203e-07,
+          "frame": 10
+        },
+        "shin.R->foot.R": {
+          "distance_m": 3.5073167967616975e-07,
+          "frame": 8
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 3.6584296071668383e-07,
+          "frame": 5
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": [
+        {
+          "frame": 1,
+          "L": 0.003655984764918685,
+          "R": 0.13688796758651733
+        },
+        {
+          "frame": 11,
+          "L": 0.12669071555137634,
+          "R": 0.01751517504453659
+        }
+      ]
+    },
+    {
+      "id": "run_fl",
+      "max_joint_gap_m": 3.8310766614027146e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 2.551755873790936e-07,
+          "frame": 13
+        },
+        "shin.L->foot.L": {
+          "distance_m": 3.607958559037224e-07,
+          "frame": 13
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 3.8283588786623504e-07,
+          "frame": 18
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 2.5949662019083735e-07,
+          "frame": 10
+        },
+        "shin.R->foot.R": {
+          "distance_m": 2.673917777080292e-07,
+          "frame": 10
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 3.8310766614027146e-07,
+          "frame": 5
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": [
+        {
+          "frame": 1,
+          "L": 0.0036560618318617344,
+          "R": 0.13688799738883972
+        },
+        {
+          "frame": 11,
+          "L": 0.12669071555137634,
+          "R": 0.017515236511826515
+        }
+      ]
+    },
+    {
+      "id": "run_l",
+      "max_joint_gap_m": 3.375038997204937e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 2.1658006092531433e-07,
+          "frame": 8
+        },
+        "shin.L->foot.L": {
+          "distance_m": 3.375038997204937e-07,
+          "frame": 8
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 2.874031889734553e-07,
+          "frame": 7
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 2.1364466784804564e-07,
+          "frame": 8
+        },
+        "shin.R->foot.R": {
+          "distance_m": 2.948632574871911e-07,
+          "frame": 11
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 3.171532847552413e-07,
+          "frame": 11
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": [
+        {
+          "frame": 1,
+          "L": 0.003655998269096017,
+          "R": 0.1506185531616211
+        },
+        {
+          "frame": 11,
+          "L": 0.14347922801971436,
+          "R": 0.01613912545144558
+        }
+      ]
+    },
+    {
+      "id": "run_bl",
+      "max_joint_gap_m": 4.5491270787935696e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 2.0212918469683135e-07,
+          "frame": 21
+        },
+        "shin.L->foot.L": {
+          "distance_m": 3.978393770708524e-07,
+          "frame": 5
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 4.5491270787935696e-07,
+          "frame": 2
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 2.1073424255447017e-07,
+          "frame": 2
+        },
+        "shin.R->foot.R": {
+          "distance_m": 2.421152116249788e-07,
+          "frame": 11
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 3.674277068954096e-07,
+          "frame": 20
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": [
+        {
+          "frame": 1,
+          "L": 0.0036560622975230217,
+          "R": 0.13688799738883972
+        },
+        {
+          "frame": 11,
+          "L": 0.12669068574905396,
+          "R": 0.017515147104859352
+        }
+      ]
+    },
+    {
+      "id": "run_b",
+      "max_joint_gap_m": 4.4926444982532665e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 2.2891598188485527e-07,
+          "frame": 16
+        },
+        "shin.L->foot.L": {
+          "distance_m": 3.945291726253547e-07,
+          "frame": 16
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 4.4926444982532665e-07,
+          "frame": 9
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 2.366659071187465e-07,
+          "frame": 20
+        },
+        "shin.R->foot.R": {
+          "distance_m": 2.927613661347106e-07,
+          "frame": 18
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 4.4926444982532665e-07,
+          "frame": 14
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": [
+        {
+          "frame": 1,
+          "L": 0.003656088374555111,
+          "R": 0.13688796758651733
+        },
+        {
+          "frame": 11,
+          "L": 0.12669065594673157,
+          "R": 0.01751512661576271
+        }
+      ]
+    },
+    {
+      "id": "run_br",
+      "max_joint_gap_m": 4.3443977049330625e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 2.425733297482089e-07,
+          "frame": 9
+        },
+        "shin.L->foot.L": {
+          "distance_m": 4.3443977049330625e-07,
+          "frame": 21
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 3.674277068954096e-07,
+          "frame": 3
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 2.4119636500237356e-07,
+          "frame": 6
+        },
+        "shin.R->foot.R": {
+          "distance_m": 3.990062427221502e-07,
+          "frame": 19
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 3.674277068954096e-07,
+          "frame": 20
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": [
+        {
+          "frame": 1,
+          "L": 0.003656091634184122,
+          "R": 0.13688796758651733
+        },
+        {
+          "frame": 11,
+          "L": 0.12669065594673157,
+          "R": 0.01751517504453659
+        }
+      ]
+    },
+    {
+      "id": "run_r",
+      "max_joint_gap_m": 3.270255376785889e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 2.2351741790771484e-07,
+          "frame": 12
+        },
+        "shin.L->foot.L": {
+          "distance_m": 3.264680847556389e-07,
+          "frame": 19
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 2.951220023682469e-07,
+          "frame": 1
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 2.568019619526578e-07,
+          "frame": 9
+        },
+        "shin.R->foot.R": {
+          "distance_m": 3.270255376785889e-07,
+          "frame": 15
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 2.951220023682469e-07,
+          "frame": 1
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": [
+        {
+          "frame": 1,
+          "L": 0.0036560678854584694,
+          "R": 0.15061840415000916
+        },
+        {
+          "frame": 11,
+          "L": 0.14347928762435913,
+          "R": 0.01613914966583252
+        }
+      ]
+    },
+    {
+      "id": "run_fr",
+      "max_joint_gap_m": 3.8310766614027146e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 2.4405627480386493e-07,
+          "frame": 7
+        },
+        "shin.L->foot.L": {
+          "distance_m": 3.5832567979130295e-07,
+          "frame": 1
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 3.8283588786623504e-07,
+          "frame": 18
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 2.0267770452403194e-07,
+          "frame": 10
+        },
+        "shin.R->foot.R": {
+          "distance_m": 2.470024790363536e-07,
+          "frame": 1
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 3.8310766614027146e-07,
+          "frame": 5
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": [
+        {
+          "frame": 1,
+          "L": 0.0036560222506523132,
+          "R": 0.1368880271911621
+        },
+        {
+          "frame": 11,
+          "L": 0.12669070065021515,
+          "R": 0.017515163868665695
+        }
+      ]
+    },
+    {
+      "id": "sprint_f",
+      "max_joint_gap_m": 3.175031505921858e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 2.388837865275353e-07,
+          "frame": 11
+        },
+        "shin.L->foot.L": {
+          "distance_m": 3.175031505921858e-07,
+          "frame": 18
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 2.4191451214334697e-07,
+          "frame": 12
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 2.2351741790771484e-07,
+          "frame": 4
+        },
+        "shin.R->foot.R": {
+          "distance_m": 2.407356265396403e-07,
+          "frame": 8
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 2.7376606878471983e-07,
+          "frame": 3
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "start_f",
+      "max_joint_gap_m": 3.925013661817603e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 2.4405627480386493e-07,
+          "frame": 3
+        },
+        "shin.L->foot.L": {
+          "distance_m": 3.925013661817603e-07,
+          "frame": 21
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 3.7133502347401117e-07,
+          "frame": 19
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 2.481166393361496e-07,
+          "frame": 8
+        },
+        "shin.R->foot.R": {
+          "distance_m": 2.399922683116728e-07,
+          "frame": 16
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 3.65306457046606e-07,
+          "frame": 6
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "stop_f",
+      "max_joint_gap_m": 3.7750428489674813e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 2.240135726090209e-07,
+          "frame": 6
+        },
+        "shin.L->foot.L": {
+          "distance_m": 3.349448262600455e-07,
+          "frame": 9
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 3.7750428489674813e-07,
+          "frame": 17
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 2.5506679368948475e-07,
+          "frame": 18
+        },
+        "shin.R->foot.R": {
+          "distance_m": 3.0846325981764484e-07,
+          "frame": 6
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 2.981163415870451e-07,
+          "frame": 5
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "turn_l90",
+      "max_joint_gap_m": 3.967215541515532e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 2.1542358837725164e-07,
+          "frame": 5
+        },
+        "shin.L->foot.L": {
+          "distance_m": 3.967215541515532e-07,
+          "frame": 24
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 3.6983709472390583e-07,
+          "frame": 7
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 2.0914776396182476e-07,
+          "frame": 3
+        },
+        "shin.R->foot.R": {
+          "distance_m": 3.613262294031947e-07,
+          "frame": 15
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 2.943745514118797e-07,
+          "frame": 20
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "turn_r90",
+      "max_joint_gap_m": 5.112748880475093e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 2.533471306550399e-07,
+          "frame": 10
+        },
+        "shin.L->foot.L": {
+          "distance_m": 3.650024149988857e-07,
+          "frame": 19
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 2.8115454709698567e-07,
+          "frame": 7
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 2.3324006561187697e-07,
+          "frame": 7
+        },
+        "shin.R->foot.R": {
+          "distance_m": 2.7232865814115206e-07,
+          "frame": 7
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 5.112748880475093e-07,
+          "frame": 22
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "pivot_l180",
+      "max_joint_gap_m": 3.945995174904275e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 2.2500259981366246e-07,
+          "frame": 5
+        },
+        "shin.L->foot.L": {
+          "distance_m": 3.945995174904275e-07,
+          "frame": 12
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 3.7497966087346135e-07,
+          "frame": 13
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 2.481166393361496e-07,
+          "frame": 5
+        },
+        "shin.R->foot.R": {
+          "distance_m": 2.786009102804696e-07,
+          "frame": 4
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 2.84710657660447e-07,
+          "frame": 16
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "pivot_r180",
+      "max_joint_gap_m": 3.9368405382701475e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 2.1963421960150713e-07,
+          "frame": 14
+        },
+        "shin.L->foot.L": {
+          "distance_m": 3.9368405382701475e-07,
+          "frame": 21
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 3.646648217492744e-07,
+          "frame": 12
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 2.6624751665004546e-07,
+          "frame": 24
+        },
+        "shin.R->foot.R": {
+          "distance_m": 3.2493416201109475e-07,
+          "frame": 25
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 2.9876735293512675e-07,
+          "frame": 25
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "jump_start",
+      "max_joint_gap_m": 4.403412895139219e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 2.8115454709698567e-07,
+          "frame": 9
+        },
+        "shin.L->foot.L": {
+          "distance_m": 4.403412895139219e-07,
+          "frame": 7
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 3.770464935564993e-07,
+          "frame": 11
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 2.6151431761360534e-07,
+          "frame": 13
+        },
+        "shin.R->foot.R": {
+          "distance_m": 3.0328530724417597e-07,
+          "frame": 17
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 3.625611989113742e-07,
+          "frame": 10
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "jump_air",
+      "max_joint_gap_m": 4.5320112483935206e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 2.313282295504216e-07,
+          "frame": 7
+        },
+        "shin.L->foot.L": {
+          "distance_m": 4.5320112483935206e-07,
+          "frame": 7
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 3.9524961398155387e-07,
+          "frame": 4
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 2.356080457693621e-07,
+          "frame": 15
+        },
+        "shin.R->foot.R": {
+          "distance_m": 2.430305843099965e-07,
+          "frame": 18
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 3.6410782321731497e-07,
+          "frame": 5
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "jump_land",
+      "max_joint_gap_m": 3.5857733341554223e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 2.407356265396403e-07,
+          "frame": 14
+        },
+        "shin.L->foot.L": {
+          "distance_m": 3.2272712544446506e-07,
+          "frame": 13
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 3.384893146634265e-07,
+          "frame": 4
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 1.8907453925087333e-07,
+          "frame": 14
+        },
+        "shin.R->foot.R": {
+          "distance_m": 3.1583783617953423e-07,
+          "frame": 13
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 3.5857733341554223e-07,
+          "frame": 19
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "fall",
+      "max_joint_gap_m": 4.851609619583392e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 2.6151431761360534e-07,
+          "frame": 6
+        },
+        "shin.L->foot.L": {
+          "distance_m": 2.889442358861166e-07,
+          "frame": 5
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 4.851609619583392e-07,
+          "frame": 21
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 1.850685827191803e-07,
+          "frame": 12
+        },
+        "shin.R->foot.R": {
+          "distance_m": 2.6987150723151616e-07,
+          "frame": 14
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 3.591767189858541e-07,
+          "frame": 7
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "land_heavy",
+      "max_joint_gap_m": 3.2442124272998035e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 2.2302015940987714e-07,
+          "frame": 20
+        },
+        "shin.L->foot.L": {
+          "distance_m": 3.2442124272998035e-07,
+          "frame": 24
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 2.7161428531346e-07,
+          "frame": 29
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 2.7516760397880357e-07,
+          "frame": 16
+        },
+        "shin.R->foot.R": {
+          "distance_m": 2.3992720526612725e-07,
+          "frame": 16
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 2.403028819392642e-07,
+          "frame": 26
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "dash_f",
+      "max_joint_gap_m": 5.72095925225391e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 2.79967400849699e-07,
+          "frame": 16
+        },
+        "shin.L->foot.L": {
+          "distance_m": 4.473451689564608e-07,
+          "frame": 12
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 3.816559456248789e-07,
+          "frame": 10
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 3.335331273913293e-07,
+          "frame": 14
+        },
+        "shin.R->foot.R": {
+          "distance_m": 5.72095925225391e-07,
+          "frame": 14
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 3.0538293021796936e-07,
+          "frame": 16
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "dash_b",
+      "max_joint_gap_m": 4.202153877080552e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 3.8656955275156637e-07,
+          "frame": 12
+        },
+        "shin.L->foot.L": {
+          "distance_m": 4.202153877080552e-07,
+          "frame": 12
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 3.4240261593687705e-07,
+          "frame": 16
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 3.2544627290728025e-07,
+          "frame": 11
+        },
+        "shin.R->foot.R": {
+          "distance_m": 3.696118818167586e-07,
+          "frame": 16
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 3.6378370570342845e-07,
+          "frame": 7
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "dash_l",
+      "max_joint_gap_m": 7.218188389975516e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 5.031211082975308e-07,
+          "frame": 16
+        },
+        "shin.L->foot.L": {
+          "distance_m": 7.218188389975516e-07,
+          "frame": 16
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 4.405933452240383e-07,
+          "frame": 16
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 2.5506679368948475e-07,
+          "frame": 11
+        },
+        "shin.R->foot.R": {
+          "distance_m": 3.1683220138935447e-07,
+          "frame": 15
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 3.5884844977949234e-07,
+          "frame": 6
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "dash_r",
+      "max_joint_gap_m": 4.872018910727446e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 2.846862848779976e-07,
+          "frame": 14
+        },
+        "shin.L->foot.L": {
+          "distance_m": 3.618677259761753e-07,
+          "frame": 11
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 3.29514509253144e-07,
+          "frame": 16
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 4.872018910727446e-07,
+          "frame": 16
+        },
+        "shin.R->foot.R": {
+          "distance_m": 4.825306495495379e-07,
+          "frame": 13
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 3.735892289442912e-07,
+          "frame": 12
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "blink_out",
+      "max_joint_gap_m": 4.5491270787935696e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 2.0499254006441838e-07,
+          "frame": 6
+        },
+        "shin.L->foot.L": {
+          "distance_m": 3.9051633796817394e-07,
+          "frame": 2
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 2.862419592186592e-07,
+          "frame": 9
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 2.2891598188485527e-07,
+          "frame": 12
+        },
+        "shin.R->foot.R": {
+          "distance_m": 3.0172695501231047e-07,
+          "frame": 13
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 4.5491270787935696e-07,
+          "frame": 11
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "blink_in",
+      "max_joint_gap_m": 4.5491270787935696e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 2.0499254006441838e-07,
+          "frame": 8
+        },
+        "shin.L->foot.L": {
+          "distance_m": 3.9051633796817394e-07,
+          "frame": 12
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 2.862419592186592e-07,
+          "frame": 5
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 2.2891598188485527e-07,
+          "frame": 2
+        },
+        "shin.R->foot.R": {
+          "distance_m": 3.0172695501231047e-07,
+          "frame": 1
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 4.5491270787935696e-07,
+          "frame": 3
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "melee_1",
+      "max_joint_gap_m": 3.8744810067559886e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 2.2364155977671794e-07,
+          "frame": 24
+        },
+        "shin.L->foot.L": {
+          "distance_m": 2.890402785132948e-07,
+          "frame": 20
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 3.8744810067559886e-07,
+          "frame": 20
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 1.8189185285171422e-07,
+          "frame": 20
+        },
+        "shin.R->foot.R": {
+          "distance_m": 1.9342832246046022e-07,
+          "frame": 7
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 2.624677859814247e-07,
+          "frame": 5
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "melee_2",
+      "max_joint_gap_m": 3.799476519519997e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 2.2500259981366246e-07,
+          "frame": 23
+        },
+        "shin.L->foot.L": {
+          "distance_m": 3.1442862519635545e-07,
+          "frame": 20
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 3.799476519519997e-07,
+          "frame": 20
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 2.1950781140709273e-07,
+          "frame": 13
+        },
+        "shin.R->foot.R": {
+          "distance_m": 1.8326005155218905e-07,
+          "frame": 22
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 2.938968378799561e-07,
+          "frame": 23
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "melee_3",
+      "max_joint_gap_m": 4.308471767545033e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 2.79967400849699e-07,
+          "frame": 15
+        },
+        "shin.L->foot.L": {
+          "distance_m": 3.7726726833498965e-07,
+          "frame": 16
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 2.8125324976707805e-07,
+          "frame": 13
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 2.624677859814247e-07,
+          "frame": 26
+        },
+        "shin.R->foot.R": {
+          "distance_m": 2.1555239173009146e-07,
+          "frame": 9
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 4.308471767545033e-07,
+          "frame": 28
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "ranged_fire",
+      "max_joint_gap_m": 2.5506679368948475e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 1.5521546196937307e-07,
+          "frame": 1
+        },
+        "shin.L->foot.L": {
+          "distance_m": 1.8566751173700558e-07,
+          "frame": 1
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 2.5506679368948475e-07,
+          "frame": 5
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 1.1944189326376765e-07,
+          "frame": 1
+        },
+        "shin.R->foot.R": {
+          "distance_m": 8.72863420386611e-08,
+          "frame": 1
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 2.2500259981366246e-07,
+          "frame": 1
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "ranged_burst",
+      "max_joint_gap_m": 2.8125324976707805e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 1.5521546196937307e-07,
+          "frame": 1
+        },
+        "shin.L->foot.L": {
+          "distance_m": 1.8566751173700558e-07,
+          "frame": 1
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 2.8125324976707805e-07,
+          "frame": 6
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 1.1944189326376765e-07,
+          "frame": 1
+        },
+        "shin.R->foot.R": {
+          "distance_m": 8.72863420386611e-08,
+          "frame": 1
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 2.640492490927778e-07,
+          "frame": 10
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "reload",
+      "max_joint_gap_m": 3.5956288909952803e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 1.5521546196937307e-07,
+          "frame": 1
+        },
+        "shin.L->foot.L": {
+          "distance_m": 1.8566751173700558e-07,
+          "frame": 1
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 3.5956288909952803e-07,
+          "frame": 4
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 1.1944189326376765e-07,
+          "frame": 1
+        },
+        "shin.R->foot.R": {
+          "distance_m": 8.72863420386611e-08,
+          "frame": 1
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 2.8662955852853273e-07,
+          "frame": 13
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "cast_directional",
+      "max_joint_gap_m": 3.665201031043781e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 1.5521546196937307e-07,
+          "frame": 1
+        },
+        "shin.L->foot.L": {
+          "distance_m": 1.8566751173700558e-07,
+          "frame": 1
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 3.627331060240971e-07,
+          "frame": 3
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 1.1944189326376765e-07,
+          "frame": 1
+        },
+        "shin.R->foot.R": {
+          "distance_m": 8.72863420386611e-08,
+          "frame": 1
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 3.665201031043781e-07,
+          "frame": 9
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "cast_ground",
+      "max_joint_gap_m": 4.140270945265831e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 2.407356265396403e-07,
+          "frame": 7
+        },
+        "shin.L->foot.L": {
+          "distance_m": 3.01357335092972e-07,
+          "frame": 6
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 3.6286698764222625e-07,
+          "frame": 27
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 2.5397629363923237e-07,
+          "frame": 2
+        },
+        "shin.R->foot.R": {
+          "distance_m": 3.0358258980332816e-07,
+          "frame": 2
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 4.140270945265831e-07,
+          "frame": 4
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "cast_self",
+      "max_joint_gap_m": 3.674277068954096e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 1.5521546196937307e-07,
+          "frame": 1
+        },
+        "shin.L->foot.L": {
+          "distance_m": 1.8566751173700558e-07,
+          "frame": 1
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 3.674277068954096e-07,
+          "frame": 8
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 1.1944189326376765e-07,
+          "frame": 1
+        },
+        "shin.R->foot.R": {
+          "distance_m": 8.72863420386611e-08,
+          "frame": 1
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 3.6363585037755575e-07,
+          "frame": 24
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "channel_start",
+      "max_joint_gap_m": 3.885747435809761e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 3.5325496170311264e-07,
+          "frame": 4
+        },
+        "shin.L->foot.L": {
+          "distance_m": 2.7337133599754175e-07,
+          "frame": 4
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 3.885747435809761e-07,
+          "frame": 18
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 2.481166393361496e-07,
+          "frame": 3
+        },
+        "shin.R->foot.R": {
+          "distance_m": 1.887807169455279e-07,
+          "frame": 10
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 3.11145380404906e-07,
+          "frame": 8
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "channel_loop",
+      "max_joint_gap_m": 2.9351883535969567e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 1.8907453925087333e-07,
+          "frame": 1
+        },
+        "shin.L->foot.L": {
+          "distance_m": 2.374854303972308e-07,
+          "frame": 1
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 2.9351883535969567e-07,
+          "frame": 10
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 1.5717016987300655e-07,
+          "frame": 1
+        },
+        "shin.R->foot.R": {
+          "distance_m": 5.819089469244073e-08,
+          "frame": 1
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 2.874031889734553e-07,
+          "frame": 27
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "channel_end",
+      "max_joint_gap_m": 3.885747435809761e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 3.5325496170311264e-07,
+          "frame": 16
+        },
+        "shin.L->foot.L": {
+          "distance_m": 2.7337133599754175e-07,
+          "frame": 16
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 3.885747435809761e-07,
+          "frame": 2
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 2.481166393361496e-07,
+          "frame": 17
+        },
+        "shin.R->foot.R": {
+          "distance_m": 1.887807169455279e-07,
+          "frame": 10
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 3.11145380404906e-07,
+          "frame": 12
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "channel_interrupt",
+      "max_joint_gap_m": 4.248791166956202e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 1.8907453925087333e-07,
+          "frame": 1
+        },
+        "shin.L->foot.L": {
+          "distance_m": 2.531005107084368e-07,
+          "frame": 4
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 3.29514509253144e-07,
+          "frame": 2
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 2.0539833235875102e-07,
+          "frame": 4
+        },
+        "shin.R->foot.R": {
+          "distance_m": 1.55572690202453e-07,
+          "frame": 2
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 4.248791166956202e-07,
+          "frame": 2
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "charge_start",
+      "max_joint_gap_m": 4.0068956456165095e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 2.568019619526578e-07,
+          "frame": 11
+        },
+        "shin.L->foot.L": {
+          "distance_m": 3.3269991817721886e-07,
+          "frame": 20
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 3.01357335092972e-07,
+          "frame": 5
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 2.5331974029541016e-07,
+          "frame": 10
+        },
+        "shin.R->foot.R": {
+          "distance_m": 2.2903719766347703e-07,
+          "frame": 14
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 4.0068956456165095e-07,
+          "frame": 23
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "charge_hold",
+      "max_joint_gap_m": 3.805635210610072e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 2.2302015940987714e-07,
+          "frame": 25
+        },
+        "shin.L->foot.L": {
+          "distance_m": 3.270838825293011e-07,
+          "frame": 4
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 2.950279395762582e-07,
+          "frame": 20
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 1.8189185285171422e-07,
+          "frame": 1
+        },
+        "shin.R->foot.R": {
+          "distance_m": 1.9894584898380473e-07,
+          "frame": 20
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 3.805635210610072e-07,
+          "frame": 8
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "charge_release",
+      "max_joint_gap_m": 3.885747435809761e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 2.2500259981366246e-07,
+          "frame": 18
+        },
+        "shin.L->foot.L": {
+          "distance_m": 3.877166459339168e-07,
+          "frame": 7
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 3.885747435809761e-07,
+          "frame": 3
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 2.2500259981366246e-07,
+          "frame": 8
+        },
+        "shin.R->foot.R": {
+          "distance_m": 2.398114940439326e-07,
+          "frame": 8
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 3.6378370570342845e-07,
+          "frame": 16
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "charge_cancel",
+      "max_joint_gap_m": 3.691046503490772e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 2.2351741790771484e-07,
+          "frame": 3
+        },
+        "shin.L->foot.L": {
+          "distance_m": 3.3394895242176905e-07,
+          "frame": 3
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 3.3719536697502804e-07,
+          "frame": 12
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 2.13871897673716e-07,
+          "frame": 2
+        },
+        "shin.R->foot.R": {
+          "distance_m": 2.1086591032273927e-07,
+          "frame": 10
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 3.691046503490772e-07,
+          "frame": 3
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "uplink_start",
+      "max_joint_gap_m": 3.7170856247146194e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 2.4934411839666234e-07,
+          "frame": 13
+        },
+        "shin.L->foot.L": {
+          "distance_m": 2.6215696571185963e-07,
+          "frame": 14
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 3.7170856247146194e-07,
+          "frame": 13
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 2.494554078993679e-07,
+          "frame": 18
+        },
+        "shin.R->foot.R": {
+          "distance_m": 2.3504781058948273e-07,
+          "frame": 17
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 2.827296549232345e-07,
+          "frame": 16
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "uplink_loop",
+      "max_joint_gap_m": 3.8426509375058493e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 1.4175696365863417e-07,
+          "frame": 1
+        },
+        "shin.L->foot.L": {
+          "distance_m": 1.7281492806588413e-07,
+          "frame": 1
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 3.8426509375058493e-07,
+          "frame": 5
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 1.8326005155218905e-07,
+          "frame": 1
+        },
+        "shin.R->foot.R": {
+          "distance_m": 1.7834766512492037e-07,
+          "frame": 1
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 1.1920928955078125e-07,
+          "frame": 1
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "uplink_end",
+      "max_joint_gap_m": 3.976125736274223e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 2.252491780792322e-07,
+          "frame": 18
+        },
+        "shin.L->foot.L": {
+          "distance_m": 2.79967400849699e-07,
+          "frame": 15
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 3.976125736274223e-07,
+          "frame": 12
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 2.1912814929861936e-07,
+          "frame": 20
+        },
+        "shin.R->foot.R": {
+          "distance_m": 1.7834766512492037e-07,
+          "frame": 1
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 3.7726726833498965e-07,
+          "frame": 21
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "uplink_cancel",
+      "max_joint_gap_m": 3.7527561961004223e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 2.560442727422652e-07,
+          "frame": 14
+        },
+        "shin.L->foot.L": {
+          "distance_m": 2.561526512752635e-07,
+          "frame": 12
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 3.7527561961004223e-07,
+          "frame": 9
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 2.1542358837725164e-07,
+          "frame": 14
+        },
+        "shin.R->foot.R": {
+          "distance_m": 2.3504781058948273e-07,
+          "frame": 10
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 3.614107619415195e-07,
+          "frame": 12
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "hit_f",
+      "max_joint_gap_m": 3.8744810067559886e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 1.251754360757753e-07,
+          "frame": 1
+        },
+        "shin.L->foot.L": {
+          "distance_m": 1.9059374845123418e-07,
+          "frame": 1
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 3.6378370570342845e-07,
+          "frame": 5
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 1.1377112818708707e-07,
+          "frame": 1
+        },
+        "shin.R->foot.R": {
+          "distance_m": 1.5288447964169384e-07,
+          "frame": 1
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 3.8744810067559886e-07,
+          "frame": 4
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "hit_b",
+      "max_joint_gap_m": 3.383888036785388e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 1.251754360757753e-07,
+          "frame": 1
+        },
+        "shin.L->foot.L": {
+          "distance_m": 1.9059374845123418e-07,
+          "frame": 1
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 2.817108392318708e-07,
+          "frame": 4
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 1.1377112818708707e-07,
+          "frame": 1
+        },
+        "shin.R->foot.R": {
+          "distance_m": 1.5288447964169384e-07,
+          "frame": 1
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 3.383888036785388e-07,
+          "frame": 8
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "hit_l",
+      "max_joint_gap_m": 3.998791574570874e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 1.251754360757753e-07,
+          "frame": 1
+        },
+        "shin.L->foot.L": {
+          "distance_m": 1.9059374845123418e-07,
+          "frame": 1
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 2.47135881939858e-07,
+          "frame": 6
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 1.1377112818708707e-07,
+          "frame": 1
+        },
+        "shin.R->foot.R": {
+          "distance_m": 1.5288447964169384e-07,
+          "frame": 1
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 3.998791574570874e-07,
+          "frame": 11
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "hit_r",
+      "max_joint_gap_m": 2.981163415870451e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 1.251754360757753e-07,
+          "frame": 1
+        },
+        "shin.L->foot.L": {
+          "distance_m": 1.9059374845123418e-07,
+          "frame": 1
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 2.823612773662388e-07,
+          "frame": 9
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 1.1377112818708707e-07,
+          "frame": 1
+        },
+        "shin.R->foot.R": {
+          "distance_m": 1.5288447964169384e-07,
+          "frame": 1
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 2.981163415870451e-07,
+          "frame": 3
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "stun_start",
+      "max_joint_gap_m": 3.805088175048355e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 1.9556887072930765e-07,
+          "frame": 15
+        },
+        "shin.L->foot.L": {
+          "distance_m": 2.926902528914119e-07,
+          "frame": 2
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 3.010866642805622e-07,
+          "frame": 2
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 2.5506679368948475e-07,
+          "frame": 22
+        },
+        "shin.R->foot.R": {
+          "distance_m": 2.9587929116219934e-07,
+          "frame": 8
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 3.805088175048355e-07,
+          "frame": 5
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "stun_loop",
+      "max_joint_gap_m": 5.002580809325503e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 1.444721179430583e-07,
+          "frame": 1
+        },
+        "shin.L->foot.L": {
+          "distance_m": 2.7877519926234645e-07,
+          "frame": 1
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 5.002580809325503e-07,
+          "frame": 4
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 2.5506679368948475e-07,
+          "frame": 1
+        },
+        "shin.R->foot.R": {
+          "distance_m": 1.4485584270375655e-07,
+          "frame": 1
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 4.0672254752982203e-07,
+          "frame": 32
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "stun_end",
+      "max_joint_gap_m": 4.084250352879091e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 2.686345037418596e-07,
+          "frame": 5
+        },
+        "shin.L->foot.L": {
+          "distance_m": 4.084250352879091e-07,
+          "frame": 14
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 3.589653564862426e-07,
+          "frame": 21
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 2.5531151429832634e-07,
+          "frame": 16
+        },
+        "shin.R->foot.R": {
+          "distance_m": 2.9587929116219934e-07,
+          "frame": 17
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 3.919883500923486e-07,
+          "frame": 13
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "knockback",
+      "max_joint_gap_m": 3.902186019070492e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 2.0647654623614278e-07,
+          "frame": 8
+        },
+        "shin.L->foot.L": {
+          "distance_m": 3.6568615412139974e-07,
+          "frame": 15
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 3.902186019070492e-07,
+          "frame": 4
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 2.515605541487654e-07,
+          "frame": 10
+        },
+        "shin.R->foot.R": {
+          "distance_m": 2.3806907696530905e-07,
+          "frame": 21
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 3.6164108215306987e-07,
+          "frame": 12
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "knockup_start",
+      "max_joint_gap_m": 3.162824117235711e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 2.927613661347106e-07,
+          "frame": 8
+        },
+        "shin.L->foot.L": {
+          "distance_m": 3.162824117235711e-07,
+          "frame": 8
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 2.599174312131466e-07,
+          "frame": 18
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 1.9213254687529247e-07,
+          "frame": 2
+        },
+        "shin.R->foot.R": {
+          "distance_m": 1.8085891148356133e-07,
+          "frame": 6
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 2.7516760397880357e-07,
+          "frame": 12
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "knockup_air",
+      "max_joint_gap_m": 4.842304232499576e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 2.313282295504216e-07,
+          "frame": 15
+        },
+        "shin.L->foot.L": {
+          "distance_m": 2.7028258364226004e-07,
+          "frame": 2
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 4.842304232499576e-07,
+          "frame": 14
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 2.02266454108033e-07,
+          "frame": 16
+        },
+        "shin.R->foot.R": {
+          "distance_m": 1.744136200952474e-07,
+          "frame": 16
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 3.632492346539767e-07,
+          "frame": 17
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "respawn",
+      "max_joint_gap_m": 4.3014199574179487e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 2.5331974029541016e-07,
+          "frame": 24
+        },
+        "shin.L->foot.L": {
+          "distance_m": 3.4964186362482045e-07,
+          "frame": 45
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 4.3014199574179487e-07,
+          "frame": 66
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 2.2500259981366246e-07,
+          "frame": 32
+        },
+        "shin.R->foot.R": {
+          "distance_m": 2.2745635393967848e-07,
+          "frame": 32
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 4.182955279236495e-07,
+          "frame": 47
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "greet",
+      "max_joint_gap_m": 4.194220288109055e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 1.251754360757753e-07,
+          "frame": 1
+        },
+        "shin.L->foot.L": {
+          "distance_m": 1.9059374845123418e-07,
+          "frame": 1
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 4.194220288109055e-07,
+          "frame": 8
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 1.1377112818708707e-07,
+          "frame": 1
+        },
+        "shin.R->foot.R": {
+          "distance_m": 1.5288447964169384e-07,
+          "frame": 1
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 3.6867671914115587e-07,
+          "frame": 61
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "victory",
+      "max_joint_gap_m": 3.7726726833498965e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 2.3957990394254814e-07,
+          "frame": 73
+        },
+        "shin.L->foot.L": {
+          "distance_m": 3.23821810068201e-07,
+          "frame": 42
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 3.7726726833498965e-07,
+          "frame": 31
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 2.482564312450012e-07,
+          "frame": 42
+        },
+        "shin.R->foot.R": {
+          "distance_m": 3.1456652160817916e-07,
+          "frame": 42
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 3.7697402365913494e-07,
+          "frame": 18
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "defeat",
+      "max_joint_gap_m": 4.3407225788651464e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 2.494554078993679e-07,
+          "frame": 69
+        },
+        "shin.L->foot.L": {
+          "distance_m": 4.3407225788651464e-07,
+          "frame": 19
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 3.591767189858541e-07,
+          "frame": 23
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 2.3144818197204272e-07,
+          "frame": 69
+        },
+        "shin.R->foot.R": {
+          "distance_m": 3.3760668131063424e-07,
+          "frame": 60
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 3.796142102139293e-07,
+          "frame": 73
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "dialogue",
+      "max_joint_gap_m": 4.503991903217254e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 2.6745015948476767e-07,
+          "frame": 202
+        },
+        "shin.L->foot.L": {
+          "distance_m": 4.141286866309904e-07,
+          "frame": 187
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 4.503991903217254e-07,
+          "frame": 403
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 2.9673989222984956e-07,
+          "frame": 321
+        },
+        "shin.R->foot.R": {
+          "distance_m": 3.871087962195105e-07,
+          "frame": 23
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 4.0359806956421407e-07,
+          "frame": 112
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "aim_down_left",
+      "max_joint_gap_m": 2.8662955852853273e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 1.5521546196937307e-07,
+          "frame": 1
+        },
+        "shin.L->foot.L": {
+          "distance_m": 1.8566751173700558e-07,
+          "frame": 1
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 1.8284307706069987e-07,
+          "frame": 1
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 1.1944189326376765e-07,
+          "frame": 1
+        },
+        "shin.R->foot.R": {
+          "distance_m": 8.72863420386611e-08,
+          "frame": 1
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 2.8662955852853273e-07,
+          "frame": 1
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "aim_down_center",
+      "max_joint_gap_m": 3.885747435809761e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 1.5521546196937307e-07,
+          "frame": 1
+        },
+        "shin.L->foot.L": {
+          "distance_m": 1.8566751173700558e-07,
+          "frame": 1
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 2.4755668231600746e-07,
+          "frame": 1
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 1.1944189326376765e-07,
+          "frame": 1
+        },
+        "shin.R->foot.R": {
+          "distance_m": 8.72863420386611e-08,
+          "frame": 1
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 3.885747435809761e-07,
+          "frame": 1
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "aim_down_right",
+      "max_joint_gap_m": 2.1606683731079102e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 1.5521546196937307e-07,
+          "frame": 1
+        },
+        "shin.L->foot.L": {
+          "distance_m": 1.8566751173700558e-07,
+          "frame": 1
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 2.1606683731079102e-07,
+          "frame": 1
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 1.1944189326376765e-07,
+          "frame": 1
+        },
+        "shin.R->foot.R": {
+          "distance_m": 8.72863420386611e-08,
+          "frame": 1
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 1.2293457984924316e-07,
+          "frame": 1
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "aim_level_left",
+      "max_joint_gap_m": 3.65306457046606e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 1.5521546196937307e-07,
+          "frame": 1
+        },
+        "shin.L->foot.L": {
+          "distance_m": 1.8566751173700558e-07,
+          "frame": 1
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 3.65306457046606e-07,
+          "frame": 1
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 1.1944189326376765e-07,
+          "frame": 1
+        },
+        "shin.R->foot.R": {
+          "distance_m": 8.72863420386611e-08,
+          "frame": 1
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 2.699743350147223e-07,
+          "frame": 1
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "aim_level_center",
+      "max_joint_gap_m": 2.1126042125758269e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 1.5521546196937307e-07,
+          "frame": 1
+        },
+        "shin.L->foot.L": {
+          "distance_m": 1.8566751173700558e-07,
+          "frame": 1
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 6.006850114687196e-08,
+          "frame": 1
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 1.1944189326376765e-07,
+          "frame": 1
+        },
+        "shin.R->foot.R": {
+          "distance_m": 8.72863420386611e-08,
+          "frame": 1
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 2.1126042125758269e-07,
+          "frame": 1
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "aim_level_right",
+      "max_joint_gap_m": 1.8566751173700558e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 1.5521546196937307e-07,
+          "frame": 1
+        },
+        "shin.L->foot.L": {
+          "distance_m": 1.8566751173700558e-07,
+          "frame": 1
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 6.365778852490731e-08,
+          "frame": 1
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 1.1944189326376765e-07,
+          "frame": 1
+        },
+        "shin.R->foot.R": {
+          "distance_m": 8.72863420386611e-08,
+          "frame": 1
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 1.6340398937062404e-07,
+          "frame": 1
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "aim_up_left",
+      "max_joint_gap_m": 4.0122604423273384e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 1.5521546196937307e-07,
+          "frame": 1
+        },
+        "shin.L->foot.L": {
+          "distance_m": 1.8566751173700558e-07,
+          "frame": 1
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 4.0122604423273384e-07,
+          "frame": 1
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 1.1944189326376765e-07,
+          "frame": 1
+        },
+        "shin.R->foot.R": {
+          "distance_m": 8.72863420386611e-08,
+          "frame": 1
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 1.3328003749250113e-07,
+          "frame": 1
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "aim_up_center",
+      "max_joint_gap_m": 1.8566751173700558e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 1.5521546196937307e-07,
+          "frame": 1
+        },
+        "shin.L->foot.L": {
+          "distance_m": 1.8566751173700558e-07,
+          "frame": 1
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 1.3348812510944096e-07,
+          "frame": 1
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 1.1944189326376765e-07,
+          "frame": 1
+        },
+        "shin.R->foot.R": {
+          "distance_m": 8.72863420386611e-08,
+          "frame": 1
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 6.664001874625056e-08,
+          "frame": 1
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "aim_up_right",
+      "max_joint_gap_m": 1.8566751173700558e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 1.5521546196937307e-07,
+          "frame": 1
+        },
+        "shin.L->foot.L": {
+          "distance_m": 1.8566751173700558e-07,
+          "frame": 1
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 1.2731557704981462e-07,
+          "frame": 1
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 1.1944189326376765e-07,
+          "frame": 1
+        },
+        "shin.R->foot.R": {
+          "distance_m": 8.72863420386611e-08,
+          "frame": 1
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 4.6566128730773926e-08,
+          "frame": 1
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "knockdown_front",
+      "max_joint_gap_m": 3.9789169796760945e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 2.2794393510786228e-07,
+          "frame": 2
+        },
+        "shin.L->foot.L": {
+          "distance_m": 3.9789169796760945e-07,
+          "frame": 15
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 3.9340194411409155e-07,
+          "frame": 16
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 1.9328477637578318e-07,
+          "frame": 22
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 2.874031889734553e-07,
+          "frame": 21
+        },
+        "shin.R->foot.R": {
+          "distance_m": 2.5463115409962923e-07,
+          "frame": 20
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 3.579381748874281e-07,
+          "frame": 24
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 1.660994947672483e-07,
+          "frame": 20
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "knockdown_back",
+      "max_joint_gap_m": 4.4901726166365635e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 3.1680303253932744e-07,
+          "frame": 27
+        },
+        "shin.L->foot.L": {
+          "distance_m": 4.36479405041838e-07,
+          "frame": 23
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 4.4901726166365635e-07,
+          "frame": 21
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 2.086162567138672e-07,
+          "frame": 18
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 3.196811370987435e-07,
+          "frame": 20
+        },
+        "shin.R->foot.R": {
+          "distance_m": 3.29514509253144e-07,
+          "frame": 22
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 3.9098719728069696e-07,
+          "frame": 4
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 1.4901161193847656e-07,
+          "frame": 22
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "prone_front",
+      "max_joint_gap_m": 3.892170753064447e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 2.3466372114455137e-07,
+          "frame": 9
+        },
+        "shin.L->foot.L": {
+          "distance_m": 3.892170753064447e-07,
+          "frame": 9
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 3.7371922147227685e-07,
+          "frame": 15
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 1.8763780980502112e-07,
+          "frame": 6
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 1.7943374184954607e-07,
+          "frame": 3
+        },
+        "shin.R->foot.R": {
+          "distance_m": 3.179399414859991e-07,
+          "frame": 13
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 3.8310766614027146e-07,
+          "frame": 18
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 1.8525595604116255e-07,
+          "frame": 26
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "prone_back",
+      "max_joint_gap_m": 4.0733626284708513e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 3.1680303253932744e-07,
+          "frame": 1
+        },
+        "shin.L->foot.L": {
+          "distance_m": 3.779288188508868e-07,
+          "frame": 13
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 3.613339559132499e-07,
+          "frame": 10
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 1.6118070224511577e-07,
+          "frame": 16
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 2.9200193199910854e-07,
+          "frame": 18
+        },
+        "shin.R->foot.R": {
+          "distance_m": 4.0733626284708513e-07,
+          "frame": 20
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 4.0122604423273384e-07,
+          "frame": 30
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 1.58445315943187e-07,
+          "frame": 13
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "getup_front",
+      "max_joint_gap_m": 6.59029018506288e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 2.827296549232345e-07,
+          "frame": 8
+        },
+        "shin.L->foot.L": {
+          "distance_m": 4.953935804927137e-07,
+          "frame": 8
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 4.2252084251516537e-07,
+          "frame": 36
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 2.4934411839666234e-07,
+          "frame": 41
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 2.2745635393967848e-07,
+          "frame": 11
+        },
+        "shin.R->foot.R": {
+          "distance_m": 3.81437711005515e-07,
+          "frame": 10
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 6.59029018506288e-07,
+          "frame": 37
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 1.999200562387517e-07,
+          "frame": 33
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "getup_back",
+      "max_joint_gap_m": 5.19674658550972e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 3.1680303253932744e-07,
+          "frame": 1
+        },
+        "shin.L->foot.L": {
+          "distance_m": 5.19674658550972e-07,
+          "frame": 42
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 4.27743795347432e-07,
+          "frame": 35
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 2.1696418193818683e-07,
+          "frame": 51
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 3.0683368864616754e-07,
+          "frame": 4
+        },
+        "shin.R->foot.R": {
+          "distance_m": 3.488272401904948e-07,
+          "frame": 23
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 4.814712530792806e-07,
+          "frame": 66
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 1.802055034406159e-07,
+          "frame": 42
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "sleep_start",
+      "max_joint_gap_m": 4.267693606501724e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 3.30607708280292e-07,
+          "frame": 61
+        },
+        "shin.L->foot.L": {
+          "distance_m": 4.267693606501724e-07,
+          "frame": 31
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 2.682209014892578e-07,
+          "frame": 35
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 2.5397629363923237e-07,
+          "frame": 3
+        },
+        "shin.R->foot.R": {
+          "distance_m": 3.145389471622064e-07,
+          "frame": 71
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 4.140270945265831e-07,
+          "frame": 7
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "sleep_loop",
+      "max_joint_gap_m": 2.388837865275353e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 1.5269146510898468e-07,
+          "frame": 1
+        },
+        "shin.L->foot.L": {
+          "distance_m": 9.8843121241194e-08,
+          "frame": 1
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 2.388837865275353e-07,
+          "frame": 17
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 0.0,
+          "frame": 0
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 2.1490760299348766e-07,
+          "frame": 1
+        },
+        "shin.R->foot.R": {
+          "distance_m": 8.024520884654677e-08,
+          "frame": 1
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 2.1542358837725164e-07,
+          "frame": 12
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "sleep_end",
+      "max_joint_gap_m": 6.59029018506288e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 2.7516760397880357e-07,
+          "frame": 50
+        },
+        "shin.L->foot.L": {
+          "distance_m": 4.238326148190466e-07,
+          "frame": 67
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 4.853754483134249e-07,
+          "frame": 36
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 2.421152116249788e-07,
+          "frame": 43
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 5.615187788431875e-07,
+          "frame": 23
+        },
+        "shin.R->foot.R": {
+          "distance_m": 5.848112539407732e-07,
+          "frame": 23
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 6.59029018506288e-07,
+          "frame": 38
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 1.9082797281243946e-07,
+          "frame": 27
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "death_back",
+      "max_joint_gap_m": 4.519745972187251e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 2.8115454709698567e-07,
+          "frame": 45
+        },
+        "shin.L->foot.L": {
+          "distance_m": 4.06517769864313e-07,
+          "frame": 54
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 4.248791166956202e-07,
+          "frame": 43
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 1.6391277313232422e-07,
+          "frame": 49
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 2.604774550559124e-07,
+          "frame": 44
+        },
+        "shin.R->foot.R": {
+          "distance_m": 2.890402785132948e-07,
+          "frame": 48
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 4.519745972187251e-07,
+          "frame": 49
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 1.5503653918716917e-07,
+          "frame": 54
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "dead_front",
+      "max_joint_gap_m": 3.513641989991544e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 1.2013700229374393e-07,
+          "frame": 1
+        },
+        "shin.L->foot.L": {
+          "distance_m": 1.564621925354004e-07,
+          "frame": 1
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 2.1073424255447017e-07,
+          "frame": 1
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 1.341104507446289e-07,
+          "frame": 1
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 1.4975481660844222e-07,
+          "frame": 1
+        },
+        "shin.R->foot.R": {
+          "distance_m": 1.0536712127723508e-07,
+          "frame": 1
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 3.513641989991544e-07,
+          "frame": 1
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 1.1250129990683123e-07,
+          "frame": 1
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "dead_back",
+      "max_joint_gap_m": 2.8778922432404707e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 2.098185224743979e-07,
+          "frame": 1
+        },
+        "shin.L->foot.L": {
+          "distance_m": 1.5341684432308377e-07,
+          "frame": 1
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 2.8778922432404707e-07,
+          "frame": 1
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 1.2737006692050962e-07,
+          "frame": 1
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 1.043081283569336e-07,
+          "frame": 1
+        },
+        "shin.R->foot.R": {
+          "distance_m": 1.2665987014770508e-07,
+          "frame": 1
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 2.715120786173433e-07,
+          "frame": 1
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 9.996002811937585e-08,
+          "frame": 1
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "death_front",
+      "max_joint_gap_m": 6.750077994409874e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 2.715120786173433e-07,
+          "frame": 46
+        },
+        "shin.L->foot.L": {
+          "distance_m": 3.6286698764222625e-07,
+          "frame": 43
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 6.750077994409874e-07,
+          "frame": 30
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 2.1490760299348766e-07,
+          "frame": 36
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 2.602375924076584e-07,
+          "frame": 3
+        },
+        "shin.R->foot.R": {
+          "distance_m": 2.9474557108957293e-07,
+          "frame": 30
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 4.5491270787935696e-07,
+          "frame": 24
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 1.6391277313232422e-07,
+          "frame": 23
+        }
+      },
+      "sampled_sole_z": []
+    },
+    {
+      "id": "deploy",
+      "max_joint_gap_m": 4.0370873165559965e-07,
+      "joints": {
+        "thigh.L->shin.L": {
+          "distance_m": 2.2891598188485527e-07,
+          "frame": 45
+        },
+        "shin.L->foot.L": {
+          "distance_m": 4.0370873165559965e-07,
+          "frame": 23
+        },
+        "upper_arm.L->forearm.L": {
+          "distance_m": 3.9384265173790177e-07,
+          "frame": 5
+        },
+        "forearm.L->hand.L": {
+          "distance_m": 2.4541719394923157e-07,
+          "frame": 11
+        },
+        "thigh.R->shin.R": {
+          "distance_m": 2.0553341841896955e-07,
+          "frame": 25
+        },
+        "shin.R->foot.R": {
+          "distance_m": 2.699743350147223e-07,
+          "frame": 26
+        },
+        "upper_arm.R->forearm.R": {
+          "distance_m": 3.042903223136386e-07,
+          "frame": 23
+        },
+        "forearm.R->hand.R": {
+          "distance_m": 0.0,
+          "frame": 0
+        }
+      },
+      "sampled_sole_z": []
+    }
+  ],
+  "worst_joint_gap_m": 7.218188389975516e-07
+}

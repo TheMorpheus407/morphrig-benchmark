@@ -1,0 +1,28 @@
+{
+  "checked_at_utc": "2026-09-26T11:37:59.119033+00:00",
+  "source": "source/Operative.blend",
+  "source_sha256": "643750f8d297ed65586bc3be82bdc244b9cd3cd80aa84f69edacd04e1a43f980",
+  "source_mtime": 1790422269.8612506,
+  "source_size_bytes": 22043022,
+  "all_authored_frame_samples": 3383,
+  "refreshed_reports": [
+    "validation/blender_source_audit.json",
+    "validation/motion_contacts.json",
+    "animation_curve_validation.json",
+    "floor_clip_scan.json",
+    "deploy_grip_validation.json",
+    "animation_contact_validation.json",
+    "validation/acceptance/contact_surfaces.json"
+  ],
+  "linear_skinning_all_lods": true,
+  "structural_present": 96,
+  "joint_gap_max_m": 7.218188389975516e-07,
+  "floor_minimum_m": -1.6310062278535042e-07,
+  "prop_inside_vertices_max": 0,
+  "prop_triangle_intersections_max": 0,
+  "curve_errors": [],
+  "fk_rebake_pass": true,
+  "ik_rebake_pass": true,
+  "native_visual_review": "Scoped visual pass: corrected elbow, cuffs, floor-action framing and sampled terrain retain prior acceptance. Final saved motion frames 632/636/638/645 confirm grounded beacon persistence through release and withdrawal; frames 1175/1275/1410 confirm unobstructed full-body slow/fast melee and stun. These seven frames were re-inspected at 1920\u00d71080 on 2026-09-28. See runtime_motion_visual_review.json for exact scope, hashes and limits.",
+  "native_visual_reviewed_at_utc": "2026-09-28T15:58:17.993177+00:00"
+}

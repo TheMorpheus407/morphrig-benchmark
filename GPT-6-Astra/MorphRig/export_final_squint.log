@@ -1,0 +1,401 @@
+00:00.657  blend            | Read blend: "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/source/Operative.blend"
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/Operative.fbx'
+export finished in 0.1778 sec.
+EXPORTED MESH /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/Operative.fbx
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/Operative_LOD1.fbx'
+export finished in 0.0995 sec.
+EXPORTED MESH /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/Operative_LOD1.fbx
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/Operative_LOD2.fbx'
+export finished in 0.0709 sec.
+EXPORTED MESH /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/Operative_LOD2.fbx
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/idle_relaxed.fbx'
+export finished in 0.3735 sec.
+EXPORTED CLIP idle_relaxed
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/idle_combat.fbx'
+export finished in 0.3522 sec.
+EXPORTED CLIP idle_combat
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/idle_wounded.fbx'
+export finished in 0.3673 sec.
+EXPORTED CLIP idle_wounded
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/walk_f.fbx'
+export finished in 0.2823 sec.
+EXPORTED CLIP walk_f
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/walk_fl.fbx'
+export finished in 0.2448 sec.
+EXPORTED CLIP walk_fl
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/walk_l.fbx'
+export finished in 0.2489 sec.
+EXPORTED CLIP walk_l
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/walk_bl.fbx'
+export finished in 0.2593 sec.
+EXPORTED CLIP walk_bl
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/walk_b.fbx'
+export finished in 0.2505 sec.
+EXPORTED CLIP walk_b
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/walk_br.fbx'
+export finished in 0.2474 sec.
+EXPORTED CLIP walk_br
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/walk_r.fbx'
+export finished in 0.2530 sec.
+EXPORTED CLIP walk_r
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/walk_fr.fbx'
+export finished in 0.3013 sec.
+EXPORTED CLIP walk_fr
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/run_f.fbx'
+export finished in 0.2735 sec.
+EXPORTED CLIP run_f
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/run_fl.fbx'
+export finished in 0.2572 sec.
+EXPORTED CLIP run_fl
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/run_l.fbx'
+export finished in 0.2492 sec.
+EXPORTED CLIP run_l
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/run_bl.fbx'
+export finished in 0.2836 sec.
+EXPORTED CLIP run_bl
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/run_b.fbx'
+export finished in 0.2483 sec.
+EXPORTED CLIP run_b
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/run_br.fbx'
+export finished in 0.2427 sec.
+EXPORTED CLIP run_br
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/run_r.fbx'
+export finished in 0.2429 sec.
+EXPORTED CLIP run_r
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/run_fr.fbx'
+export finished in 0.2774 sec.
+EXPORTED CLIP run_fr
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/sprint_f.fbx'
+export finished in 0.2487 sec.
+EXPORTED CLIP sprint_f
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/start_f.fbx'
+export finished in 0.2614 sec.
+EXPORTED CLIP start_f
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/stop_f.fbx'
+export finished in 0.2660 sec.
+EXPORTED CLIP stop_f
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/turn_l90.fbx'
+export finished in 0.2593 sec.
+EXPORTED CLIP turn_l90
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/turn_r90.fbx'
+export finished in 0.2557 sec.
+EXPORTED CLIP turn_r90
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/pivot_l180.fbx'
+export finished in 0.2548 sec.
+EXPORTED CLIP pivot_l180
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/pivot_r180.fbx'
+export finished in 0.3080 sec.
+EXPORTED CLIP pivot_r180
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/jump_start.fbx'
+export finished in 0.2411 sec.
+EXPORTED CLIP jump_start
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/jump_air.fbx'
+export finished in 0.2438 sec.
+EXPORTED CLIP jump_air
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/jump_land.fbx'
+export finished in 0.2482 sec.
+EXPORTED CLIP jump_land
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/fall.fbx'
+export finished in 0.2619 sec.
+EXPORTED CLIP fall
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/land_heavy.fbx'
+export finished in 0.2544 sec.
+EXPORTED CLIP land_heavy
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/dash_f.fbx'
+export finished in 0.2159 sec.
+EXPORTED CLIP dash_f
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/dash_b.fbx'
+export finished in 0.2762 sec.
+EXPORTED CLIP dash_b
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/dash_l.fbx'
+export finished in 0.2434 sec.
+EXPORTED CLIP dash_l
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/dash_r.fbx'
+export finished in 0.2450 sec.
+EXPORTED CLIP dash_r
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/blink_out.fbx'
+export finished in 0.2231 sec.
+EXPORTED CLIP blink_out
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/blink_in.fbx'
+export finished in 0.2264 sec.
+EXPORTED CLIP blink_in
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/melee_1.fbx'
+export finished in 0.2392 sec.
+EXPORTED CLIP melee_1
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/melee_2.fbx'
+export finished in 0.2436 sec.
+EXPORTED CLIP melee_2
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/melee_3.fbx'
+export finished in 0.2814 sec.
+EXPORTED CLIP melee_3
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/ranged_fire.fbx'
+export finished in 0.2455 sec.
+EXPORTED CLIP ranged_fire
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/ranged_burst.fbx'
+export finished in 0.2445 sec.
+EXPORTED CLIP ranged_burst
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/reload.fbx'
+export finished in 0.3176 sec.
+EXPORTED CLIP reload
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/cast_directional.fbx'
+export finished in 0.2652 sec.
+EXPORTED CLIP cast_directional
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/cast_ground.fbx'
+export finished in 0.2701 sec.
+EXPORTED CLIP cast_ground
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/cast_self.fbx'
+export finished in 0.2481 sec.
+EXPORTED CLIP cast_self
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/channel_start.fbx'
+export finished in 0.2493 sec.
+EXPORTED CLIP channel_start
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/channel_loop.fbx'
+export finished in 0.3450 sec.
+EXPORTED CLIP channel_loop
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/channel_end.fbx'
+export finished in 0.2463 sec.
+EXPORTED CLIP channel_end
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/channel_interrupt.fbx'
+export finished in 0.2316 sec.
+EXPORTED CLIP channel_interrupt
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/charge_start.fbx'
+export finished in 0.2566 sec.
+EXPORTED CLIP charge_start
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/charge_hold.fbx'
+export finished in 0.2814 sec.
+EXPORTED CLIP charge_hold
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/charge_release.fbx'
+export finished in 0.2470 sec.
+EXPORTED CLIP charge_release
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/charge_cancel.fbx'
+export finished in 0.2401 sec.
+EXPORTED CLIP charge_cancel
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/uplink_start.fbx'
+export finished in 0.2948 sec.
+EXPORTED CLIP uplink_start
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/uplink_loop.fbx'
+export finished in 0.2881 sec.
+EXPORTED CLIP uplink_loop
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/uplink_end.fbx'
+export finished in 0.2455 sec.
+EXPORTED CLIP uplink_end
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/uplink_cancel.fbx'
+export finished in 0.2194 sec.
+EXPORTED CLIP uplink_cancel
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/hit_f.fbx'
+export finished in 0.2100 sec.
+EXPORTED CLIP hit_f
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/hit_b.fbx'
+export finished in 0.2189 sec.
+EXPORTED CLIP hit_b
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/hit_l.fbx'
+export finished in 0.2170 sec.
+EXPORTED CLIP hit_l
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/hit_r.fbx'
+export finished in 0.2762 sec.
+EXPORTED CLIP hit_r
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/stun_start.fbx'
+export finished in 0.2618 sec.
+EXPORTED CLIP stun_start
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/stun_loop.fbx'
+export finished in 0.2958 sec.
+EXPORTED CLIP stun_loop
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/stun_end.fbx'
+export finished in 0.2673 sec.
+EXPORTED CLIP stun_end
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/knockback.fbx'
+export finished in 0.2418 sec.
+EXPORTED CLIP knockback
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/knockup_start.fbx'
+export finished in 0.2319 sec.
+EXPORTED CLIP knockup_start
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/knockup_air.fbx'
+export finished in 0.2388 sec.
+EXPORTED CLIP knockup_air
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/respawn.fbx'
+export finished in 0.3272 sec.
+EXPORTED CLIP respawn
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/greet.fbx'
+export finished in 0.3637 sec.
+EXPORTED CLIP greet
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/victory.fbx'
+export finished in 0.3470 sec.
+EXPORTED CLIP victory
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/defeat.fbx'
+export finished in 0.3310 sec.
+EXPORTED CLIP defeat
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/dialogue.fbx'
+export finished in 0.8602 sec.
+EXPORTED CLIP dialogue
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/aim_down_left.fbx'
+export finished in 0.1991 sec.
+EXPORTED CLIP aim_down_left
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/aim_down_center.fbx'
+export finished in 0.1761 sec.
+EXPORTED CLIP aim_down_center
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/aim_down_right.fbx'
+export finished in 0.1761 sec.
+EXPORTED CLIP aim_down_right
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/aim_level_left.fbx'
+export finished in 0.1942 sec.
+EXPORTED CLIP aim_level_left
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/aim_level_center.fbx'
+export finished in 0.1855 sec.
+EXPORTED CLIP aim_level_center
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/aim_level_right.fbx'
+export finished in 0.1702 sec.
+EXPORTED CLIP aim_level_right
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/aim_up_left.fbx'
+export finished in 0.1730 sec.
+EXPORTED CLIP aim_up_left
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/aim_up_center.fbx'
+export finished in 0.1746 sec.
+EXPORTED CLIP aim_up_center
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/aim_up_right.fbx'
+export finished in 0.1722 sec.
+EXPORTED CLIP aim_up_right
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/knockdown_front.fbx'
+export finished in 0.2290 sec.
+EXPORTED CLIP knockdown_front
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/knockdown_back.fbx'
+export finished in 0.2411 sec.
+EXPORTED CLIP knockdown_back
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/prone_front.fbx'
+export finished in 0.2679 sec.
+EXPORTED CLIP prone_front
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/prone_back.fbx'
+export finished in 0.2750 sec.
+EXPORTED CLIP prone_back
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/getup_front.fbx'
+export finished in 0.2927 sec.
+EXPORTED CLIP getup_front
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/getup_back.fbx'
+export finished in 0.3211 sec.
+EXPORTED CLIP getup_back
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/sleep_start.fbx'
+export finished in 0.2897 sec.
+EXPORTED CLIP sleep_start
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/sleep_loop.fbx'
+export finished in 0.3131 sec.
+EXPORTED CLIP sleep_loop
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/sleep_end.fbx'
+export finished in 0.3315 sec.
+EXPORTED CLIP sleep_end
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/death_back.fbx'
+export finished in 0.2795 sec.
+EXPORTED CLIP death_back
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/dead_front.fbx'
+export finished in 0.1716 sec.
+EXPORTED CLIP dead_front
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/dead_back.fbx'
+export finished in 0.1750 sec.
+EXPORTED CLIP dead_back
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/death_front.fbx'
+export finished in 0.2981 sec.
+EXPORTED CLIP death_front
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/deploy.fbx'
+export finished in 0.2584 sec.
+EXPORTED CLIP deploy
+EXPORT COMPLETE
+Blender 5.1.1
+
+Blender quit

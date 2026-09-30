@@ -1,0 +1,6 @@
+00:00.548  blend            | Read blend: "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/source/Operative.blend"
+Info: Saved as "Operative_Cell_Preview.blend"
+CELL_CLEARANCE_PATCH [{"mesh": "Operative_LOD0", "cell_vertices": 192, "max_delta_m": 0.01817018794339375, "rest_cell_axis_y_max_before_m": 0.03967014327645302, "rest_cell_axis_y_max_after_m": 0.0215}, {"mesh": "Operative_LOD1", "cell_vertices": 112, "max_delta_m": 0.018238830789805236, "rest_cell_axis_y_max_before_m": 0.03973886463791132, "rest_cell_axis_y_max_after_m": 0.0215}, {"mesh": "Operative_LOD2", "cell_vertices": 48, "max_delta_m": 0.01685893296854875, "rest_cell_axis_y_max_before_m": 0.038358972407877445, "rest_cell_axis_y_max_after_m": 0.0215}]
+Blender 5.1.1
+
+Blender quit

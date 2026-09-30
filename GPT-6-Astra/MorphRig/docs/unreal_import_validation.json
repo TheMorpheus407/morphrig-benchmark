@@ -1,0 +1,704 @@
+{
+  "engine": "5.8.3-58210709+++UE5+Release-5.8",
+  "pilot": false,
+  "mesh": "/Game/Operative/SK_Operative.SK_Operative",
+  "bones": [
+    "root",
+    "pelvis",
+    "spine_01",
+    "spine_02",
+    "chest",
+    "neck",
+    "head",
+    "jaw",
+    "tongue",
+    "eye_L",
+    "eye_R",
+    "clavicle_L",
+    "upper_arm_L",
+    "forearm_L",
+    "hand_L",
+    "index_01_L",
+    "index_02_L",
+    "index_03_L",
+    "middle_01_L",
+    "middle_02_L",
+    "middle_03_L",
+    "ring_01_L",
+    "ring_02_L",
+    "ring_03_L",
+    "pinky_01_L",
+    "pinky_02_L",
+    "pinky_03_L",
+    "thumb_01_L",
+    "thumb_02_L",
+    "thumb_03_L",
+    "clavicle_R",
+    "upper_arm_R",
+    "forearm_R",
+    "hand_R",
+    "index_01_R",
+    "index_02_R",
+    "index_03_R",
+    "middle_01_R",
+    "middle_02_R",
+    "middle_03_R",
+    "ring_01_R",
+    "ring_02_R",
+    "ring_03_R",
+    "pinky_01_R",
+    "pinky_02_R",
+    "pinky_03_R",
+    "thumb_01_R",
+    "thumb_02_R",
+    "thumb_03_R",
+    "emitter_muzzle",
+    "blade_base",
+    "blade_tip",
+    "cell",
+    "thigh_L",
+    "shin_L",
+    "foot_L",
+    "toe_L",
+    "thigh_R",
+    "shin_R",
+    "foot_R",
+    "toe_R",
+    "beacon",
+    "cable_01",
+    "cable_02"
+  ],
+  "bone_count": 64,
+  "animation_count": 96,
+  "animations": [
+    {
+      "id": "idle_relaxed",
+      "path": "/Game/Operative/Animations/idle_relaxed.idle_relaxed",
+      "duration": 3.5999999046325684,
+      "markers": 0
+    },
+    {
+      "id": "idle_combat",
+      "path": "/Game/Operative/Animations/idle_combat.idle_combat",
+      "duration": 2.799999952316284,
+      "markers": 0
+    },
+    {
+      "id": "idle_wounded",
+      "path": "/Game/Operative/Animations/idle_wounded.idle_wounded",
+      "duration": 3.4000000953674316,
+      "markers": 0
+    },
+    {
+      "id": "walk_f",
+      "path": "/Game/Operative/Animations/walk_f.walk_f",
+      "duration": 0.800000011920929,
+      "markers": 2
+    },
+    {
+      "id": "walk_fl",
+      "path": "/Game/Operative/Animations/walk_fl.walk_fl",
+      "duration": 0.800000011920929,
+      "markers": 2
+    },
+    {
+      "id": "walk_l",
+      "path": "/Game/Operative/Animations/walk_l.walk_l",
+      "duration": 0.800000011920929,
+      "markers": 2
+    },
+    {
+      "id": "walk_bl",
+      "path": "/Game/Operative/Animations/walk_bl.walk_bl",
+      "duration": 0.800000011920929,
+      "markers": 2
+    },
+    {
+      "id": "walk_b",
+      "path": "/Game/Operative/Animations/walk_b.walk_b",
+      "duration": 0.800000011920929,
+      "markers": 2
+    },
+    {
+      "id": "walk_br",
+      "path": "/Game/Operative/Animations/walk_br.walk_br",
+      "duration": 0.800000011920929,
+      "markers": 2
+    },
+    {
+      "id": "walk_r",
+      "path": "/Game/Operative/Animations/walk_r.walk_r",
+      "duration": 0.800000011920929,
+      "markers": 2
+    },
+    {
+      "id": "walk_fr",
+      "path": "/Game/Operative/Animations/walk_fr.walk_fr",
+      "duration": 0.800000011920929,
+      "markers": 2
+    },
+    {
+      "id": "run_f",
+      "path": "/Game/Operative/Animations/run_f.run_f",
+      "duration": 0.699999988079071,
+      "markers": 2
+    },
+    {
+      "id": "run_fl",
+      "path": "/Game/Operative/Animations/run_fl.run_fl",
+      "duration": 0.699999988079071,
+      "markers": 2
+    },
+    {
+      "id": "run_l",
+      "path": "/Game/Operative/Animations/run_l.run_l",
+      "duration": 0.699999988079071,
+      "markers": 2
+    },
+    {
+      "id": "run_bl",
+      "path": "/Game/Operative/Animations/run_bl.run_bl",
+      "duration": 0.699999988079071,
+      "markers": 2
+    },
+    {
+      "id": "run_b",
+      "path": "/Game/Operative/Animations/run_b.run_b",
+      "duration": 0.699999988079071,
+      "markers": 2
+    },
+    {
+      "id": "run_br",
+      "path": "/Game/Operative/Animations/run_br.run_br",
+      "duration": 0.699999988079071,
+      "markers": 2
+    },
+    {
+      "id": "run_r",
+      "path": "/Game/Operative/Animations/run_r.run_r",
+      "duration": 0.699999988079071,
+      "markers": 2
+    },
+    {
+      "id": "run_fr",
+      "path": "/Game/Operative/Animations/run_fr.run_fr",
+      "duration": 0.699999988079071,
+      "markers": 2
+    },
+    {
+      "id": "sprint_f",
+      "path": "/Game/Operative/Animations/sprint_f.sprint_f",
+      "duration": 0.6000000238418579,
+      "markers": 2
+    },
+    {
+      "id": "start_f",
+      "path": "/Game/Operative/Animations/start_f.start_f",
+      "duration": 0.699999988079071,
+      "markers": 0
+    },
+    {
+      "id": "stop_f",
+      "path": "/Game/Operative/Animations/stop_f.stop_f",
+      "duration": 0.699999988079071,
+      "markers": 0
+    },
+    {
+      "id": "turn_l90",
+      "path": "/Game/Operative/Animations/turn_l90.turn_l90",
+      "duration": 0.800000011920929,
+      "markers": 0
+    },
+    {
+      "id": "turn_r90",
+      "path": "/Game/Operative/Animations/turn_r90.turn_r90",
+      "duration": 0.800000011920929,
+      "markers": 0
+    },
+    {
+      "id": "pivot_l180",
+      "path": "/Game/Operative/Animations/pivot_l180.pivot_l180",
+      "duration": 0.800000011920929,
+      "markers": 0
+    },
+    {
+      "id": "pivot_r180",
+      "path": "/Game/Operative/Animations/pivot_r180.pivot_r180",
+      "duration": 0.800000011920929,
+      "markers": 0
+    },
+    {
+      "id": "jump_start",
+      "path": "/Game/Operative/Animations/jump_start.jump_start",
+      "duration": 0.6000000238418579,
+      "markers": 1
+    },
+    {
+      "id": "jump_air",
+      "path": "/Game/Operative/Animations/jump_air.jump_air",
+      "duration": 0.800000011920929,
+      "markers": 0
+    },
+    {
+      "id": "jump_land",
+      "path": "/Game/Operative/Animations/jump_land.jump_land",
+      "duration": 0.699999988079071,
+      "markers": 2
+    },
+    {
+      "id": "fall",
+      "path": "/Game/Operative/Animations/fall.fall",
+      "duration": 0.8999999761581421,
+      "markers": 0
+    },
+    {
+      "id": "land_heavy",
+      "path": "/Game/Operative/Animations/land_heavy.land_heavy",
+      "duration": 1.0,
+      "markers": 2
+    },
+    {
+      "id": "dash_f",
+      "path": "/Game/Operative/Animations/dash_f.dash_f",
+      "duration": 0.5,
+      "markers": 0
+    },
+    {
+      "id": "dash_b",
+      "path": "/Game/Operative/Animations/dash_b.dash_b",
+      "duration": 0.5,
+      "markers": 0
+    },
+    {
+      "id": "dash_l",
+      "path": "/Game/Operative/Animations/dash_l.dash_l",
+      "duration": 0.5,
+      "markers": 0
+    },
+    {
+      "id": "dash_r",
+      "path": "/Game/Operative/Animations/dash_r.dash_r",
+      "duration": 0.5,
+      "markers": 0
+    },
+    {
+      "id": "blink_out",
+      "path": "/Game/Operative/Animations/blink_out.blink_out",
+      "duration": 0.4000000059604645,
+      "markers": 1
+    },
+    {
+      "id": "blink_in",
+      "path": "/Game/Operative/Animations/blink_in.blink_in",
+      "duration": 0.4000000059604645,
+      "markers": 3
+    },
+    {
+      "id": "melee_1",
+      "path": "/Game/Operative/Animations/melee_1.melee_1",
+      "duration": 0.800000011920929,
+      "markers": 6
+    },
+    {
+      "id": "melee_2",
+      "path": "/Game/Operative/Animations/melee_2.melee_2",
+      "duration": 0.8999999761581421,
+      "markers": 6
+    },
+    {
+      "id": "melee_3",
+      "path": "/Game/Operative/Animations/melee_3.melee_3",
+      "duration": 1.100000023841858,
+      "markers": 6
+    },
+    {
+      "id": "ranged_fire",
+      "path": "/Game/Operative/Animations/ranged_fire.ranged_fire",
+      "duration": 0.30000001192092896,
+      "markers": 1
+    },
+    {
+      "id": "ranged_burst",
+      "path": "/Game/Operative/Animations/ranged_burst.ranged_burst",
+      "duration": 0.6000000238418579,
+      "markers": 3
+    },
+    {
+      "id": "reload",
+      "path": "/Game/Operative/Animations/reload.reload",
+      "duration": 2.299999952316284,
+      "markers": 5
+    },
+    {
+      "id": "cast_directional",
+      "path": "/Game/Operative/Animations/cast_directional.cast_directional",
+      "duration": 0.8999999761581421,
+      "markers": 1
+    },
+    {
+      "id": "cast_ground",
+      "path": "/Game/Operative/Animations/cast_ground.cast_ground",
+      "duration": 1.2000000476837158,
+      "markers": 1
+    },
+    {
+      "id": "cast_self",
+      "path": "/Game/Operative/Animations/cast_self.cast_self",
+      "duration": 0.8999999761581421,
+      "markers": 1
+    },
+    {
+      "id": "channel_start",
+      "path": "/Game/Operative/Animations/channel_start.channel_start",
+      "duration": 0.6000000238418579,
+      "markers": 2
+    },
+    {
+      "id": "channel_loop",
+      "path": "/Game/Operative/Animations/channel_loop.channel_loop",
+      "duration": 1.600000023841858,
+      "markers": 2
+    },
+    {
+      "id": "channel_end",
+      "path": "/Game/Operative/Animations/channel_end.channel_end",
+      "duration": 0.6000000238418579,
+      "markers": 2
+    },
+    {
+      "id": "channel_interrupt",
+      "path": "/Game/Operative/Animations/channel_interrupt.channel_interrupt",
+      "duration": 0.4000000059604645,
+      "markers": 2
+    },
+    {
+      "id": "charge_start",
+      "path": "/Game/Operative/Animations/charge_start.charge_start",
+      "duration": 0.800000011920929,
+      "markers": 2
+    },
+    {
+      "id": "charge_hold",
+      "path": "/Game/Operative/Animations/charge_hold.charge_hold",
+      "duration": 1.2000000476837158,
+      "markers": 2
+    },
+    {
+      "id": "charge_release",
+      "path": "/Game/Operative/Animations/charge_release.charge_release",
+      "duration": 0.800000011920929,
+      "markers": 2
+    },
+    {
+      "id": "charge_cancel",
+      "path": "/Game/Operative/Animations/charge_cancel.charge_cancel",
+      "duration": 0.5,
+      "markers": 2
+    },
+    {
+      "id": "uplink_start",
+      "path": "/Game/Operative/Animations/uplink_start.uplink_start",
+      "duration": 0.800000011920929,
+      "markers": 2
+    },
+    {
+      "id": "uplink_loop",
+      "path": "/Game/Operative/Animations/uplink_loop.uplink_loop",
+      "duration": 1.600000023841858,
+      "markers": 2
+    },
+    {
+      "id": "uplink_end",
+      "path": "/Game/Operative/Animations/uplink_end.uplink_end",
+      "duration": 0.699999988079071,
+      "markers": 2
+    },
+    {
+      "id": "uplink_cancel",
+      "path": "/Game/Operative/Animations/uplink_cancel.uplink_cancel",
+      "duration": 0.5,
+      "markers": 2
+    },
+    {
+      "id": "hit_f",
+      "path": "/Game/Operative/Animations/hit_f.hit_f",
+      "duration": 0.4000000059604645,
+      "markers": 0
+    },
+    {
+      "id": "hit_b",
+      "path": "/Game/Operative/Animations/hit_b.hit_b",
+      "duration": 0.4000000059604645,
+      "markers": 0
+    },
+    {
+      "id": "hit_l",
+      "path": "/Game/Operative/Animations/hit_l.hit_l",
+      "duration": 0.4000000059604645,
+      "markers": 0
+    },
+    {
+      "id": "hit_r",
+      "path": "/Game/Operative/Animations/hit_r.hit_r",
+      "duration": 0.4000000059604645,
+      "markers": 0
+    },
+    {
+      "id": "stun_start",
+      "path": "/Game/Operative/Animations/stun_start.stun_start",
+      "duration": 0.699999988079071,
+      "markers": 0
+    },
+    {
+      "id": "stun_loop",
+      "path": "/Game/Operative/Animations/stun_loop.stun_loop",
+      "duration": 1.7999999523162842,
+      "markers": 0
+    },
+    {
+      "id": "stun_end",
+      "path": "/Game/Operative/Animations/stun_end.stun_end",
+      "duration": 1.0,
+      "markers": 0
+    },
+    {
+      "id": "knockback",
+      "path": "/Game/Operative/Animations/knockback.knockback",
+      "duration": 0.800000011920929,
+      "markers": 0
+    },
+    {
+      "id": "knockup_start",
+      "path": "/Game/Operative/Animations/knockup_start.knockup_start",
+      "duration": 0.6000000238418579,
+      "markers": 0
+    },
+    {
+      "id": "knockup_air",
+      "path": "/Game/Operative/Animations/knockup_air.knockup_air",
+      "duration": 0.800000011920929,
+      "markers": 0
+    },
+    {
+      "id": "respawn",
+      "path": "/Game/Operative/Animations/respawn.respawn",
+      "duration": 2.4000000953674316,
+      "markers": 0
+    },
+    {
+      "id": "greet",
+      "path": "/Game/Operative/Animations/greet.greet",
+      "duration": 2.200000047683716,
+      "markers": 0
+    },
+    {
+      "id": "victory",
+      "path": "/Game/Operative/Animations/victory.victory",
+      "duration": 2.799999952316284,
+      "markers": 0
+    },
+    {
+      "id": "defeat",
+      "path": "/Game/Operative/Animations/defeat.defeat",
+      "duration": 2.5,
+      "markers": 0
+    },
+    {
+      "id": "dialogue",
+      "path": "/Game/Operative/Animations/dialogue.dialogue",
+      "duration": 14.0,
+      "markers": 0
+    },
+    {
+      "id": "aim_down_left",
+      "path": "/Game/Operative/Animations/aim_down_left.aim_down_left",
+      "duration": 0.03333333507180214,
+      "markers": 0
+    },
+    {
+      "id": "aim_down_center",
+      "path": "/Game/Operative/Animations/aim_down_center.aim_down_center",
+      "duration": 0.03333333507180214,
+      "markers": 0
+    },
+    {
+      "id": "aim_down_right",
+      "path": "/Game/Operative/Animations/aim_down_right.aim_down_right",
+      "duration": 0.03333333507180214,
+      "markers": 0
+    },
+    {
+      "id": "aim_level_left",
+      "path": "/Game/Operative/Animations/aim_level_left.aim_level_left",
+      "duration": 0.03333333507180214,
+      "markers": 0
+    },
+    {
+      "id": "aim_level_center",
+      "path": "/Game/Operative/Animations/aim_level_center.aim_level_center",
+      "duration": 0.03333333507180214,
+      "markers": 0
+    },
+    {
+      "id": "aim_level_right",
+      "path": "/Game/Operative/Animations/aim_level_right.aim_level_right",
+      "duration": 0.03333333507180214,
+      "markers": 0
+    },
+    {
+      "id": "aim_up_left",
+      "path": "/Game/Operative/Animations/aim_up_left.aim_up_left",
+      "duration": 0.03333333507180214,
+      "markers": 0
+    },
+    {
+      "id": "aim_up_center",
+      "path": "/Game/Operative/Animations/aim_up_center.aim_up_center",
+      "duration": 0.03333333507180214,
+      "markers": 0
+    },
+    {
+      "id": "aim_up_right",
+      "path": "/Game/Operative/Animations/aim_up_right.aim_up_right",
+      "duration": 0.03333333507180214,
+      "markers": 0
+    },
+    {
+      "id": "deploy",
+      "path": "/Game/Operative/Animations/deploy.deploy",
+      "duration": 1.7999999523162842,
+      "markers": 3
+    },
+    {
+      "id": "knockdown_front",
+      "path": "/Game/Operative/Animations/knockdown_front.knockdown_front",
+      "duration": 1.100000023841858,
+      "markers": 1
+    },
+    {
+      "id": "knockdown_back",
+      "path": "/Game/Operative/Animations/knockdown_back.knockdown_back",
+      "duration": 1.2000000476837158,
+      "markers": 1
+    },
+    {
+      "id": "prone_front",
+      "path": "/Game/Operative/Animations/prone_front.prone_front",
+      "duration": 2.0,
+      "markers": 0
+    },
+    {
+      "id": "prone_back",
+      "path": "/Game/Operative/Animations/prone_back.prone_back",
+      "duration": 2.0,
+      "markers": 0
+    },
+    {
+      "id": "getup_front",
+      "path": "/Game/Operative/Animations/getup_front.getup_front",
+      "duration": 2.200000047683716,
+      "markers": 3
+    },
+    {
+      "id": "getup_back",
+      "path": "/Game/Operative/Animations/getup_back.getup_back",
+      "duration": 2.5,
+      "markers": 3
+    },
+    {
+      "id": "sleep_start",
+      "path": "/Game/Operative/Animations/sleep_start.sleep_start",
+      "duration": 2.4000000953674316,
+      "markers": 0
+    },
+    {
+      "id": "sleep_loop",
+      "path": "/Game/Operative/Animations/sleep_loop.sleep_loop",
+      "duration": 2.799999952316284,
+      "markers": 0
+    },
+    {
+      "id": "sleep_end",
+      "path": "/Game/Operative/Animations/sleep_end.sleep_end",
+      "duration": 2.5999999046325684,
+      "markers": 0
+    },
+    {
+      "id": "death_back",
+      "path": "/Game/Operative/Animations/death_back.death_back",
+      "duration": 2.4000000953674316,
+      "markers": 2
+    },
+    {
+      "id": "dead_front",
+      "path": "/Game/Operative/Animations/dead_front.dead_front",
+      "duration": 0.03333333507180214,
+      "markers": 0
+    },
+    {
+      "id": "dead_back",
+      "path": "/Game/Operative/Animations/dead_back.dead_back",
+      "duration": 0.03333333507180214,
+      "markers": 0
+    },
+    {
+      "id": "death_front",
+      "path": "/Game/Operative/Animations/death_front.death_front",
+      "duration": 2.0999999046325684,
+      "markers": 2
+    }
+  ],
+  "lods": [
+    {
+      "lod": 0,
+      "vertices": 39898,
+      "sections": 8
+    },
+    {
+      "lod": 1,
+      "vertices": 19748,
+      "sections": 8
+    },
+    {
+      "lod": 2,
+      "vertices": 12383,
+      "sections": 8
+    }
+  ],
+  "materials": 8,
+  "morphs": [
+    "blink_L",
+    "blink_R",
+    "squint_L",
+    "squint_R",
+    "brow_up_L",
+    "brow_up_R",
+    "brow_down_L",
+    "brow_down_R",
+    "cheek_L",
+    "cheek_R",
+    "smile_L",
+    "smile_R",
+    "frown_L",
+    "frown_R",
+    "jaw_open",
+    "lip_close",
+    "mouth_wide",
+    "pucker",
+    "funnel",
+    "viseme_AA",
+    "viseme_EE",
+    "viseme_OH",
+    "viseme_OO",
+    "viseme_FV",
+    "viseme_MBP",
+    "viseme_L",
+    "viseme_TH",
+    "shoulder_raise_L",
+    "shoulder_raise_R",
+    "hip_flex_L",
+    "hip_flex_R",
+    "wrist_flex_L"
+  ],
+  "final_mesh_evidence": "docs/validation/final_verified_package/state_event_trace.log"
+}

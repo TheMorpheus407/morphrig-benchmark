@@ -1,0 +1,87 @@
+00:00.580  blend            | Read blend: "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/source/Operative.blend"
+[
+  {
+    "id": "aim_down_left",
+    "requested_yaw": -60,
+    "requested_pitch": -35,
+    "measured_muzzle_yaw": -60.96342038220043,
+    "measured_muzzle_pitch": -34.03526430098682,
+    "yaw_error": -0.9634203822004324,
+    "pitch_error": 0.9647356990131826
+  },
+  {
+    "id": "aim_down_center",
+    "requested_yaw": 0,
+    "requested_pitch": -35,
+    "measured_muzzle_yaw": -1.4295778420909153,
+    "measured_muzzle_pitch": -35.33546193705103,
+    "yaw_error": -1.4295778420909153,
+    "pitch_error": -0.3354619370510292
+  },
+  {
+    "id": "aim_down_right",
+    "requested_yaw": 60,
+    "requested_pitch": -35,
+    "measured_muzzle_yaw": 59.34781413435597,
+    "measured_muzzle_pitch": -36.04500697959968,
+    "yaw_error": -0.6521858656440287,
+    "pitch_error": -1.0450069795996768
+  },
+  {
+    "id": "aim_level_left",
+    "requested_yaw": -60,
+    "requested_pitch": 0,
+    "measured_muzzle_yaw": -61.02152250600496,
+    "measured_muzzle_pitch": 0.6979038425015218,
+    "yaw_error": -1.0215225060049633,
+    "pitch_error": 0.6979038425015218
+  },
+  {
+    "id": "aim_level_center",
+    "requested_yaw": 0,
+    "requested_pitch": 0,
+    "measured_muzzle_yaw": -0.9797734764639147,
+    "measured_muzzle_pitch": -0.6610996608113985,
+    "yaw_error": -0.9797734764639147,
+    "pitch_error": -0.6610996608113985
+  },
+  {
+    "id": "aim_level_right",
+    "requested_yaw": 60,
+    "requested_pitch": 0,
+    "measured_muzzle_yaw": 59.63870807714354,
+    "measured_muzzle_pitch": -1.015548731001591,
+    "yaw_error": -0.3612919228564593,
+    "pitch_error": -1.015548731001591
+  },
+  {
+    "id": "aim_up_left",
+    "requested_yaw": -60,
+    "requested_pitch": 35,
+    "measured_muzzle_yaw": -61.43901582875288,
+    "measured_muzzle_pitch": 34.558607945671504,
+    "yaw_error": -1.4390158287528791,
+    "pitch_error": -0.44139205432849593
+  },
+  {
+    "id": "aim_up_center",
+    "requested_yaw": 0,
+    "requested_pitch": 35,
+    "measured_muzzle_yaw": -0.6153999252553626,
+    "measured_muzzle_pitch": 33.977667304267584,
+    "yaw_error": -0.6153999252553626,
+    "pitch_error": -1.0223326957324161
+  },
+  {
+    "id": "aim_up_right",
+    "requested_yaw": 60,
+    "requested_pitch": 35,
+    "measured_muzzle_yaw": 59.797375813945095,
+    "measured_muzzle_pitch": 33.96744226471105,
+    "yaw_error": -0.20262418605490495,
+    "pitch_error": -1.0325577352889468
+  }
+]
+Blender 5.1.1
+
+Blender quit

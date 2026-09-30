@@ -1,0 +1,83 @@
+{
+  "turntable": {
+    "source": "source/Operative.blend",
+    "renderer": "Blender EEVEE, delivered LOD0 mesh and textures",
+    "duration_s": 8.0,
+    "streams": [
+      {
+        "codec_type": "video",
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_frames": "240",
+        "duration": "8.000000"
+      }
+    ],
+    "file": "presentation/turntable.mp4",
+    "sha256": "3b3ea2c9987421fc600bab27ca8ab46e407d44d0969573794523769f25eed4f6"
+  },
+  "face_performance": {
+    "source": "source/Operative.blend",
+    "renderer": "Blender EEVEE, delivered LOD0 mesh and textures",
+    "duration_s": 14.0,
+    "streams": [
+      {
+        "codec_type": "video",
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_frames": "420",
+        "duration": "14.000000"
+      },
+      {
+        "codec_type": "audio",
+        "codec_name": "aac",
+        "r_frame_rate": "0/0",
+        "nb_frames": "303",
+        "sample_rate": "22050",
+        "duration": "14.000000"
+      }
+    ],
+    "file": "presentation/face_performance.mp4",
+    "sha256": "b0a18213cb5575c53a8196742f62a2f59e1fcf7406abcc6def95710c190de4c2"
+  },
+  "inspection": {
+    "turntable": "Front, side and back frames inspected after shoulder corrections. Full body remains in frame.",
+    "face_performance": "Open vowel, narrow vowel, lip closure and blink samples inspected after normalized viseme fix. WAV audio muxed into video.",
+    "small_top_down": "docs/validation/idle_relaxed_1_top.png; 47-degree elevation, approximately 120 pixel projected body height.",
+    "motion_showcase": {
+      "decoded_samples_s": [
+        21.35,
+        42.5,
+        53.5
+      ],
+      "images": [
+        "docs/validation/motion_final_decoded_beacon.png",
+        "docs/validation/motion_final_decoded_fast_melee.png",
+        "docs/validation/motion_final_decoded_terrain.png"
+      ],
+      "review": "Actual encoded frames inspected at full resolution. Final motion/terrain frame review has additional interval evidence. All1711encoded frames decode without errors."
+    }
+  },
+  "motion_showcase": {
+    "source": "Packaged Unreal client, native rendered screenshots",
+    "duration_s": 57.033333,
+    "status": "Final decoded movie inspected; corrected beacon persists after release, later fast melee is unobstructed, and terrain appendix uses the same delivered character.",
+    "file": "presentation/motion_showcase.mp4",
+    "sha256": "5f8d9f7857213fbff6ab2ddbf93e32c377b1587a5d136fdb990fea43aa7f7b23",
+    "streams": [
+      {
+        "codec_type": "video",
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_frames": "1711",
+        "duration": "57.033333"
+      }
+    ],
+    "all_frames_decoded": true
+  }
+}

@@ -1,0 +1,43 @@
+0.0000 instances=10
+0.0000 loaded=96/96 morph_controls=37 engine=5.8.3-58210709+++UE5+Release-5.8 instances=10
+0.0000 mesh bounds height=180.000cm bones=64 root=root materials=8 LODs=3
+0.0000 morph blink_L LOD0_deltas=2791 LOD1_deltas=1263 LOD2_deltas=721
+0.0000 morph blink_R LOD0_deltas=2791 LOD1_deltas=1260 LOD2_deltas=724
+0.0000 morph squint_L LOD0_deltas=2779 LOD1_deltas=1255 LOD2_deltas=711
+0.0000 morph squint_R LOD0_deltas=2777 LOD1_deltas=1252 LOD2_deltas=717
+0.0000 morph brow_up_L LOD0_deltas=3566 LOD1_deltas=1638 LOD2_deltas=1013
+0.0000 morph brow_up_R LOD0_deltas=3613 LOD1_deltas=1623 LOD2_deltas=1007
+0.0000 morph brow_down_L LOD0_deltas=3431 LOD1_deltas=1584 LOD2_deltas=977
+0.0000 morph brow_down_R LOD0_deltas=3459 LOD1_deltas=1581 LOD2_deltas=979
+0.0000 morph cheek_L LOD0_deltas=3271 LOD1_deltas=1531 LOD2_deltas=862
+0.0000 morph cheek_R LOD0_deltas=3313 LOD1_deltas=1524 LOD2_deltas=857
+0.0000 morph smile_L LOD0_deltas=2150 LOD1_deltas=1107 LOD2_deltas=751
+0.0000 morph smile_R LOD0_deltas=2127 LOD1_deltas=1091 LOD2_deltas=755
+0.0000 morph frown_L LOD0_deltas=2130 LOD1_deltas=1090 LOD2_deltas=745
+0.0000 morph frown_R LOD0_deltas=2104 LOD1_deltas=1067 LOD2_deltas=748
+0.0000 morph jaw_open LOD0_deltas=3333 LOD1_deltas=1661 LOD2_deltas=1127
+0.0000 morph lip_close LOD0_deltas=610 LOD1_deltas=416 LOD2_deltas=376
+0.0000 morph mouth_wide LOD0_deltas=3381 LOD1_deltas=1694 LOD2_deltas=1139
+0.0000 morph pucker LOD0_deltas=3880 LOD1_deltas=1941 LOD2_deltas=1294
+0.0000 morph funnel LOD0_deltas=3851 LOD1_deltas=1930 LOD2_deltas=1283
+0.0000 morph viseme_AA LOD0_deltas=3333 LOD1_deltas=1660 LOD2_deltas=1127
+0.0000 morph viseme_EE LOD0_deltas=3910 LOD1_deltas=1963 LOD2_deltas=1301
+0.0000 morph viseme_OH LOD0_deltas=3957 LOD1_deltas=1982 LOD2_deltas=1324
+0.0000 morph viseme_OO LOD0_deltas=4005 LOD1_deltas=2012 LOD2_deltas=1329
+0.0000 morph viseme_FV LOD0_deltas=486 LOD1_deltas=342 LOD2_deltas=330
+0.0000 morph viseme_MBP LOD0_deltas=610 LOD1_deltas=416 LOD2_deltas=376
+0.0000 morph viseme_L LOD0_deltas=3329 LOD1_deltas=1640 LOD2_deltas=1116
+0.0000 morph viseme_TH LOD0_deltas=3326 LOD1_deltas=1635 LOD2_deltas=1107
+0.0000 morph shoulder_raise_L LOD0_deltas=425 LOD1_deltas=276 LOD2_deltas=245
+0.0000 morph shoulder_raise_R LOD0_deltas=433 LOD1_deltas=287 LOD2_deltas=239
+0.0000 morph hip_flex_L LOD0_deltas=377 LOD1_deltas=247 LOD2_deltas=218
+0.0000 morph hip_flex_R LOD0_deltas=380 LOD1_deltas=246 LOD2_deltas=217
+0.0000 morph wrist_flex_L LOD0_deltas=388 LOD1_deltas=246 LOD2_deltas=225
+0.0000 morph wrist_flex_R LOD0_deltas=228 LOD1_deltas=155 LOD2_deltas=156
+0.0000 render LOD0 triangles=42904 vertices=39908 sections=8
+0.0000 render LOD1 triangles=19249 vertices=19738 sections=8
+0.0000 render LOD2 triangles=11260 vertices=12384 sections=8
+0.0000 state generation=1  -> fall priority=50 browser=0
+0.2261 state generation=2  -> jump_land priority=50 browser=0
+0.2796 event generation=2 loop=0 clip=jump_land t=0.056 marker=foot_contact_L
+0.2960 event generation=2 loop=0 clip=jump_land t=0.070 marker=foot_contact_R

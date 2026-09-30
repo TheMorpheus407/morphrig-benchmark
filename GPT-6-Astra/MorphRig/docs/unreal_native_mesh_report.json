@@ -1,0 +1,227 @@
+{
+  "measured_in": "Packaged Linux Development client, UE5.8.3, Vulkan SM6, final verified mesh",
+  "lods": [
+    {
+      "lod": 0,
+      "triangles": 42864,
+      "vertices": 39898,
+      "sections": 8
+    },
+    {
+      "lod": 1,
+      "triangles": 19225,
+      "vertices": 19748,
+      "sections": 8
+    },
+    {
+      "lod": 2,
+      "triangles": 11236,
+      "vertices": 12383,
+      "sections": 8
+    }
+  ],
+  "morph_target_count": 32,
+  "morph_delta_counts_lod0": {
+    "blink_L": 2563,
+    "blink_R": 2563,
+    "squint_L": 2551,
+    "squint_R": 2549,
+    "brow_up_L": 3338,
+    "brow_up_R": 3385,
+    "brow_down_L": 3203,
+    "brow_down_R": 3231,
+    "cheek_L": 3043,
+    "cheek_R": 3085,
+    "smile_L": 1922,
+    "smile_R": 1899,
+    "frown_L": 1902,
+    "frown_R": 1876,
+    "jaw_open": 3105,
+    "lip_close": 382,
+    "mouth_wide": 3153,
+    "pucker": 3652,
+    "funnel": 3623,
+    "viseme_AA": 3105,
+    "viseme_EE": 3682,
+    "viseme_OH": 3729,
+    "viseme_OO": 3777,
+    "viseme_FV": 258,
+    "viseme_MBP": 382,
+    "viseme_L": 3101,
+    "viseme_TH": 3098,
+    "shoulder_raise_L": 197,
+    "shoulder_raise_R": 205,
+    "hip_flex_L": 149,
+    "hip_flex_R": 152,
+    "wrist_flex_L": 160
+  },
+  "morph_delta_counts_by_lod": {
+    "blink_L": [
+      2563,
+      1108,
+      565
+    ],
+    "blink_R": [
+      2563,
+      1105,
+      568
+    ],
+    "squint_L": [
+      2551,
+      1100,
+      555
+    ],
+    "squint_R": [
+      2549,
+      1097,
+      561
+    ],
+    "brow_up_L": [
+      3338,
+      1483,
+      857
+    ],
+    "brow_up_R": [
+      3385,
+      1468,
+      851
+    ],
+    "brow_down_L": [
+      3203,
+      1429,
+      821
+    ],
+    "brow_down_R": [
+      3231,
+      1426,
+      823
+    ],
+    "cheek_L": [
+      3043,
+      1376,
+      706
+    ],
+    "cheek_R": [
+      3085,
+      1369,
+      701
+    ],
+    "smile_L": [
+      1922,
+      952,
+      595
+    ],
+    "smile_R": [
+      1899,
+      936,
+      599
+    ],
+    "frown_L": [
+      1902,
+      935,
+      589
+    ],
+    "frown_R": [
+      1876,
+      912,
+      592
+    ],
+    "jaw_open": [
+      3105,
+      1506,
+      971
+    ],
+    "lip_close": [
+      382,
+      261,
+      220
+    ],
+    "mouth_wide": [
+      3153,
+      1539,
+      983
+    ],
+    "pucker": [
+      3652,
+      1786,
+      1138
+    ],
+    "funnel": [
+      3623,
+      1775,
+      1127
+    ],
+    "viseme_AA": [
+      3105,
+      1505,
+      971
+    ],
+    "viseme_EE": [
+      3682,
+      1808,
+      1145
+    ],
+    "viseme_OH": [
+      3729,
+      1827,
+      1168
+    ],
+    "viseme_OO": [
+      3777,
+      1857,
+      1173
+    ],
+    "viseme_FV": [
+      258,
+      187,
+      174
+    ],
+    "viseme_MBP": [
+      382,
+      261,
+      220
+    ],
+    "viseme_L": [
+      3101,
+      1485,
+      960
+    ],
+    "viseme_TH": [
+      3098,
+      1480,
+      951
+    ],
+    "shoulder_raise_L": [
+      197,
+      121,
+      89
+    ],
+    "shoulder_raise_R": [
+      205,
+      132,
+      83
+    ],
+    "hip_flex_L": [
+      149,
+      92,
+      62
+    ],
+    "hip_flex_R": [
+      152,
+      91,
+      61
+    ],
+    "wrist_flex_L": [
+      160,
+      91,
+      69
+    ]
+  },
+  "bone_count": 64,
+  "root_name": "root",
+  "material_slots": 8,
+  "reference_height_cm": 180,
+  "note": "Native render counts omit degenerate triangles. All32 intentionally nonempty source shapes import on all3LODs; reserved zero-delta source wrist_flex_R is omitted after final rigid-weight cleanup. Reference height is neutral source height, not morph-expanded bounds.",
+  "lod_morph_probe": "docs/validation/final_verified_package/state_event_trace.log",
+  "final_source_pose_max_error_cm": 0.005600754965922999
+}

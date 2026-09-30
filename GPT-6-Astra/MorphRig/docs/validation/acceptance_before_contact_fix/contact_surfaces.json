@@ -1,0 +1,50 @@
+[
+  {
+    "clip": "reload",
+    "frame": 20,
+    "minimum_vertex_to_surface_distance_m": 5.3908730478724465e-05,
+    "triangle_overlap_pairs": 23
+  },
+  {
+    "clip": "reload",
+    "frame": 28,
+    "minimum_vertex_to_surface_distance_m": 0.000566257571335882,
+    "triangle_overlap_pairs": 22
+  },
+  {
+    "clip": "reload",
+    "frame": 35,
+    "minimum_vertex_to_surface_distance_m": 0.00011091937631135806,
+    "triangle_overlap_pairs": 17
+  },
+  {
+    "clip": "reload",
+    "frame": 45,
+    "minimum_vertex_to_surface_distance_m": 0.00013642123667523265,
+    "triangle_overlap_pairs": 23
+  },
+  {
+    "clip": "reload",
+    "frame": 51,
+    "minimum_vertex_to_surface_distance_m": 3.366957025718875e-05,
+    "triangle_overlap_pairs": 23
+  },
+  {
+    "clip": "deploy",
+    "frame": 20,
+    "minimum_vertex_to_surface_distance_m": 7.107717101462185e-05,
+    "triangle_overlap_pairs": 44
+  },
+  {
+    "clip": "deploy",
+    "frame": 30,
+    "minimum_vertex_to_surface_distance_m": 7.106762495823205e-05,
+    "triangle_overlap_pairs": 44
+  },
+  {
+    "clip": "deploy",
+    "frame": 35,
+    "minimum_vertex_to_surface_distance_m": 0.0002945956657640636,
+    "triangle_overlap_pairs": 42
+  }
+]

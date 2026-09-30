@@ -1,0 +1,320 @@
+{
+  "source_mtime": 1790418764.9395242,
+  "controls": {
+    "match_arm_L": {
+      "joint_error_m": 6.0185454448237685e-06,
+      "end_error_m": 1.6895741925311934e-07
+    },
+    "match_leg_L": {
+      "joint_error_m": 2.301643651607458e-05,
+      "end_error_m": 6.999185021242475e-08
+    },
+    "curl_L": {
+      "tip_displacement_m": 0.10544177351662483
+    },
+    "roll_L": {
+      "ankle_displacement_m": 0.07824242677766628
+    },
+    "match_arm_R": {
+      "joint_error_m": 6.1549732883315075e-06,
+      "end_error_m": 3.3719536697502804e-07
+    },
+    "match_leg_R": {
+      "joint_error_m": 2.2925644734310602e-05,
+      "end_error_m": 7.497002108953188e-08
+    },
+    "curl_R": {
+      "tip_displacement_m": 0.10544177351662483
+    },
+    "roll_R": {
+      "ankle_displacement_m": 0.07824256812609182
+    },
+    "global_scale": [
+      1.25,
+      1.25,
+      1.25
+    ]
+  },
+  "constraints": {
+    "eye.L": [
+      {
+        "name": "Damped Track",
+        "muted": false,
+        "influence": 0.0
+      }
+    ],
+    "eye.R": [
+      {
+        "name": "Damped Track",
+        "muted": false,
+        "influence": 0.0
+      }
+    ],
+    "forearm.L": [
+      {
+        "name": "Animator arm IK",
+        "muted": false,
+        "influence": 0.0
+      }
+    ],
+    "hand.L": [
+      {
+        "name": "IK orientation",
+        "muted": false,
+        "influence": 0.0
+      }
+    ],
+    "index.01.L": [
+      {
+        "name": "Additive hand controls",
+        "muted": false,
+        "influence": 1.0
+      }
+    ],
+    "index.02.L": [
+      {
+        "name": "Additive hand controls",
+        "muted": false,
+        "influence": 1.0
+      }
+    ],
+    "index.03.L": [
+      {
+        "name": "Additive hand controls",
+        "muted": false,
+        "influence": 1.0
+      }
+    ],
+    "middle.01.L": [
+      {
+        "name": "Additive hand controls",
+        "muted": false,
+        "influence": 1.0
+      }
+    ],
+    "middle.02.L": [
+      {
+        "name": "Additive hand controls",
+        "muted": false,
+        "influence": 1.0
+      }
+    ],
+    "middle.03.L": [
+      {
+        "name": "Additive hand controls",
+        "muted": false,
+        "influence": 1.0
+      }
+    ],
+    "ring.01.L": [
+      {
+        "name": "Additive hand controls",
+        "muted": false,
+        "influence": 1.0
+      }
+    ],
+    "ring.02.L": [
+      {
+        "name": "Additive hand controls",
+        "muted": false,
+        "influence": 1.0
+      }
+    ],
+    "ring.03.L": [
+      {
+        "name": "Additive hand controls",
+        "muted": false,
+        "influence": 1.0
+      }
+    ],
+    "pinky.01.L": [
+      {
+        "name": "Additive hand controls",
+        "muted": false,
+        "influence": 1.0
+      }
+    ],
+    "pinky.02.L": [
+      {
+        "name": "Additive hand controls",
+        "muted": false,
+        "influence": 1.0
+      }
+    ],
+    "pinky.03.L": [
+      {
+        "name": "Additive hand controls",
+        "muted": false,
+        "influence": 1.0
+      }
+    ],
+    "thumb.01.L": [
+      {
+        "name": "Additive hand controls",
+        "muted": false,
+        "influence": 1.0
+      }
+    ],
+    "thumb.02.L": [
+      {
+        "name": "Additive hand controls",
+        "muted": false,
+        "influence": 1.0
+      }
+    ],
+    "thumb.03.L": [
+      {
+        "name": "Additive hand controls",
+        "muted": false,
+        "influence": 1.0
+      }
+    ],
+    "forearm.R": [
+      {
+        "name": "Animator arm IK",
+        "muted": false,
+        "influence": 0.0
+      }
+    ],
+    "hand.R": [
+      {
+        "name": "IK orientation",
+        "muted": false,
+        "influence": 0.0
+      }
+    ],
+    "index.01.R": [
+      {
+        "name": "Additive hand controls",
+        "muted": false,
+        "influence": 1.0
+      }
+    ],
+    "index.02.R": [
+      {
+        "name": "Additive hand controls",
+        "muted": false,
+        "influence": 1.0
+      }
+    ],
+    "index.03.R": [
+      {
+        "name": "Additive hand controls",
+        "muted": false,
+        "influence": 1.0
+      }
+    ],
+    "middle.01.R": [
+      {
+        "name": "Additive hand controls",
+        "muted": false,
+        "influence": 1.0
+      }
+    ],
+    "middle.02.R": [
+      {
+        "name": "Additive hand controls",
+        "muted": false,
+        "influence": 1.0
+      }
+    ],
+    "middle.03.R": [
+      {
+        "name": "Additive hand controls",
+        "muted": false,
+        "influence": 1.0
+      }
+    ],
+    "ring.01.R": [
+      {
+        "name": "Additive hand controls",
+        "muted": false,
+        "influence": 1.0
+      }
+    ],
+    "ring.02.R": [
+      {
+        "name": "Additive hand controls",
+        "muted": false,
+        "influence": 1.0
+      }
+    ],
+    "ring.03.R": [
+      {
+        "name": "Additive hand controls",
+        "muted": false,
+        "influence": 1.0
+      }
+    ],
+    "pinky.01.R": [
+      {
+        "name": "Additive hand controls",
+        "muted": false,
+        "influence": 1.0
+      }
+    ],
+    "pinky.02.R": [
+      {
+        "name": "Additive hand controls",
+        "muted": false,
+        "influence": 1.0
+      }
+    ],
+    "pinky.03.R": [
+      {
+        "name": "Additive hand controls",
+        "muted": false,
+        "influence": 1.0
+      }
+    ],
+    "thumb.01.R": [
+      {
+        "name": "Additive hand controls",
+        "muted": false,
+        "influence": 1.0
+      }
+    ],
+    "thumb.02.R": [
+      {
+        "name": "Additive hand controls",
+        "muted": false,
+        "influence": 1.0
+      }
+    ],
+    "thumb.03.R": [
+      {
+        "name": "Additive hand controls",
+        "muted": false,
+        "influence": 1.0
+      }
+    ],
+    "shin.L": [
+      {
+        "name": "Animator leg IK",
+        "muted": false,
+        "influence": 0.0
+      }
+    ],
+    "foot.L": [
+      {
+        "name": "IK orientation",
+        "muted": false,
+        "influence": 0.0
+      }
+    ],
+    "shin.R": [
+      {
+        "name": "Animator leg IK",
+        "muted": false,
+        "influence": 0.0
+      }
+    ],
+    "foot.R": [
+      {
+        "name": "IK orientation",
+        "muted": false,
+        "influence": 0.0
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+00:00.601  blend            | Read blend: "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/source/Operative.blend"
+00:02.926  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/docs/validation/linear_skin/death_front_linear.png'
+00:04.836  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/docs/validation/linear_skin/death_front_DQ.png'
+00:06.762  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/docs/validation/linear_skin/respawn_linear.png'
+00:08.696  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/docs/validation/linear_skin/respawn_DQ.png'
+00:10.656  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/docs/validation/linear_skin/reload_linear.png'
+00:12.568  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/docs/validation/linear_skin/reload_DQ.png'
+[
+  {
+    "clip": "death_front",
+    "frame": 37,
+    "active_shapes": {
+      "hip_flex.L": 0.8726309537887573,
+      "hip_flex.R": 0.8726309537887573
+    },
+    "right_forearm_relative_rotation_deg": 183.10312387343322
+  },
+  {
+    "clip": "respawn",
+    "frame": 11,
+    "active_shapes": {
+      "blink.L": 1.0,
+      "blink.R": 1.0,
+      "hip_flex.L": 1.0,
+      "hip_flex.R": 1.0
+    },
+    "right_forearm_relative_rotation_deg": 143.3449478846258
+  },
+  {
+    "clip": "reload",
+    "frame": 35,
+    "active_shapes": {
+      "hip_flex.L": 0.0625,
+      "hip_flex.R": 0.0625
+    },
+    "right_forearm_relative_rotation_deg": 71.88709897660222
+  }
+]
+Blender 5.1.1
+
+Blender quit

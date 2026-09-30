@@ -1,0 +1,8 @@
+/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/source/generators/character.py:150: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.get(n) or bpy.data.materials.new(n);m.use_nodes=True
+00:12.252  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/docs/character_inspection.png'
+Info: Saved as "Character_Master.blend"
+CHARACTER_READY /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/source/Character_Master.blend {"lods": [{"name": "Operative_LOD0", "triangles": 42944, "vertices": 21749, "materials": 8, "shape_keys": 33}, {"name": "Operative_LOD1", "triangles": 19281, "vertices": 9878, "materials": 8, "shape_keys": 33}, {"name": "Operative_LOD2", "triangles": 11284, "vertices": 5864, "materials": 8, "shape_keys": 33}], "material_slots": 8, "deformation_bones": 64, "max_influences": 2, "textures": {"count": 16, "resolution": [512, 512], "format": "RGBA8 PNG", "uncompressed_mipmapped_bytes": 22369621}, "height_m": 1.8, "units": "metres; identity mesh/armature transforms", "team_variants": {"A": {"accent": [0.01, 0.68, 0.67], "icon": "three vertical bars"}, "B": {"accent": [1, 0.2, 0.035], "icon": "triangle"}}}
+Blender 5.1.1
+
+Blender quit

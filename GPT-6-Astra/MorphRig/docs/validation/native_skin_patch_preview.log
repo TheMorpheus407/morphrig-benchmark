@@ -1,0 +1,6 @@
+00:00.585  blend            | Read blend: "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/source/Operative.blend"
+Info: Saved as "Operative_NativeSkin_Preview.blend"
+NATIVE_SKIN_PATCH [{"mesh": "Operative_LOD0", "pauldron_vertices": 456, "maximum_position_delta_m": 0.05727999665358614, "cyber_joint_vertices_reweighted": 360, "caps_removed": 4, "triangles": 42904}, {"mesh": "Operative_LOD1", "pauldron_vertices": 208, "maximum_position_delta_m": 0.05727999665358614, "cyber_joint_vertices_reweighted": 210, "caps_removed": 4, "triangles": 19257}, {"mesh": "Operative_LOD2", "pauldron_vertices": 184, "maximum_position_delta_m": 0.05727999665358614, "cyber_joint_vertices_reweighted": 135, "caps_removed": 4, "triangles": 11260}]
+Blender 5.1.1
+
+Blender quit

@@ -1,0 +1,83 @@
+{
+  "recorded_at_utc": "2026-09-28T16:07:57.455664+00:00",
+  "files": [
+    {
+      "path": "source/Operative.blend",
+      "bytes": 22043022,
+      "sha256": "643750f8d297ed65586bc3be82bdc244b9cd3cd80aa84f69edacd04e1a43f980"
+    },
+    {
+      "path": "source/Character_Master.blend",
+      "bytes": 6558641,
+      "sha256": "0d6b2fc55a069da1f7e5f029294331a08a97fa140ac5e6eb68810535580abe8b"
+    },
+    {
+      "path": "export/Operative.fbx",
+      "bytes": 2615228,
+      "sha256": "f20211fdbe51395711ecc1040f584c9843872018b6b6aa29aedfbefef597f264"
+    },
+    {
+      "path": "export/Operative_LOD1.fbx",
+      "bytes": 1298652,
+      "sha256": "c069e89e684d6bf85cbad4328174b69f4771f0bdae08386ce8a67254736bc7ab"
+    },
+    {
+      "path": "export/Operative_LOD2.fbx",
+      "bytes": 820876,
+      "sha256": "0990860992517cf5731fabe6d1d06f1d358ed3357ffa432e65adb55e25c54160"
+    },
+    {
+      "path": "export/Beacon.fbx",
+      "bytes": 36236,
+      "sha256": "a226c95c70789ccff64ad212d62588114d85a029293362d7729d208a781995ca"
+    },
+    {
+      "path": "build/Linux/MorphRig/Binaries/Linux/MorphRig",
+      "bytes": 298082360,
+      "sha256": "e9ec96d391d5614de772f05dbfa89ec75216233eb32ea0c2a6355530eaf13163"
+    },
+    {
+      "path": "presentation/turntable.mp4",
+      "bytes": 2013010,
+      "sha256": "3b3ea2c9987421fc600bab27ca8ab46e407d44d0969573794523769f25eed4f6"
+    },
+    {
+      "path": "presentation/motion_showcase.mp4",
+      "bytes": 11010728,
+      "sha256": "5f8d9f7857213fbff6ab2ddbf93e32c377b1587a5d136fdb990fea43aa7f7b23"
+    },
+    {
+      "path": "presentation/face_performance.mp4",
+      "bytes": 1810718,
+      "sha256": "b0a18213cb5575c53a8196742f62a2f59e1fcf7406abcc6def95710c190de4c2"
+    }
+  ],
+  "inventory_checks": {
+    "passed": 128,
+    "total": 128
+  },
+  "runtime_demo_checks": {
+    "passed": 10,
+    "total": 10
+  },
+  "source_and_rendered_review": "docs/validation/acceptance_review.md",
+  "final_motion_review": "docs/validation/runtime_motion_visual_review.json",
+  "performance": "docs/performance_report.json",
+  "warmed_effective_fps": [
+    627.7209916478807,
+    578.7113344518261
+  ],
+  "final_ui_review": "docs/validation/runtime_final_controls/input_record.json",
+  "scope": "Artifact hashes and report references. Each linked review defines its evidence and limitations.",
+  "final_ui_visual_review": {
+    "reviewed_at_utc": "2026-09-28T16:15:25.559753+00:00",
+    "images": [
+      "runtime_final_controls/skeleton.png",
+      "runtime_final_controls/top_down_team_a.png",
+      "runtime_final_controls/forced_lod2.png",
+      "runtime_final_controls/ten_team_b.png"
+    ],
+    "observed": "Foreground hierarchy, top-down silhouette and icon, preserved lowest-LOD appearance, and all ten animated bodies render correctly. Keyboard input run exits0 and saves trace.",
+    "normals_scope": "Normals was visually verified on2026-09-26; the final keyboard run does not claim a fresh mouse-controlled Normals capture."
+  }
+}

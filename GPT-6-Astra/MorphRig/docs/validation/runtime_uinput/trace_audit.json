@@ -1,0 +1,1027 @@
+{
+  "trace": "docs/validation/runtime_uinput/state_event_trace.log",
+  "scope": "Observed state/marker execution; visual contact, capsule displacement, UI input and frame performance require separate evidence.",
+  "passed": 3,
+  "total": 3,
+  "checks": [
+    {
+      "check": "all required animations loaded",
+      "pass_": true,
+      "evidence": "loaded=96/96"
+    },
+    {
+      "check": "event loop identity recorded",
+      "pass_": true,
+      "evidence": 116
+    },
+    {
+      "check": "no duplicate marker execution per generation and loop",
+      "pass_": true,
+      "evidence": []
+    }
+  ],
+  "transitions": [
+    {
+      "generation": 1,
+      "previous": "",
+      "state": "channel_start",
+      "priority": 30,
+      "browser": false,
+      "elapsed_s": 19.695
+    },
+    {
+      "generation": 2,
+      "previous": "",
+      "state": "channel_loop",
+      "priority": 30,
+      "browser": false,
+      "elapsed_s": 20.2982
+    },
+    {
+      "generation": 3,
+      "previous": "channel_loop",
+      "state": "channel_interrupt",
+      "priority": 30,
+      "browser": false,
+      "elapsed_s": 103.6977
+    },
+    {
+      "generation": 4,
+      "previous": "",
+      "state": "dialogue",
+      "priority": 20,
+      "browser": true,
+      "elapsed_s": 221.7383
+    },
+    {
+      "generation": 5,
+      "previous": "",
+      "state": "start_f",
+      "priority": 20,
+      "browser": false,
+      "elapsed_s": 499.7012
+    },
+    {
+      "generation": 6,
+      "previous": "",
+      "state": "stop_f",
+      "priority": 20,
+      "browser": false,
+      "elapsed_s": 500.7316
+    },
+    {
+      "generation": 7,
+      "previous": "",
+      "state": "channel_start",
+      "priority": 30,
+      "browser": false,
+      "elapsed_s": 501.7346
+    },
+    {
+      "generation": 8,
+      "previous": "",
+      "state": "channel_loop",
+      "priority": 30,
+      "browser": false,
+      "elapsed_s": 502.3347
+    },
+    {
+      "generation": 9,
+      "previous": "channel_loop",
+      "state": "channel_interrupt",
+      "priority": 30,
+      "browser": false,
+      "elapsed_s": 502.7152
+    }
+  ],
+  "events": [
+    {
+      "generation": "1",
+      "loop": "0",
+      "clip": "channel_start",
+      "t": "0.000",
+      "marker": "channel_start",
+      "elapsed_s": 19.6976
+    },
+    {
+      "generation": "1",
+      "loop": "0",
+      "clip": "channel_start",
+      "t": "0.600",
+      "marker": "channel_start_complete",
+      "elapsed_s": 20.2982
+    },
+    {
+      "generation": "2",
+      "loop": "0",
+      "clip": "channel_loop",
+      "t": "0.000",
+      "marker": "channel_loop",
+      "elapsed_s": 20.3001
+    },
+    {
+      "generation": "2",
+      "loop": "1",
+      "clip": "channel_loop",
+      "t": "0.000",
+      "marker": "channel_loop",
+      "elapsed_s": 21.8994
+    },
+    {
+      "generation": "2",
+      "loop": "1",
+      "clip": "channel_loop",
+      "t": "1.600",
+      "marker": "channel_loop_complete",
+      "elapsed_s": 21.8994
+    },
+    {
+      "generation": "2",
+      "loop": "3",
+      "clip": "channel_loop",
+      "t": "0.000",
+      "marker": "channel_loop",
+      "elapsed_s": 23.4989
+    },
+    {
+      "generation": "2",
+      "loop": "3",
+      "clip": "channel_loop",
+      "t": "1.600",
+      "marker": "channel_loop_complete",
+      "elapsed_s": 23.4989
+    },
+    {
+      "generation": "2",
+      "loop": "4",
+      "clip": "channel_loop",
+      "t": "0.000",
+      "marker": "channel_loop",
+      "elapsed_s": 25.0991
+    },
+    {
+      "generation": "2",
+      "loop": "4",
+      "clip": "channel_loop",
+      "t": "1.600",
+      "marker": "channel_loop_complete",
+      "elapsed_s": 25.0991
+    },
+    {
+      "generation": "2",
+      "loop": "6",
+      "clip": "channel_loop",
+      "t": "0.000",
+      "marker": "channel_loop",
+      "elapsed_s": 26.6993
+    },
+    {
+      "generation": "2",
+      "loop": "6",
+      "clip": "channel_loop",
+      "t": "1.600",
+      "marker": "channel_loop_complete",
+      "elapsed_s": 26.6993
+    },
+    {
+      "generation": "2",
+      "loop": "8",
+      "clip": "channel_loop",
+      "t": "0.000",
+      "marker": "channel_loop",
+      "elapsed_s": 28.2983
+    },
+    {
+      "generation": "2",
+      "loop": "8",
+      "clip": "channel_loop",
+      "t": "1.600",
+      "marker": "channel_loop_complete",
+      "elapsed_s": 28.2983
+    },
+    {
+      "generation": "2",
+      "loop": "9",
+      "clip": "channel_loop",
+      "t": "0.000",
+      "marker": "channel_loop",
+      "elapsed_s": 29.8992
+    },
+    {
+      "generation": "2",
+      "loop": "9",
+      "clip": "channel_loop",
+      "t": "1.600",
+      "marker": "channel_loop_complete",
+      "elapsed_s": 29.8992
+    },
+    {
+      "generation": "2",
+      "loop": "11",
+      "clip": "channel_loop",
+      "t": "0.000",
+      "marker": "channel_loop",
+      "elapsed_s": 31.499
+    },
+    {
+      "generation": "2",
+      "loop": "11",
+      "clip": "channel_loop",
+      "t": "1.600",
+      "marker": "channel_loop_complete",
+      "elapsed_s": 31.499
+    },
+    {
+      "generation": "2",
+      "loop": "12",
+      "clip": "channel_loop",
+      "t": "0.000",
+      "marker": "channel_loop",
+      "elapsed_s": 33.0997
+    },
+    {
+      "generation": "2",
+      "loop": "12",
+      "clip": "channel_loop",
+      "t": "1.600",
+      "marker": "channel_loop_complete",
+      "elapsed_s": 33.0997
+    },
+    {
+      "generation": "2",
+      "loop": "14",
+      "clip": "channel_loop",
+      "t": "0.000",
+      "marker": "channel_loop",
+      "elapsed_s": 34.6995
+    },
+    {
+      "generation": "2",
+      "loop": "14",
+      "clip": "channel_loop",
+      "t": "1.600",
+      "marker": "channel_loop_complete",
+      "elapsed_s": 34.6995
+    },
+    {
+      "generation": "2",
+      "loop": "15",
+      "clip": "channel_loop",
+      "t": "0.000",
+      "marker": "channel_loop",
+      "elapsed_s": 36.2984
+    },
+    {
+      "generation": "2",
+      "loop": "15",
+      "clip": "channel_loop",
+      "t": "1.600",
+      "marker": "channel_loop_complete",
+      "elapsed_s": 36.2984
+    },
+    {
+      "generation": "2",
+      "loop": "17",
+      "clip": "channel_loop",
+      "t": "0.000",
+      "marker": "channel_loop",
+      "elapsed_s": 37.8988
+    },
+    {
+      "generation": "2",
+      "loop": "17",
+      "clip": "channel_loop",
+      "t": "1.600",
+      "marker": "channel_loop_complete",
+      "elapsed_s": 37.8988
+    },
+    {
+      "generation": "2",
+      "loop": "19",
+      "clip": "channel_loop",
+      "t": "0.000",
+      "marker": "channel_loop",
+      "elapsed_s": 39.4986
+    },
+    {
+      "generation": "2",
+      "loop": "19",
+      "clip": "channel_loop",
+      "t": "1.600",
+      "marker": "channel_loop_complete",
+      "elapsed_s": 39.4986
+    },
+    {
+      "generation": "2",
+      "loop": "20",
+      "clip": "channel_loop",
+      "t": "0.000",
+      "marker": "channel_loop",
+      "elapsed_s": 41.0984
+    },
+    {
+      "generation": "2",
+      "loop": "20",
+      "clip": "channel_loop",
+      "t": "1.600",
+      "marker": "channel_loop_complete",
+      "elapsed_s": 41.0984
+    },
+    {
+      "generation": "2",
+      "loop": "22",
+      "clip": "channel_loop",
+      "t": "0.000",
+      "marker": "channel_loop",
+      "elapsed_s": 42.6992
+    },
+    {
+      "generation": "2",
+      "loop": "22",
+      "clip": "channel_loop",
+      "t": "1.600",
+      "marker": "channel_loop_complete",
+      "elapsed_s": 42.6992
+    },
+    {
+      "generation": "2",
+      "loop": "23",
+      "clip": "channel_loop",
+      "t": "0.000",
+      "marker": "channel_loop",
+      "elapsed_s": 44.2997
+    },
+    {
+      "generation": "2",
+      "loop": "23",
+      "clip": "channel_loop",
+      "t": "1.600",
+      "marker": "channel_loop_complete",
+      "elapsed_s": 44.2997
+    },
+    {
+      "generation": "2",
+      "loop": "25",
+      "clip": "channel_loop",
+      "t": "0.000",
+      "marker": "channel_loop",
+      "elapsed_s": 45.8989
+    },
+    {
+      "generation": "2",
+      "loop": "25",
+      "clip": "channel_loop",
+      "t": "1.600",
+      "marker": "channel_loop_complete",
+      "elapsed_s": 45.8989
+    },
+    {
+      "generation": "2",
+      "loop": "26",
+      "clip": "channel_loop",
+      "t": "0.000",
+      "marker": "channel_loop",
+      "elapsed_s": 47.4985
+    },
+    {
+      "generation": "2",
+      "loop": "26",
+      "clip": "channel_loop",
+      "t": "1.600",
+      "marker": "channel_loop_complete",
+      "elapsed_s": 47.4985
+    },
+    {
+      "generation": "2",
+      "loop": "28",
+      "clip": "channel_loop",
+      "t": "0.000",
+      "marker": "channel_loop",
+      "elapsed_s": 49.099
+    },
+    {
+      "generation": "2",
+      "loop": "28",
+      "clip": "channel_loop",
+      "t": "1.600",
+      "marker": "channel_loop_complete",
+      "elapsed_s": 49.099
+    },
+    {
+      "generation": "2",
+      "loop": "30",
+      "clip": "channel_loop",
+      "t": "0.000",
+      "marker": "channel_loop",
+      "elapsed_s": 50.6984
+    },
+    {
+      "generation": "2",
+      "loop": "30",
+      "clip": "channel_loop",
+      "t": "1.600",
+      "marker": "channel_loop_complete",
+      "elapsed_s": 50.6984
+    },
+    {
+      "generation": "2",
+      "loop": "31",
+      "clip": "channel_loop",
+      "t": "0.000",
+      "marker": "channel_loop",
+      "elapsed_s": 52.2995
+    },
+    {
+      "generation": "2",
+      "loop": "31",
+      "clip": "channel_loop",
+      "t": "1.600",
+      "marker": "channel_loop_complete",
+      "elapsed_s": 52.2995
+    },
+    {
+      "generation": "2",
+      "loop": "33",
+      "clip": "channel_loop",
+      "t": "0.000",
+      "marker": "channel_loop",
+      "elapsed_s": 53.8987
+    },
+    {
+      "generation": "2",
+      "loop": "33",
+      "clip": "channel_loop",
+      "t": "1.600",
+      "marker": "channel_loop_complete",
+      "elapsed_s": 53.8987
+    },
+    {
+      "generation": "2",
+      "loop": "34",
+      "clip": "channel_loop",
+      "t": "0.000",
+      "marker": "channel_loop",
+      "elapsed_s": 55.4995
+    },
+    {
+      "generation": "2",
+      "loop": "34",
+      "clip": "channel_loop",
+      "t": "1.600",
+      "marker": "channel_loop_complete",
+      "elapsed_s": 55.4995
+    },
+    {
+      "generation": "2",
+      "loop": "36",
+      "clip": "channel_loop",
+      "t": "0.000",
+      "marker": "channel_loop",
+      "elapsed_s": 57.0993
+    },
+    {
+      "generation": "2",
+      "loop": "36",
+      "clip": "channel_loop",
+      "t": "1.600",
+      "marker": "channel_loop_complete",
+      "elapsed_s": 57.0993
+    },
+    {
+      "generation": "2",
+      "loop": "37",
+      "clip": "channel_loop",
+      "t": "0.000",
+      "marker": "channel_loop",
+      "elapsed_s": 58.6984
+    },
+    {
+      "generation": "2",
+      "loop": "37",
+      "clip": "channel_loop",
+      "t": "1.600",
+      "marker": "channel_loop_complete",
+      "elapsed_s": 58.6984
+    },
+    {
+      "generation": "2",
+      "loop": "39",
+      "clip": "channel_loop",
+      "t": "0.000",
+      "marker": "channel_loop",
+      "elapsed_s": 60.2989
+    },
+    {
+      "generation": "2",
+      "loop": "39",
+      "clip": "channel_loop",
+      "t": "1.600",
+      "marker": "channel_loop_complete",
+      "elapsed_s": 60.2989
+    },
+    {
+      "generation": "2",
+      "loop": "41",
+      "clip": "channel_loop",
+      "t": "0.000",
+      "marker": "channel_loop",
+      "elapsed_s": 61.8987
+    },
+    {
+      "generation": "2",
+      "loop": "41",
+      "clip": "channel_loop",
+      "t": "1.600",
+      "marker": "channel_loop_complete",
+      "elapsed_s": 61.8987
+    },
+    {
+      "generation": "2",
+      "loop": "42",
+      "clip": "channel_loop",
+      "t": "0.000",
+      "marker": "channel_loop",
+      "elapsed_s": 63.4988
+    },
+    {
+      "generation": "2",
+      "loop": "42",
+      "clip": "channel_loop",
+      "t": "1.600",
+      "marker": "channel_loop_complete",
+      "elapsed_s": 63.4988
+    },
+    {
+      "generation": "2",
+      "loop": "44",
+      "clip": "channel_loop",
+      "t": "0.000",
+      "marker": "channel_loop",
+      "elapsed_s": 65.0987
+    },
+    {
+      "generation": "2",
+      "loop": "44",
+      "clip": "channel_loop",
+      "t": "1.600",
+      "marker": "channel_loop_complete",
+      "elapsed_s": 65.0987
+    },
+    {
+      "generation": "2",
+      "loop": "45",
+      "clip": "channel_loop",
+      "t": "0.000",
+      "marker": "channel_loop",
+      "elapsed_s": 66.699
+    },
+    {
+      "generation": "2",
+      "loop": "45",
+      "clip": "channel_loop",
+      "t": "1.600",
+      "marker": "channel_loop_complete",
+      "elapsed_s": 66.699
+    },
+    {
+      "generation": "2",
+      "loop": "47",
+      "clip": "channel_loop",
+      "t": "0.000",
+      "marker": "channel_loop",
+      "elapsed_s": 68.2986
+    },
+    {
+      "generation": "2",
+      "loop": "47",
+      "clip": "channel_loop",
+      "t": "1.600",
+      "marker": "channel_loop_complete",
+      "elapsed_s": 68.2986
+    },
+    {
+      "generation": "2",
+      "loop": "48",
+      "clip": "channel_loop",
+      "t": "0.000",
+      "marker": "channel_loop",
+      "elapsed_s": 69.8988
+    },
+    {
+      "generation": "2",
+      "loop": "48",
+      "clip": "channel_loop",
+      "t": "1.600",
+      "marker": "channel_loop_complete",
+      "elapsed_s": 69.8988
+    },
+    {
+      "generation": "2",
+      "loop": "50",
+      "clip": "channel_loop",
+      "t": "0.000",
+      "marker": "channel_loop",
+      "elapsed_s": 71.4981
+    },
+    {
+      "generation": "2",
+      "loop": "50",
+      "clip": "channel_loop",
+      "t": "1.600",
+      "marker": "channel_loop_complete",
+      "elapsed_s": 71.4981
+    },
+    {
+      "generation": "2",
+      "loop": "52",
+      "clip": "channel_loop",
+      "t": "0.000",
+      "marker": "channel_loop",
+      "elapsed_s": 73.0983
+    },
+    {
+      "generation": "2",
+      "loop": "52",
+      "clip": "channel_loop",
+      "t": "1.600",
+      "marker": "channel_loop_complete",
+      "elapsed_s": 73.0983
+    },
+    {
+      "generation": "2",
+      "loop": "53",
+      "clip": "channel_loop",
+      "t": "0.000",
+      "marker": "channel_loop",
+      "elapsed_s": 74.698
+    },
+    {
+      "generation": "2",
+      "loop": "53",
+      "clip": "channel_loop",
+      "t": "1.600",
+      "marker": "channel_loop_complete",
+      "elapsed_s": 74.698
+    },
+    {
+      "generation": "2",
+      "loop": "55",
+      "clip": "channel_loop",
+      "t": "0.000",
+      "marker": "channel_loop",
+      "elapsed_s": 76.2988
+    },
+    {
+      "generation": "2",
+      "loop": "55",
+      "clip": "channel_loop",
+      "t": "1.600",
+      "marker": "channel_loop_complete",
+      "elapsed_s": 76.2988
+    },
+    {
+      "generation": "2",
+      "loop": "56",
+      "clip": "channel_loop",
+      "t": "0.000",
+      "marker": "channel_loop",
+      "elapsed_s": 77.8986
+    },
+    {
+      "generation": "2",
+      "loop": "56",
+      "clip": "channel_loop",
+      "t": "1.600",
+      "marker": "channel_loop_complete",
+      "elapsed_s": 77.8986
+    },
+    {
+      "generation": "2",
+      "loop": "58",
+      "clip": "channel_loop",
+      "t": "0.000",
+      "marker": "channel_loop",
+      "elapsed_s": 79.4983
+    },
+    {
+      "generation": "2",
+      "loop": "58",
+      "clip": "channel_loop",
+      "t": "1.600",
+      "marker": "channel_loop_complete",
+      "elapsed_s": 79.4983
+    },
+    {
+      "generation": "2",
+      "loop": "59",
+      "clip": "channel_loop",
+      "t": "0.000",
+      "marker": "channel_loop",
+      "elapsed_s": 81.098
+    },
+    {
+      "generation": "2",
+      "loop": "59",
+      "clip": "channel_loop",
+      "t": "1.600",
+      "marker": "channel_loop_complete",
+      "elapsed_s": 81.098
+    },
+    {
+      "generation": "2",
+      "loop": "61",
+      "clip": "channel_loop",
+      "t": "0.000",
+      "marker": "channel_loop",
+      "elapsed_s": 82.6984
+    },
+    {
+      "generation": "2",
+      "loop": "61",
+      "clip": "channel_loop",
+      "t": "1.600",
+      "marker": "channel_loop_complete",
+      "elapsed_s": 82.6984
+    },
+    {
+      "generation": "2",
+      "loop": "63",
+      "clip": "channel_loop",
+      "t": "0.000",
+      "marker": "channel_loop",
+      "elapsed_s": 84.2986
+    },
+    {
+      "generation": "2",
+      "loop": "63",
+      "clip": "channel_loop",
+      "t": "1.600",
+      "marker": "channel_loop_complete",
+      "elapsed_s": 84.2986
+    },
+    {
+      "generation": "2",
+      "loop": "64",
+      "clip": "channel_loop",
+      "t": "0.000",
+      "marker": "channel_loop",
+      "elapsed_s": 85.8989
+    },
+    {
+      "generation": "2",
+      "loop": "64",
+      "clip": "channel_loop",
+      "t": "1.600",
+      "marker": "channel_loop_complete",
+      "elapsed_s": 85.8989
+    },
+    {
+      "generation": "2",
+      "loop": "66",
+      "clip": "channel_loop",
+      "t": "0.000",
+      "marker": "channel_loop",
+      "elapsed_s": 87.4994
+    },
+    {
+      "generation": "2",
+      "loop": "66",
+      "clip": "channel_loop",
+      "t": "1.600",
+      "marker": "channel_loop_complete",
+      "elapsed_s": 87.4994
+    },
+    {
+      "generation": "2",
+      "loop": "67",
+      "clip": "channel_loop",
+      "t": "0.000",
+      "marker": "channel_loop",
+      "elapsed_s": 89.0995
+    },
+    {
+      "generation": "2",
+      "loop": "67",
+      "clip": "channel_loop",
+      "t": "1.600",
+      "marker": "channel_loop_complete",
+      "elapsed_s": 89.0995
+    },
+    {
+      "generation": "2",
+      "loop": "69",
+      "clip": "channel_loop",
+      "t": "0.000",
+      "marker": "channel_loop",
+      "elapsed_s": 90.6989
+    },
+    {
+      "generation": "2",
+      "loop": "69",
+      "clip": "channel_loop",
+      "t": "1.600",
+      "marker": "channel_loop_complete",
+      "elapsed_s": 90.6989
+    },
+    {
+      "generation": "2",
+      "loop": "70",
+      "clip": "channel_loop",
+      "t": "0.000",
+      "marker": "channel_loop",
+      "elapsed_s": 92.2991
+    },
+    {
+      "generation": "2",
+      "loop": "70",
+      "clip": "channel_loop",
+      "t": "1.600",
+      "marker": "channel_loop_complete",
+      "elapsed_s": 92.2991
+    },
+    {
+      "generation": "2",
+      "loop": "72",
+      "clip": "channel_loop",
+      "t": "0.000",
+      "marker": "channel_loop",
+      "elapsed_s": 93.8983
+    },
+    {
+      "generation": "2",
+      "loop": "72",
+      "clip": "channel_loop",
+      "t": "1.600",
+      "marker": "channel_loop_complete",
+      "elapsed_s": 93.8983
+    },
+    {
+      "generation": "2",
+      "loop": "74",
+      "clip": "channel_loop",
+      "t": "0.000",
+      "marker": "channel_loop",
+      "elapsed_s": 95.4995
+    },
+    {
+      "generation": "2",
+      "loop": "74",
+      "clip": "channel_loop",
+      "t": "1.600",
+      "marker": "channel_loop_complete",
+      "elapsed_s": 95.4995
+    },
+    {
+      "generation": "2",
+      "loop": "75",
+      "clip": "channel_loop",
+      "t": "0.000",
+      "marker": "channel_loop",
+      "elapsed_s": 97.0984
+    },
+    {
+      "generation": "2",
+      "loop": "75",
+      "clip": "channel_loop",
+      "t": "1.600",
+      "marker": "channel_loop_complete",
+      "elapsed_s": 97.0984
+    },
+    {
+      "generation": "2",
+      "loop": "77",
+      "clip": "channel_loop",
+      "t": "0.000",
+      "marker": "channel_loop",
+      "elapsed_s": 98.699
+    },
+    {
+      "generation": "2",
+      "loop": "77",
+      "clip": "channel_loop",
+      "t": "1.600",
+      "marker": "channel_loop_complete",
+      "elapsed_s": 98.699
+    },
+    {
+      "generation": "2",
+      "loop": "78",
+      "clip": "channel_loop",
+      "t": "0.000",
+      "marker": "channel_loop",
+      "elapsed_s": 100.298
+    },
+    {
+      "generation": "2",
+      "loop": "78",
+      "clip": "channel_loop",
+      "t": "1.600",
+      "marker": "channel_loop_complete",
+      "elapsed_s": 100.298
+    },
+    {
+      "generation": "2",
+      "loop": "80",
+      "clip": "channel_loop",
+      "t": "0.000",
+      "marker": "channel_loop",
+      "elapsed_s": 101.8987
+    },
+    {
+      "generation": "2",
+      "loop": "80",
+      "clip": "channel_loop",
+      "t": "1.600",
+      "marker": "channel_loop_complete",
+      "elapsed_s": 101.8987
+    },
+    {
+      "generation": "2",
+      "loop": "81",
+      "clip": "channel_loop",
+      "t": "0.000",
+      "marker": "channel_loop",
+      "elapsed_s": 103.4991
+    },
+    {
+      "generation": "2",
+      "loop": "81",
+      "clip": "channel_loop",
+      "t": "1.600",
+      "marker": "channel_loop_complete",
+      "elapsed_s": 103.4991
+    },
+    {
+      "generation": "3",
+      "loop": "0",
+      "clip": "channel_interrupt",
+      "t": "0.000",
+      "marker": "channel_interrupt",
+      "elapsed_s": 103.6993
+    },
+    {
+      "generation": "3",
+      "loop": "0",
+      "clip": "channel_interrupt",
+      "t": "0.400",
+      "marker": "channel_interrupt_complete",
+      "elapsed_s": 104.0979
+    },
+    {
+      "generation": "5",
+      "loop": "1",
+      "clip": "walk_f",
+      "t": "0.000",
+      "marker": "foot_contact_L",
+      "elapsed_s": 499.9456
+    },
+    {
+      "generation": "5",
+      "loop": "1",
+      "clip": "walk_f",
+      "t": "0.400",
+      "marker": "foot_contact_R",
+      "elapsed_s": 500.3451
+    },
+    {
+      "generation": "7",
+      "loop": "0",
+      "clip": "channel_start",
+      "t": "0.000",
+      "marker": "channel_start",
+      "elapsed_s": 501.7365
+    },
+    {
+      "generation": "7",
+      "loop": "0",
+      "clip": "channel_start",
+      "t": "0.600",
+      "marker": "channel_start_complete",
+      "elapsed_s": 502.3347
+    },
+    {
+      "generation": "8",
+      "loop": "0",
+      "clip": "channel_loop",
+      "t": "0.000",
+      "marker": "channel_loop",
+      "elapsed_s": 502.3369
+    },
+    {
+      "generation": "9",
+      "loop": "0",
+      "clip": "channel_interrupt",
+      "t": "0.000",
+      "marker": "channel_interrupt",
+      "elapsed_s": 502.7179
+    },
+    {
+      "generation": "9",
+      "loop": "0",
+      "clip": "channel_interrupt",
+      "t": "0.400",
+      "marker": "channel_interrupt_complete",
+      "elapsed_s": 503.1159
+    }
+  ]
+}

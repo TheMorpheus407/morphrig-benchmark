@@ -1,0 +1,888 @@
+{
+  "trace": "docs/validation/runtime_final_demo/state_event_trace.log",
+  "scope": "Observed state/marker execution; visual contact, capsule displacement, UI input and frame performance require separate evidence.",
+  "passed": 10,
+  "total": 10,
+  "checks": [
+    {
+      "check": "all required animations loaded",
+      "pass_": true,
+      "evidence": "loaded=96/96"
+    },
+    {
+      "check": "event loop identity recorded",
+      "pass_": true,
+      "evidence": 65
+    },
+    {
+      "check": "no duplicate marker execution per generation and loop",
+      "pass_": true,
+      "evidence": []
+    },
+    {
+      "check": "deterministic sequence completed",
+      "pass_": true,
+      "evidence": "sequence completion trace"
+    },
+    {
+      "check": "combined-state sequence reached required demonstration states",
+      "pass_": true,
+      "evidence": {
+        "missing": [],
+        "observed": [
+          "blink_in",
+          "blink_out",
+          "cast_directional",
+          "channel_interrupt",
+          "channel_loop",
+          "channel_start",
+          "charge_hold",
+          "charge_release",
+          "charge_start",
+          "dash_f",
+          "dead_front",
+          "death_front",
+          "deploy",
+          "getup_back",
+          "idle_combat",
+          "jump_air",
+          "jump_start",
+          "knockdown_back",
+          "melee_1",
+          "melee_2",
+          "prone_back",
+          "ranged_burst",
+          "reload",
+          "respawn",
+          "start_f",
+          "stop_f",
+          "stun_end",
+          "stun_loop",
+          "stun_start",
+          "uplink_cancel",
+          "uplink_loop",
+          "uplink_start"
+        ]
+      }
+    },
+    {
+      "check": "ranged_burst executes each interaction marker once",
+      "pass_": true,
+      "evidence": [
+        "muzzle_fire_1",
+        "muzzle_fire_2",
+        "muzzle_fire_3"
+      ]
+    },
+    {
+      "check": "deploy executes each interaction marker once",
+      "pass_": true,
+      "evidence": [
+        "beacon_grip",
+        "beacon_release",
+        "beacon_activate"
+      ]
+    },
+    {
+      "check": "reload executes each interaction marker once",
+      "pass_": true,
+      "evidence": [
+        "cell_grip",
+        "cell_extract",
+        "cell_insert",
+        "cell_release",
+        "reload_complete"
+      ]
+    },
+    {
+      "check": "death plays once in demonstration",
+      "pass_": true,
+      "evidence": 1
+    },
+    {
+      "check": "blink teleport marker executes once",
+      "pass_": true,
+      "evidence": 1
+    }
+  ],
+  "transitions": [
+    {
+      "generation": 1,
+      "previous": "",
+      "state": "idle_combat",
+      "priority": 20,
+      "browser": false,
+      "elapsed_s": 0.0333
+    },
+    {
+      "generation": 2,
+      "previous": "",
+      "state": "start_f",
+      "priority": 20,
+      "browser": false,
+      "elapsed_s": 2.0333
+    },
+    {
+      "generation": 3,
+      "previous": "",
+      "state": "ranged_burst",
+      "priority": 20,
+      "browser": false,
+      "elapsed_s": 4.0333
+    },
+    {
+      "generation": 4,
+      "previous": "",
+      "state": "cast_directional",
+      "priority": 20,
+      "browser": false,
+      "elapsed_s": 6.0333
+    },
+    {
+      "generation": 5,
+      "previous": "",
+      "state": "stop_f",
+      "priority": 20,
+      "browser": false,
+      "elapsed_s": 7.5667
+    },
+    {
+      "generation": 6,
+      "previous": "stop_f",
+      "state": "channel_start",
+      "priority": 30,
+      "browser": false,
+      "elapsed_s": 8.0333
+    },
+    {
+      "generation": 7,
+      "previous": "",
+      "state": "channel_loop",
+      "priority": 30,
+      "browser": false,
+      "elapsed_s": 8.6
+    },
+    {
+      "generation": 8,
+      "previous": "channel_loop",
+      "state": "channel_interrupt",
+      "priority": 30,
+      "browser": false,
+      "elapsed_s": 10.0
+    },
+    {
+      "generation": 9,
+      "previous": "",
+      "state": "charge_start",
+      "priority": 30,
+      "browser": false,
+      "elapsed_s": 11.0
+    },
+    {
+      "generation": 10,
+      "previous": "",
+      "state": "charge_hold",
+      "priority": 30,
+      "browser": false,
+      "elapsed_s": 11.7667
+    },
+    {
+      "generation": 11,
+      "previous": "charge_hold",
+      "state": "charge_release",
+      "priority": 30,
+      "browser": false,
+      "elapsed_s": 12.5001
+    },
+    {
+      "generation": 12,
+      "previous": "",
+      "state": "uplink_start",
+      "priority": 30,
+      "browser": false,
+      "elapsed_s": 14.0001
+    },
+    {
+      "generation": 13,
+      "previous": "",
+      "state": "uplink_loop",
+      "priority": 30,
+      "browser": false,
+      "elapsed_s": 14.7668
+    },
+    {
+      "generation": 14,
+      "previous": "uplink_loop",
+      "state": "uplink_cancel",
+      "priority": 30,
+      "browser": false,
+      "elapsed_s": 16.0001
+    },
+    {
+      "generation": 15,
+      "previous": "",
+      "state": "reload",
+      "priority": 20,
+      "browser": false,
+      "elapsed_s": 17.0001
+    },
+    {
+      "generation": 16,
+      "previous": "",
+      "state": "deploy",
+      "priority": 20,
+      "browser": false,
+      "elapsed_s": 20.0
+    },
+    {
+      "generation": 17,
+      "previous": "",
+      "state": "dash_f",
+      "priority": 20,
+      "browser": false,
+      "elapsed_s": 22.0
+    },
+    {
+      "generation": 18,
+      "previous": "",
+      "state": "jump_start",
+      "priority": 50,
+      "browser": false,
+      "elapsed_s": 23.0333
+    },
+    {
+      "generation": 19,
+      "previous": "",
+      "state": "jump_air",
+      "priority": 50,
+      "browser": false,
+      "elapsed_s": 23.6
+    },
+    {
+      "generation": 20,
+      "previous": "jump_air",
+      "state": "death_front",
+      "priority": 100,
+      "browser": false,
+      "elapsed_s": 23.8333
+    },
+    {
+      "generation": 21,
+      "previous": "",
+      "state": "dead_front",
+      "priority": 100,
+      "browser": false,
+      "elapsed_s": 25.9333
+    },
+    {
+      "generation": 22,
+      "previous": "dead_front",
+      "state": "respawn",
+      "priority": 95,
+      "browser": false,
+      "elapsed_s": 27.0333
+    },
+    {
+      "generation": 23,
+      "previous": "",
+      "state": "knockdown_back",
+      "priority": 80,
+      "browser": false,
+      "elapsed_s": 30.0332
+    },
+    {
+      "generation": 24,
+      "previous": "",
+      "state": "prone_back",
+      "priority": 80,
+      "browser": false,
+      "elapsed_s": 31.1999
+    },
+    {
+      "generation": 25,
+      "previous": "prone_back",
+      "state": "getup_back",
+      "priority": 80,
+      "browser": false,
+      "elapsed_s": 33.0332
+    },
+    {
+      "generation": 26,
+      "previous": "",
+      "state": "blink_out",
+      "priority": 20,
+      "browser": false,
+      "elapsed_s": 36.0331
+    },
+    {
+      "generation": 27,
+      "previous": "",
+      "state": "blink_in",
+      "priority": 20,
+      "browser": false,
+      "elapsed_s": 36.3998
+    },
+    {
+      "generation": 28,
+      "previous": "",
+      "state": "melee_1",
+      "priority": 20,
+      "browser": false,
+      "elapsed_s": 39.0331
+    },
+    {
+      "generation": 29,
+      "previous": "",
+      "state": "melee_2",
+      "priority": 20,
+      "browser": false,
+      "elapsed_s": 42.033
+    },
+    {
+      "generation": 30,
+      "previous": "",
+      "state": "stun_start",
+      "priority": 70,
+      "browser": false,
+      "elapsed_s": 45.033
+    },
+    {
+      "generation": 31,
+      "previous": "",
+      "state": "stun_loop",
+      "priority": 70,
+      "browser": false,
+      "elapsed_s": 45.6996
+    },
+    {
+      "generation": 32,
+      "previous": "stun_loop",
+      "state": "stun_end",
+      "priority": 70,
+      "browser": false,
+      "elapsed_s": 47.033
+    }
+  ],
+  "events": [
+    {
+      "generation": "2",
+      "loop": "1",
+      "clip": "walk_r",
+      "t": "0.000",
+      "marker": "foot_contact_L",
+      "elapsed_s": 2.2667
+    },
+    {
+      "generation": "2",
+      "loop": "1",
+      "clip": "walk_r",
+      "t": "0.400",
+      "marker": "foot_contact_R",
+      "elapsed_s": 2.6667
+    },
+    {
+      "generation": "2",
+      "loop": "2",
+      "clip": "walk_r",
+      "t": "0.000",
+      "marker": "foot_contact_L",
+      "elapsed_s": 3.0667
+    },
+    {
+      "generation": "2",
+      "loop": "2",
+      "clip": "walk_r",
+      "t": "0.400",
+      "marker": "foot_contact_R",
+      "elapsed_s": 3.4667
+    },
+    {
+      "generation": "2",
+      "loop": "3",
+      "clip": "walk_r",
+      "t": "0.000",
+      "marker": "foot_contact_L",
+      "elapsed_s": 3.8667
+    },
+    {
+      "generation": "3",
+      "loop": "0",
+      "clip": "ranged_burst",
+      "t": "0.108",
+      "marker": "muzzle_fire_1",
+      "elapsed_s": 4.1333
+    },
+    {
+      "generation": "3",
+      "loop": "0",
+      "clip": "walk_r",
+      "t": "0.400",
+      "marker": "foot_contact_R",
+      "elapsed_s": 4.2667
+    },
+    {
+      "generation": "3",
+      "loop": "0",
+      "clip": "ranged_burst",
+      "t": "0.270",
+      "marker": "muzzle_fire_2",
+      "elapsed_s": 4.3
+    },
+    {
+      "generation": "3",
+      "loop": "0",
+      "clip": "ranged_burst",
+      "t": "0.432",
+      "marker": "muzzle_fire_3",
+      "elapsed_s": 4.4333
+    },
+    {
+      "generation": "3",
+      "loop": "1",
+      "clip": "walk_r",
+      "t": "0.000",
+      "marker": "foot_contact_L",
+      "elapsed_s": 4.6667
+    },
+    {
+      "generation": "3",
+      "loop": "1",
+      "clip": "hit_l",
+      "t": "0.000",
+      "marker": "impact",
+      "elapsed_s": 5.0333
+    },
+    {
+      "generation": "3",
+      "loop": "1",
+      "clip": "walk_r",
+      "t": "0.400",
+      "marker": "foot_contact_R",
+      "elapsed_s": 5.0667
+    },
+    {
+      "generation": "3",
+      "loop": "2",
+      "clip": "walk_r",
+      "t": "0.000",
+      "marker": "foot_contact_L",
+      "elapsed_s": 5.4667
+    },
+    {
+      "generation": "3",
+      "loop": "2",
+      "clip": "walk_r",
+      "t": "0.400",
+      "marker": "foot_contact_R",
+      "elapsed_s": 5.8667
+    },
+    {
+      "generation": "4",
+      "loop": "1",
+      "clip": "walk_r",
+      "t": "0.000",
+      "marker": "foot_contact_L",
+      "elapsed_s": 6.2667
+    },
+    {
+      "generation": "4",
+      "loop": "1",
+      "clip": "cast_directional",
+      "t": "0.495",
+      "marker": "cast_release",
+      "elapsed_s": 6.5
+    },
+    {
+      "generation": "4",
+      "loop": "1",
+      "clip": "walk_r",
+      "t": "0.400",
+      "marker": "foot_contact_R",
+      "elapsed_s": 6.6667
+    },
+    {
+      "generation": "4",
+      "loop": "2",
+      "clip": "walk_r",
+      "t": "0.000",
+      "marker": "foot_contact_L",
+      "elapsed_s": 7.0667
+    },
+    {
+      "generation": "4",
+      "loop": "2",
+      "clip": "walk_r",
+      "t": "0.400",
+      "marker": "foot_contact_R",
+      "elapsed_s": 7.4667
+    },
+    {
+      "generation": "6",
+      "loop": "0",
+      "clip": "channel_start",
+      "t": "0.000",
+      "marker": "channel_start",
+      "elapsed_s": 8.0333
+    },
+    {
+      "generation": "6",
+      "loop": "0",
+      "clip": "channel_start",
+      "t": "0.600",
+      "marker": "channel_start_complete",
+      "elapsed_s": 8.6
+    },
+    {
+      "generation": "7",
+      "loop": "0",
+      "clip": "channel_loop",
+      "t": "0.000",
+      "marker": "channel_loop",
+      "elapsed_s": 8.6333
+    },
+    {
+      "generation": "8",
+      "loop": "0",
+      "clip": "channel_interrupt",
+      "t": "0.000",
+      "marker": "channel_interrupt",
+      "elapsed_s": 10.0
+    },
+    {
+      "generation": "8",
+      "loop": "1",
+      "clip": "channel_interrupt",
+      "t": "0.400",
+      "marker": "channel_interrupt_complete",
+      "elapsed_s": 10.3667
+    },
+    {
+      "generation": "9",
+      "loop": "0",
+      "clip": "charge_start",
+      "t": "0.000",
+      "marker": "charge_start",
+      "elapsed_s": 11.0
+    },
+    {
+      "generation": "9",
+      "loop": "0",
+      "clip": "charge_start",
+      "t": "0.800",
+      "marker": "charge_start_complete",
+      "elapsed_s": 11.7667
+    },
+    {
+      "generation": "10",
+      "loop": "0",
+      "clip": "charge_hold",
+      "t": "0.000",
+      "marker": "charge_hold",
+      "elapsed_s": 11.8
+    },
+    {
+      "generation": "11",
+      "loop": "0",
+      "clip": "charge_release",
+      "t": "0.000",
+      "marker": "charge_release",
+      "elapsed_s": 12.5001
+    },
+    {
+      "generation": "11",
+      "loop": "1",
+      "clip": "charge_release",
+      "t": "0.800",
+      "marker": "charge_release_complete",
+      "elapsed_s": 13.2667
+    },
+    {
+      "generation": "12",
+      "loop": "0",
+      "clip": "uplink_start",
+      "t": "0.000",
+      "marker": "uplink_start",
+      "elapsed_s": 14.0001
+    },
+    {
+      "generation": "12",
+      "loop": "0",
+      "clip": "uplink_start",
+      "t": "0.800",
+      "marker": "uplink_start_complete",
+      "elapsed_s": 14.7668
+    },
+    {
+      "generation": "13",
+      "loop": "0",
+      "clip": "uplink_loop",
+      "t": "0.000",
+      "marker": "uplink_loop",
+      "elapsed_s": 14.8001
+    },
+    {
+      "generation": "14",
+      "loop": "0",
+      "clip": "uplink_cancel",
+      "t": "0.000",
+      "marker": "uplink_cancel",
+      "elapsed_s": 16.0001
+    },
+    {
+      "generation": "14",
+      "loop": "0",
+      "clip": "uplink_cancel",
+      "t": "0.500",
+      "marker": "uplink_cancel_complete",
+      "elapsed_s": 16.4668
+    },
+    {
+      "generation": "15",
+      "loop": "0",
+      "clip": "reload",
+      "t": "0.667",
+      "marker": "cell_grip",
+      "elapsed_s": 17.6667
+    },
+    {
+      "generation": "15",
+      "loop": "0",
+      "clip": "reload",
+      "t": "0.874",
+      "marker": "cell_extract",
+      "elapsed_s": 17.8667
+    },
+    {
+      "generation": "15",
+      "loop": "0",
+      "clip": "reload",
+      "t": "1.679",
+      "marker": "cell_insert",
+      "elapsed_s": 18.6667
+    },
+    {
+      "generation": "15",
+      "loop": "1",
+      "clip": "reload",
+      "t": "1.771",
+      "marker": "cell_release",
+      "elapsed_s": 18.7667
+    },
+    {
+      "generation": "15",
+      "loop": "1",
+      "clip": "reload",
+      "t": "2.024",
+      "marker": "reload_complete",
+      "elapsed_s": 19.0001
+    },
+    {
+      "generation": "16",
+      "loop": "0",
+      "clip": "deploy",
+      "t": "0.432",
+      "marker": "beacon_grip",
+      "elapsed_s": 20.4
+    },
+    {
+      "generation": "16",
+      "loop": "0",
+      "clip": "deploy",
+      "t": "1.152",
+      "marker": "beacon_release",
+      "elapsed_s": 21.1334
+    },
+    {
+      "generation": "16",
+      "loop": "0",
+      "clip": "deploy",
+      "t": "1.296",
+      "marker": "beacon_activate",
+      "elapsed_s": 21.2667
+    },
+    {
+      "generation": "18",
+      "loop": "0",
+      "clip": "jump_start",
+      "t": "0.522",
+      "marker": "takeoff",
+      "elapsed_s": 23.5333
+    },
+    {
+      "generation": "20",
+      "loop": "1",
+      "clip": "death_front",
+      "t": "1.449",
+      "marker": "death_ground_contact",
+      "elapsed_s": 25.2666
+    },
+    {
+      "generation": "20",
+      "loop": "1",
+      "clip": "death_front",
+      "t": "1.764",
+      "marker": "death_settled",
+      "elapsed_s": 25.5666
+    },
+    {
+      "generation": "23",
+      "loop": "0",
+      "clip": "knockdown_back",
+      "t": "0.840",
+      "marker": "body_ground_contact",
+      "elapsed_s": 30.8665
+    },
+    {
+      "generation": "25",
+      "loop": "0",
+      "clip": "getup_back",
+      "t": "0.550",
+      "marker": "support_hand_contact",
+      "elapsed_s": 33.5665
+    },
+    {
+      "generation": "25",
+      "loop": "0",
+      "clip": "getup_back",
+      "t": "1.000",
+      "marker": "support_hand_release",
+      "elapsed_s": 33.9998
+    },
+    {
+      "generation": "25",
+      "loop": "0",
+      "clip": "getup_back",
+      "t": "2.375",
+      "marker": "standing",
+      "elapsed_s": 35.3998
+    },
+    {
+      "generation": "26",
+      "loop": "0",
+      "clip": "blink_out",
+      "t": "0.376",
+      "marker": "blink_teleport",
+      "elapsed_s": 36.3998
+    },
+    {
+      "generation": "27",
+      "loop": "0",
+      "clip": "blink_in",
+      "t": "0.024",
+      "marker": "blink_visible",
+      "elapsed_s": 36.4331
+    },
+    {
+      "generation": "27",
+      "loop": "0",
+      "clip": "blink_in",
+      "t": "0.280",
+      "marker": "foot_contact_L",
+      "elapsed_s": 36.6998
+    },
+    {
+      "generation": "27",
+      "loop": "0",
+      "clip": "blink_in",
+      "t": "0.280",
+      "marker": "foot_contact_R",
+      "elapsed_s": 36.6998
+    },
+    {
+      "generation": "28",
+      "loop": "0",
+      "clip": "melee_1",
+      "t": "0.096",
+      "marker": "blade_extend",
+      "elapsed_s": 39.1997
+    },
+    {
+      "generation": "28",
+      "loop": "0",
+      "clip": "melee_1",
+      "t": "0.288",
+      "marker": "melee_window_open",
+      "elapsed_s": 39.5997
+    },
+    {
+      "generation": "28",
+      "loop": "0",
+      "clip": "melee_1",
+      "t": "0.344",
+      "marker": "melee_contact",
+      "elapsed_s": 39.6997
+    },
+    {
+      "generation": "28",
+      "loop": "0",
+      "clip": "melee_1",
+      "t": "0.416",
+      "marker": "melee_window_close",
+      "elapsed_s": 39.8331
+    },
+    {
+      "generation": "28",
+      "loop": "0",
+      "clip": "melee_1",
+      "t": "0.544",
+      "marker": "recovery",
+      "elapsed_s": 40.0997
+    },
+    {
+      "generation": "28",
+      "loop": "0",
+      "clip": "melee_1",
+      "t": "0.704",
+      "marker": "blade_retract",
+      "elapsed_s": 40.4331
+    },
+    {
+      "generation": "29",
+      "loop": "1",
+      "clip": "melee_2",
+      "t": "0.108",
+      "marker": "blade_extend",
+      "elapsed_s": 42.0997
+    },
+    {
+      "generation": "29",
+      "loop": "1",
+      "clip": "melee_2",
+      "t": "0.324",
+      "marker": "melee_window_open",
+      "elapsed_s": 42.233
+    },
+    {
+      "generation": "29",
+      "loop": "1",
+      "clip": "melee_2",
+      "t": "0.387",
+      "marker": "melee_contact",
+      "elapsed_s": 42.2664
+    },
+    {
+      "generation": "29",
+      "loop": "1",
+      "clip": "melee_2",
+      "t": "0.468",
+      "marker": "melee_window_close",
+      "elapsed_s": 42.333
+    },
+    {
+      "generation": "29",
+      "loop": "1",
+      "clip": "melee_2",
+      "t": "0.612",
+      "marker": "recovery",
+      "elapsed_s": 42.433
+    },
+    {
+      "generation": "29",
+      "loop": "1",
+      "clip": "melee_2",
+      "t": "0.792",
+      "marker": "blade_retract",
+      "elapsed_s": 42.533
+    }
+  ]
+}

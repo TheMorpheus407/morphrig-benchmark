@@ -1,0 +1,583 @@
+{
+  "inventory_count": 96,
+  "motion_count": 85,
+  "static_count": 11,
+  "clips": {
+    "idle_relaxed": {
+      "sample_count": 109,
+      "duration_seconds": 3.6,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "idle_combat": {
+      "sample_count": 85,
+      "duration_seconds": 2.8,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "idle_wounded": {
+      "sample_count": 103,
+      "duration_seconds": 3.4,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "walk_f": {
+      "sample_count": 25,
+      "duration_seconds": 0.8,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "walk_fl": {
+      "sample_count": 25,
+      "duration_seconds": 0.8,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "walk_l": {
+      "sample_count": 25,
+      "duration_seconds": 0.8,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "walk_bl": {
+      "sample_count": 25,
+      "duration_seconds": 0.8,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "walk_b": {
+      "sample_count": 25,
+      "duration_seconds": 0.8,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "walk_br": {
+      "sample_count": 25,
+      "duration_seconds": 0.8,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "walk_r": {
+      "sample_count": 25,
+      "duration_seconds": 0.8,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "walk_fr": {
+      "sample_count": 25,
+      "duration_seconds": 0.8,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "run_f": {
+      "sample_count": 22,
+      "duration_seconds": 0.7,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "run_fl": {
+      "sample_count": 22,
+      "duration_seconds": 0.7,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "run_l": {
+      "sample_count": 22,
+      "duration_seconds": 0.7,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "run_bl": {
+      "sample_count": 22,
+      "duration_seconds": 0.7,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "run_b": {
+      "sample_count": 22,
+      "duration_seconds": 0.7,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "run_br": {
+      "sample_count": 22,
+      "duration_seconds": 0.7,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "run_r": {
+      "sample_count": 22,
+      "duration_seconds": 0.7,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "run_fr": {
+      "sample_count": 22,
+      "duration_seconds": 0.7,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "sprint_f": {
+      "sample_count": 19,
+      "duration_seconds": 0.6,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "start_f": {
+      "sample_count": 22,
+      "duration_seconds": 0.7,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "stop_f": {
+      "sample_count": 22,
+      "duration_seconds": 0.7,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "turn_l90": {
+      "sample_count": 25,
+      "duration_seconds": 0.8,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "turn_r90": {
+      "sample_count": 25,
+      "duration_seconds": 0.8,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "pivot_l180": {
+      "sample_count": 25,
+      "duration_seconds": 0.8,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "pivot_r180": {
+      "sample_count": 25,
+      "duration_seconds": 0.8,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "jump_start": {
+      "sample_count": 19,
+      "duration_seconds": 0.6,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "jump_air": {
+      "sample_count": 25,
+      "duration_seconds": 0.8,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "jump_land": {
+      "sample_count": 22,
+      "duration_seconds": 0.7,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "fall": {
+      "sample_count": 28,
+      "duration_seconds": 0.9,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "land_heavy": {
+      "sample_count": 31,
+      "duration_seconds": 1.0,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "dash_f": {
+      "sample_count": 16,
+      "duration_seconds": 0.5,
+      "root_displacement_m": 2.0000002,
+      "authored": true
+    },
+    "dash_b": {
+      "sample_count": 16,
+      "duration_seconds": 0.5,
+      "root_displacement_m": 2.0000002,
+      "authored": true
+    },
+    "dash_l": {
+      "sample_count": 16,
+      "duration_seconds": 0.5,
+      "root_displacement_m": 2.0000002,
+      "authored": true
+    },
+    "dash_r": {
+      "sample_count": 16,
+      "duration_seconds": 0.5,
+      "root_displacement_m": 2.0000002,
+      "authored": true
+    },
+    "blink_out": {
+      "sample_count": 13,
+      "duration_seconds": 0.4,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "blink_in": {
+      "sample_count": 13,
+      "duration_seconds": 0.4,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "melee_1": {
+      "sample_count": 25,
+      "duration_seconds": 0.8,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "melee_2": {
+      "sample_count": 28,
+      "duration_seconds": 0.9,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "melee_3": {
+      "sample_count": 34,
+      "duration_seconds": 1.1,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "ranged_fire": {
+      "sample_count": 10,
+      "duration_seconds": 0.3,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "ranged_burst": {
+      "sample_count": 19,
+      "duration_seconds": 0.6,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "reload": {
+      "sample_count": 70,
+      "duration_seconds": 2.3,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "cast_directional": {
+      "sample_count": 28,
+      "duration_seconds": 0.9,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "cast_ground": {
+      "sample_count": 37,
+      "duration_seconds": 1.2,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "cast_self": {
+      "sample_count": 28,
+      "duration_seconds": 0.9,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "channel_start": {
+      "sample_count": 19,
+      "duration_seconds": 0.6,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "channel_loop": {
+      "sample_count": 49,
+      "duration_seconds": 1.6,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "channel_end": {
+      "sample_count": 19,
+      "duration_seconds": 0.6,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "channel_interrupt": {
+      "sample_count": 13,
+      "duration_seconds": 0.4,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "charge_start": {
+      "sample_count": 25,
+      "duration_seconds": 0.8,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "charge_hold": {
+      "sample_count": 37,
+      "duration_seconds": 1.2,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "charge_release": {
+      "sample_count": 25,
+      "duration_seconds": 0.8,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "charge_cancel": {
+      "sample_count": 16,
+      "duration_seconds": 0.5,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "deploy": {
+      "sample_count": 55,
+      "duration_seconds": 1.8,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "uplink_start": {
+      "sample_count": 25,
+      "duration_seconds": 0.8,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "uplink_loop": {
+      "sample_count": 49,
+      "duration_seconds": 1.6,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "uplink_end": {
+      "sample_count": 22,
+      "duration_seconds": 0.7,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "uplink_cancel": {
+      "sample_count": 16,
+      "duration_seconds": 0.5,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "hit_f": {
+      "sample_count": 13,
+      "duration_seconds": 0.4,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "hit_b": {
+      "sample_count": 13,
+      "duration_seconds": 0.4,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "hit_l": {
+      "sample_count": 13,
+      "duration_seconds": 0.4,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "hit_r": {
+      "sample_count": 13,
+      "duration_seconds": 0.4,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "stun_start": {
+      "sample_count": 22,
+      "duration_seconds": 0.7,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "stun_loop": {
+      "sample_count": 55,
+      "duration_seconds": 1.8,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "stun_end": {
+      "sample_count": 31,
+      "duration_seconds": 1.0,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "knockback": {
+      "sample_count": 25,
+      "duration_seconds": 0.8,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "knockup_start": {
+      "sample_count": 19,
+      "duration_seconds": 0.6,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "knockup_air": {
+      "sample_count": 25,
+      "duration_seconds": 0.8,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "knockdown_front": {
+      "sample_count": 34,
+      "duration_seconds": 1.1,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "knockdown_back": {
+      "sample_count": 37,
+      "duration_seconds": 1.2,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "prone_front": {
+      "sample_count": 61,
+      "duration_seconds": 2.0,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "prone_back": {
+      "sample_count": 61,
+      "duration_seconds": 2.0,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "getup_front": {
+      "sample_count": 67,
+      "duration_seconds": 2.2,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "getup_back": {
+      "sample_count": 76,
+      "duration_seconds": 2.5,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "sleep_start": {
+      "sample_count": 73,
+      "duration_seconds": 2.4,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "sleep_loop": {
+      "sample_count": 85,
+      "duration_seconds": 2.8,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "sleep_end": {
+      "sample_count": 79,
+      "duration_seconds": 2.6,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "death_front": {
+      "sample_count": 64,
+      "duration_seconds": 2.1,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "death_back": {
+      "sample_count": 73,
+      "duration_seconds": 2.4,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "dead_front": {
+      "sample_count": 2,
+      "duration_seconds": 0.03333333333333333,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "dead_back": {
+      "sample_count": 2,
+      "duration_seconds": 0.03333333333333333,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "respawn": {
+      "sample_count": 73,
+      "duration_seconds": 2.4,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "greet": {
+      "sample_count": 67,
+      "duration_seconds": 2.2,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "victory": {
+      "sample_count": 85,
+      "duration_seconds": 2.8,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "defeat": {
+      "sample_count": 76,
+      "duration_seconds": 2.5,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "dialogue": {
+      "sample_count": 421,
+      "duration_seconds": 14.0,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "aim_down_left": {
+      "sample_count": 2,
+      "duration_seconds": 0.03333333333333333,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "aim_down_center": {
+      "sample_count": 2,
+      "duration_seconds": 0.03333333333333333,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "aim_down_right": {
+      "sample_count": 2,
+      "duration_seconds": 0.03333333333333333,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "aim_level_left": {
+      "sample_count": 2,
+      "duration_seconds": 0.03333333333333333,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "aim_level_center": {
+      "sample_count": 2,
+      "duration_seconds": 0.03333333333333333,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "aim_level_right": {
+      "sample_count": 2,
+      "duration_seconds": 0.03333333333333333,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "aim_up_left": {
+      "sample_count": 2,
+      "duration_seconds": 0.03333333333333333,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "aim_up_center": {
+      "sample_count": 2,
+      "duration_seconds": 0.03333333333333333,
+      "root_displacement_m": 0.0,
+      "authored": true
+    },
+    "aim_up_right": {
+      "sample_count": 2,
+      "duration_seconds": 0.03333333333333333,
+      "root_displacement_m": 0.0,
+      "authored": true
+    }
+  }
+}

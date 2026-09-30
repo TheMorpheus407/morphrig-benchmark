@@ -1,0 +1,136 @@
+0.0000 reset living props=home
+0.0000 loaded=96/96 morph_controls=37 engine=5.8.3-58210709+++UE5+Release-5.8 instances=1
+0.0000 mesh bounds height=180.000cm bones=64 root=root materials=8 LODs=3
+0.0000 morph blink_L LOD0_deltas=2791 LOD1_deltas=1263 LOD2_deltas=721
+0.0000 morph blink_R LOD0_deltas=2791 LOD1_deltas=1260 LOD2_deltas=724
+0.0000 morph squint_L LOD0_deltas=607 LOD1_deltas=294 LOD2_deltas=260
+0.0000 morph squint_R LOD0_deltas=602 LOD1_deltas=288 LOD2_deltas=262
+0.0000 morph brow_up_L LOD0_deltas=3566 LOD1_deltas=1638 LOD2_deltas=1013
+0.0000 morph brow_up_R LOD0_deltas=3613 LOD1_deltas=1623 LOD2_deltas=1007
+0.0000 morph brow_down_L LOD0_deltas=3431 LOD1_deltas=1584 LOD2_deltas=977
+0.0000 morph brow_down_R LOD0_deltas=3459 LOD1_deltas=1581 LOD2_deltas=979
+0.0000 morph cheek_L LOD0_deltas=3271 LOD1_deltas=1531 LOD2_deltas=862
+0.0000 morph cheek_R LOD0_deltas=3313 LOD1_deltas=1524 LOD2_deltas=857
+0.0000 morph smile_L LOD0_deltas=2150 LOD1_deltas=1107 LOD2_deltas=751
+0.0000 morph smile_R LOD0_deltas=2127 LOD1_deltas=1091 LOD2_deltas=755
+0.0000 morph frown_L LOD0_deltas=2130 LOD1_deltas=1090 LOD2_deltas=745
+0.0000 morph frown_R LOD0_deltas=2104 LOD1_deltas=1067 LOD2_deltas=748
+0.0000 morph jaw_open LOD0_deltas=3333 LOD1_deltas=1661 LOD2_deltas=1127
+0.0000 morph lip_close LOD0_deltas=610 LOD1_deltas=416 LOD2_deltas=376
+0.0000 morph mouth_wide LOD0_deltas=3381 LOD1_deltas=1694 LOD2_deltas=1139
+0.0000 morph pucker LOD0_deltas=3880 LOD1_deltas=1941 LOD2_deltas=1294
+0.0000 morph funnel LOD0_deltas=3851 LOD1_deltas=1930 LOD2_deltas=1283
+0.0000 morph viseme_AA LOD0_deltas=3333 LOD1_deltas=1660 LOD2_deltas=1127
+0.0000 morph viseme_EE LOD0_deltas=3910 LOD1_deltas=1963 LOD2_deltas=1301
+0.0000 morph viseme_OH LOD0_deltas=3957 LOD1_deltas=1982 LOD2_deltas=1324
+0.0000 morph viseme_OO LOD0_deltas=4005 LOD1_deltas=2012 LOD2_deltas=1329
+0.0000 morph viseme_FV LOD0_deltas=486 LOD1_deltas=342 LOD2_deltas=330
+0.0000 morph viseme_MBP LOD0_deltas=610 LOD1_deltas=416 LOD2_deltas=376
+0.0000 morph viseme_L LOD0_deltas=3329 LOD1_deltas=1640 LOD2_deltas=1116
+0.0000 morph viseme_TH LOD0_deltas=3326 LOD1_deltas=1635 LOD2_deltas=1107
+0.0000 morph shoulder_raise_L LOD0_deltas=425 LOD1_deltas=276 LOD2_deltas=245
+0.0000 morph shoulder_raise_R LOD0_deltas=433 LOD1_deltas=287 LOD2_deltas=239
+0.0000 morph hip_flex_L LOD0_deltas=377 LOD1_deltas=247 LOD2_deltas=218
+0.0000 morph hip_flex_R LOD0_deltas=380 LOD1_deltas=246 LOD2_deltas=217
+0.0000 morph wrist_flex_L LOD0_deltas=388 LOD1_deltas=246 LOD2_deltas=225
+0.0000 morph wrist_flex_R LOD0_deltas=228 LOD1_deltas=155 LOD2_deltas=156
+0.0000 render LOD0 triangles=42904 vertices=39908 sections=8
+0.0000 render LOD1 triangles=19249 vertices=19738 sections=8
+0.0000 render LOD2 triangles=11260 vertices=12384 sections=8
+0.0333 terrain pos=V(X=260.00, Z=92.80) feetL=-0.30 feetR=-0.30 pelvis=-0.08 ankleL=V(X=262.26, Y=-12.64, Z=11.11) ankleR=V(X=257.76, Y=12.64, Z=11.11) groundL=0.000 groundR=0.000 falling=0
+0.0333 state generation=1  -> start_f priority=20 browser=0
+0.1000 terrain pos=V(X=266.83, Z=92.80) feetL=-0.55 feetR=-0.55 pelvis=-0.24 ankleL=V(X=275.23, Y=-14.53, Z=10.62) ankleR=V(X=257.12, Y=14.57, Z=10.37) groundL=0.000 groundR=0.000 falling=0
+0.2000 terrain pos=V(X=281.83, Z=92.80) feetL=-0.64 feetR=-0.64 pelvis=-0.37 ankleL=V(X=283.71, Y=-12.33, Z=11.02) ankleR=V(X=279.94, Y=12.33, Z=11.02) groundL=0.000 groundR=0.000 falling=0
+0.3000 terrain pos=V(X=296.83, Z=92.80) feetL=-0.65 feetR=-0.65 pelvis=-0.41 ankleL=V(X=298.17, Y=-12.09, Z=11.00) ankleR=V(X=295.32, Y=12.09, Z=11.64) groundL=0.000 groundR=0.000 falling=0
+0.4000 terrain pos=V(X=311.83, Z=92.80) feetL=-0.65 feetR=-0.49 pelvis=-0.42 ankleL=V(X=312.29, Y=-12.61, Z=11.00) ankleR=V(X=310.29, Y=12.60, Z=15.30) groundL=0.000 groundR=0.000 falling=0
+0.4333 event generation=1 loop=0 clip=walk_f t=0.400 marker=foot_contact_R
+0.5000 terrain pos=V(X=326.83, Z=92.80) feetL=-0.65 feetR=-0.63 pelvis=-0.42 ankleL=V(X=326.02, Y=-13.34, Z=11.00) ankleR=V(X=325.21, Y=13.34, Z=20.16) groundL=0.000 groundR=0.000 falling=0
+0.6000 terrain pos=V(X=341.83, Z=93.62) feetL=-1.03 feetR=-1.03 pelvis=-0.52 ankleL=V(X=339.81, Y=-14.05, Z=11.44) ankleR=V(X=340.12, Y=14.05, Z=25.28) groundL=0.000 groundR=0.000 falling=0
+0.7000 terrain pos=V(X=356.83, Z=99.48) feetL=-5.44 feetR=-5.44 pelvis=-2.33 ankleL=V(X=354.08, Y=-14.46, Z=12.89) ankleR=V(X=355.05, Y=14.47, Z=29.50) groundL=0.000 groundR=0.000 falling=0
+0.8000 terrain pos=V(X=371.83, Z=104.94) feetL=0.48 feetR=-2.31 pelvis=-1.64 ankleL=V(X=386.95, Y=-14.57, Z=24.03) ankleR=V(X=361.09, Y=14.73, Z=26.59) groundL=12.566 groundR=9.185 falling=0
+0.8333 event generation=1 loop=1 clip=walk_f t=0.000 marker=foot_contact_L
+0.9000 terrain pos=V(X=386.83, Z=110.40) feetL=9.75 feetR=-8.28 pelvis=-3.74 ankleL=V(X=412.39, Y=-14.50, Z=38.98) ankleR=V(X=354.97, Y=14.35, Z=24.33) groundL=27.290 groundR=6.397 falling=0
+1.0000 terrain pos=V(X=401.83, Z=115.86) feetL=6.28 feetR=-11.65 pelvis=-6.62 ankleL=V(X=412.53, Y=-14.50, Z=40.94) ankleR=V(X=379.28, Y=14.51, Z=29.54) groundL=27.562 groundR=11.262 falling=0
+1.1000 terrain pos=V(X=416.83, Z=121.32) feetL=1.13 feetR=-2.89 pelvis=-4.04 ankleL=V(X=412.56, Y=-14.50, Z=41.26) ankleR=V(X=421.90, Y=14.51, Z=45.11) groundL=27.568 groundR=25.571 falling=0
+1.2000 terrain pos=V(X=431.83, Z=126.78) feetL=-3.83 feetR=7.25 pelvis=-2.18 ankleL=V(X=412.59, Y=-14.50, Z=41.82) ankleR=V(X=461.49, Y=14.51, Z=55.94) groundL=27.571 groundR=41.168 falling=0
+1.2333 event generation=1 loop=1 clip=walk_f t=0.400 marker=foot_contact_R
+1.3333 terrain pos=V(X=451.83, Z=134.06) feetL=-10.89 feetR=9.26 pelvis=-5.61 ankleL=V(X=419.33, Y=-14.39, Z=45.83) ankleR=V(X=472.54, Y=14.50, Z=62.09) groundL=28.465 groundR=49.349 falling=0
+1.4333 terrain pos=V(X=466.83, Z=139.51) feetL=-9.36 feetR=4.67 pelvis=-6.59 ankleL=V(X=452.62, Y=-14.51, Z=56.64) ankleR=V(X=472.54, Y=14.50, Z=62.99) groundL=37.297 groundR=49.400 falling=0
+1.5333 terrain pos=V(X=481.83, Z=144.97) feetL=0.69 feetR=-0.66 pelvis=-2.64 ankleL=V(X=496.45, Y=-14.51, Z=71.38) ankleR=V(X=472.56, Y=14.50, Z=63.13) groundL=52.811 groundR=49.408 falling=0
+1.6333 terrain pos=V(X=496.83, Z=150.43) feetL=9.64 feetR=-6.09 pelvis=-3.05 ankleL=V(X=529.30, Y=-14.51, Z=79.85) ankleR=V(X=473.28, Y=14.50, Z=64.58) groundL=67.221 groundR=49.421 falling=0
+1.6333 event generation=1 loop=2 clip=walk_f t=0.000 marker=foot_contact_L
+1.7333 terrain pos=V(X=511.83, Z=155.89) feetL=9.26 feetR=-10.93 pelvis=-5.69 ankleL=V(X=532.54, Y=-14.50, Z=83.93) ankleR=V(X=479.31, Y=14.39, Z=67.60) groundL=71.187 groundR=50.297 falling=0
+1.8333 terrain pos=V(X=526.83, Z=161.35) feetL=4.67 feetR=-9.36 pelvis=-6.61 ankleL=V(X=532.54, Y=-14.50, Z=84.83) ankleR=V(X=512.62, Y=14.51, Z=78.48) groundL=71.239 groundR=59.136 falling=0
+1.9333 terrain pos=V(X=541.83, Z=166.81) feetL=-0.66 feetR=0.69 pelvis=-2.64 ankleL=V(X=532.56, Y=-14.50, Z=84.97) ankleR=V(X=556.45, Y=14.51, Z=93.21) groundL=71.247 groundR=74.649 falling=0
+2.0333 terrain pos=V(X=556.83, Z=172.27) feetL=-6.09 feetR=9.64 pelvis=-3.05 ankleL=V(X=533.28, Y=-14.51, Z=86.41) ankleR=V(X=589.30, Y=14.51, Z=101.69) groundL=71.260 groundR=89.059 falling=0
+2.0333 event generation=1 loop=2 clip=walk_f t=0.400 marker=foot_contact_R
+2.1333 terrain pos=V(X=571.83, Z=177.73) feetL=-10.93 feetR=9.26 pelvis=-5.69 ankleL=V(X=539.31, Y=-14.40, Z=89.44) ankleR=V(X=592.54, Y=14.50, Z=105.77) groundL=72.135 groundR=93.025 falling=0
+2.2333 terrain pos=V(X=586.83, Z=183.19) feetL=-9.36 feetR=4.67 pelvis=-6.61 ankleL=V(X=572.62, Y=-14.51, Z=100.31) ankleR=V(X=592.54, Y=14.50, Z=106.67) groundL=80.974 groundR=93.077 falling=0
+2.3333 terrain pos=V(X=601.83, Z=188.65) feetL=0.69 feetR=-0.66 pelvis=-2.64 ankleL=V(X=616.45, Y=-14.51, Z=115.05) ankleR=V(X=592.56, Y=14.50, Z=105.33) groundL=96.488 groundR=93.085 falling=0
+2.4333 terrain pos=V(X=616.83, Z=194.11) feetL=6.68 feetR=-6.09 pelvis=-3.05 ankleL=V(X=649.30, Y=-14.51, Z=120.57) ankleR=V(X=593.28, Y=14.50, Z=108.25) groundL=108.000 groundR=93.098 falling=0
+2.4333 event generation=1 loop=3 clip=walk_f t=0.000 marker=foot_contact_L
+2.5333 terrain pos=V(X=631.83, Z=199.27) feetL=2.58 feetR=-10.79 pelvis=-5.65 ankleL=V(X=652.54, Y=-14.50, Z=120.63) ankleR=V(X=599.27, Y=14.40, Z=111.03) groundL=108.000 groundR=93.974 falling=0
+2.6333 terrain pos=V(X=646.83, Z=199.98) feetL=0.55 feetR=-4.31 pelvis=-4.71 ankleL=V(X=652.54, Y=-14.50, Z=119.34) ankleR=V(X=632.62, Y=14.51, Z=122.15) groundL=108.000 groundR=102.812 falling=0
+2.7333 terrain pos=V(X=661.83, Z=199.98) feetL=0.23 feetR=0.28 pelvis=-1.02 ankleL=V(X=652.56, Y=-14.50, Z=119.02) ankleR=V(X=676.45, Y=14.51, Z=125.97) groundL=108.000 groundR=108.000 falling=0
+2.8333 terrain pos=V(X=676.83, Z=199.98) feetL=0.18 feetR=0.19 pelvis=-0.22 ankleL=V(X=653.28, Y=-14.51, Z=120.39) ankleR=V(X=709.30, Y=14.51, Z=119.94) groundL=108.000 groundR=108.000 falling=0
+2.8333 event generation=1 loop=3 clip=walk_f t=0.400 marker=foot_contact_R
+2.9333 terrain pos=V(X=691.83, Z=199.98) feetL=0.18 feetR=0.18 pelvis=-0.05 ankleL=V(X=658.70, Y=-14.51, Z=121.36) ankleR=V(X=712.54, Y=14.50, Z=118.93) groundL=108.000 groundR=108.000 falling=0
+3.0333 terrain pos=V(X=706.83, Z=199.98) feetL=0.17 feetR=0.17 pelvis=-0.01 ankleL=V(X=692.62, Y=-14.51, Z=126.63) ankleR=V(X=712.54, Y=14.50, Z=118.96) groundL=108.000 groundR=108.000 falling=0
+3.1333 terrain pos=V(X=721.83, Z=199.98) feetL=0.17 feetR=0.17 pelvis=-0.00 ankleL=V(X=736.45, Y=-14.51, Z=125.86) ankleR=V(X=712.56, Y=14.50, Z=118.96) groundL=108.000 groundR=108.000 falling=0
+3.1667 state generation=2  -> stop_f priority=20 browser=0
+3.2333 terrain pos=V(X=722.88, Z=199.98) feetL=0.17 feetR=0.17 pelvis=-0.00 ankleL=V(X=715.31, Y=-14.91, Z=117.30) ankleR=V(X=730.62, Y=14.96, Z=120.45) groundL=108.000 groundR=108.000 falling=0
+3.3333 terrain pos=V(X=722.88, Z=199.98) feetL=0.17 feetR=0.17 pelvis=-0.00 ankleL=V(X=730.36, Y=-15.46, Z=120.87) ankleR=V(X=725.38, Y=15.46, Z=122.76) groundL=108.000 groundR=108.000 falling=0
+3.4333 terrain pos=V(X=722.88, Z=199.98) feetL=0.17 feetR=0.17 pelvis=0.00 ankleL=V(X=755.41, Y=-15.99, Z=119.03) ankleR=V(X=711.15, Y=15.99, Z=119.07) groundL=108.000 groundR=108.000 falling=0
+3.5333 terrain pos=V(X=722.88, Z=199.98) feetL=0.17 feetR=0.17 pelvis=0.00 ankleL=V(X=752.79, Y=-15.89, Z=119.00) ankleR=V(X=711.65, Y=15.89, Z=119.00) groundL=108.000 groundR=108.000 falling=0
+3.6333 terrain pos=V(X=722.88, Z=199.98) feetL=0.17 feetR=0.17 pelvis=0.00 ankleL=V(X=744.21, Y=-15.58, Z=119.00) ankleR=V(X=713.80, Y=15.58, Z=119.00) groundL=108.000 groundR=108.000 falling=0
+3.7333 terrain pos=V(X=722.88, Z=199.98) feetL=0.17 feetR=0.17 pelvis=0.00 ankleL=V(X=734.55, Y=-15.24, Z=119.00) ankleR=V(X=716.21, Y=15.24, Z=119.00) groundL=108.000 groundR=108.000 falling=0
+3.8333 terrain pos=V(X=722.88, Z=199.98) feetL=0.17 feetR=0.17 pelvis=0.00 ankleL=V(X=728.38, Y=-15.02, Z=119.00) ankleR=V(X=717.75, Y=15.02, Z=119.00) groundL=108.000 groundR=108.000 falling=0
+3.9333 terrain pos=V(X=722.88, Z=199.98) feetL=0.17 feetR=0.17 pelvis=0.00 ankleL=V(X=727.88, Y=-15.00, Z=118.99) ankleR=V(X=717.88, Y=15.00, Z=118.99) groundL=108.000 groundR=108.000 falling=0
+4.0333 terrain: begin 20cm stairs
+4.0333 terrain pos=V(X=-360.00, Y=150.00, Z=100.00) feetL=0.17 feetR=0.17 pelvis=0.00 ankleL=V(X=-354.99, Y=135.00, Z=19.02) ankleR=V(X=-365.00, Y=165.00, Z=19.02) groundL=108.000 groundR=108.000 falling=0
+4.0333 state generation=3  -> start_f priority=20 browser=0
+4.1333 terrain pos=V(X=-371.83, Y=150.00, Z=100.59) feetL=-3.91 feetR=-3.91 pelvis=-1.02 ankleL=V(X=-367.12, Y=136.21, Z=15.36) ankleR=V(X=-377.97, Y=163.82, Z=15.43) groundL=0.000 groundR=0.000 falling=0
+4.2000 event generation=3 loop=0 clip=walk_b t=0.400 marker=foot_contact_R
+4.2333 terrain pos=V(X=-386.83, Y=150.00, Z=110.97) feetL=-15.37 feetR=-15.37 pelvis=-6.93 ankleL=V(X=-384.94, Y=137.67, Z=17.48) ankleR=V(X=-388.71, Y=162.33, Z=17.47) groundL=0.000 groundR=0.000 falling=0
+4.3333 terrain pos=V(X=-401.83, Y=150.00, Z=111.98) feetL=0.17 feetR=0.17 pelvis=-3.13 ankleL=V(X=-400.70, Y=137.78, Z=31.00) ankleR=V(X=-403.34, Y=162.22, Z=32.53) groundL=20.000 groundR=20.000 falling=0
+4.4333 terrain pos=V(X=-416.83, Y=150.00, Z=111.98) feetL=0.17 feetR=0.17 pelvis=-0.68 ankleL=V(X=-416.76, Y=137.17, Z=31.00) ankleR=V(X=-418.39, Y=162.84, Z=36.74) groundL=20.000 groundR=20.000 falling=0
+4.5333 terrain pos=V(X=-431.83, Y=150.00, Z=128.99) feetL=-12.33 feetR=-12.33 pelvis=-5.02 ankleL=V(X=-433.07, Y=136.41, Z=35.50) ankleR=V(X=-433.48, Y=163.59, Z=46.32) groundL=20.000 groundR=20.000 falling=0
+4.6000 event generation=3 loop=1 clip=walk_b t=0.000 marker=foot_contact_L
+4.6333 terrain pos=V(X=-446.83, Y=150.00, Z=131.98) feetL=0.17 feetR=0.17 pelvis=-5.24 ankleL=V(X=-449.16, Y=135.77, Z=51.00) ankleR=V(X=-448.56, Y=164.23, Z=66.05) groundL=40.000 groundR=40.000 falling=0
+4.7333 terrain pos=V(X=-461.83, Y=150.00, Z=131.98) feetL=0.17 feetR=0.17 pelvis=-1.13 ankleL=V(X=-464.63, Y=135.50, Z=51.00) ankleR=V(X=-463.60, Y=164.50, Z=67.82) groundL=40.000 groundR=40.000 falling=0
+4.8333 terrain pos=V(X=-476.83, Y=150.00, Z=145.75) feetL=-8.40 feetR=-8.40 pelvis=-3.03 ankleL=V(X=-477.30, Y=135.50, Z=56.18) ankleR=V(X=-479.93, Y=164.51, Z=65.73) groundL=40.000 groundR=40.000 falling=0
+4.9333 terrain pos=V(X=-491.83, Y=150.00, Z=151.98) feetL=-17.45 feetR=0.71 pelvis=-8.74 ankleL=V(X=-477.23, Y=135.62, Z=55.50) ankleR=V(X=-520.18, Y=164.51, Z=76.60) groundL=40.000 groundR=60.000 falling=0
+5.0000 event generation=3 loop=1 clip=walk_b t=0.400 marker=foot_contact_R
+5.0333 terrain pos=V(X=-506.83, Y=150.00, Z=151.98) feetL=-19.46 feetR=0.26 pelvis=-11.67 ankleL=V(X=-476.00, Y=135.71, Z=58.38) ankleR=V(X=-537.52, Y=164.50, Z=71.90) groundL=40.000 groundR=60.000 falling=0
+5.1333 terrain pos=V(X=-521.83, Y=150.00, Z=160.59) feetL=0.00 feetR=-3.83 pelvis=-8.43 ankleL=V(X=-497.57, Y=135.49, Z=84.48) ankleR=V(X=-536.83, Y=164.50, Z=75.57) groundL=40.000 groundR=60.000 falling=0
+5.2333 terrain pos=V(X=-536.83, Y=150.00, Z=170.97) feetL=-14.78 feetR=-15.36 pelvis=-8.52 ankleL=V(X=-540.22, Y=135.49, Z=83.23) ankleR=V(X=-536.83, Y=164.50, Z=74.44) groundL=60.000 groundR=60.000 falling=0
+5.3333 terrain pos=V(X=-551.83, Y=150.00, Z=171.98) feetL=0.17 feetR=-19.15 pelvis=-11.35 ankleL=V(X=-580.18, Y=135.49, Z=96.07) ankleR=V(X=-537.07, Y=164.43, Z=73.66) groundL=80.000 groundR=60.000 falling=0
+5.4000 event generation=3 loop=2 clip=walk_b t=0.000 marker=foot_contact_L
+5.4333 terrain pos=V(X=-566.83, Y=150.00, Z=171.98) feetL=0.09 feetR=-19.72 pelvis=-12.46 ankleL=V(X=-602.09, Y=135.49, Z=91.71) ankleR=V(X=-541.48, Y=164.38, Z=74.58) groundL=80.000 groundR=60.000 falling=0
+5.5333 terrain pos=V(X=-581.83, Y=150.00, Z=171.98) feetL=0.01 feetR=0.17 pelvis=-4.12 ankleL=V(X=-596.83, Y=135.50, Z=90.81) ankleR=V(X=-557.57, Y=164.51, Z=96.05) groundL=80.000 groundR=80.000 falling=0
+5.6000 state generation=4  -> stop_f priority=20 browser=0
+5.6333 terrain pos=V(X=-587.88, Y=150.00, Z=171.98) feetL=0.00 feetR=0.17 pelvis=-0.89 ankleL=V(X=-598.62, Y=135.33, Z=90.25) ankleR=V(X=-579.96, Y=164.75, Z=96.47) groundL=80.000 groundR=80.000 falling=0
+5.7333 terrain pos=V(X=-587.88, Y=150.00, Z=171.98) feetL=0.00 feetR=0.17 pelvis=-0.19 ankleL=V(X=-592.97, Y=134.80, Z=93.60) ankleR=V(X=-578.25, Y=165.19, Z=96.60) groundL=80.000 groundR=80.000 falling=0
+5.8333 terrain pos=V(X=-587.88, Y=150.00, Z=171.98) feetL=0.17 feetR=0.17 pelvis=-0.04 ankleL=V(X=-560.15, Y=134.11, Z=91.38) ankleR=V(X=-596.89, Y=165.89, Z=91.78) groundL=80.000 groundR=80.000 falling=0
+5.9333 terrain pos=V(X=-587.88, Y=150.00, Z=171.98) feetL=0.17 feetR=0.03 pelvis=-0.01 ankleL=V(X=-556.12, Y=134.04, Z=91.00) ankleR=V(X=-599.57, Y=165.96, Z=90.85) groundL=80.000 groundR=80.000 falling=0
+6.0333 terrain pos=V(X=-587.88, Y=150.00, Z=171.98) feetL=0.17 feetR=0.00 pelvis=-0.00 ankleL=V(X=-563.35, Y=134.30, Z=91.00) ankleR=V(X=-597.76, Y=165.70, Z=90.83) groundL=80.000 groundR=80.000 falling=0
+6.1333 terrain pos=V(X=-587.88, Y=150.00, Z=171.98) feetL=0.17 feetR=0.00 pelvis=-0.00 ankleL=V(X=-573.15, Y=134.65, Z=91.00) ankleR=V(X=-595.31, Y=165.35, Z=90.83) groundL=80.000 groundR=80.000 falling=0
+6.2333 terrain pos=V(X=-587.88, Y=150.00, Z=171.98) feetL=0.17 feetR=0.17 pelvis=-0.00 ankleL=V(X=-580.99, Y=134.93, Z=91.00) ankleR=V(X=-593.35, Y=165.07, Z=91.00) groundL=80.000 groundR=80.000 falling=0
+6.3333 terrain pos=V(X=-587.88, Y=150.00, Z=171.98) feetL=0.17 feetR=0.17 pelvis=0.00 ankleL=V(X=-582.87, Y=135.00, Z=90.99) ankleR=V(X=-592.88, Y=165.00, Z=90.99) groundL=80.000 groundR=80.000 falling=0
+6.4333 terrain pos=V(X=-587.88, Y=150.00, Z=171.98) feetL=0.17 feetR=0.17 pelvis=0.00 ankleL=V(X=-582.88, Y=135.00, Z=91.00) ankleR=V(X=-592.88, Y=165.00, Z=91.00) groundL=80.000 groundR=80.000 falling=0
+6.5333 terrain pos=V(X=-587.88, Y=150.00, Z=171.98) feetL=0.17 feetR=0.17 pelvis=0.00 ankleL=V(X=-582.88, Y=135.00, Z=91.00) ankleR=V(X=-592.88, Y=165.00, Z=91.00) groundL=80.000 groundR=80.000 falling=0
+6.6333 terrain pos=V(X=-587.88, Y=150.00, Z=171.98) feetL=0.17 feetR=0.17 pelvis=0.00 ankleL=V(X=-582.88, Y=135.00, Z=91.00) ankleR=V(X=-592.88, Y=165.00, Z=91.00) groundL=80.000 groundR=80.000 falling=0
+6.7333 terrain pos=V(X=-587.88, Y=150.00, Z=171.98) feetL=0.17 feetR=0.17 pelvis=0.00 ankleL=V(X=-582.88, Y=135.00, Z=91.00) ankleR=V(X=-592.88, Y=165.00, Z=91.00) groundL=80.000 groundR=80.000 falling=0
+6.8333 terrain pos=V(X=-587.88, Y=150.00, Z=171.98) feetL=0.17 feetR=0.17 pelvis=0.00 ankleL=V(X=-582.88, Y=135.00, Z=91.00) ankleR=V(X=-592.87, Y=165.00, Z=91.00) groundL=80.000 groundR=80.000 falling=0
+6.9333 terrain pos=V(X=-587.88, Y=150.00, Z=171.98) feetL=0.17 feetR=0.17 pelvis=0.00 ankleL=V(X=-582.88, Y=135.00, Z=91.00) ankleR=V(X=-592.88, Y=165.00, Z=91.00) groundL=80.000 groundR=80.000 falling=0
+7.0333 terrain pos=V(X=-587.88, Y=150.00, Z=171.98) feetL=0.17 feetR=0.17 pelvis=0.00 ankleL=V(X=-582.88, Y=135.00, Z=91.00) ankleR=V(X=-592.88, Y=164.99, Z=91.00) groundL=80.000 groundR=80.000 falling=0
+7.1333 terrain pos=V(X=-587.88, Y=150.00, Z=171.98) feetL=0.17 feetR=0.17 pelvis=0.00 ankleL=V(X=-582.88, Y=135.00, Z=91.00) ankleR=V(X=-592.88, Y=165.00, Z=91.00) groundL=80.000 groundR=80.000 falling=0
+7.2333 terrain pos=V(X=-587.88, Y=150.00, Z=171.98) feetL=0.17 feetR=0.17 pelvis=0.00 ankleL=V(X=-582.88, Y=135.00, Z=91.00) ankleR=V(X=-592.88, Y=164.99, Z=91.00) groundL=80.000 groundR=80.000 falling=0
+7.3333 terrain pos=V(X=-587.88, Y=150.00, Z=171.98) feetL=0.17 feetR=0.17 pelvis=0.00 ankleL=V(X=-582.88, Y=135.00, Z=91.00) ankleR=V(X=-592.88, Y=165.00, Z=91.00) groundL=80.000 groundR=80.000 falling=0
+7.4333 terrain pos=V(X=-587.88, Y=150.00, Z=171.98) feetL=0.17 feetR=0.17 pelvis=0.00 ankleL=V(X=-582.88, Y=135.00, Z=91.00) ankleR=V(X=-592.88, Y=165.00, Z=91.00) groundL=80.000 groundR=80.000 falling=0
+7.5333 terrain pos=V(X=-587.88, Y=150.00, Z=171.98) feetL=0.17 feetR=0.17 pelvis=0.00 ankleL=V(X=-582.87, Y=135.00, Z=91.00) ankleR=V(X=-592.88, Y=165.00, Z=91.00) groundL=80.000 groundR=80.000 falling=0
+7.6333 terrain pos=V(X=-587.88, Y=150.00, Z=171.98) feetL=0.17 feetR=0.17 pelvis=0.00 ankleL=V(X=-582.88, Y=135.00, Z=91.00) ankleR=V(X=-592.88, Y=165.00, Z=91.00) groundL=80.000 groundR=80.000 falling=0
+7.7333 terrain pos=V(X=-587.88, Y=150.00, Z=171.98) feetL=0.17 feetR=0.17 pelvis=0.00 ankleL=V(X=-582.88, Y=135.00, Z=91.00) ankleR=V(X=-592.88, Y=165.00, Z=91.00) groundL=80.000 groundR=80.000 falling=0
+7.8333 terrain pos=V(X=-587.88, Y=150.00, Z=171.98) feetL=0.17 feetR=0.17 pelvis=0.00 ankleL=V(X=-582.88, Y=135.00, Z=91.00) ankleR=V(X=-592.88, Y=165.00, Z=91.00) groundL=80.000 groundR=80.000 falling=0
+7.9333 terrain pos=V(X=-587.88, Y=150.00, Z=171.98) feetL=0.17 feetR=0.17 pelvis=0.00 ankleL=V(X=-582.88, Y=135.01, Z=91.00) ankleR=V(X=-592.88, Y=165.01, Z=91.00) groundL=80.000 groundR=80.000 falling=0
+8.0333 terrain pos=V(X=-587.88, Y=150.00, Z=171.98) feetL=0.17 feetR=0.17 pelvis=0.00 ankleL=V(X=-582.88, Y=134.99, Z=91.00) ankleR=V(X=-592.88, Y=165.00, Z=91.00) groundL=80.000 groundR=80.000 falling=0

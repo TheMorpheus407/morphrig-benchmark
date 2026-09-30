@@ -1,0 +1,26 @@
+00:01.176  blend            | Read blend: "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/source/Operative.blend"
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/pilot_cm/Operative.fbx'
+export finished in 0.4400 sec.
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/pilot_cm/dash_f.fbx'
+export finished in 0.5896 sec.
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/pilot_cm/prone_back.fbx'
+export finished in 0.8008 sec.
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/pilot_cm/reload.fbx'
+export finished in 0.8955 sec.
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/pilot_cm/deploy.fbx'
+export finished in 0.5976 sec.
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/pilot_cm/run_f.fbx'
+export finished in 0.6904 sec.
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/pilot_cm/idle_relaxed.fbx'
+export finished in 0.9849 sec.
+CENTIMETER PILOT READY
+Blender 5.1.1
+
+Blender quit

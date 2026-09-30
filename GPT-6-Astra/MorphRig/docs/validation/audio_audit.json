@@ -1,0 +1,17 @@
+{
+  "duration": 13.932789115646258,
+  "peak_pcm": 20039,
+  "rms_pcm": 2686.5609702446095,
+  "clipped_samples": 0,
+  "all_events_in_bounds": true,
+  "phoneme_visemes": [
+    "consonant",
+    "labiodental",
+    "lip_close",
+    "neutral",
+    "open_vowel",
+    "rounded_vowel",
+    "tongue_teeth",
+    "wide_vowel"
+  ]
+}

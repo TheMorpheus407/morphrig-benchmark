@@ -1,0 +1,84 @@
+00:00.784  blend            | Read blend: "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/source/Character_Master.blend"
+DRIVER pose.bones["forearm.L"].constraints["Animator arm IK"].influence True blend
+DRIVER pose.bones["shin.L"].constraints["Animator leg IK"].influence True blend
+DRIVER pose.bones["CTRL_heel.L"].rotation_euler True min(0,roll)*0.65+extra*0.4
+DRIVER pose.bones["CTRL_toe_pivot.L"].rotation_euler True max(0,roll)*0.65+extra*0.5
+DRIVER pose.bones["hand.L"].constraints["IK orientation"].influence True ik
+DRIVER pose.bones["foot.L"].constraints["IK orientation"].influence True ik
+DRIVER pose.bones["CTRL_thumb.01.L"].rotation_euler True amount*-0.9
+DRIVER pose.bones["CTRL_thumb.01.L"].rotation_euler True amount*-0.28
+DRIVER pose.bones["CTRL_thumb.02.L"].rotation_euler True amount*-1.2
+DRIVER pose.bones["CTRL_thumb.02.L"].rotation_euler True amount*0
+DRIVER pose.bones["CTRL_thumb.03.L"].rotation_euler True amount*-0.9
+DRIVER pose.bones["CTRL_thumb.03.L"].rotation_euler True amount*0
+DRIVER pose.bones["CTRL_index.01.L"].rotation_euler True amount*-0.9
+DRIVER pose.bones["CTRL_index.01.L"].rotation_euler True amount*-0.14
+DRIVER pose.bones["CTRL_index.02.L"].rotation_euler True amount*-1.2
+DRIVER pose.bones["CTRL_index.02.L"].rotation_euler True amount*0
+DRIVER pose.bones["CTRL_index.03.L"].rotation_euler True amount*-0.9
+DRIVER pose.bones["CTRL_index.03.L"].rotation_euler True amount*0
+DRIVER pose.bones["CTRL_middle.01.L"].rotation_euler True amount*-0.9
+DRIVER pose.bones["CTRL_middle.01.L"].rotation_euler True amount*0.0
+DRIVER pose.bones["CTRL_middle.02.L"].rotation_euler True amount*-1.2
+DRIVER pose.bones["CTRL_middle.02.L"].rotation_euler True amount*0
+DRIVER pose.bones["CTRL_middle.03.L"].rotation_euler True amount*-0.9
+DRIVER pose.bones["CTRL_middle.03.L"].rotation_euler True amount*0
+DRIVER pose.bones["CTRL_ring.01.L"].rotation_euler True amount*-0.9
+DRIVER pose.bones["CTRL_ring.01.L"].rotation_euler True amount*0.14
+DRIVER pose.bones["CTRL_ring.02.L"].rotation_euler True amount*-1.2
+DRIVER pose.bones["CTRL_ring.02.L"].rotation_euler True amount*0
+DRIVER pose.bones["CTRL_ring.03.L"].rotation_euler True amount*-0.9
+DRIVER pose.bones["CTRL_ring.03.L"].rotation_euler True amount*0
+DRIVER pose.bones["CTRL_pinky.01.L"].rotation_euler True amount*-0.9
+DRIVER pose.bones["CTRL_pinky.01.L"].rotation_euler True amount*0.28
+DRIVER pose.bones["CTRL_pinky.02.L"].rotation_euler True amount*-1.2
+DRIVER pose.bones["CTRL_pinky.02.L"].rotation_euler True amount*0
+DRIVER pose.bones["CTRL_pinky.03.L"].rotation_euler True amount*-0.9
+DRIVER pose.bones["CTRL_pinky.03.L"].rotation_euler True amount*0
+DRIVER pose.bones["forearm.R"].constraints["Animator arm IK"].influence True blend
+DRIVER pose.bones["shin.R"].constraints["Animator leg IK"].influence True blend
+DRIVER pose.bones["CTRL_heel.R"].rotation_euler True min(0,roll)*0.65+extra*0.4
+DRIVER pose.bones["CTRL_toe_pivot.R"].rotation_euler True max(0,roll)*0.65+extra*0.5
+DRIVER pose.bones["hand.R"].constraints["IK orientation"].influence True ik
+DRIVER pose.bones["foot.R"].constraints["IK orientation"].influence True ik
+DRIVER pose.bones["CTRL_thumb.01.R"].rotation_euler True amount*0.9
+DRIVER pose.bones["CTRL_thumb.01.R"].rotation_euler True amount*-0.28
+DRIVER pose.bones["CTRL_thumb.02.R"].rotation_euler True amount*1.2
+DRIVER pose.bones["CTRL_thumb.02.R"].rotation_euler True amount*0
+DRIVER pose.bones["CTRL_thumb.03.R"].rotation_euler True amount*0.9
+DRIVER pose.bones["CTRL_thumb.03.R"].rotation_euler True amount*0
+DRIVER pose.bones["CTRL_index.01.R"].rotation_euler True amount*0.9
+DRIVER pose.bones["CTRL_index.01.R"].rotation_euler True amount*-0.14
+DRIVER pose.bones["CTRL_index.02.R"].rotation_euler True amount*1.2
+DRIVER pose.bones["CTRL_index.02.R"].rotation_euler True amount*0
+DRIVER pose.bones["CTRL_index.03.R"].rotation_euler True amount*0.9
+DRIVER pose.bones["CTRL_index.03.R"].rotation_euler True amount*0
+DRIVER pose.bones["CTRL_middle.01.R"].rotation_euler True amount*0.9
+DRIVER pose.bones["CTRL_middle.01.R"].rotation_euler True amount*0.0
+DRIVER pose.bones["CTRL_middle.02.R"].rotation_euler True amount*1.2
+DRIVER pose.bones["CTRL_middle.02.R"].rotation_euler True amount*0
+DRIVER pose.bones["CTRL_middle.03.R"].rotation_euler True amount*0.9
+DRIVER pose.bones["CTRL_middle.03.R"].rotation_euler True amount*0
+DRIVER pose.bones["CTRL_ring.01.R"].rotation_euler True amount*0.9
+DRIVER pose.bones["CTRL_ring.01.R"].rotation_euler True amount*0.14
+DRIVER pose.bones["CTRL_ring.02.R"].rotation_euler True amount*1.2
+DRIVER pose.bones["CTRL_ring.02.R"].rotation_euler True amount*0
+DRIVER pose.bones["CTRL_ring.03.R"].rotation_euler True amount*0.9
+DRIVER pose.bones["CTRL_ring.03.R"].rotation_euler True amount*0
+DRIVER pose.bones["CTRL_pinky.01.R"].rotation_euler True amount*0.9
+DRIVER pose.bones["CTRL_pinky.01.R"].rotation_euler True amount*0.28
+DRIVER pose.bones["CTRL_pinky.02.R"].rotation_euler True amount*1.2
+DRIVER pose.bones["CTRL_pinky.02.R"].rotation_euler True amount*0
+DRIVER pose.bones["CTRL_pinky.03.R"].rotation_euler True amount*0.9
+DRIVER pose.bones["CTRL_pinky.03.R"].rotation_euler True amount*0
+DRIVER scale True size
+DRIVER scale True size
+DRIVER scale True size
+DRIVER pose.bones["eye.L"].constraints["Damped Track"].influence True look
+DRIVER pose.bones["eye.R"].constraints["Damped Track"].influence True look
+SCALE (1.25, 1.25, 1.25)
+CURL (0.0, -0.0, -0.8999999761581421)
+FOOT (0.32499995827674866, -0.0, 0.0)
+Blender 5.1.1
+
+Blender quit

@@ -1,0 +1,1 @@
+1920x1080, Vulkan SM6, default showcase lighting and visible UI, automatic LOD, ordinary wall clock, 45 seconds, first 10 seconds discarded

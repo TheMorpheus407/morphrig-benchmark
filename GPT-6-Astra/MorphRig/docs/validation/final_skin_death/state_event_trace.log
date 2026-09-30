@@ -1,0 +1,105 @@
+0.0000 reset living props=home
+0.0000 deterministic sequence start
+0.0000 loaded=96/96 morph_controls=36 engine=5.8.3-58210709+++UE5+Release-5.8 instances=1
+0.0000 mesh bounds height=180.000cm bones=64 root=Root materials=8 LODs=3
+0.0000 morph blink_L LOD0_deltas=2563 LOD1_deltas=1108 LOD2_deltas=565
+0.0000 morph blink_R LOD0_deltas=2563 LOD1_deltas=1105 LOD2_deltas=568
+0.0000 morph squint_L LOD0_deltas=2551 LOD1_deltas=1100 LOD2_deltas=555
+0.0000 morph squint_R LOD0_deltas=2549 LOD1_deltas=1097 LOD2_deltas=561
+0.0000 morph brow_up_L LOD0_deltas=3338 LOD1_deltas=1483 LOD2_deltas=857
+0.0000 morph brow_up_R LOD0_deltas=3385 LOD1_deltas=1468 LOD2_deltas=851
+0.0000 morph brow_down_L LOD0_deltas=3203 LOD1_deltas=1429 LOD2_deltas=821
+0.0000 morph brow_down_R LOD0_deltas=3231 LOD1_deltas=1426 LOD2_deltas=823
+0.0000 morph cheek_L LOD0_deltas=3043 LOD1_deltas=1376 LOD2_deltas=706
+0.0000 morph cheek_R LOD0_deltas=3085 LOD1_deltas=1369 LOD2_deltas=701
+0.0000 morph smile_L LOD0_deltas=1922 LOD1_deltas=952 LOD2_deltas=595
+0.0000 morph smile_R LOD0_deltas=1899 LOD1_deltas=936 LOD2_deltas=599
+0.0000 morph frown_L LOD0_deltas=1902 LOD1_deltas=935 LOD2_deltas=589
+0.0000 morph frown_R LOD0_deltas=1876 LOD1_deltas=912 LOD2_deltas=592
+0.0000 morph jaw_open LOD0_deltas=3105 LOD1_deltas=1506 LOD2_deltas=971
+0.0000 morph lip_close LOD0_deltas=382 LOD1_deltas=261 LOD2_deltas=220
+0.0000 morph mouth_wide LOD0_deltas=3153 LOD1_deltas=1539 LOD2_deltas=983
+0.0000 morph pucker LOD0_deltas=3652 LOD1_deltas=1786 LOD2_deltas=1138
+0.0000 morph funnel LOD0_deltas=3623 LOD1_deltas=1775 LOD2_deltas=1127
+0.0000 morph viseme_AA LOD0_deltas=3105 LOD1_deltas=1505 LOD2_deltas=971
+0.0000 morph viseme_EE LOD0_deltas=3682 LOD1_deltas=1808 LOD2_deltas=1145
+0.0000 morph viseme_OH LOD0_deltas=3729 LOD1_deltas=1827 LOD2_deltas=1168
+0.0000 morph viseme_OO LOD0_deltas=3777 LOD1_deltas=1857 LOD2_deltas=1173
+0.0000 morph viseme_FV LOD0_deltas=258 LOD1_deltas=187 LOD2_deltas=174
+0.0000 morph viseme_MBP LOD0_deltas=382 LOD1_deltas=261 LOD2_deltas=220
+0.0000 morph viseme_L LOD0_deltas=3101 LOD1_deltas=1485 LOD2_deltas=960
+0.0000 morph viseme_TH LOD0_deltas=3098 LOD1_deltas=1480 LOD2_deltas=951
+0.0000 morph shoulder_raise_L LOD0_deltas=197 LOD1_deltas=121 LOD2_deltas=89
+0.0000 morph shoulder_raise_R LOD0_deltas=205 LOD1_deltas=132 LOD2_deltas=83
+0.0000 morph hip_flex_L LOD0_deltas=149 LOD1_deltas=92 LOD2_deltas=62
+0.0000 morph hip_flex_R LOD0_deltas=152 LOD1_deltas=91 LOD2_deltas=61
+0.0000 morph wrist_flex_L LOD0_deltas=160 LOD1_deltas=91 LOD2_deltas=69
+0.0000 render LOD0 triangles=42864 vertices=39898 sections=8
+0.0000 render LOD1 triangles=19225 vertices=19748 sections=8
+0.0000 render LOD2 triangles=11236 vertices=12383 sections=8
+0.0333 state generation=1  -> idle_combat priority=20 browser=0
+2.0333 state generation=2  -> start_f priority=20 browser=0
+2.2667 event generation=2 loop=1 clip=walk_r t=0.000 marker=foot_contact_L
+2.6667 event generation=2 loop=1 clip=walk_r t=0.400 marker=foot_contact_R
+3.0667 event generation=2 loop=2 clip=walk_r t=0.000 marker=foot_contact_L
+3.4667 event generation=2 loop=2 clip=walk_r t=0.400 marker=foot_contact_R
+3.8667 event generation=2 loop=3 clip=walk_r t=0.000 marker=foot_contact_L
+4.0333 state generation=3  -> ranged_burst priority=20 browser=0
+4.1333 event generation=3 loop=0 clip=ranged_burst t=0.108 marker=muzzle_fire_1
+4.2667 event generation=3 loop=0 clip=walk_r t=0.400 marker=foot_contact_R
+4.3000 event generation=3 loop=0 clip=ranged_burst t=0.270 marker=muzzle_fire_2
+4.4333 event generation=3 loop=0 clip=ranged_burst t=0.432 marker=muzzle_fire_3
+4.6667 event generation=3 loop=1 clip=walk_r t=0.000 marker=foot_contact_L
+5.0333 event generation=3 loop=1 clip=hit_l t=0.000 marker=impact
+5.0667 event generation=3 loop=1 clip=walk_r t=0.400 marker=foot_contact_R
+5.4667 event generation=3 loop=2 clip=walk_r t=0.000 marker=foot_contact_L
+5.8667 event generation=3 loop=2 clip=walk_r t=0.400 marker=foot_contact_R
+6.0333 state generation=4  -> cast_directional priority=20 browser=0
+6.2667 event generation=4 loop=1 clip=walk_r t=0.000 marker=foot_contact_L
+6.5000 event generation=4 loop=1 clip=cast_directional t=0.495 marker=cast_release
+6.6667 event generation=4 loop=1 clip=walk_r t=0.400 marker=foot_contact_R
+7.0667 event generation=4 loop=2 clip=walk_r t=0.000 marker=foot_contact_L
+7.4667 event generation=4 loop=2 clip=walk_r t=0.400 marker=foot_contact_R
+7.5667 state generation=5  -> stop_f priority=20 browser=0
+8.0333 state generation=6 stop_f -> channel_start priority=30 browser=0
+8.0333 event generation=6 loop=0 clip=channel_start t=0.000 marker=channel_start
+8.6000 event generation=6 loop=0 clip=channel_start t=0.600 marker=channel_start_complete
+8.6000 state generation=7  -> channel_loop priority=30 browser=0
+8.6333 event generation=7 loop=0 clip=channel_loop t=0.000 marker=channel_loop
+10.0000 state generation=8 channel_loop -> channel_interrupt priority=30 browser=0
+10.0000 event generation=8 loop=0 clip=channel_interrupt t=0.000 marker=channel_interrupt
+10.3667 event generation=8 loop=1 clip=channel_interrupt t=0.400 marker=channel_interrupt_complete
+11.0000 state generation=9  -> charge_start priority=30 browser=0
+11.0000 event generation=9 loop=0 clip=charge_start t=0.000 marker=charge_start
+11.7667 event generation=9 loop=0 clip=charge_start t=0.800 marker=charge_start_complete
+11.7667 state generation=10  -> charge_hold priority=30 browser=0
+11.8000 event generation=10 loop=0 clip=charge_hold t=0.000 marker=charge_hold
+12.5001 state generation=11 charge_hold -> charge_release priority=30 browser=0
+12.5001 event generation=11 loop=0 clip=charge_release t=0.000 marker=charge_release
+13.2667 event generation=11 loop=1 clip=charge_release t=0.800 marker=charge_release_complete
+14.0001 state generation=12  -> uplink_start priority=30 browser=0
+14.0001 event generation=12 loop=0 clip=uplink_start t=0.000 marker=uplink_start
+14.7668 event generation=12 loop=0 clip=uplink_start t=0.800 marker=uplink_start_complete
+14.7668 state generation=13  -> uplink_loop priority=30 browser=0
+14.8001 event generation=13 loop=0 clip=uplink_loop t=0.000 marker=uplink_loop
+16.0001 state generation=14 uplink_loop -> uplink_cancel priority=30 browser=0
+16.0001 event generation=14 loop=0 clip=uplink_cancel t=0.000 marker=uplink_cancel
+16.4668 event generation=14 loop=0 clip=uplink_cancel t=0.500 marker=uplink_cancel_complete
+17.0001 state generation=15  -> reload priority=20 browser=0
+17.6667 event generation=15 loop=0 clip=reload t=0.667 marker=cell_grip
+17.8667 event generation=15 loop=0 clip=reload t=0.874 marker=cell_extract
+18.6667 event generation=15 loop=0 clip=reload t=1.679 marker=cell_insert
+18.7667 event generation=15 loop=1 clip=reload t=1.771 marker=cell_release
+19.0001 event generation=15 loop=1 clip=reload t=2.024 marker=reload_complete
+20.0000 state generation=16  -> deploy priority=20 browser=0
+20.4000 event generation=16 loop=0 clip=deploy t=0.432 marker=beacon_grip
+21.1334 event generation=16 loop=0 clip=deploy t=1.152 marker=beacon_release
+21.2667 event generation=16 loop=0 clip=deploy t=1.296 marker=beacon_activate
+22.0000 dash_start dash_f actor=V(Y=822.88, Z=92.15)
+22.0000 state generation=17  -> dash_f priority=20 browser=0
+22.4667 dash_end dash_f actor=V(X=200.00, Y=822.88, Z=92.15) horizontal_cm=200.0000
+23.0333 state generation=18  -> jump_start priority=50 browser=0
+23.5333 event generation=18 loop=0 clip=jump_start t=0.522 marker=takeoff
+23.6000 state generation=19  -> jump_air priority=50 browser=0
+23.8333 state generation=20 jump_air -> death_front priority=100 browser=0
+25.2666 event generation=20 loop=1 clip=death_front t=1.449 marker=death_ground_contact

@@ -1,0 +1,26 @@
+00:01.335  blend            | Read blend: "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/source/Operative.blend"
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/docs/validation/rebake_baseline.fbx'
+export finished in 0.0746 sec.
+REBAKED ranged_fire 10 samples
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/docs/validation/rebake_changed.fbx'
+export finished in 0.0889 sec.
+FBX version: 7400
+FBX version: 7400
+{
+  "clip": "ranged_fire",
+  "frame": 5,
+  "edited_bone": "hand.L",
+  "edited_rotation_radians": 0.35,
+  "max_evaluated_matrix_error": 2.2351741790771484e-07,
+  "max_change_from_original": 0.34621744602918625,
+  "source_retained": true,
+  "production_blend_saved": false,
+  "exported_pose_change_radians": 0.3499992529498499,
+  "exported_fbx_bytes": 441484,
+  "passes": true
+}
+Blender 5.1.1
+
+Blender quit

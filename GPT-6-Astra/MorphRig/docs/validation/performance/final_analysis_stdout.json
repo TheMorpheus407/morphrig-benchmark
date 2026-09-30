@@ -1,0 +1,86 @@
+{
+  "method": "Packaged Unreal client wall-clock frame deltas. Discard first 10 seconds; average FPS=1000/mean frame_ms. No movie capture fixed timestep or generated frames.",
+  "hardware": {
+    "cpu": "AMD Ryzen 9 9950X, 16 cores / 32 threads",
+    "ram_gib": 91,
+    "gpu": "NVIDIA RTX 5090, 32 GiB",
+    "driver": "595.71.05",
+    "os": "NixOS x86-64"
+  },
+  "settings": {
+    "resolution": "1920x1080",
+    "rhi": "Vulkan SM6",
+    "antialiasing": "TAA",
+    "resolution_percent": 100,
+    "vsync": false,
+    "fps_cap": 0,
+    "ui_visible": true,
+    "lod": "automatic",
+    "run_seconds": 45,
+    "warmup_seconds": 10,
+    "lumen": false,
+    "nanite": false,
+    "virtual_shadow_maps": false
+  },
+  "comparison_note": "The ten-actor view uses a wider camera and automatic lower LODs. This is the delivered instance-toggle behavior, not a controlled same-LOD scaling benchmark. Hero rendered LOD is recorded for each run.",
+  "hardware_evidence": [
+    "docs/validation/cpu.json",
+    "docs/validation/memory.txt",
+    "docs/validation/gpu.txt",
+    "docs/validation/kernel.txt"
+  ],
+  "settings_evidence": [
+    "docs/validation/performance/DefaultEngine.ini",
+    "docs/validation/performance/DefaultGameUserSettings.ini",
+    "docs/validation/performance/gpu_before.txt",
+    "docs/validation/performance/gpu_after.txt"
+  ],
+  "runs": [
+    {
+      "csv": "docs/validation/performance/1_actors/frames_1_actors.csv",
+      "warmup_seconds": 10,
+      "samples": 21971,
+      "first_elapsed_s": 10.000551,
+      "last_elapsed_s": 45.000633,
+      "instances": [
+        1
+      ],
+      "resolution": [
+        "1920x1080"
+      ],
+      "rendered_lods": [
+        0
+      ],
+      "mean_ms": 1.5930644558736515,
+      "median_ms": 1.32901,
+      "p95_ms": 3.44692,
+      "p99_ms": 4.563740999999999,
+      "maximum_ms": 14.63461,
+      "effective_fps": 627.7209916478807,
+      "fraction_frames_within_16_667ms": 1.0
+    },
+    {
+      "csv": "docs/validation/performance/10_actors/frames_10_actors.csv",
+      "warmup_seconds": 10,
+      "samples": 20255,
+      "first_elapsed_s": 10.00187,
+      "last_elapsed_s": 45.000046,
+      "instances": [
+        10
+      ],
+      "resolution": [
+        "1920x1080"
+      ],
+      "rendered_lods": [
+        1
+      ],
+      "mean_ms": 1.7279772150086399,
+      "median_ms": 1.57777,
+      "p95_ms": 2.7486569999999997,
+      "p99_ms": 4.0282664,
+      "maximum_ms": 12.37422,
+      "effective_fps": 578.7113344518261,
+      "fraction_frames_within_16_667ms": 1.0
+    }
+  ]
+}

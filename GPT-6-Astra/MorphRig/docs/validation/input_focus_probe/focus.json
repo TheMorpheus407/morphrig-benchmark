@@ -1,0 +1,103 @@
+{
+  "window": "16777307",
+  "before_device": {
+    "code": 0,
+    "out": "as 15 \"event3\" \"event1\" \"event2\" \"event22\" \"event23\" \"event14\" \"event0\" \"event16\" \"event15\" \"event4\" \"event17\" \"event24\" \"event18\" \"event19\" \"event21\"\n",
+    "err": ""
+  },
+  "after_device": {
+    "code": 0,
+    "out": "as 16 \"event3\" \"event1\" \"event2\" \"event22\" \"event23\" \"event14\" \"event0\" \"event16\" \"event15\" \"event4\" \"event17\" \"event24\" \"event18\" \"event19\" \"event21\" \"event25\"\n",
+    "err": ""
+  },
+  "initial_focus": {
+    "active": {
+      "code": 0,
+      "out": "16777307\n",
+      "err": ""
+    },
+    "focus": {
+      "code": 0,
+      "out": "16777307\n",
+      "err": ""
+    },
+    "pointer": {
+      "code": 0,
+      "out": "X=2380\nY=2619\nSCREEN=0\nWINDOW=965\n",
+      "err": ""
+    }
+  },
+  "after_keyboard": {
+    "active": {
+      "code": 0,
+      "out": "16777307\n",
+      "err": ""
+    },
+    "focus": {
+      "code": 0,
+      "out": "16777307\n",
+      "err": ""
+    },
+    "pointer": {
+      "code": 0,
+      "out": "X=2380\nY=2619\nSCREEN=0\nWINDOW=965\n",
+      "err": ""
+    }
+  },
+  "force_focus": {
+    "code": 0,
+    "out": "",
+    "err": ""
+  },
+  "after_forced_focus": {
+    "active": {
+      "code": 0,
+      "out": "2097152\n",
+      "err": ""
+    },
+    "focus": {
+      "code": 0,
+      "out": "2097152\n",
+      "err": ""
+    },
+    "pointer": {
+      "code": 0,
+      "out": "X=2380\nY=2619\nSCREEN=0\nWINDOW=965\n",
+      "err": ""
+    }
+  },
+  "after_click": {
+    "active": {
+      "code": 0,
+      "out": "2097152\n",
+      "err": ""
+    },
+    "focus": {
+      "code": 0,
+      "out": "2097152\n",
+      "err": ""
+    },
+    "pointer": {
+      "code": 0,
+      "out": "X=3710\nY=3272\nSCREEN=0\nWINDOW=965\n",
+      "err": ""
+    }
+  },
+  "after_normals": {
+    "active": {
+      "code": 0,
+      "out": "2097152\n",
+      "err": ""
+    },
+    "focus": {
+      "code": 0,
+      "out": "2097152\n",
+      "err": ""
+    },
+    "pointer": {
+      "code": 0,
+      "out": "X=2520\nY=2720\nSCREEN=0\nWINDOW=965\n",
+      "err": ""
+    }
+  }
+}

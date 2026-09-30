@@ -1,0 +1,14 @@
+00:00.596  blend            | Read blend: "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/source/Character_Master.blend"
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/pilot/Operative.fbx'
+export finished in 0.1672 sec.
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/pilot/idle_combat.fbx'
+export finished in 0.3032 sec.
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/pilot/dash_f.fbx'
+export finished in 0.1812 sec.
+PILOT EXPORTED
+Blender 5.1.1
+
+Blender quit

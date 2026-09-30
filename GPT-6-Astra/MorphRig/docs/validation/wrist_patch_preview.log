@@ -1,0 +1,6 @@
+00:00.585  blend            | Read blend: "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/source/Operative.blend"
+Info: Saved as "Operative_Wrist_Preview.blend"
+WRIST_WEIGHT_PATCH [{"mesh": "Operative_LOD0", "vertices_updated": 72, "ring_endpoint_weights": {"forearm.L": 0.30000000000000004, "hand.L": 0.7}, "maximum_weight_delta": 0.7}, {"mesh": "Operative_LOD1", "vertices_updated": 42, "ring_endpoint_weights": {"forearm.L": 0.30000000000000004, "hand.L": 0.7}, "maximum_weight_delta": 0.7}, {"mesh": "Operative_LOD2", "vertices_updated": 27, "ring_endpoint_weights": {"forearm.L": 0.30000000000000004, "hand.L": 0.7}, "maximum_weight_delta": 0.7}]
+Blender 5.1.1
+
+Blender quit

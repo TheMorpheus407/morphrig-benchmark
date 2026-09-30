@@ -1,0 +1,26 @@
+{
+  "changed_clips": [
+    "deploy",
+    "knockdown_front",
+    "knockdown_back",
+    "prone_front",
+    "prone_back",
+    "death_front",
+    "death_back",
+    "dead_front",
+    "dead_back",
+    "getup_front",
+    "getup_back",
+    "sleep_start",
+    "sleep_loop",
+    "sleep_end"
+  ],
+  "protected_action_hashes": {
+    "dialogue": "7af4388d9927bc77661c80c2181dc4f206c82adf147acfe32488d925ee7e0a67",
+    "FACE__dialogue": "92aa2b967fe5f5f0c0cb6e4c9238982350fb67a437f83dea6fe056ccf0d4b789",
+    "idle_relaxed": "d60ebed31157e9c17db3338bd0fed47ce0cd6c99516c0164e146349f129a4f39",
+    "aim_up_left": "81e09249fdd881b7383422ad41a1166cda0ac98bbd80dfbd8577908cc792c28e",
+    "EDIT__ranged_fire": "098e284493310334f7aacbbd449deef3eff8a5cbb52960360e9ccd00a6556507"
+  },
+  "protected_unchanged": true
+}

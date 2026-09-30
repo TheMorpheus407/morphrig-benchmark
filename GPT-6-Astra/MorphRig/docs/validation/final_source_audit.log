@@ -1,0 +1,69 @@
+00:00.645  blend            | Read blend: "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/source/Operative.blend"
+{
+  "source": "source/Operative.blend",
+  "source_sha256": "643750f8d297ed65586bc3be82bdc244b9cd3cd80aa84f69edacd04e1a43f980",
+  "source_mtime": 1790422269.8612506,
+  "deformation_bones": 64,
+  "deformation_roots": [
+    "root"
+  ],
+  "documented_rest_coordinate_max_error_m": 0,
+  "skeleton_doc_errors": [],
+  "FACE__dialogue_squint": {
+    "L": {
+      "curve_exists": true,
+      "keyframes": 421,
+      "minimum": 0.0,
+      "maximum": 0.0,
+      "all_zero": true
+    },
+    "R": {
+      "curve_exists": true,
+      "keyframes": 421,
+      "minimum": 0.0,
+      "maximum": 0.0,
+      "all_zero": true
+    }
+  },
+  "lods": [
+    {
+      "name": "Operative_LOD0",
+      "vertices": 21749,
+      "triangles": 42904,
+      "material_slots": 8,
+      "max_influences": 2,
+      "source_targets": 33,
+      "intentionally_nonempty_targets": 32,
+      "zero_targets": [
+        "wrist_flex.R"
+      ]
+    },
+    {
+      "name": "Operative_LOD1",
+      "vertices": 9878,
+      "triangles": 19257,
+      "material_slots": 8,
+      "max_influences": 2,
+      "source_targets": 33,
+      "intentionally_nonempty_targets": 32,
+      "zero_targets": [
+        "wrist_flex.R"
+      ]
+    },
+    {
+      "name": "Operative_LOD2",
+      "vertices": 5864,
+      "triangles": 11260,
+      "material_slots": 8,
+      "max_influences": 2,
+      "source_targets": 33,
+      "intentionally_nonempty_targets": 32,
+      "zero_targets": [
+        "wrist_flex.R"
+      ]
+    }
+  ]
+}
+Blender 5.1.1
+
+Blender quit

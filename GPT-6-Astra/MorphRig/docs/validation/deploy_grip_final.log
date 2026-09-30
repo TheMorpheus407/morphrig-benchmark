@@ -1,0 +1,5 @@
+00:00.640  blend            | Read blend: "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/source/Operative.blend"
+{'clip': 'deploy', 'source': 'source/Operative.blend', 'sample_count': 55, 'maximum_penetration_m': 0, 'maximum_carry_contact_gap_m': 0.00012170626723673195, 'maximum_opposing_thumb_gap_m': 0.00012170626723673195, 'floor_minimum_m': -1.6310062278535042e-07, 'released_beacon_floor_maximum_m': 1.1920928955078125e-07, 'passed': True}
+Blender 5.1.1
+
+Blender quit

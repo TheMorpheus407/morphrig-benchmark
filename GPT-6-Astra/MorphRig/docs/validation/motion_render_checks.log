@@ -1,0 +1,33 @@
+00:04.012  blend            | Read blend: "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/source/Operative.blend"
+/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/tools/render_presentation.py:36: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  scene.world.use_nodes=True
+/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/tools/render_presentation.py:62: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat=bpy.data.materials.new('Presentation_NeutralFloor');mat.diffuse_color=(.115,.13,.15,1);mat.use_nodes=True
+00:06.621  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/docs/validation/idle_relaxed_1_front.png'
+00:06.997  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/docs/validation/walk_f_7_side.png'
+VALIDATION_RENDER walk_f 7 side
+00:07.327  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/docs/validation/walk_l_10_front.png'
+VALIDATION_RENDER walk_l 10 front
+00:07.594  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/docs/validation/run_f_8_side.png'
+VALIDATION_RENDER run_f 8 side
+00:07.910  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/docs/validation/melee_3_15_front.png'
+VALIDATION_RENDER melee_3 15 front
+00:08.222  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/docs/validation/reload_35_front.png'
+VALIDATION_RENDER reload 35 front
+00:08.669  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/docs/validation/deploy_30_side.png'
+VALIDATION_RENDER deploy 30 side
+00:09.012  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/docs/validation/knockdown_front_34_side.png'
+VALIDATION_RENDER knockdown_front 34 side
+00:09.287  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/docs/validation/knockdown_back_37_side.png'
+VALIDATION_RENDER knockdown_back 37 side
+00:09.543  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/docs/validation/getup_front_35_side.png'
+VALIDATION_RENDER getup_front 35 side
+00:10.030  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/docs/validation/getup_back_40_side.png'
+VALIDATION_RENDER getup_back 40 side
+00:10.357  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/docs/validation/dialogue_75_face.png'
+VALIDATION_RENDER dialogue 75 face
+00:10.702  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/docs/validation/dialogue_325_face.png'
+VALIDATION_RENDER dialogue 325 face
+Blender 5.1.1
+
+Blender quit

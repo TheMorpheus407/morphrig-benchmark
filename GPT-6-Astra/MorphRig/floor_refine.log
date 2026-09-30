@@ -1,0 +1,19 @@
+00:00.558  blend            | Read blend: "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/source/Operative.blend"
+ANIMATION 01/96 deploy: 55 frames
+ANIMATION 02/96 knockdown_front: 34 frames
+ANIMATION 03/96 knockdown_back: 37 frames
+ANIMATION 04/96 prone_front: 61 frames
+ANIMATION 05/96 prone_back: 61 frames
+ANIMATION 06/96 getup_front: 67 frames
+ANIMATION 07/96 getup_back: 76 frames
+ANIMATION 08/96 sleep_start: 73 frames
+ANIMATION 09/96 sleep_loop: 85 frames
+ANIMATION 10/96 sleep_end: 79 frames
+ANIMATION 11/96 death_front: 64 frames
+ANIMATION 12/96 death_back: 73 frames
+ANIMATION 13/96 dead_front: 2 frames
+ANIMATION 14/96 dead_back: 2 frames
+Info: Saved as "Operative.blend"
+Blender 5.1.1
+
+Blender quit

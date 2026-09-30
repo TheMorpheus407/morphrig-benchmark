@@ -1,0 +1,63 @@
+{
+  "method": "Packaged Unreal client wall-clock frame deltas. Discard first 10 seconds; average FPS=1000/mean frame_ms. No movie capture fixed timestep or generated frames.",
+  "hardware_evidence": [
+    "docs/validation/cpu.json",
+    "docs/validation/memory.txt",
+    "docs/validation/gpu.txt",
+    "docs/validation/kernel.txt"
+  ],
+  "settings_evidence": [
+    "docs/validation/performance/DefaultEngine.ini",
+    "docs/validation/performance/DefaultGameUserSettings.ini",
+    "docs/validation/performance/gpu_before.txt",
+    "docs/validation/performance/gpu_after.txt"
+  ],
+  "runs": [
+    {
+      "csv": "docs/validation/performance/1_actors/frames_1_actors.csv",
+      "warmup_seconds": 10,
+      "samples": 16147,
+      "first_elapsed_s": 10.001085,
+      "last_elapsed_s": 45.001133,
+      "instances": [
+        1
+      ],
+      "resolution": [
+        "1920x1080"
+      ],
+      "rendered_lods": [
+        0
+      ],
+      "mean_ms": 2.167699701492537,
+      "median_ms": 1.83447,
+      "p95_ms": 4.218609999999999,
+      "p99_ms": 5.891302199999992,
+      "maximum_ms": 11.19784,
+      "effective_fps": 461.3185116515286,
+      "fraction_frames_within_16_667ms": 1.0
+    },
+    {
+      "csv": "docs/validation/performance/10_actors/frames_10_actors.csv",
+      "warmup_seconds": 10,
+      "samples": 17635,
+      "first_elapsed_s": 10.001554,
+      "last_elapsed_s": 45.001148,
+      "instances": [
+        10
+      ],
+      "resolution": [
+        "1920x1080"
+      ],
+      "rendered_lods": [
+        1
+      ],
+      "mean_ms": 1.9847957119364898,
+      "median_ms": 1.84266,
+      "p95_ms": 3.126359,
+      "p99_ms": 4.4799544,
+      "maximum_ms": 11.25667,
+      "effective_fps": 503.83018966941336,
+      "fraction_frames_within_16_667ms": 1.0
+    }
+  ]
+}

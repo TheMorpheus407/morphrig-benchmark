@@ -1,0 +1,11 @@
+00:01.127  blend            | Read blend: "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/source/Operative.blend"
+00:06.346  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/docs/rig_validation/TEST__closed_grip.png'
+00:11.727  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/docs/rig_validation/TEST__crossed_arm_reach.png'
+00:17.153  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/docs/rig_validation/TEST__deep_squat.png'
+00:23.072  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/docs/rig_validation/TEST__kneeling.png'
+00:27.217  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/docs/rig_validation/TEST__large_torso_twist.png'
+00:30.585  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/docs/rig_validation/TEST__overhead_reach.png'
+00:34.318  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/docs/rig_validation/TEST__planted_hand_support.png'
+Blender 5.1.1
+
+Blender quit

@@ -1,0 +1,67 @@
+{
+  "scope": "Actual packaged inspection through focus-verified native keyboard events. Images require visual review.",
+  "mouse_attempted": false,
+  "normals_note": "Optional XWayland mouse routing is environment-dependent. Normals was observed working on September 26; it is not recaptured by the default keyboard-only run.",
+  "client_exit_code": 0,
+  "trace_saved": true,
+  "screenshots": [
+    {
+      "image": "textured.png",
+      "time_unix": 1790611976.609924
+    },
+    {
+      "image": "skeleton.png",
+      "time_unix": 1790611977.8120453
+    },
+    {
+      "image": "front.png",
+      "time_unix": 1790611978.9606578
+    },
+    {
+      "image": "side.png",
+      "time_unix": 1790611980.0180798
+    },
+    {
+      "image": "top_down_team_a.png",
+      "time_unix": 1790611981.2481174
+    },
+    {
+      "image": "top_down_team_b.png",
+      "time_unix": 1790611982.4732018
+    },
+    {
+      "image": "forced_lod0.png",
+      "time_unix": 1790611983.8034775
+    },
+    {
+      "image": "forced_lod1.png",
+      "time_unix": 1790611984.9857547
+    },
+    {
+      "image": "forced_lod2.png",
+      "time_unix": 1790611986.158183
+    },
+    {
+      "image": "ten_team_b.png",
+      "time_unix": 1790611987.4066875
+    },
+    {
+      "image": "ten_team_a.png",
+      "time_unix": 1790611988.5644164
+    }
+  ],
+  "visual_review": {
+    "reviewed": "2026-09-28",
+    "passed": [
+      "visible foreground skeleton overlay",
+      "front and side camera selection",
+      "top-down view",
+      "team colors and square/circle identity cues",
+      "forced LOD0/1/2",
+      "ten visible actors"
+    ],
+    "not_recaptured": [
+      "Normals mouse button: September26 observation retained; September28 pointer probes failed and are excluded."
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+00:00.714  blend            | Read blend: "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/source/Operative.blend"
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/Operative.fbx'
+export finished in 0.1776 sec.
+EXPORTED MESH /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/Operative.fbx
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/Operative_LOD1.fbx'
+export finished in 0.0975 sec.
+EXPORTED MESH /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/Operative_LOD1.fbx
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/Operative_LOD2.fbx'
+export finished in 0.0710 sec.
+EXPORTED MESH /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/Operative_LOD2.fbx
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/export/animations/deploy.fbx'
+export finished in 0.2896 sec.
+EXPORTED CLIP deploy
+EXPORT COMPLETE
+Blender 5.1.1
+
+Blender quit

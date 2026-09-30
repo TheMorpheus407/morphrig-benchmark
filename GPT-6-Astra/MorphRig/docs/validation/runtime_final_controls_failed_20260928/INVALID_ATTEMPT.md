@@ -1,0 +1,1 @@
+This September 28 attempt failed to deliver input. Its twelve screenshots remain idle and do not prove the named controls. The input_record.json was retained from September 26 and is not evidence for these screenshots. Superseded by the new runtime_final_controls run.

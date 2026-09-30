@@ -1,0 +1,9 @@
+00:00.583  blend            | Read blend: "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/source/Character_Master.blend"
+prone_front {"('pelvis',)": 0.00449, "('spine_01', 'spine_02', 'chest')": 0.00404, "('head',)": 0.01094, "('foot.L', 'toe.L')": -0.0, "('hand.L', 'index.01.L')": 0.01}
+prone_back {"('pelvis',)": 0.00288, "('spine_01', 'spine_02', 'chest')": 0.01687, "('head',)": 0.00204, "('foot.L', 'toe.L')": 0.00564, "('hand.L', 'index.01.L')": 0.01}
+dead_front {"('pelvis',)": 0.00449, "('spine_01', 'spine_02', 'chest')": 0.00404, "('head',)": 0.01778, "('foot.L', 'toe.L')": -0.0, "('hand.L', 'index.01.L')": 0.01}
+dead_back {"('pelvis',)": 0.00288, "('spine_01', 'spine_02', 'chest')": 0.01687, "('head',)": 0.00415, "('foot.L', 'toe.L')": 0.00564, "('hand.L', 'index.01.L')": 0.01}
+sleep_loop {"('pelvis',)": 0.0078, "('spine_01', 'spine_02', 'chest')": 0.0527, "('head',)": 0.08055, "('foot.L', 'toe.L')": 0.02, "('hand.L', 'index.01.L')": 0.05641}
+Blender 5.1.1
+
+Blender quit

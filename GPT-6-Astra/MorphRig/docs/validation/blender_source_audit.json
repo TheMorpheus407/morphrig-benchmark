@@ -1,0 +1,2786 @@
+{
+  "blend": "source/Operative.blend",
+  "blender_version": "5.1.1",
+  "fps": 30,
+  "scene_unit_scale": 1.0,
+  "rig": "Operative_Rig",
+  "armature_scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "bones": [
+    {
+      "name": "root",
+      "parent": null,
+      "deform": true
+    },
+    {
+      "name": "pelvis",
+      "parent": "root",
+      "deform": true
+    },
+    {
+      "name": "spine_01",
+      "parent": "pelvis",
+      "deform": true
+    },
+    {
+      "name": "spine_02",
+      "parent": "spine_01",
+      "deform": true
+    },
+    {
+      "name": "chest",
+      "parent": "spine_02",
+      "deform": true
+    },
+    {
+      "name": "neck",
+      "parent": "chest",
+      "deform": true
+    },
+    {
+      "name": "head",
+      "parent": "neck",
+      "deform": true
+    },
+    {
+      "name": "jaw",
+      "parent": "head",
+      "deform": true
+    },
+    {
+      "name": "tongue",
+      "parent": "jaw",
+      "deform": true
+    },
+    {
+      "name": "eye.L",
+      "parent": "head",
+      "deform": true
+    },
+    {
+      "name": "eye.R",
+      "parent": "head",
+      "deform": true
+    },
+    {
+      "name": "clavicle.L",
+      "parent": "chest",
+      "deform": true
+    },
+    {
+      "name": "upper_arm.L",
+      "parent": "clavicle.L",
+      "deform": true
+    },
+    {
+      "name": "forearm.L",
+      "parent": "upper_arm.L",
+      "deform": true
+    },
+    {
+      "name": "hand.L",
+      "parent": "forearm.L",
+      "deform": true
+    },
+    {
+      "name": "index.01.L",
+      "parent": "hand.L",
+      "deform": true
+    },
+    {
+      "name": "index.02.L",
+      "parent": "index.01.L",
+      "deform": true
+    },
+    {
+      "name": "index.03.L",
+      "parent": "index.02.L",
+      "deform": true
+    },
+    {
+      "name": "middle.01.L",
+      "parent": "hand.L",
+      "deform": true
+    },
+    {
+      "name": "middle.02.L",
+      "parent": "middle.01.L",
+      "deform": true
+    },
+    {
+      "name": "middle.03.L",
+      "parent": "middle.02.L",
+      "deform": true
+    },
+    {
+      "name": "ring.01.L",
+      "parent": "hand.L",
+      "deform": true
+    },
+    {
+      "name": "ring.02.L",
+      "parent": "ring.01.L",
+      "deform": true
+    },
+    {
+      "name": "ring.03.L",
+      "parent": "ring.02.L",
+      "deform": true
+    },
+    {
+      "name": "pinky.01.L",
+      "parent": "hand.L",
+      "deform": true
+    },
+    {
+      "name": "pinky.02.L",
+      "parent": "pinky.01.L",
+      "deform": true
+    },
+    {
+      "name": "pinky.03.L",
+      "parent": "pinky.02.L",
+      "deform": true
+    },
+    {
+      "name": "thumb.01.L",
+      "parent": "hand.L",
+      "deform": true
+    },
+    {
+      "name": "thumb.02.L",
+      "parent": "thumb.01.L",
+      "deform": true
+    },
+    {
+      "name": "thumb.03.L",
+      "parent": "thumb.02.L",
+      "deform": true
+    },
+    {
+      "name": "clavicle.R",
+      "parent": "chest",
+      "deform": true
+    },
+    {
+      "name": "upper_arm.R",
+      "parent": "clavicle.R",
+      "deform": true
+    },
+    {
+      "name": "forearm.R",
+      "parent": "upper_arm.R",
+      "deform": true
+    },
+    {
+      "name": "hand.R",
+      "parent": "forearm.R",
+      "deform": true
+    },
+    {
+      "name": "index.01.R",
+      "parent": "hand.R",
+      "deform": true
+    },
+    {
+      "name": "index.02.R",
+      "parent": "index.01.R",
+      "deform": true
+    },
+    {
+      "name": "index.03.R",
+      "parent": "index.02.R",
+      "deform": true
+    },
+    {
+      "name": "middle.01.R",
+      "parent": "hand.R",
+      "deform": true
+    },
+    {
+      "name": "middle.02.R",
+      "parent": "middle.01.R",
+      "deform": true
+    },
+    {
+      "name": "middle.03.R",
+      "parent": "middle.02.R",
+      "deform": true
+    },
+    {
+      "name": "ring.01.R",
+      "parent": "hand.R",
+      "deform": true
+    },
+    {
+      "name": "ring.02.R",
+      "parent": "ring.01.R",
+      "deform": true
+    },
+    {
+      "name": "ring.03.R",
+      "parent": "ring.02.R",
+      "deform": true
+    },
+    {
+      "name": "pinky.01.R",
+      "parent": "hand.R",
+      "deform": true
+    },
+    {
+      "name": "pinky.02.R",
+      "parent": "pinky.01.R",
+      "deform": true
+    },
+    {
+      "name": "pinky.03.R",
+      "parent": "pinky.02.R",
+      "deform": true
+    },
+    {
+      "name": "thumb.01.R",
+      "parent": "hand.R",
+      "deform": true
+    },
+    {
+      "name": "thumb.02.R",
+      "parent": "thumb.01.R",
+      "deform": true
+    },
+    {
+      "name": "thumb.03.R",
+      "parent": "thumb.02.R",
+      "deform": true
+    },
+    {
+      "name": "emitter_muzzle",
+      "parent": "forearm.R",
+      "deform": true
+    },
+    {
+      "name": "blade_base",
+      "parent": "forearm.R",
+      "deform": true
+    },
+    {
+      "name": "blade_tip",
+      "parent": "blade_base",
+      "deform": true
+    },
+    {
+      "name": "cell",
+      "parent": "forearm.R",
+      "deform": true
+    },
+    {
+      "name": "thigh.L",
+      "parent": "pelvis",
+      "deform": true
+    },
+    {
+      "name": "shin.L",
+      "parent": "thigh.L",
+      "deform": true
+    },
+    {
+      "name": "foot.L",
+      "parent": "shin.L",
+      "deform": true
+    },
+    {
+      "name": "toe.L",
+      "parent": "foot.L",
+      "deform": true
+    },
+    {
+      "name": "thigh.R",
+      "parent": "pelvis",
+      "deform": true
+    },
+    {
+      "name": "shin.R",
+      "parent": "thigh.R",
+      "deform": true
+    },
+    {
+      "name": "foot.R",
+      "parent": "shin.R",
+      "deform": true
+    },
+    {
+      "name": "toe.R",
+      "parent": "foot.R",
+      "deform": true
+    },
+    {
+      "name": "beacon",
+      "parent": "pelvis",
+      "deform": true
+    },
+    {
+      "name": "cable.01",
+      "parent": "pelvis",
+      "deform": true
+    },
+    {
+      "name": "cable.02",
+      "parent": "cable.01",
+      "deform": true
+    },
+    {
+      "name": "CTRL_hand_ik.L",
+      "parent": "root",
+      "deform": false
+    },
+    {
+      "name": "CTRL_elbow_pole.L",
+      "parent": "root",
+      "deform": false
+    },
+    {
+      "name": "CTRL_knee_pole.L",
+      "parent": "root",
+      "deform": false
+    },
+    {
+      "name": "CTRL_heel.L",
+      "parent": "root",
+      "deform": false
+    },
+    {
+      "name": "CTRL_toe_pivot.L",
+      "parent": "CTRL_heel.L",
+      "deform": false
+    },
+    {
+      "name": "CTRL_foot_ik.L",
+      "parent": "CTRL_toe_pivot.L",
+      "deform": false
+    },
+    {
+      "name": "CTRL_hand_ik.R",
+      "parent": "root",
+      "deform": false
+    },
+    {
+      "name": "CTRL_elbow_pole.R",
+      "parent": "root",
+      "deform": false
+    },
+    {
+      "name": "CTRL_knee_pole.R",
+      "parent": "root",
+      "deform": false
+    },
+    {
+      "name": "CTRL_heel.R",
+      "parent": "root",
+      "deform": false
+    },
+    {
+      "name": "CTRL_toe_pivot.R",
+      "parent": "CTRL_heel.R",
+      "deform": false
+    },
+    {
+      "name": "CTRL_foot_ik.R",
+      "parent": "CTRL_toe_pivot.R",
+      "deform": false
+    },
+    {
+      "name": "CTRL_thumb.01.L",
+      "parent": "root",
+      "deform": false
+    },
+    {
+      "name": "CTRL_thumb.02.L",
+      "parent": "root",
+      "deform": false
+    },
+    {
+      "name": "CTRL_thumb.03.L",
+      "parent": "root",
+      "deform": false
+    },
+    {
+      "name": "CTRL_index.01.L",
+      "parent": "root",
+      "deform": false
+    },
+    {
+      "name": "CTRL_index.02.L",
+      "parent": "root",
+      "deform": false
+    },
+    {
+      "name": "CTRL_index.03.L",
+      "parent": "root",
+      "deform": false
+    },
+    {
+      "name": "CTRL_middle.01.L",
+      "parent": "root",
+      "deform": false
+    },
+    {
+      "name": "CTRL_middle.02.L",
+      "parent": "root",
+      "deform": false
+    },
+    {
+      "name": "CTRL_middle.03.L",
+      "parent": "root",
+      "deform": false
+    },
+    {
+      "name": "CTRL_ring.01.L",
+      "parent": "root",
+      "deform": false
+    },
+    {
+      "name": "CTRL_ring.02.L",
+      "parent": "root",
+      "deform": false
+    },
+    {
+      "name": "CTRL_ring.03.L",
+      "parent": "root",
+      "deform": false
+    },
+    {
+      "name": "CTRL_pinky.01.L",
+      "parent": "root",
+      "deform": false
+    },
+    {
+      "name": "CTRL_pinky.02.L",
+      "parent": "root",
+      "deform": false
+    },
+    {
+      "name": "CTRL_pinky.03.L",
+      "parent": "root",
+      "deform": false
+    },
+    {
+      "name": "CTRL_thumb.01.R",
+      "parent": "root",
+      "deform": false
+    },
+    {
+      "name": "CTRL_thumb.02.R",
+      "parent": "root",
+      "deform": false
+    },
+    {
+      "name": "CTRL_thumb.03.R",
+      "parent": "root",
+      "deform": false
+    },
+    {
+      "name": "CTRL_index.01.R",
+      "parent": "root",
+      "deform": false
+    },
+    {
+      "name": "CTRL_index.02.R",
+      "parent": "root",
+      "deform": false
+    },
+    {
+      "name": "CTRL_index.03.R",
+      "parent": "root",
+      "deform": false
+    },
+    {
+      "name": "CTRL_middle.01.R",
+      "parent": "root",
+      "deform": false
+    },
+    {
+      "name": "CTRL_middle.02.R",
+      "parent": "root",
+      "deform": false
+    },
+    {
+      "name": "CTRL_middle.03.R",
+      "parent": "root",
+      "deform": false
+    },
+    {
+      "name": "CTRL_ring.01.R",
+      "parent": "root",
+      "deform": false
+    },
+    {
+      "name": "CTRL_ring.02.R",
+      "parent": "root",
+      "deform": false
+    },
+    {
+      "name": "CTRL_ring.03.R",
+      "parent": "root",
+      "deform": false
+    },
+    {
+      "name": "CTRL_pinky.01.R",
+      "parent": "root",
+      "deform": false
+    },
+    {
+      "name": "CTRL_pinky.02.R",
+      "parent": "root",
+      "deform": false
+    },
+    {
+      "name": "CTRL_pinky.03.R",
+      "parent": "root",
+      "deform": false
+    },
+    {
+      "name": "CTRL_look",
+      "parent": "root",
+      "deform": false
+    }
+  ],
+  "deform_bone_count": 64,
+  "root_bones": [
+    "root"
+  ],
+  "deform_rotation_modes": {
+    "root": "QUATERNION",
+    "pelvis": "QUATERNION",
+    "spine_01": "QUATERNION",
+    "spine_02": "QUATERNION",
+    "chest": "QUATERNION",
+    "neck": "QUATERNION",
+    "head": "QUATERNION",
+    "jaw": "QUATERNION",
+    "tongue": "QUATERNION",
+    "eye.L": "QUATERNION",
+    "eye.R": "QUATERNION",
+    "clavicle.L": "QUATERNION",
+    "upper_arm.L": "QUATERNION",
+    "forearm.L": "QUATERNION",
+    "hand.L": "QUATERNION",
+    "index.01.L": "QUATERNION",
+    "index.02.L": "QUATERNION",
+    "index.03.L": "QUATERNION",
+    "middle.01.L": "QUATERNION",
+    "middle.02.L": "QUATERNION",
+    "middle.03.L": "QUATERNION",
+    "ring.01.L": "QUATERNION",
+    "ring.02.L": "QUATERNION",
+    "ring.03.L": "QUATERNION",
+    "pinky.01.L": "QUATERNION",
+    "pinky.02.L": "QUATERNION",
+    "pinky.03.L": "QUATERNION",
+    "thumb.01.L": "QUATERNION",
+    "thumb.02.L": "QUATERNION",
+    "thumb.03.L": "QUATERNION",
+    "clavicle.R": "QUATERNION",
+    "upper_arm.R": "QUATERNION",
+    "forearm.R": "QUATERNION",
+    "hand.R": "QUATERNION",
+    "index.01.R": "QUATERNION",
+    "index.02.R": "QUATERNION",
+    "index.03.R": "QUATERNION",
+    "middle.01.R": "QUATERNION",
+    "middle.02.R": "QUATERNION",
+    "middle.03.R": "QUATERNION",
+    "ring.01.R": "QUATERNION",
+    "ring.02.R": "QUATERNION",
+    "ring.03.R": "QUATERNION",
+    "pinky.01.R": "QUATERNION",
+    "pinky.02.R": "QUATERNION",
+    "pinky.03.R": "QUATERNION",
+    "thumb.01.R": "QUATERNION",
+    "thumb.02.R": "QUATERNION",
+    "thumb.03.R": "QUATERNION",
+    "emitter_muzzle": "QUATERNION",
+    "blade_base": "QUATERNION",
+    "blade_tip": "QUATERNION",
+    "cell": "QUATERNION",
+    "thigh.L": "QUATERNION",
+    "shin.L": "QUATERNION",
+    "foot.L": "QUATERNION",
+    "toe.L": "QUATERNION",
+    "thigh.R": "QUATERNION",
+    "shin.R": "QUATERNION",
+    "foot.R": "QUATERNION",
+    "toe.R": "QUATERNION",
+    "beacon": "QUATERNION",
+    "cable.01": "QUATERNION",
+    "cable.02": "QUATERNION"
+  },
+  "meshes": [
+    {
+      "name": "Operative_LOD0",
+      "vertices": 21749,
+      "triangles": 42904,
+      "materials": [
+        "M_Skin",
+        "M_Weave",
+        "M_Ceramic",
+        "M_Alloy",
+        "M_TeamAccent",
+        "M_Hair",
+        "M_EyeWhite",
+        "M_Iris"
+      ],
+      "uv_layers": [
+        "UVMap"
+      ],
+      "max_bone_influences": 2,
+      "unweighted_vertices": 0,
+      "nonfinite_vertices": [],
+      "dimensions_m": [
+        0.8552430868148804,
+        0.36499476432800293,
+        1.7995644807815552
+      ],
+      "morphs": [
+        "Basis",
+        "blink.L",
+        "blink.R",
+        "squint.L",
+        "squint.R",
+        "brow_up.L",
+        "brow_up.R",
+        "brow_down.L",
+        "brow_down.R",
+        "cheek.L",
+        "cheek.R",
+        "smile.L",
+        "smile.R",
+        "frown.L",
+        "frown.R",
+        "jaw_open",
+        "lip_close",
+        "mouth_wide",
+        "pucker",
+        "funnel",
+        "viseme_AA",
+        "viseme_EE",
+        "viseme_OH",
+        "viseme_OO",
+        "viseme_FV",
+        "viseme_MBP",
+        "viseme_L",
+        "viseme_TH",
+        "shoulder_raise.L",
+        "shoulder_raise.R",
+        "hip_flex.L",
+        "hip_flex.R",
+        "wrist_flex.L",
+        "wrist_flex.R"
+      ],
+      "hidden_render": false,
+      "modifiers": [
+        [
+          "Native-compatible linear skin",
+          "ARMATURE"
+        ]
+      ],
+      "armature_preserve_volume": {
+        "Native-compatible linear skin": false
+      }
+    },
+    {
+      "name": "Operative_LOD1",
+      "vertices": 9878,
+      "triangles": 19257,
+      "materials": [
+        "M_Skin",
+        "M_Weave",
+        "M_Ceramic",
+        "M_Alloy",
+        "M_TeamAccent",
+        "M_Hair",
+        "M_EyeWhite",
+        "M_Iris"
+      ],
+      "uv_layers": [
+        "UVMap"
+      ],
+      "max_bone_influences": 2,
+      "unweighted_vertices": 0,
+      "nonfinite_vertices": [],
+      "dimensions_m": [
+        0.854907751083374,
+        0.3649861216545105,
+        1.7995644807815552
+      ],
+      "morphs": [
+        "Basis",
+        "blink.L",
+        "blink.R",
+        "squint.L",
+        "squint.R",
+        "brow_up.L",
+        "brow_up.R",
+        "brow_down.L",
+        "brow_down.R",
+        "cheek.L",
+        "cheek.R",
+        "smile.L",
+        "smile.R",
+        "frown.L",
+        "frown.R",
+        "jaw_open",
+        "lip_close",
+        "mouth_wide",
+        "pucker",
+        "funnel",
+        "viseme_AA",
+        "viseme_EE",
+        "viseme_OH",
+        "viseme_OO",
+        "viseme_FV",
+        "viseme_MBP",
+        "viseme_L",
+        "viseme_TH",
+        "shoulder_raise.L",
+        "shoulder_raise.R",
+        "hip_flex.L",
+        "hip_flex.R",
+        "wrist_flex.L",
+        "wrist_flex.R"
+      ],
+      "hidden_render": true,
+      "modifiers": [
+        [
+          "Native-compatible linear skin",
+          "ARMATURE"
+        ]
+      ],
+      "armature_preserve_volume": {
+        "Native-compatible linear skin": false
+      }
+    },
+    {
+      "name": "Operative_LOD2",
+      "vertices": 5864,
+      "triangles": 11260,
+      "materials": [
+        "M_Skin",
+        "M_Weave",
+        "M_Ceramic",
+        "M_Alloy",
+        "M_TeamAccent",
+        "M_Hair",
+        "M_EyeWhite",
+        "M_Iris"
+      ],
+      "uv_layers": [
+        "UVMap"
+      ],
+      "max_bone_influences": 2,
+      "unweighted_vertices": 0,
+      "nonfinite_vertices": [],
+      "dimensions_m": [
+        0.854737401008606,
+        0.36499476432800293,
+        1.7995537519454956
+      ],
+      "morphs": [
+        "Basis",
+        "blink.L",
+        "blink.R",
+        "squint.L",
+        "squint.R",
+        "brow_up.L",
+        "brow_up.R",
+        "brow_down.L",
+        "brow_down.R",
+        "cheek.L",
+        "cheek.R",
+        "smile.L",
+        "smile.R",
+        "frown.L",
+        "frown.R",
+        "jaw_open",
+        "lip_close",
+        "mouth_wide",
+        "pucker",
+        "funnel",
+        "viseme_AA",
+        "viseme_EE",
+        "viseme_OH",
+        "viseme_OO",
+        "viseme_FV",
+        "viseme_MBP",
+        "viseme_L",
+        "viseme_TH",
+        "shoulder_raise.L",
+        "shoulder_raise.R",
+        "hip_flex.L",
+        "hip_flex.R",
+        "wrist_flex.L",
+        "wrist_flex.R"
+      ],
+      "hidden_render": true,
+      "modifiers": [
+        [
+          "Native-compatible linear skin",
+          "ARMATURE"
+        ]
+      ],
+      "armature_preserve_volume": {
+        "Native-compatible linear skin": false
+      }
+    },
+    {
+      "name": "Studio_Floor",
+      "vertices": 4,
+      "triangles": 2,
+      "materials": [
+        "Studio_Slate"
+      ],
+      "uv_layers": [
+        "UVMap"
+      ],
+      "max_bone_influences": 0,
+      "unweighted_vertices": 4,
+      "nonfinite_vertices": [],
+      "dimensions_m": [
+        200.0,
+        200.0,
+        0.0
+      ],
+      "morphs": [],
+      "hidden_render": false,
+      "modifiers": [],
+      "armature_preserve_volume": {}
+    }
+  ],
+  "actions": [
+    {
+      "id": "idle_relaxed",
+      "present": true,
+      "frame_range": [
+        1.0,
+        109.0
+      ],
+      "duration_seconds": 3.6,
+      "five_pose_hash": "b7800fcfadeb10345cb8de9a87fa93012be3718b348296bea5e14bee1710607f",
+      "distinct_sampled_poses": 5,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 0.0,
+      "form": "loop",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "idle_combat",
+      "present": true,
+      "frame_range": [
+        1.0,
+        85.0
+      ],
+      "duration_seconds": 2.8,
+      "five_pose_hash": "4370e03941e0edc25f5beb4f290eea61b74074780be713e287365a21b2934aa5",
+      "distinct_sampled_poses": 4,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 0.0,
+      "form": "loop",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "idle_wounded",
+      "present": true,
+      "frame_range": [
+        1.0,
+        103.0
+      ],
+      "duration_seconds": 3.4,
+      "five_pose_hash": "3efa5a154f57682047ad6884a181f7c9b659c290866e4bd082c0afe9c852c054",
+      "distinct_sampled_poses": 4,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 0.0,
+      "form": "loop",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "walk_f",
+      "present": true,
+      "frame_range": [
+        1.0,
+        25.0
+      ],
+      "duration_seconds": 0.8,
+      "five_pose_hash": "66b2a3752ec62b9a4ae8b14b34c7ffa961113c7435654b4af821b27184ce1db1",
+      "distinct_sampled_poses": 4,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 0.0,
+      "form": "loop",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "walk_fl",
+      "present": true,
+      "frame_range": [
+        1.0,
+        25.0
+      ],
+      "duration_seconds": 0.8,
+      "five_pose_hash": "0a05f29f35d324e84a7617a0b28fdcdcd78e2cbdf8b7dedbfe034234314d0275",
+      "distinct_sampled_poses": 4,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 0.0,
+      "form": "loop",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "walk_l",
+      "present": true,
+      "frame_range": [
+        1.0,
+        25.0
+      ],
+      "duration_seconds": 0.8,
+      "five_pose_hash": "2e73bf1ae5f9b08a806601d8d9852ea5757c6a0dd8a114ebfc7d22a1f73855bb",
+      "distinct_sampled_poses": 4,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 0.0,
+      "form": "loop",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "walk_bl",
+      "present": true,
+      "frame_range": [
+        1.0,
+        25.0
+      ],
+      "duration_seconds": 0.8,
+      "five_pose_hash": "27ce71f88c6cf7cf707d2a86316e90ba24f3076c1c36833462a0d614e7a1b3e0",
+      "distinct_sampled_poses": 4,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 0.0,
+      "form": "loop",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "walk_b",
+      "present": true,
+      "frame_range": [
+        1.0,
+        25.0
+      ],
+      "duration_seconds": 0.8,
+      "five_pose_hash": "ec6e6bd817460e936f16ee77ebcfab495703c7141cdd04f80de696dc521e0fee",
+      "distinct_sampled_poses": 4,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 0.0,
+      "form": "loop",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "walk_br",
+      "present": true,
+      "frame_range": [
+        1.0,
+        25.0
+      ],
+      "duration_seconds": 0.8,
+      "five_pose_hash": "192c39061f1d5b14840f8a3f4eff5a06d045e9d3bc3f914012400a3f1d434dae",
+      "distinct_sampled_poses": 4,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 0.0,
+      "form": "loop",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "walk_r",
+      "present": true,
+      "frame_range": [
+        1.0,
+        25.0
+      ],
+      "duration_seconds": 0.8,
+      "five_pose_hash": "19ad9db1402b42882e47848cffec3327a3ae10e042f57c7c35dbff698c000204",
+      "distinct_sampled_poses": 4,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 0.0,
+      "form": "loop",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "walk_fr",
+      "present": true,
+      "frame_range": [
+        1.0,
+        25.0
+      ],
+      "duration_seconds": 0.8,
+      "five_pose_hash": "a2b532235d75d6adcbc038ecfb7bea9d96d3a7c090e0fb273c64b3ad89fe1c2a",
+      "distinct_sampled_poses": 4,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 0.0,
+      "form": "loop",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "run_f",
+      "present": true,
+      "frame_range": [
+        1.0,
+        22.0
+      ],
+      "duration_seconds": 0.7,
+      "five_pose_hash": "2f0886f2556d479971fa4100caa327d4ec126df5908d4a2f37af30c711bcfef9",
+      "distinct_sampled_poses": 4,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 0.0,
+      "form": "loop",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "run_fl",
+      "present": true,
+      "frame_range": [
+        1.0,
+        22.0
+      ],
+      "duration_seconds": 0.7,
+      "five_pose_hash": "b136256573439048692c7dff721d06ca86a012bbe03ae6b84fb8a2cb06e10fed",
+      "distinct_sampled_poses": 4,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 0.0,
+      "form": "loop",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "run_l",
+      "present": true,
+      "frame_range": [
+        1.0,
+        22.0
+      ],
+      "duration_seconds": 0.7,
+      "five_pose_hash": "eff902485834dbe9ca624847a019efd241dda2c343d0f1ac12ca9aaae1403347",
+      "distinct_sampled_poses": 4,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 0.0,
+      "form": "loop",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "run_bl",
+      "present": true,
+      "frame_range": [
+        1.0,
+        22.0
+      ],
+      "duration_seconds": 0.7,
+      "five_pose_hash": "30aa0e8e72fcb08b1d19111d42ad56db880b2fcd0894e58e916930619421b969",
+      "distinct_sampled_poses": 4,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 0.0,
+      "form": "loop",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "run_b",
+      "present": true,
+      "frame_range": [
+        1.0,
+        22.0
+      ],
+      "duration_seconds": 0.7,
+      "five_pose_hash": "6e5be99d058463d67d49451608b7a77acfb6436f6e8a653c14df675c874a4b10",
+      "distinct_sampled_poses": 4,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 0.0,
+      "form": "loop",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "run_br",
+      "present": true,
+      "frame_range": [
+        1.0,
+        22.0
+      ],
+      "duration_seconds": 0.7,
+      "five_pose_hash": "b2a4ecf66bb56c226461247cb88da4c82f8fa8ec8c7aabc1b61e2a6c208a6b00",
+      "distinct_sampled_poses": 4,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 0.0,
+      "form": "loop",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "run_r",
+      "present": true,
+      "frame_range": [
+        1.0,
+        22.0
+      ],
+      "duration_seconds": 0.7,
+      "five_pose_hash": "3a9bc8275bffbc3e67737f306f1c68f300f62298d41ed6edc3e3ec1b788e1a9d",
+      "distinct_sampled_poses": 4,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 0.0,
+      "form": "loop",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "run_fr",
+      "present": true,
+      "frame_range": [
+        1.0,
+        22.0
+      ],
+      "duration_seconds": 0.7,
+      "five_pose_hash": "644aa1e92d3529aefde9e481492ab58fbeb366a63432145e6c5f5eba91ddfa16",
+      "distinct_sampled_poses": 4,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 0.0,
+      "form": "loop",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "sprint_f",
+      "present": true,
+      "frame_range": [
+        1.0,
+        19.0
+      ],
+      "duration_seconds": 0.6,
+      "five_pose_hash": "9b05eb5dcf74907404c97015a4e80abf9ced38a3043138ca4512cd3f9a095ea5",
+      "distinct_sampled_poses": 4,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 0.0,
+      "form": "loop",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "start_f",
+      "present": true,
+      "frame_range": [
+        1.0,
+        22.0
+      ],
+      "duration_seconds": 0.7,
+      "five_pose_hash": "b696a90e776fb7fdf21f34e5c94ee884de9c40e1e66d137cc17a019f9b27b01d",
+      "distinct_sampled_poses": 5,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 1.4851014,
+      "form": "one_shot",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "stop_f",
+      "present": true,
+      "frame_range": [
+        1.0,
+        22.0
+      ],
+      "duration_seconds": 0.7,
+      "five_pose_hash": "9ae9b0c6f176aa0e2057a9d7dac6c2eb35804158d7338b014666b2613b82ab65",
+      "distinct_sampled_poses": 5,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 1.4851014,
+      "form": "one_shot",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "turn_l90",
+      "present": true,
+      "frame_range": [
+        1.0,
+        25.0
+      ],
+      "duration_seconds": 0.8,
+      "five_pose_hash": "9cd0abbad4ab97ec134cb1ea4e2f3903968dd8aaffdeb05175815ddf8cbea1d5",
+      "distinct_sampled_poses": 5,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 1.8132632000000002,
+      "form": "one_shot",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "turn_r90",
+      "present": true,
+      "frame_range": [
+        1.0,
+        25.0
+      ],
+      "duration_seconds": 0.8,
+      "five_pose_hash": "699d829331e2def456179e239dffa0fc10090d8421bb515c53e7da71054487c7",
+      "distinct_sampled_poses": 5,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 1.9058163000000001,
+      "form": "one_shot",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "pivot_l180",
+      "present": true,
+      "frame_range": [
+        1.0,
+        25.0
+      ],
+      "duration_seconds": 0.8,
+      "five_pose_hash": "0d3a4e63b36fa0da36cf219e6fbc3f5b0d3a39949b07498ee46b61f0d184fbab",
+      "distinct_sampled_poses": 5,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 2.0000005,
+      "form": "one_shot",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "pivot_r180",
+      "present": true,
+      "frame_range": [
+        1.0,
+        25.0
+      ],
+      "duration_seconds": 0.8,
+      "five_pose_hash": "67c5b9f73ff62a2dc78331e0c7b70044ebeffb2050a25b69d583b4beadc4c1a5",
+      "distinct_sampled_poses": 5,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 2.0000001999999997,
+      "form": "one_shot",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "jump_start",
+      "present": true,
+      "frame_range": [
+        1.0,
+        19.0
+      ],
+      "duration_seconds": 0.6,
+      "five_pose_hash": "fde980278159adb4be5117dd2c8e8446a167611b51b69c0fba88baecca122662",
+      "distinct_sampled_poses": 5,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 1.3170934,
+      "form": "one_shot",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "jump_air",
+      "present": true,
+      "frame_range": [
+        1.0,
+        25.0
+      ],
+      "duration_seconds": 0.8,
+      "five_pose_hash": "e145f8e230992be10ffacaca6e5bc67fa0d8cc7d5efaff858775a97b4bc3e41d",
+      "distinct_sampled_poses": 4,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 0.0,
+      "form": "loop",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "jump_land",
+      "present": true,
+      "frame_range": [
+        1.0,
+        22.0
+      ],
+      "duration_seconds": 0.7,
+      "five_pose_hash": "01bc46687b56b827263afce114f73759984ff51f01a6547844d8058bcc019ee4",
+      "distinct_sampled_poses": 4,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 0.0,
+      "form": "one_shot",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "fall",
+      "present": true,
+      "frame_range": [
+        1.0,
+        28.0
+      ],
+      "duration_seconds": 0.9,
+      "five_pose_hash": "27c2a0410e41d8ad9ca4641b2ec7332f53cfbd910549c5146ed3482eaaef0621",
+      "distinct_sampled_poses": 5,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 0.0,
+      "form": "loop",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "land_heavy",
+      "present": true,
+      "frame_range": [
+        1.0,
+        31.0
+      ],
+      "duration_seconds": 1.0,
+      "five_pose_hash": "ec95fe85bb8deb9cd6e2ba066ec3774341f17cdf2a8d9eafb8e6512d9f8f4bcf",
+      "distinct_sampled_poses": 4,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 0.0,
+      "form": "one_shot",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "dash_f",
+      "present": true,
+      "frame_range": [
+        1.0,
+        16.0
+      ],
+      "duration_seconds": 0.5,
+      "five_pose_hash": "b0a6e335f8facbf7005882a25fb81feeca557b0b1c83a0e998fa44d5930a5256",
+      "distinct_sampled_poses": 5,
+      "root_displacement_m": [
+        -2.842170943040401e-14,
+        -2.000000238418579,
+        0.0
+      ],
+      "root_distance_m": 2.000000238418565,
+      "endpoint_matrix_max_error": 2.0000004,
+      "form": "one_shot",
+      "root_policy": "root_motion"
+    },
+    {
+      "id": "dash_b",
+      "present": true,
+      "frame_range": [
+        1.0,
+        16.0
+      ],
+      "duration_seconds": 0.5,
+      "five_pose_hash": "3d21f8029df4af8a400c39ce8a1821f42985c60212e72de0f24996e6b758a2f4",
+      "distinct_sampled_poses": 5,
+      "root_displacement_m": [
+        2.842170943040401e-14,
+        2.000000238418579,
+        0.0
+      ],
+      "root_distance_m": 2.000000238418565,
+      "endpoint_matrix_max_error": 2.0000004,
+      "form": "one_shot",
+      "root_policy": "root_motion"
+    },
+    {
+      "id": "dash_l",
+      "present": true,
+      "frame_range": [
+        1.0,
+        16.0
+      ],
+      "duration_seconds": 0.5,
+      "five_pose_hash": "b8ed8fa71fbc3449e90a0b3d2050cf88f1604f62a74233e6c7f1d632d85339ee",
+      "distinct_sampled_poses": 5,
+      "root_displacement_m": [
+        2.000000238418579,
+        -2.842170943040401e-14,
+        0.0
+      ],
+      "root_distance_m": 2.000000238418565,
+      "endpoint_matrix_max_error": 2.0000005,
+      "form": "one_shot",
+      "root_policy": "root_motion"
+    },
+    {
+      "id": "dash_r",
+      "present": true,
+      "frame_range": [
+        1.0,
+        16.0
+      ],
+      "duration_seconds": 0.5,
+      "five_pose_hash": "29d0bd73b78ec9d656b4a088ef8257d8ae1c7a0308f1a6156bf664c50f1375ff",
+      "distinct_sampled_poses": 5,
+      "root_displacement_m": [
+        -2.000000238418579,
+        2.842170943040401e-14,
+        0.0
+      ],
+      "root_distance_m": 2.000000238418565,
+      "endpoint_matrix_max_error": 2.0000006000000004,
+      "form": "one_shot",
+      "root_policy": "root_motion"
+    },
+    {
+      "id": "blink_out",
+      "present": true,
+      "frame_range": [
+        1.0,
+        13.0
+      ],
+      "duration_seconds": 0.4,
+      "five_pose_hash": "cb9f9baf550977fd1a1732834150c4b90343a4cf1d9d5e7e9e64deecc8673855",
+      "distinct_sampled_poses": 5,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 1.5712525,
+      "form": "one_shot",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "blink_in",
+      "present": true,
+      "frame_range": [
+        1.0,
+        13.0
+      ],
+      "duration_seconds": 0.4,
+      "five_pose_hash": "3b001344b678e8e285b2fe84c94e01130face03a0f0dd6b90f17e05bb5631cb1",
+      "distinct_sampled_poses": 5,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 1.5712525,
+      "form": "one_shot",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "melee_1",
+      "present": true,
+      "frame_range": [
+        1.0,
+        25.0
+      ],
+      "duration_seconds": 0.8,
+      "five_pose_hash": "9ac2937db1c0457021db8993a681ee2debbc9701171cd83e894180ac8ee6d7f4",
+      "distinct_sampled_poses": 4,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 0.0,
+      "form": "one_shot",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "melee_2",
+      "present": true,
+      "frame_range": [
+        1.0,
+        28.0
+      ],
+      "duration_seconds": 0.9,
+      "five_pose_hash": "7973c64b787a8e5fbbc7d9bf659ba064e4c0905684b498453e4527511461a5d9",
+      "distinct_sampled_poses": 4,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 0.0,
+      "form": "one_shot",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "melee_3",
+      "present": true,
+      "frame_range": [
+        1.0,
+        34.0
+      ],
+      "duration_seconds": 1.1,
+      "five_pose_hash": "b16728442fbca0ccfd0f29e66f19fd450398c7c3af075b2de8e261baf0562b04",
+      "distinct_sampled_poses": 4,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 0.0,
+      "form": "one_shot",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "ranged_fire",
+      "present": true,
+      "frame_range": [
+        1.0,
+        10.0
+      ],
+      "duration_seconds": 0.3,
+      "five_pose_hash": "a147b90ea3e2cad649498918633a43ea3cd672ebd6c0ab71bd0e31e606ba3ac8",
+      "distinct_sampled_poses": 4,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 0.0,
+      "form": "one_shot",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "ranged_burst",
+      "present": true,
+      "frame_range": [
+        1.0,
+        19.0
+      ],
+      "duration_seconds": 0.6,
+      "five_pose_hash": "cbbfac1492a0ea158fd93639cdaa0f68e3cd5f47b3b21fb36d6bf71bd3b91d8f",
+      "distinct_sampled_poses": 4,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 0.0,
+      "form": "one_shot",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "reload",
+      "present": true,
+      "frame_range": [
+        1.0,
+        70.0
+      ],
+      "duration_seconds": 2.3,
+      "five_pose_hash": "1556b2c33424a7bebc73e99432f58bb94b1bab812e703343325babdb37e80ab5",
+      "distinct_sampled_poses": 4,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 0.0,
+      "form": "one_shot",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "cast_directional",
+      "present": true,
+      "frame_range": [
+        1.0,
+        28.0
+      ],
+      "duration_seconds": 0.9,
+      "five_pose_hash": "1827dab32398c1df47584904772e5595f652f8a471eb8bd6f0aec34cb38ecbeb",
+      "distinct_sampled_poses": 4,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 0.0,
+      "form": "one_shot",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "cast_ground",
+      "present": true,
+      "frame_range": [
+        1.0,
+        37.0
+      ],
+      "duration_seconds": 1.2,
+      "five_pose_hash": "e490deebfe7c224e837564068b65041ac124c6a2adb066faee200119c8df03de",
+      "distinct_sampled_poses": 4,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 0.0,
+      "form": "one_shot",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "cast_self",
+      "present": true,
+      "frame_range": [
+        1.0,
+        28.0
+      ],
+      "duration_seconds": 0.9,
+      "five_pose_hash": "1fb7a7d8caba166049d5c2d12225a9e56bbe8605112b64dc345ad50e93cb56ba",
+      "distinct_sampled_poses": 4,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 0.0,
+      "form": "one_shot",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "channel_start",
+      "present": true,
+      "frame_range": [
+        1.0,
+        19.0
+      ],
+      "duration_seconds": 0.6,
+      "five_pose_hash": "6dff1e4130cabbc42f5d6e079241accd38bdbc44995de61de5a7d3f4c54ea21c",
+      "distinct_sampled_poses": 5,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 0.935246,
+      "form": "one_shot",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "channel_loop",
+      "present": true,
+      "frame_range": [
+        1.0,
+        49.0
+      ],
+      "duration_seconds": 1.6,
+      "five_pose_hash": "5e215b64c6de0a963d4eb70ecba04d0db12ab45a0fc7f211634464ba4f3eb616",
+      "distinct_sampled_poses": 4,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 0.0,
+      "form": "loop",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "channel_end",
+      "present": true,
+      "frame_range": [
+        1.0,
+        19.0
+      ],
+      "duration_seconds": 0.6,
+      "five_pose_hash": "643d7e64e5c09bb41c20a256785563155a6dcf1683207fb6a56565d06dc7fa87",
+      "distinct_sampled_poses": 5,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 0.935246,
+      "form": "one_shot",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "channel_interrupt",
+      "present": true,
+      "frame_range": [
+        1.0,
+        13.0
+      ],
+      "duration_seconds": 0.4,
+      "five_pose_hash": "04c2af08990478fedd93f05591b73dacc75f9ea0dd0d362c6a7b1feb216703bf",
+      "distinct_sampled_poses": 5,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 0.935246,
+      "form": "one_shot",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "charge_start",
+      "present": true,
+      "frame_range": [
+        1.0,
+        25.0
+      ],
+      "duration_seconds": 0.8,
+      "five_pose_hash": "747b1c407cb7f1467f562765a7fccb0aa0dc3a87990f61d58dc7386b00b95c4e",
+      "distinct_sampled_poses": 5,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 0.9827011999999999,
+      "form": "one_shot",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "charge_hold",
+      "present": true,
+      "frame_range": [
+        1.0,
+        37.0
+      ],
+      "duration_seconds": 1.2,
+      "five_pose_hash": "6c2ba4caea3bf1571e54b6ea4e4335d11e8cf2a86a2fb3ace692a28474d077b3",
+      "distinct_sampled_poses": 4,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 0.0,
+      "form": "loop",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "charge_release",
+      "present": true,
+      "frame_range": [
+        1.0,
+        25.0
+      ],
+      "duration_seconds": 0.8,
+      "five_pose_hash": "783223a3e9d845af8d9c5bfcff46c89193f5dde02dd1c6e84e09a32bfeaba679",
+      "distinct_sampled_poses": 5,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 0.9827011999999999,
+      "form": "one_shot",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "charge_cancel",
+      "present": true,
+      "frame_range": [
+        1.0,
+        16.0
+      ],
+      "duration_seconds": 0.5,
+      "five_pose_hash": "ff3bd4ec6ab5bc063e409872188a36102bc64ec4288733f23a3437761227bf2d",
+      "distinct_sampled_poses": 5,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 0.9827011999999999,
+      "form": "one_shot",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "deploy",
+      "present": true,
+      "frame_range": [
+        1.0,
+        55.0
+      ],
+      "duration_seconds": 1.8,
+      "five_pose_hash": "85635670069cddae92b333463926f16d82dd6fac554c82b9b85728d237b82808",
+      "distinct_sampled_poses": 5,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 0.9645,
+      "form": "one_shot",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "uplink_start",
+      "present": true,
+      "frame_range": [
+        1.0,
+        25.0
+      ],
+      "duration_seconds": 0.8,
+      "five_pose_hash": "fc8ac693b42d627e7bef3561060514c8aa56aad54aaf7e4077e6286cc8b5005d",
+      "distinct_sampled_poses": 5,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 1.3823067999999998,
+      "form": "one_shot",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "uplink_loop",
+      "present": true,
+      "frame_range": [
+        1.0,
+        49.0
+      ],
+      "duration_seconds": 1.6,
+      "five_pose_hash": "0d4d227e39a1319b580731fc72b5679a1f6cd294c35b533239893a1698b1c793",
+      "distinct_sampled_poses": 4,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 0.0,
+      "form": "loop",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "uplink_end",
+      "present": true,
+      "frame_range": [
+        1.0,
+        22.0
+      ],
+      "duration_seconds": 0.7,
+      "five_pose_hash": "1cda62822b415f2313a12800eb26bba8b7044055ed610d3ff6e9672d8709ed80",
+      "distinct_sampled_poses": 5,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 1.3823067999999998,
+      "form": "one_shot",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "uplink_cancel",
+      "present": true,
+      "frame_range": [
+        1.0,
+        16.0
+      ],
+      "duration_seconds": 0.5,
+      "five_pose_hash": "0a28202d53196729af03091d6e64413cb834f4eac9bca6670458a27bef1944b6",
+      "distinct_sampled_poses": 5,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 1.3823067999999998,
+      "form": "one_shot",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "hit_f",
+      "present": true,
+      "frame_range": [
+        1.0,
+        13.0
+      ],
+      "duration_seconds": 0.4,
+      "five_pose_hash": "006d9a0090e9cf8a4c6cdc1595d50fbcf3e2d85dd14cfc80485e89db7548a3d9",
+      "distinct_sampled_poses": 4,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 0.0,
+      "form": "additive",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "hit_b",
+      "present": true,
+      "frame_range": [
+        1.0,
+        13.0
+      ],
+      "duration_seconds": 0.4,
+      "five_pose_hash": "d215b78dea03dec23ec932c0da52a0ea6bc1606db047faef85bc2ba093a83ac3",
+      "distinct_sampled_poses": 4,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 0.0,
+      "form": "additive",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "hit_l",
+      "present": true,
+      "frame_range": [
+        1.0,
+        13.0
+      ],
+      "duration_seconds": 0.4,
+      "five_pose_hash": "cedadfaca4fef93a1c280330b32960ff9586c3dc62ab621d8c3d7fd5c0457348",
+      "distinct_sampled_poses": 4,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 0.0,
+      "form": "additive",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "hit_r",
+      "present": true,
+      "frame_range": [
+        1.0,
+        13.0
+      ],
+      "duration_seconds": 0.4,
+      "five_pose_hash": "8d7269176d8e1a9baabf8d6dc2e426de07c30bc6eb9b8108cb805c064f498cac",
+      "distinct_sampled_poses": 4,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 0.0,
+      "form": "additive",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "stun_start",
+      "present": true,
+      "frame_range": [
+        1.0,
+        22.0
+      ],
+      "duration_seconds": 0.7,
+      "five_pose_hash": "e5e306721b93b453bb0f2b050db2b57be00240aed673131c4d75e425daf4943d",
+      "distinct_sampled_poses": 5,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 1.7593109,
+      "form": "one_shot",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "stun_loop",
+      "present": true,
+      "frame_range": [
+        1.0,
+        55.0
+      ],
+      "duration_seconds": 1.8,
+      "five_pose_hash": "6c96f78191bc676293213eef1d74dd8c2e6d776ce3264ddbd673e3cacc1ad560",
+      "distinct_sampled_poses": 4,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 0.0,
+      "form": "loop",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "stun_end",
+      "present": true,
+      "frame_range": [
+        1.0,
+        31.0
+      ],
+      "duration_seconds": 1.0,
+      "five_pose_hash": "b2d2d079a3240cd2d2eb8271705bd0cf2f1bc0e278175d760d82e02a64daaa24",
+      "distinct_sampled_poses": 5,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 1.7593109,
+      "form": "one_shot",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "knockback",
+      "present": true,
+      "frame_range": [
+        1.0,
+        25.0
+      ],
+      "duration_seconds": 0.8,
+      "five_pose_hash": "4da6b894dd18ad025be3b6adb1a3325d15320c57ca6cef7d350af512709a7f12",
+      "distinct_sampled_poses": 4,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 0.0,
+      "form": "one_shot",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "knockup_start",
+      "present": true,
+      "frame_range": [
+        1.0,
+        19.0
+      ],
+      "duration_seconds": 0.6,
+      "five_pose_hash": "14c0bf8285c2b1d725b1d42af475f7dccf7a14258c538b6a79dc80308ace77e2",
+      "distinct_sampled_poses": 5,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 1.9344461000000002,
+      "form": "one_shot",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "knockup_air",
+      "present": true,
+      "frame_range": [
+        1.0,
+        25.0
+      ],
+      "duration_seconds": 0.8,
+      "five_pose_hash": "8373ebf46c94dbbcbe8023d285b8ebb46a3c8b93eea53023809a8cff5101ec55",
+      "distinct_sampled_poses": 4,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 0.0,
+      "form": "loop",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "knockdown_front",
+      "present": true,
+      "frame_range": [
+        1.0,
+        34.0
+      ],
+      "duration_seconds": 1.1,
+      "five_pose_hash": "91fa56b1eae15816c38f4675e5b4fc8d549e6431cbc898cc60660bfa532ac155",
+      "distinct_sampled_poses": 5,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 2.0000001000000003,
+      "form": "one_shot",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "knockdown_back",
+      "present": true,
+      "frame_range": [
+        1.0,
+        37.0
+      ],
+      "duration_seconds": 1.2,
+      "five_pose_hash": "1f7f86434e9701295bba8c217a0f1b6e37095fd0ba1759ee9ea7ada79a76af5f",
+      "distinct_sampled_poses": 5,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 1.8226101,
+      "form": "one_shot",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "prone_front",
+      "present": true,
+      "frame_range": [
+        1.0,
+        61.0
+      ],
+      "duration_seconds": 2.0,
+      "five_pose_hash": "2891196d027f59527b0027c57847e52a33802df2fc66b0ee44d2c5602605b2f4",
+      "distinct_sampled_poses": 4,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 0.0,
+      "form": "loop",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "prone_back",
+      "present": true,
+      "frame_range": [
+        1.0,
+        61.0
+      ],
+      "duration_seconds": 2.0,
+      "five_pose_hash": "1096dd197ca773806f0d8161a0a869ce3bacee491110ff40b4447ca2fba8598a",
+      "distinct_sampled_poses": 4,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 0.0,
+      "form": "loop",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "getup_front",
+      "present": true,
+      "frame_range": [
+        1.0,
+        67.0
+      ],
+      "duration_seconds": 2.2,
+      "five_pose_hash": "f5f1073dae52643b898f2d8c6e464d5241a8bee1706d74343b7591a1a2b7e6cd",
+      "distinct_sampled_poses": 5,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 2.0000001000000003,
+      "form": "one_shot",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "getup_back",
+      "present": true,
+      "frame_range": [
+        1.0,
+        76.0
+      ],
+      "duration_seconds": 2.5,
+      "five_pose_hash": "a782f0797ffb95770caded71e8b5fc467617d6e1e7bf6f55e3d0c0c4461ad9ae",
+      "distinct_sampled_poses": 5,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 1.8226101,
+      "form": "one_shot",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "sleep_start",
+      "present": true,
+      "frame_range": [
+        1.0,
+        73.0
+      ],
+      "duration_seconds": 2.4,
+      "five_pose_hash": "dacf4a497a84b45ea011af0e2f7496ce810a7850515b1ab9e7f0e9f3ab91a9de",
+      "distinct_sampled_poses": 5,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 1.7409648,
+      "form": "one_shot",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "sleep_loop",
+      "present": true,
+      "frame_range": [
+        1.0,
+        85.0
+      ],
+      "duration_seconds": 2.8,
+      "five_pose_hash": "22d839bb506986169159d82a429ab234e5e3a002c2fa9678dafcc9fdabe22be7",
+      "distinct_sampled_poses": 4,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 0.0,
+      "form": "loop",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "sleep_end",
+      "present": true,
+      "frame_range": [
+        1.0,
+        79.0
+      ],
+      "duration_seconds": 2.6,
+      "five_pose_hash": "8bacd463ea9a52e20da7122abbe6b9bb223ce8dba9572b2b99ef5b03fc337e33",
+      "distinct_sampled_poses": 5,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 1.7409648,
+      "form": "one_shot",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "death_front",
+      "present": true,
+      "frame_range": [
+        1.0,
+        64.0
+      ],
+      "duration_seconds": 2.1,
+      "five_pose_hash": "c11fa9c3a757d0ba9aaad91c18f35a95abc61d52cd4221f1640c2e6a99475e03",
+      "distinct_sampled_poses": 5,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 2.0000001000000003,
+      "form": "one_shot",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "death_back",
+      "present": true,
+      "frame_range": [
+        1.0,
+        73.0
+      ],
+      "duration_seconds": 2.4,
+      "five_pose_hash": "89c681adf4f16e577290a4419baf7632c38d7edcfa50a09a8b8a43962f9b546c",
+      "distinct_sampled_poses": 5,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 1.7350568,
+      "form": "one_shot",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "dead_front",
+      "present": true,
+      "frame_range": [
+        1.0,
+        2.0
+      ],
+      "duration_seconds": 0.03333333333333333,
+      "five_pose_hash": "a232975ab25befb0c88c6298a48724f631e4e0b903dcfea0bdebe7e1ca82b78b",
+      "distinct_sampled_poses": 1,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 0.0,
+      "form": "pose",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "dead_back",
+      "present": true,
+      "frame_range": [
+        1.0,
+        2.0
+      ],
+      "duration_seconds": 0.03333333333333333,
+      "five_pose_hash": "0a7252eafb5121a207bd6032545ba2f195b0f6847cbca8d99e68fad90ce88183",
+      "distinct_sampled_poses": 1,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 0.0,
+      "form": "pose",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "respawn",
+      "present": true,
+      "frame_range": [
+        1.0,
+        73.0
+      ],
+      "duration_seconds": 2.4,
+      "five_pose_hash": "b1562f82e03e9bd2559f171a456bfa2acd0067693555809d1ac90baafbf9d484",
+      "distinct_sampled_poses": 5,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 1.6292664000000001,
+      "form": "one_shot",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "greet",
+      "present": true,
+      "frame_range": [
+        1.0,
+        67.0
+      ],
+      "duration_seconds": 2.2,
+      "five_pose_hash": "ed8f568972adc0ed53ef3ecc657404465c186bb29f9233586b08e8c8c4bcdf85",
+      "distinct_sampled_poses": 4,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 0.0,
+      "form": "one_shot",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "victory",
+      "present": true,
+      "frame_range": [
+        1.0,
+        85.0
+      ],
+      "duration_seconds": 2.8,
+      "five_pose_hash": "04959dde00b5911c6a96adcde53c2d609ef0d4794b96dda47f3ceb1a1a1a2857",
+      "distinct_sampled_poses": 5,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 1.0223714,
+      "form": "one_shot",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "defeat",
+      "present": true,
+      "frame_range": [
+        1.0,
+        76.0
+      ],
+      "duration_seconds": 2.5,
+      "five_pose_hash": "4d7b9acfd13a8b4a5aa9435cd2f13e79b333ecb6c9554e50b8d31ba422c13f35",
+      "distinct_sampled_poses": 5,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 1.2825077999999999,
+      "form": "one_shot",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "dialogue",
+      "present": true,
+      "frame_range": [
+        1.0,
+        421.0
+      ],
+      "duration_seconds": 14.0,
+      "five_pose_hash": "b9ffa2798f7d13a202d9935e18a58955dd9d4ef399d63b1d30b43c4920947a2e",
+      "distinct_sampled_poses": 5,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 0.0,
+      "form": "one_shot",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "aim_down_left",
+      "present": true,
+      "frame_range": [
+        1.0,
+        2.0
+      ],
+      "duration_seconds": 0.03333333333333333,
+      "five_pose_hash": "13b448078064d4c5deffa9e5d323e8ba60f6f6ba4ca1083e4ae7990a7094ee60",
+      "distinct_sampled_poses": 1,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 0.0,
+      "form": "pose",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "aim_down_center",
+      "present": true,
+      "frame_range": [
+        1.0,
+        2.0
+      ],
+      "duration_seconds": 0.03333333333333333,
+      "five_pose_hash": "675f99ea8f159eb25a490e096e068e29386f5245ada6987e4e86ed534182d980",
+      "distinct_sampled_poses": 1,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 0.0,
+      "form": "pose",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "aim_down_right",
+      "present": true,
+      "frame_range": [
+        1.0,
+        2.0
+      ],
+      "duration_seconds": 0.03333333333333333,
+      "five_pose_hash": "9e3c145e28884728ff0e7f21b396d49c8e6755f636e76a8780efc981eb9fb2e4",
+      "distinct_sampled_poses": 1,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 0.0,
+      "form": "pose",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "aim_level_left",
+      "present": true,
+      "frame_range": [
+        1.0,
+        2.0
+      ],
+      "duration_seconds": 0.03333333333333333,
+      "five_pose_hash": "11275f145afb12d53cda0dbeea95fa799a47a320311076dd7f7b4b2b07ec491b",
+      "distinct_sampled_poses": 1,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 0.0,
+      "form": "pose",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "aim_level_center",
+      "present": true,
+      "frame_range": [
+        1.0,
+        2.0
+      ],
+      "duration_seconds": 0.03333333333333333,
+      "five_pose_hash": "d379e70aeaf67c1823759610a19cbacc2e75053e5cf6cf667f847b12e3a1da3d",
+      "distinct_sampled_poses": 1,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 0.0,
+      "form": "pose",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "aim_level_right",
+      "present": true,
+      "frame_range": [
+        1.0,
+        2.0
+      ],
+      "duration_seconds": 0.03333333333333333,
+      "five_pose_hash": "ff61460f82c94a8739a679c0d52dab5d1fde7ff19f0555071b549e358cdb9bc2",
+      "distinct_sampled_poses": 1,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 0.0,
+      "form": "pose",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "aim_up_left",
+      "present": true,
+      "frame_range": [
+        1.0,
+        2.0
+      ],
+      "duration_seconds": 0.03333333333333333,
+      "five_pose_hash": "e9a336afaf1a58aa2c87176b4b1591cbf1e4d088052eff6414df4352989302a1",
+      "distinct_sampled_poses": 1,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 0.0,
+      "form": "pose",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "aim_up_center",
+      "present": true,
+      "frame_range": [
+        1.0,
+        2.0
+      ],
+      "duration_seconds": 0.03333333333333333,
+      "five_pose_hash": "3a3864c7e1d88c5e3d58866714f8f39d6dba1a1a52190dd613a89dbd30533807",
+      "distinct_sampled_poses": 1,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 0.0,
+      "form": "pose",
+      "root_policy": "in_place"
+    },
+    {
+      "id": "aim_up_right",
+      "present": true,
+      "frame_range": [
+        1.0,
+        2.0
+      ],
+      "duration_seconds": 0.03333333333333333,
+      "five_pose_hash": "7c14e56aeee7fd88081bac565ed27b1c065e6a65dda6e5ca60f29624bad9763a",
+      "distinct_sampled_poses": 1,
+      "root_displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "root_distance_m": 0.0,
+      "endpoint_matrix_max_error": 0.0,
+      "form": "pose",
+      "root_policy": "in_place"
+    }
+  ],
+  "identical_five_pose_groups": [],
+  "missing_external_images": [],
+  "linked_libraries": [],
+  "limits": "Structural checks do not establish visual deformation/contact quality. Five sampled poses detect obvious duplicated clips; each clip still requires playback review."
+}

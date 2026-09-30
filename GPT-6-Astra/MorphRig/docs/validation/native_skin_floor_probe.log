@@ -1,0 +1,108 @@
+00:00.769  blend            | Read blend: "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/docs/validation/Operative_NativeSkin_Preview.blend"
+{
+  "source": "docs/validation/Operative_NativeSkin_Preview.blend",
+  "clips": {
+    "knockdown_front": {
+      "minZ": -1.4932382441656955e-07,
+      "frame": 1,
+      "groups": [
+        "foot.L"
+      ]
+    },
+    "knockdown_back": {
+      "minZ": -1.4932382441656955e-07,
+      "frame": 1,
+      "groups": [
+        "foot.L"
+      ]
+    },
+    "prone_front": {
+      "minZ": -1.1477645500690414e-07,
+      "frame": 24,
+      "groups": [
+        "foot.L"
+      ]
+    },
+    "prone_back": {
+      "minZ": 0.0006843209266662598,
+      "frame": 15,
+      "groups": [
+        "cable.02"
+      ]
+    },
+    "getup_front": {
+      "minZ": -1.4932382441656955e-07,
+      "frame": 67,
+      "groups": [
+        "foot.L"
+      ]
+    },
+    "getup_back": {
+      "minZ": -1.4932382441656955e-07,
+      "frame": 76,
+      "groups": [
+        "foot.L"
+      ]
+    },
+    "sleep_start": {
+      "minZ": -1.4932382441656955e-07,
+      "frame": 1,
+      "groups": [
+        "foot.L"
+      ]
+    },
+    "sleep_loop": {
+      "minZ": 0.008936583995819092,
+      "frame": 1,
+      "groups": [
+        "pelvis",
+        "thigh.L"
+      ]
+    },
+    "sleep_end": {
+      "minZ": -1.4932382441656955e-07,
+      "frame": 79,
+      "groups": [
+        "foot.L"
+      ]
+    },
+    "death_back": {
+      "minZ": -1.4932382441656955e-07,
+      "frame": 1,
+      "groups": [
+        "foot.L"
+      ]
+    },
+    "dead_front": {
+      "minZ": -5.9232284854715544e-08,
+      "frame": 1,
+      "groups": [
+        "foot.R"
+      ]
+    },
+    "dead_back": {
+      "minZ": 0.002881348133087158,
+      "frame": 1,
+      "groups": [
+        "pelvis"
+      ]
+    },
+    "death_front": {
+      "minZ": -1.4932382441656955e-07,
+      "frame": 1,
+      "groups": [
+        "foot.L"
+      ]
+    },
+    "deploy": {
+      "minZ": -1.4932382441656955e-07,
+      "frame": 1,
+      "groups": [
+        "foot.L"
+      ]
+    }
+  }
+}
+Blender 5.1.1
+
+Blender quit

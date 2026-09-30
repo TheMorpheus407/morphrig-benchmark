@@ -1,0 +1,5 @@
+00:01.427  blend            | Read blend: "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/source/Character_Master.blend"
+POSED_MATCH {"arm.L": {"joint_error_m": 0.000171994098046008, "end_error_m": 1.2310379476739693e-07}, "leg.L": {"joint_error_m": 5.42367735781378e-05, "end_error_m": 2.2500259981366246e-07}, "arm.R": {"joint_error_m": 1.4362624728456747e-06, "end_error_m": 1.2731557704981462e-07}, "leg.R": {"joint_error_m": 0.00022193450916827974, "end_error_m": 1.737759081973225e-07}}
+Blender 5.1.1
+
+Blender quit

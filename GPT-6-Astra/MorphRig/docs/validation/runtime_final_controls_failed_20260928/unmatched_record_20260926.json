@@ -1,0 +1,55 @@
+{
+  "scope": "Actual packaged mouse/keyboard inspection. Images require visual review.",
+  "client_exit_code": 0,
+  "trace_saved": true,
+  "screenshots": [
+    {
+      "image": "textured.png",
+      "time_unix": 1790424413.0893939
+    },
+    {
+      "image": "normals.png",
+      "time_unix": 1790424414.6862433
+    },
+    {
+      "image": "skeleton.png",
+      "time_unix": 1790424416.354268
+    },
+    {
+      "image": "front.png",
+      "time_unix": 1790424417.935133
+    },
+    {
+      "image": "side.png",
+      "time_unix": 1790424419.4131045
+    },
+    {
+      "image": "top_down_team_a.png",
+      "time_unix": 1790424421.0799065
+    },
+    {
+      "image": "top_down_team_b.png",
+      "time_unix": 1790424422.3095734
+    },
+    {
+      "image": "forced_lod0.png",
+      "time_unix": 1790424423.976058
+    },
+    {
+      "image": "forced_lod1.png",
+      "time_unix": 1790424425.1587398
+    },
+    {
+      "image": "forced_lod2.png",
+      "time_unix": 1790424426.3282862
+    },
+    {
+      "image": "ten_team_b.png",
+      "time_unix": 1790424427.561919
+    },
+    {
+      "image": "ten_team_a.png",
+      "time_unix": 1790424428.716741
+    }
+  ]
+}

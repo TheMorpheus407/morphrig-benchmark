@@ -1,0 +1,14 @@
+This review records the first native 30 FPS capture in `presentation/frames/runtime_motion/`, before the final linear-skinning and lighting corrections. It is **not a visual pass** for the deliverable. Preserve these frames as before-fix evidence and repeat the affected checks on the final package.
+
+The contact sheet [runtime_motion_review_sheet.png](runtime_motion_review_sheet.png) samples 18 times from 1.0 to 35.3 seconds. Full-resolution inspection additionally covered frames 129, 192, 546, 632, 750, 820 and 1011. It shows the intended sequence: lateral locomotion under burst/cast, channel and charge poses, reload at the emitter, low beacon placement, front death, back knockdown and supported recovery. Distinct sampled body states and imported bone-position agreement establish that these clips are playing. They do not establish full-frame mesh quality or timing quality by themselves.
+
+Confirmed visible defects awaiting the targeted correction:
+
+- Frame 750, `death_front` at 1.20 seconds: the cyber elbow narrows to an implausible point between the upper sleeve and forearm. The source's dual-quaternion deformation had hidden a failure under Unreal's linear skinning. Character owns the weight/clearance correction.
+- Frame 820, `respawn` at 0.33 seconds: dark sleeve geometry penetrates the metallic shoulder shell, leaving conspicuous black cutouts. Character owns this correction.
+- Frame 632, `deploy` at 1.10 seconds: the beacon and manipulating fingers reach the lower image boundary and are partly hidden behind the event overlay. Frame 1011, `getup_back` at 0.70 seconds, also clips a forward boot. Final capture framing must retain the whole floor interaction.
+- After lateral travel, approximately 6 seconds onward, the character becomes markedly darker; the reload/placement contacts are difficult to assess at the current view. Root owns lighting/camera changes. Separated idle shadows visually suggest floating, but the authored boot surfaces at `idle_combat` frame 31 measure Z=0 to numerical tolerance; native placement and shadow bias are distinct checks.
+
+Reload is too small and occluded in the full-body capture to resolve the recorded wrist/cell intersection. That first capture predates the final cell casing correction. The final source now passes all 70 reload frames with zero hand/prop triangle intersections, but this old native capture should not be described as proving that the corrected reload is collision-free.
+
+This is a sampled-frame inspection rather than an assertion that all 1,500 images or every motion interval have been visually reviewed. Recheck full-size frames around each correction, plus adjacent transition samples, before final acceptance. Runtime event correctness, user interaction and performance measurements are owned by the root and Unreal validation reports.

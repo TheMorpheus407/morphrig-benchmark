@@ -1,0 +1,103 @@
+{
+  "source": "docs/validation/Operative_NativeSkin_Preview.blend",
+  "clips": {
+    "knockdown_front": {
+      "minZ": -1.6310062278535042e-07,
+      "frame": 1,
+      "groups": [
+        "foot.L"
+      ]
+    },
+    "knockdown_back": {
+      "minZ": -1.6310062278535042e-07,
+      "frame": 1,
+      "groups": [
+        "foot.L"
+      ]
+    },
+    "prone_front": {
+      "minZ": -1.3959170530597476e-07,
+      "frame": 24,
+      "groups": [
+        "foot.L"
+      ]
+    },
+    "prone_back": {
+      "minZ": 0.0006843209266662598,
+      "frame": 15,
+      "groups": [
+        "cable.02"
+      ]
+    },
+    "getup_front": {
+      "minZ": -1.6310062278535042e-07,
+      "frame": 67,
+      "groups": [
+        "foot.L"
+      ]
+    },
+    "getup_back": {
+      "minZ": -1.6310062278535042e-07,
+      "frame": 76,
+      "groups": [
+        "foot.L"
+      ]
+    },
+    "sleep_start": {
+      "minZ": -1.6310062278535042e-07,
+      "frame": 1,
+      "groups": [
+        "foot.L"
+      ]
+    },
+    "sleep_loop": {
+      "minZ": 0.01679772138595581,
+      "frame": 1,
+      "groups": [
+        "pelvis"
+      ]
+    },
+    "sleep_end": {
+      "minZ": -1.6310062278535042e-07,
+      "frame": 79,
+      "groups": [
+        "foot.L"
+      ]
+    },
+    "death_back": {
+      "minZ": -1.6310062278535042e-07,
+      "frame": 1,
+      "groups": [
+        "foot.L"
+      ]
+    },
+    "dead_front": {
+      "minZ": -7.983455674320794e-08,
+      "frame": 1,
+      "groups": [
+        "foot.R"
+      ]
+    },
+    "dead_back": {
+      "minZ": 0.0028814077377319336,
+      "frame": 1,
+      "groups": [
+        "pelvis"
+      ]
+    },
+    "death_front": {
+      "minZ": -1.6310062278535042e-07,
+      "frame": 1,
+      "groups": [
+        "foot.L"
+      ]
+    },
+    "deploy": {
+      "minZ": -1.6310062278535042e-07,
+      "frame": 1,
+      "groups": [
+        "foot.L"
+      ]
+    }
+  }
+}

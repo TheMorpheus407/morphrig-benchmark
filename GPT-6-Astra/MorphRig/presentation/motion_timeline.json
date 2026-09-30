@@ -1,0 +1,45 @@
+{
+  "source": "build/Linux/MorphRig.sh, packaged Unreal Engine5.8.3 client",
+  "capture": "Native screenshots of final packaged Vulkan runtime, fixed 30 FPS, 1920\u00d71080. UI visible for motion; unobstructed terrain appendix.",
+  "performance_warning": "Capture uses fixed timing and is excluded from performance measurements. See docs/performance_report.md for wall-clock runs.",
+  "frames_directory": "presentation/frames/runtime_delivery_motion",
+  "trace": "docs/validation/runtime_delivery_demo/state_event_trace.log",
+  "sections": [
+    {
+      "start_s": 0,
+      "description": "Idle; directional travel, independently moving aim, burst, hit and cast"
+    },
+    {
+      "start_s": 8,
+      "description": "Channel interruption, charge release, Uplink cancellation"
+    },
+    {
+      "start_s": 17,
+      "description": "Reload, beacon deployment and2m capsule dash"
+    },
+    {
+      "start_s": 23,
+      "description": "Jump interrupted by death, held endpoint and respawn"
+    },
+    {
+      "start_s": 30,
+      "description": "Back knockdown, prone hold and getup"
+    },
+    {
+      "start_s": 36,
+      "description": "Blink,0.5x melee,1.5x melee, stun recovery"
+    },
+    {
+      "start_s": 50.0,
+      "description": "20-degree ramp and 20-centimeter stair terrain support, full-body inspection"
+    }
+  ],
+  "terrain_frames_directory": "presentation/frames/runtime_delivery_terrain",
+  "terrain_trace": "docs/validation/runtime_delivery_terrain/state_event_trace.log",
+  "frame_counts": {
+    "motion": 1500,
+    "terrain": 211
+  },
+  "duration_s": 57.03333333333333,
+  "capture_note": "Each written frame is consumed in filename order; an initial swapchain screenshot gap is omitted. Skeleton diagnostic overlay is off; its subsequent visibility-only change does not affect this recording."
+}

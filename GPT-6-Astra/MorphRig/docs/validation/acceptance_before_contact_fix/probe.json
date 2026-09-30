@@ -1,0 +1,794 @@
+{
+  "source": "source/Operative.blend",
+  "source_mtime": 1790417784.481294,
+  "stats": {
+    "Operative_LOD0": {
+      "triangles": 42944,
+      "vertices": 21749,
+      "material_slots": 8,
+      "uv_layers": 1,
+      "loose_vertices": 0,
+      "max_influences": 2,
+      "unweighted": 0,
+      "shape_keys": 33
+    },
+    "Operative_LOD1": {
+      "triangles": 19281,
+      "vertices": 9878,
+      "material_slots": 8,
+      "uv_layers": 1,
+      "loose_vertices": 0,
+      "max_influences": 2,
+      "unweighted": 0,
+      "shape_keys": 33
+    },
+    "Operative_LOD2": {
+      "triangles": 11284,
+      "vertices": 5864,
+      "material_slots": 8,
+      "uv_layers": 1,
+      "loose_vertices": 0,
+      "max_influences": 2,
+      "unweighted": 0,
+      "shape_keys": 33
+    }
+  },
+  "ground_samples": [
+    {
+      "clip": "prone_front",
+      "frame": 1,
+      "min_z_m": -0.05540245771408081,
+      "lowest_vertex_groups": [
+        "blade_tip"
+      ],
+      "feet_min_z_m": -5.9232284854715544e-08,
+      "blade_min_z_m": -0.05540245771408081
+    },
+    {
+      "clip": "prone_front",
+      "frame": 31,
+      "min_z_m": -0.05604511499404907,
+      "lowest_vertex_groups": [
+        "blade_tip"
+      ],
+      "feet_min_z_m": -4.3245144354386866e-08,
+      "blade_min_z_m": -0.05604511499404907
+    },
+    {
+      "clip": "prone_front",
+      "frame": 61,
+      "min_z_m": -0.05540245771408081,
+      "lowest_vertex_groups": [
+        "blade_tip"
+      ],
+      "feet_min_z_m": -5.9232284854715544e-08,
+      "blade_min_z_m": -0.05540245771408081
+    },
+    {
+      "clip": "prone_back",
+      "frame": 1,
+      "min_z_m": -0.01741892099380493,
+      "lowest_vertex_groups": [
+        "blade_tip"
+      ],
+      "feet_min_z_m": 0.005638111848384142,
+      "blade_min_z_m": -0.01741892099380493
+    },
+    {
+      "clip": "prone_back",
+      "frame": 31,
+      "min_z_m": -0.01873236894607544,
+      "lowest_vertex_groups": [
+        "blade_tip"
+      ],
+      "feet_min_z_m": 0.005638171918690205,
+      "blade_min_z_m": -0.01873236894607544
+    },
+    {
+      "clip": "prone_back",
+      "frame": 61,
+      "min_z_m": -0.01741892099380493,
+      "lowest_vertex_groups": [
+        "blade_tip"
+      ],
+      "feet_min_z_m": 0.005638111848384142,
+      "blade_min_z_m": -0.01741892099380493
+    },
+    {
+      "clip": "dead_front",
+      "frame": 1,
+      "min_z_m": -0.031051695346832275,
+      "lowest_vertex_groups": [
+        "middle.03.L"
+      ],
+      "feet_min_z_m": -5.9232284854715544e-08,
+      "blade_min_z_m": 0.03925830125808716
+    },
+    {
+      "clip": "dead_front",
+      "frame": 2,
+      "min_z_m": -0.031051695346832275,
+      "lowest_vertex_groups": [
+        "middle.03.L"
+      ],
+      "feet_min_z_m": -5.9232284854715544e-08,
+      "blade_min_z_m": 0.03925830125808716
+    },
+    {
+      "clip": "dead_back",
+      "frame": 1,
+      "min_z_m": -0.04070580005645752,
+      "lowest_vertex_groups": [
+        "index.03.R"
+      ],
+      "feet_min_z_m": 0.0056381747126579285,
+      "blade_min_z_m": 0.00025004148483276367
+    },
+    {
+      "clip": "dead_back",
+      "frame": 2,
+      "min_z_m": -0.04070580005645752,
+      "lowest_vertex_groups": [
+        "index.03.R"
+      ],
+      "feet_min_z_m": 0.0056381747126579285,
+      "blade_min_z_m": 0.00025004148483276367
+    },
+    {
+      "clip": "sleep_loop",
+      "frame": 1,
+      "min_z_m": -0.006740272045135498,
+      "lowest_vertex_groups": [
+        "pelvis",
+        "thigh.L"
+      ],
+      "feet_min_z_m": 0.009999985806643963,
+      "blade_min_z_m": 0.049419105052948
+    },
+    {
+      "clip": "sleep_loop",
+      "frame": 43,
+      "min_z_m": -0.006740272045135498,
+      "lowest_vertex_groups": [
+        "pelvis",
+        "thigh.L"
+      ],
+      "feet_min_z_m": 0.009999985806643963,
+      "blade_min_z_m": 0.049419105052948
+    },
+    {
+      "clip": "sleep_loop",
+      "frame": 85,
+      "min_z_m": -0.006740272045135498,
+      "lowest_vertex_groups": [
+        "pelvis",
+        "thigh.L"
+      ],
+      "feet_min_z_m": 0.009999985806643963,
+      "blade_min_z_m": 0.049419105052948
+    },
+    {
+      "clip": "getup_front",
+      "frame": 1,
+      "min_z_m": -0.05540245771408081,
+      "lowest_vertex_groups": [
+        "blade_tip"
+      ],
+      "feet_min_z_m": -5.9232284854715544e-08,
+      "blade_min_z_m": -0.05540245771408081
+    },
+    {
+      "clip": "getup_front",
+      "frame": 34,
+      "min_z_m": -4.523122854038775e-08,
+      "lowest_vertex_groups": [
+        "foot.R"
+      ],
+      "feet_min_z_m": -4.523122854038775e-08,
+      "blade_min_z_m": 0.8054836988449097
+    },
+    {
+      "clip": "getup_front",
+      "frame": 67,
+      "min_z_m": -1.4932382441656955e-07,
+      "lowest_vertex_groups": [
+        "foot.L"
+      ],
+      "feet_min_z_m": -1.4932382441656955e-07,
+      "blade_min_z_m": 1.194406270980835
+    },
+    {
+      "clip": "getup_back",
+      "frame": 1,
+      "min_z_m": -0.01741892099380493,
+      "lowest_vertex_groups": [
+        "blade_tip"
+      ],
+      "feet_min_z_m": 0.005638111848384142,
+      "blade_min_z_m": -0.01741892099380493
+    },
+    {
+      "clip": "getup_back",
+      "frame": 38,
+      "min_z_m": -3.964556682944931e-08,
+      "lowest_vertex_groups": [
+        "foot.L"
+      ],
+      "feet_min_z_m": -3.964556682944931e-08,
+      "blade_min_z_m": 0.7220193147659302
+    },
+    {
+      "clip": "getup_back",
+      "frame": 76,
+      "min_z_m": -1.4932382441656955e-07,
+      "lowest_vertex_groups": [
+        "foot.L"
+      ],
+      "feet_min_z_m": -1.4932382441656955e-07,
+      "blade_min_z_m": 1.194406270980835
+    },
+    {
+      "clip": "knockdown_front",
+      "frame": 1,
+      "min_z_m": -1.4932382441656955e-07,
+      "lowest_vertex_groups": [
+        "foot.L"
+      ],
+      "feet_min_z_m": -1.4932382441656955e-07,
+      "blade_min_z_m": 1.194406270980835
+    },
+    {
+      "clip": "knockdown_front",
+      "frame": 17,
+      "min_z_m": -1.0875461953219201e-07,
+      "lowest_vertex_groups": [
+        "foot.R"
+      ],
+      "feet_min_z_m": -1.0875461953219201e-07,
+      "blade_min_z_m": 0.22438615560531616
+    },
+    {
+      "clip": "knockdown_front",
+      "frame": 34,
+      "min_z_m": -0.05540245771408081,
+      "lowest_vertex_groups": [
+        "blade_tip"
+      ],
+      "feet_min_z_m": -5.9232284854715544e-08,
+      "blade_min_z_m": -0.05540245771408081
+    },
+    {
+      "clip": "knockdown_back",
+      "frame": 1,
+      "min_z_m": -1.4932382441656955e-07,
+      "lowest_vertex_groups": [
+        "foot.L"
+      ],
+      "feet_min_z_m": -1.4932382441656955e-07,
+      "blade_min_z_m": 1.194406270980835
+    },
+    {
+      "clip": "knockdown_back",
+      "frame": 19,
+      "min_z_m": 0.0007081859512254596,
+      "lowest_vertex_groups": [
+        "foot.R"
+      ],
+      "feet_min_z_m": 0.0007081859512254596,
+      "blade_min_z_m": 0.24756354093551636
+    },
+    {
+      "clip": "knockdown_back",
+      "frame": 37,
+      "min_z_m": -0.01741892099380493,
+      "lowest_vertex_groups": [
+        "blade_tip"
+      ],
+      "feet_min_z_m": 0.005638111848384142,
+      "blade_min_z_m": -0.01741892099380493
+    },
+    {
+      "clip": "death_front",
+      "frame": 1,
+      "min_z_m": -1.4932382441656955e-07,
+      "lowest_vertex_groups": [
+        "foot.L"
+      ],
+      "feet_min_z_m": -1.4932382441656955e-07,
+      "blade_min_z_m": 1.194406270980835
+    },
+    {
+      "clip": "death_front",
+      "frame": 32,
+      "min_z_m": -6.282915876454354e-08,
+      "lowest_vertex_groups": [
+        "foot.R"
+      ],
+      "feet_min_z_m": -6.282915876454354e-08,
+      "blade_min_z_m": 0.38612157106399536
+    },
+    {
+      "clip": "death_front",
+      "frame": 64,
+      "min_z_m": -0.031051695346832275,
+      "lowest_vertex_groups": [
+        "middle.03.L"
+      ],
+      "feet_min_z_m": -5.9232284854715544e-08,
+      "blade_min_z_m": 0.03925830125808716
+    },
+    {
+      "clip": "death_back",
+      "frame": 1,
+      "min_z_m": -1.4932382441656955e-07,
+      "lowest_vertex_groups": [
+        "foot.L"
+      ],
+      "feet_min_z_m": -1.4932382441656955e-07,
+      "blade_min_z_m": 1.194406270980835
+    },
+    {
+      "clip": "death_back",
+      "frame": 37,
+      "min_z_m": 1.3929923881050854e-08,
+      "lowest_vertex_groups": [
+        "foot.R"
+      ],
+      "feet_min_z_m": 1.3929923881050854e-08,
+      "blade_min_z_m": 0.23092907667160034
+    },
+    {
+      "clip": "death_back",
+      "frame": 73,
+      "min_z_m": -0.04070580005645752,
+      "lowest_vertex_groups": [
+        "index.03.R"
+      ],
+      "feet_min_z_m": 0.0056381747126579285,
+      "blade_min_z_m": 0.00025004148483276367
+    }
+  ],
+  "contact_samples": [
+    {
+      "clip": "reload",
+      "frame": 20,
+      "prop": "cell",
+      "prop_bounds_m": [
+        [
+          -0.2130025327205658,
+          -0.15001702308654785
+        ],
+        [
+          -0.26564034819602966,
+          -0.23398476839065552
+        ],
+        [
+          1.2567024230957031,
+          1.3021456003189087
+        ]
+      ],
+      "nearest_hand_vertex_m": 0.0078850407153368,
+      "nearest_10_average_m": 0.012917225621640683
+    },
+    {
+      "clip": "reload",
+      "frame": 28,
+      "prop": "cell",
+      "prop_bounds_m": [
+        [
+          -0.10283076763153076,
+          -0.03984510898590088
+        ],
+        [
+          -0.3042006194591522,
+          -0.2725450396537781
+        ],
+        [
+          1.2567023038864136,
+          1.3021454811096191
+        ]
+      ],
+      "nearest_hand_vertex_m": 0.008342180401086807,
+      "nearest_10_average_m": 0.01405763765797019
+    },
+    {
+      "clip": "reload",
+      "frame": 35,
+      "prop": "cell",
+      "prop_bounds_m": [
+        [
+          -0.07300281524658203,
+          -0.010017156600952148
+        ],
+        [
+          -0.3146403133869171,
+          -0.28298473358154297
+        ],
+        [
+          1.2567023038864136,
+          1.3021454811096191
+        ]
+      ],
+      "nearest_hand_vertex_m": 0.008700714446604252,
+      "nearest_10_average_m": 0.014560220576822758
+    },
+    {
+      "clip": "reload",
+      "frame": 45,
+      "prop": "cell",
+      "prop_bounds_m": [
+        [
+          -0.1269623041152954,
+          -0.06397664546966553
+        ],
+        [
+          -0.29575446248054504,
+          -0.2640988826751709
+        ],
+        [
+          1.2567023038864136,
+          1.3021454811096191
+        ]
+      ],
+      "nearest_hand_vertex_m": 0.008505809120833874,
+      "nearest_10_average_m": 0.013678855355829
+    },
+    {
+      "clip": "reload",
+      "frame": 51,
+      "prop": "cell",
+      "prop_bounds_m": [
+        [
+          -0.2125415802001953,
+          -0.14955592155456543
+        ],
+        [
+          -0.26580193638801575,
+          -0.2341463565826416
+        ],
+        [
+          1.2567023038864136,
+          1.3021454811096191
+        ]
+      ],
+      "nearest_hand_vertex_m": 0.007874265313148499,
+      "nearest_10_average_m": 0.012920858338475227
+    },
+    {
+      "clip": "reload",
+      "frame": 55,
+      "prop": "cell",
+      "prop_bounds_m": [
+        [
+          -0.2130025327205658,
+          -0.15001702308654785
+        ],
+        [
+          -0.26564034819602966,
+          -0.23398476839065552
+        ],
+        [
+          1.2567024230957031,
+          1.3021456003189087
+        ]
+      ],
+      "nearest_hand_vertex_m": 0.0078850407153368,
+      "nearest_10_average_m": 0.012917225621640683
+    },
+    {
+      "clip": "deploy",
+      "frame": 14,
+      "prop": "beacon",
+      "prop_bounds_m": [
+        [
+          0.11564354598522186,
+          0.19107362627983093
+        ],
+        [
+          -0.051605962216854095,
+          0.002847949042916298
+        ],
+        [
+          0.8117245435714722,
+          0.89210045337677
+        ]
+      ],
+      "nearest_hand_vertex_m": 0.004312028177082539,
+      "nearest_10_average_m": 0.00993984485976398
+    },
+    {
+      "clip": "deploy",
+      "frame": 20,
+      "prop": "beacon",
+      "prop_bounds_m": [
+        [
+          0.14641910791397095,
+          0.2144218236207962
+        ],
+        [
+          -0.17118065059185028,
+          -0.1108955517411232
+        ],
+        [
+          0.7342973351478577,
+          0.8091102242469788
+        ]
+      ],
+      "nearest_hand_vertex_m": 0.004312360659241676,
+      "nearest_10_average_m": 0.009940012358129025
+    },
+    {
+      "clip": "deploy",
+      "frame": 30,
+      "prop": "beacon",
+      "prop_bounds_m": [
+        [
+          0.16996803879737854,
+          0.24038967490196228
+        ],
+        [
+          -0.39770543575286865,
+          -0.3250332176685333
+        ],
+        [
+          0.5279446244239807,
+          0.6068315505981445
+        ]
+      ],
+      "nearest_hand_vertex_m": 0.004312131553888321,
+      "nearest_10_average_m": 0.009939958062022924
+    },
+    {
+      "clip": "deploy",
+      "frame": 35,
+      "prop": "beacon",
+      "prop_bounds_m": [
+        [
+          0.17155104875564575,
+          0.24212642014026642
+        ],
+        [
+          -0.4132402539253235,
+          -0.3400292694568634
+        ],
+        [
+          0.5017613768577576,
+          0.5806921124458313
+        ]
+      ],
+      "nearest_hand_vertex_m": 0.004312468226999044,
+      "nearest_10_average_m": 0.007734027691185474
+    },
+    {
+      "clip": "deploy",
+      "frame": 40,
+      "prop": "beacon",
+      "prop_bounds_m": [
+        [
+          0.18650005757808685,
+          0.2535000741481781
+        ],
+        [
+          -0.5605001449584961,
+          -0.48750025033950806
+        ],
+        [
+          0.057000041007995605,
+          0.11000001430511475
+        ]
+      ],
+      "nearest_hand_vertex_m": 0.3848726451396942,
+      "nearest_10_average_m": 0.38558042645454405
+    },
+    {
+      "clip": "deploy",
+      "frame": 55,
+      "prop": "beacon",
+      "prop_bounds_m": [
+        [
+          0.18650005757808685,
+          0.2535000741481781
+        ],
+        [
+          -0.5605001449584961,
+          -0.48750025033950806
+        ],
+        [
+          0.05700027942657471,
+          0.11000025272369385
+        ]
+      ],
+      "nearest_hand_vertex_m": 1.0611990690231323,
+      "nearest_10_average_m": 1.062084937095642
+    }
+  ],
+  "renders": [
+    "reload_20_contact.png",
+    "reload_35_contact.png",
+    "reload_51_contact.png",
+    "deploy_20_contact.png",
+    "deploy_35_contact.png",
+    "deploy_40_contact.png",
+    "prone_front_floor.png",
+    "prone_back_floor.png",
+    "dead_front_floor.png",
+    "dead_back_floor.png",
+    "sleep_loop_floor.png",
+    "closed_grip.png",
+    "preset_joy_confidence.png",
+    "preset_anger.png",
+    "preset_concern_sadness.png",
+    "preset_surprise.png",
+    "preset_pain.png",
+    "preset_focus.png"
+  ],
+  "presets": [
+    "joy_confidence",
+    "anger",
+    "concern_sadness",
+    "surprise",
+    "pain",
+    "focus"
+  ],
+  "inventory": {
+    "required": 96,
+    "missing_baked": [],
+    "missing_editable": [],
+    "missing_face": [],
+    "manifest_entries": 96,
+    "fps": 30
+  },
+  "bones": {
+    "deform": 64,
+    "roots": [
+      "root"
+    ],
+    "all_parented_except_root": true
+  },
+  "texture_images": [
+    {
+      "name": "M_Alloy_BaseColor",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true,
+      "file": "//textures/M_Alloy_BaseColor.png"
+    },
+    {
+      "name": "M_Alloy_Normal",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true,
+      "file": "//textures/M_Alloy_Normal.png"
+    },
+    {
+      "name": "M_Ceramic_BaseColor",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true,
+      "file": "//textures/M_Ceramic_BaseColor.png"
+    },
+    {
+      "name": "M_Ceramic_Normal",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true,
+      "file": "//textures/M_Ceramic_Normal.png"
+    },
+    {
+      "name": "M_EyeWhite_BaseColor",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true,
+      "file": "//textures/M_EyeWhite_BaseColor.png"
+    },
+    {
+      "name": "M_EyeWhite_Normal",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true,
+      "file": "//textures/M_EyeWhite_Normal.png"
+    },
+    {
+      "name": "M_Hair_BaseColor",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true,
+      "file": "//textures/M_Hair_BaseColor.png"
+    },
+    {
+      "name": "M_Hair_Normal",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true,
+      "file": "//textures/M_Hair_Normal.png"
+    },
+    {
+      "name": "M_Iris_BaseColor",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true,
+      "file": "//textures/M_Iris_BaseColor.png"
+    },
+    {
+      "name": "M_Iris_Normal",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true,
+      "file": "//textures/M_Iris_Normal.png"
+    },
+    {
+      "name": "M_Skin_BaseColor",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true,
+      "file": "//textures/M_Skin_BaseColor.png"
+    },
+    {
+      "name": "M_Skin_Normal",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true,
+      "file": "//textures/M_Skin_Normal.png"
+    },
+    {
+      "name": "M_TeamAccent_BaseColor",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true,
+      "file": "//textures/M_TeamAccent_BaseColor.png"
+    },
+    {
+      "name": "M_TeamAccent_Normal",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true,
+      "file": "//textures/M_TeamAccent_Normal.png"
+    },
+    {
+      "name": "M_Weave_BaseColor",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true,
+      "file": "//textures/M_Weave_BaseColor.png"
+    },
+    {
+      "name": "M_Weave_Normal",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true,
+      "file": "//textures/M_Weave_Normal.png"
+    }
+  ]
+}

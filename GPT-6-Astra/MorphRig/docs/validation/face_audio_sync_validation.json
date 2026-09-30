@@ -1,0 +1,11 @@
+{
+  "source_audio": "source/audio/dialogue.wav",
+  "encoded_video": "presentation/face_performance.mp4",
+  "sample_rate": 22050,
+  "source_samples": 307218,
+  "decoded_samples": 309248,
+  "max_correlation_lag_samples": 0,
+  "max_correlation_lag_seconds": 0.0,
+  "normalized_correlation": 0.9999557589267528,
+  "passed": true
+}

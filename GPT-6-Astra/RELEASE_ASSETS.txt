@@ -1,0 +1,25 @@
+Parts of this run that are not stored in git (packaged builds and files
+over 100 MB) are attached to the release
+https://github.com/TheMorpheus407/morphrig-benchmark/releases/tag/gpt-6-astra
+
+name      MorphRig-build.tar.zst
+contents  MorphRig/build/ (packaged Linux build)
+size      400358688 bytes
+sha256    726056d4f33d72c69a1fb077579633e5552f5ba0759662a3faeb07bc3fde863b
+download  https://github.com/TheMorpheus407/morphrig-benchmark/releases/download/gpt-6-astra/MorphRig-build.tar.zst
+
+name      presentation-frames.tar.zst.part00
+contents  MorphRig/presentation/frames/ (PNG frames), part 1 of 2
+size      1992294400 bytes
+sha256    170949c3821ff250f0a9761789eb1b1ff5a61420b2a03c1ba0bfedfdd7e12e33
+download  https://github.com/TheMorpheus407/morphrig-benchmark/releases/download/gpt-6-astra/presentation-frames.tar.zst.part00
+
+name      presentation-frames.tar.zst.part01
+contents  MorphRig/presentation/frames/ (PNG frames), part 2 of 2
+size      1984280909 bytes
+sha256    52549e4770ae68db83dd6927bb5371facaf12a703e909154f39a7dab530da8bb
+download  https://github.com/TheMorpheus407/morphrig-benchmark/releases/download/gpt-6-astra/presentation-frames.tar.zst.part01
+
+Unpack an archive inside this folder:  zstd -d < NAME | tar -x
+Join the split archive first:  cat presentation-frames.tar.zst.part00 presentation-frames.tar.zst.part01 | zstd -d | tar -x
+Unreal runtime folders (Saved/) are not included.

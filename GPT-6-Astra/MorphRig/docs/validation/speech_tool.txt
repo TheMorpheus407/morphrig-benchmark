@@ -1,0 +1,2 @@
+/nix/store/x96g8l6b8wyaqxdwm5868hjv6cl5nv6j-espeak-ng-1.52.0.1-unstable-2025-09-09/bin/espeak-ng
+eSpeak NG text-to-speech: 1.52.0.1  Data at: /nix/store/x96g8l6b8wyaqxdwm5868hjv6cl5nv6j-espeak-ng-1.52.0.1-unstable-2025-09-09/share/espeak-ng-data

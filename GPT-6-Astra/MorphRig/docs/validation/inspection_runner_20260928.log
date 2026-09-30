@@ -1,0 +1,64 @@
+/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/docs/validation/runtime_final_controls/textured.png
+/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/docs/validation/runtime_final_controls/skeleton.png
+/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/docs/validation/runtime_final_controls/front.png
+/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/docs/validation/runtime_final_controls/side.png
+/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/docs/validation/runtime_final_controls/top_down_team_a.png
+/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/docs/validation/runtime_final_controls/top_down_team_b.png
+/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/docs/validation/runtime_final_controls/forced_lod0.png
+/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/docs/validation/runtime_final_controls/forced_lod1.png
+/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/docs/validation/runtime_final_controls/forced_lod2.png
+/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/docs/validation/runtime_final_controls/ten_team_b.png
+/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6-Astra/MorphRig/docs/validation/runtime_final_controls/ten_team_a.png
+{
+  "scope": "Actual packaged inspection through focus-verified native keyboard events. Images require visual review.",
+  "mouse_attempted": false,
+  "normals_note": "Optional XWayland mouse routing is environment-dependent. Normals was observed working on September 26; it is not recaptured by the default keyboard-only run.",
+  "client_exit_code": 0,
+  "trace_saved": true,
+  "screenshots": [
+    {
+      "image": "textured.png",
+      "time_unix": 1790611976.609924
+    },
+    {
+      "image": "skeleton.png",
+      "time_unix": 1790611977.8120453
+    },
+    {
+      "image": "front.png",
+      "time_unix": 1790611978.9606578
+    },
+    {
+      "image": "side.png",
+      "time_unix": 1790611980.0180798
+    },
+    {
+      "image": "top_down_team_a.png",
+      "time_unix": 1790611981.2481174
+    },
+    {
+      "image": "top_down_team_b.png",
+      "time_unix": 1790611982.4732018
+    },
+    {
+      "image": "forced_lod0.png",
+      "time_unix": 1790611983.8034775
+    },
+    {
+      "image": "forced_lod1.png",
+      "time_unix": 1790611984.9857547
+    },
+    {
+      "image": "forced_lod2.png",
+      "time_unix": 1790611986.158183
+    },
+    {
+      "image": "ten_team_b.png",
+      "time_unix": 1790611987.4066875
+    },
+    {
+      "image": "ten_team_a.png",
+      "time_unix": 1790611988.5644164
+    }
+  ]
+}

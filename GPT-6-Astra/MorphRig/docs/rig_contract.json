@@ -1,0 +1,1162 @@
+{
+  "armature": "Operative_Rig",
+  "face_mesh": "Operative_LOD0",
+  "units": "metres",
+  "height_m": 1.8,
+  "source_axes": {
+    "forward": "-Y",
+    "up": "+Z",
+    "anatomical_left": "+X"
+  },
+  "bones": {
+    "root": {
+      "head": [
+        0,
+        0,
+        0
+      ],
+      "tail": [
+        0,
+        0,
+        0.1
+      ],
+      "parent": null,
+      "deform": true
+    },
+    "pelvis": {
+      "head": [
+        0,
+        0,
+        0.94
+      ],
+      "tail": [
+        0,
+        0,
+        1.05
+      ],
+      "parent": "root",
+      "deform": true
+    },
+    "spine_01": {
+      "head": [
+        0,
+        0,
+        1.05
+      ],
+      "tail": [
+        0,
+        0,
+        1.18
+      ],
+      "parent": "pelvis",
+      "deform": true
+    },
+    "spine_02": {
+      "head": [
+        0,
+        0,
+        1.18
+      ],
+      "tail": [
+        0,
+        0,
+        1.32
+      ],
+      "parent": "spine_01",
+      "deform": true
+    },
+    "chest": {
+      "head": [
+        0,
+        0,
+        1.32
+      ],
+      "tail": [
+        0,
+        0,
+        1.47
+      ],
+      "parent": "spine_02",
+      "deform": true
+    },
+    "neck": {
+      "head": [
+        0,
+        0,
+        1.47
+      ],
+      "tail": [
+        0,
+        0,
+        1.58
+      ],
+      "parent": "chest",
+      "deform": true
+    },
+    "head": {
+      "head": [
+        0,
+        0,
+        1.58
+      ],
+      "tail": [
+        0,
+        0,
+        1.8
+      ],
+      "parent": "neck",
+      "deform": true
+    },
+    "jaw": {
+      "head": [
+        0,
+        0.018,
+        1.652
+      ],
+      "tail": [
+        0,
+        -0.065,
+        1.602
+      ],
+      "parent": "head",
+      "deform": true
+    },
+    "tongue": {
+      "head": [
+        0,
+        -0.058,
+        1.616
+      ],
+      "tail": [
+        0,
+        -0.097,
+        1.616
+      ],
+      "parent": "jaw",
+      "deform": true
+    },
+    "clavicle.L": {
+      "head": [
+        0,
+        0,
+        1.445
+      ],
+      "tail": [
+        0.2,
+        0,
+        1.46
+      ],
+      "parent": "chest",
+      "deform": true
+    },
+    "upper_arm.L": {
+      "head": [
+        0.2,
+        0,
+        1.46
+      ],
+      "tail": [
+        0.38,
+        -0.018,
+        1.26
+      ],
+      "parent": "clavicle.L",
+      "deform": true
+    },
+    "forearm.L": {
+      "head": [
+        0.38,
+        -0.018,
+        1.26
+      ],
+      "tail": [
+        0.53,
+        -0.018,
+        1.08
+      ],
+      "parent": "upper_arm.L",
+      "deform": true
+    },
+    "hand.L": {
+      "head": [
+        0.53,
+        -0.018,
+        1.08
+      ],
+      "tail": [
+        0.59,
+        -0.024,
+        1.015
+      ],
+      "parent": "forearm.L",
+      "deform": true
+    },
+    "index.01.L": {
+      "head": [
+        0.5759999752044678,
+        -0.052000001072883606,
+        1.0269999504089355
+      ],
+      "tail": [
+        0.5991659760475159,
+        -0.052000001072883606,
+        0.9999135732650757
+      ],
+      "parent": "hand.L",
+      "deform": true
+    },
+    "index.02.L": {
+      "head": [
+        0.5991659760475159,
+        -0.052000001072883606,
+        0.9999135732650757
+      ],
+      "tail": [
+        0.6165404915809631,
+        -0.052000001072883606,
+        0.9795987606048584
+      ],
+      "parent": "index.01.L",
+      "deform": true
+    },
+    "index.03.L": {
+      "head": [
+        0.6165404915809631,
+        -0.052000001072883606,
+        0.9795987606048584
+      ],
+      "tail": [
+        0.6286500096321106,
+        -0.052000001072883606,
+        0.9654399752616882
+      ],
+      "parent": "index.02.L",
+      "deform": true
+    },
+    "middle.01.L": {
+      "head": [
+        0.5759999752044678,
+        -0.029999999329447746,
+        1.0269999504089355
+      ],
+      "tail": [
+        0.6017400026321411,
+        -0.029999999329447746,
+        0.9969039559364319
+      ],
+      "parent": "hand.L",
+      "deform": true
+    },
+    "middle.02.L": {
+      "head": [
+        0.6017400026321411,
+        -0.029999999329447746,
+        0.9969039559364319
+      ],
+      "tail": [
+        0.6210449934005737,
+        -0.029999999329447746,
+        0.9743319749832153
+      ],
+      "parent": "middle.01.L",
+      "deform": true
+    },
+    "middle.03.L": {
+      "head": [
+        0.6210449934005737,
+        -0.029999999329447746,
+        0.9743319749832153
+      ],
+      "tail": [
+        0.6344999670982361,
+        -0.029999999329447746,
+        0.9585999846458435
+      ],
+      "parent": "middle.02.L",
+      "deform": true
+    },
+    "ring.01.L": {
+      "head": [
+        0.5759999752044678,
+        -0.00800000037997961,
+        1.0269999504089355
+      ],
+      "tail": [
+        0.5997380018234253,
+        -0.00800000037997961,
+        0.999244749546051
+      ],
+      "parent": "hand.L",
+      "deform": true
+    },
+    "ring.02.L": {
+      "head": [
+        0.5997380018234253,
+        -0.00800000037997961,
+        0.999244749546051
+      ],
+      "tail": [
+        0.617541491985321,
+        -0.00800000037997961,
+        0.9784283638000488
+      ],
+      "parent": "ring.01.L",
+      "deform": true
+    },
+    "ring.03.L": {
+      "head": [
+        0.617541491985321,
+        -0.00800000037997961,
+        0.9784283638000488
+      ],
+      "tail": [
+        0.6299499869346619,
+        -0.00800000037997961,
+        0.9639199376106262
+      ],
+      "parent": "ring.02.L",
+      "deform": true
+    },
+    "pinky.01.L": {
+      "head": [
+        0.5680000185966492,
+        0.014000000432133675,
+        1.031999945640564
+      ],
+      "tail": [
+        0.5863040089607239,
+        0.014000000432133675,
+        1.0105983018875122
+      ],
+      "parent": "hand.L",
+      "deform": true
+    },
+    "pinky.02.L": {
+      "head": [
+        0.5863040089607239,
+        0.014000000432133675,
+        1.0105983018875122
+      ],
+      "tail": [
+        0.6000320315361023,
+        0.014000000432133675,
+        0.9945471286773682
+      ],
+      "parent": "pinky.01.L",
+      "deform": true
+    },
+    "pinky.03.L": {
+      "head": [
+        0.6000320315361023,
+        0.014000000432133675,
+        0.9945471286773682
+      ],
+      "tail": [
+        0.6096000075340271,
+        0.014000000432133675,
+        0.9833599328994751
+      ],
+      "parent": "pinky.02.L",
+      "deform": true
+    },
+    "thumb.01.L": {
+      "head": [
+        0.550000011920929,
+        -0.057999998331069946,
+        1.059999942779541
+      ],
+      "tail": [
+        0.5539000034332275,
+        -0.07880000025033951,
+        1.0449199676513672
+      ],
+      "parent": "hand.L",
+      "deform": true
+    },
+    "thumb.02.L": {
+      "head": [
+        0.5539000034332275,
+        -0.07880000025033951,
+        1.0449199676513672
+      ],
+      "tail": [
+        0.5573499798774719,
+        -0.09719999879598618,
+        1.0315799713134766
+      ],
+      "parent": "thumb.01.L",
+      "deform": true
+    },
+    "thumb.03.L": {
+      "head": [
+        0.5573499798774719,
+        -0.09719999879598618,
+        1.0315799713134766
+      ],
+      "tail": [
+        0.5603500008583069,
+        -0.11320000141859055,
+        1.0199799537658691
+      ],
+      "parent": "thumb.02.L",
+      "deform": true
+    },
+    "thigh.L": {
+      "head": [
+        0.09,
+        0,
+        0.94
+      ],
+      "tail": [
+        0.1,
+        -0.012,
+        0.52
+      ],
+      "parent": "pelvis",
+      "deform": true
+    },
+    "shin.L": {
+      "head": [
+        0.1,
+        -0.012,
+        0.52
+      ],
+      "tail": [
+        0.105,
+        0,
+        0.11
+      ],
+      "parent": "thigh.L",
+      "deform": true
+    },
+    "foot.L": {
+      "head": [
+        0.105,
+        0,
+        0.11
+      ],
+      "tail": [
+        0.105,
+        -0.13,
+        0.055
+      ],
+      "parent": "shin.L",
+      "deform": true
+    },
+    "toe.L": {
+      "head": [
+        0.105,
+        -0.13,
+        0.055
+      ],
+      "tail": [
+        0.105,
+        -0.23,
+        0.045
+      ],
+      "parent": "foot.L",
+      "deform": true
+    },
+    "eye.L": {
+      "head": [
+        0.031,
+        -0.052,
+        1.693
+      ],
+      "tail": [
+        0.031,
+        -0.077,
+        1.693
+      ],
+      "parent": "head",
+      "deform": true
+    },
+    "clavicle.R": {
+      "head": [
+        0,
+        0,
+        1.445
+      ],
+      "tail": [
+        -0.2,
+        0,
+        1.46
+      ],
+      "parent": "chest",
+      "deform": true
+    },
+    "upper_arm.R": {
+      "head": [
+        -0.2,
+        0,
+        1.46
+      ],
+      "tail": [
+        -0.38,
+        -0.018,
+        1.26
+      ],
+      "parent": "clavicle.R",
+      "deform": true
+    },
+    "forearm.R": {
+      "head": [
+        -0.38,
+        -0.018,
+        1.26
+      ],
+      "tail": [
+        -0.53,
+        -0.018,
+        1.08
+      ],
+      "parent": "upper_arm.R",
+      "deform": true
+    },
+    "hand.R": {
+      "head": [
+        -0.53,
+        -0.018,
+        1.08
+      ],
+      "tail": [
+        -0.59,
+        -0.024,
+        1.015
+      ],
+      "parent": "forearm.R",
+      "deform": true
+    },
+    "index.01.R": {
+      "head": [
+        -0.5759999752044678,
+        -0.052000001072883606,
+        1.0269999504089355
+      ],
+      "tail": [
+        -0.5991659760475159,
+        -0.052000001072883606,
+        0.9999135732650757
+      ],
+      "parent": "hand.R",
+      "deform": true
+    },
+    "index.02.R": {
+      "head": [
+        -0.5991659760475159,
+        -0.052000001072883606,
+        0.9999135732650757
+      ],
+      "tail": [
+        -0.6165404915809631,
+        -0.052000001072883606,
+        0.9795987606048584
+      ],
+      "parent": "index.01.R",
+      "deform": true
+    },
+    "index.03.R": {
+      "head": [
+        -0.6165404915809631,
+        -0.052000001072883606,
+        0.9795987606048584
+      ],
+      "tail": [
+        -0.6286500096321106,
+        -0.052000001072883606,
+        0.9654399752616882
+      ],
+      "parent": "index.02.R",
+      "deform": true
+    },
+    "middle.01.R": {
+      "head": [
+        -0.5759999752044678,
+        -0.029999999329447746,
+        1.0269999504089355
+      ],
+      "tail": [
+        -0.6017400026321411,
+        -0.029999999329447746,
+        0.9969039559364319
+      ],
+      "parent": "hand.R",
+      "deform": true
+    },
+    "middle.02.R": {
+      "head": [
+        -0.6017400026321411,
+        -0.029999999329447746,
+        0.9969039559364319
+      ],
+      "tail": [
+        -0.6210449934005737,
+        -0.029999999329447746,
+        0.9743319749832153
+      ],
+      "parent": "middle.01.R",
+      "deform": true
+    },
+    "middle.03.R": {
+      "head": [
+        -0.6210449934005737,
+        -0.029999999329447746,
+        0.9743319749832153
+      ],
+      "tail": [
+        -0.6344999670982361,
+        -0.029999999329447746,
+        0.9585999846458435
+      ],
+      "parent": "middle.02.R",
+      "deform": true
+    },
+    "ring.01.R": {
+      "head": [
+        -0.5759999752044678,
+        -0.00800000037997961,
+        1.0269999504089355
+      ],
+      "tail": [
+        -0.5997380018234253,
+        -0.00800000037997961,
+        0.999244749546051
+      ],
+      "parent": "hand.R",
+      "deform": true
+    },
+    "ring.02.R": {
+      "head": [
+        -0.5997380018234253,
+        -0.00800000037997961,
+        0.999244749546051
+      ],
+      "tail": [
+        -0.617541491985321,
+        -0.00800000037997961,
+        0.9784283638000488
+      ],
+      "parent": "ring.01.R",
+      "deform": true
+    },
+    "ring.03.R": {
+      "head": [
+        -0.617541491985321,
+        -0.00800000037997961,
+        0.9784283638000488
+      ],
+      "tail": [
+        -0.6299499869346619,
+        -0.00800000037997961,
+        0.9639199376106262
+      ],
+      "parent": "ring.02.R",
+      "deform": true
+    },
+    "pinky.01.R": {
+      "head": [
+        -0.5680000185966492,
+        0.014000000432133675,
+        1.031999945640564
+      ],
+      "tail": [
+        -0.5863040089607239,
+        0.014000000432133675,
+        1.0105983018875122
+      ],
+      "parent": "hand.R",
+      "deform": true
+    },
+    "pinky.02.R": {
+      "head": [
+        -0.5863040089607239,
+        0.014000000432133675,
+        1.0105983018875122
+      ],
+      "tail": [
+        -0.6000320315361023,
+        0.014000000432133675,
+        0.9945471286773682
+      ],
+      "parent": "pinky.01.R",
+      "deform": true
+    },
+    "pinky.03.R": {
+      "head": [
+        -0.6000320315361023,
+        0.014000000432133675,
+        0.9945471286773682
+      ],
+      "tail": [
+        -0.6096000075340271,
+        0.014000000432133675,
+        0.9833599328994751
+      ],
+      "parent": "pinky.02.R",
+      "deform": true
+    },
+    "thumb.01.R": {
+      "head": [
+        -0.550000011920929,
+        -0.057999998331069946,
+        1.059999942779541
+      ],
+      "tail": [
+        -0.5539000034332275,
+        -0.07880000025033951,
+        1.0449199676513672
+      ],
+      "parent": "hand.R",
+      "deform": true
+    },
+    "thumb.02.R": {
+      "head": [
+        -0.5539000034332275,
+        -0.07880000025033951,
+        1.0449199676513672
+      ],
+      "tail": [
+        -0.5573499798774719,
+        -0.09719999879598618,
+        1.0315799713134766
+      ],
+      "parent": "thumb.01.R",
+      "deform": true
+    },
+    "thumb.03.R": {
+      "head": [
+        -0.5573499798774719,
+        -0.09719999879598618,
+        1.0315799713134766
+      ],
+      "tail": [
+        -0.5603500008583069,
+        -0.11320000141859055,
+        1.0199799537658691
+      ],
+      "parent": "thumb.02.R",
+      "deform": true
+    },
+    "thigh.R": {
+      "head": [
+        -0.09,
+        0,
+        0.94
+      ],
+      "tail": [
+        -0.1,
+        -0.012,
+        0.52
+      ],
+      "parent": "pelvis",
+      "deform": true
+    },
+    "shin.R": {
+      "head": [
+        -0.1,
+        -0.012,
+        0.52
+      ],
+      "tail": [
+        -0.105,
+        0,
+        0.11
+      ],
+      "parent": "thigh.R",
+      "deform": true
+    },
+    "foot.R": {
+      "head": [
+        -0.105,
+        0,
+        0.11
+      ],
+      "tail": [
+        -0.105,
+        -0.13,
+        0.055
+      ],
+      "parent": "shin.R",
+      "deform": true
+    },
+    "toe.R": {
+      "head": [
+        -0.105,
+        -0.13,
+        0.055
+      ],
+      "tail": [
+        -0.105,
+        -0.23,
+        0.045
+      ],
+      "parent": "foot.R",
+      "deform": true
+    },
+    "eye.R": {
+      "head": [
+        -0.031,
+        -0.052,
+        1.693
+      ],
+      "tail": [
+        -0.031,
+        -0.077,
+        1.693
+      ],
+      "parent": "head",
+      "deform": true
+    },
+    "emitter_muzzle": {
+      "head": [
+        -0.517,
+        -0.082,
+        1.102
+      ],
+      "tail": [
+        -0.533,
+        -0.082,
+        1.082
+      ],
+      "parent": "forearm.R",
+      "deform": true
+    },
+    "blade_base": {
+      "head": [
+        -0.449,
+        0.051,
+        1.185
+      ],
+      "tail": [
+        -0.48,
+        0.051,
+        1.147
+      ],
+      "parent": "forearm.R",
+      "deform": true
+    },
+    "blade_tip": {
+      "head": [
+        -0.635,
+        0.051,
+        0.966
+      ],
+      "tail": [
+        -0.65,
+        0.051,
+        0.95
+      ],
+      "parent": "blade_base",
+      "deform": true
+    },
+    "cell": {
+      "head": [
+        -0.434,
+        -0.066,
+        1.217
+      ],
+      "tail": [
+        -0.46,
+        -0.066,
+        1.186
+      ],
+      "parent": "forearm.R",
+      "deform": true
+    },
+    "beacon": {
+      "head": [
+        0.16,
+        0.005,
+        0.99
+      ],
+      "tail": [
+        0.16,
+        0.005,
+        1.06
+      ],
+      "parent": "pelvis",
+      "deform": true
+    },
+    "cable.01": {
+      "head": [
+        0.09,
+        0.075,
+        1.14
+      ],
+      "tail": [
+        0.17,
+        0.075,
+        1.025
+      ],
+      "parent": "pelvis",
+      "deform": true
+    },
+    "cable.02": {
+      "head": [
+        0.17,
+        0.075,
+        1.025
+      ],
+      "tail": [
+        0.155,
+        0.075,
+        0.91
+      ],
+      "parent": "cable.01",
+      "deform": true
+    }
+  },
+  "bone_roll": "align_roll global +Y; local +Y follows bone",
+  "face_shape_keys": [
+    "blink.L",
+    "blink.R",
+    "squint.L",
+    "squint.R",
+    "brow_up.L",
+    "brow_up.R",
+    "brow_down.L",
+    "brow_down.R",
+    "cheek.L",
+    "cheek.R",
+    "smile.L",
+    "smile.R",
+    "frown.L",
+    "frown.R",
+    "jaw_open",
+    "lip_close",
+    "mouth_wide",
+    "pucker",
+    "funnel",
+    "viseme_AA",
+    "viseme_EE",
+    "viseme_OH",
+    "viseme_OO",
+    "viseme_FV",
+    "viseme_MBP",
+    "viseme_L",
+    "viseme_TH",
+    "shoulder_raise.L",
+    "shoulder_raise.R",
+    "hip_flex.L",
+    "hip_flex.R",
+    "wrist_flex.L",
+    "wrist_flex.R"
+  ],
+  "material_slots": [
+    "M_Skin",
+    "M_Weave",
+    "M_Ceramic",
+    "M_Alloy",
+    "M_TeamAccent",
+    "M_Hair",
+    "M_EyeWhite",
+    "M_Iris"
+  ],
+  "props": {
+    "emitter": "forearm.R",
+    "blade": "blade_base",
+    "cell": "cell",
+    "beacon": "beacon"
+  },
+  "controls": {
+    "ik_targets": [
+      "CTRL_hand_ik.L",
+      "CTRL_hand_ik.R",
+      "CTRL_foot_ik.L",
+      "CTRL_foot_ik.R"
+    ],
+    "pole_vectors": [
+      "CTRL_elbow_pole.L",
+      "CTRL_elbow_pole.R",
+      "CTRL_knee_pole.L",
+      "CTRL_knee_pole.R"
+    ],
+    "ik_blends": "rig properties arm_ik.L/R, leg_ik.L/R, default zero (FK)",
+    "fk": "deformation pose bones are directly keyable in FK mode"
+  },
+  "source": "source/generators/character.py",
+  "authoring": "Original generated mesh data; editable quad lofts and face feature loops",
+  "unreal_import_name_mapping": {
+    "rule": "FBX import replaces periods with underscores; verified in UE5.8.3 pilot import.",
+    "bones": {
+      "root": "root",
+      "pelvis": "pelvis",
+      "spine_01": "spine_01",
+      "spine_02": "spine_02",
+      "chest": "chest",
+      "neck": "neck",
+      "head": "head",
+      "jaw": "jaw",
+      "tongue": "tongue",
+      "clavicle.L": "clavicle_L",
+      "upper_arm.L": "upper_arm_L",
+      "forearm.L": "forearm_L",
+      "hand.L": "hand_L",
+      "index.01.L": "index_01_L",
+      "index.02.L": "index_02_L",
+      "index.03.L": "index_03_L",
+      "middle.01.L": "middle_01_L",
+      "middle.02.L": "middle_02_L",
+      "middle.03.L": "middle_03_L",
+      "ring.01.L": "ring_01_L",
+      "ring.02.L": "ring_02_L",
+      "ring.03.L": "ring_03_L",
+      "pinky.01.L": "pinky_01_L",
+      "pinky.02.L": "pinky_02_L",
+      "pinky.03.L": "pinky_03_L",
+      "thumb.01.L": "thumb_01_L",
+      "thumb.02.L": "thumb_02_L",
+      "thumb.03.L": "thumb_03_L",
+      "thigh.L": "thigh_L",
+      "shin.L": "shin_L",
+      "foot.L": "foot_L",
+      "toe.L": "toe_L",
+      "eye.L": "eye_L",
+      "clavicle.R": "clavicle_R",
+      "upper_arm.R": "upper_arm_R",
+      "forearm.R": "forearm_R",
+      "hand.R": "hand_R",
+      "index.01.R": "index_01_R",
+      "index.02.R": "index_02_R",
+      "index.03.R": "index_03_R",
+      "middle.01.R": "middle_01_R",
+      "middle.02.R": "middle_02_R",
+      "middle.03.R": "middle_03_R",
+      "ring.01.R": "ring_01_R",
+      "ring.02.R": "ring_02_R",
+      "ring.03.R": "ring_03_R",
+      "pinky.01.R": "pinky_01_R",
+      "pinky.02.R": "pinky_02_R",
+      "pinky.03.R": "pinky_03_R",
+      "thumb.01.R": "thumb_01_R",
+      "thumb.02.R": "thumb_02_R",
+      "thumb.03.R": "thumb_03_R",
+      "thigh.R": "thigh_R",
+      "shin.R": "shin_R",
+      "foot.R": "foot_R",
+      "toe.R": "toe_R",
+      "eye.R": "eye_R",
+      "emitter_muzzle": "emitter_muzzle",
+      "blade_base": "blade_base",
+      "blade_tip": "blade_tip",
+      "cell": "cell",
+      "beacon": "beacon",
+      "cable.01": "cable_01",
+      "cable.02": "cable_02"
+    },
+    "morphs": {
+      "blink.L": "blink_L",
+      "blink.R": "blink_R",
+      "squint.L": "squint_L",
+      "squint.R": "squint_R",
+      "brow_up.L": "brow_up_L",
+      "brow_up.R": "brow_up_R",
+      "brow_down.L": "brow_down_L",
+      "brow_down.R": "brow_down_R",
+      "cheek.L": "cheek_L",
+      "cheek.R": "cheek_R",
+      "smile.L": "smile_L",
+      "smile.R": "smile_R",
+      "frown.L": "frown_L",
+      "frown.R": "frown_R",
+      "jaw_open": "jaw_open",
+      "lip_close": "lip_close",
+      "mouth_wide": "mouth_wide",
+      "pucker": "pucker",
+      "funnel": "funnel",
+      "viseme_AA": "viseme_AA",
+      "viseme_EE": "viseme_EE",
+      "viseme_OH": "viseme_OH",
+      "viseme_OO": "viseme_OO",
+      "viseme_FV": "viseme_FV",
+      "viseme_MBP": "viseme_MBP",
+      "viseme_L": "viseme_L",
+      "viseme_TH": "viseme_TH",
+      "shoulder_raise.L": "shoulder_raise_L",
+      "shoulder_raise.R": "shoulder_raise_R",
+      "hip_flex.L": "hip_flex_L",
+      "hip_flex.R": "hip_flex_R",
+      "wrist_flex.L": "wrist_flex_L"
+    },
+    "omitted_zero_source_morphs": [
+      "wrist_flex.R"
+    ]
+  },
+  "reserved_zero_source_shapes": {
+    "wrist_flex.R": "Zero authored source displacement on the rigid cybernetic forearm; intentionally omitted by the final Unreal importer. The source slider remains reserved for future authoring."
+  },
+  "unreal_axes": {
+    "forward": "+X",
+    "right": "+Y",
+    "up": "+Z",
+    "anatomical_left": "-Y",
+    "units": "centimetres",
+    "source_to_unreal_position": "(X_UE,Y_UE,Z_UE)=(-100*Y_Blender,-100*X_Blender,100*Z_Blender)",
+    "bone_axis_note": "Bone local axes follow imported reference transforms; world up is not the local Z axis of every bone. Root local Y follows its vertical bone."
+  },
+  "export_import_contract": {
+    "source_object_scale": [
+      1,
+      1,
+      1
+    ],
+    "source_scene_unit_scale_m": 1,
+    "temporary_export_data_multiplier": 100,
+    "temporary_export_scene_unit_scale_m": 0.01,
+    "fbx_axis_forward": "-Y",
+    "fbx_axis_up": "Z",
+    "fbx_global_scale": 1,
+    "unreal_convert_scene_unit": true,
+    "unreal_force_front_x_axis": true,
+    "unreal_mesh_import_uniform_scale": 1,
+    "unreal_animation_import_rotation_yaw_deg": -90,
+    "runtime_mesh_relative_yaw_deg": 0,
+    "unit_note": "Mesh vertices, every shape target, rest bone coordinates and all bone location curves convert in memory for export; authoritative blend remains in metres."
+  },
+  "unreal_morphs": {
+    "target_count": 32,
+    "targets_with_deltas_per_lod": [
+      32,
+      32,
+      32
+    ],
+    "source_key_count": 33,
+    "intentionally_nonempty_source_targets": 32,
+    "reserved_source_target": "wrist_flex.R",
+    "reserved_source_target_imported": false,
+    "native_delta_evidence": "docs/validation/final_verified_package/state_event_trace.log",
+    "runtime_face_controls": 36,
+    "runtime_control_note": "32 morph controls plus independent left/right eye yaw and pitch."
+  },
+  "unreal_imported_morph_target_count": 32,
+  "unreal_imported_bone_count": 64,
+  "unreal_imported_material_slots": 8,
+  "skinning": "Linear blend skinning in both Blender and Unreal; rigid cyber sleeve/forearm bones preserve mechanical joint volume.",
+  "static_beacon_export": {
+    "asset": "export/Beacon.fbx",
+    "generator": "source/generators/export_props.py",
+    "source_local_to_native_local_cm": "(z,-x,y)*100",
+    "export_pre_rotation": "(x,-z,y)",
+    "units": "centimetres; import unit scale1",
+    "materials": [
+      "M_Alloy",
+      "M_TeamAccent"
+    ],
+    "native_sections": 2,
+    "native_vertices": 272,
+    "native_bounds_cm": {
+      "min": [
+        -3.3,
+        -3.35,
+        -0.05
+      ],
+      "max": [
+        2.0,
+        3.35,
+        7.25
+      ]
+    },
+    "verification": "docs/validation/beacon_native_import.json",
+    "max_native_world_vertex_error_cm": 5.334859227063428e-06
+  }
+}

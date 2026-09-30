@@ -1,0 +1,542 @@
+{
+  "root_name": "root",
+  "bones": [
+    "root",
+    "pelvis",
+    "spine_01",
+    "spine_02",
+    "chest",
+    "neck",
+    "head",
+    "jaw",
+    "tongue",
+    "eye_L",
+    "eye_R",
+    "clavicle_L",
+    "upper_arm_L",
+    "forearm_L",
+    "hand_L",
+    "index_01_L",
+    "index_02_L",
+    "index_03_L",
+    "middle_01_L",
+    "middle_02_L",
+    "middle_03_L",
+    "ring_01_L",
+    "ring_02_L",
+    "ring_03_L",
+    "pinky_01_L",
+    "pinky_02_L",
+    "pinky_03_L",
+    "thumb_01_L",
+    "thumb_02_L",
+    "thumb_03_L",
+    "clavicle_R",
+    "upper_arm_R",
+    "forearm_R",
+    "hand_R",
+    "index_01_R",
+    "index_02_R",
+    "index_03_R",
+    "middle_01_R",
+    "middle_02_R",
+    "middle_03_R",
+    "ring_01_R",
+    "ring_02_R",
+    "ring_03_R",
+    "pinky_01_R",
+    "pinky_02_R",
+    "pinky_03_R",
+    "thumb_01_R",
+    "thumb_02_R",
+    "thumb_03_R",
+    "emitter_muzzle",
+    "blade_base",
+    "blade_tip",
+    "cell",
+    "thigh_L",
+    "shin_L",
+    "foot_L",
+    "toe_L",
+    "thigh_R",
+    "shin_R",
+    "foot_R",
+    "toe_R",
+    "beacon",
+    "cable_01",
+    "cable_02"
+  ],
+  "bone_count": 64,
+  "morphs": [
+    "blink_L",
+    "blink_R",
+    "squint_L",
+    "squint_R",
+    "brow_up_L",
+    "brow_up_R",
+    "brow_down_L",
+    "brow_down_R",
+    "cheek_L",
+    "cheek_R",
+    "smile_L",
+    "smile_R",
+    "frown_L",
+    "frown_R",
+    "jaw_open",
+    "lip_close",
+    "mouth_wide",
+    "pucker",
+    "funnel",
+    "viseme_AA",
+    "viseme_EE",
+    "viseme_OH",
+    "viseme_OO",
+    "viseme_FV",
+    "viseme_MBP",
+    "viseme_L",
+    "viseme_TH",
+    "shoulder_raise_L",
+    "shoulder_raise_R",
+    "hip_flex_L",
+    "hip_flex_R",
+    "wrist_flex_L"
+  ],
+  "reference_positions_cm": {
+    "root": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "pelvis": [
+      -3.5907774965133365e-29,
+      -1.852884572118782e-22,
+      94.0
+    ],
+    "head": [
+      -2.3095996278367268e-29,
+      6.473666727268948e-23,
+      157.9999998211854
+    ],
+    "foot_L": [
+      1.5211297985651129e-06,
+      -10.499996700817428,
+      11.000017427430926
+    ],
+    "foot_R": [
+      1.8988349170800944e-06,
+      10.499996779225999,
+      11.000009800211615
+    ],
+    "emitter_muzzle": [
+      8.19999869275015,
+      51.699993303727496,
+      110.19999841851646
+    ]
+  },
+  "animations": [
+    {
+      "id": "idle_relaxed",
+      "duration": 3.5999999046325684
+    },
+    {
+      "id": "idle_combat",
+      "duration": 2.799999952316284
+    },
+    {
+      "id": "idle_wounded",
+      "duration": 3.4000000953674316
+    },
+    {
+      "id": "walk_f",
+      "duration": 0.800000011920929
+    },
+    {
+      "id": "walk_fl",
+      "duration": 0.800000011920929
+    },
+    {
+      "id": "walk_l",
+      "duration": 0.800000011920929
+    },
+    {
+      "id": "walk_bl",
+      "duration": 0.800000011920929
+    },
+    {
+      "id": "walk_b",
+      "duration": 0.800000011920929
+    },
+    {
+      "id": "walk_br",
+      "duration": 0.800000011920929
+    },
+    {
+      "id": "walk_r",
+      "duration": 0.800000011920929
+    },
+    {
+      "id": "walk_fr",
+      "duration": 0.800000011920929
+    },
+    {
+      "id": "run_f",
+      "duration": 0.699999988079071
+    },
+    {
+      "id": "run_fl",
+      "duration": 0.699999988079071
+    },
+    {
+      "id": "run_l",
+      "duration": 0.699999988079071
+    },
+    {
+      "id": "run_bl",
+      "duration": 0.699999988079071
+    },
+    {
+      "id": "run_b",
+      "duration": 0.699999988079071
+    },
+    {
+      "id": "run_br",
+      "duration": 0.699999988079071
+    },
+    {
+      "id": "run_r",
+      "duration": 0.699999988079071
+    },
+    {
+      "id": "run_fr",
+      "duration": 0.699999988079071
+    },
+    {
+      "id": "sprint_f",
+      "duration": 0.6000000238418579
+    },
+    {
+      "id": "start_f",
+      "duration": 0.699999988079071
+    },
+    {
+      "id": "stop_f",
+      "duration": 0.699999988079071
+    },
+    {
+      "id": "turn_l90",
+      "duration": 0.800000011920929
+    },
+    {
+      "id": "turn_r90",
+      "duration": 0.800000011920929
+    },
+    {
+      "id": "pivot_l180",
+      "duration": 0.800000011920929
+    },
+    {
+      "id": "pivot_r180",
+      "duration": 0.800000011920929
+    },
+    {
+      "id": "jump_start",
+      "duration": 0.6000000238418579
+    },
+    {
+      "id": "jump_air",
+      "duration": 0.800000011920929
+    },
+    {
+      "id": "jump_land",
+      "duration": 0.699999988079071
+    },
+    {
+      "id": "fall",
+      "duration": 0.8999999761581421
+    },
+    {
+      "id": "land_heavy",
+      "duration": 1.0
+    },
+    {
+      "id": "dash_f",
+      "duration": 0.5,
+      "root_delta_cm": [
+        200.00003051757812,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "dash_b",
+      "duration": 0.5,
+      "root_delta_cm": [
+        -200.00003051757812,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "dash_l",
+      "duration": 0.5,
+      "root_delta_cm": [
+        0.0,
+        -200.00003051757812,
+        0.0
+      ]
+    },
+    {
+      "id": "dash_r",
+      "duration": 0.5,
+      "root_delta_cm": [
+        0.0,
+        200.00003051757812,
+        0.0
+      ]
+    },
+    {
+      "id": "blink_out",
+      "duration": 0.4000000059604645
+    },
+    {
+      "id": "blink_in",
+      "duration": 0.4000000059604645
+    },
+    {
+      "id": "melee_1",
+      "duration": 0.800000011920929
+    },
+    {
+      "id": "melee_2",
+      "duration": 0.8999999761581421
+    },
+    {
+      "id": "melee_3",
+      "duration": 1.100000023841858
+    },
+    {
+      "id": "ranged_fire",
+      "duration": 0.30000001192092896
+    },
+    {
+      "id": "ranged_burst",
+      "duration": 0.6000000238418579
+    },
+    {
+      "id": "reload",
+      "duration": 2.299999952316284
+    },
+    {
+      "id": "cast_directional",
+      "duration": 0.8999999761581421
+    },
+    {
+      "id": "cast_ground",
+      "duration": 1.2000000476837158
+    },
+    {
+      "id": "cast_self",
+      "duration": 0.8999999761581421
+    },
+    {
+      "id": "channel_start",
+      "duration": 0.6000000238418579
+    },
+    {
+      "id": "channel_loop",
+      "duration": 1.600000023841858
+    },
+    {
+      "id": "channel_end",
+      "duration": 0.6000000238418579
+    },
+    {
+      "id": "channel_interrupt",
+      "duration": 0.4000000059604645
+    },
+    {
+      "id": "charge_start",
+      "duration": 0.800000011920929
+    },
+    {
+      "id": "charge_hold",
+      "duration": 1.2000000476837158
+    },
+    {
+      "id": "charge_release",
+      "duration": 0.800000011920929
+    },
+    {
+      "id": "charge_cancel",
+      "duration": 0.5
+    },
+    {
+      "id": "uplink_start",
+      "duration": 0.800000011920929
+    },
+    {
+      "id": "uplink_loop",
+      "duration": 1.600000023841858
+    },
+    {
+      "id": "uplink_end",
+      "duration": 0.699999988079071
+    },
+    {
+      "id": "uplink_cancel",
+      "duration": 0.5
+    },
+    {
+      "id": "hit_f",
+      "duration": 0.4000000059604645
+    },
+    {
+      "id": "hit_b",
+      "duration": 0.4000000059604645
+    },
+    {
+      "id": "hit_l",
+      "duration": 0.4000000059604645
+    },
+    {
+      "id": "hit_r",
+      "duration": 0.4000000059604645
+    },
+    {
+      "id": "stun_start",
+      "duration": 0.699999988079071
+    },
+    {
+      "id": "stun_loop",
+      "duration": 1.7999999523162842
+    },
+    {
+      "id": "stun_end",
+      "duration": 1.0
+    },
+    {
+      "id": "knockback",
+      "duration": 0.800000011920929
+    },
+    {
+      "id": "knockup_start",
+      "duration": 0.6000000238418579
+    },
+    {
+      "id": "knockup_air",
+      "duration": 0.800000011920929
+    },
+    {
+      "id": "respawn",
+      "duration": 2.4000000953674316
+    },
+    {
+      "id": "greet",
+      "duration": 2.200000047683716
+    },
+    {
+      "id": "victory",
+      "duration": 2.799999952316284
+    },
+    {
+      "id": "defeat",
+      "duration": 2.5
+    },
+    {
+      "id": "dialogue",
+      "duration": 14.0
+    },
+    {
+      "id": "aim_down_left",
+      "duration": 0.03333333507180214
+    },
+    {
+      "id": "aim_down_center",
+      "duration": 0.03333333507180214
+    },
+    {
+      "id": "aim_down_right",
+      "duration": 0.03333333507180214
+    },
+    {
+      "id": "aim_level_left",
+      "duration": 0.03333333507180214
+    },
+    {
+      "id": "aim_level_center",
+      "duration": 0.03333333507180214
+    },
+    {
+      "id": "aim_level_right",
+      "duration": 0.03333333507180214
+    },
+    {
+      "id": "aim_up_left",
+      "duration": 0.03333333507180214
+    },
+    {
+      "id": "aim_up_center",
+      "duration": 0.03333333507180214
+    },
+    {
+      "id": "aim_up_right",
+      "duration": 0.03333333507180214
+    },
+    {
+      "id": "knockdown_front",
+      "duration": 1.100000023841858
+    },
+    {
+      "id": "knockdown_back",
+      "duration": 1.2000000476837158
+    },
+    {
+      "id": "prone_front",
+      "duration": 2.0
+    },
+    {
+      "id": "prone_back",
+      "duration": 2.0
+    },
+    {
+      "id": "getup_front",
+      "duration": 2.200000047683716
+    },
+    {
+      "id": "getup_back",
+      "duration": 2.5
+    },
+    {
+      "id": "sleep_start",
+      "duration": 2.4000000953674316
+    },
+    {
+      "id": "sleep_loop",
+      "duration": 2.799999952316284
+    },
+    {
+      "id": "sleep_end",
+      "duration": 2.5999999046325684
+    },
+    {
+      "id": "death_back",
+      "duration": 2.4000000953674316
+    },
+    {
+      "id": "dead_front",
+      "duration": 0.03333333507180214
+    },
+    {
+      "id": "dead_back",
+      "duration": 0.03333333507180214
+    },
+    {
+      "id": "death_front",
+      "duration": 2.0999999046325684
+    },
+    {
+      "id": "deploy",
+      "duration": 1.7999999523162842
+    }
+  ]
+}

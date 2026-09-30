@@ -1,0 +1,18 @@
+{
+  "application_input": "environment.json",
+  "authoring_model": "GPT-6-Astra exposed session; same inherited model for three native collaborators",
+  "third_party_character_assets": false,
+  "stock_motion": false,
+  "external_generative_services": false,
+  "user_scope": "All work within provided folder; full SPEC.md implementation",
+  "coordinate_contract": {
+    "blender_units": "meters",
+    "blender_forward": "-Y",
+    "blender_up": "+Z",
+    "blender_left": "+X",
+    "height_m": 1.8,
+    "unreal_units": "centimeters"
+  },
+  "tool_reuse": "Installed Blender 5.1.1, installed Unreal Engine 5.8.3 via existing ue-exec; no application version changes",
+  "notes": "No external publication or deployment. Local Nix tools used only as permitted in environment.json."
+}
