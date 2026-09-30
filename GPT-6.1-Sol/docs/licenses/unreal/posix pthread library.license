@@ -1,0 +1,42 @@
+================================================================================
+Software Name: posix pthread library
+Version:
+URL: https://sourceforge.net/projects/pthreads4w/files/pthreads4w-code-v3.0.0.zip/download
+===========================================================================================
+License Change
+--------------
+With the agreement of all substantial relevant contributors Pthreads4w
+version 3, with the exception of four files, is being released under the
+terms of the Apache License v2.0. The APLv2 is compatible with the GPLv3
+and LGPLv3 licenses and therefore this code may continue to be legally
+included within GPLv3 and LGPLv3 projects.
+
+A substantial relevant contributor was defined as one who has contributed
+original code that implements a capability present in the releases going
+forward. This excludes several contributors who have contributed code
+that has been obsoleted, or have provided patches that fix bugs,
+reorganise code for aesthetic or practical purposes, or improve build
+processes. This distinction was necessary in order to move forward in the
+likelyhood that not all contributors would be contactable. All
+contributors are listed in the file CONTRIBUTORS.
+
+The four files that will remain LGPL but change to v3 are files used to
+configure the GNU environment builds:
+
+	aclocal.m4
+	configure.ac
+	GNUmakefile.in
+	tests/GNUmakefile.in
+
+Contributors who have either requested this change or agreed to it when
+consulted are:
+
+John Bossom
+Alexander Terekhov
+Vladimir Kliatchko
+Ross Johnson
+
+Pthreads4w version 2 releases will remain LGPL but version 2.11 and later
+will be released under v3 of that license so that any additions to
+pthreads4w version 3 code that is backported to v2 will not pollute that
+code.

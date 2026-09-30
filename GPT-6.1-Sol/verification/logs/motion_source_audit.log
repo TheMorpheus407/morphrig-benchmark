@@ -1,0 +1,16 @@
+{
+  "inventory_entries": 96,
+  "motion_entries": 85,
+  "static_pose_entries": 11,
+  "unique_sampled_motion_signatures": 96,
+  "max_loop_numeric_delta": 1.1102230246251565e-16,
+  "death_endpoints_exact": true,
+  "nominal_dash_displacement_m": 2.0,
+  "analytical_support_velocity_verified": true,
+  "all_30fps_wrist_and_ankle_targets_reachable": true,
+  "maximum_arm_reach_m": 0.501131403568012,
+  "maximum_leg_reach_m": 0.8380000000000001,
+  "cell_and_beacon_grip_anchors_exact": true,
+  "speech_wav_duration": 13.566666666666666,
+  "scope": "Pure Python motion/timing/contact-policy validation; Blender and Unreal visual/skin deformation inspection is performed by the production pipeline."
+}

@@ -1,0 +1,1 @@
+{"instances":1,"frames":6987,"warmup_seconds":5,"sample_seconds":30,"width":1920,"height":1080,"mean_ms":4.29411,"p95_ms":6.68600,"p99_ms":8.41270,"cpu":"AMD Ryzen 9 9950X 16-Core Processor","physical_ram_gib":92,"process_ram_mib":1727.21,"gpu":"NVIDIA GeForce RTX 5090","rhi":"Vulkan","screen_percentage":100,"vsync":false,"generated_frames":false}

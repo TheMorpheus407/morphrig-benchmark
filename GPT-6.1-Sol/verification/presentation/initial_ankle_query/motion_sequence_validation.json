@@ -1,0 +1,126 @@
+{
+  "source": "verification/presentation/motion_state_events.jsonl",
+  "rows": 342,
+  "markers": 192,
+  "entered_clips": [
+    "blink_in",
+    "blink_out",
+    "cast_directional",
+    "cast_ground",
+    "channel_end",
+    "channel_interrupt",
+    "channel_loop",
+    "channel_start",
+    "charge_cancel",
+    "charge_hold",
+    "charge_release",
+    "charge_start",
+    "dash_f",
+    "dead_back",
+    "dead_front",
+    "death_back",
+    "death_front",
+    "deploy",
+    "dialogue",
+    "fall",
+    "getup_back",
+    "getup_front",
+    "hit_l",
+    "jump_air",
+    "jump_land",
+    "jump_start",
+    "knockdown_back",
+    "knockdown_front",
+    "knockup_start",
+    "land_heavy",
+    "melee_1",
+    "prone_back",
+    "prone_front",
+    "ranged_burst",
+    "ranged_fire",
+    "reload",
+    "respawn",
+    "sleep_end",
+    "sleep_loop",
+    "sleep_start",
+    "start_f",
+    "stop_f",
+    "stun_end",
+    "stun_loop",
+    "stun_start",
+    "uplink_cancel",
+    "uplink_loop",
+    "uplink_start"
+  ],
+  "checks": [
+    {
+      "name": "trace_has_rows",
+      "status": "pass",
+      "details": 342
+    },
+    {
+      "name": "marker_executes_once_per_actor_track_cycle",
+      "status": "pass",
+      "details": []
+    },
+    {
+      "name": "markers_belong_to_authored_manifest",
+      "status": "pass",
+      "details": []
+    },
+    {
+      "name": "major_combined_states_played",
+      "status": "pass",
+      "details": []
+    },
+    {
+      "name": "sequence_finished",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "representative_half_rate_and_fast_rate",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "one_blink_actor_event",
+      "status": "pass",
+      "details": 1
+    },
+    {
+      "name": "blink_disappears_and_reappears_once",
+      "status": "pass",
+      "details": {
+        "disappearances": 1,
+        "reappearances": 1
+      }
+    },
+    {
+      "name": "airborne_stasis_holds_capsule_position",
+      "status": "pass",
+      "details": {
+        "delta_cm": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "airborne": true,
+        "hold_seconds": 1.601300000000009
+      }
+    },
+    {
+      "name": "forward_dash_capsule_travels_two_meters",
+      "status": "pass",
+      "details": [
+        200.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "summary": {
+    "pass": 10,
+    "fail": 0
+  }
+}

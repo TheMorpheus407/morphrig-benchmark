@@ -1,0 +1,41 @@
+{
+  "kind": "face",
+  "client": "build/Linux/MorphRig.sh",
+  "source": "standalone realtime project; same delivered mesh and LODs",
+  "launch_epoch": 1790728024.0857577,
+  "presentation_start": {
+    "t": 8.0009,
+    "epoch": 1790728034.212,
+    "actor": "MorphOperative_2147482390",
+    "state": "locomotion",
+    "action": "presentation_start",
+    "rate": 1.0,
+    "x": 0.0,
+    "y": 0.0,
+    "z": 90.15
+  },
+  "first_capture_frame_epoch": 1790728025.433,
+  "trim_seconds": 8.77899980545044,
+  "speech_offset_seconds": 0,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "duration": 13.566666666666666,
+  "window_geometry": "\nxwininfo: Window id: 0x100005b \"MorphRig (64-bit Development SF_VULKAN_SM6) \"\n\n  Absolute upper-left X:  3130\n  Absolute upper-left Y:  2918\n  Relative upper-left X:  3130\n  Relative upper-left Y:  2918\n  Width: 1920\n  Height: 1080\n  Depth: 24\n  Visual: 0x2c\n  Visual Class: DirectColor\n  Border width: 0\n  Class: InputOutput\n  Colormap: 0x100005a (not installed)\n  Bit Gravity State: ForgetGravity\n  Window Gravity State: NorthWestGravity\n  Backing Store State: NotUseful\n  Save Under State: no\n  Map State: IsViewable\n  Override Redirect State: no\n  Corners:  +3130+2918  -6838+2918  -6838-968  +3130-968\n  -geometry 1920x1080+3130+2918\n\n",
+  "command_options": [
+    "-MorphClip=dialogue",
+    "-MorphNoHUD",
+    "-MorphView=3",
+    "-MorphStartDelay=8.0",
+    "-MorphExitSeconds=22.566666666666666",
+    "-ForceRes",
+    "-abslog=/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/verification/logs/capture_face_client.log"
+  ],
+  "audio": "original delivered dialogue.wav, muxed at traced live onset",
+  "output": "presentation/face_performance.mp4",
+  "sha256": "b683bcd3a235c2f37950df55e0f95ceb8a9db50d8e3691f584a94e9871281fa9",
+  "source_sha256": "afe4b13d031ed014e98918b5ea66fd4a1792dedeebccdb18abb90b09d4ab96dd",
+  "manifest_sha256": "5bccaf591d602fb73cf366366c082582a2c7e390a54cbbebb08d6044533dba57",
+  "voice_sha256": "d7dfb6cd7d37fb611a3d06a496809731d0b6081b51cc20f78d8aa8f92afef9f5",
+  "client_binary_sha256": "8479393c16e8a6fe6dd3ffabca4a58ffaedf953967aba95c7eee395ec5a547e8"
+}

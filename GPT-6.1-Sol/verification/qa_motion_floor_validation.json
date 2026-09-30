@@ -1,0 +1,1983 @@
+{
+  "schema_version": 1,
+  "blender_version": "5.1.1",
+  "source": "source/Operative.blend",
+  "units": "metres",
+  "source_sha256": "afe4b13d031ed014e98918b5ea66fd4a1792dedeebccdb18abb90b09d4ab96dd",
+  "validated_utc": "2026-09-29T21:41:09Z",
+  "skinning_basis": "delivered",
+  "linear_floor_clearance": {
+    "idle_relaxed": {
+      "frames_checked": 91,
+      "worst_frame": 16,
+      "minimum_surface_z_m": -8.649193432574975e-07,
+      "lowest_vertex_index": 1312,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "idle_combat": {
+      "frames_checked": 85,
+      "worst_frame": 12,
+      "minimum_surface_z_m": -2.197366666223388e-05,
+      "lowest_vertex_index": 1312,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "idle_wounded": {
+      "frames_checked": 97,
+      "worst_frame": 67,
+      "minimum_surface_z_m": -2.838386171788443e-05,
+      "lowest_vertex_index": 1312,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "walk_f": {
+      "frames_checked": 25,
+      "worst_frame": 5,
+      "minimum_surface_z_m": -2.6639949282980524e-05,
+      "lowest_vertex_index": 1312,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "walk_fl": {
+      "frames_checked": 25,
+      "worst_frame": 4,
+      "minimum_surface_z_m": -4.450737833394669e-05,
+      "lowest_vertex_index": 1312,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "walk_l": {
+      "frames_checked": 25,
+      "worst_frame": 5,
+      "minimum_surface_z_m": -2.382698039582465e-05,
+      "lowest_vertex_index": 1312,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "walk_bl": {
+      "frames_checked": 25,
+      "worst_frame": 1,
+      "minimum_surface_z_m": -3.867712803184986e-05,
+      "lowest_vertex_index": 3664,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "walk_b": {
+      "frames_checked": 25,
+      "worst_frame": 17,
+      "minimum_surface_z_m": -2.6582796635921113e-05,
+      "lowest_vertex_index": 3664,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "walk_br": {
+      "frames_checked": 25,
+      "worst_frame": 4,
+      "minimum_surface_z_m": -2.2870719476486556e-05,
+      "lowest_vertex_index": 1312,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "walk_r": {
+      "frames_checked": 25,
+      "worst_frame": 7,
+      "minimum_surface_z_m": -2.5709787223604508e-05,
+      "lowest_vertex_index": 1312,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "walk_fr": {
+      "frames_checked": 25,
+      "worst_frame": 13,
+      "minimum_surface_z_m": -3.8218156987568364e-05,
+      "lowest_vertex_index": 1312,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "run_f": {
+      "frames_checked": 19,
+      "worst_frame": 13,
+      "minimum_surface_z_m": -4.637112215277739e-05,
+      "lowest_vertex_index": 3664,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "run_fl": {
+      "frames_checked": 19,
+      "worst_frame": 13,
+      "minimum_surface_z_m": -4.4436557800509036e-05,
+      "lowest_vertex_index": 3664,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "run_l": {
+      "frames_checked": 19,
+      "worst_frame": 5,
+      "minimum_surface_z_m": -2.7422607672633603e-05,
+      "lowest_vertex_index": 1312,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "run_bl": {
+      "frames_checked": 19,
+      "worst_frame": 15,
+      "minimum_surface_z_m": -3.7828311178600416e-05,
+      "lowest_vertex_index": 3664,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "run_b": {
+      "frames_checked": 19,
+      "worst_frame": 4,
+      "minimum_surface_z_m": -4.607551090884954e-05,
+      "lowest_vertex_index": 1312,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "run_br": {
+      "frames_checked": 19,
+      "worst_frame": 3,
+      "minimum_surface_z_m": -3.629369894042611e-05,
+      "lowest_vertex_index": 1312,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "run_r": {
+      "frames_checked": 19,
+      "worst_frame": 13,
+      "minimum_surface_z_m": -2.815808511513751e-05,
+      "lowest_vertex_index": 3664,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "run_fr": {
+      "frames_checked": 19,
+      "worst_frame": 12,
+      "minimum_surface_z_m": -2.596943886601366e-05,
+      "lowest_vertex_index": 3664,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "sprint_f": {
+      "frames_checked": 13,
+      "worst_frame": 4,
+      "minimum_surface_z_m": -3.8229976780712605e-05,
+      "lowest_vertex_index": 1312,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "start_f": {
+      "frames_checked": 19,
+      "worst_frame": 14,
+      "minimum_surface_z_m": -2.9784690923406743e-05,
+      "lowest_vertex_index": 1312,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "stop_f": {
+      "frames_checked": 22,
+      "worst_frame": 6,
+      "minimum_surface_z_m": -0.0034401514567434788,
+      "lowest_vertex_index": 1336,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "turn_l90": {
+      "frames_checked": 25,
+      "worst_frame": 11,
+      "minimum_surface_z_m": -3.55960255546961e-05,
+      "lowest_vertex_index": 1312,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "turn_r90": {
+      "frames_checked": 25,
+      "worst_frame": 9,
+      "minimum_surface_z_m": -3.10394425468985e-05,
+      "lowest_vertex_index": 3664,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "pivot_l180": {
+      "frames_checked": 28,
+      "worst_frame": 8,
+      "minimum_surface_z_m": -3.31954906869214e-05,
+      "lowest_vertex_index": 1312,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "pivot_r180": {
+      "frames_checked": 28,
+      "worst_frame": 21,
+      "minimum_surface_z_m": -3.999790351372212e-05,
+      "lowest_vertex_index": 1312,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "jump_start": {
+      "frames_checked": 22,
+      "worst_frame": 9,
+      "minimum_surface_z_m": 0.0005254488787613809,
+      "lowest_vertex_index": 1336,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01,
+      "review_render_frame": 9
+    },
+    "jump_air": {
+      "frames_checked": 22,
+      "worst_frame": 11,
+      "minimum_surface_z_m": 0.2611214518547058,
+      "lowest_vertex_index": 1339,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "jump_land": {
+      "frames_checked": 25,
+      "worst_frame": 9,
+      "minimum_surface_z_m": 0.0005463345441967249,
+      "lowest_vertex_index": 3664,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01,
+      "review_render_frame": 9
+    },
+    "fall": {
+      "frames_checked": 25,
+      "worst_frame": 13,
+      "minimum_surface_z_m": 0.051991015672683716,
+      "lowest_vertex_index": 1312,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "land_heavy": {
+      "frames_checked": 34,
+      "worst_frame": 22,
+      "minimum_surface_z_m": 0.0005198782891966403,
+      "lowest_vertex_index": 1336,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01,
+      "review_render_frame": 12
+    },
+    "dash_f": {
+      "frames_checked": 16,
+      "worst_frame": 15,
+      "minimum_surface_z_m": -3.159023617627099e-05,
+      "lowest_vertex_index": 3664,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "dash_b": {
+      "frames_checked": 16,
+      "worst_frame": 2,
+      "minimum_surface_z_m": -3.9616923459107056e-05,
+      "lowest_vertex_index": 1312,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "dash_l": {
+      "frames_checked": 16,
+      "worst_frame": 15,
+      "minimum_surface_z_m": -3.3770804293453693e-05,
+      "lowest_vertex_index": 3664,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "dash_r": {
+      "frames_checked": 16,
+      "worst_frame": 2,
+      "minimum_surface_z_m": -3.99423370254226e-05,
+      "lowest_vertex_index": 1312,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "blink_out": {
+      "frames_checked": 13,
+      "worst_frame": 10,
+      "minimum_surface_z_m": -4.0611375879962e-05,
+      "lowest_vertex_index": 1312,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "blink_in": {
+      "frames_checked": 16,
+      "worst_frame": 7,
+      "minimum_surface_z_m": -4.871745113632642e-05,
+      "lowest_vertex_index": 1312,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "melee_1": {
+      "frames_checked": 28,
+      "worst_frame": 5,
+      "minimum_surface_z_m": -2.6355650334153324e-05,
+      "lowest_vertex_index": 1312,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "melee_2": {
+      "frames_checked": 31,
+      "worst_frame": 5,
+      "minimum_surface_z_m": -3.5695713449968025e-05,
+      "lowest_vertex_index": 3664,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "melee_3": {
+      "frames_checked": 34,
+      "worst_frame": 22,
+      "minimum_surface_z_m": -8.58954299474135e-05,
+      "lowest_vertex_index": 1336,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "ranged_fire": {
+      "frames_checked": 13,
+      "worst_frame": 1,
+      "minimum_surface_z_m": -1.2255694855412003e-05,
+      "lowest_vertex_index": 1312,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "ranged_burst": {
+      "frames_checked": 22,
+      "worst_frame": 1,
+      "minimum_surface_z_m": -1.2255694855412003e-05,
+      "lowest_vertex_index": 1312,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "reload": {
+      "frames_checked": 67,
+      "worst_frame": 1,
+      "minimum_surface_z_m": -1.2255694855412003e-05,
+      "lowest_vertex_index": 1312,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "cast_directional": {
+      "frames_checked": 28,
+      "worst_frame": 11,
+      "minimum_surface_z_m": -3.752106931642629e-05,
+      "lowest_vertex_index": 3664,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "cast_ground": {
+      "frames_checked": 37,
+      "worst_frame": 27,
+      "minimum_surface_z_m": -7.599241507705301e-05,
+      "lowest_vertex_index": 1336,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "cast_self": {
+      "frames_checked": 28,
+      "worst_frame": 7,
+      "minimum_surface_z_m": -4.739614814752713e-05,
+      "lowest_vertex_index": 1312,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "channel_start": {
+      "frames_checked": 19,
+      "worst_frame": 3,
+      "minimum_surface_z_m": -2.8003123588860035e-05,
+      "lowest_vertex_index": 1312,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "channel_loop": {
+      "frames_checked": 37,
+      "worst_frame": 1,
+      "minimum_surface_z_m": -7.700841706537176e-06,
+      "lowest_vertex_index": 3664,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "channel_end": {
+      "frames_checked": 19,
+      "worst_frame": 6,
+      "minimum_surface_z_m": -2.5921788619598374e-05,
+      "lowest_vertex_index": 1312,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "channel_interrupt": {
+      "frames_checked": 16,
+      "worst_frame": 5,
+      "minimum_surface_z_m": -2.4799715902190655e-05,
+      "lowest_vertex_index": 1312,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "charge_start": {
+      "frames_checked": 25,
+      "worst_frame": 9,
+      "minimum_surface_z_m": -3.958712113671936e-05,
+      "lowest_vertex_index": 3664,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "charge_hold": {
+      "frames_checked": 31,
+      "worst_frame": 1,
+      "minimum_surface_z_m": -2.2017133233021013e-05,
+      "lowest_vertex_index": 1312,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "charge_release": {
+      "frames_checked": 25,
+      "worst_frame": 9,
+      "minimum_surface_z_m": -4.612124394043349e-05,
+      "lowest_vertex_index": 3664,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "charge_cancel": {
+      "frames_checked": 19,
+      "worst_frame": 8,
+      "minimum_surface_z_m": -4.1467083065072075e-05,
+      "lowest_vertex_index": 3664,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "deploy": {
+      "frames_checked": 49,
+      "worst_frame": 25,
+      "minimum_surface_z_m": -0.006340503692626953,
+      "lowest_vertex_index": 2573,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01,
+      "review_render_frame": 25
+    },
+    "uplink_start": {
+      "frames_checked": 28,
+      "worst_frame": 11,
+      "minimum_surface_z_m": -2.1561261746683158e-05,
+      "lowest_vertex_index": 3664,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "uplink_loop": {
+      "frames_checked": 46,
+      "worst_frame": 1,
+      "minimum_surface_z_m": -5.62891773370211e-06,
+      "lowest_vertex_index": 1312,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "uplink_end": {
+      "frames_checked": 22,
+      "worst_frame": 11,
+      "minimum_surface_z_m": -2.0811376089113764e-05,
+      "lowest_vertex_index": 3664,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "uplink_cancel": {
+      "frames_checked": 19,
+      "worst_frame": 11,
+      "minimum_surface_z_m": -1.9874465579050593e-05,
+      "lowest_vertex_index": 3664,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "hit_f": {
+      "frames_checked": 13,
+      "worst_frame": 1,
+      "minimum_surface_z_m": -6.514751476061065e-07,
+      "lowest_vertex_index": 1312,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "hit_b": {
+      "frames_checked": 13,
+      "worst_frame": 1,
+      "minimum_surface_z_m": -6.514751476061065e-07,
+      "lowest_vertex_index": 1312,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "hit_l": {
+      "frames_checked": 13,
+      "worst_frame": 1,
+      "minimum_surface_z_m": -6.514751476061065e-07,
+      "lowest_vertex_index": 1312,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "hit_r": {
+      "frames_checked": 13,
+      "worst_frame": 1,
+      "minimum_surface_z_m": -6.514751476061065e-07,
+      "lowest_vertex_index": 1312,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "stun_start": {
+      "frames_checked": 37,
+      "worst_frame": 29,
+      "minimum_surface_z_m": -3.8151156331878155e-05,
+      "lowest_vertex_index": 3664,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "stun_loop": {
+      "frames_checked": 61,
+      "worst_frame": 1,
+      "minimum_surface_z_m": -2.2249583707889542e-05,
+      "lowest_vertex_index": 3664,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "stun_end": {
+      "frames_checked": 34,
+      "worst_frame": 11,
+      "minimum_surface_z_m": -4.134787377552129e-05,
+      "lowest_vertex_index": 1312,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "knockback": {
+      "frames_checked": 40,
+      "worst_frame": 30,
+      "minimum_surface_z_m": -4.318774881539866e-05,
+      "lowest_vertex_index": 3664,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "knockup_start": {
+      "frames_checked": 25,
+      "worst_frame": 3,
+      "minimum_surface_z_m": -4.421826815814711e-05,
+      "lowest_vertex_index": 3664,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "knockup_air": {
+      "frames_checked": 28,
+      "worst_frame": 7,
+      "minimum_surface_z_m": 0.20250806212425232,
+      "lowest_vertex_index": 1292,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "knockdown_front": {
+      "frames_checked": 55,
+      "worst_frame": 28,
+      "minimum_surface_z_m": -0.0025274157524108887,
+      "lowest_vertex_index": 2615,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01,
+      "review_render_frame": 45
+    },
+    "knockdown_back": {
+      "frames_checked": 58,
+      "worst_frame": 58,
+      "minimum_surface_z_m": -0.00030517578125,
+      "lowest_vertex_index": 20004,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01,
+      "review_render_frame": 58
+    },
+    "prone_front": {
+      "frames_checked": 61,
+      "worst_frame": 14,
+      "minimum_surface_z_m": 0.0006033182144165039,
+      "lowest_vertex_index": 3083,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01,
+      "review_render_frame": 16
+    },
+    "prone_back": {
+      "frames_checked": 61,
+      "worst_frame": 1,
+      "minimum_surface_z_m": -0.00030517578125,
+      "lowest_vertex_index": 20004,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01,
+      "review_render_frame": 46
+    },
+    "getup_front": {
+      "frames_checked": 82,
+      "worst_frame": 13,
+      "minimum_surface_z_m": -0.0024068057537078857,
+      "lowest_vertex_index": 1367,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01,
+      "review_render_frame": 1
+    },
+    "getup_back": {
+      "frames_checked": 85,
+      "worst_frame": 1,
+      "minimum_surface_z_m": -0.00030517578125,
+      "lowest_vertex_index": 20004,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01,
+      "review_render_frame": 1
+    },
+    "sleep_start": {
+      "frames_checked": 67,
+      "worst_frame": 24,
+      "minimum_surface_z_m": -8.047223673202097e-05,
+      "lowest_vertex_index": 1336,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "sleep_loop": {
+      "frames_checked": 76,
+      "worst_frame": 1,
+      "minimum_surface_z_m": 0.009961969219148159,
+      "lowest_vertex_index": 3688,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "sleep_end": {
+      "frames_checked": 67,
+      "worst_frame": 39,
+      "minimum_surface_z_m": -9.984251664718613e-05,
+      "lowest_vertex_index": 1336,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "death_front": {
+      "frames_checked": 82,
+      "worst_frame": 36,
+      "minimum_surface_z_m": -0.0026019811630249023,
+      "lowest_vertex_index": 2615,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01,
+      "review_render_frame": 61
+    },
+    "death_back": {
+      "frames_checked": 88,
+      "worst_frame": 83,
+      "minimum_surface_z_m": -0.00030517578125,
+      "lowest_vertex_index": 20004,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01,
+      "review_render_frame": 69
+    },
+    "dead_front": {
+      "frames_checked": 2,
+      "worst_frame": 1,
+      "minimum_surface_z_m": 0.0005861520767211914,
+      "lowest_vertex_index": 3083,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01,
+      "review_render_frame": 1
+    },
+    "dead_back": {
+      "frames_checked": 2,
+      "worst_frame": 1,
+      "minimum_surface_z_m": -0.00030517578125,
+      "lowest_vertex_index": 20004,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01,
+      "review_render_frame": 1
+    },
+    "respawn": {
+      "frames_checked": 76,
+      "worst_frame": 3,
+      "minimum_surface_z_m": -6.371385825332254e-05,
+      "lowest_vertex_index": 3664,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "greet": {
+      "frames_checked": 73,
+      "worst_frame": 55,
+      "minimum_surface_z_m": -2.212750587204937e-05,
+      "lowest_vertex_index": 1312,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "victory": {
+      "frames_checked": 91,
+      "worst_frame": 21,
+      "minimum_surface_z_m": -4.3480944441398606e-05,
+      "lowest_vertex_index": 1312,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "defeat": {
+      "frames_checked": 85,
+      "worst_frame": 42,
+      "minimum_surface_z_m": -3.4178381611127406e-05,
+      "lowest_vertex_index": 3664,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "dialogue": {
+      "frames_checked": 408,
+      "worst_frame": 65,
+      "minimum_surface_z_m": -2.2212085241335444e-05,
+      "lowest_vertex_index": 3664,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "aim_down_left": {
+      "frames_checked": 2,
+      "worst_frame": 1,
+      "minimum_surface_z_m": -1.2255694855412003e-05,
+      "lowest_vertex_index": 1312,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "aim_down_center": {
+      "frames_checked": 2,
+      "worst_frame": 1,
+      "minimum_surface_z_m": -1.2255694855412003e-05,
+      "lowest_vertex_index": 1312,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "aim_down_right": {
+      "frames_checked": 2,
+      "worst_frame": 1,
+      "minimum_surface_z_m": -1.2255694855412003e-05,
+      "lowest_vertex_index": 1312,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "aim_level_left": {
+      "frames_checked": 2,
+      "worst_frame": 1,
+      "minimum_surface_z_m": -1.2255694855412003e-05,
+      "lowest_vertex_index": 1312,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "aim_level_center": {
+      "frames_checked": 2,
+      "worst_frame": 1,
+      "minimum_surface_z_m": -1.2255694855412003e-05,
+      "lowest_vertex_index": 1312,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "aim_level_right": {
+      "frames_checked": 2,
+      "worst_frame": 1,
+      "minimum_surface_z_m": -1.2255694855412003e-05,
+      "lowest_vertex_index": 1312,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "aim_up_left": {
+      "frames_checked": 2,
+      "worst_frame": 1,
+      "minimum_surface_z_m": -1.2255694855412003e-05,
+      "lowest_vertex_index": 1312,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "aim_up_center": {
+      "frames_checked": 2,
+      "worst_frame": 1,
+      "minimum_surface_z_m": -1.2255694855412003e-05,
+      "lowest_vertex_index": 1312,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    },
+    "aim_up_right": {
+      "frames_checked": 2,
+      "worst_frame": 1,
+      "minimum_surface_z_m": -1.2255694855412003e-05,
+      "lowest_vertex_index": 1312,
+      "penetrating_vertex_frame_groups": {},
+      "maximum_allowed_contact_pressure_depth_m": 0.01
+    }
+  },
+  "checks": [
+    {
+      "name": "linear_surface_floor_clearance_idle_relaxed",
+      "status": "pass",
+      "details": {
+        "frames_checked": 91,
+        "worst_frame": 16,
+        "minimum_surface_z_m": -8.649193432574975e-07,
+        "lowest_vertex_index": 1312,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_idle_combat",
+      "status": "pass",
+      "details": {
+        "frames_checked": 85,
+        "worst_frame": 12,
+        "minimum_surface_z_m": -2.197366666223388e-05,
+        "lowest_vertex_index": 1312,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_idle_wounded",
+      "status": "pass",
+      "details": {
+        "frames_checked": 97,
+        "worst_frame": 67,
+        "minimum_surface_z_m": -2.838386171788443e-05,
+        "lowest_vertex_index": 1312,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_walk_f",
+      "status": "pass",
+      "details": {
+        "frames_checked": 25,
+        "worst_frame": 5,
+        "minimum_surface_z_m": -2.6639949282980524e-05,
+        "lowest_vertex_index": 1312,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_walk_fl",
+      "status": "pass",
+      "details": {
+        "frames_checked": 25,
+        "worst_frame": 4,
+        "minimum_surface_z_m": -4.450737833394669e-05,
+        "lowest_vertex_index": 1312,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_walk_l",
+      "status": "pass",
+      "details": {
+        "frames_checked": 25,
+        "worst_frame": 5,
+        "minimum_surface_z_m": -2.382698039582465e-05,
+        "lowest_vertex_index": 1312,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_walk_bl",
+      "status": "pass",
+      "details": {
+        "frames_checked": 25,
+        "worst_frame": 1,
+        "minimum_surface_z_m": -3.867712803184986e-05,
+        "lowest_vertex_index": 3664,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_walk_b",
+      "status": "pass",
+      "details": {
+        "frames_checked": 25,
+        "worst_frame": 17,
+        "minimum_surface_z_m": -2.6582796635921113e-05,
+        "lowest_vertex_index": 3664,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_walk_br",
+      "status": "pass",
+      "details": {
+        "frames_checked": 25,
+        "worst_frame": 4,
+        "minimum_surface_z_m": -2.2870719476486556e-05,
+        "lowest_vertex_index": 1312,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_walk_r",
+      "status": "pass",
+      "details": {
+        "frames_checked": 25,
+        "worst_frame": 7,
+        "minimum_surface_z_m": -2.5709787223604508e-05,
+        "lowest_vertex_index": 1312,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_walk_fr",
+      "status": "pass",
+      "details": {
+        "frames_checked": 25,
+        "worst_frame": 13,
+        "minimum_surface_z_m": -3.8218156987568364e-05,
+        "lowest_vertex_index": 1312,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_run_f",
+      "status": "pass",
+      "details": {
+        "frames_checked": 19,
+        "worst_frame": 13,
+        "minimum_surface_z_m": -4.637112215277739e-05,
+        "lowest_vertex_index": 3664,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_run_fl",
+      "status": "pass",
+      "details": {
+        "frames_checked": 19,
+        "worst_frame": 13,
+        "minimum_surface_z_m": -4.4436557800509036e-05,
+        "lowest_vertex_index": 3664,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_run_l",
+      "status": "pass",
+      "details": {
+        "frames_checked": 19,
+        "worst_frame": 5,
+        "minimum_surface_z_m": -2.7422607672633603e-05,
+        "lowest_vertex_index": 1312,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_run_bl",
+      "status": "pass",
+      "details": {
+        "frames_checked": 19,
+        "worst_frame": 15,
+        "minimum_surface_z_m": -3.7828311178600416e-05,
+        "lowest_vertex_index": 3664,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_run_b",
+      "status": "pass",
+      "details": {
+        "frames_checked": 19,
+        "worst_frame": 4,
+        "minimum_surface_z_m": -4.607551090884954e-05,
+        "lowest_vertex_index": 1312,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_run_br",
+      "status": "pass",
+      "details": {
+        "frames_checked": 19,
+        "worst_frame": 3,
+        "minimum_surface_z_m": -3.629369894042611e-05,
+        "lowest_vertex_index": 1312,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_run_r",
+      "status": "pass",
+      "details": {
+        "frames_checked": 19,
+        "worst_frame": 13,
+        "minimum_surface_z_m": -2.815808511513751e-05,
+        "lowest_vertex_index": 3664,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_run_fr",
+      "status": "pass",
+      "details": {
+        "frames_checked": 19,
+        "worst_frame": 12,
+        "minimum_surface_z_m": -2.596943886601366e-05,
+        "lowest_vertex_index": 3664,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_sprint_f",
+      "status": "pass",
+      "details": {
+        "frames_checked": 13,
+        "worst_frame": 4,
+        "minimum_surface_z_m": -3.8229976780712605e-05,
+        "lowest_vertex_index": 1312,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_start_f",
+      "status": "pass",
+      "details": {
+        "frames_checked": 19,
+        "worst_frame": 14,
+        "minimum_surface_z_m": -2.9784690923406743e-05,
+        "lowest_vertex_index": 1312,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_stop_f",
+      "status": "pass",
+      "details": {
+        "frames_checked": 22,
+        "worst_frame": 6,
+        "minimum_surface_z_m": -0.0034401514567434788,
+        "lowest_vertex_index": 1336,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_turn_l90",
+      "status": "pass",
+      "details": {
+        "frames_checked": 25,
+        "worst_frame": 11,
+        "minimum_surface_z_m": -3.55960255546961e-05,
+        "lowest_vertex_index": 1312,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_turn_r90",
+      "status": "pass",
+      "details": {
+        "frames_checked": 25,
+        "worst_frame": 9,
+        "minimum_surface_z_m": -3.10394425468985e-05,
+        "lowest_vertex_index": 3664,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_pivot_l180",
+      "status": "pass",
+      "details": {
+        "frames_checked": 28,
+        "worst_frame": 8,
+        "minimum_surface_z_m": -3.31954906869214e-05,
+        "lowest_vertex_index": 1312,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_pivot_r180",
+      "status": "pass",
+      "details": {
+        "frames_checked": 28,
+        "worst_frame": 21,
+        "minimum_surface_z_m": -3.999790351372212e-05,
+        "lowest_vertex_index": 1312,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_jump_start",
+      "status": "pass",
+      "details": {
+        "frames_checked": 22,
+        "worst_frame": 9,
+        "minimum_surface_z_m": 0.0005254488787613809,
+        "lowest_vertex_index": 1336,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01,
+        "review_render_frame": 9
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_jump_air",
+      "status": "pass",
+      "details": {
+        "frames_checked": 22,
+        "worst_frame": 11,
+        "minimum_surface_z_m": 0.2611214518547058,
+        "lowest_vertex_index": 1339,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_jump_land",
+      "status": "pass",
+      "details": {
+        "frames_checked": 25,
+        "worst_frame": 9,
+        "minimum_surface_z_m": 0.0005463345441967249,
+        "lowest_vertex_index": 3664,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01,
+        "review_render_frame": 9
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_fall",
+      "status": "pass",
+      "details": {
+        "frames_checked": 25,
+        "worst_frame": 13,
+        "minimum_surface_z_m": 0.051991015672683716,
+        "lowest_vertex_index": 1312,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_land_heavy",
+      "status": "pass",
+      "details": {
+        "frames_checked": 34,
+        "worst_frame": 22,
+        "minimum_surface_z_m": 0.0005198782891966403,
+        "lowest_vertex_index": 1336,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01,
+        "review_render_frame": 12
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_dash_f",
+      "status": "pass",
+      "details": {
+        "frames_checked": 16,
+        "worst_frame": 15,
+        "minimum_surface_z_m": -3.159023617627099e-05,
+        "lowest_vertex_index": 3664,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_dash_b",
+      "status": "pass",
+      "details": {
+        "frames_checked": 16,
+        "worst_frame": 2,
+        "minimum_surface_z_m": -3.9616923459107056e-05,
+        "lowest_vertex_index": 1312,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_dash_l",
+      "status": "pass",
+      "details": {
+        "frames_checked": 16,
+        "worst_frame": 15,
+        "minimum_surface_z_m": -3.3770804293453693e-05,
+        "lowest_vertex_index": 3664,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_dash_r",
+      "status": "pass",
+      "details": {
+        "frames_checked": 16,
+        "worst_frame": 2,
+        "minimum_surface_z_m": -3.99423370254226e-05,
+        "lowest_vertex_index": 1312,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_blink_out",
+      "status": "pass",
+      "details": {
+        "frames_checked": 13,
+        "worst_frame": 10,
+        "minimum_surface_z_m": -4.0611375879962e-05,
+        "lowest_vertex_index": 1312,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_blink_in",
+      "status": "pass",
+      "details": {
+        "frames_checked": 16,
+        "worst_frame": 7,
+        "minimum_surface_z_m": -4.871745113632642e-05,
+        "lowest_vertex_index": 1312,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_melee_1",
+      "status": "pass",
+      "details": {
+        "frames_checked": 28,
+        "worst_frame": 5,
+        "minimum_surface_z_m": -2.6355650334153324e-05,
+        "lowest_vertex_index": 1312,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_melee_2",
+      "status": "pass",
+      "details": {
+        "frames_checked": 31,
+        "worst_frame": 5,
+        "minimum_surface_z_m": -3.5695713449968025e-05,
+        "lowest_vertex_index": 3664,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_melee_3",
+      "status": "pass",
+      "details": {
+        "frames_checked": 34,
+        "worst_frame": 22,
+        "minimum_surface_z_m": -8.58954299474135e-05,
+        "lowest_vertex_index": 1336,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_ranged_fire",
+      "status": "pass",
+      "details": {
+        "frames_checked": 13,
+        "worst_frame": 1,
+        "minimum_surface_z_m": -1.2255694855412003e-05,
+        "lowest_vertex_index": 1312,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_ranged_burst",
+      "status": "pass",
+      "details": {
+        "frames_checked": 22,
+        "worst_frame": 1,
+        "minimum_surface_z_m": -1.2255694855412003e-05,
+        "lowest_vertex_index": 1312,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_reload",
+      "status": "pass",
+      "details": {
+        "frames_checked": 67,
+        "worst_frame": 1,
+        "minimum_surface_z_m": -1.2255694855412003e-05,
+        "lowest_vertex_index": 1312,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_cast_directional",
+      "status": "pass",
+      "details": {
+        "frames_checked": 28,
+        "worst_frame": 11,
+        "minimum_surface_z_m": -3.752106931642629e-05,
+        "lowest_vertex_index": 3664,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_cast_ground",
+      "status": "pass",
+      "details": {
+        "frames_checked": 37,
+        "worst_frame": 27,
+        "minimum_surface_z_m": -7.599241507705301e-05,
+        "lowest_vertex_index": 1336,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_cast_self",
+      "status": "pass",
+      "details": {
+        "frames_checked": 28,
+        "worst_frame": 7,
+        "minimum_surface_z_m": -4.739614814752713e-05,
+        "lowest_vertex_index": 1312,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_channel_start",
+      "status": "pass",
+      "details": {
+        "frames_checked": 19,
+        "worst_frame": 3,
+        "minimum_surface_z_m": -2.8003123588860035e-05,
+        "lowest_vertex_index": 1312,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_channel_loop",
+      "status": "pass",
+      "details": {
+        "frames_checked": 37,
+        "worst_frame": 1,
+        "minimum_surface_z_m": -7.700841706537176e-06,
+        "lowest_vertex_index": 3664,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_channel_end",
+      "status": "pass",
+      "details": {
+        "frames_checked": 19,
+        "worst_frame": 6,
+        "minimum_surface_z_m": -2.5921788619598374e-05,
+        "lowest_vertex_index": 1312,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_channel_interrupt",
+      "status": "pass",
+      "details": {
+        "frames_checked": 16,
+        "worst_frame": 5,
+        "minimum_surface_z_m": -2.4799715902190655e-05,
+        "lowest_vertex_index": 1312,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_charge_start",
+      "status": "pass",
+      "details": {
+        "frames_checked": 25,
+        "worst_frame": 9,
+        "minimum_surface_z_m": -3.958712113671936e-05,
+        "lowest_vertex_index": 3664,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_charge_hold",
+      "status": "pass",
+      "details": {
+        "frames_checked": 31,
+        "worst_frame": 1,
+        "minimum_surface_z_m": -2.2017133233021013e-05,
+        "lowest_vertex_index": 1312,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_charge_release",
+      "status": "pass",
+      "details": {
+        "frames_checked": 25,
+        "worst_frame": 9,
+        "minimum_surface_z_m": -4.612124394043349e-05,
+        "lowest_vertex_index": 3664,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_charge_cancel",
+      "status": "pass",
+      "details": {
+        "frames_checked": 19,
+        "worst_frame": 8,
+        "minimum_surface_z_m": -4.1467083065072075e-05,
+        "lowest_vertex_index": 3664,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_deploy",
+      "status": "pass",
+      "details": {
+        "frames_checked": 49,
+        "worst_frame": 25,
+        "minimum_surface_z_m": -0.006340503692626953,
+        "lowest_vertex_index": 2573,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01,
+        "review_render_frame": 25
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_uplink_start",
+      "status": "pass",
+      "details": {
+        "frames_checked": 28,
+        "worst_frame": 11,
+        "minimum_surface_z_m": -2.1561261746683158e-05,
+        "lowest_vertex_index": 3664,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_uplink_loop",
+      "status": "pass",
+      "details": {
+        "frames_checked": 46,
+        "worst_frame": 1,
+        "minimum_surface_z_m": -5.62891773370211e-06,
+        "lowest_vertex_index": 1312,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_uplink_end",
+      "status": "pass",
+      "details": {
+        "frames_checked": 22,
+        "worst_frame": 11,
+        "minimum_surface_z_m": -2.0811376089113764e-05,
+        "lowest_vertex_index": 3664,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_uplink_cancel",
+      "status": "pass",
+      "details": {
+        "frames_checked": 19,
+        "worst_frame": 11,
+        "minimum_surface_z_m": -1.9874465579050593e-05,
+        "lowest_vertex_index": 3664,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_hit_f",
+      "status": "pass",
+      "details": {
+        "frames_checked": 13,
+        "worst_frame": 1,
+        "minimum_surface_z_m": -6.514751476061065e-07,
+        "lowest_vertex_index": 1312,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_hit_b",
+      "status": "pass",
+      "details": {
+        "frames_checked": 13,
+        "worst_frame": 1,
+        "minimum_surface_z_m": -6.514751476061065e-07,
+        "lowest_vertex_index": 1312,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_hit_l",
+      "status": "pass",
+      "details": {
+        "frames_checked": 13,
+        "worst_frame": 1,
+        "minimum_surface_z_m": -6.514751476061065e-07,
+        "lowest_vertex_index": 1312,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_hit_r",
+      "status": "pass",
+      "details": {
+        "frames_checked": 13,
+        "worst_frame": 1,
+        "minimum_surface_z_m": -6.514751476061065e-07,
+        "lowest_vertex_index": 1312,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_stun_start",
+      "status": "pass",
+      "details": {
+        "frames_checked": 37,
+        "worst_frame": 29,
+        "minimum_surface_z_m": -3.8151156331878155e-05,
+        "lowest_vertex_index": 3664,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_stun_loop",
+      "status": "pass",
+      "details": {
+        "frames_checked": 61,
+        "worst_frame": 1,
+        "minimum_surface_z_m": -2.2249583707889542e-05,
+        "lowest_vertex_index": 3664,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_stun_end",
+      "status": "pass",
+      "details": {
+        "frames_checked": 34,
+        "worst_frame": 11,
+        "minimum_surface_z_m": -4.134787377552129e-05,
+        "lowest_vertex_index": 1312,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_knockback",
+      "status": "pass",
+      "details": {
+        "frames_checked": 40,
+        "worst_frame": 30,
+        "minimum_surface_z_m": -4.318774881539866e-05,
+        "lowest_vertex_index": 3664,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_knockup_start",
+      "status": "pass",
+      "details": {
+        "frames_checked": 25,
+        "worst_frame": 3,
+        "minimum_surface_z_m": -4.421826815814711e-05,
+        "lowest_vertex_index": 3664,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_knockup_air",
+      "status": "pass",
+      "details": {
+        "frames_checked": 28,
+        "worst_frame": 7,
+        "minimum_surface_z_m": 0.20250806212425232,
+        "lowest_vertex_index": 1292,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_knockdown_front",
+      "status": "pass",
+      "details": {
+        "frames_checked": 55,
+        "worst_frame": 28,
+        "minimum_surface_z_m": -0.0025274157524108887,
+        "lowest_vertex_index": 2615,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01,
+        "review_render_frame": 45
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_knockdown_back",
+      "status": "pass",
+      "details": {
+        "frames_checked": 58,
+        "worst_frame": 58,
+        "minimum_surface_z_m": -0.00030517578125,
+        "lowest_vertex_index": 20004,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01,
+        "review_render_frame": 58
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_prone_front",
+      "status": "pass",
+      "details": {
+        "frames_checked": 61,
+        "worst_frame": 14,
+        "minimum_surface_z_m": 0.0006033182144165039,
+        "lowest_vertex_index": 3083,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01,
+        "review_render_frame": 16
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_prone_back",
+      "status": "pass",
+      "details": {
+        "frames_checked": 61,
+        "worst_frame": 1,
+        "minimum_surface_z_m": -0.00030517578125,
+        "lowest_vertex_index": 20004,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01,
+        "review_render_frame": 46
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_getup_front",
+      "status": "pass",
+      "details": {
+        "frames_checked": 82,
+        "worst_frame": 13,
+        "minimum_surface_z_m": -0.0024068057537078857,
+        "lowest_vertex_index": 1367,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01,
+        "review_render_frame": 1
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_getup_back",
+      "status": "pass",
+      "details": {
+        "frames_checked": 85,
+        "worst_frame": 1,
+        "minimum_surface_z_m": -0.00030517578125,
+        "lowest_vertex_index": 20004,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01,
+        "review_render_frame": 1
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_sleep_start",
+      "status": "pass",
+      "details": {
+        "frames_checked": 67,
+        "worst_frame": 24,
+        "minimum_surface_z_m": -8.047223673202097e-05,
+        "lowest_vertex_index": 1336,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_sleep_loop",
+      "status": "pass",
+      "details": {
+        "frames_checked": 76,
+        "worst_frame": 1,
+        "minimum_surface_z_m": 0.009961969219148159,
+        "lowest_vertex_index": 3688,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_sleep_end",
+      "status": "pass",
+      "details": {
+        "frames_checked": 67,
+        "worst_frame": 39,
+        "minimum_surface_z_m": -9.984251664718613e-05,
+        "lowest_vertex_index": 1336,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_death_front",
+      "status": "pass",
+      "details": {
+        "frames_checked": 82,
+        "worst_frame": 36,
+        "minimum_surface_z_m": -0.0026019811630249023,
+        "lowest_vertex_index": 2615,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01,
+        "review_render_frame": 61
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_death_back",
+      "status": "pass",
+      "details": {
+        "frames_checked": 88,
+        "worst_frame": 83,
+        "minimum_surface_z_m": -0.00030517578125,
+        "lowest_vertex_index": 20004,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01,
+        "review_render_frame": 69
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_dead_front",
+      "status": "pass",
+      "details": {
+        "frames_checked": 2,
+        "worst_frame": 1,
+        "minimum_surface_z_m": 0.0005861520767211914,
+        "lowest_vertex_index": 3083,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01,
+        "review_render_frame": 1
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_dead_back",
+      "status": "pass",
+      "details": {
+        "frames_checked": 2,
+        "worst_frame": 1,
+        "minimum_surface_z_m": -0.00030517578125,
+        "lowest_vertex_index": 20004,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01,
+        "review_render_frame": 1
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_respawn",
+      "status": "pass",
+      "details": {
+        "frames_checked": 76,
+        "worst_frame": 3,
+        "minimum_surface_z_m": -6.371385825332254e-05,
+        "lowest_vertex_index": 3664,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_greet",
+      "status": "pass",
+      "details": {
+        "frames_checked": 73,
+        "worst_frame": 55,
+        "minimum_surface_z_m": -2.212750587204937e-05,
+        "lowest_vertex_index": 1312,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_victory",
+      "status": "pass",
+      "details": {
+        "frames_checked": 91,
+        "worst_frame": 21,
+        "minimum_surface_z_m": -4.3480944441398606e-05,
+        "lowest_vertex_index": 1312,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_defeat",
+      "status": "pass",
+      "details": {
+        "frames_checked": 85,
+        "worst_frame": 42,
+        "minimum_surface_z_m": -3.4178381611127406e-05,
+        "lowest_vertex_index": 3664,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_dialogue",
+      "status": "pass",
+      "details": {
+        "frames_checked": 408,
+        "worst_frame": 65,
+        "minimum_surface_z_m": -2.2212085241335444e-05,
+        "lowest_vertex_index": 3664,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_aim_down_left",
+      "status": "pass",
+      "details": {
+        "frames_checked": 2,
+        "worst_frame": 1,
+        "minimum_surface_z_m": -1.2255694855412003e-05,
+        "lowest_vertex_index": 1312,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_aim_down_center",
+      "status": "pass",
+      "details": {
+        "frames_checked": 2,
+        "worst_frame": 1,
+        "minimum_surface_z_m": -1.2255694855412003e-05,
+        "lowest_vertex_index": 1312,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_aim_down_right",
+      "status": "pass",
+      "details": {
+        "frames_checked": 2,
+        "worst_frame": 1,
+        "minimum_surface_z_m": -1.2255694855412003e-05,
+        "lowest_vertex_index": 1312,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_aim_level_left",
+      "status": "pass",
+      "details": {
+        "frames_checked": 2,
+        "worst_frame": 1,
+        "minimum_surface_z_m": -1.2255694855412003e-05,
+        "lowest_vertex_index": 1312,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_aim_level_center",
+      "status": "pass",
+      "details": {
+        "frames_checked": 2,
+        "worst_frame": 1,
+        "minimum_surface_z_m": -1.2255694855412003e-05,
+        "lowest_vertex_index": 1312,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_aim_level_right",
+      "status": "pass",
+      "details": {
+        "frames_checked": 2,
+        "worst_frame": 1,
+        "minimum_surface_z_m": -1.2255694855412003e-05,
+        "lowest_vertex_index": 1312,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_aim_up_left",
+      "status": "pass",
+      "details": {
+        "frames_checked": 2,
+        "worst_frame": 1,
+        "minimum_surface_z_m": -1.2255694855412003e-05,
+        "lowest_vertex_index": 1312,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_aim_up_center",
+      "status": "pass",
+      "details": {
+        "frames_checked": 2,
+        "worst_frame": 1,
+        "minimum_surface_z_m": -1.2255694855412003e-05,
+        "lowest_vertex_index": 1312,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    },
+    {
+      "name": "linear_surface_floor_clearance_aim_up_right",
+      "status": "pass",
+      "details": {
+        "frames_checked": 2,
+        "worst_frame": 1,
+        "minimum_surface_z_m": -1.2255694855412003e-05,
+        "lowest_vertex_index": 1312,
+        "penetrating_vertex_frame_groups": {},
+        "maximum_allowed_contact_pressure_depth_m": 0.01
+      }
+    }
+  ],
+  "renders": [
+    "verification/qa_floor_jump_start.png",
+    "verification/qa_floor_jump_land.png",
+    "verification/qa_floor_land_heavy.png",
+    "verification/qa_floor_deploy.png",
+    "verification/qa_floor_knockdown_front.png",
+    "verification/qa_floor_knockdown_back.png",
+    "verification/qa_floor_prone_front.png",
+    "verification/qa_floor_prone_back.png",
+    "verification/qa_floor_getup_front.png",
+    "verification/qa_floor_getup_back.png",
+    "verification/qa_floor_death_front.png",
+    "verification/qa_floor_death_back.png",
+    "verification/qa_floor_dead_front.png",
+    "verification/qa_floor_dead_back.png"
+  ],
+  "derived_from": "verification/asset_validation.json",
+  "evaluation_scope": "All 96 actions, all 3463 authored frames, actual LOD0 linear-skinned surfaces including face, hands, boots and props; derived from the final complete validation without another source evaluation.",
+  "summary": {
+    "pass": 96,
+    "fail": 0
+  }
+}

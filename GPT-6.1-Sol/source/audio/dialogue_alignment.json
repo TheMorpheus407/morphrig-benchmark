@@ -1,0 +1,1171 @@
+{
+  "schema_version": 1,
+  "audio": "source/audio/dialogue.wav",
+  "transcript": "Hold this lane with me. The relay is unstable, but I can rebuild the link. Keep your eyes on the crossing. Breathe. We have a signal again. Now move together, and keep the network alive.",
+  "duration_seconds": 13.566666666666666,
+  "sample_rate": 22050,
+  "channels": 1,
+  "sample_width_bytes": 2,
+  "authored_fps": 30,
+  "frame_count": 408,
+  "wav_sha256": "d7dfb6cd7d37fb611a3d06a496809731d0b6081b51cc20f78d8aa8f92afef9f5",
+  "synthesis": {
+    "engine": "eSpeak NG",
+    "version": "1.52.0.1",
+    "voice": "en-us (generic built-in synthetic voice)",
+    "rate_wpm": 154,
+    "phoneme_alphabet": "eSpeak mnemonics",
+    "alignment_method": "native espeakEVENT_WORD and espeakEVENT_PHONEME audio-position callbacks during the exact WAV synthesis",
+    "license": "GPL-3.0-or-later tool; generated original text/audio authored for this assignment"
+  },
+  "words": [
+    {
+      "word": "Hold",
+      "start": 0.2,
+      "end": 0.626,
+      "text_position": 1
+    },
+    {
+      "word": "this",
+      "start": 0.626,
+      "end": 0.85,
+      "text_position": 6
+    },
+    {
+      "word": "lane",
+      "start": 0.85,
+      "end": 1.224,
+      "text_position": 11
+    },
+    {
+      "word": "with",
+      "start": 1.224,
+      "end": 1.425,
+      "text_position": 16
+    },
+    {
+      "word": "me",
+      "start": 1.425,
+      "end": 2.01,
+      "text_position": 21
+    },
+    {
+      "word": "The",
+      "start": 2.01,
+      "end": 2.136,
+      "text_position": 25
+    },
+    {
+      "word": "relay",
+      "start": 2.136,
+      "end": 2.407,
+      "text_position": 29
+    },
+    {
+      "word": "is",
+      "start": 2.407,
+      "end": 2.532,
+      "text_position": 35
+    },
+    {
+      "word": "unstable",
+      "start": 2.532,
+      "end": 3.381,
+      "text_position": 38
+    },
+    {
+      "word": "but",
+      "start": 3.381,
+      "end": 3.606,
+      "text_position": 48
+    },
+    {
+      "word": "I",
+      "start": 3.606,
+      "end": 3.694,
+      "text_position": 52
+    },
+    {
+      "word": "can",
+      "start": 3.694,
+      "end": 3.93,
+      "text_position": 54
+    },
+    {
+      "word": "rebuild",
+      "start": 3.93,
+      "end": 4.428,
+      "text_position": 58
+    },
+    {
+      "word": "the",
+      "start": 4.428,
+      "end": 4.553,
+      "text_position": 66
+    },
+    {
+      "word": "link",
+      "start": 4.553,
+      "end": 5.379,
+      "text_position": 70
+    },
+    {
+      "word": "Keep",
+      "start": 5.379,
+      "end": 5.746,
+      "text_position": 76
+    },
+    {
+      "word": "your",
+      "start": 5.746,
+      "end": 5.906,
+      "text_position": 81
+    },
+    {
+      "word": "eyes",
+      "start": 5.906,
+      "end": 6.147,
+      "text_position": 86
+    },
+    {
+      "word": "on",
+      "start": 6.147,
+      "end": 6.395,
+      "text_position": 91
+    },
+    {
+      "word": "crossing",
+      "start": 6.395,
+      "end": 7.402,
+      "text_position": 98
+    },
+    {
+      "word": "Breathe",
+      "start": 7.402,
+      "end": 8.206,
+      "text_position": 108
+    },
+    {
+      "word": "We",
+      "start": 8.206,
+      "end": 8.333,
+      "text_position": 117
+    },
+    {
+      "word": "have",
+      "start": 8.333,
+      "end": 8.555,
+      "text_position": 120
+    },
+    {
+      "word": "a",
+      "start": 8.555,
+      "end": 8.621,
+      "text_position": 125
+    },
+    {
+      "word": "signal",
+      "start": 8.621,
+      "end": 9.042,
+      "text_position": 127
+    },
+    {
+      "word": "again",
+      "start": 9.042,
+      "end": 9.934,
+      "text_position": 134
+    },
+    {
+      "word": "Now",
+      "start": 9.934,
+      "end": 10.175,
+      "text_position": 141
+    },
+    {
+      "word": "move",
+      "start": 10.175,
+      "end": 10.454,
+      "text_position": 145
+    },
+    {
+      "word": "together",
+      "start": 10.454,
+      "end": 11.256,
+      "text_position": 150
+    },
+    {
+      "word": "and",
+      "start": 11.256,
+      "end": 11.462,
+      "text_position": 160
+    },
+    {
+      "word": "keep",
+      "start": 11.462,
+      "end": 11.83,
+      "text_position": 164
+    },
+    {
+      "word": "the",
+      "start": 11.83,
+      "end": 11.957,
+      "text_position": 169
+    },
+    {
+      "word": "network",
+      "start": 11.957,
+      "end": 12.47,
+      "text_position": 173
+    },
+    {
+      "word": "alive",
+      "start": 12.47,
+      "end": 13.375193,
+      "text_position": 181
+    }
+  ],
+  "phonemes": [
+    {
+      "phoneme": "h",
+      "viseme": "consonant",
+      "start": 0.212,
+      "end": 0.269,
+      "text_position": 1
+    },
+    {
+      "phoneme": "'oU",
+      "viseme": "round",
+      "start": 0.269,
+      "end": 0.544,
+      "text_position": 1
+    },
+    {
+      "phoneme": "l",
+      "viseme": "tongue",
+      "start": 0.544,
+      "end": 0.571,
+      "text_position": 1
+    },
+    {
+      "phoneme": "d",
+      "viseme": "tongue",
+      "start": 0.571,
+      "end": 0.639,
+      "text_position": 1
+    },
+    {
+      "phoneme": "D",
+      "viseme": "tongue",
+      "start": 0.639,
+      "end": 0.691,
+      "text_position": 6
+    },
+    {
+      "phoneme": "I",
+      "viseme": "wide",
+      "start": 0.691,
+      "end": 0.77,
+      "text_position": 6
+    },
+    {
+      "phoneme": "s",
+      "viseme": "consonant",
+      "start": 0.77,
+      "end": 0.85,
+      "text_position": 6
+    },
+    {
+      "phoneme": "l",
+      "viseme": "tongue",
+      "start": 0.85,
+      "end": 0.946,
+      "text_position": 11
+    },
+    {
+      "phoneme": "'eI",
+      "viseme": "wide",
+      "start": 0.946,
+      "end": 1.123,
+      "text_position": 11
+    },
+    {
+      "phoneme": "n",
+      "viseme": "tongue",
+      "start": 1.123,
+      "end": 1.224,
+      "text_position": 11
+    },
+    {
+      "phoneme": "w",
+      "viseme": "round",
+      "start": 1.224,
+      "end": 1.311,
+      "text_position": 16
+    },
+    {
+      "phoneme": "I",
+      "viseme": "wide",
+      "start": 1.311,
+      "end": 1.364,
+      "text_position": 16
+    },
+    {
+      "phoneme": "D",
+      "viseme": "tongue",
+      "start": 1.364,
+      "end": 1.425,
+      "text_position": 16
+    },
+    {
+      "phoneme": "m",
+      "viseme": "closure",
+      "start": 1.425,
+      "end": 1.52,
+      "text_position": 21
+    },
+    {
+      "phoneme": ",i:",
+      "viseme": "wide",
+      "start": 1.52,
+      "end": 1.639,
+      "text_position": 21
+    },
+    {
+      "phoneme": "_:",
+      "viseme": "silence",
+      "start": 1.639,
+      "end": 2.01,
+      "text_position": 24
+    },
+    {
+      "phoneme": "_",
+      "viseme": "silence",
+      "start": 2.01,
+      "end": 2.023,
+      "text_position": 24
+    },
+    {
+      "phoneme": "D",
+      "viseme": "tongue",
+      "start": 2.023,
+      "end": 2.075,
+      "text_position": 25
+    },
+    {
+      "phoneme": "@2",
+      "viseme": "open",
+      "start": 2.075,
+      "end": 2.146,
+      "text_position": 25
+    },
+    {
+      "phoneme": "r",
+      "viseme": "consonant",
+      "start": 2.146,
+      "end": 2.207,
+      "text_position": 29
+    },
+    {
+      "phoneme": "'i:",
+      "viseme": "wide",
+      "start": 2.207,
+      "end": 2.291,
+      "text_position": 29
+    },
+    {
+      "phoneme": "l",
+      "viseme": "tongue",
+      "start": 2.291,
+      "end": 2.349,
+      "text_position": 29
+    },
+    {
+      "phoneme": "eI",
+      "viseme": "wide",
+      "start": 2.349,
+      "end": 2.407,
+      "text_position": 29
+    },
+    {
+      "phoneme": "I",
+      "viseme": "wide",
+      "start": 2.407,
+      "end": 2.48,
+      "text_position": 35
+    },
+    {
+      "phoneme": "z",
+      "viseme": "consonant",
+      "start": 2.48,
+      "end": 2.532,
+      "text_position": 35
+    },
+    {
+      "phoneme": "V",
+      "viseme": "open",
+      "start": 2.532,
+      "end": 2.599,
+      "text_position": 38
+    },
+    {
+      "phoneme": "n",
+      "viseme": "tongue",
+      "start": 2.599,
+      "end": 2.662,
+      "text_position": 38
+    },
+    {
+      "phoneme": "s",
+      "viseme": "consonant",
+      "start": 2.662,
+      "end": 2.738,
+      "text_position": 38
+    },
+    {
+      "phoneme": "t",
+      "viseme": "tongue",
+      "start": 2.738,
+      "end": 2.782,
+      "text_position": 38
+    },
+    {
+      "phoneme": "'eI",
+      "viseme": "wide",
+      "start": 2.782,
+      "end": 2.985,
+      "text_position": 38
+    },
+    {
+      "phoneme": "b",
+      "viseme": "closure",
+      "start": 2.985,
+      "end": 3.064,
+      "text_position": 38
+    },
+    {
+      "phoneme": "@L",
+      "viseme": "open",
+      "start": 3.064,
+      "end": 3.196,
+      "text_position": 38
+    },
+    {
+      "phoneme": "_:",
+      "viseme": "silence",
+      "start": 3.196,
+      "end": 3.381,
+      "text_position": 47
+    },
+    {
+      "phoneme": "_",
+      "viseme": "silence",
+      "start": 3.381,
+      "end": 3.395,
+      "text_position": 47
+    },
+    {
+      "phoneme": "b",
+      "viseme": "closure",
+      "start": 3.395,
+      "end": 3.421,
+      "text_position": 48
+    },
+    {
+      "phoneme": ",V",
+      "viseme": "open",
+      "start": 3.421,
+      "end": 3.562,
+      "text_position": 48
+    },
+    {
+      "phoneme": "t",
+      "viseme": "tongue",
+      "start": 3.562,
+      "end": 3.606,
+      "text_position": 48
+    },
+    {
+      "phoneme": "aI",
+      "viseme": "wide",
+      "start": 3.606,
+      "end": 3.737,
+      "text_position": 52
+    },
+    {
+      "phoneme": "k",
+      "viseme": "consonant",
+      "start": 3.737,
+      "end": 3.788,
+      "text_position": 54
+    },
+    {
+      "phoneme": "a",
+      "viseme": "open",
+      "start": 3.788,
+      "end": 3.867,
+      "text_position": 54
+    },
+    {
+      "phoneme": "n",
+      "viseme": "tongue",
+      "start": 3.867,
+      "end": 3.93,
+      "text_position": 54
+    },
+    {
+      "phoneme": "r",
+      "viseme": "consonant",
+      "start": 3.93,
+      "end": 3.986,
+      "text_position": 58
+    },
+    {
+      "phoneme": "I#",
+      "viseme": "wide",
+      "start": 3.986,
+      "end": 4.026,
+      "text_position": 58
+    },
+    {
+      "phoneme": "b",
+      "viseme": "closure",
+      "start": 4.026,
+      "end": 4.113,
+      "text_position": 58
+    },
+    {
+      "phoneme": "'I",
+      "viseme": "wide",
+      "start": 4.113,
+      "end": 4.346,
+      "text_position": 58
+    },
+    {
+      "phoneme": "l",
+      "viseme": "tongue",
+      "start": 4.346,
+      "end": 4.373,
+      "text_position": 58
+    },
+    {
+      "phoneme": "d",
+      "viseme": "tongue",
+      "start": 4.373,
+      "end": 4.441,
+      "text_position": 58
+    },
+    {
+      "phoneme": "D",
+      "viseme": "tongue",
+      "start": 4.441,
+      "end": 4.493,
+      "text_position": 66
+    },
+    {
+      "phoneme": "@2",
+      "viseme": "open",
+      "start": 4.493,
+      "end": 4.563,
+      "text_position": 66
+    },
+    {
+      "phoneme": "l",
+      "viseme": "tongue",
+      "start": 4.563,
+      "end": 4.667,
+      "text_position": 70
+    },
+    {
+      "phoneme": "'I",
+      "viseme": "wide",
+      "start": 4.667,
+      "end": 4.792,
+      "text_position": 70
+    },
+    {
+      "phoneme": "N",
+      "viseme": "tongue",
+      "start": 4.792,
+      "end": 4.958,
+      "text_position": 70
+    },
+    {
+      "phoneme": "k",
+      "viseme": "consonant",
+      "start": 4.958,
+      "end": 5.008,
+      "text_position": 70
+    },
+    {
+      "phoneme": "_:",
+      "viseme": "silence",
+      "start": 5.008,
+      "end": 5.379,
+      "text_position": 75
+    },
+    {
+      "phoneme": "_",
+      "viseme": "silence",
+      "start": 5.379,
+      "end": 5.433,
+      "text_position": 75
+    },
+    {
+      "phoneme": "k",
+      "viseme": "consonant",
+      "start": 5.433,
+      "end": 5.494,
+      "text_position": 76
+    },
+    {
+      "phoneme": "'i:",
+      "viseme": "wide",
+      "start": 5.494,
+      "end": 5.661,
+      "text_position": 76
+    },
+    {
+      "phoneme": "p",
+      "viseme": "closure",
+      "start": 5.661,
+      "end": 5.746,
+      "text_position": 76
+    },
+    {
+      "phoneme": "j",
+      "viseme": "wide",
+      "start": 5.746,
+      "end": 5.825,
+      "text_position": 81
+    },
+    {
+      "phoneme": "U@",
+      "viseme": "round",
+      "start": 5.825,
+      "end": 5.891,
+      "text_position": 81
+    },
+    {
+      "phoneme": "r-",
+      "viseme": "consonant",
+      "start": 5.891,
+      "end": 5.949,
+      "text_position": 81
+    },
+    {
+      "phoneme": "'aI",
+      "viseme": "wide",
+      "start": 5.949,
+      "end": 6.095,
+      "text_position": 86
+    },
+    {
+      "phoneme": "z",
+      "viseme": "consonant",
+      "start": 6.095,
+      "end": 6.147,
+      "text_position": 86
+    },
+    {
+      "phoneme": "O2",
+      "viseme": "round",
+      "start": 6.147,
+      "end": 6.228,
+      "text_position": 91
+    },
+    {
+      "phoneme": "n",
+      "viseme": "tongue",
+      "start": 6.228,
+      "end": 6.292,
+      "text_position": 91
+    },
+    {
+      "phoneme": "D",
+      "viseme": "tongue",
+      "start": 6.292,
+      "end": 6.338,
+      "text_position": 91
+    },
+    {
+      "phoneme": "@2",
+      "viseme": "open",
+      "start": 6.338,
+      "end": 6.449,
+      "text_position": 91
+    },
+    {
+      "phoneme": "k",
+      "viseme": "consonant",
+      "start": 6.449,
+      "end": 6.515,
+      "text_position": 98
+    },
+    {
+      "phoneme": "r",
+      "viseme": "consonant",
+      "start": 6.515,
+      "end": 6.587,
+      "text_position": 98
+    },
+    {
+      "phoneme": "'O2",
+      "viseme": "round",
+      "start": 6.587,
+      "end": 6.76,
+      "text_position": 98
+    },
+    {
+      "phoneme": "s",
+      "viseme": "consonant",
+      "start": 6.76,
+      "end": 6.84,
+      "text_position": 98
+    },
+    {
+      "phoneme": "I",
+      "viseme": "wide",
+      "start": 6.84,
+      "end": 6.944,
+      "text_position": 98
+    },
+    {
+      "phoneme": "N",
+      "viseme": "tongue",
+      "start": 6.944,
+      "end": 7.031,
+      "text_position": 98
+    },
+    {
+      "phoneme": "_:",
+      "viseme": "silence",
+      "start": 7.031,
+      "end": 7.402,
+      "text_position": 107
+    },
+    {
+      "phoneme": "_",
+      "viseme": "silence",
+      "start": 7.402,
+      "end": 7.416,
+      "text_position": 107
+    },
+    {
+      "phoneme": "b",
+      "viseme": "closure",
+      "start": 7.416,
+      "end": 7.433,
+      "text_position": 108
+    },
+    {
+      "phoneme": "r",
+      "viseme": "consonant",
+      "start": 7.433,
+      "end": 7.532,
+      "text_position": 108
+    },
+    {
+      "phoneme": "'i:",
+      "viseme": "wide",
+      "start": 7.532,
+      "end": 7.744,
+      "text_position": 108
+    },
+    {
+      "phoneme": "D",
+      "viseme": "tongue",
+      "start": 7.744,
+      "end": 7.835,
+      "text_position": 108
+    },
+    {
+      "phoneme": "_:",
+      "viseme": "silence",
+      "start": 7.835,
+      "end": 8.206,
+      "text_position": 116
+    },
+    {
+      "phoneme": "w",
+      "viseme": "round",
+      "start": 8.206,
+      "end": 8.287,
+      "text_position": 117
+    },
+    {
+      "phoneme": "i:",
+      "viseme": "wide",
+      "start": 8.287,
+      "end": 8.346,
+      "text_position": 117
+    },
+    {
+      "phoneme": "h",
+      "viseme": "consonant",
+      "start": 8.346,
+      "end": 8.416,
+      "text_position": 120
+    },
+    {
+      "phoneme": "a",
+      "viseme": "open",
+      "start": 8.416,
+      "end": 8.503,
+      "text_position": 120
+    },
+    {
+      "phoneme": "v",
+      "viseme": "labiodental",
+      "start": 8.503,
+      "end": 8.555,
+      "text_position": 120
+    },
+    {
+      "phoneme": "a#",
+      "viseme": "open",
+      "start": 8.555,
+      "end": 8.634,
+      "text_position": 125
+    },
+    {
+      "phoneme": "s",
+      "viseme": "consonant",
+      "start": 8.634,
+      "end": 8.714,
+      "text_position": 127
+    },
+    {
+      "phoneme": "'I",
+      "viseme": "wide",
+      "start": 8.714,
+      "end": 8.833,
+      "text_position": 127
+    },
+    {
+      "phoneme": "g",
+      "viseme": "consonant",
+      "start": 8.833,
+      "end": 8.92,
+      "text_position": 127
+    },
+    {
+      "phoneme": "n",
+      "viseme": "tongue",
+      "start": 8.92,
+      "end": 8.969,
+      "text_position": 127
+    },
+    {
+      "phoneme": "@L",
+      "viseme": "open",
+      "start": 8.969,
+      "end": 9.042,
+      "text_position": 127
+    },
+    {
+      "phoneme": "a#",
+      "viseme": "open",
+      "start": 9.042,
+      "end": 9.109,
+      "text_position": 134
+    },
+    {
+      "phoneme": "g",
+      "viseme": "consonant",
+      "start": 9.109,
+      "end": 9.21,
+      "text_position": 134
+    },
+    {
+      "phoneme": "'E",
+      "viseme": "wide",
+      "start": 9.21,
+      "end": 9.44,
+      "text_position": 134
+    },
+    {
+      "phoneme": "n",
+      "viseme": "tongue",
+      "start": 9.44,
+      "end": 9.563,
+      "text_position": 134
+    },
+    {
+      "phoneme": "_:",
+      "viseme": "silence",
+      "start": 9.563,
+      "end": 9.934,
+      "text_position": 140
+    },
+    {
+      "phoneme": "n",
+      "viseme": "tongue",
+      "start": 9.934,
+      "end": 10.042,
+      "text_position": 141
+    },
+    {
+      "phoneme": "'aU",
+      "viseme": "round",
+      "start": 10.042,
+      "end": 10.185,
+      "text_position": 141
+    },
+    {
+      "phoneme": "m",
+      "viseme": "closure",
+      "start": 10.185,
+      "end": 10.272,
+      "text_position": 145
+    },
+    {
+      "phoneme": "'u:",
+      "viseme": "round",
+      "start": 10.272,
+      "end": 10.379,
+      "text_position": 145
+    },
+    {
+      "phoneme": "v",
+      "viseme": "labiodental",
+      "start": 10.379,
+      "end": 10.497,
+      "text_position": 145
+    },
+    {
+      "phoneme": "t",
+      "viseme": "tongue",
+      "start": 10.497,
+      "end": 10.541,
+      "text_position": 150
+    },
+    {
+      "phoneme": "@",
+      "viseme": "open",
+      "start": 10.541,
+      "end": 10.596,
+      "text_position": 150
+    },
+    {
+      "phoneme": "g",
+      "viseme": "consonant",
+      "start": 10.596,
+      "end": 10.684,
+      "text_position": 150
+    },
+    {
+      "phoneme": "'E",
+      "viseme": "wide",
+      "start": 10.684,
+      "end": 10.872,
+      "text_position": 150
+    },
+    {
+      "phoneme": "D",
+      "viseme": "tongue",
+      "start": 10.872,
+      "end": 10.933,
+      "text_position": 150
+    },
+    {
+      "phoneme": "3",
+      "viseme": "open",
+      "start": 10.933,
+      "end": 11.071,
+      "text_position": 150
+    },
+    {
+      "phoneme": "_:",
+      "viseme": "silence",
+      "start": 11.071,
+      "end": 11.256,
+      "text_position": 159
+    },
+    {
+      "phoneme": "a",
+      "viseme": "open",
+      "start": 11.256,
+      "end": 11.346,
+      "text_position": 160
+    },
+    {
+      "phoneme": "n",
+      "viseme": "tongue",
+      "start": 11.346,
+      "end": 11.425,
+      "text_position": 160
+    },
+    {
+      "phoneme": "d",
+      "viseme": "tongue",
+      "start": 11.425,
+      "end": 11.516,
+      "text_position": 160
+    },
+    {
+      "phoneme": "k",
+      "viseme": "consonant",
+      "start": 11.516,
+      "end": 11.577,
+      "text_position": 164
+    },
+    {
+      "phoneme": "'i:",
+      "viseme": "wide",
+      "start": 11.577,
+      "end": 11.745,
+      "text_position": 164
+    },
+    {
+      "phoneme": "p",
+      "viseme": "closure",
+      "start": 11.745,
+      "end": 11.843,
+      "text_position": 164
+    },
+    {
+      "phoneme": "D",
+      "viseme": "tongue",
+      "start": 11.843,
+      "end": 11.895,
+      "text_position": 169
+    },
+    {
+      "phoneme": "@2",
+      "viseme": "open",
+      "start": 11.895,
+      "end": 11.967,
+      "text_position": 169
+    },
+    {
+      "phoneme": "n",
+      "viseme": "tongue",
+      "start": 11.967,
+      "end": 12.046,
+      "text_position": 173
+    },
+    {
+      "phoneme": "'E",
+      "viseme": "wide",
+      "start": 12.046,
+      "end": 12.183,
+      "text_position": 173
+    },
+    {
+      "phoneme": "t",
+      "viseme": "tongue",
+      "start": 12.183,
+      "end": 12.227,
+      "text_position": 173
+    },
+    {
+      "phoneme": "w",
+      "viseme": "round",
+      "start": 12.227,
+      "end": 12.309,
+      "text_position": 173
+    },
+    {
+      "phoneme": "3:",
+      "viseme": "open",
+      "start": 12.309,
+      "end": 12.419,
+      "text_position": 173
+    },
+    {
+      "phoneme": "k",
+      "viseme": "consonant",
+      "start": 12.419,
+      "end": 12.47,
+      "text_position": 173
+    },
+    {
+      "phoneme": "a#",
+      "viseme": "open",
+      "start": 12.47,
+      "end": 12.531,
+      "text_position": 181
+    },
+    {
+      "phoneme": "l",
+      "viseme": "tongue",
+      "start": 12.531,
+      "end": 12.641,
+      "text_position": 181
+    },
+    {
+      "phoneme": "'aI",
+      "viseme": "wide",
+      "start": 12.641,
+      "end": 12.917,
+      "text_position": 181
+    },
+    {
+      "phoneme": "v",
+      "viseme": "labiodental",
+      "start": 12.917,
+      "end": 13.004,
+      "text_position": 181
+    },
+    {
+      "phoneme": "_:",
+      "viseme": "silence",
+      "start": 13.004,
+      "end": 13.375,
+      "text_position": 187
+    },
+    {
+      "phoneme": "_",
+      "viseme": "silence",
+      "start": 13.375,
+      "end": 13.375193,
+      "text_position": 187
+    }
+  ],
+  "performance_cues": [
+    {
+      "time": 0.0,
+      "event": "concern_scan_left",
+      "description": "Concerned brow and leftward gaze; palm invites support."
+    },
+    {
+      "time": 2.136,
+      "event": "look_wrist",
+      "description": "Inspect cybernetic wrist while explaining relay instability."
+    },
+    {
+      "time": 6.395,
+      "event": "point_crossing",
+      "description": "Organic hand indicates crossing to the left."
+    },
+    {
+      "time": 7.402,
+      "event": "breath_release",
+      "description": "Slow chest release, soften concern; deliberately re-center eyes."
+    },
+    {
+      "time": 8.621,
+      "event": "confidence_shift",
+      "description": "Brows release, cheeks lift into asymmetric confident smile."
+    },
+    {
+      "time": 10.454,
+      "event": "forward_gesture",
+      "description": "Invite collective forward movement with open hand."
+    },
+    {
+      "time": 13.416666666666666,
+      "event": "settle",
+      "description": "Mouth closes, eyes and hands settle into combat-ready stance."
+    }
+  ],
+  "viseme_controls": [
+    "closure",
+    "labiodental",
+    "open",
+    "wide",
+    "round",
+    "tongue",
+    "consonant"
+  ]
+}

@@ -1,0 +1,1499 @@
+
+Running AutomationTool...
+
+Setting up bundled DotNet SDK
+Start UAT Interactively: dotnet AutomationTool.dll BuildCookRun -project=/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/MorphRig.uproject -platform=Linux -clientconfig=Development -build -cook -stage -pak -archive -archivedirectory=/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/build/Linux -unattended -nop4 -utf8output -abslog=/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/verification/logs/package.log
+/home/morpheus/UnrealEngine/5.8.3/Engine/Binaries/ThirdParty/DotNet/10.0/linux-x64/dotnet
+Starting AutomationTool...
+Parsing command line: BuildCookRun -project=/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/MorphRig.uproject -platform=Linux -clientconfig=Development -build -cook -stage -pak -archive -archivedirectory=/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/build/Linux -unattended -nop4 -utf8output -abslog=/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/verification/logs/package.log
+Initializing script modules...
+Total script module initialization time: 0.10 s.
+Using /home/morpheus/UnrealEngine/5.8.3/Engine/Binaries/ThirdParty/DotNet/10.0/linux-x64/dotnet
+Executing commands...
+Setting up ProjectParams for /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/MorphRig.uproject
+********** BUILD COMMAND STARTED **********
+Running: /home/morpheus/UnrealEngine/5.8.3/Engine/Binaries/ThirdParty/DotNet/10.0/linux-x64/dotnet "/home/morpheus/UnrealEngine/5.8.3/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.dll" -Target="MorphRigEditor Linux Development -Project=/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/MorphRig.uproject" -Target="MorphRig Linux Development -Project=/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/MorphRig.uproject  -remoteini=\"/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal\"  " -log="/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/verification/logs/UAT/UBA-MorphRigEditor-Linux-Development.txt"
+Log file: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/verification/logs/UAT/UBA-MorphRigEditor-Linux-Development.txt
+Determining max actions to execute in parallel (16 physical cores, 32 logical cores)
+  Executing up to 16 processes, one per physical core
+Creating makefile for MorphRig (no existing makefile)
+UbaStorageServer - FileMapping backing: memfd
+UbaServer - Listening on 0.0.0.0:1345
+Invalidating makefile for MorphRigEditor (DefaultEngine.ini modified)
+UHT compiled-in object format Default
+Building MorphRig and MorphRigEditor...
+===== Toolchain Information =====
+MorphRig Linux Development:
+  Using ISPC compiler (/home/morpheus/UnrealEngine/5.8.3/Engine/Source/ThirdParty/Intel/ISPC/bin/Linux/ispc)
+    Intel(r) Implicit SPMD Program Compiler (Intel(r) ISPC), 1.24.0 (build commit  @ 20240919, LLVM 18.1.6)
+  Using Clang compiler 20.1.8 (/home/morpheus/UnrealEngine/5.8.3/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++)
+    clang version 20.1.8 (github.com/llvm/llvm-project 87f0227cb60147a26a1eeb4fb06e3b505e9c7261) Target: x86_64-unknown-linux-gnu Thread model: posix InstalledDir: /home/morpheus/UnrealEngine/5.8.3/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin
+  Using Clang archiver (/home/morpheus/UnrealEngine/5.8.3/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/llvm-ar)
+    LLVM (http://llvm.org/):   LLVM version 20.1.8   Optimized build.
+  Using toolchain located at '/home/morpheus/UnrealEngine/5.8.3/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu'
+  Using bundled libc++ standard C++ library.
+  Compressing debug files
+MorphRigEditor Linux Development:
+  Using ISPC compiler (/home/morpheus/UnrealEngine/5.8.3/Engine/Source/ThirdParty/Intel/ISPC/bin/Linux/ispc)
+    Intel(r) Implicit SPMD Program Compiler (Intel(r) ISPC), 1.24.0 (build commit  @ 20240919, LLVM 18.1.6)
+  Using Clang compiler 20.1.8 (/home/morpheus/UnrealEngine/5.8.3/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++)
+    clang version 20.1.8 (github.com/llvm/llvm-project 87f0227cb60147a26a1eeb4fb06e3b505e9c7261) Target: x86_64-unknown-linux-gnu Thread model: posix InstalledDir: /home/morpheus/UnrealEngine/5.8.3/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin
+  Using Clang archiver (/home/morpheus/UnrealEngine/5.8.3/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/llvm-ar)
+    LLVM (http://llvm.org/):   LLVM version 20.1.8   Optimized build.
+  Using toolchain located at '/home/morpheus/UnrealEngine/5.8.3/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu'
+  Using bundled libc++ standard C++ library.
+  Compressing debug files
+=================================
+Using Unreal Build Accelerator local executor to run 9 action(s)
+  CPU 16 physical cores, 32 logical cores
+  Memory 91.88 GB physical, 91.57 GB/187.88 GB committed
+  UBA Storage capacity 40 GB
+** For MorphRig-Linux-Development **
+[1/9] Compile SharedPCH.Engine.Project.ValApi.ValExpApi.Cpp20.h
+[2/9] Compile MorphRig.cpp
+[3/9] Compile Module.MorphRig.gen.cpp
+[4/9] Compile MorphAnimInstance.cpp
+[5/9] Compile MorphAssetLibrary.cpp
+[6/9] Compile MorphShowcase.cpp
+[7/9] Compile MorphOperative.cpp
+[8/9] Link MorphRig
+[9/9] WriteMetadata MorphRig.target [NoUba]
+
+Total time in Unreal Build Accelerator local executor: 29.39 seconds
+Output binary: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Binaries/Linux/MorphRig
+Output binary: /home/morpheus/UnrealEngine/5.8.3/Engine/Binaries/Linux/UnrealEditor
+
+Result: Succeeded
+Total execution time: 32.22 seconds
+Trace written to file /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Saved/ConfigHome/Epic/UnrealBuildTool/Trace.uba with size 7.7kb
+Took 32.41s to run dotnet, ExitCode=0
+No build products were made
+Build command time: 32.42 s
+********** BUILD COMMAND COMPLETED **********
+********** COOK COMMAND STARTED **********
+Running UnrealEditor Cook for project /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/MorphRig.uproject
+Commandlet log file is /home/morpheus/UnrealEngine/5.8.3/Engine/Programs/AutomationTool/Saved/Cook-2026.09.29-23.19.50.txt
+Running: /home/morpheus/UnrealEngine/5.8.3/Engine/Binaries/Linux/UnrealEditor-Cmd "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/MorphRig.uproject" -run=Cook  -TargetPlatform=Linux  -unversioned -fileopenlog -abslog="/home/morpheus/UnrealEngine/5.8.3/Engine/Programs/AutomationTool/Saved/Cook-2026.09.29-23.19.50.txt" -stdout -CrashForUAT -unattended -NoLogTimes
+Using musl
+Opening shared memory
+Shared memory doesn't exist, checking legacy lock file
+Checking for a '/tmp/UnrealTraceServer.pid' lock file
+Forking process
+Wait until we know the daemon has started.
+Parent received signal 10
+Daemon signalled successful start
+Forked complete (ret=0)
+- Existing per-process limit (soft=524288, hard=524288) is enough for us (need only 524288)
+Increasing per-process limit of core file size to infinity.
+- Existing per-process limit (soft=18446744073709551615, hard=18446744073709551615) is enough for us (need only 18446744073709551615)
+LogInit: Display: Running engine for game: MorphRig
+LogCore: Display: Requested channels: 'cpu,gpu,frame,log,bookmark,screenshot,region'
+LogTrace: Display: Control listening on port 1985
+LogCsvProfiler: Display: Metadata set : platform="Linux"
+LogCsvProfiler: Display: Metadata set : config="Development"
+LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.8-CL-58210709"
+LogCsvProfiler: Display: Metadata set : engineversion="5.8.3-58210709+++UE5+Release-5.8"
+Failed to find game directory: /home/morpheus/UnrealEngine/5.8.3/MorphRig/Binaries
+LogCsvProfiler: Display: Metadata set : enginereleaseversion="5.8.3"
+LogCsvProfiler: Display: Metadata set : os="NixOS 26.05 (Yarara) 6.18.43"
+LogCsvProfiler: Display: Metadata set : cpu="AuthenticAMD|AMD Ryzen 9 9950X 16-Core Processor"
+LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
+LogCsvProfiler: Display: Metadata set : ltoenabled="0"
+LogCsvProfiler: Display: Metadata set : asan="0"
+LogCsvProfiler: Display: Metadata set : mergedmodules="0"
+LogCsvProfiler: Display: Metadata set : compacttset="0"
+LogCsvProfiler: Display: Metadata set : commandline="" /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/MorphRig.uproject -run=Cook -TargetPlatform=Linux -unversioned -fileopenlog -abslog=/home/morpheus/UnrealEngine/5.8.3/Engine/Programs/AutomationTool/Saved/Cook-2026.09.29-23.19.50.txt -stdout -CrashForUAT -unattended -NoLogTimes""
+LogCsvProfiler: Display: Metadata set : loginid="c9673246f5f8469487af59b6808d4ab3-000003e8"
+LogCsvProfiler: Display: Metadata set : llm="0"
+LogCsvProfiler: Display: Metadata set : zenstreaming="0"
+LogCsvProfiler: Display: Metadata set : systemresolution.resx="1280"
+LogCsvProfiler: Display: Metadata set : systemresolution.resy="720"
+LogAudio: Display: Audio Device Manager not initializing due to all audio being disabled. If this is not intentional, please check command line arguments for "-nosound".
+LogAssetRegistry: Display: FindShardedCacheFiles: 0 via .ref, 0 via migration fallback, 0 total
+Running command : dotnet Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.dll -Mode=ValidatePlatforms -OutputSDKs -AllPlatforms -project=/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/MorphRig.uproject -log=/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Saved/Logs/AutoSDKInfo.txt -verbose -timestamps -progress
+Log file: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Saved/Logs/AutoSDKInfo.txt
+##PlatformValidate: Win64 INVALID <UNKNOWN>
+##PlatformValidate: Mac INVALID <UNKNOWN>
+##PlatformValidate: IOS INVALID <UNKNOWN>
+##PlatformValidate: Android INVALID r27c
+##PlatformValidate: Linux VALID v26_clang-20.1.8-rockylinux8
+##PlatformValidate: LinuxArm64 VALID v26_clang-20.1.8-rockylinux8
+##PlatformValidate: TVOS INVALID <UNKNOWN>
+##PlatformValidate: VisionOS INVALID <UNKNOWN>
+Unable to find required SDK version 'MainVersion' for platform Win64. Check your SDK.json files
+Unable to find required SDK version 'MainVersion' for platform Mac. Check your SDK.json files
+Unable to find required SDK version 'MainVersion' for platform IOS. Check your SDK.json files
+Unable to find required SDK version 'MainVersion' for platform TVOS. Check your SDK.json files
+Unable to find required SDK version 'MainVersion' for platform VisionOS. Check your SDK.json files
+Trace written to file /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Saved/ConfigHome/Epic/UnrealBuildTool/Trace.uba with size 303b
+LogConfig: Display: Loading VulkanPC ini files took 0.16 seconds
+LogConfig: Display: Loading Mac ini files took 0.16 seconds
+LogConfig: Display: Loading IOS ini files took 0.17 seconds
+LogConfig: Display: Loading Android ini files took 0.19 seconds
+LogConfig: Display: Loading Unix ini files took 0.24 seconds
+LogConfig: Display: Loading TVOS ini files took 0.27 seconds
+LogConfig: Display: Loading VisionOS ini files took 0.28 seconds
+LogConfig: Display: Loading Windows ini files took 0.28 seconds
+LogConfig: Display: Loading Linux ini files took 0.29 seconds
+LogConfig: Display: Loading LinuxArm64 ini files took 0.32 seconds
+Shutdown handler: initialize.
+LogAnalytics: Display: Provider StudioTelemetry.Provider.Log is disabled for this application
+LogAnalytics: Display: Provider StudioTelemetry.Provider.CSV is disabled for this application
+LogAnalytics: Display: Provider StudioTelemetry.Provider.Horde is disabled for this application
+LogAnalytics: Display: Provider StudioTelemetry.Provider.Log is disabled for this application
+LogAnalytics: Display: Provider StudioTelemetry.Provider.CSV is disabled for this application
+LogAnalytics: Display: Provider StudioTelemetry.Provider.Horde is disabled for this application
+LogAsyncCompilation: Display: MemorySharingInfo: UsedMemory=6309MiB, MaxMemoryAvailable=239431MiB
+RenderDocPlugin: Display: RenderDoc plugin will not be loaded. Use '-AttachRenderDoc' on the cmd line or enable 'renderdoc.AutoAttach' in the plugin settings.
+LogStreaming: Display: AsyncLoading2 - Created: Async Loading Thread: false, Async Post Load: false, Multithreaded: false
+LogHAL: Display: Platform has ~ 92 GB [98655305728 / 137438953472 / 92], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+LogObj: Display: Attempting to load config data for Default__DownlinkBandwidthManagerConfig before the Class has been constructed/registered/linked (likely during module loading or early startup). This will result in the load silently failing and should be fixed.
+LogTextureFormatASTC: Display: ASTCEnc version 5.0.1 library loaded
+LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatASTC
+LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatDXT
+LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatETC2
+LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatIntelISPCTexComp
+LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.16
+LogTextureFormatOodle: Display: Oodle Texture loading DLL: liboo2texlinux64.2.9.16.so
+LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatOodle
+LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatUncompressed
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Server'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Client'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64_DXT'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64_DXTServer'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64_DXTClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64_ASTC'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64_ASTCServer'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64_ASTCClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64_ETC2'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64_ETC2Server'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64_ETC2Client'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64_Multi'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64_MultiServer'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64_MultiClient'
+LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'Android'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxEditor'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+LogTargetPlatformManager: Display: Building Assets For Linux
+LogObj: Display: Attempting to load config data for Default__SlateThemeManager before the Class has been constructed/registered/linked (likely during module loading or early startup). This will result in the load silently failing and should be fixed.
+LogCsvProfiler: Display: Metadata set : verbatimrhiname="Null"
+LogCsvProfiler: Display: Metadata set : rhiname="Null"
+LogCsvProfiler: Display: Metadata set : rhifeaturelevel="SM6"
+LogCsvProfiler: Display: Metadata set : shaderplatform="VULKAN_SM6"
+LogCsvProfiler: Display: Metadata set : gpu=""
+LogCsvProfiler: Display: Metadata set : gpudriver=""
+LogDerivedDataCache: Warning: Configuring cache graph 'InstalledDerivedDataBackendGraph' in config section [InstalledDerivedDataBackendGraph] of the 'Engine' config is deprecated. Migrate the configuration to the [DerivedDataCacheGraphs] section of the 'Engine' config.
+LogDerivedDataCache: Warning: The cache graph 'InstalledDerivedDataBackendGraph' contains cache store 'Root' of deprecated type 'KeyLength'.
+LogDerivedDataCache: Warning: The cache graph 'InstalledDerivedDataBackendGraph' contains cache store 'AsyncPut' of deprecated type 'AsyncPut'.
+LogDerivedDataCache: Warning: Configuring cache store 'Local' in config section [InstalledDerivedDataBackendGraph] of the 'Engine' config is deprecated. Migrate the configuration to the [DerivedDataCacheStores] section of the 'Engine' config.
+LogDerivedDataCache: Display: ../../../../../Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Saved/DerivedDataCache: Performance: Latency=0.01ms. RandomReadSpeed=3952.54MBs, RandomWriteSpeed=536.85MBs. Assigned SpeedClass 'Local'
+LogUbaHorde: Display: UBA/Horde Configuration [Uba.Provider.Horde]: Not Enabled
+LogShaderCompilers: Display: No distributed shader compiler controller found
+LogShaderCompilers: Display: Using 29 local workers for shader compilation
+LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Intermediate/ShaderAutogen/VULKAN_SM6/AutogenShaderHeaders.ush
+LogShaderCompilers: Display: Failed to delete old shader autogen file: ../../../../../Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Intermediate/ShaderAutogen/VULKAN_SM6/AutogenShaderHeaders.ush
+LogShaderCompilers: Display: Shader autogen file written: ../../../../../Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Intermediate/ShaderAutogen/VULKAN_SM6/AutogenShaderHeaders.ush
+LogAssetRegistry: Display: AssetDataGatherer spent 0.000s loading caches from ../../../../../Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Intermediate/CachedAssetRegistry.
+LogEditorDomain: Display: EditorDomain is Disabled
+LogDeviceProfileManager: Display: Deviceprofile LinuxArm64Editor not found.
+LogDeviceProfileManager: Display: Deviceprofile LinuxArm64 not found.
+LogCsvProfiler: Display: Metadata set : deviceprofile="LinuxEditor"
+LogStreaming: Display: FlushAsyncLoading(1): 1 QueuedPackages, 0 AsyncPackages
+LogTextureEncodingSettings: Display: Texture Encode Speed: Final (cook).
+LogTextureEncodingSettings: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+LogTextureEncodingSettings: Display: Shared linear texture encoding: Disabled
+LogMeshReduction: Display: HLOD mesh reduction module (r.ProxyLODMeshReductionModule) set to "ProxyLODMeshReduction" which doesn't exist.
+LogMeshReduction: Display: Using QuadricMeshReduction for automatic static mesh reduction
+LogMeshReduction: Display: Using SkeletalMeshReduction for automatic skeletal mesh reduction
+LogMeshReduction: Display: No automatic mesh merging module available
+LogMeshReduction: Display: No distributed automatic mesh merging module available
+LogVirtualization: Display: VirtualizationSystem name found in ini file: None
+LogVirtualization: Display: FNullVirtualizationSystem mounted, virtualization will be disabled
+LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize started...
+LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize took 1.349 ms
+LogMetaSound: Display: MetaSound Page Target Initialized to 'Default'
+LogAudio: Display: Registering Engine Module Parameter Interfaces...
+LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+LogCsvProfiler: Display: Metadata set : raytracing="0"
+LogCook: Display: CookProcessCount=1. CookMultiprocess is disabled and the cooker is running as a single process.
+LogCook: Display: CookSettings for Memory:
+	MemoryMaxUsedVirtual 0MiB
+	MemoryMaxUsedPhysical 0MiB
+	MemoryMinFreeVirtual 2048MiB
+	MemoryMinFreePhysical 2048MiB
+	MemoryTriggerGCAtPressureLevel None
+	SoftGCMemoryUseTrigger disabled
+	SoftGCTimeBudgetTrigger enabled (0.05 budget, 30s min period)
+LogCook: Display: SkipOnlyEditorOnly is enabled, unsolicited packages will not be cooked unless they are referenced from the cooked version of the instigator package.
+LogCook: Display: ---- Pre Content Initialisation: End ----
+LogCook: Display: ---- Post Content Initialisation: Start ----
+LogEditorDomain: Display: Cycle detected in parents of class /Script/RigVMDeveloper.RigVMUnitNode. Allow flags for editordomain and incremental cooking will be invalid.
+LogZenServiceInstance: Display: Launching zen utility '/home/morpheus/UnrealEngine/5.8.3/Engine/Binaries/Linux/zen service status'.
+LogEditorDomain: Display: Failed to connect to ZenServer; EditorDomain oplog is unavailable.
+LogCook: Display: Waiting for Asset Registry
+LogAssetRegistry: Display: Starting OnFilesLoaded.Broadcast
+LogAssetRegistry: Display: Completed OnFilesLoaded.Broadcast: 0.009s
+LogAssetRegistry: Display: Asset registry cache written as 118.5 MiB to ../../../../../Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Intermediate/CachedAssetRegistry/CachedAssetRegistry_*.ref
+LogAssetRegistry: Display: CleanupOrphanedCacheFiles (PostWrite): 1 .ref files found, 1 referenced binaries
+LogAssetRegistry: Display: CleanupOrphanedCacheFiles: 1 total binaries, 1 referenced (kept), 0 old-style pre-migration (kept), 0 orphans deleted, 0 orphans locked (kept)
+LogAssetRegistry: Display: CleanupOrphanedCacheFiles (PostWrite): 1 .ref files found, 1 referenced binaries
+LogAssetRegistry: Display: CleanupOrphanedCacheFiles: 1 total binaries, 1 referenced (kept), 0 old-style pre-migration (kept), 0 orphans deleted, 0 orphans locked (kept)
+LogCook: Display: INCREMENTAL COOK DEPENDENCIES: Enabled. Incremental Cook Dependencies are enabled in Editor.ini:[CookSettings]:LegacyIterative=false.
+LogZenServiceInstance: Display: Writing plugin version info to '/home/morpheus/.config/Epic/UnrealEngine/Common/Zen/Install/zen_plugin_versions.json'
+LogZenServiceInstance: Display: Read zen version cache file from '/home/morpheus/.config/Epic/UnrealEngine/5.8/Saved/Zen/zen.version', version: '5.8.13-202605190912-linux-x86_64-release-094f62c2'
+LogZenServiceInstance: Display: Read zen version cache file from '/home/morpheus/.config/Epic/UnrealEngine/Common/Zen/Install/zen.version', version: '5.8.13-202605190912-linux-x86_64-release-094f62c2'
+LogZenServiceInstance: Display: Installed service at '/home/morpheus/.config/Epic/UnrealEngine/Common/Zen/Install/zenserver' is up to date
+LogZenServiceInstance: Display: Launching executable '/home/morpheus/.config/Epic/UnrealEngine/Common/Zen/Install/zenserver', working dir '/home/morpheus/.config/Epic/UnrealEngine/Common/Zen/Install', data dir '/home/morpheus/.config/Epic/UnrealEngine/Common/Zen/Data', args '--port 8558 --data-dir /home/morpheus/.config/Epic/UnrealEngine/Common/Zen/Data --http asio --gc-cache-duration-seconds 1209600 --gc-interval-seconds 21600 --gc-low-diskspace-threshold 2147483648 --cache-bucket-limit-overwrites --quiet --restrict-content-types --allow-external-oidctoken-exe=false --plugins-config "/home/morpheus/.config/Epic/UnrealEngine/Common/Zen/Install/zen_plugins_v1.json" --security-config-path "/home/morpheus/.config/Epic/UnrealEngine/Common/Zen/Install/security-config.json" --owner-pid 1311352  --child-id Zen_1311352_Startup --detach'
+LogZenServiceInstance: Display: Unreal Zen Storage Server HTTP service at http://[::1]:8558 status: OK!.
+LogZenStore: Display: Establishing oplog 'MorphRig.1b96f95e/Linux'
+LogZenStore: Display: Zen project 'MorphRig.1b96f95e' created
+LogStorageServerPlatformFile: Display: Found '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Saved/Cooked/Linux/ue.projectstore'
+LogStorageServerPlatformFile: Display: Using connection settings from ue.projectstore: HostAddrs='[::1]+192.168.1.123+172.19.0.1+172.26.0.1+172.17.0.1+172.29.0.1+172.25.0.1+172.30.0.1+172.20.0.1+172.23.0.1+172.21.0.1+172.28.0.1+172.24.0.1+172.27.0.1+172.18.0.1+172.22.0.1+10.88.0.1' and HostPort='8558'
+LogStorageServerPlatformFile: Display: Found '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Saved/Cooked/Linux/ue.projectstore'
+LogStorageServerPlatformFile: Display: Using password authentication from ue.projectstore
+LogStorageServerPlatformFile: Display: Using settings from ue.projectstore: ServerProject='MorphRig.1b96f95e' and ServerPlatform='Linux'
+LogStorageServerConnection: Display: Creating zen store connection to [::1]:8558 ("::1").
+LogStorageServerConnection: Display: Storage server returned HTTP 404 for /prj/MorphRig.1b96f95e/oplog/Linux: oplog Linux not found in project MorphRig.1b96f95e
+LogStorageServerConnection: Display: Creating zen store connection to 192.168.1.123:8558 ("192.168.1.123").
+LogStorageServerConnection: Display: Storage server returned HTTP 404 for /prj/MorphRig.1b96f95e/oplog/Linux: oplog Linux not found in project MorphRig.1b96f95e
+LogStorageServerConnection: Display: Creating zen store connection to 172.19.0.1:8558 ("172.19.0.1").
+LogStorageServerConnection: Display: Storage server returned HTTP 404 for /prj/MorphRig.1b96f95e/oplog/Linux: oplog Linux not found in project MorphRig.1b96f95e
+LogStorageServerConnection: Display: Creating zen store connection to 172.26.0.1:8558 ("172.26.0.1").
+LogStorageServerConnection: Display: Storage server returned HTTP 404 for /prj/MorphRig.1b96f95e/oplog/Linux: oplog Linux not found in project MorphRig.1b96f95e
+LogStorageServerConnection: Display: Creating zen store connection to 172.17.0.1:8558 ("172.17.0.1").
+LogStorageServerConnection: Display: Storage server returned HTTP 404 for /prj/MorphRig.1b96f95e/oplog/Linux: oplog Linux not found in project MorphRig.1b96f95e
+LogStorageServerConnection: Display: Creating zen store connection to 172.29.0.1:8558 ("172.29.0.1").
+LogStorageServerConnection: Display: Storage server returned HTTP 404 for /prj/MorphRig.1b96f95e/oplog/Linux: oplog Linux not found in project MorphRig.1b96f95e
+LogStorageServerConnection: Display: Creating zen store connection to 172.25.0.1:8558 ("172.25.0.1").
+LogStorageServerConnection: Display: Storage server returned HTTP 404 for /prj/MorphRig.1b96f95e/oplog/Linux: oplog Linux not found in project MorphRig.1b96f95e
+LogStorageServerConnection: Display: Creating zen store connection to 172.30.0.1:8558 ("172.30.0.1").
+LogStorageServerConnection: Display: Storage server returned HTTP 404 for /prj/MorphRig.1b96f95e/oplog/Linux: oplog Linux not found in project MorphRig.1b96f95e
+LogStorageServerConnection: Display: Creating zen store connection to 172.20.0.1:8558 ("172.20.0.1").
+LogStorageServerConnection: Display: Storage server returned HTTP 404 for /prj/MorphRig.1b96f95e/oplog/Linux: oplog Linux not found in project MorphRig.1b96f95e
+LogStorageServerConnection: Display: Creating zen store connection to 172.23.0.1:8558 ("172.23.0.1").
+LogStorageServerConnection: Display: Storage server returned HTTP 404 for /prj/MorphRig.1b96f95e/oplog/Linux: oplog Linux not found in project MorphRig.1b96f95e
+LogStorageServerConnection: Display: Creating zen store connection to 172.21.0.1:8558 ("172.21.0.1").
+LogStorageServerConnection: Display: Storage server returned HTTP 404 for /prj/MorphRig.1b96f95e/oplog/Linux: oplog Linux not found in project MorphRig.1b96f95e
+LogStorageServerConnection: Display: Creating zen store connection to 172.28.0.1:8558 ("172.28.0.1").
+LogStorageServerConnection: Display: Storage server returned HTTP 404 for /prj/MorphRig.1b96f95e/oplog/Linux: oplog Linux not found in project MorphRig.1b96f95e
+LogStorageServerConnection: Display: Creating zen store connection to 172.24.0.1:8558 ("172.24.0.1").
+LogStorageServerConnection: Display: Storage server returned HTTP 404 for /prj/MorphRig.1b96f95e/oplog/Linux: oplog Linux not found in project MorphRig.1b96f95e
+LogStorageServerConnection: Display: Creating zen store connection to 172.27.0.1:8558 ("172.27.0.1").
+LogStorageServerConnection: Display: Storage server returned HTTP 404 for /prj/MorphRig.1b96f95e/oplog/Linux: oplog Linux not found in project MorphRig.1b96f95e
+LogStorageServerConnection: Display: Creating zen store connection to 172.18.0.1:8558 ("172.18.0.1").
+LogStorageServerConnection: Display: Storage server returned HTTP 404 for /prj/MorphRig.1b96f95e/oplog/Linux: oplog Linux not found in project MorphRig.1b96f95e
+LogStorageServerConnection: Display: Creating zen store connection to 172.22.0.1:8558 ("172.22.0.1").
+LogStorageServerConnection: Display: Storage server returned HTTP 404 for /prj/MorphRig.1b96f95e/oplog/Linux: oplog Linux not found in project MorphRig.1b96f95e
+LogStorageServerConnection: Display: Creating zen store connection to 10.88.0.1:8558 ("10.88.0.1").
+LogStorageServerConnection: Display: Storage server returned HTTP 404 for /prj/MorphRig.1b96f95e/oplog/Linux: oplog Linux not found in project MorphRig.1b96f95e
+LogStorageServerConnection: Display: Creating zen store connection to hostname://nixos:8558 ("127.0.0.2").
+LogStorageServerConnection: Display: Storage server returned HTTP 404 for /prj/MorphRig.1b96f95e/oplog/Linux: oplog Linux not found in project MorphRig.1b96f95e
+LogStorageServerPlatformFile: Display: Failed to initialize connection to any of [ [::1], 192.168.1.123, 172.19.0.1, 172.26.0.1, 172.17.0.1, 172.29.0.1, 172.25.0.1, 172.30.0.1, 172.20.0.1, 172.23.0.1, 172.21.0.1, 172.28.0.1, 172.24.0.1, 172.27.0.1, 172.18.0.1, 172.22.0.1, 10.88.0.1, hostname://nixos ]
+LogCook: Display: CalculateGlobalDependenciesHash(Linux):
+LogCook: Display: 	FGuid CookIncrementalVersion = ffa12fdc-c822-1fe2-7757-627a12f1d3a7
+LogCook: Display: 	[Editor]:CookSettings.ProjectCookIncrementalVersion = 00000000-0000-0000-0000-000000000000
+LogCook: Display: 	[Engine]:Core.System.CanStripEditorOnlyExportsAndImports = True
+LogCook: Display: 	[Engine]:Core.System.CanSkipEditorReferencedPackagesWhenCooking = False
+LogCook: Display: 	CanUseUnversionedPropertySerialization = True
+LogCook: Display: 	[Editor]:CookSettings.AutomaticOptionalInclusionAssetType = /Script/Niagara.NiagaraScript, /Script/Niagara.NiagaraEmitter, /Script/Niagara.NiagaraSystem, /Script/NiagaraEditor.NiagaraParameterDefinitions, /Script/Niagara.NiagaraEffectType, /Script/Niagara.NiagaraValidationRuleSet, /Script/OptimusCore.OptimusDeformer
+LogCook: Display: 	IsCookFlagSet(ECookInitializationFlags::Unversioned) = True
+LogCook: Display: 	FCoreRedirects::AppendHashOfGlobalRedirects = 02c9fd35aac3c00095df0219fc925d7070b41f449d3b97578d818a4016ee6805
+LogCook: Display: 	GlobalDependenciesHash(Linux) = 2de5b37f143f8e25d634acd39f60ca4c07ed1761ed763f60105e89ce30e27192
+LogCook: Display: FULL COOK: Incremental Cooks are disabled by default in Editor.ini:[CookSettings]:CookIncrementalDefaultIncremental=false, and commandline did not specify -forcerecook=false. Deleting previously cooked packages for platform Linux and recooking all packages discovered in the current cook.
+LogZenStore: Display: Deleting oplog 'MorphRig.1b96f95e/Linux' if it exists
+LogZenStoreWriter: Display: Deleting /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Saved/Cooked/Linux/...
+LogZenStore: Display: Zen oplog 'MorphRig.1b96f95e/Linux' created
+LogCook: Display: Sandbox cleanup took 0.003 seconds for platforms Linux
+LogCook: Display: Compiling global changed shaders for platform 'Linux'
+LogShaderLibrary: Display:
+LogShaderLibrary: Display: Shader Library 'Global' (SF_VULKAN_SM6-VULKAN_SM6) Stats:
+LogShaderLibrary: Display: =================
+LogShaderLibrary: Display: Assets: 1, Unique Shadermaps: 452 (45200.00%)
+LogShaderLibrary: Display: Total Shaders: 8031, Unique Shaders: 8015 (99.80%)
+LogShaderLibrary: Display: Total Shader Size: 80.53mb, Unique Shaders Size: 80.52mb (99.99%)
+LogShaderLibrary: Display: === Extended info:
+LogShaderLibrary: Display: Minimum number of shaders in shadermap: 1
+LogShaderLibrary: Display: Median number of shaders in shadermap: 3
+LogShaderLibrary: Display: Maximum number of shaders in shadermap: 544
+LogShaderLibrary: Display: Number of shadermaps referencing top 10 most shared shaders:
+LogShaderLibrary: Display:     5, 3, 3, 2, 2, 2, 2, 2, 2, 2
+LogShaderLibrary: Display: Unique shaders itemization (sorted by compressed size):
+LogShaderLibrary: Display: SF_Compute: 5895 shaders (73.55%), compressed size: 61.01 MB (10.60 KB avg per shader), uncompressed size: 249.12 MB (43.27 KB avg per shader)
+LogShaderLibrary: Display: SF_Pixel: 1989 shaders (24.82%), compressed size: 19.33 MB (9.95 KB avg per shader), uncompressed size: 77.70 MB (40.00 KB avg per shader)
+LogShaderLibrary: Display: SF_Vertex: 128 shaders (1.60%), compressed size: 0.18 MB (1.44 KB avg per shader), uncompressed size: 0.44 MB (3.51 KB avg per shader)
+LogShaderLibrary: Display: SF_Geometry: 3 shaders (0.04%), compressed size: 0.00 MB (0.69 KB avg per shader), uncompressed size: 0.00 MB (1.58 KB avg per shader)
+LogShaderLibrary: Display: Textual dump saved to '../../../../../Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Saved/Shaders/SF_VULKAN_SM6-VULKAN_SM6/ShaderDebug-Global-SF_VULKAN_SM6-VULKAN_SM6/Dump.txt'
+LogShaderLibrary: Display: =================
+LogCook: Display: Discovering localized assets for cultures: en
+LogCook: Display: Found 0 localized assets
+LogCook: Display: ---- Post Content Initialisation: End ----
+LogCook: Display: Cooked packages 0 Packages Remain 571 Total 571
+LogCook: Display: Cook Diagnostics: OpenFileHandles=0, VirtualMemory=10734MiB, VirtualMemoryAvailable=260926MiB
+LogMaterial: Display: Missing cached shadermap for /InterchangeAssets/gltf/MaterialInstances/MI_ClearCoat_Mask_DS.MI_ClearCoat_Mask_DS in VULKAN_SM6, Default, SM6, Game (DDC key hash: 50c1a7afb49a8c80ac41329de00db2ea463ead97), compiling.
+LogCook: Display: Garbage collection triggered (Soft). Triggered by conditions:
+  CookSettings.SoftGCTimeTrigger: Periodic triggering of SoftGC: No duration data.
+LogCookCommandlet: Display: GarbageCollection... (Periodic GC)
+LogMaterial: Display: Missing cached shadermap for /InterchangeAssets/gltf/MaterialInstances/MI_ClearCoat_Opaque_DS.MI_ClearCoat_Opaque_DS in VULKAN_SM6, Default, SM6, Game (DDC key hash: eaaeee08d8288cf7bed958cd416de44c836bd7df), compiling.
+LogMaterial: Display: Missing cached shadermap for /InterchangeAssets/gltf/MaterialInstances/MI_Default_Blend_DS.MI_Default_Blend_DS in VULKAN_SM6, Default, SM6, Game (DDC key hash: f709311734aff82bd949c8df43e50585542d6d6a), compiling.
+LogMaterial: Display: Missing cached shadermap for /InterchangeAssets/gltf/MaterialInstances/MI_Default_Mask_DS.MI_Default_Mask_DS in VULKAN_SM6, Default, SM6, Game (DDC key hash: c9ae2e2cd46ab34bc66372fdb7f095e8c2aa50d3), compiling.
+LogMaterial: Display: Missing cached shadermap for /InterchangeAssets/gltf/MaterialInstances/MI_ClearCoat_Blend.MI_ClearCoat_Blend in VULKAN_SM6, Default, SM6, Game (DDC key hash: ebbe779d62dca0e3c590147095a3cb11122977b1), compiling.
+LogMaterial: Display: Missing cached shadermap for /InterchangeAssets/gltf/MaterialInstances/MI_Default_Opaque_DS.MI_Default_Opaque_DS in VULKAN_SM6, Default, SM6, Game (DDC key hash: f89021fee260e8ca66f9e62af9433b17090972f2), compiling.
+LogMaterial: Display: Missing cached shadermap for /InterchangeAssets/gltf/MaterialInstances/MI_Default_Blend.MI_Default_Blend in VULKAN_SM6, Default, SM6, Game (DDC key hash: f46ae29a23bb4146f64dcdab3a7819f133ad35e6), compiling.
+LogMaterial: Display: Missing cached shadermap for /InterchangeAssets/gltf/MaterialInstances/MI_Default_Mask.MI_Default_Mask in VULKAN_SM6, Default, SM6, Game (DDC key hash: 7d402de581c470c2498daac12ed2b1da3e02ccea), compiling.
+LogMaterial: Display: Missing cached shadermap for /InterchangeAssets/gltf/M_Default.M_Default in VULKAN_SM6, Default, SM6, Game (DDC key hash: df08173432a2a7351c26dea2a5428319d1be9be2), compiling.
+LogMaterial: Display: Missing cached shadermap for /InterchangeAssets/gltf/MaterialInstances/MI_ClearCoat_Blend_DS.MI_ClearCoat_Blend_DS in VULKAN_SM6, Default, SM6, Game (DDC key hash: eb68e4e392f89ce3267bad621a01c55e7f25c257), compiling.
+LogMaterial: Display: Missing cached shadermap for /InterchangeAssets/gltf/M_ClearCoat.M_ClearCoat in VULKAN_SM6, Default, SM6, Game (DDC key hash: 125a0b7647a9df3145723f1761370c6547513120), compiling.
+LogMaterial: Display: Missing cached shadermap for /InterchangeAssets/gltf/MaterialInstances/MI_Sheen_Blend_DS.MI_Sheen_Blend_DS in VULKAN_SM6, Default, SM6, Game (DDC key hash: 51077b22d37075603b2a73899af9b1ad89b69051), compiling.
+LogMaterial: Display: Missing cached shadermap for /InterchangeAssets/gltf/MaterialInstances/MI_Sheen_Mask_DS.MI_Sheen_Mask_DS in VULKAN_SM6, Default, SM6, Game (DDC key hash: ca38e69221a3a197323ead741294ac00a8c0c52c), compiling.
+LogMaterial: Display: Missing cached shadermap for /InterchangeAssets/gltf/MaterialInstances/MI_Sheen_Opaque_DS.MI_Sheen_Opaque_DS in VULKAN_SM6, Default, SM6, Game (DDC key hash: 74527ccaf06aa5f1d1890557a8aca7585f4a3e20), compiling.
+LogMaterial: Display: Missing cached shadermap for /InterchangeAssets/gltf/MaterialInstances/MI_Sheen_Blend.MI_Sheen_Blend in VULKAN_SM6, Default, SM6, Game (DDC key hash: bbabc23a345d54606a0e960b6659f328b386f293), compiling.
+LogMaterial: Display: Missing cached shadermap for /InterchangeAssets/gltf/MaterialInstances/MI_Sheen_Mask.MI_Sheen_Mask in VULKAN_SM6, Default, SM6, Game (DDC key hash: f4c12453b3a011dc86f44dc28e63f1c4e6abe15a), compiling.
+LogMaterial: Display: Missing cached shadermap for /InterchangeAssets/gltf/M_Sheen.M_Sheen in VULKAN_SM6, Default, SM6, Game (DDC key hash: 8ac0d8d1592379cda50207df1295173e9e6885e4), compiling.
+LogMaterial: Display: Missing cached shadermap for /InterchangeAssets/gltf/MaterialInstances/MI_ClearCoat_Mask.MI_ClearCoat_Mask in VULKAN_SM6, Default, SM6, Game (DDC key hash: fec283d532a6f7757b79e455e124d8c492b15fbe), compiling.
+LogMaterial: Display: Missing cached shadermap for /InterchangeAssets/gltf/M_Transmission.M_Transmission in VULKAN_SM6, Default, SM6, Game (DDC key hash: 05b9fa194c41089b63381e454cfe5655b286ef17), compiling.
+LogMaterial: Display: Missing cached shadermap for /Landmass/Landscape/BlueprintBrushes/Materials/Internal/BrushBounds.BrushBounds in VULKAN_SM6, Default, SM6, Game (DDC key hash: 3595fcdd138fb67af7c515aad966e04d6096517c), compiling.
+LogMaterial: Display: Missing cached shadermap for /SpeedTreeImporter/SpeedTree9/SpeedTreeMaster.SpeedTreeMaster in VULKAN_SM6, Default, SM6, Game (DDC key hash: 982c4c4140b1596245fdf07d3985e03ec8da83fd), compiling.
+LogMaterial: Display: Missing cached shadermap for /SpeedTreeImporter/SpeedTree9/SpeedTreeBillboardMaster.SpeedTreeBillboardMaster in VULKAN_SM6, Default, SM6, Game (DDC key hash: 30d02a8e4063dfe3b63c6d89bc93a7bb2ee8681f), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EngineMaterials/Widget3DPassThrough_Translucent_OneSided.Widget3DPassThrough_Translucent_OneSided in VULKAN_SM6, Default, SM6, Game (DDC key hash: 1119b74456f666cff788cd9e059912dd2b2728af), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EngineMaterials/Widget3DPassThrough_Opaque_OneSided.Widget3DPassThrough_Opaque_OneSided in VULKAN_SM6, Default, SM6, Game (DDC key hash: e04c9f05552ab60e9fd6adf10bfa8263d8398ce2), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EngineMaterials/Widget3DPassThrough_Masked_OneSided.Widget3DPassThrough_Masked_OneSided in VULKAN_SM6, Default, SM6, Game (DDC key hash: 734e711e635862cda2a15fb6f0837c88dcfd4919), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EditorLandscapeResources/LandscapeLayerUsageMaterial.LandscapeLayerUsageMaterial in VULKAN_SM6, Default, SM6, Game (DDC key hash: 5f8508d2b26524ac5de26a5bfb45193f837d9f38), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EditorMaterials/Dataflow/DataflowSelection.DataflowSelection in VULKAN_SM6, Default, SM6, Game (DDC key hash: 878beba5bc2d4a50eecd2c62ece850ca99482319), compiling.
+LogMaterial: Display: Missing cached shadermap for /InterchangeAssets/gltf/MaterialInstances/MI_Unlit_Blend.MI_Unlit_Blend in VULKAN_SM6, Default, SM6, Game (DDC key hash: 12955d3ca84a8632d389b6dc41ca90c42cb70136), compiling.
+LogMaterial: Display: Missing cached shadermap for /InterchangeAssets/gltf/MaterialInstances/MI_SpecularGlossiness_Blend_DS.MI_SpecularGlossiness_Blend_DS in VULKAN_SM6, Default, SM6, Game (DDC key hash: 03f5a96f6a2d99fbe8ab6875d71c934d364472d1), compiling.
+LogMaterial: Display: Missing cached shadermap for /InterchangeAssets/gltf/MaterialInstances/MI_SpecularGlossiness_Mask_DS.MI_SpecularGlossiness_Mask_DS in VULKAN_SM6, Default, SM6, Game (DDC key hash: 28e7e366e1a9061a5a1ab45ebfc296f2eb7185f4), compiling.
+LogMaterial: Display: Missing cached shadermap for /InterchangeAssets/gltf/MaterialInstances/MI_Unlit_Mask.MI_Unlit_Mask in VULKAN_SM6, Default, SM6, Game (DDC key hash: 207e8e8fcb285d2ed7d52bf276250d89c5a75b6e), compiling.
+LogMaterial: Display: Missing cached shadermap for /InterchangeAssets/gltf/MaterialInstances/MI_SpecularGlossiness_Opaque_DS.MI_SpecularGlossiness_Opaque_DS in VULKAN_SM6, Default, SM6, Game (DDC key hash: 0d0740a8ee30ed553a251e6f8142a2ff3045f9af), compiling.
+LogMaterial: Display: Missing cached shadermap for /InterchangeAssets/gltf/M_Unlit.M_Unlit in VULKAN_SM6, Default, SM6, Game (DDC key hash: 1846e80b3f3efefe1c485ebd346714f88d6fd0ce), compiling.
+LogMaterial: Display: Missing cached shadermap for /InterchangeAssets/gltf/MaterialInstances/MI_SpecularGlossiness_Blend.MI_SpecularGlossiness_Blend in VULKAN_SM6, Default, SM6, Game (DDC key hash: 0fc344ecefeb4f24ed848f72d366854e957b70aa), compiling.
+LogMaterial: Display: Missing cached shadermap for /InterchangeAssets/gltf/MaterialInstances/MI_SpecularGlossiness_Mask.MI_SpecularGlossiness_Mask in VULKAN_SM6, Default, SM6, Game (DDC key hash: 0b1a18680ca1f3d26da3ef902f7e8a5588cdb6d8), compiling.
+LogMaterial: Display: Missing cached shadermap for /InterchangeAssets/gltf/M_SpecularGlossiness.M_SpecularGlossiness in VULKAN_SM6, Default, SM6, Game (DDC key hash: 7b9d6e415905a6506fdea1e9277b33c3481d6194), compiling.
+LogMaterial: Display: Missing cached shadermap for /InterchangeAssets/gltf/MaterialInstances/MI_Transmission_DS.MI_Transmission_DS in VULKAN_SM6, Default, SM6, Game (DDC key hash: 191bae56f36ec4bf28c3fb9207e98588d9fe45e9), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EngineMaterials/Widget3DPassThrough_Translucent.Widget3DPassThrough_Translucent in VULKAN_SM6, Default, SM6, Game (DDC key hash: 7f7151c35e8ddf072c1baceed3eb665a90e5d9a2), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EngineMaterials/Widget3DPassThrough_Opaque.Widget3DPassThrough_Opaque in VULKAN_SM6, Default, SM6, Game (DDC key hash: 99baa9d03b9300eedf55ec4944293c1f71c61011), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EngineMaterials/Widget3DPassThrough_Masked.Widget3DPassThrough_Masked in VULKAN_SM6, Default, SM6, Game (DDC key hash: 242c3fe7b14ce87fa8176390bc4232ba50a2744b), compiling.
+LogMaterial: Display: Missing cached shadermap for /InterchangeAssets/gltf/Substrate/M_GLTF.M_GLTF in VULKAN_SM6, Default, SM6, Game (DDC key hash: 10b4a739d2c84e1c24cdf18263e9071a04d07ec0), compiling.
+LogMaterial: Display: Missing cached shadermap for /InterchangeAssets/gltf/MaterialInstances/MI_Unlit_Blend_DS.MI_Unlit_Blend_DS in VULKAN_SM6, Default, SM6, Game (DDC key hash: ce37294db8460b3140971fc250c76a4e6f89f54a), compiling.
+LogMaterial: Display: Missing cached shadermap for /InterchangeAssets/gltf/MaterialInstances/MI_Unlit_Mask_DS.MI_Unlit_Mask_DS in VULKAN_SM6, Default, SM6, Game (DDC key hash: ade178b6792068e699688044cf0cbb94a44fef3c), compiling.
+LogMaterial: Display: Missing cached shadermap for /InterchangeAssets/gltf/MaterialInstances/MI_Unlit_Opaque_DS.MI_Unlit_Opaque_DS in VULKAN_SM6, Default, SM6, Game (DDC key hash: 94963e8575a5d9989d5158c4c5f4a85bd8428b89), compiling.
+LogMaterial: Display: Missing cached shadermap for /Landmass/Landscape/BlueprintBrushes/Materials/Sprite/M_BrushSprite_01.M_BrushSprite_01 in VULKAN_SM6, Default, SM6, Game (DDC key hash: 87a32e3479c7d1516d451f013b243e9275fd620b), compiling.
+LogMaterial: Display: Missing cached shadermap for /MeshModelingToolsetExp/Materials/PointSetOverlaidComponentMaterial.PointSetOverlaidComponentMaterial in VULKAN_SM6, Default, SM6, Game (DDC key hash: 8e28c4d03b13e36652a8c9b2edbc54cb9f367483), compiling.
+LogMaterial: Display: Missing cached shadermap for /MeshModelingToolsetExp/Materials/LineSetOverlaidComponentMaterial.LineSetOverlaidComponentMaterial in VULKAN_SM6, Default, SM6, Game (DDC key hash: 0263d9e7190a88fbd867eb795919b98277a68f3b), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EditorLandscapeResources/MaskBrushMaterial_MaskedRegion.MaskBrushMaterial_MaskedRegion in VULKAN_SM6, Default, SM6, Game (DDC key hash: 6b8fbe29165a7d1ad19326459ee867d6ce0f98cc), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/VREditor/SnapGrid/SnapGridMaterial.SnapGridMaterial in VULKAN_SM6, Default, SM6, Game (DDC key hash: de1560a14b56e07b392acc487cd1962a430052c3), compiling.
+LogMaterial: Display: Missing cached shadermap for /Paper2D/OpaqueUnlitSpriteMaterial.OpaqueUnlitSpriteMaterial in VULKAN_SM6, Default, SM6, Game (DDC key hash: d87c74b10e79e1955094d52e11aeb1dd4003443c), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EditorLandscapeResources/SelectBrushMaterial_SelectedRegion.SelectBrushMaterial_SelectedRegion in VULKAN_SM6, Default, SM6, Game (DDC key hash: ff7ee3d8dc3e2163824e3e56059184d59f70b9a8), compiling.
+LogStaticMesh: Display: Building static mesh ControlRig_Arrow4_solid (Required Memory Estimate: 0.160604 MB)...
+LogStaticMesh: Display: Building static mesh ControlRig_Arrow4_3mm (Required Memory Estimate: 0.32412 MB)...
+LogStaticMesh: Display: Building static mesh ControlRig_Arrow2_1mm (Required Memory Estimate: 0.159403 MB)...
+LogStaticMesh: Display: Building static mesh ControlRig_Arrow2_solid (Required Memory Estimate: 0.081424 MB)...
+LogStaticMesh: Display: Building static mesh ControlRig_Sphere_solid (Required Memory Estimate: 1.436255 MB)...
+LogStaticMesh: Display: Building static mesh ControlRig_Arrow4_1mm (Required Memory Estimate: 0.32412 MB)...
+LogStaticMesh: Display: Building static mesh ControlRig_Arrow2_3mm (Required Memory Estimate: 0.159403 MB)...
+LogStaticMesh: Display: Waiting for static meshes to be ready 0/9 (/ControlRig/Controls/ControlRig_Arrow4_solid) ...
+LogStaticMesh: Display: Waiting for static meshes to be ready 7/9 (/ControlRig/Controls/ControlRig_Arrow2_1mm) ...
+LogStaticMesh: Display: Waiting for static meshes to be ready 8/9 (/ControlRig/Controls/ControlRig_Sphere_solid) ...
+LogStaticMesh: Display: Building static mesh ControlRig_RoundedTriangle_3mm (Required Memory Estimate: 0.554926 MB)...
+LogStaticMesh: Display: Building static mesh ControlRig_RoundedTriangle_1mm (Required Memory Estimate: 0.517355 MB)...
+LogStaticMesh: Display: Building static mesh ControlRig_RoundedSquare_solid (Required Memory Estimate: 0.45485 MB)...
+LogStaticMesh: Display: Building static mesh ControlRig_RoundedSquare_3mm (Required Memory Estimate: 1.063242 MB)...
+LogStaticMesh: Display: Building static mesh ControlRig_RoundedSquare_1mm (Required Memory Estimate: 0.937765 MB)...
+LogStaticMesh: Display: Building static mesh ControlRig_QuarterCircle_solid (Required Memory Estimate: 0.066443 MB)...
+LogStaticMesh: Display: Building static mesh ControlRig_QuarterCircle_3mm (Required Memory Estimate: 0.123194 MB)...
+LogStaticMesh: Display: Building static mesh ControlRig_Pyramid_3mm (Required Memory Estimate: 1.775955 MB)...
+LogStaticMesh: Display: Building static mesh ControlRig_Pyramid_solid (Required Memory Estimate: 0.06392 MB)...
+LogStaticMesh: Display: Building static mesh ControlRig_QuarterCircle_1mm (Required Memory Estimate: 0.135744 MB)...
+LogStaticMesh: Display: Building static mesh ControlRig_Octagon_1mm (Required Memory Estimate: 0.113621 MB)...
+LogStaticMesh: Display: Building static mesh ControlRig_Octagon_solid (Required Memory Estimate: 0.055368 MB)...
+LogStaticMesh: Display: Building static mesh ControlRig_Hexagon_solid (Required Memory Estimate: 0.042217 MB)...
+LogStaticMesh: Display: Building static mesh ControlRig_HalfCircle_solid (Required Memory Estimate: 0.116344 MB)...
+LogStaticMesh: Display: Building static mesh ControlRig_HalfCircle_1mm (Required Memory Estimate: 0.235546 MB)...
+LogStaticMesh: Display: Building static mesh ControlRig_Pyramid_1mm (Required Memory Estimate: 2.881575 MB)...
+LogStaticMesh: Display: Building static mesh ControlRig_Diamond_solid (Required Memory Estimate: 0.061016 MB)...
+LogStaticMesh: Display: Building static mesh ControlRig_Octagon_3mm (Required Memory Estimate: 0.113621 MB)...
+LogStaticMesh: Display: Building static mesh ControlRig_Diamond_3mm (Required Memory Estimate: 2.714615 MB)...
+LogStaticMesh: Display: Building static mesh ControlRig_Diamond_1mm (Required Memory Estimate: 4.374279 MB)...
+LogStaticMesh: Display: Building static mesh ControlRig_HalfCircle_3mm (Required Memory Estimate: 0.235546 MB)...
+LogStaticMesh: Display: Building static mesh ControlRig_Hexagon_1mm (Required Memory Estimate: 0.087372 MB)...
+LogStaticMesh: Display: Building static mesh ControlRig_Hexagon_3mm (Required Memory Estimate: 0.087372 MB)...
+LogStaticMesh: Display: Building static mesh ControlRig_Circle_3mm (Required Memory Estimate: 0.410624 MB)...
+LogStaticMesh: Display: Building static mesh ControlRig_Circle_1mm (Required Memory Estimate: 0.410624 MB)...
+LogStaticMesh: Display: Building static mesh ControlRig_Circle_solid (Required Memory Estimate: 0.203843 MB)...
+LogStaticMesh: Display: Building static mesh ControlRig_Box_solid (Required Memory Estimate: 0.029066 MB)...
+LogStaticMesh: Display: Building static mesh ControlRig_Box_3mm (Required Memory Estimate: 1.371086 MB)...
+LogStaticMesh: Display: Building static mesh ControlRig_Box_1mm (Required Memory Estimate: 2.990135 MB)...
+LogStaticMesh: Display: Building static mesh ControlRig_Arrow_solid (Required Memory Estimate: 0.048793 MB)...
+LogStaticMesh: Display: Building static mesh ControlRig_Arrow_3mm (Required Memory Estimate: 0.100496 MB)...
+LogStaticMesh: Display: Building static mesh ControlRig_Arrow_1mm (Required Memory Estimate: 0.100496 MB)...
+LogStaticMesh: Display: Building static mesh ControlRig_Wedge_solid (Required Memory Estimate: 1.080232 MB)...
+LogStaticMesh: Display: Building static mesh ControlRig_Wedge_3mm (Required Memory Estimate: 2.342857 MB)...
+LogStaticMesh: Display: Building static mesh ControlRig_Wedge_1mm (Required Memory Estimate: 2.367104 MB)...
+LogStaticMesh: Display: Building static mesh ControlRig_Star4_solid (Required Memory Estimate: 0.055368 MB)...
+LogStaticMesh: Display: Building static mesh ControlRig_Triangle_solid (Required Memory Estimate: 0.022491 MB)...
+LogStaticMesh: Display: Building static mesh ControlRig_Triangle_3mm (Required Memory Estimate: 0.047892 MB)...
+LogStaticMesh: Display: Building static mesh ControlRig_Triangle_1mm (Required Memory Estimate: 0.047892 MB)...
+LogStaticMesh: Display: Building static mesh ControlRig_Star4_1mm (Required Memory Estimate: 0.113621 MB)...
+LogStaticMesh: Display: Building static mesh ControlRig_Square_solid (Required Memory Estimate: 0.029066 MB)...
+LogStaticMesh: Display: Building static mesh ControlRig_Square_3mm (Required Memory Estimate: 0.061016 MB)...
+LogStaticMesh: Display: Building static mesh ControlRig_Star4_3mm (Required Memory Estimate: 0.113621 MB)...
+LogMaterial: Display: Missing cached shadermap for /Engine/BasicShapes/M_Cube_WorldGridMaterial_8D67460644F5AEE976EC80B26230FFEB.M_M_Cube_WorldGridMaterial_8D67460644F5AEE976EC80B26230FFEB in VULKAN_SM6, Default, SM6, Game (DDC key hash: a3037d3986e09041cf8c754112a6c136acb7f101), compiling.
+LogTexture: Display: Building texture TwoD: /Engine/BasicShapes/M_Cube_WorldGridMaterial_8D67460644F5AEE976EC80B26230FFEB.T_M_Cube_WorldGridMaterial_8D67460644F5AEE976EC80B26230FFEB_BaseColor (TFO_DXT1, 128x128 x1x1x1) (Required Memory Estimate: 2.864554 MB), EncodeSpeed: Final
+LogTextureFormatOodle: Display: Oodle Texture loading DLL: liboo2texlinux64.2.9.5.so
+LogStaticMesh: Display: Waiting for static meshes to be ready 10/18 (/ControlRig/Controls/ControlRig_Pyramid_3mm) ...
+LogStaticMesh: Display: Waiting for static meshes to be ready 12/18 (/ControlRig/Controls/ControlRig_Pyramid_1mm) ...
+LogStaticMesh: Display: Waiting for static meshes to be ready 13/18 (/ControlRig/Controls/ControlRig_Diamond_3mm) ...
+LogStaticMesh: Display: Waiting for static meshes to be ready 15/18 (/ControlRig/Controls/ControlRig_Diamond_1mm) ...
+LogStaticMesh: Display: Waiting for static meshes to be ready 16/18 (/ControlRig/Controls/ControlRig_Wedge_3mm) ...
+LogStaticMesh: Display: Waiting for static meshes to be ready 17/18 (/ControlRig/Controls/ControlRig_Wedge_1mm) ...
+LogMaterial: Display: Missing cached shadermap for /Engine/EditorMaterials/PreviewShadowIndicatorMaterial.PreviewShadowIndicatorMaterial in VULKAN_SM6, Default, SM6, Game (DDC key hash: 356468e770ea34de6dfa67bf25e5a964a87667e0), compiling.
+LogCook: Display: Cooked packages 87 Packages Remain 537 Total 624
+LogStaticMesh: Display: Building static mesh ControlRig_Square_1mm (Required Memory Estimate: 0.061016 MB)...
+LogStaticMesh: Display: Building static mesh ControlRig_RoundedTriangle_solid (Required Memory Estimate: 0.247769 MB)...
+LogStaticMesh: Display: Building static mesh ControlRig_Sphere_3mm (Required Memory Estimate: 2.238556 MB)...
+LogStaticMesh: Display: Building static mesh ControlRig_Sphere_1mm (Required Memory Estimate: 2.876341 MB)...
+LogTexture: Display: Building texture Array: /Engine/EngineMaterials/Substrate/GLints/AGlintTex2dArray.AGlintTex2dArray (RGBA16F, 64x1 x1024x1x1) (Required Memory Estimate: 3.833324 MB), EncodeSpeed: Final
+LogTexture: Display: Building texture Volume: /Engine/EngineMaterials/Substrate/Volume/SubstrateSimpleVolumeEnvLUT3D.SubstrateSimpleVolumeEnvLUT3D (R16F, 11x11 x8x1x1) (Required Memory Estimate: 1.030758 MB), EncodeSpeed: Final
+LogTexture: Display: Building texture Volume: /Engine/EngineMaterials/Substrate/Volume/SubstrateSimpleVolumeLUT3D.SubstrateSimpleVolumeLUT3D (R16F, 11x11 x72x1x1) (Required Memory Estimate: 1.276947 MB), EncodeSpeed: Final
+LogTexture: Display: Building texture Array: /Engine/EngineMaterials/Substrate/Glints2/AGlintTex2dArray2.AGlintTex2dArray2 (RGBA16F, 64x1 x2048x1x1) (Required Memory Estimate: 6.666649 MB), EncodeSpeed: Final
+LogMaterial: Display: Missing cached shadermap for /Engine/EngineMaterials/PPM_DefaultCalibrationGrayscale.PPM_DefaultCalibrationGrayscale in VULKAN_SM6, Default, SM6, Game (DDC key hash: 5fd4625935880cb6fd1ba98d27b4bcb88b17e0de), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EngineMaterials/PPM_DefaultCalibrationColor.PPM_DefaultCalibrationColor in VULKAN_SM6, Default, SM6, Game (DDC key hash: dd23be59b50e4867ae6fe1246476b047e1023464), compiling.
+LogMaterial: Display: Missing cached shadermap for /Game/Operative/Materials/M_Eyes.M_Eyes in VULKAN_SM6, Default, SM6, Game (DDC key hash: 76bef7d6ffe811855b809649503bf71526a24adc), compiling.
+LogMaterial: Display: Missing cached shadermap for /Game/Operative/Materials/M_Silver.M_Silver in VULKAN_SM6, Default, SM6, Game (DDC key hash: a2f015a8fc1e5d67a888ce3961aaae60d279dc46), compiling.
+LogMaterial: Display: Missing cached shadermap for /Game/Operative/Materials/M_Hair.M_Hair in VULKAN_SM6, Default, SM6, Game (DDC key hash: 752ef7a7602d04789c2d184fd3a9fd2ad35df3ee), compiling.
+LogMaterial: Display: Missing cached shadermap for /Game/Operative/Materials/M_Suit.M_Suit in VULKAN_SM6, Default, SM6, Game (DDC key hash: e70800948e0e873b01cce06d0913407aa8d4cce7), compiling.
+LogMaterial: Display: Missing cached shadermap for /Game/Operative/Materials/M_Armor.M_Armor in VULKAN_SM6, Default, SM6, Game (DDC key hash: 8429bc236705ec0076083f92c846be01072ac6b0), compiling.
+LogMaterial: Display: Missing cached shadermap for /Game/Operative/Materials/M_Skin.M_Skin in VULKAN_SM6, Default, SM6, Game (DDC key hash: 67291169a5580dec29a1df44dfb24de0d4e697ea), compiling.
+LogMaterial: Display: Missing cached shadermap for /Game/Operative/Materials/M_Mouth.M_Mouth in VULKAN_SM6, Default, SM6, Game (DDC key hash: 13e969ddd756037aaa79d288ad0d76c14253b5a1), compiling.
+LogMaterial: Display: Missing cached shadermap for /Game/Operative/Materials/M_Accent.M_Accent in VULKAN_SM6, Default, SM6, Game (DDC key hash: 2117d625420246175a6c5eb5bb6217cabce12452), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EngineMaterials/DefaultTextMaterialOpaque.DefaultTextMaterialOpaque in VULKAN_SM6, Default, SM6, Game (DDC key hash: 4a21c2a0b815a7d5ae7ad5da5be15e00a5198e24), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial in VULKAN_SM6, Default, SM6, Game (DDC key hash: 9ce699cc9119cce3c1b510116251f43b6d009a59), compiling. Is special engine material.
+LogMaterial: Display: Missing cached shadermap for /Engine/EngineMaterials/DefaultMaterial.DefaultMaterial in VULKAN_SM6, Default, SM6, Game (DDC key hash: ba912301e00200cf0f30132b216b9844e983f9eb), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EngineMaterials/DefaultDeferredDecalMaterial.DefaultDeferredDecalMaterial in VULKAN_SM6, Default, SM6, Game (DDC key hash: 2d870c3969da5497de8a58f33917e5c4f0fe11bf), compiling.
+LogCook: Display: Cooked packages 209 Packages Remain 415 Total 624
+LogMaterial: Display: Missing cached shadermap for /Engine/EngineMaterials/DefaultPostProcessMaterial.DefaultPostProcessMaterial in VULKAN_SM6, Default, SM6, Game (DDC key hash: 8beb7413d87198ab3d2aba06acc88544a60c9274), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EngineDebugMaterials/M_VolumeRenderSphereTracePP.M_VolumeRenderSphereTracePP in VULKAN_SM6, Default, SM6, Game (DDC key hash: ffd7ce1d8adc903b2105ac6a5367871067d4819e), compiling.
+LogMaterial: Display: Missing cached shadermap for /HairStrands/Materials/HairDebugMaterial.HairDebugMaterial in VULKAN_SM6, Default, SM6, Game (DDC key hash: bbbcc80347986c212758956de1351f3e13b2f593), compiling.
+LogMaterial: Display: Missing cached shadermap for /Paper2D/DefaultSpriteMaterial.DefaultSpriteMaterial in VULKAN_SM6, Default, SM6, Game (DDC key hash: f8f06081b2904eda7c7c22430324e5b482c38efc), compiling.
+LogMaterial: Display: Missing cached shadermap for /ControlRig/M_Manip.M_Manip in VULKAN_SM6, Default, SM6, Game (DDC key hash: b918f3e0886f72a69dd91aec399274310645f498), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EngineMaterials/EmissiveMeshMaterial.EmissiveMeshMaterial in VULKAN_SM6, Default, SM6, Game (DDC key hash: cf771741f73005e50224d1b6b11c9462ab521fea), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/VREditor/TransformGizmo/TransformGizmoMaterial.TransformGizmoMaterial in VULKAN_SM6, Default, SM6, Game (DDC key hash: 37b661b47ba80e380d1d5d10d410a27a020c7584), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EngineMaterials/PhAT_JointLimitMaterial.PhAT_JointLimitMaterial in VULKAN_SM6, Default, SM6, Game (DDC key hash: b6daaf919afb4d83ff7d5ddf42ee02950f164962), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EditorMaterials/Dataflow/M_Dataflow_CheckerBoard.M_Dataflow_CheckerBoard in VULKAN_SM6, Default, SM6, Game (DDC key hash: 2c92024487af63ff9ef74007e52885afc5873c0e), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EditorLandscapeResources/LayerVisMaterial.LayerVisMaterial in VULKAN_SM6, Default, SM6, Game (DDC key hash: abe81b794b2ca53b8ff3a8973b21ba4ad5a95623), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EditorLandscapeResources/SelectBrushMaterial.SelectBrushMaterial in VULKAN_SM6, Default, SM6, Game (DDC key hash: d4d421b7c0f7b471fecacde6e6bdc1dc071643d5), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EditorLandscapeResources/ColorMaskBrushMaterial.ColorMaskBrushMaterial in VULKAN_SM6, Default, SM6, Game (DDC key hash: c65261f4ee32e92221913b0cde8b911a466a814d), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EditorLandscapeResources/LandscapeDirtyMaterial.LandscapeDirtyMaterial in VULKAN_SM6, Default, SM6, Game (DDC key hash: 7c06849be9772aed8bf6842c2f304bf14b294ab8), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EngineMaterials/M_InvalidLightmapSettings.M_InvalidLightmapSettings in VULKAN_SM6, Default, SM6, Game (DDC key hash: 1b937f8ca4e7f7caf8dd763f50cdb99b08ad75a7), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EngineMaterials/FlattenMaterial.FlattenMaterial in VULKAN_SM6, Default, SM6, Game (DDC key hash: d86b3094cc1ee914389df18d5084d13dc49800ee), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EngineMaterials/FlattenMaterial_VT.FlattenMaterial_VT in VULKAN_SM6, Default, SM6, Game (DDC key hash: 9a86fa5040488dc36b48d7da99cf274e73043e54), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EngineMaterials/FlattenMaterial_WS_Normal_VT.FlattenMaterial_WS_Normal_VT in VULKAN_SM6, Default, SM6, Game (DDC key hash: 9fd7d9ac4c098d37d964ea196d4eaa2cd306d8bb), compiling.
+LogCook: Display: Cooked packages 257 Packages Remain 367 Total 624
+LogTexture: Display: Building texture TwoD: /Engine/MobileResources/HUD/VirtualJoystick_Thumb.VirtualJoystick_Thumb (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.140617 MB), EncodeSpeed: Final
+LogTexture: Display: Building texture TwoD: /Engine/MobileResources/HUD/VirtualJoystick_Background.VirtualJoystick_Background (BGRA8, 256x256 x1x1x1) (Required Memory Estimate: 3.249992 MB), EncodeSpeed: Final
+LogTexture: Display: Building texture TwoD: /Engine/EditorMaterials/PreviewShadowIndicator.PreviewShadowIndicator (G8, 512x512 x1x1x1) (Required Memory Estimate: 8.999993 MB), EncodeSpeed: Final
+LogTexture: Display: Building texture TwoD: /InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb (BGRA8, 1x1 x1x1x1) (Required Memory Estimate: 1.000027 MB), EncodeSpeed: Final
+LogTexture: Display: Building texture TwoD: /InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear (BGRA8, 1x1 x1x1x1) (Required Memory Estimate: 1.000027 MB), EncodeSpeed: Final
+LogTexture: Display: Building texture TwoD: /Engine/EngineMaterials/DefaultCalibrationGrayscale.DefaultCalibrationGrayscale (G8, 1920x1080 x1x1x1) (Required Memory Estimate: 58.348633 MB), EncodeSpeed: Final
+LogTexture: Display: Building texture TwoD: /InterchangeAssets/gltf/Textures/T_Generic_N.T_Generic_N (BGRA8, 1x1 x1x1x1) (Required Memory Estimate: 1.000027 MB), EncodeSpeed: Final
+LogTexture: Display: Building texture TwoD: /InterchangeAssets/gltf/Textures/T_Anisotropy_Direction_Linear.T_Anisotropy_Direction_Linear (BGRA8, 1x1 x1x1x1) (Required Memory Estimate: 1.000027 MB), EncodeSpeed: Final
+LogTexture: Display: Building texture TwoD: /Engine/EngineMaterials/DefaultCalibrationColor.DefaultCalibrationColor (TFO_AutoDXT, 1920x1080 x1x1x1) (Required Memory Estimate: 259.398438 MB), EncodeSpeed: Final
+LogMaterial: Display: Missing cached shadermap for /Game/Showcase/M_Normals.M_Normals in VULKAN_SM6, Default, SM6, Game (DDC key hash: 5f527e189b68d0249a6a41835f063c39a2f98eaf), compiling.
+LogMaterial: Display: Missing cached shadermap for /Game/Showcase/M_Clay.M_Clay in VULKAN_SM6, Default, SM6, Game (DDC key hash: 1201b31f743cb29204bff6465a19aba56946ed9c), compiling.
+LogTexture: Display: Building texture TwoD: /InterchangeAssets/Utilities/New_LUT.New_LUT (RGBA16F, 3813x1192 x1x1x1) (Required Memory Estimate: 105.028992 MB), EncodeSpeed: Final
+2026-09-29 23:20:16.545419621 [W:onnxruntime:, device_discovery.cc:211 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:91 ReadFileContents Failed to open file: "/sys/class/drm/card0/device/vendor"
+LogMaterial: Display: Missing cached shadermap for /Game/Showcase/M_Room.M_Room in VULKAN_SM6, Default, SM6, Game (DDC key hash: b2f30adc67460ca2dc040224d83d40bd7f938684), compiling.
+LogTexture: Display: Building texture TwoD: /Engine/EditorResources/S_BoxReflectionCapture.S_BoxReflectionCapture (BGRA8, 256x256 x1x1x1) (Required Memory Estimate: 3.249992 MB), EncodeSpeed: Final
+LogTexture: Display: Building texture TwoD: /Engine/EditorResources/S_Trigger.S_Trigger (BGRA8, 256x256 x1x1x1) (Required Memory Estimate: 3.249992 MB), EncodeSpeed: Final
+LogTexture: Display: Building texture TwoD: /Engine/EditorResources/S_TriggerBox.S_TriggerBox (BGRA8, 256x256 x1x1x1) (Required Memory Estimate: 3.249992 MB), EncodeSpeed: Final
+LogTexture: Display: Building texture TwoD: /Engine/EditorResources/S_TriggerCapsule.S_TriggerCapsule (BGRA8, 256x256 x1x1x1) (Required Memory Estimate: 3.249992 MB), EncodeSpeed: Final
+LogTexture: Display: Building texture TwoD: /Engine/EditorResources/S_TriggerSphere.S_TriggerSphere (BGRA8, 256x256 x1x1x1) (Required Memory Estimate: 3.249992 MB), EncodeSpeed: Final
+LogTexture: Display: Building texture TwoD: /Engine/EditorResources/S_Solver.S_Solver (BGRA8, 256x256 x1x1x1) (Required Memory Estimate: 3.249992 MB), EncodeSpeed: Final
+LogTexture: Display: Building texture TwoD: /Water/Icons/WaterBodyIslandSprite.WaterBodyIslandSprite (TFO_AutoDXT, 256x256 x1x1x1) (Required Memory Estimate: 11.333209 MB), EncodeSpeed: Final
+LogTexture: Display: Building texture TwoD: /Water/Icons/WaterZoneActorSprite.WaterZoneActorSprite (TFO_AutoDXT, 256x256 x1x1x1) (Required Memory Estimate: 11.333209 MB), EncodeSpeed: Final
+LogMaterial: Display: Missing cached shadermap for /Engine/EngineMaterials/DefaultLightFunctionMaterial.DefaultLightFunctionMaterial in VULKAN_SM6, Default, SM6, Game (DDC key hash: 3f7502e2004605518e866719278a367d5135dbf9), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EditorMaterials/WidgetVertexColorMaterial.WidgetVertexColorMaterial in VULKAN_SM6, Default, SM6, Game (DDC key hash: 96aed02b5c87865f5e4b03f37a7f1a2456487738), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EditorMaterials/Camera/CineMat.CineMat in VULKAN_SM6, Default, SM6, Game (DDC key hash: 98302e20bcf2f769db8d99134b86e97abc887ba6), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EditorLandscapeResources/SplineEditorMeshMat.SplineEditorMeshMat in VULKAN_SM6, Default, SM6, Game (DDC key hash: c15d9ba13b924b07a96e86942935ca8373824007), compiling.
+LogTexture: Display: Building texture TwoD: /Water/Icons/WaterBodyExclusionVolumeSprite.WaterBodyExclusionVolumeSprite (TFO_AutoDXT, 256x256 x1x1x1) (Required Memory Estimate: 11.333209 MB), EncodeSpeed: Final
+LogMaterial: Display: Missing cached shadermap for /HairStrands/Materials/HairDefaultMaterial.HairDefaultMaterial in VULKAN_SM6, Default, SM6, Game (DDC key hash: f2328695da24ad04b6cc16360533edb77c89aa7d), compiling.
+LogMaterial: Display: Missing cached shadermap for /HairStrands/Materials/HairCardsDefaultMaterial.HairCardsDefaultMaterial in VULKAN_SM6, Default, SM6, Game (DDC key hash: a0db174d3d5598f6de43a812893b423166f94ac0), compiling.
+LogMaterial: Display: Missing cached shadermap for /HairStrands/Materials/HairMeshesDefaultMaterial.HairMeshesDefaultMaterial in VULKAN_SM6, Default, SM6, Game (DDC key hash: 3ac3df61795514855aa42316f9f34b0a0ed2a1a2), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EngineDebugMaterials/M_SimpleUnlitTranslucent.M_SimpleUnlitTranslucent in VULKAN_SM6, Default, SM6, Game (DDC key hash: b757cfa9d876179895021822c53315fe961ae38a), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial.TranslucentTransformGizmoMaterial in VULKAN_SM6, Default, SM6, Game (DDC key hash: 196afb99a6041fea0da05907fdaf5292ad888a35), compiling.
+LogMaterial: Display: Missing cached shadermap for /ControlRig/Controls/ControlRigXRayMaterial.ControlRigXRayMaterial in VULKAN_SM6, Default, SM6, Game (DDC key hash: 1618419a895dbd1cdf7b1a066424c3bc15127cda), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/VREditor/TransformGizmo/Main.Main in VULKAN_SM6, Default, SM6, Game (DDC key hash: ad3382f8d8eba990079388d991b3f94447de27bd), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/VREditor/TransformGizmo/Xray.Xray in VULKAN_SM6, Default, SM6, Game (DDC key hash: 5d308b826aa5860d7376a49da0939ed534b7bcb4), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/BasicShapes/BasicShapeMaterial.BasicShapeMaterial in VULKAN_SM6, Default, SM6, Game (DDC key hash: 6cf80986d7bb3b18a388fd7a2c03e091ae9e6fc0), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EditorMaterials/Dataflow/DataflowVertexMaterial.DataflowVertexMaterial in VULKAN_SM6, Default, SM6, Game (DDC key hash: 0e8fd0300f7e6e43006b34f25d5508d5b2761c53), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EngineMaterials/RemoveSurfaceMaterial.RemoveSurfaceMaterial in VULKAN_SM6, Default, SM6, Game (DDC key hash: 2fb6ad75843d1adcee8be41d4dc1d403c8e192a2), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EngineDebugMaterials/DebugMeshMaterial.DebugMeshMaterial in VULKAN_SM6, Default, SM6, Game (DDC key hash: e55c92456c6ae04d0c3eaa4975e225bc944f46d6), compiling.
+LogTextureFormatOodle: Display: Oodle Texture loading DLL: liboo2texlinux64.2.9.11.so
+LogTextureFormatOodle: Display: Oodle Texture loading DLL: liboo2texlinux64.2.9.12.so
+LogTextureFormatOodle: Display: Oodle Texture loading DLL: liboo2texlinux64.2.9.15.so
+LogMaterial: Display: Missing cached shadermap for /Engine/EditorMaterials/Dataflow/DataflowTwoSidedVertexMaterial.DataflowTwoSidedVertexMaterial in VULKAN_SM6, Default, SM6, Game (DDC key hash: 4825eeb7912538ecbf05d163ced96a1a5280dacc), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EditorMaterials/Dataflow/DataflowTwoSidedVertexMaterial.SculptMaterial in VULKAN_SM6, Default, SM6, Game (DDC key hash: 2676d68cc37debd6a33d43cee49e22e62b8ef6de), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EngineMaterials/NaniteHiddenSectionMaterial.NaniteHiddenSectionMaterial in VULKAN_SM6, Default, SM6, Game (DDC key hash: ddc5b861234bb36622d233862ca798d430c6017a), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EngineMaterials/GizmoMaterial.GizmoMaterial in VULKAN_SM6, Default, SM6, Game (DDC key hash: 66aba4eff9399e61a3b1a12fc3f8f854256cf417), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EditorMaterials/PhAT_UnselectedMaterial.PhAT_UnselectedMaterial in VULKAN_SM6, Default, SM6, Game (DDC key hash: f9961d8f9edbdfa16be84ff33019e794ee2a8eeb), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EditorMaterials/PhAT_NoCollisionMaterial.PhAT_NoCollisionMaterial in VULKAN_SM6, Default, SM6, Game (DDC key hash: f6a6b652340dfa01d2c475ea85a1c4e52eaee943), compiling.
+LogCook: Display: Cooked packages 434 Packages Remain 190 Total 624
+LogTexture: Display: Building texture TwoD: /Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase (TFO_AutoDXT, 16x16 x1x1x1) (Required Memory Estimate: 1.040326 MB), EncodeSpeed: Final
+LogTexture: Display: Building texture TwoD: /Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend (TFO_AutoDXT, 16x16 x1x1x1) (Required Memory Estimate: 1.040326 MB), EncodeSpeed: Final
+LogTexture: Display: Building texture TwoD: /Engine/EngineResources/Black_Low.Black (BGRA8, 32x32 x1x1x1) (Required Memory Estimate: 1.023438 MB), EncodeSpeed: Final
+LogTexture: Display: Building texture TwoD: /SpeedTreeImporter/SpeedTree9/Empty.Empty (TFO_AutoDXT, 4x4 x1x1x1) (Required Memory Estimate: 1.002484 MB), EncodeSpeed: Final
+LogTexture: Display: Building texture TwoD: /Engine/EngineMaterials/BaseFlattenGrayscaleMap.BaseFlattenGrayScaleMap (G8, 32x32 x1x1x1) (Required Memory Estimate: 1.031243 MB), EncodeSpeed: Final
+LogTexture: Display: Building texture TwoD: /Engine/Functions/Engine_MaterialFunctions02/PivotPainter2/Black_1x1_EXR_Texture.Black_1x1_EXR_Texture (RGBA16F, 1x1 x1x1x1) (Required Memory Estimate: 1.000034 MB), EncodeSpeed: Final
+LogTexture: Display: Building texture TwoD: /Engine/EngineMaterials/BaseFlattenLinearColor.BaseFlattenLinearColor (TFO_AutoDXT, 32x32 x1x1x1) (Required Memory Estimate: 1.16142 MB), EncodeSpeed: Final
+LogTexture: Display: Building texture TwoD: /Engine/EngineMaterials/BaseFlattenGrayscaleMap_VT.BaseFlattenGrayscaleMap_VT (G8 VT, 32x32 x1x1x1) (Required Memory Estimate: 1.045572 MB), EncodeSpeed: Final
+LogTexture: Display: Building texture TwoD: /Engine/EngineMaterials/Black_1x1_EXR_Texture_VT.Black_1x1_EXR_Texture_VT (RGBA16F VT, 1x1 x1x1x1) (Required Memory Estimate: 1.141141 MB), EncodeSpeed: Final
+LogTexture: Display: Building texture TwoD: /Engine/EngineMaterials/BaseFlattenLinearColor_VT.BaseFlattenLinearColor_VT (TFO_AutoDXT VT, 32x32 x1x1x1) (Required Memory Estimate: 2.788655 MB), EncodeSpeed: Final
+LogTexture: Display: Building texture TwoD: /Engine/EngineMaterials/BaseFlattenNormalMap.BaseFlattenNormalMap (BGRA8, 1x1 x1x1x1) (Required Memory Estimate: 1.000027 MB), EncodeSpeed: Final
+LogTexture: Display: Building texture TwoD: /Engine/EngineMaterials/BaseFlattenDiffuseMap.BaseFlattenDiffuseMap (TFO_AutoDXT, 32x32 x1x1x1) (Required Memory Estimate: 1.16142 MB), EncodeSpeed: Final
+LogTexture: Display: Building texture TwoD: /Engine/EngineMaterials/BaseFlattenNormalMap_VT.BaseFlattenNormalMap_VT (TFO_BC5 VT, 16x16 x1x1x1) (Required Memory Estimate: 4.357625 MB), EncodeSpeed: Final
+LogTexture: Display: Building texture TwoD: /Engine/EngineMaterials/BaseFlattenDiffuseMap_VT.BaseFlattenDiffuseMap_VT (TFO_AutoDXT VT, 32x32 x1x1x1) (Required Memory Estimate: 2.788655 MB), EncodeSpeed: Final
+LogTexture: Display: Building texture TwoD: /Engine/EngineMaterials/BaseFlattenEmissiveMap.BaseFlattenEmissiveMap (TFO_AutoDXT, 32x32 x1x1x1) (Required Memory Estimate: 1.16142 MB), EncodeSpeed: Final
+LogTexture: Display: Building texture TwoD: /Water/Icons/WaterSprite.WaterSprite (TFO_AutoDXT, 256x256 x1x1x1) (Required Memory Estimate: 11.333209 MB), EncodeSpeed: Final
+LogTexture: Display: Building texture TwoD: /Engine/EngineMaterials/BaseFlattenEmissiveMap_VT.BaseFlattenEmissiveMap_VT (TFO_AutoDXT VT, 32x32 x1x1x1) (Required Memory Estimate: 2.788655 MB), EncodeSpeed: Final
+LogTexture: Display: Building texture TwoD: /Water/Icons/WaterErrorSprite.WaterErrorSprite (TFO_AutoDXT, 256x256 x1x1x1) (Required Memory Estimate: 11.333209 MB), EncodeSpeed: Final
+LogTexture: Display: Building texture TwoD: /Engine/EngineMaterials/SMAAAreaTex.SMAAAreaTex (BGRA8, 160x560 x1x1x1) (Required Memory Estimate: 4.076157 MB), EncodeSpeed: Final
+LogTexture: Display: Building texture TwoD: /Engine/EngineMaterials/EnergyConservation/Sheen_Energy.Sheen_Energy (TFO_DXT1, 32x32 x1x1x1) (Required Memory Estimate: 1.120414 MB), EncodeSpeed: Final
+LogTexture: Display: Building texture TwoD: /SpeedTreeImporter/SpeedTree9/EmptyNormal.EmptyNormal (TFO_AutoDXT, 4x4 x1x1x1) (Required Memory Estimate: 1.002484 MB), EncodeSpeed: Final
+LogTexture: Display: Building texture TwoD: /Engine/EngineMaterials/EnergyConservation/Diffuse_Energy.Diffuse_Energy (TFO_DXT1, 32x32 x1x1x1) (Required Memory Estimate: 1.120414 MB), EncodeSpeed: Final
+LogTexture: Display: Building texture TwoD: /Engine/ArtTools/RenderToTexture/Textures/T_EV_BlankWhite_01.T_EV_BlankWhite_01 (TFO_AutoDXT, 4x4 x1x1x1) (Required Memory Estimate: 1.002484 MB), EncodeSpeed: Final
+LogTexture: Display: Building texture TwoD: /Water/Icons/WaterLandscapeBrushSprite.WaterLandscapeBrushSprite (TFO_AutoDXT, 256x256 x1x1x1) (Required Memory Estimate: 11.333209 MB), EncodeSpeed: Final
+LogTexture: Display: Building texture TwoD: /Engine/EngineMaterials/SMAASearchTex.SMAASearchTex (BGRA8, 64x16 x1x1x1) (Required Memory Estimate: 1.032219 MB), EncodeSpeed: Final
+LogTexture: Display: Building texture TwoD: /SpeedTreeImporter/SpeedTree9/game_wind_noise.game_wind_noise (BGRA8, 1024x1024 x1x1x1) (Required Memory Estimate: 25.000 MB), EncodeSpeed: Final
+LogTexture: Display: Building texture TwoD: /Engine/EngineMaterials/FastBlueNoise_scalar_128x128x8.FastBlueNoise_scalar_128x128x8 (G8, 128x1025 x1x1x1) (Required Memory Estimate: 5.0039 MB), EncodeSpeed: Final
+LogMaterial: Display: Missing cached shadermap for /Engine/EngineDebugMaterials/DebugEditorMaterial.DebugEditorMaterial in VULKAN_SM6, Default, SM6, Game (DDC key hash: b9f74f3fc099225c350f5a852e39f239054d88e6), compiling.
+LogTextureFormatOodle: Display: Oodle Texture loading DLL: liboo2texlinux64.2.9.13.so
+LogTexture: Display: Building texture TwoD: /Engine/EngineResources/Development/ZenLogo_64.ZenLogo_64 (TFO_AutoDXT, 64x64 x1x1x1) (Required Memory Estimate: 1.645795 MB), EncodeSpeed: Final
+LogTexture: Display: Building texture TwoD: /Engine/EditorResources/BSPVertex.BSPVertex (TFO_AutoDXT, 16x16 x1x1x1) (Required Memory Estimate: 1.040326 MB), EncodeSpeed: Final
+LogTexture: Display: Building texture TwoD: /Engine/EngineResources/FilmGrains/Marcie_Grain_v3_128_M2_000.Marcie_Grain_v3_128_M2_000 (TFO_BC7, 128x128 x1x1x1) (Required Memory Estimate: 2.395814 MB), EncodeSpeed: Final
+LogTexture: Display: Building texture TwoD: /Engine/EngineMaterials/DefaultBloomKernel.DefaultBloomKernel (RGBA16F, 2048x2048 x1x1x1) (Required Memory Estimate: 113.000 MB), EncodeSpeed: Final
+LogMaterial: Display: Missing cached shadermap for /ControlRig/Controls/ControlRigGizmoMaterial.ControlRigGizmoMaterial in VULKAN_SM6, Default, SM6, Game (DDC key hash: 28efda1180d97786d313952d079ae0d7ceccd188), compiling.
+LogCook: Display: Cooked packages 519 Packages Remain 105 Total 624
+LogCook: Display: Cooked packages 520 Packages Remain 104 Total 624
+LogCook: Display: Cooked packages 525 Packages Remain 99 Total 624
+LogCook: Display: Cooked packages 530 Packages Remain 94 Total 624
+LogCook: Display: Cooked packages 532 Packages Remain 92 Total 624
+LogCook: Display: Cooked packages 535 Packages Remain 89 Total 624
+LogCook: Display: Cooked packages 537 Packages Remain 87 Total 624
+LogCook: Display: Cook Diagnostics: OpenFileHandles=0, VirtualMemory=18763MiB, VirtualMemoryAvailable=259566MiB
+LogCook: Display: Garbage collection triggered (Soft). Triggered by conditions:
+  CookSettings.SoftGCTimeTrigger: Periodic triggering of SoftGC: SoftGCTimeFractionBudget == 0.050. TimeSinceLastGCSeconds == 30.005. CurrentTimeBudget == 1.579. ExpectedDuration == 0.210.
+LogCookCommandlet: Display: GarbageCollection... (Periodic GC)
+LogCook: Display: Cooked packages 539 Packages Remain 85 Total 624
+LogCook: Display: Cooked packages 542 Packages Remain 82 Total 624
+LogCook: Display: Cooked packages 544 Packages Remain 80 Total 624
+LogCook: Display: Cooked packages 547 Packages Remain 77 Total 624
+LogCook: Display: Cooked packages 552 Packages Remain 72 Total 624
+LogCook: Display: Cooked packages 554 Packages Remain 70 Total 624
+LogCook: Display: Cooked packages 564 Packages Remain 60 Total 624
+LogCook: Display: Cooked packages 574 Packages Remain 50 Total 624
+LogCook: Display: Cooked packages 575 Packages Remain 49 Total 624
+LogCook: Display: Cooked packages 576 Packages Remain 48 Total 624
+LogCook: Display: Cooked packages 578 Packages Remain 46 Total 624
+LogCook: Display: Cooked packages 579 Packages Remain 45 Total 624
+LogCook: Display: Cooked packages 581 Packages Remain 43 Total 624
+LogCook: Display: Cooked packages 594 Packages Remain 31 Total 625
+LogCook: Display: Garbage collection triggered (Soft). Triggered by conditions:
+  CookSettings.SoftGCTimeTrigger: Periodic triggering of SoftGC: SoftGCTimeFractionBudget == 0.050. TimeSinceLastGCSeconds == 30.006. CurrentTimeBudget == 1.579. ExpectedDuration == 0.161.
+LogCookCommandlet: Display: GarbageCollection... (Periodic GC)
+LogCook: Display: Cooked packages 606 Packages Remain 19 Total 625
+LogCook: Display: Cook Diagnostics: OpenFileHandles=0, VirtualMemory=18559MiB, VirtualMemoryAvailable=265660MiB
+LogCook: Display: Cooked packages 619 Packages Remain 6 Total 625
+LogCook: Display: Cooked packages 625 Packages Remain 0 Total 625
+LogCook: Display: Cook Diagnostics: OpenFileHandles=0, VirtualMemory=18559MiB, VirtualMemoryAvailable=265432MiB
+LogCook: Display: ---- Finalisation: Start ----
+LogShaderCompilers: Display: ================================================
+LogShaderCompilers: Display: === FShaderJobCache stats ===
+LogShaderCompilers: Display: Total job queries 15146, among them cache hits 2594 (17.13%), DDC hits 9759 (64.43%), Duplicates 1013 (6.69%)
+LogShaderCompilers: Display: Tracking 11539 distinct input hashes that result in 9951 distinct outputs (86.24%)
+LogShaderCompilers: Display: RAM used: 106.03 MiB of 4.60 GiB budget. Usage: 2.25%
+LogShaderCompilers: Display: === Shader Compilation stats ===
+LogShaderCompilers: Display: Shaders Compiled: 1780
+LogShaderCompilers: Display: Jobs assigned 1780, completed 1780 (100%)
+LogShaderCompilers: Display: Average time worker was idle: 0.00 s
+LogShaderCompilers: Display: Time job spent in pending queue: average 22.36 s, longest 60.26 s
+LogShaderCompilers: Display: Job execution time: average 8.61 s, max 20.17 s
+LogShaderCompilers: Display: Job life time (pending + execution): average 30.97 s, max 64.39
+LogShaderCompilers: Display: Shader code size: total 54.645508 MiB, numShaders 1897, average 29.49707 KiB, min 347 B, max 200.858398 KiB
+LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 64.79 s
+LogShaderCompilers: Display: Jobs were issued in 310 batches (only local compilation was used), average 5.74 jobs/batch
+LogShaderCompilers: Display: Average processing rate: 27.47 jobs/sec
+LogShaderCompilers: Display: Total thread time: 1741.826 s
+LogShaderCompilers: Display: Total thread preprocess time: 250.039 s
+LogShaderCompilers: Display: Percentage time preprocessing: 14.36%
+LogShaderCompilers: Display: Effective parallelization: 26.89 (times faster than compiling all shaders on one thread). Compare with number of workers: 28 - 0.960185
+LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+LogShaderCompilers: Display:                                                 FLumenCardCS (compiled   13 times, average 5.26 sec, max 7.82 sec, min 3.25 sec)
+LogShaderCompilers: Display:          TBasePassCSTDistanceFieldShadowsAndLightMapPolicyHQ (compiled    5 times, average 4.43 sec, max 5.36 sec, min 3.53 sec)
+LogShaderCompilers: Display:                                 TBasePassCSTLightMapPolicyHQ (compiled    5 times, average 4.37 sec, max 5.32 sec, min 3.47 sec)
+LogShaderCompilers: Display:                                 TBasePassCSTLightMapPolicyLQ (compiled    5 times, average 4.19 sec, max 5.10 sec, min 3.45 sec)
+LogShaderCompilers: Display:      TBasePassCSFPrecomputedVolumetricLightmapLightingPolicy (compiled    8 times, average 4.12 sec, max 6.45 sec, min 3.23 sec)
+LogShaderCompilers: Display: Top 5 shader types by total compile time:
+LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 9.07% of total time (compiled  164 times, average 0.96 sec, max 5.96 sec, min 0.44 sec)
+LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy - 7.43% of total time (compiled  113 times, average 1.15 sec, max 6.20 sec, min 0.47 sec)
+LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 6.94% of total time (compiled  110 times, average 1.10 sec, max 5.70 sec, min 0.47 sec)
+LogShaderCompilers: Display:                                        FMicropolyRasterizeCS - 5.14% of total time (compiled   25 times, average 3.58 sec, max 6.17 sec, min 1.27 sec)
+LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy - 4.92% of total time (compiled   94 times, average 0.91 sec, max 1.74 sec, min 0.52 sec)
+LogShaderCompilers: Display: === Material stats ===
+LogShaderCompilers: Display: Materials Cooked:        126
+LogShaderCompilers: Display: Materials Translated:    111
+LogShaderCompilers: Display: Material Total Translate Time: 0.36 s
+LogShaderCompilers: Display: Material Translation Only: 0.21 s (58%)
+LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+LogShaderCompilers: Display: ================================================
+LogCook: Display: CookArtifact '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Saved/Cooked/Linux/MorphRig/Metadata/ValidationCookArtifact.json' saved.
+LogAssetRegistryGenerator: Display: Saving asset registry v24.
+LogAssetRegistryGenerator: Display: Generated development asset registry /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Saved/Cooked/Linux/MorphRig/Metadata/DevelopmentAssetRegistry.bin num assets 628, size is 497.34kb, XxHash64[LE] = 0xBEC5DB6E0DD2AA98, waited on hash 0.00 seconds
+LogAssetRegistryGenerator: Display: Generated asset registry num assets 621, size is 180.44kb
+LogShaderLibrary: Display:
+LogShaderLibrary: Display: Shader Library 'MorphRig' (SF_VULKAN_SM6-VULKAN_SM6) Stats:
+LogShaderLibrary: Display: =================
+LogShaderLibrary: Display: Assets: 112, Unique Shadermaps: 113 (100.89%)
+LogShaderLibrary: Display: Total Shaders: 2747, Unique Shaders: 1953 (71.10%)
+LogShaderLibrary: Display: Total Shader Size: 19.19mb, Unique Shaders Size: 15.76mb (82.14%)
+LogShaderLibrary: Display: === Extended info:
+LogShaderLibrary: Display: Minimum number of shaders in shadermap: 1
+LogShaderLibrary: Display: Median number of shaders in shadermap: 12
+LogShaderLibrary: Display: Maximum number of shaders in shadermap: 802
+LogShaderLibrary: Display: Number of shadermaps referencing top 10 most shared shaders:
+LogShaderLibrary: Display:     26, 25, 24, 23, 22, 20, 17, 17, 16, 16
+LogShaderLibrary: Display: Unique shaders itemization (sorted by compressed size):
+LogShaderLibrary: Display: SF_Pixel: 919 shaders (47.06%), compressed size: 5.99 MB (6.67 KB avg per shader), uncompressed size: 22.74 MB (25.34 KB avg per shader)
+LogShaderLibrary: Display: SF_Compute: 361 shaders (18.48%), compressed size: 5.41 MB (15.34 KB avg per shader), uncompressed size: 23.60 MB (66.94 KB avg per shader)
+LogShaderLibrary: Display: SF_Vertex: 586 shaders (30.01%), compressed size: 3.34 MB (5.84 KB avg per shader), uncompressed size: 11.67 MB (20.39 KB avg per shader)
+LogShaderLibrary: Display: SF_Mesh: 87 shaders (4.45%), compressed size: 1.03 MB (12.08 KB avg per shader), uncompressed size: 4.18 MB (49.17 KB avg per shader)
+LogShaderLibrary: Display: Textual dump saved to '../../../../../Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Saved/Shaders/SF_VULKAN_SM6-VULKAN_SM6/ShaderDebug-MorphRig-SF_VULKAN_SM6-VULKAN_SM6/Dump.txt'
+LogShaderLibrary: Display: =================
+LogCook: Display: Dependent plugin "SteamShared" referenced by "EOS Shared" wasn't found in enabled plugins list when creating cook metadata file... skipping
+LogCook: Display: Dependent plugin "UAF" referenced by "IK Rig" wasn't found in enabled plugins list when creating cook metadata file... skipping
+LogCook: Display: Dependent plugin "UAFAnimGraph" referenced by "IK Rig" wasn't found in enabled plugins list when creating cook metadata file... skipping
+LogCook: Display: Finalize package store(s)...
+LogZenStoreWriter: Display: Flushing...
+LogZenStoreWriter: Display: Saving Zen filesystem manifest '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Saved/Cooked/Linux/MorphRig/Metadata/zenfs.manifest'
+LogZenStoreWriter: Display: Output:	48523 Public runtime script objects
+LogCook: Display: Cook by the book total time in tick 65.881487s total time 73.751488
+LogCook: Display: Peak Used virtual 18901 MiB Peak Used physical 3968 MiB
+LogCook: Display: Packages Cooked: 618, Packages Incrementally Skipped: 0, Packages Skipped by Platform: 7, Total Packages: 625
+LogCookStats: Display: Hierarchy Timer Information:
+LogCookStats: Display:   Root: 0.000s (0)
+LogCookStats: Display:     CleanSandbox: 0.003s (1)
+LogCookStats: Display:     CollectFilesToCook: 0.003s (1)
+LogCookStats: Display:       CookModificationDelegate: 0.000s (1)
+LogCookStats: Display:     GenerateLongPackageName: 0.000s (1)
+LogCookStats: Display:     TickMainCookLoop: 65.881s (4)
+LogCookStats: Display:       PumpPollables: 0.024s (26)
+LogCookStats: Display:       PumpRequests: 0.011s (21)
+LogCookStats: Display:       LoadPackageForCooking: 1.696s (3724)
+LogCookStats: Display:       ValidateSourcePackage: 0.000s (625)
+LogCookStats: Display:       SavingPackages: 14.709s (4972)
+LogCookStats: Display:         PollPendingCookedPlatformDatas: 1.828s (333168)
+LogCookStats: Display:         PrepareSave: 4.036s (332724)
+LogCookStats: Display:         PrecachePlatformDataForNextPackage: 3.465s (624)
+LogCookStats: Display:           PrepareSave: 3.465s (935)
+LogCookStats: Display:         SaveCookedPackage: 4.690s (625)
+LogCookStats: Display:           GEditorSavePackage: 4.389s (625)
+LogCookStats: Display:             VerifyCanCookPackage: 0.004s (618)
+LogCookStats: Display:           TargetDomainDependencies: 0.139s (625)
+LogCookStats: Display:         ClearAllCachedCookedPlatformData: 0.017s (625)
+LogCookStats: Display:       PostLoadPackageFixup: 0.000s (2)
+LogCookStats: Display:       WaitForAsync: 48.934s (4837)
+LogCookStats: Display:     CookByTheBookFinished: 0.183s (1)
+LogCookStats: Display:       SavingCurrentIniSettings: 0.018s (1)
+LogCookStats: Display:         ProcessingAccessedStrings: 0.001s (1)
+LogCookStats: Display:       ChunkGeneration: 0.005s (1)
+LogCookStats: Display:       FinishPopulateShaderLibrary: 0.000s (1)
+LogCookStats: Display:       CalculateReferencedSet: 0.000s (1)
+LogCookStats: Display:       CookArtifacts.UpdateOplogPackages: 0.002s (1)
+LogCookStats: Display:       PruneShaderLibrary: 0.000s (1)
+LogCookStats: Display:       GeneratorPreSave: 0.000s (1)
+LogCookStats: Display:       BuildChunkManifest: 0.006s (1)
+LogCookStats: Display:         FixupPackageDependenciesForChunks: 0.003s (1)
+LogCookStats: Display:       SaveManifests: 0.000s (1)
+LogCookStats: Display:       SaveAssetRegistry: 0.017s (1)
+LogCookStats: Display:       WriteCookerOpenOrder: 0.001s (1)
+LogCookStats: Display:       WriteCookMetadata: 0.000s (1)
+LogCookStats: Display:       WriteReferencedSet: 0.000s (1)
+LogCookStats: Display:       FinalizePackageStore: 0.105s (1)
+LogCookStats: Display: Misc Cook Stats
+LogCookStats: Display: ===============
+LogCookStats: Display: Validation
+LogCookStats: Display:     Stats=[]
+LogCookStats: Display: Niagara
+LogCookStats: Display:     NiagaraScriptTranslationCount=0
+LogCookStats: Display:     NiagaraCpuScriptCompileCount=0
+LogCookStats: Display:     NiagaraCpuScriptDdcCacheHitCount=0
+LogCookStats: Display:     NiagaraCpuScriptDdcCacheMissCount=0
+LogCookStats: Display:     NiagaraGpuScriptCompileCount=0
+LogCookStats: Display:     NiagaraGpuScriptDdcCacheHitCount=0
+LogCookStats: Display:     NiagaraGpuScriptDdcCacheMissCount=0
+LogCookStats: Display:     NiagaraSystemWaitForCompilationCompleteTime=0.000000
+LogCookStats: Display: ComputeKernelShader.Misc
+LogCookStats: Display:     ShadersCompiled=129
+LogCookStats: Display: NiagaraShader.Misc
+LogCookStats: Display:     ShadersCompiled=0
+LogCookStats: Display: ShaderCompiler
+LogCookStats: Display:     BlockingTimeSec=9.539543
+LogCookStats: Display:     AsyncCompileTimeSec=1784.053257
+LogCookStats: Display:     GlobalBeginCompileShaderTimeSec=0.546247
+LogCookStats: Display:     GlobalBeginCompileShaderCalls=15298
+LogCookStats: Display:     ProcessAsyncResultsTimeSec=0.776813
+LogCookStats: Display: GlobalShader.Misc
+LogCookStats: Display:     ShadersCompiled=10192
+LogCookStats: Display: Material
+LogCookStats: Display:     FinishCacheShadersSec=1.341076
+LogCookStats: Display: Cook.Profile.Params
+LogCookStats: Display:     CookProject=MorphRig
+LogCookStats: Display:     CookCultures=
+LogCookStats: Display:     CookLabel=
+LogCookStats: Display:     TargetPlatforms=Linux
+LogCookStats: Display:     IsCookAll=false
+LogCookStats: Display:     IsCookOnTheFly=false
+LogCookStats: Display:     IsIncrementalCook=false
+LogCookStats: Display:     IsIterativeCook=false
+LogCookStats: Display:     IsFastCook=false
+LogCookStats: Display:     IsUnversioned=true
+LogCookStats: Display: CookOnTheFlyServer.Package.Load
+LogCookStats: Display:     NumRequestedLoads=3361
+LogCookStats: Display:     NumPackagesLoaded=3438
+LogCookStats: Display:     NumInlineLoads=77
+LogCookStats: Display: CookOnTheFlyServer.Package.Save
+LogCookStats: Display:     NumPackagesIncrementallySkipped=0
+LogCookStats: Display: CookOnTheFlyServer.QueueSize
+LogCookStats: Display:     PeakRequest=624
+LogCookStats: Display:     PeakLoad=93
+LogCookStats: Display:     PeakSave=167
+LogCookStats: Display: Package.Load
+LogCookStats: Display:     LoadPackageTimeSec=1.788732
+LogCookStats: Display: Package.Save
+LogCookStats: Display:     NumPackagesSaved=625
+LogCookStats: Display:     SavePackageTimeSec=4.349936
+LogCookStats: Display:     TagPackageExportsPresaveTimeSec=0.000000
+LogCookStats: Display:     TagPackageExportsTimeSec=0.000000
+LogCookStats: Display:     FullyLoadLoadersTimeSec=0.000000
+LogCookStats: Display:     ResetLoadersTimeSec=0.000000
+LogCookStats: Display:     TagPackageExportsGetObjectsWithOuter=0.000000
+LogCookStats: Display:     TagPackageExportsGetObjectsWithMarks=0.000000
+LogCookStats: Display:     SerializeImportsTimeSec=0.000000
+LogCookStats: Display:     SortExportsSeekfreeInnerTimeSec=0.000000
+LogCookStats: Display:     SerializeExportsTimeSec=0.000000
+LogCookStats: Display:     SerializeBulkDataTimeSec=0.014909
+LogCookStats: Display:     AsyncWriteTimeSec=0.000000
+LogCookStats: Display:     MBWritten=0.000000
+LogCookStats: Display: Package.DifferentPackagesSizeMBPerAsset
+LogCookStats: Display: Package.NumberOfDifferencesInPackagesPerAsset
+LogCookStats: Display: Package.PackageDifferencesSizeMBPerAsset
+LogCookStats: Display: Package.DiffTotal
+LogCookStats: Display:     NumberOfDifferentPackages=0
+LogCookStats: Display:     DifferentPackagesSizeMB=0.000000
+LogCookStats: Display:     NumberOfDifferencesInPackages=0
+LogCookStats: Display:     PackageDifferencesSizeMB=0.000000
+LogCookStats: Display: UnversionedProperties
+LogCookStats: Display:     SavedStructs=0
+LogCookStats: Display:     SavedMB=0
+LogCookStats: Display:     EquivalentTaggedMB=0
+LogCookStats: Display:     CompressionRatio=-nan
+LogCookStats: Display:     BitfieldWasteKB=0
+LogCookStats: Display:
+LogCookStats: Display: Cook Profile
+LogCookStats: Display: ============
+LogCookStats: Display:  0.CookWallTimeSec=78.596205
+LogCookStats: Display:  0. 0.StartupWallTimeSec=4.722383
+LogCookStats: Display:  0. 1.CookProcessingTime=73.873822
+LogCookStats: Display:  0. 1. 1.StartCookByTheBookTimeSec=7.438616
+LogCookStats: Display:  0. 1. 1. 0.BlockOnAssetRegistryTimeSec=1.745985
+LogCookStats: Display:  0. 1. 1. 1.GameCookModificationDelegateTimeSec=0.000020
+LogCookStats: Display:  0. 1. 2.TickCookOnTheSideTimeSec=60.161124
+LogCookStats: Display:  0. 1. 2. 0.TickCookOnTheSideLoadPackagesTimeSec=1.696061
+LogCookStats: Display:  0. 1. 2. 1.TickCookOnTheSideSaveCookedPackageTimeSec=4.690394
+LogCookStats: Display:  0. 1. 2. 1. 0.TickCookOnTheSideResolveRedirectorsTimeSec=0.000000
+LogCookStats: Display:  0. 1. 2. 2.TickCookOnTheSidePrepareSaveTimeSec=7.523027
+LogCookStats: Display:  0. 1. 3.TickLoopGCTimeSec=0.368074
+LogCookStats: Display:  0. 1. 4.TickLoopRecompileShaderRequestsTimeSec=0.000000
+LogCookStats: Display:  0. 1. 5.TickLoopShaderProcessAsyncResultsTimeSec=0.009541
+LogCookStats: Display:  0. 1. 6.TickLoopProcessDeferredCommandsTimeSec=0.000029
+LogCookStats: Display:  0. 1. 7.TickLoopTickCommandletStatsTimeSec=0.000010
+LogCookStats: Display:  0. 1. 8.TickLoopFlushRenderingCommandsTimeSec=0.014429
+LogCookStats: Display:  0. 1. 9.ShaderFlushTimeSec=0.000000
+LogCookStats: Display:  0. 1. 10.ValidationTimeSec=0.000256
+LogCookStats: Display:
+LogCookStats: Display: DDC Summary Stats
+LogCookStats: Display: =================
+LogCookStats: Display: BackEnd         =InstalledDerivedDataBackendGraph
+LogCookStats: Display: HasLocalCache   =      true
+LogCookStats: Display: HasSharedCache  =     false
+LogCookStats: Display: HasCloudCache   =     false
+LogCookStats: Display: HasZenCache     =     false
+LogCookStats: Display: TotalGetHits    =     10135
+LogCookStats: Display: TotalGetMisses  =      5752
+LogCookStats: Display: TotalGets       =     15887
+LogCookStats: Display: TotalGetHitPct  =  0.637943
+LogCookStats: Display: GetMissPct      =  0.362057
+LogCookStats: Display: TotalPutHits    =      5783
+LogCookStats: Display: TotalPutMisses  =         0
+LogCookStats: Display: TotalPuts       =      5783
+LogCookStats: Display: TotalPutHitPct  =  1.000000
+LogCookStats: Display: PutMissPct      =  0.000000
+LogCookStats: Display: LocalGetHits    =     10108
+LogCookStats: Display: LocalGetMisses  =      5752
+LogCookStats: Display: LocalGetTotal   =     15860
+LogCookStats: Display: LocalGetHitPct  =  0.637327
+LogCookStats: Display: SharedGetHits   =         0
+LogCookStats: Display: SharedGetTotal  =         0
+LogCookStats: Display: SharedGetHitPct =  0.000000
+LogCookStats: Display: ZenLocalGetHits =         0
+LogCookStats: Display: ZenLocalGetTotal=         0
+LogCookStats: Display: ZenLocalGetHitPct=  0.000000
+LogCookStats: Display: ZenRemoteGetHits=         0
+LogCookStats: Display: ZenRemoteGetTotal=         0
+LogCookStats: Display: ZenRemoteGetHitPct=  0.000000
+LogCookStats: Display: ZenRemoteReadSpeed=  0.000000
+LogCookStats: Display: ZenRemoteWriteSpeed=  0.000000
+LogCookStats: Display: ZenRemoteLatency=  0.000000
+LogCookStats: Display: CloudGetHits    =         0
+LogCookStats: Display: CloudGetTotal   =         0
+LogCookStats: Display: CloudGetHitPct  =  0.000000
+LogCookStats: Display: LocalLatency    =  0.199476
+LogCookStats: Display: LocalReadSpeed  = 70.291775
+LogCookStats: Display: LocalWriteSpeed = 54.004798
+LogCookStats: Display: SharedLatency   =  0.000000
+LogCookStats: Display: SharedReadSpeed =  0.000000
+LogCookStats: Display: SharedWriteSpeed=  0.000000
+LogCookStats: Display: CloudLatency    =  0.000000
+LogCookStats: Display: CloudReadSpeed  =  0.000000
+LogCookStats: Display: CloudWriteSpeed =  0.000000
+LogCookStats: Display:
+LogCookStats: Display: DDC Resource Stats
+LogCookStats: Display: =======================================================================================================
+LogCookStats: Display: Asset Type                          Total Time (Sec)  GameThread Time (Sec)  Assets Built  MB Processed
+LogCookStats: Display: ----------------------------------  ----------------  ---------------------  ------------  ------------
+LogCookStats: Display: StaticMesh                                    131.47                   0.00            54          0.54
+LogCookStats: Display: BulkDataList                                   43.90                   0.00          3116          0.00
+LogCookStats: Display: Shader                                         42.40                   0.00          1780        102.99
+LogCookStats: Display: MaterialShader                                  7.03                   5.12           111          0.00
+LogCookStats: Display: NavCollision                                    5.04                   0.00            55          0.02
+LogCookStats: Display: Texture                                         4.31                   0.00            86          5.81
+LogCookStats: Display: GlobalShader                                    4.10                   2.71           453          0.00
+LogCookStats: Display: CardRepresentation                              2.52                   0.15            54          0.01
+LogCookStats: Display: MaterialTranslation                             1.73                   0.00            71          0.00
+LogCookStats: Display: SkeletalMesh                                    0.11                   0.00             0          4.92
+LogCookStats: Display: AnimationSequence                               0.06                   0.00             0          0.53
+LogCookStats: Display: STREAMEDAUDIO                                   0.05                   0.00             0          0.22
+LogCookStats: Display: CKERSM                                          0.02                   0.01             3          0.00
+LogCookStats: Display: Audio                                           0.01                   0.00             0          0.21
+LogCookStats: Display: BodySetup                                       0.00                   0.00             0          0.42
+LogCookStats: Display:
+LogCookStats: Display: Accumulated DDC Resource Stats Per Asset Type
+LogCookStats: Display: =======================================================================================================
+LogCookStats: Display: AnimationSequence                               0.06                   0.00             0          0.53
+LogCookStats: Display: Audio                                           0.01                   0.00             0          0.21
+LogCookStats: Display: CardRepresentation                              2.52                   0.15            54          0.01
+LogCookStats: Display: DistanceField                                   0.00                   0.00             0          0.00
+LogCookStats: Display: MaterialShader                                  7.03                   5.12           111          0.00
+LogCookStats: Display: MaterialTranslation                             1.73                   0.00            71          0.00
+LogCookStats: Display: NiagaraScript                                   0.00                   0.00             0          0.00
+LogCookStats: Display: SkeletalMesh                                    0.11                   0.00             0          4.92
+LogCookStats: Display: StaticMesh                                    131.47                   0.00            54          0.54
+LogCookStats: Display: Texture                                         4.31                   0.00            86          5.81
+LogCookStats: Display: Other                                          95.51                   2.72          5407        103.64
+LogPackageBuildDependencyTracker: Display: Package Accesses (131 referencing packages with a total of 1067 unique accesses)
+LogConfigBuildDependencyTracker: Display: Config Accesses (332 referencing packages with a total of 898 unique accesses). 1581 unique accesses that were not associated with a package.
+LogCook: Display: ---- Finalisation: End ----
+LogCook: Display: Done!
+LogSavePackage: Display: Took 0.000412s to verify the EDL loading graph.
+LogInit: Display:
+LogInit: Display: Warning/Error Summary (Unique only)
+LogInit: Display: -----------------------------------
+LogInit: Display: LogDerivedDataCache: Warning: Configuring cache graph 'InstalledDerivedDataBackendGraph' in config section [InstalledDerivedDataBackendGraph] of the 'Engine' config is deprecated. Migrate the configuration to the [DerivedDataCacheGraphs] section of the 'Engine' config.
+LogInit: Display: LogDerivedDataCache: Warning: The cache graph 'InstalledDerivedDataBackendGraph' contains cache store 'Root' of deprecated type 'KeyLength'.
+LogInit: Display: LogDerivedDataCache: Warning: The cache graph 'InstalledDerivedDataBackendGraph' contains cache store 'AsyncPut' of deprecated type 'AsyncPut'.
+LogInit: Display: LogDerivedDataCache: Warning: Configuring cache store 'Local' in config section [InstalledDerivedDataBackendGraph] of the 'Engine' config is deprecated. Migrate the configuration to the [DerivedDataCacheStores] section of the 'Engine' config.
+LogInit: Display:
+LogInit: Display: Success - 0 error(s), 4 warning(s)
+LogInit: Display:
+Execution of commandlet took:  1m 13s (73.88 seconds), PeakPhysMemoryMB=3968 MB, PeakVirtMemoryMB=18901 MB
+LogAssetRegistry: Display: CleanupOrphanedCacheFiles (PostWrite): 1 .ref files found, 1 referenced binaries
+LogAssetRegistry: Display: CleanupOrphanedCacheFiles: 1 total binaries, 1 referenced (kept), 0 old-style pre-migration (kept), 0 orphans deleted, 0 orphans locked (kept)
+LogStreaming: Display: ============ Loader Stats ============
+LogStreaming: Display: Unique Partial Flushes: 0
+LogStreaming: Display: ============ Loader Stats End ============
+LogShaderCompilers: Display: Exiting ShaderCompilingThread
+Shutdown handler: cleanup.
+Opening shared memory
+Shared memory doesn't exist, checking legacy lock file
+Checking for a '/tmp/UnrealTraceServer.pid' lock file
+Forking process
+Opening shared memory
+Starting the store
+Reading settings from '/home/morpheus/UnrealEngine/UnrealTrace/Settings.ini'
+
+Unable to open settings file /home/morpheus/UnrealEngine/UnrealTrace/Settings.ini.
+
+Store settings (/home/morpheus/UnrealEngine/UnrealTrace/Settings.ini):
+ - Store port: 1989
+ - Recorder port: 1981
+ - Thread count: 0
+ - Sponsored mode: 1
+ - Directory: '/home/morpheus/UnrealEngine/UnrealTrace/Store/001'
+Signalling parent 1311456
+Terminating server, no sponsors or connections active.
+Listening cancelled, closing port...
+Listening cancelled, closing port...
+Received signal 15
+Daemon is exiting without errors.
+Took 80.24s to run UnrealEditor-Cmd, ExitCode=0
+Cook command time: 80.35 s
+********** COOK COMMAND COMPLETED **********
+********** STAGE COMMAND STARTED **********
+Creating Staging Manifest...
+Staging all 1 build products
+ Product 0: MorphRig
+Running: /usr/bin/env -- "chmod" "+x" "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Intermediate/Staging/MorphRig.sh"
+Took 0.00s to run env, ExitCode=0
+Excluding config file /home/morpheus/UnrealEngine/5.8.3/Engine/Config/Localization/Engine.ini
+Excluding config file /home/morpheus/UnrealEngine/5.8.3/Engine/Config/Localization/ToolTips.ini
+Excluding config file /home/morpheus/UnrealEngine/5.8.3/Engine/Config/BaseEditor.ini
+Excluding config file /home/morpheus/UnrealEngine/5.8.3/Engine/Config/Linux/LinuxEditorPerProjectUserSettings.ini
+Excluding config file /home/morpheus/UnrealEngine/5.8.3/Engine/Config/Localization/PropertyNames.ini
+Excluding config file /home/morpheus/UnrealEngine/5.8.3/Engine/Config/Localization/PortableObjectExport.ini
+Excluding config file /home/morpheus/UnrealEngine/5.8.3/Engine/Config/Localization/Keywords.ini
+Excluding config file /home/morpheus/UnrealEngine/5.8.3/Engine/Config/Localization/PortableObjectImport.ini
+Excluding config file /home/morpheus/UnrealEngine/5.8.3/Engine/Config/Localization/RepairData.ini
+Excluding config file /home/morpheus/UnrealEngine/5.8.3/Engine/Config/Localization/WordCount.ini
+Excluding config file /home/morpheus/UnrealEngine/5.8.3/Engine/Config/Localization/Editor.ini
+Excluding config file /home/morpheus/UnrealEngine/5.8.3/Engine/Config/Localization/Category.ini
+Excluding config file /home/morpheus/UnrealEngine/5.8.3/Engine/Config/BaseSourceControlSettings.ini
+Excluding config file /home/morpheus/UnrealEngine/5.8.3/Engine/Config/Linux/LinuxEditorGameAgnostic.ini
+Excluding config file /home/morpheus/UnrealEngine/5.8.3/Engine/Config/BaseEditorSettings.ini
+Excluding config file /home/morpheus/UnrealEngine/5.8.3/Engine/Config/BaseEditorKeyBindings.ini
+Excluding config file /home/morpheus/UnrealEngine/5.8.3/Engine/Config/BaseUnrealInsightsSettings.ini
+Excluding config file /home/morpheus/UnrealEngine/5.8.3/Engine/Config/BaseEditorPerProjectUserSettings.ini
+Excluding config file /home/morpheus/UnrealEngine/5.8.3/Engine/Config/BasePakFileRules.ini
+Excluding config file /home/morpheus/UnrealEngine/5.8.3/Engine/Config/BaseLightmass.ini
+Including config file /home/morpheus/UnrealEngine/5.8.3/Engine/Config/VulkanPC/DataDrivenPlatformInfo.ini
+Including config file /home/morpheus/UnrealEngine/5.8.3/Engine/Config/BaseEngine.ini
+Including config file /home/morpheus/UnrealEngine/5.8.3/Engine/Config/PluginBase.ini
+Including config file /home/morpheus/UnrealEngine/5.8.3/Engine/Config/BaseMaterialExpressions.ini
+Including config file /home/morpheus/UnrealEngine/5.8.3/Engine/Config/BaseInstallBundle.ini
+Including config file /home/morpheus/UnrealEngine/5.8.3/Engine/Config/Linux/LinuxEngine.ini
+Including config file /home/morpheus/UnrealEngine/5.8.3/Engine/Config/Base.ini
+Including config file /home/morpheus/UnrealEngine/5.8.3/Engine/Config/ConfigRedirects.ini
+Including config file /home/morpheus/UnrealEngine/5.8.3/Engine/Config/ConsoleVariables.ini
+Including config file /home/morpheus/UnrealEngine/5.8.3/Engine/Config/BaseInput.ini
+Including config file /home/morpheus/UnrealEngine/5.8.3/Engine/Config/Linux/BaseLinuxEngine.ini
+Including config file /home/morpheus/UnrealEngine/5.8.3/Engine/Config/BaseDeviceProfiles.ini
+Including config file /home/morpheus/UnrealEngine/5.8.3/Engine/Config/BaseGame.ini
+Including config file /home/morpheus/UnrealEngine/5.8.3/Engine/Config/Unix/DataDrivenPlatformInfo.ini
+Including config file /home/morpheus/UnrealEngine/5.8.3/Engine/Config/BaseCompat.ini
+Including config file /home/morpheus/UnrealEngine/5.8.3/Engine/Config/BaseHardware.ini
+Including config file /home/morpheus/UnrealEngine/5.8.3/Engine/Config/Unix/UnixEngine.ini
+Including config file /home/morpheus/UnrealEngine/5.8.3/Engine/Config/Layouts/UE4ClassicLayout.ini
+Including config file /home/morpheus/UnrealEngine/5.8.3/Engine/Config/BaseScalability.ini
+Including config file /home/morpheus/UnrealEngine/5.8.3/Engine/Config/BaseRuntimeOptions.ini
+Including config file /home/morpheus/UnrealEngine/5.8.3/Engine/Config/Layouts/DefaultLayout.ini
+Including config file /home/morpheus/UnrealEngine/5.8.3/Engine/Config/BaseGameUserSettings.ini
+Including config file /home/morpheus/UnrealEngine/5.8.3/Engine/Config/Linux/LinuxGame.ini
+Including config file /home/morpheus/UnrealEngine/5.8.3/Engine/Config/Linux/DataDrivenPlatformInfo.ini
+Including config file /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Config/DefaultGame.ini
+Including config file /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Config/DefaultInput.ini
+Including config file /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Config/DefaultEngine.ini
+Reading oplog from Zen...
+Reading oplog from http://[::1]:8558/prj/MorphRig.1b96f95e/oplog/Linux/entries?trim_by_referencedset=true
+Parsed 620 package entries from oplog.
+Cleaning Stage Directory: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Saved/StagedBuilds/Linux
+Creating pak using staging manifest.
+DumpManifest: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/verification/logs/UAT/PrePak_Linux_NonUFSFiles.txt, NumItems: 24
+DumpManifest: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/verification/logs/UAT/PrePak_Linux_NonUFSFilesDebug.txt, NumItems: 7
+DumpManifest: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/verification/logs/UAT/PrePak_Linux_UFSFiles.txt, NumItems: 2397
+No matching platform for PakFileRules for Section ExcludeContentForMobile : Linux
+Using 0 pak order files:
+Running UnrealPak with arguments: "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/MorphRig.uproject"  -cryptokeys="/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Saved/Cooked/Linux/MorphRig/Metadata/Crypto.json" -unattended -compressionformats=Oodle -compresslevel=4 -compressmethod=Kraken  -ProjectStore="/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Saved/Cooked/Linux/ue.projectstore" -platform=Linux  -CreateMultiple="/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/verification/logs/UAT/PakCommands.txt"
+Running: /home/morpheus/UnrealEngine/5.8.3/Engine/Binaries/Linux/UnrealPak "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/MorphRig.uproject"  -cryptokeys="/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Saved/Cooked/Linux/MorphRig/Metadata/Crypto.json" -unattended -compressionformats=Oodle -compresslevel=4 -compressmethod=Kraken  -ProjectStore="/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Saved/Cooked/Linux/ue.projectstore" -platform=Linux  -CreateMultiple="/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/verification/logs/UAT/PakCommands.txt"
+LogInit: Running DelayedAutoRegister Phase StartOfEnginePreInit
+LogTrace: Initializing trace...
+LogTrace: Finished trace initialization.
+LogTrace: Display: Control listening on port 34480
+LogModuleManager: InternalLoadLibrary: 'PakFile' ('/home/morpheus/UnrealEngine/5.8.3/Engine/Binaries/Linux/libUnrealPak-PakFile.so')
+LogModuleManager: InternalLoadLibrary: 'RSA' ('/home/morpheus/UnrealEngine/5.8.3/Engine/Binaries/Linux/libUnrealPak-RSA.so')
+LogModuleManager: InternalLoadLibrary: 'SandboxFile' ('/home/morpheus/UnrealEngine/5.8.3/Engine/Binaries/Linux/libUnrealPak-SandboxFile.so')
+LogInit: Running DelayedAutoRegister Phase FileSystemReady
+LogInit: Running DelayedAutoRegister Phase TaskGraphSystemReady
+LogInit: Running DelayedAutoRegister Phase StatSystemReady
+LogModuleManager: InternalLoadLibrary: 'CoreUObject' ('/home/morpheus/UnrealEngine/5.8.3/Engine/Binaries/Linux/libUnrealPak-CoreUObject.so')
+OodleDataCompression: Display: Oodle v2.9.16 format for pak/iostore with method=Kraken, level=4=Normal
+LogInit: Session CrashGUID >====================================================
+         Session CrashGUID >   UECC-Linux-01A0EF0B01207D8EBF9D7300B366DDF3
+         Session CrashGUID >====================================================
+LogConfig: No local boot hotfix file found at: [../../../../../Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Saved/PersistentDownloadDir/HotfixForNextBoot.txt]
+LogInit: Running DelayedAutoRegister Phase IniSystemReady
+LogPluginManager: Mounting Engine plugin TcpMessaging
+LogPluginManager: Mounting Engine plugin PlatformCrypto
+LogModuleManager: InternalLoadLibrary: 'PlatformCrypto' ('/home/morpheus/UnrealEngine/5.8.3/Engine/Plugins/Experimental/PlatformCrypto/Binaries/Linux/libUnrealPak-PlatformCrypto.so')
+LogModuleManager: InternalLoadLibrary: 'PlatformCryptoTypes' ('/home/morpheus/UnrealEngine/5.8.3/Engine/Plugins/Experimental/PlatformCrypto/Binaries/Linux/libUnrealPak-PlatformCryptoTypes.so')
+LogModuleManager: InternalLoadLibrary: 'PlatformCryptoContext' ('/home/morpheus/UnrealEngine/5.8.3/Engine/Plugins/Experimental/PlatformCrypto/Binaries/Linux/libUnrealPak-PlatformCryptoContext.so')
+LogInit: Running DelayedAutoRegister Phase EarliestPossiblePluginsLoaded
+LogInit: ExecutableName: UnrealPak
+LogInit: Build: ++UE5+Release-5.8-CL-58210709
+LogInit: Platform=LinuxEditor
+LogInit: MachineId=c9673246f5f8469487af59b6808d4ab3-000003e8
+LogInit: DeviceId=
+LogInit: Engine Version: 5.8.3-58210709+++UE5+Release-5.8
+LogInit: Compatible Engine Version: 5.8.0-55116800+++UE5+Release-5.8
+LogInit: Net CL: 55116800
+LogInit: OS: NixOS 26.05 (Yarara) (6.18.43), CPU: AMD Ryzen 9 9950X 16-Core Processor, GPU: NVIDIA GeForce RTX 5090 (NVIDIA UNIX Open Kernel Module for x86_64  595.71.05  Release Build  (nixbld@))
+LogInit: CPU Model ID: 1a440, microcode revision: b404035
+LogInit: Compiled (64-bit): Sep 17 2026 19:13:29
+LogInit: Architecture: x64
+LogInit: Compiled with Clang: 20.1.8 (github.com/llvm/llvm-project 87f0227cb60147a26a1eeb4fb06e3b505e9c7261)
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE5+Release-5.8
+LogInit: Command Line: -cryptokeys=/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Saved/Cooked/Linux/MorphRig/Metadata/Crypto.json -unattended -compressionformats=Oodle -compresslevel=4 -compressmethod=Kraken -ProjectStore=/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Saved/Cooked/Linux/ue.projectstore -platform=Linux -CreateMultiple=/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/verification/logs/UAT/PakCommands.txt -nopak
+LogInit: Base Directory: /home/morpheus/UnrealEngine/5.8.3/Engine/Binaries/Linux/
+LogInit: Allocator: Mimalloc
+LogInit: Installed Engine Build: 1
+LogInit: This binary is optimized with LTO: no, PGO: no, instrumented for PGO data collection: no
+LogDevObjectVersion: Number of dev versions registered: 35
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 20
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 49
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 268
+LogDevObjectVersion:   FortniteValkyrie (8DBC2C5B-54A7-43E0-A768-FCBB7DA29060): 8
+LogDevObjectVersion:   FortniteSeason (5B4C06B7-2463-4AF8-805B-BF70CDF5D0DD): 15
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 20
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 11
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   UE5-Main (697DD581-E64F-41AB-AA4A-51ECBEB7B628): 123
+LogDevObjectVersion:   UE5-Release (D89B5E42-24BD-4D46-8412-ACA8DF641779): 68
+LogDevObjectVersion:   UE5-SpecialProject (59DA5D52-1232-4948-B878-597870B8E98B): 9
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogDevObjectVersion:   Dev-NaniteResearch (30D58BE3-95EA-4282-A6E3-B159D8EBB06A): 1
+LogInit: Presizing for max 100000 objects, including 0 objects not considered by GC.
+LogStreaming: Display: AsyncLoading2 - Created: Async Loading Thread: false, Async Post Load: false, Multithreaded: false
+LogInit: Object subsystem initialized
+LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+LogConfig: CVar [[p.chaos.AllowCreatePhysxBodies:1]] deferred - dummy variable created
+LogConfig: CVar [[fx.SkipVectorVMBackendOptimizations:1]] deferred - dummy variable created
+LogConfig: Applying CVar settings from Section [Startup_Linux] File [../../../Engine/Config/ConsoleVariables.ini]
+LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
+LogConfig: Set CVar [[g.TimeoutForBlockOnRenderFence:60000]]
+LogConfig: Set CVar [[memory.MemoryPressureCriticalThresholdPercent:10]]
+[2026.09.29-21.21.11:044][  0]LogInit: Unix hardware info:
+[2026.09.29-21.21.11:044][  0]LogInit:  - we are the first instance of this executable
+[2026.09.29-21.21.11:044][  0]LogInit:  - this process' id (pid) is 1322684, parent process' id (ppid) is 1306277
+[2026.09.29-21.21.11:044][  0]LogInit:  - we are not running under debugger
+[2026.09.29-21.21.11:044][  0]LogInit:  - machine network name is 'nixos'
+[2026.09.29-21.21.11:044][  0]LogInit:  - user name is 'morpheus' (morpheus)
+[2026.09.29-21.21.11:044][  0]LogInit:  - we're logged in locally
+[2026.09.29-21.21.11:044][  0]LogInit:  - we're running with rendering
+[2026.09.29-21.21.11:044][  0]LogInit:  - CPU: AuthenticAMD 'AMD Ryzen 9 9950X 16-Core Processor' (signature: 0xB40F40)
+[2026.09.29-21.21.11:044][  0]LogInit:  - Number of physical cores available for the process: 16
+[2026.09.29-21.21.11:044][  0]LogInit:  - Number of logical cores available for the process: 32
+[2026.09.29-21.21.11:044][  0]LogInit:  - GPU Brand Info: NVIDIA GeForce RTX 5090 (NVIDIA UNIX Open Kernel Module for x86_64  595.71.05  Release Build  (nixbld@))
+[2026.09.29-21.21.11:044][  0]LogInit:  - Memory allocator used: Mimalloc
+[2026.09.29-21.21.11:044][  0]LogInit:  - This is an internal build.
+[2026.09.29-21.21.11:044][  0]LogCore: Skipped benchmarking clocks because the engine is running in a standalone program mode - CLOCK_MONOTONIC will be used.
+[2026.09.29-21.21.11:044][  0]LogInit: Unix-specific commandline switches:
+[2026.09.29-21.21.11:044][  0]LogInit:  -ansimalloc - use malloc()/free() from libc (useful for tools like valgrind and electric fence)
+[2026.09.29-21.21.11:044][  0]LogInit:  -jemalloc - use jemalloc for all memory allocation
+[2026.09.29-21.21.11:044][  0]LogInit:  -binnedmalloc - use binned malloc  for all memory allocation
+[2026.09.29-21.21.11:044][  0]LogInit:  -filemapcachesize=NUMBER - set the size for case-sensitive file mapping cache
+[2026.09.29-21.21.11:044][  0]LogInit:  -useksm - uses kernel same-page mapping (KSM) for mapped memory (OFF)
+[2026.09.29-21.21.11:044][  0]LogInit:  -ksmmergeall - marks all mmap'd memory pages suitable for KSM (OFF)
+[2026.09.29-21.21.11:044][  0]LogInit:  -preloadmodulesymbols - Loads the main module symbols file into memory (OFF)
+[2026.09.29-21.21.11:044][  0]LogInit:  -sigdfl=SIGNAL - Allows a specific signal to be set to its default handler rather then ignoring the signal
+[2026.09.29-21.21.11:044][  0]LogInit:  -crashhandlerstacksize - Allows setting crash handler stack sizes (204800)
+[2026.09.29-21.21.11:044][  0]LogInit:  -noexclusivelockonwrite - disables marking files created by the engine as exclusive locked while the engine has them opened
+[2026.09.29-21.21.11:044][  0]LogInit:  -httpproxy=ADDRESS:PORT - redirects HTTP requests to a proxy (only supported if compiled with libcurl)
+[2026.09.29-21.21.11:044][  0]LogInit:  -reuseconn - allow libcurl to reuse HTTP connections (only matters if compiled with libcurl)
+[2026.09.29-21.21.11:044][  0]LogInit:  -virtmemkb=NUMBER - sets process virtual memory (address space) limit (overrides VirtualMemoryLimitInKB value from .ini)
+[2026.09.29-21.21.11:044][  0]LogInit:  -allowsyscallfilterfile=PATH_TO_FILE - sets up a system call filter allow list. any invalid syscall in this list *will* cause a crash
+[2026.09.29-21.21.11:045][  0]LogInit:  - Physical RAM available (not considering process quota): 92 GB (94085 MB, 96343072 KB, 98655305728 bytes)
+[2026.09.29-21.21.11:045][  0]LogInit:  - VirtualMemoryAllocator pools will grow at scale 1
+[2026.09.29-21.21.11:045][  0]LogInit:  - MemoryRangeDecommit() will be a no-op (re-run with -vmapoolevict to change)
+[2026.09.29-21.21.11:045][  0]LogInit:  - PageSize 4096
+[2026.09.29-21.21.11:045][  0]LogInit:  - BinnedPageSize 65536
+[2026.09.29-21.21.11:049][  0]LogAssetRegistry: ActiveMountsLoading is disabled.
+[2026.09.29-21.21.11:049][  0]LogAssetRegistry: FAssetRegistry took 0.0001 seconds to start up
+[2026.09.29-21.21.11:049][  0]LogModuleManager: InternalLoadLibrary: 'TelemetryUtils' ('/home/morpheus/UnrealEngine/5.8.3/Engine/Binaries/Linux/libUnrealPak-TelemetryUtils.so')
+[2026.09.29-21.21.11:050][  0]LogUObjectArray: 877 objects as part of root set at end of initial load.
+[2026.09.29-21.21.11:050][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2026.09.29-21.21.11:050][  0]LogInit: Using OS detected language ().
+[2026.09.29-21.21.11:050][  0]LogInit: Using OS detected locale ().
+[2026.09.29-21.21.11:050][  0]LogTextLocalizationManager: No localization for '' exists, so 'en' will be used for the language.
+[2026.09.29-21.21.11:050][  0]LogTextLocalizationManager: No localization for '' exists, so 'en' will be used for the locale.
+[2026.09.29-21.21.11:050][  0]LogInit: Using OS detected language ().
+[2026.09.29-21.21.11:050][  0]LogInit: Using OS detected locale ().
+[2026.09.29-21.21.11:050][  0]LogTextLocalizationManager: No localization for '' exists, so 'en' will be used for the language.
+[2026.09.29-21.21.11:050][  0]LogTextLocalizationManager: No localization for '' exists, so 'en' will be used for the locale.
+[2026.09.29-21.21.11:050][  0]LogPakFile: Display: ProjectDir: ../../../../../Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/
+[2026.09.29-21.21.11:050][  0]LogPakFile: Display: Parsing crypto keys from a crypto key cache file
+[2026.09.29-21.21.11:051][  0]LogPakFile: Engine only spawned 30 worker threads, bumping up to 31!
+[2026.09.29-21.21.11:052][  0]LogPakFile: Display: CompressionFormats in priority order: Oodle, Zlib
+[2026.09.29-21.21.11:060][  0]LogZenServiceInstance: Found Zen config default=/home/morpheus/.config/Epic/UnrealEngine/Common/Zen/Data
+[2026.09.29-21.21.11:060][  0]LogZenServiceInstance: Display: Launching zen utility '/home/morpheus/UnrealEngine/5.8.3/Engine/Binaries/Linux/zen service status'.
+[2026.09.29-21.21.11:178][  0]LogZenServiceInstance: Display: Writing plugin version info to '/home/morpheus/.config/Epic/UnrealEngine/Common/Zen/Install/zen_plugin_versions.json'
+[2026.09.29-21.21.11:178][  0]LogZenServiceInstance: Display: Read zen version cache file from '/home/morpheus/.config/Epic/UnrealEngine/5.8/Saved/Zen/zen.version', version: '5.8.13-202605190912-linux-x86_64-release-094f62c2'
+[2026.09.29-21.21.11:178][  0]LogZenServiceInstance: InTree version at '/home/morpheus/UnrealEngine/5.8.3/Engine/Binaries/Linux/zenserver' is '5.8.13-202605190912-linux-x86_64-release-094f62c2'
+[2026.09.29-21.21.11:178][  0]LogZenServiceInstance: Display: Read zen version cache file from '/home/morpheus/.config/Epic/UnrealEngine/Common/Zen/Install/zen.version', version: '5.8.13-202605190912-linux-x86_64-release-094f62c2'
+[2026.09.29-21.21.11:178][  0]LogZenServiceInstance: Installed version at '/home/morpheus/.config/Epic/UnrealEngine/Common/Zen/Install/zenserver' is '5.8.13-202605190912-linux-x86_64-release-094f62c2'
+[2026.09.29-21.21.11:178][  0]LogZenServiceInstance: Display: Installed service at '/home/morpheus/.config/Epic/UnrealEngine/Common/Zen/Install/zenserver' is up to date
+[2026.09.29-21.21.11:180][  0]LogUnixPlatformFile: FUnixFileMapper::MapCaseInsensitiveFile: Lookup:/home/morpheus/UnrealEngine/5.8.3/Engine/Binaries/DotNet/OidcToken/linux-x64/OidcToken Found:/home/morpheus/UnrealEngine/5.8.3/Engine/Binaries/DotNET/OidcToken/linux-x64/OidcToken
+
+[2026.09.29-21.21.11:180][  0]LogZenServiceInstance: Found existing instance running on port 8558 matching our settings, no actions needed
+[2026.09.29-21.21.11:782][  0]LogZenServiceInstance: Display: Unreal Zen Storage Server HTTP service at http://[::1]:8558 status: OK!.
+[2026.09.29-21.21.11:782][  0]LogZenServiceInstance: Local ZenServer AutoLaunch initialization completed in 0.605 seconds
+[2026.09.29-21.21.11:782][  0]LogModuleManager: InternalLoadLibrary: 'SSL' ('/home/morpheus/UnrealEngine/5.8.3/Engine/Binaries/Linux/libUnrealPak-SSL.so')
+[2026.09.29-21.21.11:788][  0]LogZenStore: Display: Opening oplog MorphRig.1b96f95e / Linux
+[2026.09.29-21.21.11:802][  0]LogIoStore: Display: Fetched 621 oplog items from Zen in 0.75 seconds
+[2026.09.29-21.21.11:807][  0]LogIoStore: Display: Parsed 621 oplog items 0.00 seconds, 3459 chunks
+[2026.09.29-21.21.11:818][  0]LogIoStore: Display: Loaded 664 chunk hashes from Zen in 0.01 seconds, 664 hashes updated in 0.00 seconds
+[2026.09.29-21.21.11:818][  0]LogPakFile: Display: Oodle enabled on 'NoPluginCompression' files
+[2026.09.29-21.21.11:818][  0]LogPakFile: Display: Loading response file /home/morpheus/UnrealEngine/5.8.3/Engine/Programs/AutomationTool/Saved/ResponseFiles/PakList_MorphRig-Linux.txt
+[2026.09.29-21.21.11:820][  0]LogPakFile: Display: Added 1731 entries to add to pak file.
+[2026.09.29-21.21.11:820][  0]LogPakFile: Display: Collecting files to add to pak file...
+[2026.09.29-21.21.11:824][  0]LogPakFile: Display: Collected 1731 files in 0.00s.
+[2026.09.29-21.21.11:824][  0]LogPakFile: Display: Creating pak /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Saved/StagedBuilds/Linux/MorphRig/Content/Paks/MorphRig-Linux.pak.
+[2026.09.29-21.21.11:852][  0]LogPakFile: Display: Created pak file: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Saved/StagedBuilds/Linux/MorphRig/Content/Paks/MorphRig-Linux.pak
+[2026.09.29-21.21.11:861][  0]LogPakFile: Display: CompressionFormat 0 [Oodle] : 383 files, 25917863 -> 9492401 bytes
+[2026.09.29-21.21.11:861][  0]LogPakFile: Display: CompressionFormat 2 [None] : 1348 files, 790339 -> 790339 bytes
+[2026.09.29-21.21.11:861][  0]LogPakFile: Display: Added 1731 files, 10522769 bytes total
+[2026.09.29-21.21.11:861][  0]LogPakFile: Display: PrimaryIndex size: 23910 bytes
+[2026.09.29-21.21.11:861][  0]LogPakFile: Display: PathHashIndex size: 53912 bytes
+[2026.09.29-21.21.11:861][  0]LogPakFile: Display: FullDirectoryIndex size: 57191 bytes
+[2026.09.29-21.21.11:861][  0]LogPakFile: Display: Compression summary: 36.62% of original size. Compressed Size 9492401 bytes, Original Size 25917863 bytes.
+[2026.09.29-21.21.11:861][  0]LogPakFile: Display: Encryption - DISABLED
+[2026.09.29-21.21.11:861][  0]LogPakFile: Display:
+[2026.09.29-21.21.11:861][  0]LogPakFile: Display: Writer and Compression Threads exited.
+[2026.09.29-21.21.11:861][  0]LogPakFile: Display: UnrealPak executed in 0.810724 seconds
+[2026.09.29-21.21.11:871][  0]LogCore: Engine exit requested (reason: UnrealPak Exiting)
+[2026.09.29-21.21.11:871][  0]LogExit: Preparing to exit.
+[2026.09.29-21.21.11:871][  0]LogExit: Object subsystem successfully closed.
+[2026.09.29-21.21.11:872][  0]LogPakFile: Destroying PakPlatformFile
+[2026.09.29-21.21.11:873][  0]LogExit: Exiting.
+Took 1.06s to run UnrealPak, ExitCode=0
+Running UnrealPak with arguments: "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/MorphRig.uproject" /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/MorphRig.uproject -CreateGlobalContainer="/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Saved/StagedBuilds/Linux/MorphRig/Content/Paks/global.utoc" -ProjectStore="/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Saved/Cooked/Linux/ue.projectstore" -CookedDirectory="/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Saved/Cooked/Linux" -Commands="/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/verification/logs/UAT/IoStoreCommands.txt" -compressionformats=Oodle -compresslevel=4 -compressmethod=Kraken   -cryptokeys="/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Saved/Cooked/Linux/MorphRig/Metadata/Crypto.json" -compressionMinBytesSaved=1024 -compressionMinPercentSaved=5 -WriteBackMetadataToAssetRegistry=Disabled -platform=Linux  -unattended
+Running: /home/morpheus/UnrealEngine/5.8.3/Engine/Binaries/Linux/UnrealPak "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/MorphRig.uproject" /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/MorphRig.uproject -CreateGlobalContainer="/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Saved/StagedBuilds/Linux/MorphRig/Content/Paks/global.utoc" -ProjectStore="/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Saved/Cooked/Linux/ue.projectstore" -CookedDirectory="/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Saved/Cooked/Linux" -Commands="/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/verification/logs/UAT/IoStoreCommands.txt" -compressionformats=Oodle -compresslevel=4 -compressmethod=Kraken   -cryptokeys="/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Saved/Cooked/Linux/MorphRig/Metadata/Crypto.json" -compressionMinBytesSaved=1024 -compressionMinPercentSaved=5 -WriteBackMetadataToAssetRegistry=Disabled -platform=Linux  -unattended
+LogInit: Running DelayedAutoRegister Phase StartOfEnginePreInit
+LogTrace: Initializing trace...
+LogTrace: Finished trace initialization.
+LogTrace: Display: Control listening on port 40173
+LogModuleManager: InternalLoadLibrary: 'PakFile' ('/home/morpheus/UnrealEngine/5.8.3/Engine/Binaries/Linux/libUnrealPak-PakFile.so')
+LogModuleManager: InternalLoadLibrary: 'RSA' ('/home/morpheus/UnrealEngine/5.8.3/Engine/Binaries/Linux/libUnrealPak-RSA.so')
+LogModuleManager: InternalLoadLibrary: 'SandboxFile' ('/home/morpheus/UnrealEngine/5.8.3/Engine/Binaries/Linux/libUnrealPak-SandboxFile.so')
+LogInit: Running DelayedAutoRegister Phase FileSystemReady
+LogInit: Running DelayedAutoRegister Phase TaskGraphSystemReady
+LogInit: Running DelayedAutoRegister Phase StatSystemReady
+LogModuleManager: InternalLoadLibrary: 'CoreUObject' ('/home/morpheus/UnrealEngine/5.8.3/Engine/Binaries/Linux/libUnrealPak-CoreUObject.so')
+OodleDataCompression: Display: Oodle v2.9.16 format for pak/iostore with method=Kraken, level=4=Normal
+LogInit: Session CrashGUID >====================================================
+         Session CrashGUID >   UECC-Linux-01A0EF0B05237F81B464FD72317B776D
+         Session CrashGUID >====================================================
+LogConfig: No local boot hotfix file found at: [../../../../../Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Saved/PersistentDownloadDir/HotfixForNextBoot.txt]
+LogInit: Running DelayedAutoRegister Phase IniSystemReady
+LogPluginManager: Mounting Engine plugin TcpMessaging
+LogPluginManager: Mounting Engine plugin PlatformCrypto
+LogModuleManager: InternalLoadLibrary: 'PlatformCrypto' ('/home/morpheus/UnrealEngine/5.8.3/Engine/Plugins/Experimental/PlatformCrypto/Binaries/Linux/libUnrealPak-PlatformCrypto.so')
+LogModuleManager: InternalLoadLibrary: 'PlatformCryptoTypes' ('/home/morpheus/UnrealEngine/5.8.3/Engine/Plugins/Experimental/PlatformCrypto/Binaries/Linux/libUnrealPak-PlatformCryptoTypes.so')
+LogModuleManager: InternalLoadLibrary: 'PlatformCryptoContext' ('/home/morpheus/UnrealEngine/5.8.3/Engine/Plugins/Experimental/PlatformCrypto/Binaries/Linux/libUnrealPak-PlatformCryptoContext.so')
+LogInit: Running DelayedAutoRegister Phase EarliestPossiblePluginsLoaded
+LogInit: ExecutableName: UnrealPak
+LogInit: Build: ++UE5+Release-5.8-CL-58210709
+LogInit: Platform=LinuxEditor
+LogInit: MachineId=c9673246f5f8469487af59b6808d4ab3-000003e8
+LogInit: DeviceId=
+LogInit: Engine Version: 5.8.3-58210709+++UE5+Release-5.8
+LogInit: Compatible Engine Version: 5.8.0-55116800+++UE5+Release-5.8
+LogInit: Net CL: 55116800
+LogInit: OS: NixOS 26.05 (Yarara) (6.18.43), CPU: AMD Ryzen 9 9950X 16-Core Processor, GPU: NVIDIA GeForce RTX 5090 (NVIDIA UNIX Open Kernel Module for x86_64  595.71.05  Release Build  (nixbld@))
+LogInit: CPU Model ID: 1a440, microcode revision: b404035
+LogInit: Compiled (64-bit): Sep 17 2026 19:13:29
+LogInit: Architecture: x64
+LogInit: Compiled with Clang: 20.1.8 (github.com/llvm/llvm-project 87f0227cb60147a26a1eeb4fb06e3b505e9c7261)
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE5+Release-5.8
+LogInit: Command Line: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/MorphRig.uproject -CreateGlobalContainer=/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Saved/StagedBuilds/Linux/MorphRig/Content/Paks/global.utoc -ProjectStore=/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Saved/Cooked/Linux/ue.projectstore -CookedDirectory=/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Saved/Cooked/Linux -Commands=/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/verification/logs/UAT/IoStoreCommands.txt -compressionformats=Oodle -compresslevel=4 -compressmethod=Kraken -cryptokeys=/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Saved/Cooked/Linux/MorphRig/Metadata/Crypto.json -compressionMinBytesSaved=1024 -compressionMinPercentSaved=5 -WriteBackMetadataToAssetRegistry=Disabled -platform=Linux -unattended -nopak
+LogInit: Base Directory: /home/morpheus/UnrealEngine/5.8.3/Engine/Binaries/Linux/
+LogInit: Allocator: Mimalloc
+LogInit: Installed Engine Build: 1
+LogInit: This binary is optimized with LTO: no, PGO: no, instrumented for PGO data collection: no
+LogDevObjectVersion: Number of dev versions registered: 35
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 20
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 49
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 268
+LogDevObjectVersion:   FortniteValkyrie (8DBC2C5B-54A7-43E0-A768-FCBB7DA29060): 8
+LogDevObjectVersion:   FortniteSeason (5B4C06B7-2463-4AF8-805B-BF70CDF5D0DD): 15
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 20
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 11
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   UE5-Main (697DD581-E64F-41AB-AA4A-51ECBEB7B628): 123
+LogDevObjectVersion:   UE5-Release (D89B5E42-24BD-4D46-8412-ACA8DF641779): 68
+LogDevObjectVersion:   UE5-SpecialProject (59DA5D52-1232-4948-B878-597870B8E98B): 9
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogDevObjectVersion:   Dev-NaniteResearch (30D58BE3-95EA-4282-A6E3-B159D8EBB06A): 1
+LogInit: Presizing for max 100000 objects, including 0 objects not considered by GC.
+LogStreaming: Display: AsyncLoading2 - Created: Async Loading Thread: false, Async Post Load: false, Multithreaded: false
+LogInit: Object subsystem initialized
+LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+LogConfig: CVar [[p.chaos.AllowCreatePhysxBodies:1]] deferred - dummy variable created
+LogConfig: CVar [[fx.SkipVectorVMBackendOptimizations:1]] deferred - dummy variable created
+LogConfig: Applying CVar settings from Section [Startup_Linux] File [../../../Engine/Config/ConsoleVariables.ini]
+LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
+LogConfig: Set CVar [[g.TimeoutForBlockOnRenderFence:60000]]
+LogConfig: Set CVar [[memory.MemoryPressureCriticalThresholdPercent:10]]
+[2026.09.29-21.21.12:073][  0]LogInit: Unix hardware info:
+[2026.09.29-21.21.12:073][  0]LogInit:  - we are the first instance of this executable
+[2026.09.29-21.21.12:073][  0]LogInit:  - this process' id (pid) is 1322771, parent process' id (ppid) is 1306277
+[2026.09.29-21.21.12:073][  0]LogInit:  - we are not running under debugger
+[2026.09.29-21.21.12:073][  0]LogInit:  - machine network name is 'nixos'
+[2026.09.29-21.21.12:073][  0]LogInit:  - user name is 'morpheus' (morpheus)
+[2026.09.29-21.21.12:073][  0]LogInit:  - we're logged in locally
+[2026.09.29-21.21.12:073][  0]LogInit:  - we're running with rendering
+[2026.09.29-21.21.12:073][  0]LogInit:  - CPU: AuthenticAMD 'AMD Ryzen 9 9950X 16-Core Processor' (signature: 0xB40F40)
+[2026.09.29-21.21.12:073][  0]LogInit:  - Number of physical cores available for the process: 16
+[2026.09.29-21.21.12:073][  0]LogInit:  - Number of logical cores available for the process: 32
+[2026.09.29-21.21.12:073][  0]LogInit:  - GPU Brand Info: NVIDIA GeForce RTX 5090 (NVIDIA UNIX Open Kernel Module for x86_64  595.71.05  Release Build  (nixbld@))
+[2026.09.29-21.21.12:073][  0]LogInit:  - Memory allocator used: Mimalloc
+[2026.09.29-21.21.12:073][  0]LogInit:  - This is an internal build.
+[2026.09.29-21.21.12:073][  0]LogCore: Skipped benchmarking clocks because the engine is running in a standalone program mode - CLOCK_MONOTONIC will be used.
+[2026.09.29-21.21.12:073][  0]LogInit: Unix-specific commandline switches:
+[2026.09.29-21.21.12:073][  0]LogInit:  -ansimalloc - use malloc()/free() from libc (useful for tools like valgrind and electric fence)
+[2026.09.29-21.21.12:073][  0]LogInit:  -jemalloc - use jemalloc for all memory allocation
+[2026.09.29-21.21.12:073][  0]LogInit:  -binnedmalloc - use binned malloc  for all memory allocation
+[2026.09.29-21.21.12:073][  0]LogInit:  -filemapcachesize=NUMBER - set the size for case-sensitive file mapping cache
+[2026.09.29-21.21.12:073][  0]LogInit:  -useksm - uses kernel same-page mapping (KSM) for mapped memory (OFF)
+[2026.09.29-21.21.12:073][  0]LogInit:  -ksmmergeall - marks all mmap'd memory pages suitable for KSM (OFF)
+[2026.09.29-21.21.12:073][  0]LogInit:  -preloadmodulesymbols - Loads the main module symbols file into memory (OFF)
+[2026.09.29-21.21.12:073][  0]LogInit:  -sigdfl=SIGNAL - Allows a specific signal to be set to its default handler rather then ignoring the signal
+[2026.09.29-21.21.12:073][  0]LogInit:  -crashhandlerstacksize - Allows setting crash handler stack sizes (204800)
+[2026.09.29-21.21.12:073][  0]LogInit:  -noexclusivelockonwrite - disables marking files created by the engine as exclusive locked while the engine has them opened
+[2026.09.29-21.21.12:073][  0]LogInit:  -httpproxy=ADDRESS:PORT - redirects HTTP requests to a proxy (only supported if compiled with libcurl)
+[2026.09.29-21.21.12:073][  0]LogInit:  -reuseconn - allow libcurl to reuse HTTP connections (only matters if compiled with libcurl)
+[2026.09.29-21.21.12:073][  0]LogInit:  -virtmemkb=NUMBER - sets process virtual memory (address space) limit (overrides VirtualMemoryLimitInKB value from .ini)
+[2026.09.29-21.21.12:073][  0]LogInit:  -allowsyscallfilterfile=PATH_TO_FILE - sets up a system call filter allow list. any invalid syscall in this list *will* cause a crash
+[2026.09.29-21.21.12:073][  0]LogInit:  - Physical RAM available (not considering process quota): 92 GB (94085 MB, 96343072 KB, 98655305728 bytes)
+[2026.09.29-21.21.12:073][  0]LogInit:  - VirtualMemoryAllocator pools will grow at scale 1
+[2026.09.29-21.21.12:073][  0]LogInit:  - MemoryRangeDecommit() will be a no-op (re-run with -vmapoolevict to change)
+[2026.09.29-21.21.12:073][  0]LogInit:  - PageSize 4096
+[2026.09.29-21.21.12:073][  0]LogInit:  - BinnedPageSize 65536
+[2026.09.29-21.21.12:078][  0]LogAssetRegistry: ActiveMountsLoading is disabled.
+[2026.09.29-21.21.12:078][  0]LogAssetRegistry: FAssetRegistry took 0.0001 seconds to start up
+[2026.09.29-21.21.12:078][  0]LogModuleManager: InternalLoadLibrary: 'TelemetryUtils' ('/home/morpheus/UnrealEngine/5.8.3/Engine/Binaries/Linux/libUnrealPak-TelemetryUtils.so')
+[2026.09.29-21.21.12:078][  0]LogUObjectArray: 877 objects as part of root set at end of initial load.
+[2026.09.29-21.21.12:078][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2026.09.29-21.21.12:079][  0]LogInit: Using OS detected language ().
+[2026.09.29-21.21.12:079][  0]LogInit: Using OS detected locale ().
+[2026.09.29-21.21.12:079][  0]LogTextLocalizationManager: No localization for '' exists, so 'en' will be used for the language.
+[2026.09.29-21.21.12:079][  0]LogTextLocalizationManager: No localization for '' exists, so 'en' will be used for the locale.
+[2026.09.29-21.21.12:079][  0]LogInit: Using OS detected language ().
+[2026.09.29-21.21.12:079][  0]LogInit: Using OS detected locale ().
+[2026.09.29-21.21.12:079][  0]LogTextLocalizationManager: No localization for '' exists, so 'en' will be used for the language.
+[2026.09.29-21.21.12:079][  0]LogTextLocalizationManager: No localization for '' exists, so 'en' will be used for the locale.
+[2026.09.29-21.21.12:079][  0]LogPakFile: Display: ProjectDir: ../../../../../Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/
+[2026.09.29-21.21.12:079][  0]LogIoStore: Display: ==================== IoStore Utils ====================
+[2026.09.29-21.21.12:079][  0]LogIoStore: Display: Parsing crypto keys from a crypto key cache file '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Saved/Cooked/Linux/MorphRig/Metadata/Crypto.json'
+[2026.09.29-21.21.12:079][  0]LogIoStore: Display: Container signing - DISABLED
+[2026.09.29-21.21.12:079][  0]LogIoStore: Display: Directory index - ENABLED
+[2026.09.29-21.21.12:079][  0]LogIoStore: Display: Using compression format 'Oodle'
+[2026.09.29-21.21.12:151][  0]LogConfig: Display: Read in platform Linux ini files took 0.07 seconds
+[2026.09.29-21.21.12:151][  0]LogIoStore: Display: Using memory mapping alignment '16384'
+[2026.09.29-21.21.12:151][  0]LogIoStore: Display: Using compression block size '65536'
+[2026.09.29-21.21.12:151][  0]LogIoStore: Display: Using compression block alignment '65536'
+[2026.09.29-21.21.12:151][  0]LogIoStore: Display: Using compression min bytes saved '1024'
+[2026.09.29-21.21.12:151][  0]LogIoStore: Display: Using compression min percent saved '5'
+[2026.09.29-21.21.12:151][  0]LogIoStore: Display: Using max partition size '0'
+[2026.09.29-21.21.12:151][  0]LogIoStore: Display: Not using DDC for compression
+[2026.09.29-21.21.12:151][  0]LogIoStore: Display: Container metadata disabled
+[2026.09.29-21.21.12:151][  0]LogIoStore: Display: Using command list file: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/verification/logs/UAT/IoStoreCommands.txt'
+[2026.09.29-21.21.12:152][  0]LogIoStore: Display: Selected Oodle level 4 (Normal) from command line for shaders
+[2026.09.29-21.21.12:160][  0]LogZenServiceInstance: Found Zen config default=/home/morpheus/.config/Epic/UnrealEngine/Common/Zen/Data
+[2026.09.29-21.21.12:160][  0]LogZenServiceInstance: Display: Launching zen utility '/home/morpheus/UnrealEngine/5.8.3/Engine/Binaries/Linux/zen service status'.
+[2026.09.29-21.21.12:188][  0]LogZenServiceInstance: Display: Writing plugin version info to '/home/morpheus/.config/Epic/UnrealEngine/Common/Zen/Install/zen_plugin_versions.json'
+[2026.09.29-21.21.12:189][  0]LogZenServiceInstance: Display: Read zen version cache file from '/home/morpheus/.config/Epic/UnrealEngine/5.8/Saved/Zen/zen.version', version: '5.8.13-202605190912-linux-x86_64-release-094f62c2'
+[2026.09.29-21.21.12:189][  0]LogZenServiceInstance: InTree version at '/home/morpheus/UnrealEngine/5.8.3/Engine/Binaries/Linux/zenserver' is '5.8.13-202605190912-linux-x86_64-release-094f62c2'
+[2026.09.29-21.21.12:189][  0]LogZenServiceInstance: Display: Read zen version cache file from '/home/morpheus/.config/Epic/UnrealEngine/Common/Zen/Install/zen.version', version: '5.8.13-202605190912-linux-x86_64-release-094f62c2'
+[2026.09.29-21.21.12:189][  0]LogZenServiceInstance: Installed version at '/home/morpheus/.config/Epic/UnrealEngine/Common/Zen/Install/zenserver' is '5.8.13-202605190912-linux-x86_64-release-094f62c2'
+[2026.09.29-21.21.12:189][  0]LogZenServiceInstance: Display: Installed service at '/home/morpheus/.config/Epic/UnrealEngine/Common/Zen/Install/zenserver' is up to date
+[2026.09.29-21.21.12:190][  0]LogUnixPlatformFile: FUnixFileMapper::MapCaseInsensitiveFile: Lookup:/home/morpheus/UnrealEngine/5.8.3/Engine/Binaries/DotNet/OidcToken/linux-x64/OidcToken Found:/home/morpheus/UnrealEngine/5.8.3/Engine/Binaries/DotNET/OidcToken/linux-x64/OidcToken
+
+[2026.09.29-21.21.12:190][  0]LogZenServiceInstance: Found existing instance running on port 8558 matching our settings, no actions needed
+[2026.09.29-21.21.12:792][  0]LogZenServiceInstance: Display: Unreal Zen Storage Server HTTP service at http://[::1]:8558 status: OK!.
+[2026.09.29-21.21.12:792][  0]LogZenServiceInstance: Local ZenServer AutoLaunch initialization completed in 0.603 seconds
+[2026.09.29-21.21.12:792][  0]LogModuleManager: InternalLoadLibrary: 'SSL' ('/home/morpheus/UnrealEngine/5.8.3/Engine/Binaries/Linux/libUnrealPak-SSL.so')
+[2026.09.29-21.21.12:797][  0]LogZenStore: Display: Opening oplog MorphRig.1b96f95e / Linux
+[2026.09.29-21.21.12:820][  0]LogIoStore: Display: Fetched 621 oplog items from Zen in 0.67 seconds
+[2026.09.29-21.21.12:825][  0]LogIoStore: Display: Parsed 621 oplog items 0.00 seconds, 3459 chunks
+[2026.09.29-21.21.12:826][  0]LogIoStore: Display: Loaded 664 chunk hashes from Zen in 0.00 seconds, 664 hashes updated in 0.00 seconds
+[2026.09.29-21.21.12:828][  0]LogIoStore: Display: Searching for cooked assets in folder '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Saved/Cooked/Linux'
+[2026.09.29-21.21.12:828][  0]LogIoStore: Display: Found '4' files
+[2026.09.29-21.21.12:835][  0]LogIoStore: Display: Creating container targets...
+[2026.09.29-21.21.12:865][  0]LogIoStore: Display: Processing shader libraries, compressing with Oodle Mermaid, level 4 (Normal)
+[2026.09.29-21.21.12:871][  0]LogIoStore: Display: Shader library chunk override is disabled
+[2026.09.29-21.21.12:881][  0]LogShaderLibrary: Display: Created IoStoreShaderArchive header: shaders grouped in 234 groups (60 of them didn't need new indices), average uncompressed size 278641 bytes, min 1139 bytes, max 1016814 bytes (r.ShaderCodeLibrary.MaxShaderGroupSize=1048576)
+[2026.09.29-21.21.12:959][  0]LogIoStore: Display: MorphRig-SF_VULKAN_SM6(VULKAN_SM6): Recompressed 1953 shaders as 234 groups. Library size changed from 16142 KB (3.94 : 1 ratio) to 13514 KB (4.71 : 1 ratio), 83.72% of previous.
+[2026.09.29-21.21.12:960][  0]LogIoStore: Display: Save IoStoreShaderCodeArchive 'MorphRig-SF_VULKAN_SM6-VULKAN_SM6' with ChunkId '1301a4b4adf36aae00000008' for target file '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Saved/Cooked/Linux/MorphRig/Content/ShaderArchive-MorphRig-SF_VULKAN_SM6-VULKAN_SM6.ushaderbytecode'
+[2026.09.29-21.21.12:990][  0]LogShaderLibrary: Display: Created IoStoreShaderArchive header: shaders grouped in 734 groups (175 of them didn't need new indices), average uncompressed size 467516 bytes, min 373 bytes, max 1117010 bytes (r.ShaderCodeLibrary.MaxShaderGroupSize=1048576)
+[2026.09.29-21.21.13:338][  0]LogIoStore: Display: Global-SF_VULKAN_SM6(VULKAN_SM6): Recompressed 8015 shaders as 734 groups. Library size changed from 82457 KB (4.06 : 1 ratio) to 68684 KB (4.88 : 1 ratio), 83.30% of previous.
+[2026.09.29-21.21.13:338][  0]LogIoStore: Display: Save IoStoreShaderCodeArchive 'Global-SF_VULKAN_SM6-VULKAN_SM6' with ChunkId 'b3936dac9476451600000008' for target file '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Saved/Cooked/Linux/MorphRig/Content/ShaderArchive-Global-SF_VULKAN_SM6-VULKAN_SM6.ushaderbytecode'
+[2026.09.29-21.21.13:354][  0]LogIoStore: Display: Shaders processed in 0.49 seconds
+[2026.09.29-21.21.13:354][  0]LogIoStore: Display: Initialized WriteRequestManager with MaxConcurrentSourceReads=16 (32 cores), MaxSourceBufferMemory=3072MiB
+[2026.09.29-21.21.13:356][  0]LogIoStore: Display: Processing redirects...
+[2026.09.29-21.21.13:356][  0]LogIoStore: Display: Creating disk layout...
+[2026.09.29-21.21.13:356][  0]LogIoStore: Display: Ordered 618 packages using fallback bundle order
+[2026.09.29-21.21.13:363][  0]LogIoStore: Display: Disabled WriteRequestManager memory throttling, MaxConcurrentSourceReads=16 (32 cores)
+[2026.09.29-21.21.13:363][  0]LogIoStore: Display: Writing container(s)...
+[2026.09.29-21.21.13:558][  0]LogIoStore: Display: Writing and compressing took 0.19 seconds, writes to disk took 0.07 seconds for 220,602,960 bytes @ 2,947,306,710 bytes per second.
+[2026.09.29-21.21.13:558][  0]LogIoStore: Display: global: Found perfect hashmap for 1 items.
+[2026.09.29-21.21.13:558][  0]LogIoStore: Display: MorphRig-Linux: Found perfect hashmap for 1635 items.
+[2026.09.29-21.21.13:562][  0]LogIoStore: Display: Finalize took 0.0 seconds for 2 writers to write 171,498 bytes, 38,708,838 bytes per second
+[2026.09.29-21.21.13:562][  0]LogIoStore: Display: Writing tocs... [Physical: 792 MiB, Virtual: 7553 MiB]
+[2026.09.29-21.21.13:562][  0]LogIoStore: Display: 664 / 1,636 hashes were loaded from the hash database, by type:
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display:     ExportBundleData           618
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display:     BulkData                   46
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display: 664 / 1,636 chunks attempted to compress, by type:
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display:     ExportBundleData           618 / 618
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display:     BulkData                   46 / 46
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display:     ScriptObjects              0 / 1
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display:     ContainerHeader            0 / 1
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display:     ShaderCodeLibrary          0 / 2
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display:     ShaderCode                 0 / 968
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display: Source bytes read:
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display:     Zen:                        161,397,859
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display:         ExportBundleData        154,059,516 bytes over 618 reads
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display:         BulkData                  7,338,343 bytes over 46 reads
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display:     Loose File:                           0
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display:     Memory:                     168,898,474
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display:         ShaderCodeLibrary           555,120 bytes over 4 reads
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display:         ShaderCode              168,343,354 bytes over 1,936 reads
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display: Calculating stats...
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display:
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display: Container Summary
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display: ==================
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display:
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display:            Container      Flags      Chunk(s) #       TOC (KiB)       Raw Size (MiB)           Size (MiB)
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display: ---------------------------------------------------------------------------------------------------------
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display:               global  -/-/-/-/-               1            0.76                 3.05                 3.05 -
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display:       MorphRig-Linux  C/-/-/I/-            1635          166.71               249.04               207.33 (16.75% Oodle)
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display: ---------------------------------------------------------------------------------------------------------
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display:                Total                       1636          167.48               252.09               210.38
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display:
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display: ** Flags: (C)ompressed / (E)ncrypted / (S)igned) / (I)ndexed) / (O)nDemand **
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display:
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display: Compression block padding:    14.56 MiB
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display:
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display: Container Directory Index
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display: ==========================
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display:
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display:            Container      Size (KiB)
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display: ------------------------------------
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display:               global            0.00
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display:       MorphRig-Linux           31.29
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display:
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display: Container Patch Report
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display: ========================
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display:
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display:            Container          Total #       Modified #          Added #   Modified (MiB)      Added (MiB)
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display: ---------------------------------------------------------------------------------------------------------
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display:               global                1                0                0             0.00             0.00
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display:       MorphRig-Linux             1635                0             1635             0.00           192.78
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display: ---------------------------------------------------------------------------------------------------------
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display:
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display: PackageStore
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display: =============
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display:
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display:            Container      Size (KiB)      Packages #     Localized #
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display: --------------------------------------------------------------------
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display:       MorphRig-Linux              18             618               0
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display: --------------------------------------------------------------------
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display:                Total              18             618               0
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display:
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display:
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display: Input:       618 Packages
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display: Input:         0   B UExp
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display: Input:    146.92 MiB UAsset
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display: Input:      7.00 MiB UBulk
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display: Input:     67.08 MiB for 734 Global shaders
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display: Input:    977.72 KiB for 83 Shared shaders
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display: Input:         0   B for 0 Unique shaders
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display: Input:     12.24 MiB for 151 Inline shaders
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display:
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display: Output:      910 Imported package entries
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display: Output:      327 Packages without imports
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display: Output:        0 Public runtime script objects
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display: Output:     3.05 MiB InitialLoadData
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display:
+[2026.09.29-21.21.13:563][  0]LogIoStore: Display: Success
+[2026.09.29-21.21.13:567][  0]LogPakFile: Display: UnrealPak executed in 1.487746 seconds
+[2026.09.29-21.21.13:570][  0]LogCore: Engine exit requested (reason: UnrealPak Exiting)
+[2026.09.29-21.21.13:570][  0]LogExit: Preparing to exit.
+[2026.09.29-21.21.13:571][  0]LogExit: Object subsystem successfully closed.
+[2026.09.29-21.21.13:572][  0]LogPakFile: Destroying PakPlatformFile
+[2026.09.29-21.21.13:573][  0]LogExit: Exiting.
+Took 1.78s to run UnrealPak, ExitCode=0
+DumpManifest: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/verification/logs/UAT/FinalCopyLinux_UFSFiles.txt, NumItems: 2398
+DumpManifest: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/verification/logs/UAT/FinalCopyLinux_NonUFSFiles.txt, NumItems: 24
+DumpManifest: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/verification/logs/UAT/FinalCopyLinux_NonUFSFilesDebug.txt, NumItems: 7
+Copying NonUFSFiles to staging directory: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Saved/StagedBuilds/Linux
+Copying DebugFiles to staging directory: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Saved/StagedBuilds/Linux
+Stage command time: 3.74 s
+********** STAGE COMMAND COMPLETED **********
+********** ARCHIVE COMMAND STARTED **********
+Archiving to /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/build/Linux
+Archive command time: 0.46 s
+********** ARCHIVE COMMAND COMPLETED **********
+BuildCookRun time: 117.52 s
+BUILD SUCCESSFUL
+AutomationTool executed for 0h 1m 57s
+AutomationTool exiting with ExitCode=0 (Success)

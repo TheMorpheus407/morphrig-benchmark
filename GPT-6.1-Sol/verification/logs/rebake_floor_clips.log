@@ -1,0 +1,77 @@
+00:00.453  blend            | Read blend: "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/source/Operative.blend"
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/jump_start.fbx'
+export finished in 0.0799 sec.
+EXPORTED export/animations/jump_start.fbx
+BAKED 1 14 jump_start
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/jump_land.fbx'
+export finished in 0.0836 sec.
+EXPORTED export/animations/jump_land.fbx
+BAKED 2 14 jump_land
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/land_heavy.fbx'
+export finished in 0.0994 sec.
+EXPORTED export/animations/land_heavy.fbx
+BAKED 3 14 land_heavy
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/deploy.fbx'
+export finished in 0.1276 sec.
+EXPORTED export/animations/deploy.fbx
+BAKED 4 14 deploy
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/knockdown_front.fbx'
+export finished in 0.1348 sec.
+EXPORTED export/animations/knockdown_front.fbx
+BAKED 5 14 knockdown_front
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/knockdown_back.fbx'
+export finished in 0.1540 sec.
+EXPORTED export/animations/knockdown_back.fbx
+BAKED 6 14 knockdown_back
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/prone_front.fbx'
+export finished in 0.1454 sec.
+EXPORTED export/animations/prone_front.fbx
+BAKED 7 14 prone_front
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/prone_back.fbx'
+export finished in 0.1479 sec.
+EXPORTED export/animations/prone_back.fbx
+BAKED 8 14 prone_back
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/getup_front.fbx'
+export finished in 0.1881 sec.
+EXPORTED export/animations/getup_front.fbx
+BAKED 9 14 getup_front
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/getup_back.fbx'
+export finished in 0.1949 sec.
+EXPORTED export/animations/getup_back.fbx
+BAKED 10 14 getup_back
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/death_front.fbx'
+export finished in 0.1850 sec.
+EXPORTED export/animations/death_front.fbx
+BAKED 11 14 death_front
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/death_back.fbx'
+export finished in 0.1917 sec.
+EXPORTED export/animations/death_back.fbx
+BAKED 12 14 death_back
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/dead_front.fbx'
+export finished in 0.0343 sec.
+EXPORTED export/animations/dead_front.fbx
+BAKED 13 14 dead_front
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/dead_back.fbx'
+export finished in 0.0346 sec.
+EXPORTED export/animations/dead_back.fbx
+BAKED 14 14 dead_back
+Info: Saved as "Operative.blend"
+EXPORT COMPLETE
+Blender 5.1.1
+scripts disabled for "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/source/Operative.blend", skipping 'Operative_Animator_Panel.py'
+
+Blender quit

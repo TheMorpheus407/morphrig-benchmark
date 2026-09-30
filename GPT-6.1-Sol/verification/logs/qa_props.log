@@ -1,0 +1,16 @@
+00:00.485  blend            | Read blend: "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/source/Operative.blend"
+Blender 5.1.1
+scripts disabled for "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/source/Operative.blend", skipping 'Operative_Animator_Panel.py'
+00:02.126  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/verification/qa_contact_reload_cell_left_grasp.png'
+00:02.692  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/verification/qa_contact_reload_cell_detach.png'
+00:03.251  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/verification/qa_contact_reload_cell_hand_transfer.png'
+00:03.818  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/verification/qa_contact_reload_cell_align.png'
+00:04.392  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/verification/qa_contact_reload_cell_insert.png'
+00:04.960  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/verification/qa_contact_reload_left_release.png'
+00:05.858  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/verification/qa_contact_deploy_beacon_left_grasp.png'
+00:06.424  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/verification/qa_contact_deploy_beacon_detach.png'
+00:06.991  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/verification/qa_contact_deploy_beacon_contact.png'
+00:07.567  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/verification/qa_contact_deploy_beacon_release.png'
+ASSET_CONTACT_VALIDATION {"pass": 4, "fail": 1}
+
+Blender quit

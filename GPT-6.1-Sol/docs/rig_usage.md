@@ -1,0 +1,25 @@
+# Operative animator guide
+
+Open `source/Operative.blend` in the supplied Blender. The file already contains the original geometry, UVs, packed textures, rig, source actions and baked deformation actions. Nothing is downloaded to open it.
+
+The character uses meters, faces -Y, with +X to its anatomical right and +Z up. Neutral soles sit at Z=0 and the crown is Z=1.80. Source mesh and animator armature scales are (1,1,1). `root` is the sole export root, separate from pelvis. The export utility explicitly multiplies geometry, bind positions and keyed translations by 100 and writes a centimeter FBX; Unreal imports at scale 1. The retained `Operative_Export_Skeleton` uses display scale .01 in the meter scene, while its bone data and baked translations remain centimeters.
+
+The verified legacy Unreal FBX conversion maps source position `(x,y,z)` meters to `(-100y,-100x,100z)` centimeters. The character faces Unreal +X and its anatomical right is -Y. Runtime movement, aim and socket calculations use this measured basis. Blender bone suffixes `.L/.R` become `_L/_R` in Unreal; `skeleton_and_sockets.json` records both names.
+
+Select `Operative_Rig` and enter Pose Mode. Animator controls appear in the **Animator controls** bone collection. Deformation bones and FK controls are separately grouped; show their collections when needed. Source actions have their exact required names; `BAKED_` actions contain sampled export motion. `QA_` actions demonstrate overhead reach, deep squat, crossed reach, torso twist, kneeling, hand support and closed grip.
+
+Run the embedded text `Operative_Animator_Panel.py` once in Blender's Text Editor to enable the **Operative** sidebar. Blender may ask to trust local scripts; the geometry and actions remain editable without running the panel. The panel provides **Reset to neutral pose** and matched IK/FK switching. To reset through Python, clear the source object's current action and call `rig.reset()` from `source/generators/rig.py`; the embedded panel implements the same reset locally.
+
+Arm and leg IK targets are `IK_hand.L/R` and `IK_foot.L/R`. Move `POLE_elbow.L/R` and `POLE_knee.L/R` to set bend planes. Set `ik_arm.L/R` and `ik_leg.L/R` in `CTRL_settings` to 1 for IK or 0 for FK. Use **Match and switch** to capture the evaluated end/joint transforms before changing mode. FK controls live in their own collection, and finger controls remain independent in either mode.
+
+Foot roll in `CTRL_settings` rotates the ankle through a real heel / toe pivot hierarchy, with separate heel and toe channels. IK targets position the whole foot; use roll for a lift around a ground contact. Keep the foot target constant during support. The generated gaits move support feet at the controller's reference velocity, then swing them back with clearance.
+
+Move `CTRL_pelvis` for hip positioning and `CTRL_root` for actor travel. `CTRL_global` moves/scales the complete rig; leave object transforms applied for export. Torso controls run through spine, chest, neck and head. `CTRL_look` is the gaze target; weights `eye_look_at` and `head_look_at` in `CTRL_settings` enable it. Facial eye controls remain independently available when those look-at weights are zero.
+
+`CTRL_settings` has hand curl and spread overlays. Each `CTRL_thumb/index/middle/ring/pinky_01/02/03.L/R` remains independently rotatable for exact contact. Soft skin uses blended rings around shoulder, elbow, hip, knee and wrist; original corrective shape targets and volume-preserving skinning are retained in Blender. Hard armor and props have deliberately rigid attachments. Export uses the conventional skeletal skin weights plus keyed corrections where supplied by the runtime.
+
+`CTRL_face` exposes left/right blink, squint, brow, cheek, smile/frown, separate eye direction, jaw, lip closure, width, pucker/funnel, tongue and seven viseme categories. Live bone drivers make these sliders visible immediately. Additional named morph targets support the Unreal panel. See `facial_mapping.md` for speech mapping and preset values. Reset sliders before creating a new facial pose.
+
+The power cell, beacon and blade use their own deform bones. `CTRL_cell` and `CTRL_beacon` follow their mount during generated actions, and carry authored world transforms during manipulation. Edit their keyed curves together with the gripping hand to preserve contact. `CTRL_cable_01/02/03` provide editable deterministic secondary motion; source loops close their secondary curves with the body motion.
+
+After changing a source action, run Blender on the edited file with `tools/export_and_bake.py -- --clips ID` to evaluate its controls at 30 FPS and replace its baked FBX. Reimport that clip with `tools/import_unreal.py` before packaging. The source file retains the animator action and the sampled `BAKED_ID`; the bake tool does not regenerate character geometry. For a complete original rebuild, use `source/generators/build_character.py` and then the bake tool. These generators are editable production sources rather than prerequisites for opening the delivered file.

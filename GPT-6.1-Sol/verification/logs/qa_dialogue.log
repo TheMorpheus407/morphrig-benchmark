@@ -1,0 +1,18 @@
+00:00.452  blend            | Read blend: "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/source/Operative.blend"
+Blender 5.1.1
+scripts disabled for "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/source/Operative.blend", skipping 'Operative_Animator_Panel.py'
+00:01.956  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/verification/qa_dialogue_face_concern.png'
+00:02.503  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/verification/qa_dialogue_body_concern.png'
+00:03.081  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/verification/qa_dialogue_face_wrist.png'
+00:03.617  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/verification/qa_dialogue_body_wrist.png'
+00:04.229  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/verification/qa_dialogue_face_crossing.png'
+00:04.800  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/verification/qa_dialogue_body_crossing.png'
+00:05.404  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/verification/qa_dialogue_face_breath.png'
+00:05.997  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/verification/qa_dialogue_body_breath.png'
+00:06.617  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/verification/qa_dialogue_face_confidence.png'
+00:07.176  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/verification/qa_dialogue_body_confidence.png'
+00:07.808  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/verification/qa_dialogue_face_together.png'
+00:08.367  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/verification/qa_dialogue_body_together.png'
+DIALOGUE_CHECKS [{"name": "dialogue_actual_WAV_duration_and_identity", "status": "pass", "details": {"duration_seconds": 13.566666666666666, "sample_rate": 22050, "channels": 1, "sample_width_bytes": 2, "sha256": "d7dfb6cd7d37fb611a3d06a496809731d0b6081b51cc20f78d8aa8f92afef9f5"}}, {"name": "dialogue_timed_seven_viseme_classes", "status": "pass", "details": {"phoneme_count": 128, "viseme_counts": {"consonant": 22, "round": 9, "tongue": 32, "wide": 24, "closure": 8, "silence": 13, "open": 17, "labiodental": 3}}}, {"name": "dialogue_saved_visemes_follow_audio_phoneme_centers", "status": "pass", "details": {"sampled_phonemes": 115, "weak_samples": [], "minimum_center_activation": 0.6487748622894287}}, {"name": "dialogue_gaze_emotion_and_gesture", "status": "pass", "details": {"early_frown_L": 0.25999999046325684, "late_smile_L": 0.7200000286102295, "brow_raise_change": 0.41999998688697815, "gaze_yaw_change_rad": 0.19000000320374966, "hand_gesture_displacement_m": 0.11179163920873103}}]
+
+Blender quit

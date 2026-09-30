@@ -1,0 +1,12 @@
+00:00.457  blend            | Read blend: "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/source/Operative.blend"
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/reload.fbx'
+export finished in 0.1566 sec.
+EXPORTED export/animations/reload.fbx
+BAKED 1 1 reload
+Info: Saved as "Operative.blend"
+EXPORT COMPLETE
+Blender 5.1.1
+scripts disabled for "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/source/Operative.blend", skipping 'Operative_Animator_Panel.py'
+
+Blender quit

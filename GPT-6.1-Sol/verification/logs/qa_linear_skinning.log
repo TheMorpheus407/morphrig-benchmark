@@ -1,0 +1,6 @@
+00:00.494  blend            | Read blend: "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/source/Operative.blend"
+ASSET_VALIDATION {"pass": 105} /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/verification/qa_linear_skinning_validation.json
+Blender 5.1.1
+scripts disabled for "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/source/Operative.blend", skipping 'Operative_Animator_Panel.py'
+
+Blender quit

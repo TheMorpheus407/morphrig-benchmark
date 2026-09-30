@@ -1,0 +1,130 @@
+{
+  "source": "verification/state_sequence.jsonl",
+  "trace_sha256": "4853b00923eaba32133232c5ea34bb22e5e44964aa5677eaeb6ad2a474fc3be5",
+  "manifest_sha256": "5bccaf591d602fb73cf366366c082582a2c7e390a54cbbebb08d6044533dba57",
+  "rows": 338,
+  "markers": 185,
+  "entered_clips": [
+    "blink_in",
+    "blink_out",
+    "cast_directional",
+    "cast_ground",
+    "channel_end",
+    "channel_interrupt",
+    "channel_loop",
+    "channel_start",
+    "charge_cancel",
+    "charge_hold",
+    "charge_release",
+    "charge_start",
+    "dash_f",
+    "dead_back",
+    "dead_front",
+    "death_back",
+    "death_front",
+    "deploy",
+    "dialogue",
+    "fall",
+    "getup_back",
+    "getup_front",
+    "hit_l",
+    "jump_air",
+    "jump_land",
+    "jump_start",
+    "knockdown_back",
+    "knockdown_front",
+    "knockup_start",
+    "land_heavy",
+    "melee_1",
+    "prone_back",
+    "prone_front",
+    "ranged_burst",
+    "ranged_fire",
+    "reload",
+    "respawn",
+    "sleep_end",
+    "sleep_loop",
+    "sleep_start",
+    "start_f",
+    "stop_f",
+    "stun_end",
+    "stun_loop",
+    "stun_start",
+    "uplink_cancel",
+    "uplink_loop",
+    "uplink_start"
+  ],
+  "checks": [
+    {
+      "name": "trace_has_rows",
+      "status": "pass",
+      "details": 338
+    },
+    {
+      "name": "marker_executes_once_per_actor_track_cycle",
+      "status": "pass",
+      "details": []
+    },
+    {
+      "name": "markers_belong_to_authored_manifest",
+      "status": "pass",
+      "details": []
+    },
+    {
+      "name": "major_combined_states_played",
+      "status": "pass",
+      "details": []
+    },
+    {
+      "name": "sequence_finished",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "representative_half_rate_and_fast_rate",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "one_blink_actor_event",
+      "status": "pass",
+      "details": 1
+    },
+    {
+      "name": "blink_disappears_and_reappears_once",
+      "status": "pass",
+      "details": {
+        "disappearances": 1,
+        "reappearances": 1
+      }
+    },
+    {
+      "name": "airborne_stasis_holds_capsule_position",
+      "status": "pass",
+      "details": {
+        "delta_cm": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "airborne": true,
+        "hold_seconds": 1.5995999999999952
+      }
+    },
+    {
+      "name": "forward_dash_capsule_travels_two_meters",
+      "status": "pass",
+      "details": [
+        200.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "summary": {
+    "pass": 10,
+    "fail": 0
+  },
+  "client_binary_sha256": "8479393c16e8a6fe6dd3ffabca4a58ffaedf953967aba95c7eee395ec5a547e8",
+  "capture_provenance": "verification/presentation/motion_capture.json"
+}

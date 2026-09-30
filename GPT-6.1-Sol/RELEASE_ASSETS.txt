@@ -1,0 +1,12 @@
+Parts of this run that are not stored in git (packaged builds and files
+over 100 MB) are attached to the release
+https://github.com/TheMorpheus407/morphrig-benchmark/releases/tag/gpt-6-1-sol
+
+name      build.tar.zst
+contents  build/ (packaged Linux build)
+size      416795797 bytes
+sha256    a1e8a446072b61c8ee926513b45b390985a6cf743f11150ca582460934aebbd0
+download  https://github.com/TheMorpheus407/morphrig-benchmark/releases/download/gpt-6-1-sol/build.tar.zst
+
+Unpack an archive inside this folder:  zstd -d < NAME | tar -x
+Unreal runtime folders (Saved/) are not included.

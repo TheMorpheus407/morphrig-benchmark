@@ -1,0 +1,259 @@
+{
+  "schema_version": 1,
+  "blender_version": "5.1.1",
+  "source": "source/Operative.blend",
+  "units": "metres",
+  "source_sha256": "afe4b13d031ed014e98918b5ea66fd4a1792dedeebccdb18abb90b09d4ab96dd",
+  "validated_utc": "2026-09-29T21:41:09Z",
+  "skinning_basis": "delivered",
+  "prop_contacts": {
+    "reload": {
+      "interval_frames": [
+        14,
+        52
+      ],
+      "sampled_frames": 39,
+      "maximum_nearest_surface_vertex_distance_m": 0.0007038758485578001,
+      "worst_contact_frame": 38,
+      "marker_samples": [
+        {
+          "frame": 14,
+          "nearest_hand_prop_vertex_distance_m": 0.00012751025496982038,
+          "prop_minimum_z_m": 1.0910732746124268
+        },
+        {
+          "frame": 20,
+          "nearest_hand_prop_vertex_distance_m": 0.0006177853792905807,
+          "prop_minimum_z_m": 1.0901535749435425
+        },
+        {
+          "frame": 27,
+          "nearest_hand_prop_vertex_distance_m": 0.0006174843874759972,
+          "prop_minimum_z_m": 1.1134271621704102
+        },
+        {
+          "frame": 40,
+          "nearest_hand_prop_vertex_distance_m": 0.0004286963085178286,
+          "prop_minimum_z_m": 1.1089282035827637
+        },
+        {
+          "frame": 50,
+          "nearest_hand_prop_vertex_distance_m": 0.0002564186870586127,
+          "prop_minimum_z_m": 1.0910747051239014
+        },
+        {
+          "frame": 52,
+          "nearest_hand_prop_vertex_distance_m": 9.604342631064355e-05,
+          "prop_minimum_z_m": 1.0910732746124268
+        }
+      ],
+      "mounted_cell_alignment": [
+        {
+          "frame": 1,
+          "max_position_delta_m": 1.4901161193847656e-08,
+          "position_bone": "cell",
+          "max_rotation_delta_degrees": 0.0,
+          "rotation_bone": "cell",
+          "max_scale_delta": 2.1490760299348767e-06
+        },
+        {
+          "frame": 52,
+          "max_position_delta_m": 0.0,
+          "position_bone": "cell",
+          "max_rotation_delta_degrees": 0.0,
+          "rotation_bone": "cell",
+          "max_scale_delta": 2.2571201597167833e-06
+        },
+        {
+          "frame": 67,
+          "max_position_delta_m": 1.4901161193847656e-08,
+          "position_bone": "cell",
+          "max_rotation_delta_degrees": 0.0,
+          "rotation_bone": "cell",
+          "max_scale_delta": 2.1490760299348767e-06
+        }
+      ]
+    },
+    "deploy": {
+      "interval_frames": [
+        7,
+        28
+      ],
+      "sampled_frames": 22,
+      "maximum_nearest_surface_vertex_distance_m": 0.0015019787242636085,
+      "worst_contact_frame": 11,
+      "marker_samples": [
+        {
+          "frame": 7,
+          "nearest_hand_prop_vertex_distance_m": 0.0011179314460605383,
+          "prop_minimum_z_m": 0.8390000462532043
+        },
+        {
+          "frame": 11,
+          "nearest_hand_prop_vertex_distance_m": 0.0015019787242636085,
+          "prop_minimum_z_m": 0.9166168570518494
+        },
+        {
+          "frame": 28,
+          "nearest_hand_prop_vertex_distance_m": 0.0009254305623471737,
+          "prop_minimum_z_m": 0.004000067710876465
+        }
+      ]
+    }
+  },
+  "checks": [
+    {
+      "name": "held_prop_surface_contact_reload",
+      "status": "pass",
+      "details": {
+        "interval_frames": [
+          14,
+          52
+        ],
+        "sampled_frames": 39,
+        "maximum_nearest_surface_vertex_distance_m": 0.0007038758485578001,
+        "worst_contact_frame": 38,
+        "marker_samples": [
+          {
+            "frame": 14,
+            "nearest_hand_prop_vertex_distance_m": 0.00012751025496982038,
+            "prop_minimum_z_m": 1.0910732746124268
+          },
+          {
+            "frame": 20,
+            "nearest_hand_prop_vertex_distance_m": 0.0006177853792905807,
+            "prop_minimum_z_m": 1.0901535749435425
+          },
+          {
+            "frame": 27,
+            "nearest_hand_prop_vertex_distance_m": 0.0006174843874759972,
+            "prop_minimum_z_m": 1.1134271621704102
+          },
+          {
+            "frame": 40,
+            "nearest_hand_prop_vertex_distance_m": 0.0004286963085178286,
+            "prop_minimum_z_m": 1.1089282035827637
+          },
+          {
+            "frame": 50,
+            "nearest_hand_prop_vertex_distance_m": 0.0002564186870586127,
+            "prop_minimum_z_m": 1.0910747051239014
+          },
+          {
+            "frame": 52,
+            "nearest_hand_prop_vertex_distance_m": 9.604342631064355e-05,
+            "prop_minimum_z_m": 1.0910732746124268
+          }
+        ],
+        "mounted_cell_alignment": [
+          {
+            "frame": 1,
+            "max_position_delta_m": 1.4901161193847656e-08,
+            "position_bone": "cell",
+            "max_rotation_delta_degrees": 0.0,
+            "rotation_bone": "cell",
+            "max_scale_delta": 2.1490760299348767e-06
+          },
+          {
+            "frame": 52,
+            "max_position_delta_m": 0.0,
+            "position_bone": "cell",
+            "max_rotation_delta_degrees": 0.0,
+            "rotation_bone": "cell",
+            "max_scale_delta": 2.2571201597167833e-06
+          },
+          {
+            "frame": 67,
+            "max_position_delta_m": 1.4901161193847656e-08,
+            "position_bone": "cell",
+            "max_rotation_delta_degrees": 0.0,
+            "rotation_bone": "cell",
+            "max_scale_delta": 2.1490760299348767e-06
+          }
+        ]
+      }
+    },
+    {
+      "name": "reload_cell_mounted_alignment",
+      "status": "pass",
+      "details": [
+        {
+          "frame": 1,
+          "max_position_delta_m": 1.4901161193847656e-08,
+          "position_bone": "cell",
+          "max_rotation_delta_degrees": 0.0,
+          "rotation_bone": "cell",
+          "max_scale_delta": 2.1490760299348767e-06
+        },
+        {
+          "frame": 52,
+          "max_position_delta_m": 0.0,
+          "position_bone": "cell",
+          "max_rotation_delta_degrees": 0.0,
+          "rotation_bone": "cell",
+          "max_scale_delta": 2.2571201597167833e-06
+        },
+        {
+          "frame": 67,
+          "max_position_delta_m": 1.4901161193847656e-08,
+          "position_bone": "cell",
+          "max_rotation_delta_degrees": 0.0,
+          "rotation_bone": "cell",
+          "max_scale_delta": 2.1490760299348767e-06
+        }
+      ]
+    },
+    {
+      "name": "held_prop_surface_contact_deploy",
+      "status": "pass",
+      "details": {
+        "interval_frames": [
+          7,
+          28
+        ],
+        "sampled_frames": 22,
+        "maximum_nearest_surface_vertex_distance_m": 0.0015019787242636085,
+        "worst_contact_frame": 11,
+        "marker_samples": [
+          {
+            "frame": 7,
+            "nearest_hand_prop_vertex_distance_m": 0.0011179314460605383,
+            "prop_minimum_z_m": 0.8390000462532043
+          },
+          {
+            "frame": 11,
+            "nearest_hand_prop_vertex_distance_m": 0.0015019787242636085,
+            "prop_minimum_z_m": 0.9166168570518494
+          },
+          {
+            "frame": 28,
+            "nearest_hand_prop_vertex_distance_m": 0.0009254305623471737,
+            "prop_minimum_z_m": 0.004000067710876465
+          }
+        ]
+      }
+    },
+    {
+      "name": "deployed_beacon_floor_contact_placement",
+      "status": "pass",
+      "details": {
+        "frame": 28,
+        "base_z_m": 0.004000067710876465
+      }
+    },
+    {
+      "name": "deployed_beacon_floor_contact_final",
+      "status": "pass",
+      "details": {
+        "frame": 49,
+        "base_z_m": 0.004000067710876465
+      }
+    }
+  ],
+  "summary": {
+    "pass": 5,
+    "fail": 0
+  },
+  "derived_from": "verification/asset_validation.json",
+  "evaluation_scope": "Final measurements for the same named checks previously recorded in this diagnostic report; derived from the complete final validation."
+}

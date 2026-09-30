@@ -1,0 +1,44 @@
+{
+  "evidence": [
+    "verification/standalone_steps_stop.png",
+    "verification/ramp_stop_contacts.csv",
+    "verification/logs/ramp_stop_current_foot_packaged.log"
+  ],
+  "method": "Analytical source-pose and boot footprint reconstruction, not a native skinned-surface measurement. Snapshot at stop_f .002 retains previous walk_f pose near .500 seconds.",
+  "actor_cm": [
+    615.407,
+    450,
+    190.03
+  ],
+  "rear_ankle_reconstructed_cm": [
+    578.2086615784799,
+    461.5,
+    90.0
+  ],
+  "authored_boot_forward_surface_point_reconstructed_cm": [
+    595.4749831837296,
+    462.4506064097775,
+    85.97843492185211
+  ],
+  "step5_bounds_cm": {
+    "x": [
+      580,
+      660
+    ],
+    "y": [
+      350,
+      550
+    ],
+    "z": [
+      0,
+      100
+    ]
+  },
+  "point_inside_solid_tread": true,
+  "distance_inside_riser_cm": 15.474983183729591,
+  "distance_below_upper_tread_cm": 14.021565078147887,
+  "acceptance": "Fail for this original runtime binary; fix adjacent higher-tread footprint queries and remeasure actual finalized boot surfaces.",
+  "original_binary_sha256": "85f61c48e21e244ac0a4e92bd179fdb1efa481d1d7228c03232857e9333e3263",
+  "archived_original_screenshot": "verification/qa_stair_footprint_initial.png",
+  "archived_original_screenshot_sha256": "0e0a36adee9a490f7c22b9dabca238839f5584a72ce5fca36143823f233cb152"
+}

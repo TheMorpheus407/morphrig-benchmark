@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "method": "Independent review of finalized imported LOD0 boot/toe vertex skinning from both packaged terrain replays; checks every captured row, regardless of applied IK weight.",
+  "units": "centimetres",
+  "runs": {
+    "terrain_contacts.csv": {
+      "rows": 227,
+      "sha256": "ba297bab0cd5bae4200e7964253468f884fd2db02efc4f14057301bd35d4e2fc",
+      "phases": {
+        "ramp": {
+          "left": {
+            "minimum_surface_clearance_cm": -9.1823,
+            "worst_time_seconds": 3.5373,
+            "inside_tread_vertex_count": 0,
+            "maximum_solid_penetration_cm": 0.0,
+            "fully_weighted_samples": 104,
+            "maximum_fully_weighted_minimum_surface_gap_cm": 0.448,
+            "minimum_fully_weighted_surface_clearance_cm": -9.1823
+          },
+          "right": {
+            "minimum_surface_clearance_cm": -0.0024,
+            "worst_time_seconds": 0.2338,
+            "inside_tread_vertex_count": 0,
+            "maximum_solid_penetration_cm": 0.0,
+            "fully_weighted_samples": 94,
+            "maximum_fully_weighted_minimum_surface_gap_cm": 0.4441,
+            "minimum_fully_weighted_surface_clearance_cm": 0.06
+          }
+        },
+        "steps": {
+          "left": {
+            "minimum_surface_clearance_cm": -0.0121,
+            "worst_time_seconds": 9.4277,
+            "inside_tread_vertex_count": 2,
+            "maximum_solid_penetration_cm": 0.0121,
+            "fully_weighted_samples": 84,
+            "maximum_fully_weighted_minimum_surface_gap_cm": 0.2038,
+            "minimum_fully_weighted_surface_clearance_cm": -0.0121
+          },
+          "right": {
+            "minimum_surface_clearance_cm": 0.06,
+            "worst_time_seconds": 7.7677,
+            "inside_tread_vertex_count": 0,
+            "maximum_solid_penetration_cm": 0.0,
+            "fully_weighted_samples": 63,
+            "maximum_fully_weighted_minimum_surface_gap_cm": 1.4719,
+            "minimum_fully_weighted_surface_clearance_cm": 0.06
+          }
+        }
+      },
+      "pass": false
+    },
+    "ramp_stop_contacts.csv": {
+      "rows": 227,
+      "sha256": "34bc8711589ba344b5402a990517521bfda81ec1c01f7006cac0a0b86d93ada1",
+      "phases": {
+        "ramp": {
+          "left": {
+            "minimum_surface_clearance_cm": -0.0019,
+            "worst_time_seconds": 0.1833,
+            "inside_tread_vertex_count": 0,
+            "maximum_solid_penetration_cm": 0.0,
+            "fully_weighted_samples": 117,
+            "maximum_fully_weighted_minimum_surface_gap_cm": 0.4493,
+            "minimum_fully_weighted_surface_clearance_cm": 0.06
+          },
+          "right": {
+            "minimum_surface_clearance_cm": -0.0024,
+            "worst_time_seconds": 0.1833,
+            "inside_tread_vertex_count": 0,
+            "maximum_solid_penetration_cm": 0.0,
+            "fully_weighted_samples": 108,
+            "maximum_fully_weighted_minimum_surface_gap_cm": 0.3862,
+            "minimum_fully_weighted_surface_clearance_cm": 0.06
+          }
+        },
+        "steps": {
+          "left": {
+            "minimum_surface_clearance_cm": -0.2056,
+            "worst_time_seconds": 7.7967,
+            "inside_tread_vertex_count": 12,
+            "maximum_solid_penetration_cm": 0.2056,
+            "fully_weighted_samples": 84,
+            "maximum_fully_weighted_minimum_surface_gap_cm": 0.4021,
+            "minimum_fully_weighted_surface_clearance_cm": -0.2056
+          },
+          "right": {
+            "minimum_surface_clearance_cm": 0.06,
+            "worst_time_seconds": 8.6616,
+            "inside_tread_vertex_count": 0,
+            "maximum_solid_penetration_cm": 0.0,
+            "fully_weighted_samples": 68,
+            "maximum_fully_weighted_minimum_surface_gap_cm": 0.1862,
+            "minimum_fully_weighted_surface_clearance_cm": 0.06
+          }
+        }
+      },
+      "pass": true
+    }
+  },
+  "evaluated_utc": "2026-09-29T23:24:35.392315+00:00",
+  "boot_bindings_sha256": "e793757b9117c5933812d982a80072e395d86c14387b92bfe8170a4691fd6188",
+  "imported_boot_vertex_samples": 1938,
+  "binding_weight_max_sum_error": 0,
+  "summary": {
+    "pass": false
+  },
+  "contact_pressure_tolerance_cm": 1.0,
+  "acceptance_note": "Retain raw values. Small surface pressure uses the same1 cm allowance as source mesh checks. Height correction at weight1 can include a swing foot; its surface gap is descriptive until separate slope/stance weights establish support."
+}

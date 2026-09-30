@@ -1,0 +1,2874 @@
+{
+  "scope": "Editor diagnostic only; final acceptance requires coherent packaged pair.",
+  "input_sha256": "989bda8f0b4c9c1b97e77792a42917bbc17ff5a12e6c98ce13b76c7d7b8b01f8",
+  "authored_support": {
+    "left": [
+      {
+        "phase": "ramp",
+        "side": "left",
+        "sample_count": 5,
+        "start_seconds": 0.07,
+        "end_seconds": 0.3152,
+        "duration_seconds": 0.24519999999999997,
+        "horizontal_diameter_cm": 0.0,
+        "endpoint_horizontal_displacement_cm": 0.0,
+        "maximum_adjacent_horizontal_displacement_cm": 0.0,
+        "maximum_sample_interval_seconds": 0.086,
+        "minimum_stance_weight": 1.0,
+        "surface_clearance_range_cm": [
+          0.1001,
+          0.1003
+        ],
+        "includes_controller_movement": true,
+        "includes_stationary_controller": false,
+        "diameter_samples": [
+          {
+            "t": 0.3152,
+            "foot_world_xyz_cm": [
+              284.503,
+              -337.504,
+              10.101
+            ],
+            "actor_world_xyz_cm": [
+              314.634,
+              -350.0,
+              90.0
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.1002,
+            "body_id": "start_f",
+            "base_id": "walk_f",
+            "gait_phase": "0.57451",
+            "body_t": "0.3152"
+          },
+          {
+            "t": 0.3152,
+            "foot_world_xyz_cm": [
+              284.503,
+              -337.504,
+              10.101
+            ],
+            "actor_world_xyz_cm": [
+              314.634,
+              -350.0,
+              90.0
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.1002,
+            "body_id": "start_f",
+            "base_id": "walk_f",
+            "gait_phase": "0.57451",
+            "body_t": "0.3152"
+          }
+        ],
+        "start_sample": {
+          "t": 0.07,
+          "foot_world_xyz_cm": [
+            284.503,
+            -337.504,
+            10.101
+          ],
+          "actor_world_xyz_cm": [
+            281.258,
+            -350.0,
+            90.0
+          ],
+          "controller_speed_cm_s": 38.851,
+          "stance_weight": 1.0,
+          "surface_clearance_cm": 0.1001,
+          "body_id": "start_f",
+          "base_id": "idle_combat",
+          "gait_phase": "0.28589",
+          "body_t": "0.0700"
+        },
+        "end_sample": {
+          "t": 0.3152,
+          "foot_world_xyz_cm": [
+            284.503,
+            -337.504,
+            10.101
+          ],
+          "actor_world_xyz_cm": [
+            314.634,
+            -350.0,
+            90.0
+          ],
+          "controller_speed_cm_s": 150.0,
+          "stance_weight": 1.0,
+          "surface_clearance_cm": 0.1002,
+          "body_id": "start_f",
+          "base_id": "walk_f",
+          "gait_phase": "0.57451",
+          "body_t": "0.3152"
+        },
+        "pass": true,
+        "largest_adjacent_jump_samples": [
+          {
+            "t": 0.2622,
+            "foot_world_xyz_cm": [
+              284.503,
+              -337.504,
+              10.102
+            ],
+            "actor_world_xyz_cm": [
+              306.677,
+              -350.0,
+              90.0
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.1003,
+            "body_id": "start_f",
+            "base_id": "walk_f",
+            "gait_phase": "0.50820",
+            "body_t": "0.2622"
+          },
+          {
+            "t": 0.3152,
+            "foot_world_xyz_cm": [
+              284.503,
+              -337.504,
+              10.101
+            ],
+            "actor_world_xyz_cm": [
+              314.634,
+              -350.0,
+              90.0
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.1002,
+            "body_id": "start_f",
+            "base_id": "walk_f",
+            "gait_phase": "0.57451",
+            "body_t": "0.3152"
+          }
+        ]
+      },
+      {
+        "phase": "ramp",
+        "side": "left",
+        "sample_count": 8,
+        "start_seconds": 0.723,
+        "end_seconds": 1.0786,
+        "duration_seconds": 0.3556,
+        "horizontal_diameter_cm": 0.07940403012437053,
+        "endpoint_horizontal_displacement_cm": 0.030083217912936392,
+        "maximum_adjacent_horizontal_displacement_cm": 0.05308483775994447,
+        "maximum_sample_interval_seconds": 0.05159999999999998,
+        "minimum_stance_weight": 1.0,
+        "surface_clearance_range_cm": [
+          0.9425,
+          0.943
+        ],
+        "includes_controller_movement": true,
+        "includes_stationary_controller": false,
+        "diameter_samples": [
+          {
+            "t": 1.0786,
+            "foot_world_xyz_cm": [
+              402.869,
+              -338.49,
+              30.445
+            ],
+            "actor_world_xyz_cm": [
+              429.144,
+              -350.0,
+              114.806
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.943,
+            "body_id": "none",
+            "base_id": "walk_f",
+            "gait_phase": "0.52876",
+            "body_t": "0.6000"
+          },
+          {
+            "t": 0.7737,
+            "foot_world_xyz_cm": [
+              402.948,
+              -338.498,
+              30.476
+            ],
+            "actor_world_xyz_cm": [
+              383.399,
+              -350.0,
+              90.59
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.943,
+            "body_id": "none",
+            "base_id": "walk_f",
+            "gait_phase": "0.14755",
+            "body_t": "0.6000"
+          }
+        ],
+        "start_sample": {
+          "t": 0.723,
+          "foot_world_xyz_cm": [
+            402.897,
+            -338.501,
+            30.455
+          ],
+          "actor_world_xyz_cm": [
+            375.799,
+            -350.0,
+            90.0
+          ],
+          "controller_speed_cm_s": 150.0,
+          "stance_weight": 1.0,
+          "surface_clearance_cm": 0.9428,
+          "body_id": "none",
+          "base_id": "walk_f",
+          "gait_phase": "0.08422",
+          "body_t": "0.6000"
+        },
+        "end_sample": {
+          "t": 1.0786,
+          "foot_world_xyz_cm": [
+            402.869,
+            -338.49,
+            30.445
+          ],
+          "actor_world_xyz_cm": [
+            429.144,
+            -350.0,
+            114.806
+          ],
+          "controller_speed_cm_s": 150.0,
+          "stance_weight": 1.0,
+          "surface_clearance_cm": 0.943,
+          "body_id": "none",
+          "base_id": "walk_f",
+          "gait_phase": "0.52876",
+          "body_t": "0.6000"
+        },
+        "pass": true,
+        "largest_adjacent_jump_samples": [
+          {
+            "t": 0.7737,
+            "foot_world_xyz_cm": [
+              402.948,
+              -338.498,
+              30.476
+            ],
+            "actor_world_xyz_cm": [
+              383.399,
+              -350.0,
+              90.59
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.943,
+            "body_id": "none",
+            "base_id": "walk_f",
+            "gait_phase": "0.14755",
+            "body_t": "0.6000"
+          },
+          {
+            "t": 0.8246,
+            "foot_world_xyz_cm": [
+              402.895,
+              -338.501,
+              30.451
+            ],
+            "actor_world_xyz_cm": [
+              391.043,
+              -350.0,
+              99.327
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.9425,
+            "body_id": "none",
+            "base_id": "walk_f",
+            "gait_phase": "0.21125",
+            "body_t": "0.6000"
+          }
+        ]
+      },
+      {
+        "phase": "ramp",
+        "side": "left",
+        "sample_count": 8,
+        "start_seconds": 1.5378,
+        "end_seconds": 1.894,
+        "duration_seconds": 0.35619999999999985,
+        "horizontal_diameter_cm": 0.06964194138592908,
+        "endpoint_horizontal_displacement_cm": 0.03712142238655304,
+        "maximum_adjacent_horizontal_displacement_cm": 0.05303772242470211,
+        "maximum_sample_interval_seconds": 0.05180000000000007,
+        "minimum_stance_weight": 1.0,
+        "surface_clearance_range_cm": [
+          0.1001,
+          0.1002
+        ],
+        "includes_controller_movement": true,
+        "includes_stationary_controller": false,
+        "diameter_samples": [
+          {
+            "t": 1.7921,
+            "foot_world_xyz_cm": [
+              522.851,
+              -338.496,
+              67.644
+            ],
+            "actor_world_xyz_cm": [
+              536.173,
+              -350.0,
+              153.762
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.1001,
+            "body_id": "none",
+            "base_id": "walk_f",
+            "gait_phase": "0.42067",
+            "body_t": "0.6000"
+          },
+          {
+            "t": 1.5378,
+            "foot_world_xyz_cm": [
+              522.918,
+              -338.515,
+              67.669
+            ],
+            "actor_world_xyz_cm": [
+              498.02,
+              -350.0,
+              139.875
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.1002,
+            "body_id": "none",
+            "base_id": "walk_f",
+            "gait_phase": "0.10273",
+            "body_t": "0.6000"
+          }
+        ],
+        "start_sample": {
+          "t": 1.5378,
+          "foot_world_xyz_cm": [
+            522.918,
+            -338.515,
+            67.669
+          ],
+          "actor_world_xyz_cm": [
+            498.02,
+            -350.0,
+            139.875
+          ],
+          "controller_speed_cm_s": 150.0,
+          "stance_weight": 1.0,
+          "surface_clearance_cm": 0.1002,
+          "body_id": "none",
+          "base_id": "walk_f",
+          "gait_phase": "0.10273",
+          "body_t": "0.6000"
+        },
+        "end_sample": {
+          "t": 1.894,
+          "foot_world_xyz_cm": [
+            522.885,
+            -338.498,
+            67.657
+          ],
+          "actor_world_xyz_cm": [
+            551.449,
+            -350.0,
+            159.322
+          ],
+          "controller_speed_cm_s": 150.0,
+          "stance_weight": 1.0,
+          "surface_clearance_cm": 0.1002,
+          "body_id": "none",
+          "base_id": "walk_f",
+          "gait_phase": "0.54797",
+          "body_t": "0.6000"
+        },
+        "pass": true,
+        "largest_adjacent_jump_samples": [
+          {
+            "t": 1.7408,
+            "foot_world_xyz_cm": [
+              522.904,
+              -338.498,
+              67.664
+            ],
+            "actor_world_xyz_cm": [
+              528.475,
+              -350.0,
+              150.96
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.1002,
+            "body_id": "none",
+            "base_id": "walk_f",
+            "gait_phase": "0.35652",
+            "body_t": "0.6000"
+          },
+          {
+            "t": 1.7921,
+            "foot_world_xyz_cm": [
+              522.851,
+              -338.496,
+              67.644
+            ],
+            "actor_world_xyz_cm": [
+              536.173,
+              -350.0,
+              153.762
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.1001,
+            "body_id": "none",
+            "base_id": "walk_f",
+            "gait_phase": "0.42067",
+            "body_t": "0.6000"
+          }
+        ]
+      },
+      {
+        "phase": "ramp",
+        "side": "left",
+        "sample_count": 92,
+        "start_seconds": 2.3008,
+        "end_seconds": 6.9745,
+        "duration_seconds": 4.6737,
+        "horizontal_diameter_cm": 0.06747592163135437,
+        "endpoint_horizontal_displacement_cm": 0.03328663395418831,
+        "maximum_adjacent_horizontal_displacement_cm": 0.06747592163135437,
+        "maximum_sample_interval_seconds": 0.05970000000000031,
+        "minimum_stance_weight": 1.0,
+        "surface_clearance_range_cm": [
+          0.1,
+          0.1006
+        ],
+        "includes_controller_movement": true,
+        "includes_stationary_controller": true,
+        "diameter_samples": [
+          {
+            "t": 2.4541,
+            "foot_world_xyz_cm": [
+              642.89,
+              -338.502,
+              111.334
+            ],
+            "actor_world_xyz_cm": [
+              635.46,
+              -350.0,
+              189.899
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.1001,
+            "body_id": "none",
+            "base_id": "walk_f",
+            "gait_phase": "0.24806",
+            "body_t": "0.6000"
+          },
+          {
+            "t": 2.4032,
+            "foot_world_xyz_cm": [
+              642.957,
+              -338.494,
+              111.359
+            ],
+            "actor_world_xyz_cm": [
+              627.828,
+              -350.0,
+              187.121
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.1001,
+            "body_id": "none",
+            "base_id": "walk_f",
+            "gait_phase": "0.18446",
+            "body_t": "0.6000"
+          }
+        ],
+        "start_sample": {
+          "t": 2.3008,
+          "foot_world_xyz_cm": [
+            642.923,
+            -338.517,
+            111.347
+          ],
+          "actor_world_xyz_cm": [
+            612.47,
+            -350.0,
+            181.531
+          ],
+          "controller_speed_cm_s": 150.0,
+          "stance_weight": 1.0,
+          "surface_clearance_cm": 0.1003,
+          "body_id": "none",
+          "base_id": "walk_f",
+          "gait_phase": "0.05648",
+          "body_t": "0.6000"
+        },
+        "end_sample": {
+          "t": 6.9745,
+          "foot_world_xyz_cm": [
+            642.895,
+            -338.499,
+            111.336
+          ],
+          "actor_world_xyz_cm": [
+            653.646,
+            -350.0,
+            196.518
+          ],
+          "controller_speed_cm_s": 0.0,
+          "stance_weight": 1.0,
+          "surface_clearance_cm": 0.1001,
+          "body_id": "none",
+          "base_id": "idle_combat",
+          "gait_phase": "0.96120",
+          "body_t": "0.7000"
+        },
+        "pass": true,
+        "largest_adjacent_jump_samples": [
+          {
+            "t": 2.4032,
+            "foot_world_xyz_cm": [
+              642.957,
+              -338.494,
+              111.359
+            ],
+            "actor_world_xyz_cm": [
+              627.828,
+              -350.0,
+              187.121
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.1001,
+            "body_id": "none",
+            "base_id": "walk_f",
+            "gait_phase": "0.18446",
+            "body_t": "0.6000"
+          },
+          {
+            "t": 2.4541,
+            "foot_world_xyz_cm": [
+              642.89,
+              -338.502,
+              111.334
+            ],
+            "actor_world_xyz_cm": [
+              635.46,
+              -350.0,
+              189.899
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.1001,
+            "body_id": "none",
+            "base_id": "walk_f",
+            "gait_phase": "0.24806",
+            "body_t": "0.6000"
+          }
+        ]
+      },
+      {
+        "phase": "steps",
+        "side": "left",
+        "sample_count": 6,
+        "start_seconds": 7.0532,
+        "end_seconds": 7.3091,
+        "duration_seconds": 0.2558999999999996,
+        "horizontal_diameter_cm": 0.0,
+        "endpoint_horizontal_displacement_cm": 0.0,
+        "maximum_adjacent_horizontal_displacement_cm": 0.0,
+        "maximum_sample_interval_seconds": 0.05149999999999988,
+        "minimum_stance_weight": 1.0,
+        "surface_clearance_range_cm": [
+          0.1001,
+          0.1003
+        ],
+        "includes_controller_movement": true,
+        "includes_stationary_controller": false,
+        "diameter_samples": [
+          {
+            "t": 7.3091,
+            "foot_world_xyz_cm": [
+              184.503,
+              462.496,
+              10.1
+            ],
+            "actor_world_xyz_cm": [
+              216.889,
+              450.0,
+              90.0
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.1001,
+            "body_id": "start_f",
+            "base_id": "walk_f",
+            "gait_phase": "0.58324",
+            "body_t": "0.3093"
+          },
+          {
+            "t": 7.3091,
+            "foot_world_xyz_cm": [
+              184.503,
+              462.496,
+              10.1
+            ],
+            "actor_world_xyz_cm": [
+              216.889,
+              450.0,
+              90.0
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.1001,
+            "body_id": "start_f",
+            "base_id": "walk_f",
+            "gait_phase": "0.58324",
+            "body_t": "0.3093"
+          }
+        ],
+        "start_sample": {
+          "t": 7.0532,
+          "foot_world_xyz_cm": [
+            184.503,
+            462.496,
+            10.101
+          ],
+          "actor_world_xyz_cm": [
+            181.658,
+            450.0,
+            90.0
+          ],
+          "controller_speed_cm_s": 61.932,
+          "stance_weight": 1.0,
+          "surface_clearance_cm": 0.1002,
+          "body_id": "start_f",
+          "base_id": "walk_f",
+          "gait_phase": "0.28965",
+          "body_t": "0.0534"
+        },
+        "end_sample": {
+          "t": 7.3091,
+          "foot_world_xyz_cm": [
+            184.503,
+            462.496,
+            10.1
+          ],
+          "actor_world_xyz_cm": [
+            216.889,
+            450.0,
+            90.0
+          ],
+          "controller_speed_cm_s": 150.0,
+          "stance_weight": 1.0,
+          "surface_clearance_cm": 0.1001,
+          "body_id": "start_f",
+          "base_id": "walk_f",
+          "gait_phase": "0.58324",
+          "body_t": "0.3093"
+        },
+        "pass": true,
+        "largest_adjacent_jump_samples": [
+          {
+            "t": 7.2581,
+            "foot_world_xyz_cm": [
+              184.503,
+              462.496,
+              10.102
+            ],
+            "actor_world_xyz_cm": [
+              209.233,
+              450.0,
+              90.0
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.1003,
+            "body_id": "start_f",
+            "base_id": "walk_f",
+            "gait_phase": "0.51943",
+            "body_t": "0.2583"
+          },
+          {
+            "t": 7.3091,
+            "foot_world_xyz_cm": [
+              184.503,
+              462.496,
+              10.1
+            ],
+            "actor_world_xyz_cm": [
+              216.889,
+              450.0,
+              90.0
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.1001,
+            "body_id": "start_f",
+            "base_id": "walk_f",
+            "gait_phase": "0.58324",
+            "body_t": "0.3093"
+          }
+        ]
+      },
+      {
+        "phase": "steps",
+        "side": "left",
+        "sample_count": 8,
+        "start_seconds": 7.7177,
+        "end_seconds": 8.0741,
+        "duration_seconds": 0.35639999999999983,
+        "horizontal_diameter_cm": 0.07600657866260488,
+        "endpoint_horizontal_displacement_cm": 0.030413812651483997,
+        "maximum_adjacent_horizontal_displacement_cm": 0.03945883931388085,
+        "maximum_sample_interval_seconds": 0.0517000000000003,
+        "minimum_stance_weight": 1.0,
+        "surface_clearance_range_cm": [
+          0.1,
+          0.1002
+        ],
+        "includes_controller_movement": true,
+        "includes_stationary_controller": false,
+        "diameter_samples": [
+          {
+            "t": 8.0227,
+            "foot_world_xyz_cm": [
+              304.062,
+              461.502,
+              30.1
+            ],
+            "actor_world_xyz_cm": [
+              323.921,
+              450.0,
+              125.322
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.1001,
+            "body_id": "none",
+            "base_id": "walk_f",
+            "gait_phase": "0.47517",
+            "body_t": "0.6000"
+          },
+          {
+            "t": 7.7685,
+            "foot_world_xyz_cm": [
+              304.138,
+              461.501,
+              30.102
+            ],
+            "actor_world_xyz_cm": [
+              285.798,
+              450.0,
+              110.035
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.1002,
+            "body_id": "none",
+            "base_id": "walk_f",
+            "gait_phase": "0.15748",
+            "body_t": "0.6000"
+          }
+        ],
+        "start_sample": {
+          "t": 7.7177,
+          "foot_world_xyz_cm": [
+            304.123,
+            461.489,
+            30.101
+          ],
+          "actor_world_xyz_cm": [
+            278.182,
+            450.0,
+            110.035
+          ],
+          "controller_speed_cm_s": 150.0,
+          "stance_weight": 1.0,
+          "surface_clearance_cm": 0.1001,
+          "body_id": "none",
+          "base_id": "walk_f",
+          "gait_phase": "0.09402",
+          "body_t": "0.6000"
+        },
+        "end_sample": {
+          "t": 8.0741,
+          "foot_world_xyz_cm": [
+            304.096,
+            461.503,
+            30.101
+          ],
+          "actor_world_xyz_cm": [
+            331.631,
+            450.0,
+            128.807
+          ],
+          "controller_speed_cm_s": 150.0,
+          "stance_weight": 1.0,
+          "surface_clearance_cm": 0.1002,
+          "body_id": "none",
+          "base_id": "walk_f",
+          "gait_phase": "0.53942",
+          "body_t": "0.6000"
+        },
+        "pass": true,
+        "largest_adjacent_jump_samples": [
+          {
+            "t": 7.7685,
+            "foot_world_xyz_cm": [
+              304.138,
+              461.501,
+              30.102
+            ],
+            "actor_world_xyz_cm": [
+              285.798,
+              450.0,
+              110.035
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.1002,
+            "body_id": "none",
+            "base_id": "walk_f",
+            "gait_phase": "0.15748",
+            "body_t": "0.6000"
+          },
+          {
+            "t": 7.8193,
+            "foot_world_xyz_cm": [
+              304.099,
+              461.495,
+              30.101
+            ],
+            "actor_world_xyz_cm": [
+              293.422,
+              450.0,
+              110.035
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.1002,
+            "body_id": "none",
+            "base_id": "walk_f",
+            "gait_phase": "0.22102",
+            "body_t": "0.6000"
+          }
+        ]
+      },
+      {
+        "phase": "steps",
+        "side": "left",
+        "sample_count": 9,
+        "start_seconds": 8.4838,
+        "end_seconds": 8.8914,
+        "duration_seconds": 0.4076000000000004,
+        "horizontal_diameter_cm": 0.19306475597579595,
+        "endpoint_horizontal_displacement_cm": 0.04681879964284952,
+        "maximum_adjacent_horizontal_displacement_cm": 0.14128694207176312,
+        "maximum_sample_interval_seconds": 0.051400000000001,
+        "minimum_stance_weight": 1.0,
+        "surface_clearance_range_cm": [
+          0.3492,
+          0.3502
+        ],
+        "includes_controller_movement": true,
+        "includes_stationary_controller": false,
+        "diameter_samples": [
+          {
+            "t": 8.7897,
+            "foot_world_xyz_cm": [
+              423.963,
+              461.51,
+              70.351
+            ],
+            "actor_world_xyz_cm": [
+              438.971,
+              450.0,
+              149.944
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.3498,
+            "body_id": "none",
+            "base_id": "walk_f",
+            "gait_phase": "0.43392",
+            "body_t": "0.6000"
+          },
+          {
+            "t": 8.5857,
+            "foot_world_xyz_cm": [
+              424.156,
+              461.505,
+              70.351
+            ],
+            "actor_world_xyz_cm": [
+              408.379,
+              450.0,
+              147.58
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.3502,
+            "body_id": "none",
+            "base_id": "walk_f",
+            "gait_phase": "0.17899",
+            "body_t": "0.6000"
+          }
+        ],
+        "start_sample": {
+          "t": 8.4838,
+          "foot_world_xyz_cm": [
+            424.126,
+            461.487,
+            70.35
+          ],
+          "actor_world_xyz_cm": [
+            393.1,
+            450.0,
+            133.431
+          ],
+          "controller_speed_cm_s": 150.0,
+          "stance_weight": 1.0,
+          "surface_clearance_cm": 0.3492,
+          "body_id": "none",
+          "base_id": "walk_f",
+          "gait_phase": "0.05166",
+          "body_t": "0.6000"
+        },
+        "end_sample": {
+          "t": 8.8914,
+          "foot_world_xyz_cm": [
+            424.082,
+            461.503,
+            70.35
+          ],
+          "actor_world_xyz_cm": [
+            454.231,
+            450.0,
+            149.944
+          ],
+          "controller_speed_cm_s": 150.0,
+          "stance_weight": 1.0,
+          "surface_clearance_cm": 0.3492,
+          "body_id": "none",
+          "base_id": "walk_f",
+          "gait_phase": "0.56108",
+          "body_t": "0.6000"
+        },
+        "pass": true,
+        "largest_adjacent_jump_samples": [
+          {
+            "t": 8.739,
+            "foot_world_xyz_cm": [
+              424.104,
+              461.501,
+              70.351
+            ],
+            "actor_world_xyz_cm": [
+              431.366,
+              450.0,
+              149.944
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.3501,
+            "body_id": "none",
+            "base_id": "walk_f",
+            "gait_phase": "0.37054",
+            "body_t": "0.6000"
+          },
+          {
+            "t": 8.7897,
+            "foot_world_xyz_cm": [
+              423.963,
+              461.51,
+              70.351
+            ],
+            "actor_world_xyz_cm": [
+              438.971,
+              450.0,
+              149.944
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.3498,
+            "body_id": "none",
+            "base_id": "walk_f",
+            "gait_phase": "0.43392",
+            "body_t": "0.6000"
+          }
+        ]
+      },
+      {
+        "phase": "steps",
+        "side": "left",
+        "sample_count": 8,
+        "start_seconds": 9.3023,
+        "end_seconds": 9.6597,
+        "duration_seconds": 0.35740000000000016,
+        "horizontal_diameter_cm": 0.0784091831356234,
+        "endpoint_horizontal_displacement_cm": 0.050990195135968426,
+        "maximum_adjacent_horizontal_displacement_cm": 0.034928498393081646,
+        "maximum_sample_interval_seconds": 0.051600000000000534,
+        "minimum_stance_weight": 1.0,
+        "surface_clearance_range_cm": [
+          0.1001,
+          0.1003
+        ],
+        "includes_controller_movement": true,
+        "includes_stationary_controller": false,
+        "diameter_samples": [
+          {
+            "t": 9.6597,
+            "foot_world_xyz_cm": [
+              544.073,
+              461.51,
+              90.102
+            ],
+            "actor_world_xyz_cm": [
+              569.472,
+              450.0,
+              188.136
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.1003,
+            "body_id": "none",
+            "base_id": "walk_f",
+            "gait_phase": "0.52143",
+            "body_t": "0.6000"
+          },
+          {
+            "t": 9.3534,
+            "foot_world_xyz_cm": [
+              544.151,
+              461.502,
+              90.102
+            ],
+            "actor_world_xyz_cm": [
+              523.533,
+              450.0,
+              169.926
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.1002,
+            "body_id": "none",
+            "base_id": "walk_f",
+            "gait_phase": "0.13860",
+            "body_t": "0.6000"
+          }
+        ],
+        "start_sample": {
+          "t": 9.3023,
+          "foot_world_xyz_cm": [
+            544.119,
+            461.488,
+            90.1
+          ],
+          "actor_world_xyz_cm": [
+            515.869,
+            450.0,
+            169.926
+          ],
+          "controller_speed_cm_s": 150.0,
+          "stance_weight": 1.0,
+          "surface_clearance_cm": 0.1001,
+          "body_id": "none",
+          "base_id": "walk_f",
+          "gait_phase": "0.07474",
+          "body_t": "0.6000"
+        },
+        "end_sample": {
+          "t": 9.6597,
+          "foot_world_xyz_cm": [
+            544.073,
+            461.51,
+            90.102
+          ],
+          "actor_world_xyz_cm": [
+            569.472,
+            450.0,
+            188.136
+          ],
+          "controller_speed_cm_s": 150.0,
+          "stance_weight": 1.0,
+          "surface_clearance_cm": 0.1003,
+          "body_id": "none",
+          "base_id": "walk_f",
+          "gait_phase": "0.52143",
+          "body_t": "0.6000"
+        },
+        "pass": true,
+        "largest_adjacent_jump_samples": [
+          {
+            "t": 9.3023,
+            "foot_world_xyz_cm": [
+              544.119,
+              461.488,
+              90.1
+            ],
+            "actor_world_xyz_cm": [
+              515.869,
+              450.0,
+              169.926
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.1001,
+            "body_id": "none",
+            "base_id": "walk_f",
+            "gait_phase": "0.07474",
+            "body_t": "0.6000"
+          },
+          {
+            "t": 9.3534,
+            "foot_world_xyz_cm": [
+              544.151,
+              461.502,
+              90.102
+            ],
+            "actor_world_xyz_cm": [
+              523.533,
+              450.0,
+              169.926
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.1002,
+            "body_id": "none",
+            "base_id": "walk_f",
+            "gait_phase": "0.13860",
+            "body_t": "0.6000"
+          }
+        ]
+      },
+      {
+        "phase": "steps",
+        "side": "left",
+        "sample_count": 31,
+        "start_seconds": 10.4624,
+        "end_seconds": 11.9962,
+        "duration_seconds": 1.5337999999999994,
+        "horizontal_diameter_cm": 0.0,
+        "endpoint_horizontal_displacement_cm": 0.0,
+        "maximum_adjacent_horizontal_displacement_cm": 0.0,
+        "maximum_sample_interval_seconds": 0.05250000000000021,
+        "minimum_stance_weight": 1.0,
+        "surface_clearance_range_cm": [
+          0.1,
+          0.1361
+        ],
+        "includes_controller_movement": false,
+        "includes_stationary_controller": true,
+        "diameter_samples": [
+          {
+            "t": 11.9962,
+            "foot_world_xyz_cm": [
+              628.897,
+              462.042,
+              110.101
+            ],
+            "actor_world_xyz_cm": [
+              617.122,
+              450.0,
+              190.109
+            ],
+            "controller_speed_cm_s": 0.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.1003,
+            "body_id": "none",
+            "base_id": "idle_combat",
+            "gait_phase": "0.63776",
+            "body_t": "0.7000"
+          },
+          {
+            "t": 11.9962,
+            "foot_world_xyz_cm": [
+              628.897,
+              462.042,
+              110.101
+            ],
+            "actor_world_xyz_cm": [
+              617.122,
+              450.0,
+              190.109
+            ],
+            "controller_speed_cm_s": 0.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.1003,
+            "body_id": "none",
+            "base_id": "idle_combat",
+            "gait_phase": "0.63776",
+            "body_t": "0.7000"
+          }
+        ],
+        "start_sample": {
+          "t": 10.4624,
+          "foot_world_xyz_cm": [
+            628.897,
+            462.042,
+            110.238
+          ],
+          "actor_world_xyz_cm": [
+            617.122,
+            450.0,
+            190.109
+          ],
+          "controller_speed_cm_s": 0.0,
+          "stance_weight": 1.0,
+          "surface_clearance_cm": 0.1361,
+          "body_id": "stop_f",
+          "base_id": "idle_combat",
+          "gait_phase": "0.09011",
+          "body_t": "0.4984"
+        },
+        "end_sample": {
+          "t": 11.9962,
+          "foot_world_xyz_cm": [
+            628.897,
+            462.042,
+            110.101
+          ],
+          "actor_world_xyz_cm": [
+            617.122,
+            450.0,
+            190.109
+          ],
+          "controller_speed_cm_s": 0.0,
+          "stance_weight": 1.0,
+          "surface_clearance_cm": 0.1003,
+          "body_id": "none",
+          "base_id": "idle_combat",
+          "gait_phase": "0.63776",
+          "body_t": "0.7000"
+        },
+        "pass": true,
+        "largest_adjacent_jump_samples": [
+          {
+            "t": 11.945,
+            "foot_world_xyz_cm": [
+              628.897,
+              462.042,
+              110.102
+            ],
+            "actor_world_xyz_cm": [
+              617.122,
+              450.0,
+              190.109
+            ],
+            "controller_speed_cm_s": 0.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.1002,
+            "body_id": "none",
+            "base_id": "idle_combat",
+            "gait_phase": "0.61969",
+            "body_t": "0.7000"
+          },
+          {
+            "t": 11.9962,
+            "foot_world_xyz_cm": [
+              628.897,
+              462.042,
+              110.101
+            ],
+            "actor_world_xyz_cm": [
+              617.122,
+              450.0,
+              190.109
+            ],
+            "controller_speed_cm_s": 0.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.1003,
+            "body_id": "none",
+            "base_id": "idle_combat",
+            "gait_phase": "0.63776",
+            "body_t": "0.7000"
+          }
+        ]
+      }
+    ],
+    "right": [
+      {
+        "phase": "ramp",
+        "side": "right",
+        "sample_count": 1,
+        "start_seconds": 0.07,
+        "end_seconds": 0.07,
+        "duration_seconds": 0.0,
+        "horizontal_diameter_cm": 0.0,
+        "endpoint_horizontal_displacement_cm": 0.0,
+        "maximum_adjacent_horizontal_displacement_cm": 0.0,
+        "maximum_sample_interval_seconds": 0.0,
+        "minimum_stance_weight": 1.0,
+        "surface_clearance_range_cm": [
+          0.1002,
+          0.1002
+        ],
+        "includes_controller_movement": true,
+        "includes_stationary_controller": false,
+        "diameter_samples": [
+          {
+            "t": 0.07,
+            "foot_world_xyz_cm": [
+              273.507,
+              -363.502,
+              10.101
+            ],
+            "actor_world_xyz_cm": [
+              281.258,
+              -350.0,
+              90.0
+            ],
+            "controller_speed_cm_s": 38.851,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.1002,
+            "body_id": "start_f",
+            "base_id": "idle_combat",
+            "gait_phase": "0.28589",
+            "body_t": "0.0700"
+          },
+          {
+            "t": 0.07,
+            "foot_world_xyz_cm": [
+              273.507,
+              -363.502,
+              10.101
+            ],
+            "actor_world_xyz_cm": [
+              281.258,
+              -350.0,
+              90.0
+            ],
+            "controller_speed_cm_s": 38.851,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.1002,
+            "body_id": "start_f",
+            "base_id": "idle_combat",
+            "gait_phase": "0.28589",
+            "body_t": "0.0700"
+          }
+        ],
+        "start_sample": {
+          "t": 0.07,
+          "foot_world_xyz_cm": [
+            273.507,
+            -363.502,
+            10.101
+          ],
+          "actor_world_xyz_cm": [
+            281.258,
+            -350.0,
+            90.0
+          ],
+          "controller_speed_cm_s": 38.851,
+          "stance_weight": 1.0,
+          "surface_clearance_cm": 0.1002,
+          "body_id": "start_f",
+          "base_id": "idle_combat",
+          "gait_phase": "0.28589",
+          "body_t": "0.0700"
+        },
+        "end_sample": {
+          "t": 0.07,
+          "foot_world_xyz_cm": [
+            273.507,
+            -363.502,
+            10.101
+          ],
+          "actor_world_xyz_cm": [
+            281.258,
+            -350.0,
+            90.0
+          ],
+          "controller_speed_cm_s": 38.851,
+          "stance_weight": 1.0,
+          "surface_clearance_cm": 0.1002,
+          "body_id": "start_f",
+          "base_id": "idle_combat",
+          "gait_phase": "0.28589",
+          "body_t": "0.0700"
+        },
+        "pass": true
+      },
+      {
+        "phase": "ramp",
+        "side": "right",
+        "sample_count": 8,
+        "start_seconds": 0.3152,
+        "end_seconds": 0.6723,
+        "duration_seconds": 0.35710000000000003,
+        "horizontal_diameter_cm": 0.039560080889667545,
+        "endpoint_horizontal_displacement_cm": 0.039560080889667545,
+        "maximum_adjacent_horizontal_displacement_cm": 0.03945883931388085,
+        "maximum_sample_interval_seconds": 0.052200000000000024,
+        "minimum_stance_weight": 1.0,
+        "surface_clearance_range_cm": [
+          0.1,
+          0.1004
+        ],
+        "includes_controller_movement": true,
+        "includes_stationary_controller": false,
+        "diameter_samples": [
+          {
+            "t": 0.6723,
+            "foot_world_xyz_cm": [
+              342.87,
+              -361.508,
+              10.102
+            ],
+            "actor_world_xyz_cm": [
+              368.196,
+              -350.0,
+              90.0
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.1003,
+            "body_id": "none",
+            "base_id": "walk_f",
+            "gait_phase": "0.02086",
+            "body_t": "0.6000"
+          },
+          {
+            "t": 0.5703,
+            "foot_world_xyz_cm": [
+              342.907,
+              -361.494,
+              10.101
+            ],
+            "actor_world_xyz_cm": [
+              352.902,
+              -350.0,
+              90.0
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.1,
+            "body_id": "start_f",
+            "base_id": "walk_f",
+            "gait_phase": "0.89341",
+            "body_t": "0.5703"
+          }
+        ],
+        "start_sample": {
+          "t": 0.3152,
+          "foot_world_xyz_cm": [
+            342.907,
+            -361.494,
+            10.101
+          ],
+          "actor_world_xyz_cm": [
+            314.634,
+            -350.0,
+            90.0
+          ],
+          "controller_speed_cm_s": 150.0,
+          "stance_weight": 1.0,
+          "surface_clearance_cm": 0.1002,
+          "body_id": "start_f",
+          "base_id": "walk_f",
+          "gait_phase": "0.57451",
+          "body_t": "0.3152"
+        },
+        "end_sample": {
+          "t": 0.6723,
+          "foot_world_xyz_cm": [
+            342.87,
+            -361.508,
+            10.102
+          ],
+          "actor_world_xyz_cm": [
+            368.196,
+            -350.0,
+            90.0
+          ],
+          "controller_speed_cm_s": 150.0,
+          "stance_weight": 1.0,
+          "surface_clearance_cm": 0.1003,
+          "body_id": "none",
+          "base_id": "walk_f",
+          "gait_phase": "0.02086",
+          "body_t": "0.6000"
+        },
+        "pass": true,
+        "largest_adjacent_jump_samples": [
+          {
+            "t": 0.5703,
+            "foot_world_xyz_cm": [
+              342.907,
+              -361.494,
+              10.101
+            ],
+            "actor_world_xyz_cm": [
+              352.902,
+              -350.0,
+              90.0
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.1,
+            "body_id": "start_f",
+            "base_id": "walk_f",
+            "gait_phase": "0.89341",
+            "body_t": "0.5703"
+          },
+          {
+            "t": 0.6212,
+            "foot_world_xyz_cm": [
+              342.868,
+              -361.5,
+              10.104
+            ],
+            "actor_world_xyz_cm": [
+              360.528,
+              -350.0,
+              90.0
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.1004,
+            "body_id": "none",
+            "base_id": "walk_f",
+            "gait_phase": "0.95696",
+            "body_t": "0.6000"
+          }
+        ]
+      },
+      {
+        "phase": "ramp",
+        "side": "right",
+        "sample_count": 8,
+        "start_seconds": 1.1299,
+        "end_seconds": 1.4871,
+        "duration_seconds": 0.3572000000000002,
+        "horizontal_diameter_cm": 0.08500588214939289,
+        "endpoint_horizontal_displacement_cm": 0.02332380757941458,
+        "maximum_adjacent_horizontal_displacement_cm": 0.04504442251817785,
+        "maximum_sample_interval_seconds": 0.05170000000000008,
+        "minimum_stance_weight": 1.0,
+        "surface_clearance_range_cm": [
+          0.1001,
+          0.1002
+        ],
+        "includes_controller_movement": true,
+        "includes_stationary_controller": false,
+        "diameter_samples": [
+          {
+            "t": 1.437,
+            "foot_world_xyz_cm": [
+              462.843,
+              -361.501,
+              45.804
+            ],
+            "actor_world_xyz_cm": [
+              482.901,
+              -350.0,
+              134.372
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.1002,
+            "body_id": "none",
+            "base_id": "walk_f",
+            "gait_phase": "0.97674",
+            "body_t": "0.6000"
+          },
+          {
+            "t": 1.1814,
+            "foot_world_xyz_cm": [
+              462.928,
+              -361.5,
+              45.833
+            ],
+            "actor_world_xyz_cm": [
+              444.562,
+              -350.0,
+              120.418
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.1001,
+            "body_id": "none",
+            "base_id": "walk_f",
+            "gait_phase": "0.65725",
+            "body_t": "0.6000"
+          }
+        ],
+        "start_sample": {
+          "t": 1.1299,
+          "foot_world_xyz_cm": [
+            462.908,
+            -361.49,
+            45.827
+          ],
+          "actor_world_xyz_cm": [
+            436.843,
+            -350.0,
+            117.608
+          ],
+          "controller_speed_cm_s": 150.0,
+          "stance_weight": 1.0,
+          "surface_clearance_cm": 0.1002,
+          "body_id": "none",
+          "base_id": "walk_f",
+          "gait_phase": "0.59292",
+          "body_t": "0.6000"
+        },
+        "end_sample": {
+          "t": 1.4871,
+          "foot_world_xyz_cm": [
+            462.888,
+            -361.502,
+            45.819
+          ],
+          "actor_world_xyz_cm": [
+            490.42,
+            -350.0,
+            137.109
+          ],
+          "controller_speed_cm_s": 150.0,
+          "stance_weight": 1.0,
+          "surface_clearance_cm": 0.1002,
+          "body_id": "none",
+          "base_id": "walk_f",
+          "gait_phase": "0.03939",
+          "body_t": "0.6000"
+        },
+        "pass": true,
+        "largest_adjacent_jump_samples": [
+          {
+            "t": 1.3864,
+            "foot_world_xyz_cm": [
+              462.888,
+              -361.499,
+              45.821
+            ],
+            "actor_world_xyz_cm": [
+              475.312,
+              -350.0,
+              131.61
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.1002,
+            "body_id": "none",
+            "base_id": "walk_f",
+            "gait_phase": "0.91350",
+            "body_t": "0.6000"
+          },
+          {
+            "t": 1.437,
+            "foot_world_xyz_cm": [
+              462.843,
+              -361.501,
+              45.804
+            ],
+            "actor_world_xyz_cm": [
+              482.901,
+              -350.0,
+              134.372
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.1002,
+            "body_id": "none",
+            "base_id": "walk_f",
+            "gait_phase": "0.97674",
+            "body_t": "0.6000"
+          }
+        ]
+      },
+      {
+        "phase": "ramp",
+        "side": "right",
+        "sample_count": 9,
+        "start_seconds": 1.894,
+        "end_seconds": 2.3008,
+        "duration_seconds": 0.4068000000000003,
+        "horizontal_diameter_cm": 0.16601204775563083,
+        "endpoint_horizontal_displacement_cm": 0.049729267036621116,
+        "maximum_adjacent_horizontal_displacement_cm": 0.10616967552000565,
+        "maximum_sample_interval_seconds": 0.052000000000000046,
+        "minimum_stance_weight": 1.0,
+        "surface_clearance_range_cm": [
+          0.1,
+          0.1003
+        ],
+        "includes_controller_movement": true,
+        "includes_stationary_controller": false,
+        "diameter_samples": [
+          {
+            "t": 2.199,
+            "foot_world_xyz_cm": [
+              582.786,
+              -361.507,
+              89.46
+            ],
+            "actor_world_xyz_cm": [
+              597.206,
+              -350.0,
+              175.976
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.1003,
+            "body_id": "none",
+            "base_id": "walk_f",
+            "gait_phase": "0.92928",
+            "body_t": "0.6000"
+          },
+          {
+            "t": 1.9961,
+            "foot_world_xyz_cm": [
+              582.952,
+              -361.505,
+              89.52
+            ],
+            "actor_world_xyz_cm": [
+              566.764,
+              -350.0,
+              164.896
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.1002,
+            "body_id": "none",
+            "base_id": "walk_f",
+            "gait_phase": "0.67559",
+            "body_t": "0.6000"
+          }
+        ],
+        "start_sample": {
+          "t": 1.894,
+          "foot_world_xyz_cm": [
+            582.92,
+            -361.49,
+            89.508
+          ],
+          "actor_world_xyz_cm": [
+            551.449,
+            -350.0,
+            159.322
+          ],
+          "controller_speed_cm_s": 150.0,
+          "stance_weight": 1.0,
+          "surface_clearance_cm": 0.1003,
+          "body_id": "none",
+          "base_id": "walk_f",
+          "gait_phase": "0.54797",
+          "body_t": "0.6000"
+        },
+        "end_sample": {
+          "t": 2.3008,
+          "foot_world_xyz_cm": [
+            582.872,
+            -361.503,
+            89.49
+          ],
+          "actor_world_xyz_cm": [
+            612.47,
+            -350.0,
+            181.531
+          ],
+          "controller_speed_cm_s": 150.0,
+          "stance_weight": 1.0,
+          "surface_clearance_cm": 0.1003,
+          "body_id": "none",
+          "base_id": "walk_f",
+          "gait_phase": "0.05648",
+          "body_t": "0.6000"
+        },
+        "pass": true,
+        "largest_adjacent_jump_samples": [
+          {
+            "t": 2.1488,
+            "foot_world_xyz_cm": [
+              582.892,
+              -361.501,
+              89.497
+            ],
+            "actor_world_xyz_cm": [
+              589.666,
+              -350.0,
+              173.231
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.1002,
+            "body_id": "none",
+            "base_id": "walk_f",
+            "gait_phase": "0.86645",
+            "body_t": "0.6000"
+          },
+          {
+            "t": 2.199,
+            "foot_world_xyz_cm": [
+              582.786,
+              -361.507,
+              89.46
+            ],
+            "actor_world_xyz_cm": [
+              597.206,
+              -350.0,
+              175.976
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.1003,
+            "body_id": "none",
+            "base_id": "walk_f",
+            "gait_phase": "0.92928",
+            "body_t": "0.6000"
+          }
+        ]
+      },
+      {
+        "phase": "ramp",
+        "side": "right",
+        "sample_count": 84,
+        "start_seconds": 2.7076,
+        "end_seconds": 6.9745,
+        "duration_seconds": 4.2669,
+        "horizontal_diameter_cm": 0.0,
+        "endpoint_horizontal_displacement_cm": 0.0,
+        "maximum_adjacent_horizontal_displacement_cm": 0.0,
+        "maximum_sample_interval_seconds": 0.05970000000000031,
+        "minimum_stance_weight": 1.0,
+        "surface_clearance_range_cm": [
+          0.1,
+          0.1349
+        ],
+        "includes_controller_movement": false,
+        "includes_stationary_controller": true,
+        "diameter_samples": [
+          {
+            "t": 6.9745,
+            "foot_world_xyz_cm": [
+              661.874,
+              -362.381,
+              118.245
+            ],
+            "actor_world_xyz_cm": [
+              653.646,
+              -350.0,
+              196.518
+            ],
+            "controller_speed_cm_s": 0.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.1001,
+            "body_id": "none",
+            "base_id": "idle_combat",
+            "gait_phase": "0.96120",
+            "body_t": "0.7000"
+          },
+          {
+            "t": 6.9745,
+            "foot_world_xyz_cm": [
+              661.874,
+              -362.381,
+              118.245
+            ],
+            "actor_world_xyz_cm": [
+              653.646,
+              -350.0,
+              196.518
+            ],
+            "controller_speed_cm_s": 0.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.1001,
+            "body_id": "none",
+            "base_id": "idle_combat",
+            "gait_phase": "0.96120",
+            "body_t": "0.7000"
+          }
+        ],
+        "start_sample": {
+          "t": 2.7076,
+          "foot_world_xyz_cm": [
+            661.874,
+            -362.381,
+            118.374
+          ],
+          "actor_world_xyz_cm": [
+            653.646,
+            -350.0,
+            196.518
+          ],
+          "controller_speed_cm_s": 0.0,
+          "stance_weight": 1.0,
+          "surface_clearance_cm": 0.1349,
+          "body_id": "stop_f",
+          "base_id": "idle_combat",
+          "gait_phase": "0.43747",
+          "body_t": "0.1562"
+        },
+        "end_sample": {
+          "t": 6.9745,
+          "foot_world_xyz_cm": [
+            661.874,
+            -362.381,
+            118.245
+          ],
+          "actor_world_xyz_cm": [
+            653.646,
+            -350.0,
+            196.518
+          ],
+          "controller_speed_cm_s": 0.0,
+          "stance_weight": 1.0,
+          "surface_clearance_cm": 0.1001,
+          "body_id": "none",
+          "base_id": "idle_combat",
+          "gait_phase": "0.96120",
+          "body_t": "0.7000"
+        },
+        "pass": true,
+        "largest_adjacent_jump_samples": [
+          {
+            "t": 6.9235,
+            "foot_world_xyz_cm": [
+              661.874,
+              -362.381,
+              118.245
+            ],
+            "actor_world_xyz_cm": [
+              653.646,
+              -350.0,
+              196.518
+            ],
+            "controller_speed_cm_s": 0.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.1002,
+            "body_id": "none",
+            "base_id": "idle_combat",
+            "gait_phase": "0.94324",
+            "body_t": "0.7000"
+          },
+          {
+            "t": 6.9745,
+            "foot_world_xyz_cm": [
+              661.874,
+              -362.381,
+              118.245
+            ],
+            "actor_world_xyz_cm": [
+              653.646,
+              -350.0,
+              196.518
+            ],
+            "controller_speed_cm_s": 0.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.1001,
+            "body_id": "none",
+            "base_id": "idle_combat",
+            "gait_phase": "0.96120",
+            "body_t": "0.7000"
+          }
+        ]
+      },
+      {
+        "phase": "steps",
+        "side": "right",
+        "sample_count": 8,
+        "start_seconds": 7.3091,
+        "end_seconds": 7.6659,
+        "duration_seconds": 0.3567999999999998,
+        "horizontal_diameter_cm": 0.03505709628591335,
+        "endpoint_horizontal_displacement_cm": 0.025632011235958554,
+        "maximum_adjacent_horizontal_displacement_cm": 0.03505709628591335,
+        "maximum_sample_interval_seconds": 0.051599999999999646,
+        "minimum_stance_weight": 1.0,
+        "surface_clearance_range_cm": [
+          0.3499,
+          0.3503
+        ],
+        "includes_controller_movement": true,
+        "includes_stationary_controller": false,
+        "diameter_samples": [
+          {
+            "t": 7.615,
+            "foot_world_xyz_cm": [
+              244.07,
+              438.5,
+              30.353
+            ],
+            "actor_world_xyz_cm": [
+              262.773,
+              450.0,
+              110.035
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.3503,
+            "body_id": "none",
+            "base_id": "walk_f",
+            "gait_phase": "0.96560",
+            "body_t": "0.6000"
+          },
+          {
+            "t": 7.5649,
+            "foot_world_xyz_cm": [
+              244.105,
+              438.502,
+              30.351
+            ],
+            "actor_world_xyz_cm": [
+              255.261,
+              450.0,
+              109.773
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.3501,
+            "body_id": "start_f",
+            "base_id": "walk_f",
+            "gait_phase": "0.90300",
+            "body_t": "0.5651"
+          }
+        ],
+        "start_sample": {
+          "t": 7.3091,
+          "foot_world_xyz_cm": [
+            244.105,
+            438.502,
+            30.35
+          ],
+          "actor_world_xyz_cm": [
+            216.889,
+            450.0,
+            90.0
+          ],
+          "controller_speed_cm_s": 150.0,
+          "stance_weight": 1.0,
+          "surface_clearance_cm": 0.35,
+          "body_id": "start_f",
+          "base_id": "walk_f",
+          "gait_phase": "0.58324",
+          "body_t": "0.3093"
+        },
+        "end_sample": {
+          "t": 7.6659,
+          "foot_world_xyz_cm": [
+            244.081,
+            438.493,
+            30.35
+          ],
+          "actor_world_xyz_cm": [
+            270.405,
+            450.0,
+            110.035
+          ],
+          "controller_speed_cm_s": 150.0,
+          "stance_weight": 1.0,
+          "surface_clearance_cm": 0.3501,
+          "body_id": "none",
+          "base_id": "walk_f",
+          "gait_phase": "0.02920",
+          "body_t": "0.6000"
+        },
+        "pass": true,
+        "largest_adjacent_jump_samples": [
+          {
+            "t": 7.5649,
+            "foot_world_xyz_cm": [
+              244.105,
+              438.502,
+              30.351
+            ],
+            "actor_world_xyz_cm": [
+              255.261,
+              450.0,
+              109.773
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.3501,
+            "body_id": "start_f",
+            "base_id": "walk_f",
+            "gait_phase": "0.90300",
+            "body_t": "0.5651"
+          },
+          {
+            "t": 7.615,
+            "foot_world_xyz_cm": [
+              244.07,
+              438.5,
+              30.353
+            ],
+            "actor_world_xyz_cm": [
+              262.773,
+              450.0,
+              110.035
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.3503,
+            "body_id": "none",
+            "base_id": "walk_f",
+            "gait_phase": "0.96560",
+            "body_t": "0.6000"
+          }
+        ]
+      },
+      {
+        "phase": "steps",
+        "side": "right",
+        "sample_count": 8,
+        "start_seconds": 8.1253,
+        "end_seconds": 8.4838,
+        "duration_seconds": 0.35850000000000115,
+        "horizontal_diameter_cm": 0.08732124598284081,
+        "endpoint_horizontal_displacement_cm": 0.036235341863969296,
+        "maximum_adjacent_horizontal_displacement_cm": 0.07206247289678802,
+        "maximum_sample_interval_seconds": 0.05180000000000007,
+        "minimum_stance_weight": 1.0,
+        "surface_clearance_range_cm": [
+          0.1,
+          0.1003
+        ],
+        "includes_controller_movement": true,
+        "includes_stationary_controller": false,
+        "diameter_samples": [
+          {
+            "t": 8.3817,
+            "foot_world_xyz_cm": [
+              364.031,
+              438.495,
+              50.101
+            ],
+            "actor_world_xyz_cm": [
+              377.772,
+              450.0,
+              129.926
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.1001,
+            "body_id": "none",
+            "base_id": "walk_f",
+            "gait_phase": "0.92393",
+            "body_t": "0.6000"
+          },
+          {
+            "t": 8.1253,
+            "foot_world_xyz_cm": [
+              364.116,
+              438.515,
+              50.101
+            ],
+            "actor_world_xyz_cm": [
+              339.325,
+              450.0,
+              129.926
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.1003,
+            "body_id": "none",
+            "base_id": "walk_f",
+            "gait_phase": "0.60354",
+            "body_t": "0.6000"
+          }
+        ],
+        "start_sample": {
+          "t": 8.1253,
+          "foot_world_xyz_cm": [
+            364.116,
+            438.515,
+            50.101
+          ],
+          "actor_world_xyz_cm": [
+            339.325,
+            450.0,
+            129.926
+          ],
+          "controller_speed_cm_s": 150.0,
+          "stance_weight": 1.0,
+          "surface_clearance_cm": 0.1003,
+          "body_id": "none",
+          "base_id": "walk_f",
+          "gait_phase": "0.60354",
+          "body_t": "0.6000"
+        },
+        "end_sample": {
+          "t": 8.4838,
+          "foot_world_xyz_cm": [
+            364.084,
+            438.498,
+            50.101
+          ],
+          "actor_world_xyz_cm": [
+            393.1,
+            450.0,
+            133.431
+          ],
+          "controller_speed_cm_s": 150.0,
+          "stance_weight": 1.0,
+          "surface_clearance_cm": 0.1002,
+          "body_id": "none",
+          "base_id": "walk_f",
+          "gait_phase": "0.05166",
+          "body_t": "0.6000"
+        },
+        "pass": true,
+        "largest_adjacent_jump_samples": [
+          {
+            "t": 8.3312,
+            "foot_world_xyz_cm": [
+              364.103,
+              438.498,
+              50.101
+            ],
+            "actor_world_xyz_cm": [
+              370.203,
+              450.0,
+              129.926
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.1001,
+            "body_id": "none",
+            "base_id": "walk_f",
+            "gait_phase": "0.86085",
+            "body_t": "0.6000"
+          },
+          {
+            "t": 8.3817,
+            "foot_world_xyz_cm": [
+              364.031,
+              438.495,
+              50.101
+            ],
+            "actor_world_xyz_cm": [
+              377.772,
+              450.0,
+              129.926
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.1001,
+            "body_id": "none",
+            "base_id": "walk_f",
+            "gait_phase": "0.92393",
+            "body_t": "0.6000"
+          }
+        ]
+      },
+      {
+        "phase": "steps",
+        "side": "right",
+        "sample_count": 9,
+        "start_seconds": 8.8914,
+        "end_seconds": 9.3023,
+        "duration_seconds": 0.4108999999999998,
+        "horizontal_diameter_cm": 0.20606067067736888,
+        "endpoint_horizontal_displacement_cm": 0.06612866246946161,
+        "maximum_adjacent_horizontal_displacement_cm": 0.11410959644129173,
+        "maximum_sample_interval_seconds": 0.05230000000000068,
+        "minimum_stance_weight": 1.0,
+        "surface_clearance_range_cm": [
+          0.3498,
+          0.3507
+        ],
+        "includes_controller_movement": true,
+        "includes_stationary_controller": false,
+        "diameter_samples": [
+          {
+            "t": 9.1996,
+            "foot_world_xyz_cm": [
+              483.978,
+              438.496,
+              90.356
+            ],
+            "actor_world_xyz_cm": [
+              500.463,
+              450.0,
+              169.926
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.3507,
+            "body_id": "none",
+            "base_id": "walk_f",
+            "gait_phase": "0.94635",
+            "body_t": "0.6000"
+          },
+          {
+            "t": 8.9942,
+            "foot_world_xyz_cm": [
+              484.184,
+              438.491,
+              90.353
+            ],
+            "actor_world_xyz_cm": [
+              469.654,
+              450.0,
+              149.944
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.3503,
+            "body_id": "none",
+            "base_id": "walk_f",
+            "gait_phase": "0.68961",
+            "body_t": "0.6000"
+          }
+        ],
+        "start_sample": {
+          "t": 8.8914,
+          "foot_world_xyz_cm": [
+            484.146,
+            438.52,
+            90.347
+          ],
+          "actor_world_xyz_cm": [
+            454.231,
+            450.0,
+            149.944
+          ],
+          "controller_speed_cm_s": 150.0,
+          "stance_weight": 1.0,
+          "surface_clearance_cm": 0.3498,
+          "body_id": "none",
+          "base_id": "walk_f",
+          "gait_phase": "0.56108",
+          "body_t": "0.6000"
+        },
+        "end_sample": {
+          "t": 9.3023,
+          "foot_world_xyz_cm": [
+            484.084,
+            438.497,
+            90.348
+          ],
+          "actor_world_xyz_cm": [
+            515.869,
+            450.0,
+            169.926
+          ],
+          "controller_speed_cm_s": 150.0,
+          "stance_weight": 1.0,
+          "surface_clearance_cm": 0.3499,
+          "body_id": "none",
+          "base_id": "walk_f",
+          "gait_phase": "0.07474",
+          "body_t": "0.6000"
+        },
+        "pass": true,
+        "largest_adjacent_jump_samples": [
+          {
+            "t": 9.1473,
+            "foot_world_xyz_cm": [
+              484.092,
+              438.501,
+              90.35
+            ],
+            "actor_world_xyz_cm": [
+              492.615,
+              450.0,
+              169.081
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.3499,
+            "body_id": "none",
+            "base_id": "walk_f",
+            "gait_phase": "0.88095",
+            "body_t": "0.6000"
+          },
+          {
+            "t": 9.1996,
+            "foot_world_xyz_cm": [
+              483.978,
+              438.496,
+              90.356
+            ],
+            "actor_world_xyz_cm": [
+              500.463,
+              450.0,
+              169.926
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.3507,
+            "body_id": "none",
+            "base_id": "walk_f",
+            "gait_phase": "0.94635",
+            "body_t": "0.6000"
+          }
+        ]
+      },
+      {
+        "phase": "steps",
+        "side": "right",
+        "sample_count": 39,
+        "start_seconds": 9.71,
+        "end_seconds": 11.9962,
+        "duration_seconds": 2.286199999999999,
+        "horizontal_diameter_cm": 0.05903388857255119,
+        "endpoint_horizontal_displacement_cm": 0.009999999999990905,
+        "maximum_adjacent_horizontal_displacement_cm": 0.05203844732493842,
+        "maximum_sample_interval_seconds": 0.3963000000000001,
+        "minimum_stance_weight": 1.0,
+        "surface_clearance_range_cm": [
+          0.1,
+          0.1003
+        ],
+        "includes_controller_movement": true,
+        "includes_stationary_controller": true,
+        "diameter_samples": [
+          {
+            "t": 9.9639,
+            "foot_world_xyz_cm": [
+              604.092,
+              438.502,
+              110.101
+            ],
+            "actor_world_xyz_cm": [
+              615.108,
+              450.0,
+              190.109
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.1001,
+            "body_id": "none",
+            "base_id": "walk_f",
+            "gait_phase": "0.90173",
+            "body_t": "0.6000"
+          },
+          {
+            "t": 9.7607,
+            "foot_world_xyz_cm": [
+              604.151,
+              438.5,
+              110.1
+            ],
+            "actor_world_xyz_cm": [
+              584.62,
+              450.0,
+              190.109
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.1,
+            "body_id": "none",
+            "base_id": "walk_f",
+            "gait_phase": "0.64767",
+            "body_t": "0.6000"
+          }
+        ],
+        "start_sample": {
+          "t": 9.71,
+          "foot_world_xyz_cm": [
+            604.103,
+            438.501,
+            110.1
+          ],
+          "actor_world_xyz_cm": [
+            577.016,
+            450.0,
+            189.848
+          ],
+          "controller_speed_cm_s": 150.0,
+          "stance_weight": 1.0,
+          "surface_clearance_cm": 0.1,
+          "body_id": "none",
+          "base_id": "walk_f",
+          "gait_phase": "0.58429",
+          "body_t": "0.6000"
+        },
+        "end_sample": {
+          "t": 11.9962,
+          "foot_world_xyz_cm": [
+            604.093,
+            438.501,
+            110.1
+          ],
+          "actor_world_xyz_cm": [
+            617.122,
+            450.0,
+            190.109
+          ],
+          "controller_speed_cm_s": 0.0,
+          "stance_weight": 1.0,
+          "surface_clearance_cm": 0.1,
+          "body_id": "none",
+          "base_id": "idle_combat",
+          "gait_phase": "0.63776",
+          "body_t": "0.7000"
+        },
+        "pass": true,
+        "largest_adjacent_jump_samples": [
+          {
+            "t": 9.7607,
+            "foot_world_xyz_cm": [
+              604.151,
+              438.5,
+              110.1
+            ],
+            "actor_world_xyz_cm": [
+              584.62,
+              450.0,
+              190.109
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.1,
+            "body_id": "none",
+            "base_id": "walk_f",
+            "gait_phase": "0.64767",
+            "body_t": "0.6000"
+          },
+          {
+            "t": 9.8119,
+            "foot_world_xyz_cm": [
+              604.099,
+              438.502,
+              110.103
+            ],
+            "actor_world_xyz_cm": [
+              592.3,
+              450.0,
+              190.109
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.1002,
+            "body_id": "none",
+            "base_id": "walk_f",
+            "gait_phase": "0.71166",
+            "body_t": "0.6000"
+          }
+        ]
+      }
+    ]
+  },
+  "height_only_diagnostics": {
+    "left": {
+      "maximum_diameter_cm": 0.9640186720182796,
+      "maximum_group": {
+        "phase": "ramp",
+        "side": "left",
+        "sample_count": 93,
+        "start_seconds": 2.2505,
+        "end_seconds": 6.9745,
+        "duration_seconds": 4.724,
+        "horizontal_diameter_cm": 0.9640186720182796,
+        "endpoint_horizontal_displacement_cm": 0.9020005543234847,
+        "maximum_adjacent_horizontal_displacement_cm": 0.9301553633667371,
+        "maximum_sample_interval_seconds": 0.05970000000000031,
+        "minimum_stance_weight": 1.0,
+        "surface_clearance_range_cm": [
+          0.1,
+          0.1159
+        ],
+        "includes_controller_movement": true,
+        "includes_stationary_controller": true,
+        "diameter_samples": [
+          {
+            "t": 2.4032,
+            "foot_world_xyz_cm": [
+              642.957,
+              -338.494,
+              111.359
+            ],
+            "actor_world_xyz_cm": [
+              627.828,
+              -350.0,
+              187.121
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.1001,
+            "body_id": "none",
+            "base_id": "walk_f",
+            "gait_phase": "0.18446",
+            "body_t": "0.6000"
+          },
+          {
+            "t": 2.2505,
+            "foot_world_xyz_cm": [
+              641.993,
+              -338.5,
+              111.068
+            ],
+            "actor_world_xyz_cm": [
+              604.921,
+              -350.0,
+              178.784
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.1159,
+            "body_id": "none",
+            "base_id": "walk_f",
+            "gait_phase": "0.99357",
+            "body_t": "0.6000"
+          }
+        ],
+        "start_sample": {
+          "t": 2.2505,
+          "foot_world_xyz_cm": [
+            641.993,
+            -338.5,
+            111.068
+          ],
+          "actor_world_xyz_cm": [
+            604.921,
+            -350.0,
+            178.784
+          ],
+          "controller_speed_cm_s": 150.0,
+          "stance_weight": 1.0,
+          "surface_clearance_cm": 0.1159,
+          "body_id": "none",
+          "base_id": "walk_f",
+          "gait_phase": "0.99357",
+          "body_t": "0.6000"
+        },
+        "end_sample": {
+          "t": 6.9745,
+          "foot_world_xyz_cm": [
+            642.895,
+            -338.499,
+            111.336
+          ],
+          "actor_world_xyz_cm": [
+            653.646,
+            -350.0,
+            196.518
+          ],
+          "controller_speed_cm_s": 0.0,
+          "stance_weight": 1.0,
+          "surface_clearance_cm": 0.1001,
+          "body_id": "none",
+          "base_id": "idle_combat",
+          "gait_phase": "0.96120",
+          "body_t": "0.7000"
+        },
+        "pass": true,
+        "largest_adjacent_jump_samples": [
+          {
+            "t": 2.2505,
+            "foot_world_xyz_cm": [
+              641.993,
+              -338.5,
+              111.068
+            ],
+            "actor_world_xyz_cm": [
+              604.921,
+              -350.0,
+              178.784
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.1159,
+            "body_id": "none",
+            "base_id": "walk_f",
+            "gait_phase": "0.99357",
+            "body_t": "0.6000"
+          },
+          {
+            "t": 2.3008,
+            "foot_world_xyz_cm": [
+              642.923,
+              -338.517,
+              111.347
+            ],
+            "actor_world_xyz_cm": [
+              612.47,
+              -350.0,
+              181.531
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.1003,
+            "body_id": "none",
+            "base_id": "walk_f",
+            "gait_phase": "0.05648",
+            "body_t": "0.6000"
+          }
+        ]
+      }
+    },
+    "right": {
+      "maximum_diameter_cm": 0.6500276917179133,
+      "maximum_group": {
+        "phase": "ramp",
+        "side": "right",
+        "sample_count": 10,
+        "start_seconds": 1.894,
+        "end_seconds": 2.3526,
+        "duration_seconds": 0.4585999999999999,
+        "horizontal_diameter_cm": 0.6500276917179133,
+        "endpoint_horizontal_displacement_cm": 0.5161172347442761,
+        "maximum_adjacent_horizontal_displacement_cm": 0.5640035460882212,
+        "maximum_sample_interval_seconds": 0.052000000000000046,
+        "minimum_stance_weight": 1.0,
+        "surface_clearance_range_cm": [
+          0.1,
+          0.1114
+        ],
+        "includes_controller_movement": true,
+        "includes_stationary_controller": false,
+        "diameter_samples": [
+          {
+            "t": 2.3526,
+            "foot_world_xyz_cm": [
+              583.436,
+              -361.501,
+              89.738
+            ],
+            "actor_world_xyz_cm": [
+              620.235,
+              -350.0,
+              184.358
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.1114,
+            "body_id": "none",
+            "base_id": "walk_f",
+            "gait_phase": "0.12119",
+            "body_t": "0.6000"
+          },
+          {
+            "t": 2.199,
+            "foot_world_xyz_cm": [
+              582.786,
+              -361.507,
+              89.46
+            ],
+            "actor_world_xyz_cm": [
+              597.206,
+              -350.0,
+              175.976
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.1003,
+            "body_id": "none",
+            "base_id": "walk_f",
+            "gait_phase": "0.92928",
+            "body_t": "0.6000"
+          }
+        ],
+        "start_sample": {
+          "t": 1.894,
+          "foot_world_xyz_cm": [
+            582.92,
+            -361.49,
+            89.508
+          ],
+          "actor_world_xyz_cm": [
+            551.449,
+            -350.0,
+            159.322
+          ],
+          "controller_speed_cm_s": 150.0,
+          "stance_weight": 1.0,
+          "surface_clearance_cm": 0.1003,
+          "body_id": "none",
+          "base_id": "walk_f",
+          "gait_phase": "0.54797",
+          "body_t": "0.6000"
+        },
+        "end_sample": {
+          "t": 2.3526,
+          "foot_world_xyz_cm": [
+            583.436,
+            -361.501,
+            89.738
+          ],
+          "actor_world_xyz_cm": [
+            620.235,
+            -350.0,
+            184.358
+          ],
+          "controller_speed_cm_s": 150.0,
+          "stance_weight": 1.0,
+          "surface_clearance_cm": 0.1114,
+          "body_id": "none",
+          "base_id": "walk_f",
+          "gait_phase": "0.12119",
+          "body_t": "0.6000"
+        },
+        "pass": true,
+        "largest_adjacent_jump_samples": [
+          {
+            "t": 2.3008,
+            "foot_world_xyz_cm": [
+              582.872,
+              -361.503,
+              89.49
+            ],
+            "actor_world_xyz_cm": [
+              612.47,
+              -350.0,
+              181.531
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.1003,
+            "body_id": "none",
+            "base_id": "walk_f",
+            "gait_phase": "0.05648",
+            "body_t": "0.6000"
+          },
+          {
+            "t": 2.3526,
+            "foot_world_xyz_cm": [
+              583.436,
+              -361.501,
+              89.738
+            ],
+            "actor_world_xyz_cm": [
+              620.235,
+              -350.0,
+              184.358
+            ],
+            "controller_speed_cm_s": 150.0,
+            "stance_weight": 1.0,
+            "surface_clearance_cm": 0.1114,
+            "body_id": "none",
+            "base_id": "walk_f",
+            "gait_phase": "0.12119",
+            "body_t": "0.6000"
+          }
+        ]
+      }
+    }
+  },
+  "surface": {
+    "left": {
+      "minimum_clearance_cm": 0.1,
+      "maximum_planted_gap_cm": 0.943,
+      "maximum_solid_step_pressure_cm": 0.0
+    },
+    "right": {
+      "minimum_clearance_cm": 0.1,
+      "maximum_planted_gap_cm": 0.3507,
+      "maximum_solid_step_pressure_cm": 0.0
+    }
+  },
+  "evaluated_utc": "2026-09-30T00:09:20.936701+00:00",
+  "maximum_authored_support_diameter_cm": 0.20606067067736888,
+  "summary": {
+    "diagnostic_authored_support_pass": true,
+    "canonical_acceptance": false
+  }
+}

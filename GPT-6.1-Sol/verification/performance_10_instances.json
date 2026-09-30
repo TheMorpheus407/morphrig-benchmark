@@ -1,0 +1,49 @@
+{
+  "instances": 10,
+  "frames": 15049,
+  "warmup_seconds": 5,
+  "sample_seconds": 30,
+  "width": 1920,
+  "height": 1080,
+  "mean_ms": 1.99357,
+  "p95_ms": 2.5089,
+  "p99_ms": 3.51356,
+  "cpu": "AMD Ryzen 9 9950X 16-Core Processor",
+  "physical_ram_gib": 92,
+  "process_ram_mib": 1969.43,
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "rhi": "Vulkan",
+  "screen_percentage": 100,
+  "vsync": false,
+  "generated_frames": false,
+  "client_binary_sha256": "8479393c16e8a6fe6dd3ffabca4a58ffaedf953967aba95c7eee395ec5a547e8",
+  "csv_sha256": "084f07f9575b925fceaa1b87c5092d2619808b163b7d5aeadd13d2cf7e89d4ee",
+  "metrics": {
+    "frame_ms": {
+      "mean_ms": 1.9935669566084124,
+      "p95_ms": 2.5089,
+      "p99_ms": 3.51356,
+      "max_ms": 12.68637
+    },
+    "game_ms": {
+      "mean_ms": 0.9747112100471792,
+      "p95_ms": 1.278,
+      "p99_ms": 1.568,
+      "max_ms": 2.383
+    },
+    "render_ms": {
+      "mean_ms": 1.6816868230447206,
+      "p95_ms": 2.092,
+      "p99_ms": 3.249,
+      "max_ms": 13.174
+    },
+    "gpu_ms": {
+      "mean_ms": 1.6952305136553925,
+      "p95_ms": 1.857,
+      "p99_ms": 1.896,
+      "max_ms": 2.064
+    }
+  },
+  "frames_over_16_667_ms": 0,
+  "sample_duration_seconds_from_frame_deltas": 30.00118913
+}

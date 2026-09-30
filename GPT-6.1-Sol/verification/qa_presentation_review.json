@@ -1,0 +1,227 @@
+{
+  "schema_version": 1,
+  "reviewed_utc": "2026-09-30T00:40:11.978158+00:00",
+  "method": "Independent visual review of all three decoded final contact sheets and selected full1920x1080 frames, paired with completed-pose contact audits and the actual recorded state/event trace.",
+  "binary_sha256": "8479393c16e8a6fe6dd3ffabca4a58ffaedf953967aba95c7eee395ec5a547e8",
+  "source_sha256": "afe4b13d031ed014e98918b5ea66fd4a1792dedeebccdb18abb90b09d4ab96dd",
+  "manifest_sha256": "5bccaf591d602fb73cf366366c082582a2c7e390a54cbbebb08d6044533dba57",
+  "voice_sha256": "d7dfb6cd7d37fb611a3d06a496809731d0b6081b51cc20f78d8aa8f92afef9f5",
+  "videos": {
+    "turntable": {
+      "video": "presentation/turntable.mp4",
+      "sha256": "02163e4f1c173036ddf1b7f9ba3a8efc12cc4cedfe068575421645b8ae90f654",
+      "capture_metadata": "verification/presentation/turntable_capture.json",
+      "capture_metadata_sha256": "5a420f27022dcbe41b6675943d96f9e90040a77c1a7c3f230165bf144eb01a83",
+      "sheet": "verification/presentation/review_final_turntable_sheet.png",
+      "sheet_sha256": "11a51212ff6b4a950291d8e2d715f1924ebdb4e442696fe6f20cb2e06f9fbd11",
+      "sheet_frame_count": 4,
+      "full_resolution_frames_inspected": [
+        {
+          "seconds": 0,
+          "label": "front",
+          "file": "verification/presentation/review_final_turntable_001.png",
+          "sha256": "72ba6e37ee354b87afcc8c0ec0103828309f3e4cc10576856c0a59970563c242"
+        }
+      ]
+    },
+    "motion": {
+      "video": "presentation/motion_showcase.mp4",
+      "sha256": "2aaccb231228349c514d9ded0288f69a91ac64a2b576677a10327eae8d3508d8",
+      "capture_metadata": "verification/presentation/motion_capture.json",
+      "capture_metadata_sha256": "7e22e41c23a6863e4d8bbab7a42d0ef35611d4b638c2f501e31039ff0a82f3a3",
+      "sheet": "verification/presentation/review_final_motion_sheet.png",
+      "sheet_sha256": "0b2db0538d7756786db628cf58949bf022895e1549ef863046c7307c8ea02a03",
+      "sheet_frame_count": 27,
+      "full_resolution_frames_inspected": [
+        {
+          "seconds": 1.15,
+          "label": "acceleration onset",
+          "file": "verification/presentation/review_final_motion_001.png",
+          "sha256": "8731db8077a1f827fcdf02b67baa1d93b5a0018960a8d1828440e9e328dd84b3"
+        },
+        {
+          "seconds": 1.35,
+          "label": "first swing",
+          "file": "verification/presentation/review_final_motion_002.png",
+          "sha256": "53017331e7724eaba2547dd8876c1d6ac947f5e410674c00278e6998540d06ea"
+        },
+        {
+          "seconds": 1.65,
+          "label": "start completion",
+          "file": "verification/presentation/review_final_motion_003.png",
+          "sha256": "d64cf61a86019d7f9ce1600cc3174c195da3401db8a41757822cb14fba11b401"
+        },
+        {
+          "seconds": 10.15,
+          "label": "braking",
+          "file": "verification/presentation/review_final_motion_005.png",
+          "sha256": "0744d6152d0dcdc91c4d91ce374d2fd6e6c3df3c553c967f78817be6448caf08"
+        },
+        {
+          "seconds": 10.45,
+          "label": "stop settle",
+          "file": "verification/presentation/review_final_motion_006.png",
+          "sha256": "2c79156e94e5fc73140bb3bab095358b50e782caae85dec0866128c818817e33"
+        },
+        {
+          "seconds": 10.8,
+          "label": "stopped recovery",
+          "file": "verification/presentation/review_final_motion_007.png",
+          "sha256": "afe1f9c6a633b31988447a1f17c9f7d6d59bb6e4ec7aae1a00ed8722d92404f9"
+        },
+        {
+          "seconds": 29.45,
+          "label": "reload grip",
+          "file": "verification/presentation/review_final_motion_010.png",
+          "sha256": "37d56b5b372f103add9d083018d78372ded577c2ffcb2c772026682f836f635a"
+        },
+        {
+          "seconds": 32.9,
+          "label": "beacon deploy",
+          "file": "verification/presentation/review_final_motion_013.png",
+          "sha256": "51892eb21657311e1927ecac6659d5e5a12d6b5b34f0b0a25db8c42d4ede3282"
+        },
+        {
+          "seconds": 54.2,
+          "label": "prone front",
+          "file": "verification/presentation/review_final_motion_015.png",
+          "sha256": "257293107f7ec2a97d368f312547ddf791e6cef6e23ff2394bd21f35d4878a54"
+        },
+        {
+          "seconds": 60.5,
+          "label": "prone back",
+          "file": "verification/presentation/review_final_motion_017.png",
+          "sha256": "64bb26d478bda9fc1285181bfb14c727483d2823b9a7d12dd7cd889af76e9096"
+        },
+        {
+          "seconds": 69.6,
+          "label": "dead front",
+          "file": "verification/presentation/review_final_motion_019.png",
+          "sha256": "f667f164b628b8be20efd302de511dc408e786f28438b5620b8bddcce04ee453"
+        },
+        {
+          "seconds": 79.2,
+          "label": "dead back",
+          "file": "verification/presentation/review_final_motion_020.png",
+          "sha256": "0f2197d5ef7a9768eafd5ab1a80b90efe553c745c75ac37191293648b4d1ed53"
+        },
+        {
+          "seconds": 87,
+          "label": "speech concern",
+          "file": "verification/presentation/review_final_motion_021.png",
+          "sha256": "6cba25fe779dba8bff86ed28ec5227b753b25849cee9ec81bc92c6b5cc24aee2"
+        },
+        {
+          "seconds": 93,
+          "label": "speech confidence",
+          "file": "verification/presentation/review_final_motion_022.png",
+          "sha256": "bb4e7532ed4f6d72176d680acda17e1a67c28bd682a269c8f51c9bc649664853"
+        },
+        {
+          "seconds": 105.2,
+          "label": "fast three-shot burst",
+          "file": "verification/presentation/review_final_motion_024.png",
+          "sha256": "93c56df0a1252b1e381a33e64ed72e83fbf88cf74188288f5a1eec0246fd9dcc"
+        },
+        {
+          "seconds": 106.8,
+          "label": "airborne stasis",
+          "file": "verification/presentation/review_final_motion_025.png",
+          "sha256": "e9b70581a79b6b00868dac687cb2a80c23167f375de340fd7d20b766cc80af32"
+        },
+        {
+          "seconds": 108.2,
+          "label": "thaw",
+          "file": "verification/presentation/review_final_motion_026.png",
+          "sha256": "8cb523d62a2fea25f1b03672a76cd55e9b89e601a5a6a25a04e5dfff5bb20bd3"
+        },
+        {
+          "seconds": 109.3,
+          "label": "landing",
+          "file": "verification/presentation/review_final_motion_027.png",
+          "sha256": "0de02b17d040a92f610c8ac82886001785d577da07244ec899cbf8c83cd4864a"
+        }
+      ]
+    },
+    "face": {
+      "video": "presentation/face_performance.mp4",
+      "sha256": "b683bcd3a235c2f37950df55e0f95ceb8a9db50d8e3691f584a94e9871281fa9",
+      "capture_metadata": "verification/presentation/face_capture.json",
+      "capture_metadata_sha256": "078b36802876123b20a3341698c4c68f8d1c4ae3c18a380f371698088e28ef01",
+      "sheet": "verification/presentation/review_final_face_sheet.png",
+      "sheet_sha256": "4ec6154ecbf9c24b1a6c7aa65f89baae03cd2c33af16e41e91598f3029a0efe9",
+      "sheet_frame_count": 12,
+      "full_resolution_frames_inspected": [
+        {
+          "seconds": 1.4725,
+          "label": "lip closure",
+          "file": "verification/presentation/review_final_face_002.png",
+          "sha256": "bcb57be387dcf40b14f7bcbfd71e1386ddb8efd297bf12c6b0b55553213b9501"
+        },
+        {
+          "seconds": 3.4915,
+          "label": "open vowel",
+          "file": "verification/presentation/review_final_face_003.png",
+          "sha256": "f3d4850c6927774f0a1774bc46363f43fd34fe3d7002fdf0c6bd2aba0a6b631a"
+        }
+      ]
+    }
+  },
+  "recorded_sequence": {
+    "report": "verification/presentation/motion_sequence_validation.json",
+    "report_sha256": "55a4152c28a2b552b226095ea1b0b7edb3e22cdb289ab088e21b47e3fb985e58",
+    "rows": 338,
+    "markers": 185,
+    "summary": {
+      "pass": 10,
+      "fail": 0
+    }
+  },
+  "findings": [
+    {
+      "area": "turntable",
+      "pass": true,
+      "observation": "Grounded boots and coherent silhouette in all four views; visible organic arm, cybernetic forearm, face and costume."
+    },
+    {
+      "area": "start_and_stop",
+      "pass": true,
+      "observation": "Lifted swing foot at acceleration, continuing gait at start completion, and consistent planted boots during braking/settle/recovery. The final terrain audit separately measures true support."
+    },
+    {
+      "area": "moving_fire_and_rates",
+      "pass": true,
+      "observation": "Upper-body fire and half-rate melee/fast burst retain connected limbs and a stable lower body. The recorded burst trace contains three distinct fire markers."
+    },
+    {
+      "area": "reload_and_deploy",
+      "pass": true,
+      "observation": "Organic hand grip, forearm reinsertion and beacon placement agree with reviewed source contacts; no new gross attachment slip or intersection is visible."
+    },
+    {
+      "area": "supported_floor_states",
+      "pass": true,
+      "observation": "Held sleep, both prone/getup families and stable death endpoints retain intact shoulders, hips, knees and supporting hands. Floor poses agree with the source renders."
+    },
+    {
+      "area": "speech_lighting",
+      "pass": true,
+      "observation": "Motion87/93-second closeups now illuminate both cheeks, forehead, brows and mouth. The prior dark presentation defect is resolved."
+    },
+    {
+      "area": "facial_performance",
+      "pass": true,
+      "observation": "Closed, open, wide and rounded mouth shapes, tongue/labiodental cues and changing eye direction are visible. Concern gives way to confidence; the reviewed open mouths retain their oral cavity."
+    },
+    {
+      "area": "stasis_thaw_landing",
+      "pass": true,
+      "observation": "The character visibly holds above the floor, resumes an airborne posture on thaw and lands before the movie ends. Recorded airborne capsule hold is1.5996seconds with zero displacement."
+    }
+  ],
+  "scope_note": "Representative visual samples complement source every-frame geometry/bake checks and packaged contact/event logs; this report does not claim visual inspection of every video frame or arbitrary interactive path.",
+  "summary": {
+    "pass": true,
+    "pending_quality_work": []
+  }
+}

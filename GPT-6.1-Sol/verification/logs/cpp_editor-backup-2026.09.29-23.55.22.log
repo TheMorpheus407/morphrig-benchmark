@@ -1,0 +1,128 @@
+Log started at 09/30/2026 01:55:16 (2026-09-29T23:55:16Z)
+Resolved project argument /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/MorphRig.uproject to /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/MorphRig.uproject
+No config file at /usr/share/Unreal Engine/UnrealBuildTool/BuildConfiguration.xml
+No config file at /home/morpheus/.local/share/Unreal Engine/UnrealBuildTool/BuildConfiguration.xml
+No config file at /home/morpheus/Documents/Unreal Engine/UnrealBuildTool/BuildConfiguration.xml
+Configuration will be read from:
+  /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Saved/ConfigHome/Unreal Engine/UnrealBuildTool/BuildConfiguration.xml
+Reading configuration file from: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Saved/ConfigHome/Unreal Engine/UnrealBuildTool/BuildConfiguration.xml
+Reading configuration file from: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Saved/UnrealBuildTool/BuildConfiguration.xml
+Reading configuration file from: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Saved/ConfigHome/Epic/UnrealEngine/Intermediate/Build/UnrealBuildTool.Env.BuildConfiguration.xml
+Log file: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/verification/logs/cpp_editor.log
+Deleting old log file: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/verification/logs/cpp_editor-backup-2026.09.29-22.14.19.log
+Deleting old log file: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/verification/logs/cpp_editor-backup-2026.09.29-22.14.19.json
+
+Setting temp directory to '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Saved/Temp/UnrealBuildTool/9d9858f8'
+    Registering build platform: UnrealBuildTool.AndroidPlatformFactory
+Unable to find valid SDK(s) for Android:
+  Found Sdk Version, MinRequired=r27c, MaxRequired=r29.
+  Found AutoSdk Version, Required=r27c.
+        Registering build platform: Android - buildable: False
+    Registering build platform: UnrealBuildTool.IOSPlatformFactory
+    Registering build platform: UnrealBuildTool.LinuxPlatformFactory
+Linux Installed SDK(s): Version_Sdk=v26_clang-20.1.8-rockylinux8, CurrentVersion_Sdk=v26_clang-20.1.8-rockylinux8, Version_AutoSdk=v26_clang-20.1.8-rockylinux8, CurrentVersion_AutoSdk=
+        Registering build platform: Linux - buildable: True
+LinuxArm64 Installed SDK(s): Version_Sdk=v26_clang-20.1.8-rockylinux8, CurrentVersion_Sdk=v26_clang-20.1.8-rockylinux8, Version_AutoSdk=v26_clang-20.1.8-rockylinux8, CurrentVersion_AutoSdk=
+        Registering build platform: LinuxArm64 - buildable: True
+    Registering build platform: UnrealBuildTool.MacPlatformFactory
+    Registering build platform: UnrealBuildTool.TVOSPlatformFactory
+    Registering build platform: UnrealBuildTool.WindowsPlatformFactory
+    Registering build platform: UnrealBuildTool.VisionOSPlatformFactory
+Command line: /home/morpheus/UnrealEngine/5.8.3/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.dll MorphRigEditor Linux Development -Project=/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/MorphRig.uproject -NoEngineChanges -NoHotReloadFromIDE -Log=/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/verification/logs/cpp_editor.log
+Determining max actions to execute in parallel (16 physical cores, 32 logical cores)
+  Executing up to 16 processes, one per physical core
+UbaStorageServer - FileMapping backing: memfd
+UbaStorageServer - Database loaded from /home/morpheus/.epic/UnrealBuildAccelerator/cas/casdb (v35) in <1ms (contained 0 entries estimated to 0b)
+UbaServer - Listening on 0.0.0.0:1345
+Skipping /home/morpheus/UnrealEngine/5.8.3/Engine/Intermediate/Build/BuildRules/UE5Rules.dll: File is installed
+Skipping /home/morpheus/UnrealEngine/5.8.3/Engine/Intermediate/Build/BuildRules/UE5ProgramRules.dll: File is installed
+Building UnrealEditor - MorphRigEditor - Linux - Development
+UnrealHeaderTool needs to run because SavedTimestamp is older than HeaderFileTimestamp (/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Source/MorphRig/MorphAnimInstance.h) for module MorphRig
+Parsing headers for MorphRigEditor
+  Running Internal UnrealHeaderTool /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/MorphRig.uproject /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Intermediate/Build/Linux/MorphRigEditor/MorphRigEditor.uhtmanifest -WarningsAsErrors -installed
+UHT compiled-in object format Default
+Step - Parse Headers
+Reading engine version from file: /home/morpheus/UnrealEngine/5.8.3/Engine/Source/Runtime/Launch/Resources/Version.h
+Got engine version 5.8.3
+Step - Populate symbol table
+Step - Exports
+       Exporter Stats skipped
+       Exporter Json skipped
+       Running exporter CodeGen
+UHT processed MorphRigEditor in 1.5402632 seconds (1 generated files written)
+Building MorphRigEditor...
+===== Toolchain Information =====
+Using ISPC compiler (/home/morpheus/UnrealEngine/5.8.3/Engine/Source/ThirdParty/Intel/ISPC/bin/Linux/ispc)
+  Intel(r) Implicit SPMD Program Compiler (Intel(r) ISPC), 1.24.0 (build commit  @ 20240919, LLVM 18.1.6)
+Using Clang compiler 20.1.8 (/home/morpheus/UnrealEngine/5.8.3/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++)
+  clang version 20.1.8 (github.com/llvm/llvm-project 87f0227cb60147a26a1eeb4fb06e3b505e9c7261) Target: x86_64-unknown-linux-gnu Thread model: posix InstalledDir: /home/morpheus/UnrealEngine/5.8.3/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin
+Using Clang archiver (/home/morpheus/UnrealEngine/5.8.3/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/llvm-ar)
+  LLVM (http://llvm.org/):   LLVM version 20.1.8   Optimized build.
+Using toolchain located at '/home/morpheus/UnrealEngine/5.8.3/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu'
+Using bundled libc++ standard C++ library.
+Compressing debug files
+=================================
+Using Unreal Build Accelerator local executor to run 5 action(s)
+  CPU 16 physical cores, 32 logical cores
+  Memory 91.88 GB physical, 89.78 GB/187.88 GB committed
+  UBA Storage capacity 40 GB
+  UBA RootDir /home/morpheus/.epic/UnrealBuildAccelerator
+Cache bucket 1371431955 used. Action: Compile Module.MorphRig.gen.cpp ()
+Cache bucket 3210444918 used. Action: Compile MorphAnimInstance.cpp ()
+Cache bucket 3444289189 used. Action: Link libUnrealEditor-MorphRig.so ()
+All processes queued
+[1/5] Compile Module.MorphRig.gen.cpp
+[2/5] Compile MorphAnimInstance.cpp
+[3/5] Compile MorphOperative.cpp
+[4/5] Compile MorphShowcase.cpp
+[5/5] Link libUnrealEditor-MorphRig.so
+
+Total time in Unreal Build Accelerator local executor: 3.67 seconds
+Output binary: /home/morpheus/UnrealEngine/5.8.3/Engine/Binaries/Linux/UnrealEditor
+UbaStorageServer - Database saved in <1ms (0 file entries, 0 cas entries. deleted 0 dropped cas files)
+WriteFileIfChanged() wrote 0 changed files of 1 requested writes.
+
+Timeline:
+[  0.000]  +0.327 Main
+   0.009          [  0.009]  +0.066 Apply XmlConfig
+   0.079          [  0.079]  +0.073 AddTelemetry
+   0.174          [  0.174]  +0.153 RegisterPlatforms
+[  0.335]  +0.013 ParseCommandLine
+[  0.399]  +0.133 LoadMakefile
+   0.417          [  0.018]  +0.023 EngineRulesPlugins
+   0.443          [  0.043]  +0.037 EngineRulesFetchDirs
+   0.490          [  0.090]  +0.005 EngineRulesAssembly
+   0.496          [  0.096]  +0.000 ProgramRulesAssembly
+   0.496          [  0.097]  +0.001 ProjectRulesAssembly
+   0.498          [  0.098]  +0.087 CreateTargetRules
+   0.535             0.136          [  0.037]  +0.000 FindPlugins
+   0.542             0.143          [  0.044]  +0.025 MakefileValid
+[  0.621]  +0.006 CppDependencyCache
+[  0.632]  +0.060 MorphRigEditor Linux Development
+[  0.694]  +1.639 UHTWait
+   0.695          [  0.001]  +0.092 UHTManifest
+   0.788          [  0.094]  +1.543 UHT
+   2.332          [  1.638]  +0.014 UHTTimestamps
+[  2.347]  +0.010 CppDependencyCache
+[  2.358]  +0.035 Preparing ActionGraph
+   2.364          [  0.006]  +0.003 LinkActions
+   2.367             0.008          [  0.002]  +0.000 DetectActionGraphCycles
+   2.367          [  0.009]  +0.000 GatherPrerequisiteActions
+   2.368          [  0.010]  +0.000 CppDependencyCacheWait
+   2.369          [  0.010]  +0.019 GatherOutdatedActions
+   2.390          [  0.031]  +0.001 LinkActions
+   2.390             0.031          [  0.000]  +0.000 DetectActionGraphCycles
+   2.392          [  0.034]  +0.000 DeleteOutdatedProducedItems
+   2.392          [  0.034]  +0.000 SaveActionHistory
+   2.393          [  0.035]  +0.000 CreateDirectoriesForProducedItems
+[  2.401]  +0.410 GarbageCollect
+[  2.812]  +3.263 <unknown>
+[  6.076]  +0.000 Deploying targets
+[  6.076]  +0.000 DisconnectCache
+[  6.085]  +0.000 SaveCasTable
+[  6.086]  +0.036 Saving caches
+[  6.122]  +0.001 TelemetryService.FlushEvents
+[  6.125]
+
+Result: Succeeded
+Total execution time: 6.13 seconds

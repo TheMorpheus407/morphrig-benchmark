@@ -1,0 +1,238 @@
+{
+  "turntable": {
+    "video": "presentation/turntable.mp4",
+    "video_sha256": "02163e4f1c173036ddf1b7f9ba3a8efc12cc4cedfe068575421645b8ae90f654",
+    "sheet": "verification/presentation/review_final_turntable_sheet.png",
+    "frames": [
+      {
+        "seconds": 0,
+        "label": "front",
+        "file": "verification/presentation/review_final_turntable_001.png"
+      },
+      {
+        "seconds": 3.75,
+        "label": "side",
+        "file": "verification/presentation/review_final_turntable_002.png"
+      },
+      {
+        "seconds": 7.5,
+        "label": "back",
+        "file": "verification/presentation/review_final_turntable_003.png"
+      },
+      {
+        "seconds": 11.25,
+        "label": "opposite side",
+        "file": "verification/presentation/review_final_turntable_004.png"
+      }
+    ]
+  },
+  "motion": {
+    "video": "presentation/motion_showcase.mp4",
+    "video_sha256": "2aaccb231228349c514d9ded0288f69a91ac64a2b576677a10327eae8d3508d8",
+    "sheet": "verification/presentation/review_final_motion_sheet.png",
+    "frames": [
+      {
+        "seconds": 1.15,
+        "label": "acceleration onset",
+        "file": "verification/presentation/review_final_motion_001.png"
+      },
+      {
+        "seconds": 1.35,
+        "label": "first swing",
+        "file": "verification/presentation/review_final_motion_002.png"
+      },
+      {
+        "seconds": 1.65,
+        "label": "start completion",
+        "file": "verification/presentation/review_final_motion_003.png"
+      },
+      {
+        "seconds": 4.3,
+        "label": "moving fire",
+        "file": "verification/presentation/review_final_motion_004.png"
+      },
+      {
+        "seconds": 10.15,
+        "label": "braking",
+        "file": "verification/presentation/review_final_motion_005.png"
+      },
+      {
+        "seconds": 10.45,
+        "label": "stop settle",
+        "file": "verification/presentation/review_final_motion_006.png"
+      },
+      {
+        "seconds": 10.8,
+        "label": "stopped recovery",
+        "file": "verification/presentation/review_final_motion_007.png"
+      },
+      {
+        "seconds": 17,
+        "label": "channel",
+        "file": "verification/presentation/review_final_motion_008.png"
+      },
+      {
+        "seconds": 25,
+        "label": "charge",
+        "file": "verification/presentation/review_final_motion_009.png"
+      },
+      {
+        "seconds": 29.45,
+        "label": "reload grip",
+        "file": "verification/presentation/review_final_motion_010.png"
+      },
+      {
+        "seconds": 30.1,
+        "label": "cell insertion",
+        "file": "verification/presentation/review_final_motion_011.png"
+      },
+      {
+        "seconds": 31.05,
+        "label": "reload recovery",
+        "file": "verification/presentation/review_final_motion_012.png"
+      },
+      {
+        "seconds": 32.9,
+        "label": "beacon deploy",
+        "file": "verification/presentation/review_final_motion_013.png"
+      },
+      {
+        "seconds": 44.8,
+        "label": "held sleep",
+        "file": "verification/presentation/review_final_motion_014.png"
+      },
+      {
+        "seconds": 54.2,
+        "label": "prone front",
+        "file": "verification/presentation/review_final_motion_015.png"
+      },
+      {
+        "seconds": 56,
+        "label": "front getup",
+        "file": "verification/presentation/review_final_motion_016.png"
+      },
+      {
+        "seconds": 60.5,
+        "label": "prone back",
+        "file": "verification/presentation/review_final_motion_017.png"
+      },
+      {
+        "seconds": 63,
+        "label": "back getup",
+        "file": "verification/presentation/review_final_motion_018.png"
+      },
+      {
+        "seconds": 69.6,
+        "label": "dead front",
+        "file": "verification/presentation/review_final_motion_019.png"
+      },
+      {
+        "seconds": 79.2,
+        "label": "dead back",
+        "file": "verification/presentation/review_final_motion_020.png"
+      },
+      {
+        "seconds": 87,
+        "label": "speech concern",
+        "file": "verification/presentation/review_final_motion_021.png"
+      },
+      {
+        "seconds": 93,
+        "label": "speech confidence",
+        "file": "verification/presentation/review_final_motion_022.png"
+      },
+      {
+        "seconds": 103,
+        "label": "half-rate melee",
+        "file": "verification/presentation/review_final_motion_023.png"
+      },
+      {
+        "seconds": 105.2,
+        "label": "fast three-shot burst",
+        "file": "verification/presentation/review_final_motion_024.png"
+      },
+      {
+        "seconds": 106.8,
+        "label": "airborne stasis",
+        "file": "verification/presentation/review_final_motion_025.png"
+      },
+      {
+        "seconds": 108.2,
+        "label": "thaw",
+        "file": "verification/presentation/review_final_motion_026.png"
+      },
+      {
+        "seconds": 109.3,
+        "label": "landing",
+        "file": "verification/presentation/review_final_motion_027.png"
+      }
+    ]
+  },
+  "face": {
+    "video": "presentation/face_performance.mp4",
+    "video_sha256": "b683bcd3a235c2f37950df55e0f95ceb8a9db50d8e3691f584a94e9871281fa9",
+    "sheet": "verification/presentation/review_final_face_sheet.png",
+    "frames": [
+      {
+        "seconds": 0.4065,
+        "label": "rounded",
+        "file": "verification/presentation/review_final_face_001.png"
+      },
+      {
+        "seconds": 1.4725,
+        "label": "lip closure",
+        "file": "verification/presentation/review_final_face_002.png"
+      },
+      {
+        "seconds": 3.4915,
+        "label": "open vowel",
+        "file": "verification/presentation/review_final_face_003.png"
+      },
+      {
+        "seconds": 4.2295,
+        "label": "wide vowel",
+        "file": "verification/presentation/review_final_face_004.png"
+      },
+      {
+        "seconds": 4.875,
+        "label": "tongue",
+        "file": "verification/presentation/review_final_face_005.png"
+      },
+      {
+        "seconds": 7.2165,
+        "label": "pause",
+        "file": "verification/presentation/review_final_face_006.png"
+      },
+      {
+        "seconds": 8.7,
+        "label": "confidence shift",
+        "file": "verification/presentation/review_final_face_007.png"
+      },
+      {
+        "seconds": 9.1595,
+        "label": "consonant",
+        "file": "verification/presentation/review_final_face_008.png"
+      },
+      {
+        "seconds": 10.438,
+        "label": "labiodental",
+        "file": "verification/presentation/review_final_face_009.png"
+      },
+      {
+        "seconds": 11.794,
+        "label": "lip closure",
+        "file": "verification/presentation/review_final_face_010.png"
+      },
+      {
+        "seconds": 12.6,
+        "label": "final gesture",
+        "file": "verification/presentation/review_final_face_011.png"
+      },
+      {
+        "seconds": 13.4,
+        "label": "settle",
+        "file": "verification/presentation/review_final_face_012.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "schema_version": 2,
+  "method": "Independent review of finalized imported LOD0 boot/toe vertex skinning in both packaged terrain replays; every captured row is inspected regardless of IK weight.",
+  "units": "centimetres",
+  "contact_pressure_tolerance_cm": 1.0,
+  "planted_surface_gap_tolerance_cm": 1.0,
+  "acceptance_note": "Raw depths are retained. Height weight1 can include a safety-raised swing foot. Planted support is identified by the separate stance weight.",
+  "boot_bindings_sha256": "e793757b9117c5933812d982a80072e395d86c14387b92bfe8170a4691fd6188",
+  "imported_boot_vertex_samples": 1938,
+  "binding_weight_max_sum_error": 0,
+  "evaluated_utc": "2026-09-30T00:20:57.498238+00:00",
+  "runs": {
+    "terrain_contacts.csv": {
+      "rows": 225,
+      "sha256": "47e5fd15e940086287006c60a0d6e5d3c2c3cf2a312a83116aeca5442bb30bde",
+      "phases": {
+        "ramp": {
+          "left": {
+            "minimum_surface_clearance_cm": 0.1,
+            "worst_time_seconds": 1.9374,
+            "inside_tread_vertex_count": 0,
+            "maximum_solid_penetration_cm": 0.0,
+            "fully_height_weighted_samples": 101,
+            "maximum_fully_height_weighted_surface_gap_cm": 0.943,
+            "fully_stance_weighted_samples": 94,
+            "maximum_planted_surface_gap_cm": 0.943,
+            "minimum_planted_surface_clearance_cm": 0.1,
+            "pass": true
+          },
+          "right": {
+            "minimum_surface_clearance_cm": 0.1,
+            "worst_time_seconds": 0.6518,
+            "inside_tread_vertex_count": 0,
+            "maximum_solid_penetration_cm": 0.0,
+            "fully_height_weighted_samples": 105,
+            "maximum_fully_height_weighted_surface_gap_cm": 0.486,
+            "fully_stance_weighted_samples": 98,
+            "maximum_planted_surface_gap_cm": 0.1146,
+            "minimum_planted_surface_clearance_cm": 0.1,
+            "pass": true
+          }
+        },
+        "steps": {
+          "left": {
+            "minimum_surface_clearance_cm": 0.1,
+            "worst_time_seconds": 10.2528,
+            "inside_tread_vertex_count": 0,
+            "maximum_solid_penetration_cm": 0.0,
+            "fully_height_weighted_samples": 77,
+            "maximum_fully_height_weighted_surface_gap_cm": 1.2048,
+            "fully_stance_weighted_samples": 75,
+            "maximum_planted_surface_gap_cm": 0.3576,
+            "minimum_planted_surface_clearance_cm": 0.1,
+            "pass": true
+          },
+          "right": {
+            "minimum_surface_clearance_cm": 0.1,
+            "worst_time_seconds": 8.1696,
+            "inside_tread_vertex_count": 0,
+            "maximum_solid_penetration_cm": 0.0,
+            "fully_height_weighted_samples": 83,
+            "maximum_fully_height_weighted_surface_gap_cm": 5.0434,
+            "fully_stance_weighted_samples": 77,
+            "maximum_planted_surface_gap_cm": 0.3503,
+            "minimum_planted_surface_clearance_cm": 0.1,
+            "pass": true
+          }
+        }
+      },
+      "pass": true
+    },
+    "ramp_stop_contacts.csv": {
+      "rows": 227,
+      "sha256": "1afb3f50b216659383eb3045d933f67643e135ccc5d50e7fb51bc81c6414b028",
+      "phases": {
+        "ramp": {
+          "left": {
+            "minimum_surface_clearance_cm": 0.1,
+            "worst_time_seconds": 1.8982,
+            "inside_tread_vertex_count": 0,
+            "maximum_solid_penetration_cm": 0.0,
+            "fully_height_weighted_samples": 120,
+            "maximum_fully_height_weighted_surface_gap_cm": 15.114,
+            "fully_stance_weighted_samples": 115,
+            "maximum_planted_surface_gap_cm": 0.943,
+            "minimum_planted_surface_clearance_cm": 0.1,
+            "pass": true
+          },
+          "right": {
+            "minimum_surface_clearance_cm": 0.1,
+            "worst_time_seconds": 0.5265,
+            "inside_tread_vertex_count": 0,
+            "maximum_solid_penetration_cm": 0.0,
+            "fully_height_weighted_samples": 120,
+            "maximum_fully_height_weighted_surface_gap_cm": 0.4903,
+            "fully_stance_weighted_samples": 114,
+            "maximum_planted_surface_gap_cm": 0.1368,
+            "minimum_planted_surface_clearance_cm": 0.1,
+            "pass": true
+          }
+        },
+        "steps": {
+          "left": {
+            "minimum_surface_clearance_cm": 0.1,
+            "worst_time_seconds": 7.154,
+            "inside_tread_vertex_count": 0,
+            "maximum_solid_penetration_cm": 0.0,
+            "fully_height_weighted_samples": 74,
+            "maximum_fully_height_weighted_surface_gap_cm": 0.7888,
+            "fully_stance_weighted_samples": 72,
+            "maximum_planted_surface_gap_cm": 0.3502,
+            "minimum_planted_surface_clearance_cm": 0.1,
+            "pass": true
+          },
+          "right": {
+            "minimum_surface_clearance_cm": 0.1,
+            "worst_time_seconds": 9.709,
+            "inside_tread_vertex_count": 0,
+            "maximum_solid_penetration_cm": 0.0,
+            "fully_height_weighted_samples": 80,
+            "maximum_fully_height_weighted_surface_gap_cm": 1.8881,
+            "fully_stance_weighted_samples": 75,
+            "maximum_planted_surface_gap_cm": 0.3506,
+            "minimum_planted_surface_clearance_cm": 0.1,
+            "pass": true
+          }
+        }
+      },
+      "pass": true
+    }
+  },
+  "terrain_metadata_binary_sha256": "8479393c16e8a6fe6dd3ffabca4a58ffaedf953967aba95c7eee395ec5a547e8",
+  "terrain_metadata_sha256": "6fc80910f3fc897b73ea666f260c5aab8e4ed9f2a541cf05abdd1d1fb09eda4a",
+  "delivered_binary_sha256": "8479393c16e8a6fe6dd3ffabca4a58ffaedf953967aba95c7eee395ec5a547e8",
+  "binary_identity_matches": true,
+  "summary": {
+    "pass": true
+  }
+}

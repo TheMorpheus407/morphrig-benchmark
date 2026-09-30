@@ -1,0 +1,89 @@
+Log started at 09/30/2026 01:29:21 (2026-09-29T23:29:21Z)
+Resolved project argument /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/MorphRig.uproject to /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/MorphRig.uproject
+No config file at /usr/share/Unreal Engine/UnrealBuildTool/BuildConfiguration.xml
+No config file at /home/morpheus/.local/share/Unreal Engine/UnrealBuildTool/BuildConfiguration.xml
+No config file at /home/morpheus/Documents/Unreal Engine/UnrealBuildTool/BuildConfiguration.xml
+Configuration will be read from:
+  /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Saved/ConfigHome/Unreal Engine/UnrealBuildTool/BuildConfiguration.xml
+Reading configuration file from: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Saved/ConfigHome/Unreal Engine/UnrealBuildTool/BuildConfiguration.xml
+Reading configuration file from: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Saved/UnrealBuildTool/BuildConfiguration.xml
+Reading configuration file from: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Saved/ConfigHome/Epic/UnrealEngine/Intermediate/Build/UnrealBuildTool.Env.BuildConfiguration.xml
+Log file: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/verification/logs/cpp_editor.log
+Deleting old log file: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/verification/logs/cpp_editor-backup-2026.09.29-21.53.45.log
+Deleting old log file: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/verification/logs/cpp_editor-backup-2026.09.29-21.53.45.json
+
+Setting temp directory to '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Saved/Temp/UnrealBuildTool/9d9858f8'
+    Registering build platform: UnrealBuildTool.AndroidPlatformFactory
+Unable to find valid SDK(s) for Android:
+  Found Sdk Version, MinRequired=r27c, MaxRequired=r29.
+  Found AutoSdk Version, Required=r27c.
+        Registering build platform: Android - buildable: False
+    Registering build platform: UnrealBuildTool.IOSPlatformFactory
+    Registering build platform: UnrealBuildTool.LinuxPlatformFactory
+Linux Installed SDK(s): Version_Sdk=v26_clang-20.1.8-rockylinux8, CurrentVersion_Sdk=v26_clang-20.1.8-rockylinux8, Version_AutoSdk=v26_clang-20.1.8-rockylinux8, CurrentVersion_AutoSdk=
+        Registering build platform: Linux - buildable: True
+LinuxArm64 Installed SDK(s): Version_Sdk=v26_clang-20.1.8-rockylinux8, CurrentVersion_Sdk=v26_clang-20.1.8-rockylinux8, Version_AutoSdk=v26_clang-20.1.8-rockylinux8, CurrentVersion_AutoSdk=
+        Registering build platform: LinuxArm64 - buildable: True
+    Registering build platform: UnrealBuildTool.MacPlatformFactory
+    Registering build platform: UnrealBuildTool.TVOSPlatformFactory
+    Registering build platform: UnrealBuildTool.WindowsPlatformFactory
+    Registering build platform: UnrealBuildTool.VisionOSPlatformFactory
+Command line: /home/morpheus/UnrealEngine/5.8.3/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.dll MorphRigEditor Linux Development -Project=/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/MorphRig.uproject -NoEngineChanges -NoHotReloadFromIDE -Log=/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/verification/logs/cpp_editor.log
+Determining max actions to execute in parallel (16 physical cores, 32 logical cores)
+  Executing up to 16 processes, one per physical core
+UbaStorageServer - FileMapping backing: memfd
+UbaStorageServer - Database loaded from /home/morpheus/.epic/UnrealBuildAccelerator/cas/casdb (v35) in <1ms (contained 0 entries estimated to 0b)
+UbaServer - Listening on 0.0.0.0:1345
+Skipping /home/morpheus/UnrealEngine/5.8.3/Engine/Intermediate/Build/BuildRules/UE5Rules.dll: File is installed
+Skipping /home/morpheus/UnrealEngine/5.8.3/Engine/Intermediate/Build/BuildRules/UE5ProgramRules.dll: File is installed
+Building UnrealEditor - MorphRigEditor - Linux - Development
+Generated code is up to date.
+Target is up to date
+Using Unreal Build Accelerator local executor to run 0 action(s)
+Total time in Unreal Build Accelerator local executor: 0.11 seconds
+Output binary: /home/morpheus/UnrealEngine/5.8.3/Engine/Binaries/Linux/UnrealEditor
+UbaStorageServer - Database saved in <1ms (0 file entries, 0 cas entries. deleted 0 dropped cas files)
+WriteFileIfChanged() wrote 0 changed files of 1 requested writes.
+
+Timeline:
+[  0.000]  +0.339 Main
+   0.009          [  0.009]  +0.073 Apply XmlConfig
+   0.087          [  0.087]  +0.134 AddTelemetry
+   0.268          [  0.268]  +0.071 RegisterPlatforms
+[  0.346]  +0.013 ParseCommandLine
+[  0.407]  +0.167 LoadMakefile
+   0.434          [  0.027]  +0.029 EngineRulesPlugins
+   0.466          [  0.059]  +0.035 EngineRulesFetchDirs
+   0.512          [  0.104]  +0.006 EngineRulesAssembly
+   0.518          [  0.110]  +0.000 ProgramRulesAssembly
+   0.518          [  0.111]  +0.001 ProjectRulesAssembly
+   0.520          [  0.112]  +0.110 CreateTargetRules
+   0.575             0.168          [  0.055]  +0.000 FindPlugins
+   0.583             0.175          [  0.062]  +0.012 MakefileValid
+[  0.664]  +0.005 CppDependencyCache
+[  0.674]  +0.060 MorphRigEditor Linux Development
+[  0.736]  +0.014 UHTWait
+   0.737          [  0.000]  +0.011 UHTManifest
+   0.749          [  0.012]  +0.018 UHTTimestamps
+[  0.769]  +0.002 CppDependencyCache
+[  0.772]  +0.048 Preparing ActionGraph
+   0.777          [  0.005]  +0.002 LinkActions
+   0.780             0.008          [  0.002]  +0.000 DetectActionGraphCycles
+   0.780          [  0.008]  +0.000 GatherPrerequisiteActions
+   0.781          [  0.009]  +0.000 CppDependencyCacheWait
+   0.782          [  0.009]  +0.031 GatherOutdatedActions
+   0.816          [  0.043]  +0.002 LinkActions
+   0.816             0.043          [  0.000]  +0.000 DetectActionGraphCycles
+   0.819          [  0.047]  +0.000 DeleteOutdatedProducedItems
+   0.819          [  0.047]  +0.000 SaveActionHistory
+   0.820          [  0.048]  +0.000 CreateDirectoriesForProducedItems
+[  0.823]  +0.104 GarbageCollect
+[  0.931]  +0.000 Deploying targets
+[  0.932]  +0.000 DisconnectCache
+[  0.932]  +0.000 SaveCasTable
+[  0.933]  +0.010 Saving caches
+[  0.944]  +0.002 TelemetryService.FlushEvents
+[  0.947]
+
+Result: Succeeded
+Total execution time: 0.95 seconds

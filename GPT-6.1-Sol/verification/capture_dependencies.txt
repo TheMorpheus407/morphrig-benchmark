@@ -1,0 +1,4 @@
+/nix/store/fk9rdndahnfzmw6h917bl4qw923c5qb5-ffmpeg-full-8.1.2-bin/bin/ffmpeg
+/nix/store/fk9rdndahnfzmw6h917bl4qw923c5qb5-ffmpeg-full-8.1.2-bin/bin/ffprobe
+/nix/store/sappapmdp66dl0h5fqp1yw32121r2b5j-xdotool-3.20211022.1/bin/xdotool
+/nix/store/vzfd7z3jlxnzm5c4ramx8wnrzg6zk4ac-xwininfo-1.1.6/bin/xwininfo

@@ -1,0 +1,1106 @@
+================================================================================
+Software Name: Avid DNxHD/DNxHR
+Version: v2.6
+URL: Please contact your Epic POC for the original EULA pdf document
+===========================================================================================
+Avid DNxHD® Unified License Agreement 
+ 
+In consideration of the promises and mutual covenants set forth herein, this Agreement including the 
+Summary & Signature pages hereof is made by and between the Parties. 
+ 
+ 
+1. DEFINITIONS 
+ 
+1.1. “Affiliates” means, with respect to any legally recognizable entity, any other such entity that 
+controls, is controlled by or is under common control with such entity, only so long as such control exists.  
+“Control” means (i) ownership of fifty (50%) or more of the outstanding shares representing the right to 
+vote for members of the directors or other managing officers of such entity, or (ii) for an entity which 
+does not have outstanding shares, fifty percent (50%) or more of the ownership interest representing 
+the right to make decisions for such entity. 
+ 
+1.2. “Avid’s Applicable Patent Rights” means the Necessary Claims of the patents and patent 
+applications set forth at www.avid.com/DNxHD-patents, as updated from time to time by Avid. 
+ 
+1.3. “Avid Binary Codec” means any binary Avid DNxHD Codec made available by Avid to 
+Licensee. 
+ 
+1.4. “Avid DNxHD Codec” means any codec, whether implemented in software or implemented in 
+hardware, that produces and/or decodes an Avid DNxHD Compliant Bitstream. 
+ 
+1.5. “Avid DNxHD Compliant Video Bitstream” means a bitstream that includes only video essence 
+that is compressed in a manner that is consistent, in all conventions, logical form, data constructs and 
+signal performance, with Avid DNxHD video bitstreams produced by Avid systems having and Avid 
+DNxHD Codec, together with associated metadata, and from which all video essence and metadata 
+may be properly decoded and played by Avid systems in the normal course of editing and playback 
+operations.  Avid will endeavor to make information available about known compliant implementations 
+through the Avid web site at http://www.avid.com. 
+ 
+1.6. “Avid DNxHD Compliant Media File” means a media file that includes only video essence that 
+is compressed in a manner that is consistent, in all conventions, logical form, data constructs and 
+signal performance, with Avid DNxHD media files produced by Avid systems having and Avid DNxHD 
+Codec, together with associated metadata, and from which all video essence and metadata may be 
+properly decoded and played by Avid systems in the normal course of editing and playback 
+operations.  Avid will endeavor to make information available about known compliant implementations 
+through the Avid web site at http://www.avid.com. 
+ 
+1.7. “Avid DNxHR” means a high resolution variant of Avid DNxHD.  References to Avid DNxHD 
+herein shall include Avid DNxHR. 
+ 
+1.8. “Avid Codec Source Code” means source code solely for creating an Avid DNxHD Codec in a 
+software object or in hardware, made available by Avid to Licensee. 
+ 
+1.9. “Avid Hardware Codec” means an Avid DNxHD Codec implementation in hardware. 
+ 
+1.10. “Avid Confidential Information” means the Avid Binary Codec and its associated 
+documentation, and any ideas, concepts, know-how, processes, technical information or trade secrets 
+embodied in the Avid Binary Codec and its associated documentation, the Avid Codec Source Code 
+and its associated documentation, and any ideas, concepts, know-how, processes, technical 
+information or trade secrets embodied in the Avid Source Code and its associated documentation, the DocuSign Envelope ID: 1A531662-5531-4BBF-8D31-F8C94B3D7158
+ 
+Avid DNxHD Unified License Agreement  
+Page 2 of 13 
+terms and conditions of this Agreement, and any other information provided by Avid to Licensee in the 
+course of negotiating and performing this Agreement that is indicated by Avid to be confidential or by 
+its nature would reasonably be expected to be confidential. 
+ 
+1.11. “Avid DNxHD Trademarks” means the “Avid DNxHD®” trademark and variants set forth in 
+Schedule C, as may be updated from time to time by Avid in its sole discretion. 
+ 
+1.12. “Avid DNxHD Trademark Usage Guidelines” means the usage guidelines set forth in C under 
+the heading Avid DNxHD Trademark Usage Guidelines, as they may be updated by Avid from time to 
+time by amendment to Schedule C. 
+ 
+1.13. “Avid Trademark Usage Guidelines” means the guidelines posted at 
+http://www.avid.com/static/resources/common/documents/Trademark_Usage_Guidelines.pdf, as that 
+document may be updated by Avid from time to time, or by contacting Avid using the notice address 
+provided in Section 11.1.  The Avid Trademark Usage Guidelines as they are updated by Avid from 
+time to time are an integral part of this Agreement. The Avid Trademark Usage Guidelines in effect at 
+the Effective Date of this Agreement incorporated in Schedule C under the heading Avid Trademark 
+Usage Guidelines. 
+ 
+1.14. “End User” means any person or entity which uses the Licensed Technology for its own 
+personal or commercial use, whether alone or in combination with any other product, and not for 
+resale. 
+ 
+1.15. “Intellectual Property Rights” means all proprietary rights, including, but not limited to, patents, 
+copyrights, trademarks, trade secrets, know how, computer software source and object code, and 
+technical documentation, and all exclusive rights thereunder. 
+ 
+1.16. “Internal Development” or “Internally Develop” by an entity means development by one or more 
+employees of the entity within the scope of his or her employment, wherein each employee has a written 
+employment agreement with the entity under which the employee assigns all right, title and interest in 
+all Intellectual Property Rights in such development to the entity, and under which any Intellectual 
+Property  Rights  created  during  such  development  are  owned  by  the  entity,  and  under  which  the 
+employee has an obligation not to disclose confidential information either of the entity or of third parties 
+in the possession of the entity that have been disclosed to the employee. “Internal Development” or 
+“Internally Develop” by an entity also means development by one or more independent contractors 
+within the scope of a written contract between the independent contractor and the entity under which 
+the independent contractor assigns all right, title, and interest in all Intellectual Property Rights in such 
+development  to  the  entity,  and  under  which  any  Intellectual  Property  Rights  created  during  such 
+development are owned by the entity, and under which the independent contractor has an obligation not 
+to disclose confidential information either of the entity or of third parties in the possession of the entity 
+that have been disclosed to the independent contractor. 
+ 
+1.17. “Internal Use” or “Internally Use” means processing data at Licensee’s secure facilities where 
+Licensee has taken reasonable steps necessary to protect security and confidentiality of proprietary 
+information. Use by Licensee of cloud computing facilities hosted by Licensee at Licensee's secure 
+facilities where Licensee has taken reasonable steps necessary to protect security and confidentiality 
+of proprietary information is considered Internal Use. Use by Licensee of cloud computing facilities 
+hosted  by  an  independent  service  provider,  at  the  independent  provider's  secure  facilities  where 
+Licensee has bound the independent provider to take all reasonable steps necessary to protect security 
+and confidentiality of proprietary information of Licensee, including Avid Confidential Information, is also 
+considered Internal Use. 
+ DocuSign Envelope ID: 1A531662-5531-4BBF-8D31-F8C94B3D7158
+ 
+Avid DNxHD Unified License Agreement  
+Page 3 of 13 
+1.18. “Licensed Avid DNxHD Technology” means an encoder, decoder or codec that generates and/or 
+decodes Avid DNxHD Compliant Video Bitstreams or Avid DNxHD Compliant Media Files, subject to a 
+grant under Section 2, hereof. 
+ 
+1.19. “Licensed Technology” means any encoder, decoder, or codec developed using or incorporating 
+Licensed Avid DNxHD Technology or Licensed VC-3 Technology, subject to a grant under Section 2, 
+hereof. 
+ 
+1.20. “Licensed  VC-3  Technology”  means  an  encoder,  decoder  or  codec  that  generates  and/or 
+decodes VC-3 Compliant Video Bitstreams or VC-3 Compliant Media Files, subject to a grant under 
+Section 2, hereof. 
+ 
+1.21.  “Licensee Product” means a product which is manufactured by or on behalf of the Licensee, 
+and which is marketed by or on behalf of the Licensee under Licensee’s brands, and which incorporates 
+either Licensed Avid DNxHD Technology or Licensed VC-3 Technology. 
+ 
+1.22. “Modification” means any addition, deletion, restructuring, or other alteration either to the Avid 
+Codec Source Code or the Avid Binary Codec; or to the contents of a file containing the Avid Codec 
+Source Code or the Avid Binary Codec, and/or other Modifications; or any new file that contains any part 
+of the Avid Codec Source Code or the Avid Binary Codec, and/or other Modification. 
+ 
+1.23. “Necessary Claims” means any and all claim(s), but only such claim(s), of a patent or patent 
+application  that  (a)  are  owned,  controlled,  or  sublicensable  (without  payment  of  royalties  to  an 
+unaffiliated third party) now or at any future time; and (b) are necessarily infringed in connection with the 
+use,  implementation,  or  incorporation  of the  Licensed Technology  as, or  in,  a  product  or  service.  
+Notwithstanding the foregoing sentence, Necessary Claims do not include any claims: (i) to enabling 
+technologies that may be necessary to make or use any product or portion thereof that includes the 
+Licensed Technology (e.g., enabling semiconductor manufacturing technology, compiler technology, 
+object oriented technology, operating system technology, protocols, programming interfaces, etc.); or (ii) 
+covering the implementation of other specifications, technical documentation or technology merely 
+referred to in the Licensed Technology. 
+ 
+1.24. “Parties” shall mean Avid and Licensee.  “Party” shall mean either Avid or Licensee. 
+ 
+1.25. “Sold” or “Sale” means any license, copying, reproduction, transmission, or other distribution, 
+including without limitation rental or lease.  In the case of product provided on a limited-time trial basis 
+not to exceed thirty (30) days after which any Licensed Technology in the product is deactivated, such 
+product shall only be considered to be “Sold” or to have undergone a “Sale” when such deactivation 
+does not occur by the conclusion of the limited-time trial, e.g., when payment is made for the product 
+provided or when use of any Licensed Technology otherwise continues. 
+ 
+1.26. “Subscription” means a Licensee Product that is licensed to End Users on a month to month 
+basis. 
+ 
+1.27. “VC-3 Compliant Video Bitstream” means a bitstream that is consistent, in all conventions, 
+logical form, data constructs and signal performance, with SMPTE standard ST-2019 and any SMPTE 
+standard resulting therefrom. 
+ 
+1.28. “VC-3 Patent Licensee” means an entity, other than the Licensee, that has executed, whether 
+previously or in the future, a license agreement with Avid (or an otherwise authorized licensor) with 
+respect to Avid’s Applicable Patent Rights, which license agreement includes terms equivalent to 
+those of this Agreement when Section 2.4 has been selected. 
+ DocuSign Envelope ID: 1A531662-5531-4BBF-8D31-F8C94B3D7158
+ 
+Avid DNxHD Unified License Agreement  
+Page 4 of 13 
+ 
+2. LICENSE GRANTS AND OWNERSHIP 
+Subject to the terms and conditions of this Agreement, Avid hereby grants to Licensee and its 
+Affiliates, and Licensee and its Affiliates hereby accept, the license specified in each sub-section of 
+this Section 2 selected on the Summary & Signature pages hereof, for the purpose and with rights 
+to sub-license as specified in Section 3, for the term set forth in Section 10 and subject to compliance 
+with the confidentiality obligations of Section 9. Plural sub-sections of this Section 2 may be selected. 
+Each license grant shall be subject to payment by Licensee of any royalty due under Section 4.11, 
+and shall, subject to the provisions of Section 10.2.2 including the running of the period for remedy, 
+be automatically terminated upon breach of the terms of Section 4.11 with an effective termination 
+date of the due date of such royalty payment before application of the provisions of Section 10.2.2. 
+Under this Agreement, Affiliates have all of the same rights and obligations as the Party controlling 
+the Affiliate. All acts or omissions by an Affiliate relating to this Agreement shall be imputed to the 
+controlling Party, including but not limited to acts or omissions which if committed by the controlling 
+Party would constitute either royalty-bearing events, events triggering some other obligation, or 
+breach of this Agreement. 
+ 
+2.1. Avid Binary Codec License. 
+If  selected  on  the  Summary  &  Signature  pages  hereof,  this  grant  includes  a  limited,  non-
+exclusive,  non-transferable,  non-assignable,  revocable  and  personal  license,  except  as 
+otherwise provided herein, under Avid’s copyrights in the Avid Binary Codec. Licensee shall 
+make no Modifications to the Avid Binary Codec nor remove any copyright notice from the Avid 
+Binary Codec. 
+ 
+2.2. Avid Source Code License. 
+If  selected  on  the  Summary  &  Signature  pages  hereof,  this  grant  includes  a  limited,  non-
+exclusive,  non-transferable,  non-assignable,  revocable  and  personal  license,  except  as 
+otherwise provided herein, under Avid’s copyrights in the Avid Source Code. Licensee shall make 
+no Modifications to the Avid Source Code nor remove any copyright notice from the Avid Source 
+Code and any binary or object code produced therefrom. 
+ 
+2.3. Avid Confidential Information License. 
+If  selected  on  the  Summary  &  Signature  pages  hereof,  this  grant  includes  a  limited,  non-
+exclusive,  non-transferable,  non-assignable,  revocable  and  personal  license,  except  as 
+otherwise provided herein, under Avid’s trade secret rights and copyrights in the Avid Confidential 
+Information.  Licensee  shall  not  modify  the  Avid  Confidential  Information  nor  remove  any 
+copyright  notice  from  the Avid  Confidential  Information. This  license  shall  be  automatically 
+terminated upon breach of the terms of Section 9. 
+ 
+2.4. Avid Applicable Patent Rights License. 
+If  selected  on  the  Summary  &  Signature  pages  hereof,  this  grant  includes  a  limited,  non-
+exclusive,  non-transferable,  non-assignable,  revocable  and  personal  license,  except  as 
+otherwise provided herein, under Avid’s Applicable Patent Rights. 
+ 
+2.5. Trademark License Grant. 
+ 
+2.5.1. Avid DNxHD Trademark License.  If selected on the Summary & Signature pages hereof, this 
+grant  includes  a  limited,  non-exclusive,  non-transferable,  non-assignable,  revocable  and  personal 
+license, except as otherwise provided herein, under the Avid DNxHD Trademarks solely on, and in 
+connection with the sale, marketing, promotion, advertising, distribution and packaging of, Licensee 
+Products that process Avid Compliant Media Files.  Whether a Licensee Product processes Avid DNxHD 
+Compliant Media Files and/or Avid DNxHD Compliant Bitstreams will be determined by Avid in its sole 
+discretion. This license is conditioned upon Licensee’s use of the Avid DNxHD Trademarks in strict DocuSign Envelope ID: 1A531662-5531-4BBF-8D31-F8C94B3D7158
+ 
+Avid DNxHD Unified License Agreement  
+Page 5 of 13 
+compliance  with  the  Avid  DNxHD  Trademark  Usage  Guidelines  and  the  Avid  Trademark  Usage 
+Guidelines, both as set forth in Schedule C. 
+ 
+2.5.2. Quality Control.  Upon reasonable request from and at no cost to Avid, Licensee shall provide 
+samples of products, packaging, labeling, advertising and marketing materials relating to Licensee 
+Products.  Avid has the right to inspect, review, test and analyze such samples to i. ensure that Licensee 
+Products process Avid Compliant Media Files, and/or ii. ensure that packaging, advertisements and 
+marketing are consistent with the permitted usage of the Avid DNxHD Trademarks under applicable law, 
+and/or iii. determine compliance with the terms and conditions of this license, including but not limited 
+to compliance with the Avid DNxHD Trademark Usage Guidelines.  Licensee shall make modifications 
+to future products and future packaging, labeling, advertising and marketing materials as may be 
+requested by Avid after such review.  The license of  Section 2.5.1 is expressly conditioned upon 
+compliance with this Section 2.5.2. 
+ 
+2.5.3. Protecting the Avid DNxHD Trademarks.  Licensee may not take any action that would impair or 
+harm the Avid DNxHD Trademarks or the good will associated with the Avid DNxHD Trademarks, 
+including but not limited to filing any application to register the Avid DNxHD Trademarks or any similar 
+mark anywhere in the world.  Licensee shall cooperate with Avid and shall execute any documents 
+reasonably required by Avid or supply Avid with any samples or other materials reasonably necessary 
+to maintain the Avid DNxHD Trademarks.  Licensee shall not use any other Avid trademark, trade name 
+or logo without the express prior written consent of Avid.  Licensee shall not use the Avid  DNxHD 
+Trademarks in any manner that could be perceived as an endorsement or sponsorship by Avid of 
+Licensee, or otherwise state or imply that Avid has tested or endorses the Licensee Product.  The license 
+of Section 2.5.1 is expressly conditioned upon compliance with this Section 2.5.3. 
+ 
+2.5.4. Required Use.  If either Section 2.1 and/or 2.2 and either Section 3.2 and/or 3.4 have been 
+selected on the Summary & Signature pages hereof, Licensee must use the authorized developer 
+design Avid DNxHD Trademark shown in Schedule C on, in connection with the sale of, or in advertising 
+for, Licensee Product produced under those license grants. For example, Licensee may comply with 
+this Section 2.5.4 by using the Avid DNxHD Trademark on a web page describing Licensee Product. 
+ 
+3. LICENSE SCOPE. 
+Subject to the terms and conditions of this Agreement, the scope of each license granted in Section 
+2 shall be limited by the sub-sections of this Section 3 selected on the Summary & Signature pages 
+hereof. Plural sub-sections of this Section 3 may be selected. 
+ 
+3.1. Developer (Internal Use). 
+If selected on the Summary & Signature pages hereof, Licensee is permitted to use the rights 
+granted solely to Internally Develop a system for Internal Use by Licensee and to Internally Use 
+such system. Such Internal Use may include the production, editing, and archiving of Licensee’s 
+own video data for any internal or external, commercial or non-commercial, purpose. Under this 
+Section 3.1, Licensee shall have no right to provide to others access to the Internally Developed 
+system by cloud services or software-as-a-service arrangements, for production, editing, or 
+archiving services, except as otherwise provided elsewhere herein. Licensee shall have no right 
+to sublicense any rights granted solely for this scope of use defined in this Section 3.1. 
+ 
+3.2. Developer (End Use Products). 
+If selected on the Summary & Signature pages hereof, Licensee is permitted to use the rights 
+granted solely to Internally Develop Licensee Products to sell, offer to sell, import and otherwise 
+distribute, directly and indirectly through resellers and distributors to End Users, provided that 
+Licensee  distributes  the  Licensee  Products  subject to  an  end  user  license  agreement  that 
+protects Avid’s interests consistent with the terms contained in this agreement. A suitable end 
+user license agreement shall also provide that an End User shall have no right to provide to DocuSign Envelope ID: 1A531662-5531-4BBF-8D31-F8C94B3D7158
+ 
+Avid DNxHD Unified License Agreement  
+Page 6 of 13 
+others access to the Internally Developed system by cloud services or software-as-a-service 
+arrangements,  for  production,  editing,  or  archiving  services,  except  as  otherwise  provided 
+elsewhere herein. Licensee shall have no right to sublicense any rights granted solely for this 
+scope of use defined in this Section 3.2, except that Licensee may sublicense to an End User 
+only those rights necessary for the End User to use a Licensee Product. 
+ 
+3.3. Service Provider (Shared Technology and Services). 
+If selected on the Summary & Signature pages hereof, Licensee is permitted to use the rights 
+granted solely to provide shared services to others, including but not limited to cloud services 
+and software-as-a-service, enabling production, editing, or archiving by the others, and that are 
+marketed by such third party service providers under the third party service provider’s brands. 
+ 
+3.4. Developer (Software or Hardware OEM). 
+If selected on the Summary & Signature pages hereof, Licensee is permitted to use the rights 
+granted solely to Internally Develop Licensee Products to sell, offer to sell, import and otherwise 
+directly distribute Licensee Products to third party manufacturers solely for such third party 
+manufacturer to Internally Develop products that incorporate Licensee Products, and that are 
+marketed by such third party manufacturer under the third party manufacturer’s brands, provided 
+that (i) Licensee distributes the Licensee Products subject to a license agreement that protects 
+Avid’s interests consistent with the terms contained in this agreement; (ii) Licensee informs Avid 
+of the identity of each such manufacturer in accordance with the reporting requirements therefor 
+of Schedule A; and (iii) Licensee includes the following notice in its license agreement with such 
+manufacturer: 
+ 
+THIS PRODUCT DOES NOT INCLUDE ANY LICENSE UNDER PATENTS FROM AVID 
+TECHNOLOGY,  INC. TO  USE,  SELL,  OFFER  TO  SELL  OR  IMPORT  PRODUCTS 
+COMPLIANT WITH THE SMPTE VC-3 STANDARD.  YOU MAY NEED A LICENSE 
+FROM AVID TECHNOLOGY BEFORE ENGAGING IN ANY OF THOSE ACTIVITIES 
+USING THE PRODUCT TO WHICH THIS AGREEMENT PERTAINS. Please contact Avid 
+Technology at PartnerPrograms@avid.com for more information. 
+ 
+Under this Section 3.4, Avid expressly reserves its rights under any patent license granted under 
+Section 2.4, to use, sell, offer to sell or import products into which a third party manufacturer 
+incorporates Licensee Products. 
+ 
+3.5. Developer (Shared Technology and Services). 
+If selected on the Summary & Signature pages hereof, Licensee is permitted to use the rights 
+granted solely to Internally Develop Licensee Products to sell, offer to sell, import and otherwise 
+directly distribute Licensee Products to third party service providers solely to enable such third 
+party service providers to provide shared services to others, including but not limited to cloud 
+services and software-as-a-service, enabling production, editing, or archiving by the others, and 
+that are marketed by such third party service providers under the third party service provider’s 
+brands,  provided  that  (i)  Licensee  distributes  the  Licensee  Products  subject  to  a  license 
+agreement that protects Avid’s interests consistent with the terms contained in this agreement; 
+(ii) Licensee informs Avid of the identity of each such manufacturer in accordance with the 
+reporting requirements therefor of Schedule A; and (iii) Licensee includes the following notice in 
+its license agreement with such manufacturer: 
+ 
+THIS PRODUCT DOES NOT INCLUDE ANY LICENSE UNDER PATENTS FROM AVID 
+TECHNOLOGY,  INC. TO  USE,  SELL,  OFFER  TO  SELL  OR  IMPORT  PRODUCTS 
+COMPLIANT WITH THE SMPTE VC-3 STANDARD.  YOU MAY NEED A LICENSE 
+FROM AVID TECHNOLOGY BEFORE ENGAGING IN ANY OF THOSE ACTIVITIES 
+USING THE PRODUCT TO WHICH THIS AGREEMENT PERTAINS. Please contact Avid 
+Technology at PartnerPrograms@avid.com for more information. DocuSign Envelope ID: 1A531662-5531-4BBF-8D31-F8C94B3D7158
+ 
+Avid DNxHD Unified License Agreement  
+Page 7 of 13 
+ 
+Under this Section 3.5, Avid expressly reserves its rights under any patent license granted under 
+Section 2.4, to use, sell, offer to sell or import products into which a third party manufacturer 
+incorporates Licensee Products. 
+ 
+4. OTHER LIMITATIONS ON LICENSE GRANT 
+ 
+4.1. Have Made Rights Limitations.  Before the Licensee may exercise its rights to have Licensee 
+Products made by a third party manufacturer, Licensee shall obtain consent from Avid to enter into any 
+contract with such third party manufacturer, which consent shall not be unreasonably withheld.  In no 
+event may the third party manufacturer fund or participate in the Internal Development by Licensee of 
+Licensee Products.  The licenses under any subsection of Section 2 are expressly conditioned upon 
+compliance with this Section 4.1. 
+ 
+4.2. Use of Independent Contractors. If an Internal Development or an Internal Use is made under 
+this agreement using an independent contractor or service provider, Licensee shall bind the independent 
+contractor or service provider under a contract requiring the independent contractor or service provider 
+to safeguard all of Avid's interests protected under this Agreement between Avid and Licensee as though 
+the independent contractor were also bound hereunder. A violation of any term of this Agreement by 
+Licensee's independent contractor or service provider shall be a breach of that term of this Agreement 
+by Licensee. Licensee shall identify the independent contractor or service provider to Avid by name, and 
+also by the address of the independent contractor’s or service provider’s secure facility at which work is 
+to be performed, and the scope of work to be performed. 
+ 
+4.3. Legal Notice.  Licensee shall provide notice in connection with each Licensee Product that it is 
+licensed under Section 2.4, by providing the following notice: 
+ 
+This product may be protected by one or more U.S. and non-U.S. patents. 
+Details are available at:  www.avid.com/DNxHD-patents. 
+ 
+The licenses under Section 2.4 are expressly conditioned upon compliance with this Section 4.3. 
+ 
+4.4. Copyright Notice.  Licensee shall include a copyright notice on each Licensee Product or in 
+connection with each service provided that is licensed under Sections 2.1 and 2.2. The notice shall be 
+provided for software products or services together with any textual material displayed during each 
+startup of the software product or service, or if no such textual material is displayed, then in a dialog box 
+invoked to display information about the software product or service, or if no such dialog box is displayed 
+by the software product or service, then in the product or service documentation. The notice shall be 
+provided for hardware products in the product documentation. The notice shall have the form, “Portions 
+of [Licensee Product] Copyright [insert years provided with release package], Avid Technology, Inc.” The 
+years to be supplied in this notice shall be copied from the copyright notice attached to the software 
+supplied by Avid to Licensee and used by Licensee under Sections 2.1 and 2.2. The licenses under 
+Sections 2.1 and 2.2 are expressly conditioned upon compliance with this Section 4.4. 
+ 
+4.5. Excluded Licenses.  As a condition to the licenses of Sections 2.1 and 2.2, Licensee shall not 
+combine the Avid Binary Codec or the Avid Source Code with other software in a manner that would 
+subject the Avid Binary Codec or the Avid Source Code to a requirement, as a condition of use, 
+modification or distribution, that (i) the Avid Binary Codec or the Avid Source Code be disclosed or 
+distributed in source code form to anyone other than Licensee; (ii) the Avid Binary Codec or the Avid 
+Source Code be distributed free of charge; or (iii) others are granted the right to modify the Avid Binary 
+Codec or the Avid Source Code. 
+ DocuSign Envelope ID: 1A531662-5531-4BBF-8D31-F8C94B3D7158
+ 
+Avid DNxHD Unified License Agreement  
+Page 8 of 13 
+4.6. Geographic scope.  The geographic scope of any license granted under this Agreement shall be 
+worldwide. 
+ 
+4.7. Ownership.   Avid  owns  all  right,  title,  and  interest  in  and  to  the Avid  Binary  Codec, Avid 
+Confidential Information, and all Intellectual Property Rights embodied therein. Nothing herein shall 
+cause Licensee to acquire any ownership rights in the Avid Binary Code, Avid Confidential Information, 
+any Avid patent, or any other Intellectual Property Rights embodied therein. Licensee agrees that Avid 
+owns all right, title, and interest in and to the Avid DNxHD Trademarks. All use of the Avid DNxHD 
+Trademarks by Licensee shall inure exclusively to the benefit of Avid, including all goodwill associated 
+with the Avid DNxHD Trademarks. 
+ 
+4.8. No Other Rights.   Except for the rights expressly provided by this Agreement, no license and no 
+other right is granted, by implication, estoppel or otherwise, in any other Intellectual Property Rights of 
+Avid.  This license specifically does not include any right to any other trademark or patent owned by or 
+licensed to Avid not specifically referred to herein in an applicable license grant clause. 
+ 
+4.9. Compliance With Standards. Licensee understands that Avid DNxHD Compliant Media Files, 
+Avid DNxHD Compliant Video Bitstreams, VC-3 Compliant Media Files, and VC-3 Compliant Video 
+Bitstreams may require files and/or bitstreams to be created in a format that is compliant with one or 
+more standards which may require one or more additional licenses from third parties. Licensee is solely 
+responsible for obtaining and complying with any such licenses. 
+ 
+4.10. Acknowledgement  Regarding Avid  DNxHD  Interoperability.  Licensee  understands  that Avid 
+Compliant Media Files include, but are not limited to, files in the two different MXF file formats and the 
+QuickTime format.  Therefore, third party products that process Avid Compliant Media Files may not be 
+interoperable with the Licensee Product if the Licensee Product uses a different file format than such 
+third party product.  Licensee is encouraged to provide, in its marketing, advertisements and other 
+materials about Licensee Product, information about the file format used by the Licensee Product. 
+ 
+4.11. Compensation. Licensee shall compensate Avid for the use of the Licensed Technology as 
+permitted by Section 2 in accordance with the terms and conditions of Schedule A, including but not 
+limited to payment terms and reporting terms. The licenses under Section 2 are expressly conditioned 
+upon compliance with this Section 4.11 and Schedule A, subject to the provisions of Section 10.2.2 
+including the running of the period for remedy. 
+ 
+4.12. Avid’s Use of Licensee Name. Avid shall have the right to use the name, logo and address of 
+Licensee,  and/or  other  trademarks  associated  with  Licensee  Products,  without  further  notice  to 
+Licensee, solely to identify Licensee as a provider of products that implement Avid DNxHD technology. 
+This Section 4.12 shall not apply to Licensees licensed solely under the scope of Section 3.1. 
+ 
+5. PROTECTION OF LICENSEES 
+As partial, material consideration for the rights granted to Licensee under this Agreement: 
+ 
+5.1. Licensee and its Affiliates hereby grant to Avid and its Affiliates, and to all other current and future 
+VC-3 Patent Licensees, a nonexclusive, nontransferable, non-sublicensable, non-assignable, personal, 
+worldwide license under its and its Affiliates Necessary Claims to make, have made, use, import, offer 
+to sell, sell and otherwise distribute directly or indirectly implementations of the Licensed Technology in 
+any of their respective products or services; and 
+ 
+5.2. Licensee  agrees  that  any  transfer  or  assignment  of  a  patent  or  patent  application  having 
+Licensee’s or its Affiliates’’ Necessary Claims to a third party or an Affiliate shall be subject to this 
+Agreement and shall not affect the licenses granted herein.  Any purported assignment or transfer of 
+rights in derogation of the foregoing requirement shall be null and void. DocuSign Envelope ID: 1A531662-5531-4BBF-8D31-F8C94B3D7158
+ 
+Avid DNxHD Unified License Agreement  
+Page 9 of 13 
+ 
+6. NO ASSISTANCE FROM AVID 
+ 
+Nothing in this Agreement shall be construed as an obligation of Avid to assist Licensee in using the 
+Licensed Technology.   
+ 
+7. REPRESENTATIONS AND DISCLAIMERS 
+ 
+7.1. DISCLAIMER.  EXCEPT AS OTHERWISE EXPRESSLY STATED IN THIS AGREEMENT, AVID 
+HEREBY DISCLAIMS ALL WARRANTIES, WHETHER IMPLIED OR STATUTORY, AND MAKES NO 
+REPRESENTATIONS  WITH  RESPECT  TO  THE  BINARY  CODEC,  AVID  CONFIDENTIAL 
+INFORMATION  OR  LICENSED  TECHNOLOGY  OR  AVID’S  APPLICABLE  PATENT  RIGHTS, 
+INCLUDING  BUT  NOT  LIMITED  TO  ANY  IMPLIED  WARRANTIES  OR  CONDITIONS  OF 
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT OF THIRD 
+PARTY  RIGHTS,  TITLE,  QUIET  ENJOYMENT,  QUIET  POSSESSION,  QUALITY,  LACK  OF 
+NEGLIGENCE, LACK  OF WORKMANLIKE PERFORMANCE, ACCURACY OR COMPLETENESS.  
+THE ENTIRE RISK AS TO THE USE, QUALITY AND PERFORMANCE OF THE BINARY CODEC 
+AND/OR  AVID  CONFIDENTIAL  INFORMATION  AND/OR  LICENSED  TECHNOLOGY  IS  WITH 
+LICENSEE. 
+ 
+7.2. No Intellectual Property Warranty.  Nothing in this Agreement shall be construed as: 
+ 
+7.2.1. a warranty or representation by Avid as to the validity, scope or enforceability of any of Avid’s 
+Applicable Patent Rights; 
+ 
+7.2.2. a warranty or representation by Avid that anything made, used or sold or otherwise disposed of 
+under any license granted in this Agreement is or will be free of infringement of any Intellectual Property 
+Right of third parties; 
+ 
+7.2.3. a requirement that Avid shall file any patent application, secure any patent, pursue any pending 
+patent application, confer with Licensee regarding any patent or pending patent application, or maintain 
+any patent in force; or 
+ 
+7.2.4. an obligation of Avid to bring or prosecute any action or suit against a third party for infringement 
+of any of Avid’s Applicable Patent Rights. 
+ 
+8. LIMITATION OF LIABILITY AND INDEMNIFICATION 
+ 
+8.1. LIMITATION OF LIABILITY.  IN NO EVENT SHALL AVID BE LIABLE TO ANY PERSON FOR 
+ANY  DIRECT,  INDIRECT,  SPECIAL,  GENERAL,  ECONOMIC,  INCIDENTAL,  PUNITIVE,  OR 
+CONSEQUENTIAL DAMAGES (INCLUDING BUT NOT LIMITED TO DAMAGES FOR LOST PROFITS, 
+LOSS OF GOODWILL, OR BUSINESS INTERRUPTION), OR FOR ANY DAMAGES RESULTING 
+FROM LOSS OF USE, LOSS OF DATA OR LOSS OF ANTICIPATED PROFITS, IN ANY WAY RELATED 
+TO  USE OF  OR INABILITY TO  USE THE  BINARY  CODEC  OR  LICENSED TECHNOLOGY, OR 
+OTHERWISE IN CONNECTION WITH ANY PROVISION OF THIS AGREEMENT, EVEN IF AVID HAS 
+BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.  THIS LIMITATION OF LIABILITY SHALL 
+NOT APPLY TO LIABILITY FOR DEATH OR PERSONAL INJURY RESULTING FROM NEGLIGENCE 
+SOLELY TO THE EXTENT APPLICABLE LAW PROHIBITS SUCH LIMITATION. 
+ 
+8.2. Indemnification.  Licensee agrees to indemnify and defend Avid, its Affiliates and related parties, 
+from and against any claims, damages, losses, costs, expenses or lawsuits (including reasonable 
+attorneys’ fees) of any third party: 
+ DocuSign Envelope ID: 1A531662-5531-4BBF-8D31-F8C94B3D7158
+ 
+Avid DNxHD Unified License Agreement  
+Page 10 of 13 
+8.2.1. that arise out of, or result from, or relate to this Agreement, actions of Licensee's independent 
+contractor or service provider in connection with Internal Development or Internal Use, or a Licensee 
+Product; and 
+ 
+8.2.2. which are not attributable solely to Avid’s activities, and would therefore be capable of assertion 
+against Avid even absent Licensee’s activities. 
+ 
+9. CONFIDENTIAL INFORMATION 
+ 
+9.1. Limited Use and Nondisclosure of Avid Confidential Information. The Avid Confidential 
+Information shall be used by Licensee solely for the purposes permitted under this Agreement.  
+Licensee agrees that it will not disclose or permit use of any part of the Avid Confidential Information to 
+or by any third party, other than (a) its employees who are both directly participating in work under this 
+Agreement and contractually bound to protect the confidentiality of the Avid Confidential Information, 
+or (b) its accountants or lawyers.  Licensee will use the same measures that it uses to protect its own 
+confidential information, and no less than reasonable measures, to prevent any disclosure or misuse 
+of any part of the Avid Confidential Information.  Except as expressly permitted otherwise in this 
+Agreement, Licensee shall not reverse engineer, decompile, analyze, copy, modify, transcribe, lease 
+or otherwise transfer or distribute any part of the Avid Confidential Information, or use any part of the 
+Avid Confidential Information to design, develop, improve or enhance any product.  This Section 9.1 
+shall not be construed as granting any rights in the Avid Confidential Information except those 
+expressly stated in Section 2. 
+ 
+9.2. Irreparable Harm.  Licensee acknowledges and agrees that the restrictions contained in 
+Section 9 are necessary for the protection of Avid Confidential Information, and considers them to be 
+reasonable for such purpose.  Licensee agrees that any breach of these restrictions may cause Avid 
+substantial and irreparable damage and therefore, in the event of any such breach, Licensee agrees 
+that Avid shall be entitled to specific performance and other injunctive relief, in addition to such other 
+remedies as may be afforded by applicable law, without posting a bond. 
+ 
+10. TERM AND TERMINATION 
+ 
+10.1. Term.  This Agreement has an initial term of three (3) years from the Effective Date, unless 
+terminated  earlier  under  one  of  Sections  10.2  or  10.3.   This Agreement  will  automatically  renew 
+thereafter for additional one (1) year terms upon notice of renewal by Avid to the Licensee, unless 
+renewal is declined by Licensee within thirty (30) days of the notice of renewal, or unless terminated 
+earlier under one of Sections 10.2 or 10.3.  Renewal may be conditioned upon compliance with any 
+reasonable amendments or changes to the terms and conditions of this Agreement as set forth in such 
+notice. 
+ 
+10.2. Termination for Cause.  This Agreement shall terminate: 
+ 
+10.2.1. immediately, if Licensee is in breach of its confidentiality obligations under Section 9; or 
+ 
+10.2.2. if Licensee is in material breach of any of its other obligations of this Agreement and fails to 
+remedy such breach within thirty (30) days after receipt of notice of such breach from Avid. 
+ 
+10.3. Change of Control or Insolvency.  Licensee shall notify Avid of any change in membership, 
+change in ownership, or other change of control of Licensee.  In the event of such a change which, in 
+Avid’s sole, reasonable judgment, substantially affects control of Licensee, Avid may terminate this 
+Agreement, effective thirty (30) days after written notice of the Licensee. Avid also may terminate this 
+Agreement, immediately and without notice, if Licensee should (1) admit in writing its inability to pay its 
+debts generally as they become due; (2) make a general assignment for the benefit of creditors; (3) DocuSign Envelope ID: 1A531662-5531-4BBF-8D31-F8C94B3D7158
+ 
+Avid DNxHD Unified License Agreement  
+Page 11 of 13 
+institute proceedings to be adjudicated a voluntary bankrupt, or consent to the filing of a petition of 
+bankruptcy against it; (4) be adjudicated by a court of competent jurisdiction as being bankrupt or 
+insolvent; (5) seek reorganization under any bankruptcy act, or consent to the filing of a petition seeking 
+such  reorganization;  or  (6)  have  a  decree  entered  against  it  by  a  court  of  competent  jurisdiction 
+appointing a receiver, liquidator, trustee or assignee in bankruptcy or in insolvency covering all or 
+substantially all of Licensee’s property for the liquidation of such Licensee’s property or business affairs. 
+ 
+10.4. Survival and Effect of Termination.  Sections 1, 4.5, 4.7, 4.8, 4.11, 4.12, 5, 6, 7, 8, 10.4, 10.5, 
+10.6, and 11 and Schedule A expressly survive termination of this Agreement.  Upon termination of this 
+Agreement or expiration of the sixty day period in this Section 10.4, Licensee must otherwise destroy 
+all full or partial copies of the Binary Codec and all other Avid Confidential Information. 
+ 
+10.5. No Liability for Termination.  Neither Party is liable to the other for damages of any sort resulting 
+solely from terminating this Agreement in accordance with its terms. 
+ 
+10.6. End Users.  Termination of this Agreement will not terminate or affect any sublicenses granted 
+to End Users in accordance with this Agreement. 
+ 
+11. MISCELLANEOUS 
+ 
+11.1. Notice.   All notices under the terms of this Agreement shall be addressed to: 
+ 
+If sent to Avid: 
+ 
+Avid Technology, Inc. 
+75 Network Drive 
+Burlington, MA 01803 
+Attention: VP General Counsel & Corporate Secretary   
+Tel: (978) 640-6789 
+Fax: (978) 548-4639 
+ 
+With a copy sent to the Executive Vice President CFO & CAO at the same address, which copy 
+alone shall not constitute effective notice, or to such other address as Avid shall designate from 
+time to time. 
+ 
+If sent to Licensee: 
+ 
+Attention: Legal Department 
+Epic Games, Inc. 
+620 Crossroads Blvd. 
+Cary, NC 27518 
+legal@epicgames.com 
+ 
+or to such other address as Licensee may designate from time to time. 
+ 
+11.2. Export Regulations.  Licensee agrees that the Binary Codec will not be downloaded, 
+transferred or otherwise exported or re-exported, directly or indirectly, into any country prohibited by 
+the United States Export Administration Act (the “Act”) and the regulations thereunder, or into any 
+country to which the United States embargoes goods, or will be distributed to any persons on the 
+Table of Denial Orders, the Entity List or the List of Specially Designated Nationals, or will be used for 
+any purposes prohibited by the Act.  Licensee agrees to the foregoing and represents and warrants DocuSign Envelope ID: 1A531662-5531-4BBF-8D31-F8C94B3D7158
+ 
+Avid DNxHD Unified License Agreement  
+Page 12 of 13 
+that (a) no agency of the Government has suspended, revoked or denied Licensee export privileges; 
+(b) Licensee is not located in or under the control of a national or resident of any such country or on 
+any such list; and (c) Licensee will not export or re-export the Binary Codec to any prohibited country, 
+or to any prohibited person, entity or end-user as specified by the Act and the regulations thereunder. 
+ 
+11.3. Choice of Law, Jurisdiction and Venue.  This Agreement shall be governed by the laws in force 
+in the United States and the Commonwealth of Massachusetts excluding its conflicts of law rules, 
+except that questions affecting the infringement or validity of any patent right shall be determined by 
+the law of the country in which the patent right has been granted.  For disputes arising under this 
+Agreement, Licensee and Avid hereby consent to the exclusive jurisdiction of and venue in the state 
+and US Federal courts sitting in the Commonwealth of Massachusetts, except with respect to the 
+validity and/or infringement of patents granted in countries outside the United States. 
+ 
+11.4. Choice of Language.  If Licensee is located in Québec, Canada, the following sentence 
+applies: Les Parties aux présentes confirment que chacune d’elles a exigé que cette convention et 
+tous les documents s’y rattachant soient rédigés en anglais. (Translation: The Parties hereto confirm 
+that they have each insisted that this Agreement and any related documents be drawn up in the 
+English language.) 
+ 
+11.5. No Partnership or Joint Venture.  This Agreement shall not create a principal-agent relationship 
+between Avid and Licensee, nor shall anything herein be construed to cause the Parties to be acting as 
+partners or as a joint venture.  Neither Party shall have any power or authority to obligate or bind the 
+other Party in any manner and neither Party shall make any representation or warranty on behalf of the 
+other Party. 
+ 
+11.6. Force Majeure. Neither Party shall be liable for any delay or failure in the performance of any 
+obligation under this Agreement, except for payment obligations, if such delay or failure is due to causes 
+beyond its reasonable control, such as natural catastrophes, war or civil disturbances, governmental 
+demands, acts or omissions, labor strikes, or transportation stoppages. 
+ 
+11.7. Severability.  If any provision in this Agreement is held to be unenforceable for any reason, then 
+such provisions shall be reformed only to the extent necessary to make it enforceable, and such decision 
+shall not affect the enforceability of such provision under other circumstances or in other jurisdictions 
+and shall not affect the enforceability of any remaining provision of this Agreement; provided, however, 
+that no such reformation shall be effective if it materially changes the economic benefit of this Agreement 
+to, or the proprietary interests of, either Party. 
+ 
+11.8. Captions.  The captions to the Sections of this Agreement are for convenience only, and are 
+not a part of this Agreement, and shall not be deemed to have any effect in construing this Agreement. 
+ 
+11.9. No Waiver.  None of the provisions of this Agreement shall be deemed to have been waived by 
+any act or acquiescence by a Party, its agents or employees, but only by an instrument in writing 
+signed by a duly authorized signatory of the Party. 
+ 
+11.10.  No Assignment.  This Agreement, and the rights and obligations hereunder, may not be 
+assigned or transferred by either Party without consent of the other Party, which consent will not be 
+unreasonably withheld. 
+ 
+11.11.  Representation of Counsel.  Each Party has had the opportunity to be represented by counsel 
+of its choice in negotiating this Agreement.  This Agreement shall therefore be deemed to have been 
+negotiated at arm’s length, with the advice and participation of counsel, and prepared at the joint request, 
+direction and instruction of the Parties, and shall be interpreted in accordance with its terms without 
+favor to any Party. DocuSign Envelope ID: 1A531662-5531-4BBF-8D31-F8C94B3D7158
+ 
+Avid DNxHD Unified License Agreement  
+Page 13 of 13 
+ 
+11.12.  Integration and Modification.  This Agreement, and its Schedules which are incorporated by 
+reference, contains the entire agreement between the Parties pertaining to the subject matter hereof 
+and supersedes all preexisting agreements between the Parties respecting its subject matter.  Any 
+representation, promise, or condition in connection with such subject matter, which is not incorporated 
+in this Agreement, shall not be binding upon either Party. Avid, in its sole discretion, may update the 
+information at a www.avid.com/DNxHD-patents and/or Schedule C by written notice to Licensee, and 
+such updates are effective upon notice. Except for such updates to www.avid.com/DNxHD-patents 
+and/or Schedule C, no modification, renewal or extension of this Agreement or any of its provisions shall 
+be binding upon the Party against whom enforcement of such modification, renewal or extension is 
+sought, unless made in writing and signed on behalf of such Party by a duly authorized signatory. DocuSign Envelope ID: 1A531662-5531-4BBF-8D31-F8C94B3D7158
+ 
+Avid DNxHD Unified License Agreement 
+Schedule A   
+Page 1 of 3 
+Schedule A 
+Compensation 
+ 
+A.1.  Definitions. 
+ 
+A.1.1.  “Applicable Royalty Rate” shall mean a dollar amount set forth in Section A.2 for a type of product, 
+and which is the royalty due for a unit of that type of product.   
+ 
+A.1.2.  “Country of Manufacture” shall mean the country in which a finished product is finally assembled 
+and tested by or for Licensee.  If none of the patents listed at www.avid.com/DNxHD-patents has been 
+granted or is still in force in the Country of Manufacture as determined under the preceding sentence at 
+the time of manufacture of the product, then the Country of Manufacture of Licensee Products shall be 
+deemed to be the principle place of business of the Licensee. 
+ 
+A.1.3.  “Country of Sale” shall mean the country to which the product is shipped by or on behalf of 
+Licensee to its End User.  If none of the patents listed at www.avid.com/DNxHD-patents has been 
+granted or is still in force in the Country of Sale as determined under the preceding sentence at the time 
+of sale of the product, then the Country of Sale shall be deemed to be the country in which the product 
+is used by an End User. 
+ 
+A.1.4.  “Royalty Period” shall mean a six-month period ending on either December 31 or June 30 of 
+each calendar year after the Effective Date of this Agreement, except for the first royalty period which 
+shall be from the Effective Date of this Agreement through December 31 of the same year. 
+ 
+A.2.  Royalty Rates. 
+ 
+A.2.1.  Licensee Product.  For each Licensee Product Sold by Licensee, the Applicable Royalty Rate is 
+determined by assessing: 
+  DocuSign Envelope ID: 1A531662-5531-4BBF-8D31-F8C94B3D7158
+ 
+Avid DNxHD Unified License Agreement 
+Schedule A   
+Page 2 of 3 
+ 
+ Use Scope/ 
+License Grant 
+Avid 
+Binary 
+Codec 
+Avid 
+Source 
+Code 
+Avid Confid. 
+Information 
+TM 
+License 
+Avid Patent Rights Maintenance 
+Developer 
+(Int. Use) 
+Included; 
+TM 
+License 
+fee 
+waived 
+Included Included $10,000 
+per 
+Licensee 
+Product 
+qualified 
+(A) $50,000 initial term, payable in 
+annual installments of $30,000 at 
+the commencement of the first 
+year of the initial term and 
+$10,000 each additional year of 
+the initial term; or, 
+(B) $40,000 initial term, payable in 
+advance, at the commencement 
+of the initial term; 
+ 
+Plus, for option (A) or option (B), 
+$10,000 for each additional one-
+year renewal term, payable at the 
+commencement of each renewal 
+term 
+$1,500 per 
+year 
+Developer 
+(End Use) 
+Included; 
+TM 
+License 
+fee 
+waived 
+$50,000 
+one-time, 
+paid-up 
+license 
+Included $10,000 
+per 
+Licensee 
+Product 
+qualified 
+(C) $10 Decode/$10 Encode per copy 
+of Licensee Product sold; or, 
+(D) For Licensee Products sold to end 
+users on a Subscription basis, 
+$0.85 Decode/$0.85 Encode for 
+each month the Subscription is in 
+effect**; or 
+(E) a yearly, non-refundable, paid-up 
+obligation of $80,000 electable 
+and payable in advance at the 
+commencement of each license 
+term or renewal term in lieu of (C) 
+*** 
+$1,500 per 
+year 
+Service 
+Provider 
+(Shared 
+Technology 
+and Services) 
+Included; 
+TM 
+License 
+fee 
+waived 
+$50,000 
+one-time, 
+paid-up 
+license 
+Included $10,000 
+per 
+Licensee 
+Product 
+qualified 
+$.0045 per minute or portion thereof of video 
+essence encoded or decoded by Licensee’s 
+service. Partial minutes of video essence of 
+thirty seconds or longer shall be rounded up 
+to the next whole minute. Partial minutes of 
+video essence less than thirty seconds in 
+length shall be calculated at .5 of a minute. 
+$1,500 per 
+year 
+Developer 
+(OEM) 
+Included; 
+TM 
+License 
+fee 
+waived 
+$50,000 
+one-time, 
+paid-up 
+license 
+Included $10,000 
+per 
+Licensee 
+Product 
+qualified 
+$0, but reporting required per A.3.1 $1,500 per 
+year 
+Developer 
+(Shared 
+Technology 
+and Services) 
+Included; 
+TM 
+License 
+fee 
+waived 
+$50,000 
+one-time, 
+paid-up 
+license 
+Included $10,000 
+per 
+Licensee 
+Product 
+qualified 
+$0, but reporting required per A.3.1 $1,500 per 
+year 
+* If Licensee is a current Licensee under any prior Avid DNxHD Patent License, who has already paid for an initial term under that prior 
+license, then this license shall commence with the first renewal term. 
+** Licensee may sell Licensee Products on a Subscription basis subject to the terms herein provided that the Licensed Technology shall be 
+deactivated and end users shall have no further access to Licensed Technology upon expiration or termination of the Subscription term. 
+*** If other payment terms are arranged with Avid Accounts Receivable, the full amount ($80,000) is nevertheless Licensee’s obligation for 
+each year or part of a year for which this Agreement is in effect. If an election to which this note applies is made, the reporting requirement 
+under A.3.1 is waived for product covered by the license and scope for which such election applies. 
+ 
+A.3.  Reporting and Payment. 
+ 
+A.3.1. Reports.  For each royalty period following Licensee’s first sale of a Licensee Product or provision 
+of a shared service as set forth in Section 3.3, Licensee shall provide to Avid a written statement of the 
+sales of Licensee Products or minutes of video essence encoded/decoded that occurred during that 
+Royalty Period.  Sales shall be considered to have occurred when shipped from the Licensee or its 
+distributor to an end user or third party manufacturer or, in the case of shared services, which such 
+service was provided.  The written statement shall identify, as applicable: the products Sold for use by 
+End Users by Licensee part number and product name, the number of units Sold for each product during DocuSign Envelope ID: 1A531662-5531-4BBF-8D31-F8C94B3D7158
+ 
+Avid DNxHD Unified License Agreement 
+Schedule A   
+Page 3 of 3 
+the Royalty Period, the total duration in months of all Subscriptions of Licensee Products sold on a 
+subscription basis in the Royalty Period, the minutes and partial minutes of video essence encoded or 
+decoded  by  Licensee’s  service,  the  Applicable  Royalty  Rate  for  each  product,  the  country  of 
+manufacture for the product, the country of sale for the product or service, the total royalty due for each 
+product or service, and the total royalty due. For each sale by Licensee as an OEM to a third party 
+manufacturer,  Licensee may  omit the  number  of  units  Sold,  but shall  include  the  name,  principal 
+business address, and contact information (including a responsible person or office, and email address) 
+of the third party manufacturer to which units were Sold. Licensee’s principal financial officer, or a person 
+acting  under  the  duly  delegated  authority  of  Licensee’s  principal  financial  officer,  shall  certify  the 
+correctness of the statement.  The statement for each Royalty Period shall be delivered to Avid within 
+thirty (30) days following the end of that Royalty Period, along with payment for that Royalty Period.  Any 
+taxes assessed by any governments, including any of its departments or subdivisions, shall be for the 
+account of Licensee.  All payments made hereunder are non-refundable. 
+ 
+A.3.2.  Records and Auditing.  Licensee shall keep complete and accurate records of its activities under 
+this Agreement.  Not more than once each year, Avid may appoint a Certified Public Accountant, or 
+equivalent thereof, of Avid’s choice for the purpose of performing an audit of Licensee’s relevant records.  
+If, upon audit of Licensee’s records, it is determined that Licensee has underpaid by five percent (5%) 
+or more the payment due to Avid for any period, Licensee shall promptly reimburse Avid for the full 
+reasonable cost of the audit and pay to Avid the deficiency in the payment due Avid, including the interest 
+prescribed in Section A.3.4. 
+ 
+A.3.3.  Currency.  Payments by Licensee shall be made in United States dollars either directly to Avid 
+or to such banks as Avid may designate in writing to Licensee.  If applicable, conversions from local 
+currency to U.S. dollars shall be at the most favorable rate of exchange on the date payment is due, or 
+when payment is made, whichever is earlier. 
+ 
+A.3.4.  Interest Rate.  If a payment due under this Agreement is late, interest at the lower of the rate of 
+ten percent (10%) per annum and the maximum rate permitted by law, assessed as from the last day of 
+the first month following each period, shall be due from Licensee without special notice.  Such a late 
+payment is still a breach and this assessment of or payment of interest neither forgives nor cures such 
+a breach. 
+ DocuSign Envelope ID: 1A531662-5531-4BBF-8D31-F8C94B3D7158
+ 
+Avid DNxHD Unified License Agreement 
+Schedule B – Avid DNxHD Maintenance Agreement  
+Page 1 of 3 
+Schedule B 
+Avid DNxHD® MAINTENANCE AGREEMENT 
+ 1. BACKGROUND 
+Licensee,  by  selecting  the  Maintenance  option  on  the  Summary  of  the Agreement  to  which  this 
+Maintenance Agreement is attached as Schedule B, seeks to purchase certain maintenance services 
+related to the Licensed Avid DNxHD Technology.  Avid is willing to provide maintenance services to 
+Licensee  for  the  Licensed Avid  DNxHD  Technology,  subject  to  the  terms  and  conditions  of  this 
+Maintenance Agreement. To the extent that any terms or conditions of this Maintenance Agreement 
+conflict with those of the Agreement between Avid and Licensee to which this Maintenance Agreement 
+is attached as Schedule B, the terms of the Agreement supersedes the terms herein. 
+ 
+ 2. DEFINITIONS 
+This  Maintenance Agreement  shall  constitute  a  related  agreement  to  the Agreement.    Except  as 
+otherwise  defined  herein,  capitalized  terms  used  in  this  Maintenance Agreement  shall  have  the 
+meanings ascribed to them in the Agreement. 
+ 
+ 3. MAINTENANCE 
+ 3.1. Payment.  Licensee agrees to pay Avid fifteen hundred dollars ($1500.00) in Maintenance 
+Fees for twelve (12) months of Maintenance Services related to the Avid DNxHD Software. Promptly 
+after execution of this Maintenance Agreement, Avid will issue an invoice to Licensee for the amount 
+due.  The invoice shall be due and payable within thirty (30) days of the invoice date. If Licensee 
+discontinues and then resumes purchase of Maintenance Services, Licensee will be required to pay 
+Avid the entire Maintenance Fees for the period of discontinuance, plus Maintenance Fees for the 
+term of the Maintenance Services then commencing. A monthly interest charge at the rate of one and 
+one-half percent (1 1/2%) or the maximum legal rate, if maximum legal rate is less than one and one-
+half percent (1 1/2%), will be assessed on all payments more than five (5) days past due.  Licensee's 
+obligation to pay the amounts due or to become due hereunder shall be absolute and unconditional 
+and shall not be subject to any reduction, setoff, defense, counterclaim, or deferment for any reason 
+whatsoever.  If the Licensee fails to make any payment to Avid under this Maintenance Agreement or 
+any related agreement within fifteen (15) days of its due date, Avid may terminate this Maintenance 
+Agreement by giving written notice of termination to Licensee or refuse to provide maintenance until 
+Licensee’s account is in good standing. 
+ 3.2. Renewal. This Maintenance Agreement shall automatically renew for successive Maintenance 
+Services Terms of twelve (12) months each, unless and until either party elects to terminate this 
+Maintenance Agreement upon expiration of the Term (either initial or renewal) then in effect by giving 
+written notice of its intention to the other Party at least thirty (30) days prior to the date of such expiration. 
+In order to continue Maintenance Services following the end of an annual Maintenance Services Term, 
+Licensee must pay the Maintenance Fees set by Avid for that subsequent Term within thirty (30) days 
+following the start of a successive Term. Before the end of the eleventh (11th) month of each twelve (12) 
+month Maintenance Services Term, Avid may adjust the annual Maintenance Fees for the successive 
+Term by providing written notice to Licensee. 
+ 3.3. Maintenance  Services.    During  the Term  of  this  Maintenance Agreement, Avid  will  provide 
+Licensee Access to Maintenance Releases and Minor Releases related to the Licensed Avid DNxHD 
+Technology that Avid makes generally available to all Licensees during the Maintenance Services Term, 
+at no additional charge.  “Maintenance Releases” for software technology are represented by a change 
+in the portion of the version number to the right of the second decimal point. “Minor Releases” are DocuSign Envelope ID: 1A531662-5531-4BBF-8D31-F8C94B3D7158
+ 
+Avid DNxHD Unified License Agreement 
+Schedule B – Avid DNxHD Maintenance Agreement  
+Page 2 of 3 
+represented by a change in the portion of the version number to the right of the first decimal point. 
+Maintenance Releases and Minor Releases may incorporate: (i) corrections of any substantial defects, 
+(ii) fixes of any minor bugs, (iii) workarounds, and/or (iv) at the sole discretion of Avid, enhancements 
+and  improvements  to  the  Licensed  Avid  DNxHD  Technology.  Maintenance  Releases  and  Minor 
+Releases, when delivered, shall become part of the Licensed Avid DNxHD Technology, and shall be 
+subject to all of the terms of the Agreement to which this Schedule B is attached. 
+The aforementioned Maintenance Services do not include: 
+ 
+ Access to “Upgrades”, meaning any new software or other technology covered 
+by the Agreement released generally by Avid after the Effective Date of this 
+Maintenance  Agreement  that  contains  substantial  additional  functions  or 
+improved performance not included in the Licensed Avid DNxHD Technology as 
+released before the Effective Date. “Upgrades” are represented by a change in 
+the version number to the left of the first decimal point. Avid may offer at its 
+discretion access to Upgrades to Licensee upon the condition that Licensee pays 
+an additional commercially reasonable fee for said Upgrades. 
+ Custom enhancements, features or modifications. 
+ Assistance for Licensee Products, or third-party applications. 
+ Direct assistance to Licensee’s End Users. 
+ On-site support. 
+ Training. 
+ Hardware and related supplies. 
+ 
+ 4. LIMITATION OF LIABILITY 
+THE  MAXIMUM  LIABILITY  OF  AVID  ARISING  OUT  OF  THIS  MAINTENANCE  AGREEMENT, 
+WHETHER BASED UPON WARRANTY, CONTRACT, TORT OR OTHERWISE, SHALL NOT EXCEED 
+THE ACTUAL PAYMENT MADE BY LICENSEE UNDER THIS MAINTENANCE AGREEMENT.  THIS 
+SECTION SHALL APPLY TO THE FULLEST EXTENT PERMITTED BY LAW.  This Section 4 has no 
+effect on the Limitations of Liability found in the Agreement. 
+ 
+ 5. TERM AND TERMINATION 
+ 
+This Maintenance Agreement shall be effective upon acceptance and execution by Avid and shall remain 
+in effect for twelve (12) months, commencing as of the Maintenance Agreement Effective Date listed 
+below and expiring automatically and without notice upon the first to occur of the following events 
+(“Maintenance Agreement Term”):  (a) at midnight on the 30th day following the anniversary of that 
+Effective Date, unless payment has been received by Avid for a successive Term; (b) upon termination 
+or expiration of the Agreement according to its terms; (c) immediately upon a material breach of the 
+Agreement or this Maintenance Agreement; or (d) upon written notice of termination to Licensee by Avid.  
+Avid shall owe no amounts or have any further obligations to Licensee following termination of this 
+Maintenance Agreement. 
+ 
+ 6. EFFECT OF MAINTENANCE AGREEMENT 
+ 
+Except to the extent expressly modified and amended by this Maintenance Agreement, the terms and 
+conditions of the Avid DNxHD Agreements shall remain in full force and effect and shall apply, without 
+limitation, to this Maintenance Agreement and the matters described herein.  The terms of Sections 3, DocuSign Envelope ID: 1A531662-5531-4BBF-8D31-F8C94B3D7158
+ 
+Avid DNxHD Unified License Agreement 
+Schedule B – Avid DNxHD Maintenance Agreement  
+Page 2 of 3 
+4, 5, 6, all definitions, and all obligations to pay Avid shall survive the termination of this Maintenance 
+Agreement. DocuSign Envelope ID: 1A531662-5531-4BBF-8D31-F8C94B3D7158
+ 
+Avid DNxHD Unified License Agreement 
+Schedule C  
+Page 1 of 2 
+Schedule C 
+Avid DNxHD Trademarks and Usage 
+ 
+Avid DNxHD Trademarks 
+Avid DNxHD® 
+Avid DNxHR® 
+ 
+  
+Avid DNxHD Trademark Usage Guidelines 
+A.  The words “Avid DNxHD” or “Avid DNxHR” must be used as an adjective that modifies a generic 
+name for a process or product as follows: 
+ 
+  i.  Avid DNxHD® or Avid DNxHR® encoding 
+  ii.  Avid DNxHD® or Avid DNxHR® decoding 
+  iii.  Avid DNxHD® or Avid DNxHR® encoder 
+  iv.  Avid DNxHD® or Avid DNxHR® decoder 
+  v.  Avid DNxHD® or Avid DNxHR® codec 
+  vi.  Avid DNxHD® or Avid DNxHR® encoder/decoder 
+  vii.  Avid DNxHD® or Avid DNxHR® encoding/decoding 
+ 
+B.  The words “Avid DNxHD” and “Avid DNxHR” must always be followed by the “®” symbol. 
+ 
+C.  The second part of the trademark “Avid DNxHD” and “Avid DNxHR” must have two initial capital 
+letters “DN”, followed by a lower case letter “x”, followed by two capital letters “HD” or “HR.”  The letter 
+“x” must not be replaced by any other symbol.   
+ 
+D.  “DNxHD” or “DNxHR” must not be used alone.  It must be preceded by the word “Avid.” 
+ 
+E.  Any logo artwork or files provided by Avid may not be modified without Avid’s prior written consent, 
+and must be used in accordance with any additional guidelines provided by Avid. 
+ 
+ 
+Avid Trademark Usage Guidelines 
+Avid’s trademarks and the associated goodwill are valuable assets, and the proper use of these 
+trademarks is very important to Avid.  You may use Avid’s trademarks to identify Avid products, services 
+and promotions, provided that you comply with these guidelines (and, if you have an agreement with 
+Avid, any other applicable terms contained in your agreement).  
+    
+You may use Avid trademarks (but not logos, taglines or icons) to identify Avid products or services, 
+provided that such references are truthful and fair, and are not misleading as to Avid sponsorship of or 
+affiliation with you or your company, or endorsement of your products or services.  You may use Avid DocuSign Envelope ID: 1A531662-5531-4BBF-8D31-F8C94B3D7158
+ 
+Avid DNxHD Unified License Agreement 
+Schedule C 
+Page 2 of 2 
+trademarks with referential phrases such as “for use with,” “for,” “works with” or “compatible with,” as 
+long as you do not suggest that Avid is the source of your product or that Avid endorses it.    
+  
+When using Avid trademarks, the Avid trademark should be in text no larger than the surrounding text, 
+and your trademarks should be more prominent than the Avid trademarks.    
+  
+An Avid trademark should not be combined with any trademark, business name, or product or service 
+name of another company.  The Avid trademark may not be used in a manner that might create 
+potential confusion as to the source of your products or services, or ownership of the Avid trademark.  
+The Avid trademark may not be used in connection with anything disparaging of Avid, or its products, 
+services, or employees.  Avid trademarks should be used as adjectives with a generic term for the 
+product or service (e.g., the Media Composer® software), and not as nouns or verbs.  They should not 
+be used in the plural or in the possessive.  Do not shorten or abbreviate an Avid trademark.   
+  
+Logos  
+  
+Neither the Avid logo nor the other logos of Avid Technology may be used without the express prior 
+written approval of Avid Technology.  If such approval is granted, logos may be reproduced only from 
+electronic files provided by Avid, without any modification.  The size of the logo may be scaled, but the 
+proportions and integrity of all elements of the logo must be maintained.  A minimum amount of empty 
+space must be left between the logo and any other object such as type, photography, borders, edges, 
+etc.  The required border of empty space must be equal to or greater than 50% of the height of the 
+logo.  
+  
+Trademark Notice  
+  
+Avid maintains a list of its trademarks on its website.  This list also states whether the ® symbol or the 
+™ symbol should be used in connection with the Avid trademark.  In addition, when you use an Avid 
+trademark, you should include the following attribution notice with your other trademark or copyright 
+notices: “[Avid Trademark] is a trademark or registered trademark of Avid Technology, Inc. or its 
+subsidiaries in the United States and/or other countries.”  
+  
+These guidelines may be updated from time to time, and Avid may provide additional guidelines for 
+specific trademarks.  The current version of these guidelines is always available at www.avid.com

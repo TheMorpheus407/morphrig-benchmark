@@ -1,0 +1,17 @@
+{"t": 0.0, "epoch": 1790728026.137, "actor": "MorphOperative_2147482390", "state": "locomotion", "action": "ready clips=96 height_units=cm", "rate": 1.0, "x": 0.0, "y": 0.0, "z": 90.0}
+{"t": 0.0, "epoch": 1790728026.147, "actor": "MorphOperative_2147482390", "state": "locomotion", "action": "lod=1", "rate": 1.0, "x": 0.0, "y": 0.0, "z": 90.0}
+{"t": 0.3537, "epoch": 1790728026.583, "actor": "MorphOperative_2147482390", "state": "jump_land", "action": "enter jump_land token=2 layer=body", "rate": 1.0, "x": 0.0, "y": 0.0, "z": 88.285}
+{"t": 0.3537, "epoch": 1790728026.584, "actor": "MorphOperative_2147482390", "state": "jump_land", "action": "marker jump_land/land_contact clip_t=0.0000 token=2 cycle=0", "rate": 1.0, "x": 0.0, "y": 0.0, "z": 90.15}
+{"t": 0.3537, "epoch": 1790728026.584, "actor": "MorphOperative_2147482390", "state": "jump_land", "action": "marker jump_land/compression clip_t=0.2667 token=2 cycle=0", "rate": 1.0, "x": 0.0, "y": 0.0, "z": 90.15}
+{"t": 0.5836, "epoch": 1790728026.796, "actor": "MorphOperative_2147482390", "state": "jump_land", "action": "marker jump_land/recover clip_t=0.5667 token=2 cycle=0", "rate": 1.0, "x": 0.0, "y": 0.0, "z": 90.15}
+{"t": 0.8109, "epoch": 1790728027.023, "actor": "MorphOperative_2147482390", "state": "jump_land", "action": "complete jump_land", "rate": 1.0, "x": 0.0, "y": 0.0, "z": 90.15}
+{"t": 8.0009, "epoch": 1790728034.212, "actor": "MorphOperative_2147482390", "state": "locomotion", "action": "presentation_start", "rate": 1.0, "x": 0.0, "y": 0.0, "z": 90.15}
+{"t": 8.0009, "epoch": 1790728034.212, "actor": "MorphOperative_2147482390", "state": "dialogue", "action": "enter dialogue token=3 layer=body", "rate": 1.0, "x": 0.0, "y": 0.0, "z": 90.15}
+{"t": 8.0009, "epoch": 1790728034.212, "actor": "MorphOperative_2147482390", "state": "dialogue", "action": "marker dialogue/concern_scan_left clip_t=0.0000 token=3 cycle=0", "rate": 1.0, "x": 0.0, "y": 0.0, "z": 90.15}
+{"t": 10.1337, "epoch": 1790728036.345, "actor": "MorphOperative_2147482390", "state": "dialogue", "action": "marker dialogue/look_wrist clip_t=2.1333 token=3 cycle=0", "rate": 1.0, "x": 0.0, "y": 0.0, "z": 90.15}
+{"t": 14.4004, "epoch": 1790728040.611, "actor": "MorphOperative_2147482390", "state": "dialogue", "action": "marker dialogue/point_crossing clip_t=6.4000 token=3 cycle=0", "rate": 1.0, "x": 0.0, "y": 0.0, "z": 90.15}
+{"t": 15.4004, "epoch": 1790728041.611, "actor": "MorphOperative_2147482390", "state": "dialogue", "action": "marker dialogue/breath_release clip_t=7.4000 token=3 cycle=0", "rate": 1.0, "x": 0.0, "y": 0.0, "z": 90.15}
+{"t": 16.6344, "epoch": 1790728042.845, "actor": "MorphOperative_2147482390", "state": "dialogue", "action": "marker dialogue/confidence_shift clip_t=8.6333 token=3 cycle=0", "rate": 1.0, "x": 0.0, "y": 0.0, "z": 90.15}
+{"t": 18.4663, "epoch": 1790728044.677, "actor": "MorphOperative_2147482390", "state": "dialogue", "action": "marker dialogue/forward_gesture clip_t=10.4667 token=3 cycle=0", "rate": 1.0, "x": 0.0, "y": 0.0, "z": 90.15}
+{"t": 21.3995, "epoch": 1790728047.611, "actor": "MorphOperative_2147482390", "state": "dialogue", "action": "marker dialogue/settle clip_t=13.4000 token=3 cycle=0", "rate": 1.0, "x": 0.0, "y": 0.0, "z": 90.15}
+{"t": 21.5675, "epoch": 1790728047.779, "actor": "MorphOperative_2147482390", "state": "dialogue", "action": "complete dialogue", "rate": 1.0, "x": 0.0, "y": 0.0, "z": 90.15}

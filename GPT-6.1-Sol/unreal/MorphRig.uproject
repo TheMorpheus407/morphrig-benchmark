@@ -1,0 +1,13 @@
+{
+  "FileVersion": 3,
+  "EngineAssociation": "",
+  "Category": "Character Production",
+  "Description": "Authored Operative motion and facial showcase",
+  "Modules": [{"Name": "MorphRig", "Type": "Runtime", "LoadingPhase": "Default"}],
+  "Plugins": [
+    {"Name": "PythonScriptPlugin", "Enabled": true},
+    {"Name": "EditorScriptingUtilities", "Enabled": true},
+    {"Name": "Interchange", "Enabled": true},
+    {"Name": "AndroidFileServer", "Enabled": false}
+  ]
+}

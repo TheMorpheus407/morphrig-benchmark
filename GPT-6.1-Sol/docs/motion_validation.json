@@ -1,0 +1,690 @@
+{
+  "inventory_entries": 96,
+  "motion_entries": 85,
+  "static_pose_entries": 11,
+  "unique_sampled_motion_signatures": 96,
+  "max_loop_numeric_delta": 1.1102230246251565e-16,
+  "death_endpoints_exact": true,
+  "nominal_dash_displacement_m": 2.0,
+  "analytical_support_velocity_verified": true,
+  "all_30fps_wrist_and_ankle_targets_reachable": true,
+  "maximum_arm_reach_m": 0.501131403568012,
+  "maximum_leg_reach_m": 0.8380000000000001,
+  "cell_and_beacon_grip_anchors_exact": true,
+  "speech_wav_duration": 13.566666666666666,
+  "entries": [
+    {
+      "id": "idle_relaxed",
+      "duration": 3.0,
+      "frame_count": 91,
+      "events": 0,
+      "unique_motion_sha256": "e7ce933e33adcbcdde0c334d6cb4164d5bd8758e7ab4949ff2fc300c6061f80e"
+    },
+    {
+      "id": "idle_combat",
+      "duration": 2.8,
+      "frame_count": 85,
+      "events": 0,
+      "unique_motion_sha256": "d3b02f660bfa67f63d53a9fe5bb3dbe1ff2c6ec90abd4533fbbd2fbb85104918"
+    },
+    {
+      "id": "idle_wounded",
+      "duration": 3.2,
+      "frame_count": 97,
+      "events": 0,
+      "unique_motion_sha256": "689fa202c1de8f357c4f5005c8a9d8055152af5b66c8a5cb157017f1fb1c1e26"
+    },
+    {
+      "id": "walk_f",
+      "duration": 0.8,
+      "frame_count": 25,
+      "events": 4,
+      "unique_motion_sha256": "e9f85dd5103409544fa9ba82997d8e288c105e87b4dcc5fecc18b30e397652ed"
+    },
+    {
+      "id": "walk_fl",
+      "duration": 0.8,
+      "frame_count": 25,
+      "events": 4,
+      "unique_motion_sha256": "4af83063112643e7135e8d38fc5993361094c69301e9ac7c8fb584b76ec2f2a5"
+    },
+    {
+      "id": "walk_l",
+      "duration": 0.8,
+      "frame_count": 25,
+      "events": 4,
+      "unique_motion_sha256": "bfdfd61ba0b8b0ce77aecf2e10d85f8d9d4ff040a28371ebbd33669abf2c6235"
+    },
+    {
+      "id": "walk_bl",
+      "duration": 0.8,
+      "frame_count": 25,
+      "events": 4,
+      "unique_motion_sha256": "05289d9510ee684afa99b62d04a26d63e9c87c789c33588bceb344c1d62d53bc"
+    },
+    {
+      "id": "walk_b",
+      "duration": 0.8,
+      "frame_count": 25,
+      "events": 4,
+      "unique_motion_sha256": "62d2df5bbb471aa4241c67c6a25b93cae2e6eeec9cddce59729300db221207c0"
+    },
+    {
+      "id": "walk_br",
+      "duration": 0.8,
+      "frame_count": 25,
+      "events": 4,
+      "unique_motion_sha256": "b01c2d2184fcded553dd594d3290a0aaffd61cdb0bcec42726b7b249ca891c27"
+    },
+    {
+      "id": "walk_r",
+      "duration": 0.8,
+      "frame_count": 25,
+      "events": 4,
+      "unique_motion_sha256": "5f140baf86ae48151c9e9a063554f307d4ee27930979e9052210bd2bca900b88"
+    },
+    {
+      "id": "walk_fr",
+      "duration": 0.8,
+      "frame_count": 25,
+      "events": 4,
+      "unique_motion_sha256": "e88f9d32dd7ad9095f79034776f41712c8f9d0974ee750cf74178e642facdbca"
+    },
+    {
+      "id": "run_f",
+      "duration": 0.6,
+      "frame_count": 19,
+      "events": 4,
+      "unique_motion_sha256": "76ca587c0ace49948f7434562b0401ee235b808510f251743578cfe157050f9a"
+    },
+    {
+      "id": "run_fl",
+      "duration": 0.6,
+      "frame_count": 19,
+      "events": 4,
+      "unique_motion_sha256": "58fcd5fa784e35b7a6e2f9be140c2a5cdc7ccf53dd26e826d0e36dcbdf4e2a08"
+    },
+    {
+      "id": "run_l",
+      "duration": 0.6,
+      "frame_count": 19,
+      "events": 4,
+      "unique_motion_sha256": "ef96298d335a954bace3ca86f7518fc299fb5d04868035ccb949e8015d4ba12f"
+    },
+    {
+      "id": "run_bl",
+      "duration": 0.6,
+      "frame_count": 19,
+      "events": 4,
+      "unique_motion_sha256": "63416f20c071434c71c13d0b87bd144972aa381ae21db6105b0d22f922b75fff"
+    },
+    {
+      "id": "run_b",
+      "duration": 0.6,
+      "frame_count": 19,
+      "events": 4,
+      "unique_motion_sha256": "2a13d6613bef8925379990cd2d73e61b0ba6b79014006cc18df2489bdb3fab2f"
+    },
+    {
+      "id": "run_br",
+      "duration": 0.6,
+      "frame_count": 19,
+      "events": 4,
+      "unique_motion_sha256": "beef8f39ef29fcf8f4399db4f32998821a40e82810a293514e117faa132e14f0"
+    },
+    {
+      "id": "run_r",
+      "duration": 0.6,
+      "frame_count": 19,
+      "events": 4,
+      "unique_motion_sha256": "b1570b735a1ad952dd0126f18d07e487428ab1623bbb02f02a10727c644f4659"
+    },
+    {
+      "id": "run_fr",
+      "duration": 0.6,
+      "frame_count": 19,
+      "events": 4,
+      "unique_motion_sha256": "71488e66e804cfcf4f7feb0bd590b52f15ef4b52aa09f526e093f9f6063fed35"
+    },
+    {
+      "id": "sprint_f",
+      "duration": 0.4,
+      "frame_count": 13,
+      "events": 4,
+      "unique_motion_sha256": "ba22b5403f7a1852582b4aaa4c476107b92c71b3618b66a1015732534644c537"
+    },
+    {
+      "id": "start_f",
+      "duration": 0.6,
+      "frame_count": 19,
+      "events": 3,
+      "unique_motion_sha256": "5b85beeae539bfac5640b249d870e1b4417af2fe96822130d6990abea6898c37"
+    },
+    {
+      "id": "stop_f",
+      "duration": 0.7,
+      "frame_count": 22,
+      "events": 3,
+      "unique_motion_sha256": "e752936e214ca3861134bc474447ea720147ec7763eed793e686f3328fb4db19"
+    },
+    {
+      "id": "turn_l90",
+      "duration": 0.8,
+      "frame_count": 25,
+      "events": 4,
+      "unique_motion_sha256": "5eb5666da227ea36a3af14baa879ee5aea4e46a944c6925b461ff90ab1f24b11"
+    },
+    {
+      "id": "turn_r90",
+      "duration": 0.8,
+      "frame_count": 25,
+      "events": 4,
+      "unique_motion_sha256": "1cb588a158c48a20a6e7bd0347e138c217ad0fa27859894421b8269cc5e34d1f"
+    },
+    {
+      "id": "pivot_l180",
+      "duration": 0.9,
+      "frame_count": 28,
+      "events": 4,
+      "unique_motion_sha256": "31ba86c6f8823d280bb00696d25fec0e3d6d95d4cfca3acb5768eae3df6d22e7"
+    },
+    {
+      "id": "pivot_r180",
+      "duration": 0.9,
+      "frame_count": 28,
+      "events": 4,
+      "unique_motion_sha256": "cad9af71891dcda127378c0b906d0a3b7353a192b77f0b0d448255866df7ff60"
+    },
+    {
+      "id": "jump_start",
+      "duration": 0.7,
+      "frame_count": 22,
+      "events": 2,
+      "unique_motion_sha256": "7e56a9543be4049a5dbd3ad6fcae4fbbf346865aa7fc086cb899423cfeadc40a"
+    },
+    {
+      "id": "jump_air",
+      "duration": 0.7,
+      "frame_count": 22,
+      "events": 0,
+      "unique_motion_sha256": "86336ab7a2789551906ca28376c73f1e71ff9854bdef010c76407b1cac3ee953"
+    },
+    {
+      "id": "jump_land",
+      "duration": 0.8,
+      "frame_count": 25,
+      "events": 3,
+      "unique_motion_sha256": "7e7200014a4c9a8e1077b77c5a9349ca86c2be3347d733c206bd7573710af18c"
+    },
+    {
+      "id": "fall",
+      "duration": 0.8,
+      "frame_count": 25,
+      "events": 0,
+      "unique_motion_sha256": "ba15c0ee2105f4d82b0369f4b0658449d45d95fc47789d249e1af8307164964a"
+    },
+    {
+      "id": "land_heavy",
+      "duration": 1.1,
+      "frame_count": 34,
+      "events": 3,
+      "unique_motion_sha256": "4cfbc38531d8463a50ca4cd30c18fc856d6ad4fca7bf12245ae22e232c0e9516"
+    },
+    {
+      "id": "dash_f",
+      "duration": 0.5,
+      "frame_count": 16,
+      "events": 4,
+      "unique_motion_sha256": "12ec7c682004b9aea4bf2fb67daa079458d709ad2c10e86cbd38bfffb66feab1"
+    },
+    {
+      "id": "dash_b",
+      "duration": 0.5,
+      "frame_count": 16,
+      "events": 4,
+      "unique_motion_sha256": "44ba5a7d20894d3d85dea3af88a623124d3e0bca3ed817a7de48220ff5a73120"
+    },
+    {
+      "id": "dash_l",
+      "duration": 0.5,
+      "frame_count": 16,
+      "events": 4,
+      "unique_motion_sha256": "8ff3b4e6d14f8c122ded2ecae0387cf1f83861210c4b62c669b7f4143672af9d"
+    },
+    {
+      "id": "dash_r",
+      "duration": 0.5,
+      "frame_count": 16,
+      "events": 4,
+      "unique_motion_sha256": "b5a4fed61bdb1528e131c18a316e001f2ca196838a2a0a68fc49f0d1287ef5c2"
+    },
+    {
+      "id": "blink_out",
+      "duration": 0.4,
+      "frame_count": 13,
+      "events": 3,
+      "unique_motion_sha256": "a57d25b2505cbcdb8b5d4316def3a45caed49507f50b72c66b26da231f08f16d"
+    },
+    {
+      "id": "blink_in",
+      "duration": 0.5,
+      "frame_count": 16,
+      "events": 3,
+      "unique_motion_sha256": "88dc53f437af1874f7728b97ac8a82e5ae36df569adaddf6f4309da20ba5549d"
+    },
+    {
+      "id": "melee_1",
+      "duration": 0.9,
+      "frame_count": 28,
+      "events": 5,
+      "unique_motion_sha256": "2517ab96b8920b4ed15a1987f03783cd099eb95315ecc0bbeddf02891b28dd5a"
+    },
+    {
+      "id": "melee_2",
+      "duration": 1.0,
+      "frame_count": 31,
+      "events": 5,
+      "unique_motion_sha256": "72b077fd7cca3d89e7faeb9a36d190653fe75c695708e8958f3e8a1e941e5a0c"
+    },
+    {
+      "id": "melee_3",
+      "duration": 1.1,
+      "frame_count": 34,
+      "events": 5,
+      "unique_motion_sha256": "c18bb690b5bf1900e3cc01da2cfa17d3a82911157b710ba2708edd38c82cda03"
+    },
+    {
+      "id": "ranged_fire",
+      "duration": 0.4,
+      "frame_count": 13,
+      "events": 2,
+      "unique_motion_sha256": "1473346fe072365a4280b100138f5ac1947e9289b8b68f826e751e4ee1c0b316"
+    },
+    {
+      "id": "ranged_burst",
+      "duration": 0.7,
+      "frame_count": 22,
+      "events": 4,
+      "unique_motion_sha256": "d5d8833b6ecd453f17ead7255090f88301cba2ef74a0a5b06345024f48650936"
+    },
+    {
+      "id": "reload",
+      "duration": 2.2,
+      "frame_count": 67,
+      "events": 7,
+      "unique_motion_sha256": "bbd3cccedf42c9eefa9450d888e17ad9a4c5588a88bedd61c1fb4f23e6d52b6a"
+    },
+    {
+      "id": "cast_directional",
+      "duration": 0.9,
+      "frame_count": 28,
+      "events": 3,
+      "unique_motion_sha256": "7d86b18226ba936db5d63df2dcb4dcea3c390ff01e5a0c8015a05cfd215260fe"
+    },
+    {
+      "id": "cast_ground",
+      "duration": 1.2,
+      "frame_count": 37,
+      "events": 3,
+      "unique_motion_sha256": "7b297cfb7baffc477a0bb9486dd75a466f2263673dec5c3e6695257e437b4a06"
+    },
+    {
+      "id": "cast_self",
+      "duration": 0.9,
+      "frame_count": 28,
+      "events": 3,
+      "unique_motion_sha256": "78e59805e6e53ef5ed21b712080ea55181a80bbe01bf57d6a9658def8d3fb6d9"
+    },
+    {
+      "id": "channel_start",
+      "duration": 0.6,
+      "frame_count": 19,
+      "events": 1,
+      "unique_motion_sha256": "a3aaa5a0080f965c812339fd89e1e39c13efe77cc10185a0bc65f4dcd3302f3d"
+    },
+    {
+      "id": "channel_loop",
+      "duration": 1.2,
+      "frame_count": 37,
+      "events": 1,
+      "unique_motion_sha256": "cf6023501bdd54281e60ba406a8e3e66aa77b51a78e004bd4c21ae86cbd02880"
+    },
+    {
+      "id": "channel_end",
+      "duration": 0.6,
+      "frame_count": 19,
+      "events": 2,
+      "unique_motion_sha256": "a5af2dfd138bc2601ecada2f9b541d02757e1bc1479af93c85b2fac09efa440b"
+    },
+    {
+      "id": "channel_interrupt",
+      "duration": 0.5,
+      "frame_count": 16,
+      "events": 3,
+      "unique_motion_sha256": "b2e3bf0b24a6f8c1b6253d7caaf1b58397a49bdcddf35ebe46bf7dc6a6458e9d"
+    },
+    {
+      "id": "charge_start",
+      "duration": 0.8,
+      "frame_count": 25,
+      "events": 1,
+      "unique_motion_sha256": "af865bfe2498776a891c5ba24823d91a5d166a8ac412bf551bdc62c441a5bd4b"
+    },
+    {
+      "id": "charge_hold",
+      "duration": 1.0,
+      "frame_count": 31,
+      "events": 1,
+      "unique_motion_sha256": "9d086d949ec24b77bc66a000d2924c1bfdb7ee4030fb702dcb4a129f4d241383"
+    },
+    {
+      "id": "charge_release",
+      "duration": 0.8,
+      "frame_count": 25,
+      "events": 2,
+      "unique_motion_sha256": "736b634bb9738c2ef4a752866096d68fbefb106c0233c50f0c1dc18c100e052b"
+    },
+    {
+      "id": "charge_cancel",
+      "duration": 0.6,
+      "frame_count": 19,
+      "events": 2,
+      "unique_motion_sha256": "a5cbd53f2cd536576eb11b9117771baeaed8a3319281fd025491f7c5f3b86fea"
+    },
+    {
+      "id": "deploy",
+      "duration": 1.6,
+      "frame_count": 49,
+      "events": 5,
+      "unique_motion_sha256": "51b1b660a30c471f845dbbb44fb7d3e4dc9334dd8b0b41a43c011476c97ab1c1"
+    },
+    {
+      "id": "uplink_start",
+      "duration": 0.9,
+      "frame_count": 28,
+      "events": 2,
+      "unique_motion_sha256": "ceeb42b27d56591a48b5e8b317c9310016255ac3d591d5550a258d8f09048739"
+    },
+    {
+      "id": "uplink_loop",
+      "duration": 1.5,
+      "frame_count": 46,
+      "events": 1,
+      "unique_motion_sha256": "9113b1845cbc2bc607a4a91673ffa5a7a99434c4e4adbcd2df1716408caf2e9d"
+    },
+    {
+      "id": "uplink_end",
+      "duration": 0.7,
+      "frame_count": 22,
+      "events": 2,
+      "unique_motion_sha256": "42fb06927b1e94cec8a96f71853bb4e5d96fd130c17d0bad39c9bb307b548c37"
+    },
+    {
+      "id": "uplink_cancel",
+      "duration": 0.6,
+      "frame_count": 19,
+      "events": 2,
+      "unique_motion_sha256": "23d9472cdd0775d0125288112529e30dd3cf220109bae0561e1662623c7ba9fc"
+    },
+    {
+      "id": "hit_f",
+      "duration": 0.4,
+      "frame_count": 13,
+      "events": 2,
+      "unique_motion_sha256": "8ed261ecaf834de475d1c9c89356ae4e08074bc8136b73fb86a2aa43275a7c20"
+    },
+    {
+      "id": "hit_b",
+      "duration": 0.4,
+      "frame_count": 13,
+      "events": 2,
+      "unique_motion_sha256": "b3378ebe0434649f375b87bb6404adce184f63c946efda05f410138f14a8230e"
+    },
+    {
+      "id": "hit_l",
+      "duration": 0.4,
+      "frame_count": 13,
+      "events": 2,
+      "unique_motion_sha256": "b20ae7e0100f6d1d3395e77edca5cdf57d918a0330f51adedf5c8d38e122c6d9"
+    },
+    {
+      "id": "hit_r",
+      "duration": 0.4,
+      "frame_count": 13,
+      "events": 2,
+      "unique_motion_sha256": "8b859ddd0a5302cf6364fa3e0f5cbe56a94a479df2557c1b7271cbc969ed2187"
+    },
+    {
+      "id": "stun_start",
+      "duration": 1.2,
+      "frame_count": 37,
+      "events": 2,
+      "unique_motion_sha256": "458babf79ce76a3f39036825e38a050c644d7a36a77e6c8b8307786b8e849461"
+    },
+    {
+      "id": "stun_loop",
+      "duration": 2.0,
+      "frame_count": 61,
+      "events": 0,
+      "unique_motion_sha256": "525cd1f3b33b0e9e4dee43767fe1641d2c7d51002ec96146eac0901d491c7f4d"
+    },
+    {
+      "id": "stun_end",
+      "duration": 1.1,
+      "frame_count": 34,
+      "events": 2,
+      "unique_motion_sha256": "dd8f935d726c83268ed65a5cff0f82d1eaa7c663f919b7d2dc99d54e329d7583"
+    },
+    {
+      "id": "knockback",
+      "duration": 1.3,
+      "frame_count": 40,
+      "events": 4,
+      "unique_motion_sha256": "59bb1259d6aff2189be15d486fa6a7b1c3e37f64c07948a8b00d7518175862f5"
+    },
+    {
+      "id": "knockup_start",
+      "duration": 0.8,
+      "frame_count": 25,
+      "events": 2,
+      "unique_motion_sha256": "48abd8253fa4b101f4ed07b06a3cf8a3ab1d1569dd35494aca3cff289b5cba2d"
+    },
+    {
+      "id": "knockup_air",
+      "duration": 0.9,
+      "frame_count": 28,
+      "events": 0,
+      "unique_motion_sha256": "ed4fc969cbd099d2f50707c3dfd3684ba5ae64be3748a3219443ff816325cad5"
+    },
+    {
+      "id": "knockdown_front",
+      "duration": 1.8,
+      "frame_count": 55,
+      "events": 3,
+      "unique_motion_sha256": "5caca6037169864791594f8ce4a3838e6885faf00a538f08cae10194b1b61d7f"
+    },
+    {
+      "id": "knockdown_back",
+      "duration": 1.9,
+      "frame_count": 58,
+      "events": 3,
+      "unique_motion_sha256": "0e24ff65c000847d8ea34fdc160d422b00fc923c8a581735b37e11d89ce6b6ae"
+    },
+    {
+      "id": "prone_front",
+      "duration": 2.0,
+      "frame_count": 61,
+      "events": 0,
+      "unique_motion_sha256": "fb7594c5888bc80c06fd1c502c519d7dcc0ecccdb5d1ab5108e75b1f215fe790"
+    },
+    {
+      "id": "prone_back",
+      "duration": 2.0,
+      "frame_count": 61,
+      "events": 0,
+      "unique_motion_sha256": "ce9027c0ccf9d556b626e96ce015ead6b4e6ed53395adf3314c7b3ab9d920ea5"
+    },
+    {
+      "id": "getup_front",
+      "duration": 2.7,
+      "frame_count": 82,
+      "events": 5,
+      "unique_motion_sha256": "06c9e636e84018236317e5c22c1b4725e9b0feb5236720dd7b805eba55aab3ef"
+    },
+    {
+      "id": "getup_back",
+      "duration": 2.8,
+      "frame_count": 85,
+      "events": 5,
+      "unique_motion_sha256": "f2e099ecd6af04fa4cc700ce4a1fedd3f7f4ddf77376f77e58d019ca83e2f850"
+    },
+    {
+      "id": "sleep_start",
+      "duration": 2.2,
+      "frame_count": 67,
+      "events": 3,
+      "unique_motion_sha256": "dcc0cd4cb5cdd9e1ec25936fca1455134603e03ce42e77bf8af19a7c66a33beb"
+    },
+    {
+      "id": "sleep_loop",
+      "duration": 2.5,
+      "frame_count": 76,
+      "events": 0,
+      "unique_motion_sha256": "a915da69c939daf9683204b32c7a152b94c422cb7e9cdf07dca90d8460079213"
+    },
+    {
+      "id": "sleep_end",
+      "duration": 2.2,
+      "frame_count": 67,
+      "events": 4,
+      "unique_motion_sha256": "ed16d0b4b9bb446a2665ad5385216d18a0ba9574ac3b95791b4c524b7fef1c2a"
+    },
+    {
+      "id": "death_front",
+      "duration": 2.7,
+      "frame_count": 82,
+      "events": 5,
+      "unique_motion_sha256": "cffc0168e5df2258177b711a46228418ae21ecb187fed46a6a936a6122dc5a25"
+    },
+    {
+      "id": "death_back",
+      "duration": 2.9,
+      "frame_count": 88,
+      "events": 4,
+      "unique_motion_sha256": "37172aa2315ae5c25dbd8393dac0c8bcedf91fc0b869e5b41e25fae218f73f77"
+    },
+    {
+      "id": "dead_front",
+      "duration": 0.03333333333333333,
+      "frame_count": 2,
+      "events": 0,
+      "unique_motion_sha256": "de349ec861fa90499a4fe998bcc758727ba8232ebdad16b9c4ba426a84a0877d"
+    },
+    {
+      "id": "dead_back",
+      "duration": 0.03333333333333333,
+      "frame_count": 2,
+      "events": 0,
+      "unique_motion_sha256": "dcd2faf5bdb8e91a89de29c0bb1d3308f9c1047579d946146f35f58bc791fb96"
+    },
+    {
+      "id": "respawn",
+      "duration": 2.5,
+      "frame_count": 76,
+      "events": 4,
+      "unique_motion_sha256": "9a5199d15efe0b7ded695df7b454145c97db227a38b24eb3ffa6fba5a01b728a"
+    },
+    {
+      "id": "greet",
+      "duration": 2.4,
+      "frame_count": 73,
+      "events": 2,
+      "unique_motion_sha256": "e2e2f14868bd29c01c6417205de0949902b140f7a915dbab4cba02b3e9c0b00f"
+    },
+    {
+      "id": "victory",
+      "duration": 3.0,
+      "frame_count": 91,
+      "events": 3,
+      "unique_motion_sha256": "7e7a2dd9c8e4d191c6bef2c5db70e8e36c4e03535275eb3e5f168e77cbcc96f7"
+    },
+    {
+      "id": "defeat",
+      "duration": 2.8,
+      "frame_count": 85,
+      "events": 2,
+      "unique_motion_sha256": "a83b9169f654df853a2ee68058ef562128261f854021582fafc1f5b31e59a2ef"
+    },
+    {
+      "id": "dialogue",
+      "duration": 13.566666666666666,
+      "frame_count": 408,
+      "events": 7,
+      "unique_motion_sha256": "1008b341e37d5c58ac916a78f854d65c1f7659e359e99662762321e22eca3fe8"
+    },
+    {
+      "id": "aim_down_left",
+      "duration": 0.03333333333333333,
+      "frame_count": 2,
+      "events": 0,
+      "unique_motion_sha256": "8ffc9dcfe4be6c0037d9cee3924ed3093ea3dda33c354879c6ed93dc66e27080"
+    },
+    {
+      "id": "aim_down_center",
+      "duration": 0.03333333333333333,
+      "frame_count": 2,
+      "events": 0,
+      "unique_motion_sha256": "aa643878dab8f631b0283900318e862002100d29270818bb7ac1df11092c1abb"
+    },
+    {
+      "id": "aim_down_right",
+      "duration": 0.03333333333333333,
+      "frame_count": 2,
+      "events": 0,
+      "unique_motion_sha256": "48cd29ccd416bec684a50c14d2b9e10b072234aad65eef02c4c07781991ac359"
+    },
+    {
+      "id": "aim_level_left",
+      "duration": 0.03333333333333333,
+      "frame_count": 2,
+      "events": 0,
+      "unique_motion_sha256": "b7c461b0b3d3c6488f2f298719a20702fdf3d1b48abc2347f29d19d93628d0f5"
+    },
+    {
+      "id": "aim_level_center",
+      "duration": 0.03333333333333333,
+      "frame_count": 2,
+      "events": 0,
+      "unique_motion_sha256": "44bf464ad40c4d608d32bba8f4d24425c20c733155ee75fa8b0ec227803f3ba4"
+    },
+    {
+      "id": "aim_level_right",
+      "duration": 0.03333333333333333,
+      "frame_count": 2,
+      "events": 0,
+      "unique_motion_sha256": "3dcd7aabbd743ad1152b7eb654bc620b33444577456359976d9976f30297230a"
+    },
+    {
+      "id": "aim_up_left",
+      "duration": 0.03333333333333333,
+      "frame_count": 2,
+      "events": 0,
+      "unique_motion_sha256": "870d28f2040e68d328d98d9740c024289c949db26f5301a080c3c9fbbd802f32"
+    },
+    {
+      "id": "aim_up_center",
+      "duration": 0.03333333333333333,
+      "frame_count": 2,
+      "events": 0,
+      "unique_motion_sha256": "f545a559865779c9766593c9014f6f2b679ba9cfdd142427579c26471cf7be8a"
+    },
+    {
+      "id": "aim_up_right",
+      "duration": 0.03333333333333333,
+      "frame_count": 2,
+      "events": 0,
+      "unique_motion_sha256": "4688825eae7c02bffc37edba6d542c190eda53ce554d45bc74b52da0d205f6cc"
+    }
+  ],
+  "scope": "Pure Python motion/timing/contact-policy validation; Blender and Unreal visual/skin deformation inspection is performed by the production pipeline."
+}

@@ -1,0 +1,869 @@
+{
+  "schema_version": 1,
+  "checks": [
+    {
+      "name": "required_deliverables_exist_and_are_nonempty",
+      "status": "pass",
+      "details": []
+    },
+    {
+      "name": "manifest_matches_closed_inventory",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "runtime_manifest_matches_delivered_contract",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "retained_runtime_notices_are_packaged",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "all_named_baked_exports_exist",
+      "status": "pass",
+      "details": []
+    },
+    {
+      "name": "all_named_unreal_assets_exist",
+      "status": "pass",
+      "details": []
+    },
+    {
+      "name": "inventory_timing_idle_relaxed",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_idle_combat",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_idle_wounded",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_walk_f",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_walk_fl",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_walk_l",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_walk_bl",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_walk_b",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_walk_br",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_walk_r",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_walk_fr",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_run_f",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_run_fl",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_run_l",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_run_bl",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_run_b",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_run_br",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_run_r",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_run_fr",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_sprint_f",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_start_f",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_stop_f",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_turn_l90",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_turn_r90",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_pivot_l180",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_pivot_r180",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_jump_start",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_jump_air",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_jump_land",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_fall",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_land_heavy",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_dash_f",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_dash_b",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_dash_l",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_dash_r",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_blink_out",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_blink_in",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_melee_1",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_melee_2",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_melee_3",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_ranged_fire",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_ranged_burst",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_reload",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_cast_directional",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_cast_ground",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_cast_self",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_channel_start",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_channel_loop",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_channel_end",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_channel_interrupt",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_charge_start",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_charge_hold",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_charge_release",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_charge_cancel",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_deploy",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_uplink_start",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_uplink_loop",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_uplink_end",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_uplink_cancel",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_hit_f",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_hit_b",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_hit_l",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_hit_r",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_stun_start",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_stun_loop",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_stun_end",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_knockback",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_knockup_start",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_knockup_air",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_knockdown_front",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_knockdown_back",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_prone_front",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_prone_back",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_getup_front",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_getup_back",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_sleep_start",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_sleep_loop",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_sleep_end",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_death_front",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_death_back",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_dead_front",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_dead_back",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_respawn",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_greet",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_victory",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_defeat",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_dialogue",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_aim_down_left",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_aim_down_center",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_aim_down_right",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_aim_level_left",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_aim_level_center",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_aim_level_right",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_aim_up_left",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_aim_up_center",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inventory_timing_aim_up_right",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "actual_import_is_complete",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "imported_scale_and_single_ground_root",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "finished_source_matches_validated_asset",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "final_packaged_terrain_and_independent_review_pass",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "terrain_review_matches_final_binary_and_replays",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "final_packaged_horizontal_contacts_pass",
+      "status": "pass",
+      "details": {
+        "pass": true
+      }
+    },
+    {
+      "name": "horizontal_review_matches_final_binary_and_replays",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "original_voice_duration_and_alignment_identity",
+      "status": "pass",
+      "details": {
+        "sample_rate": 22050,
+        "channels": 1,
+        "sample_width_bytes": 2,
+        "duration_seconds": 13.566666666666666
+      }
+    },
+    {
+      "name": "media_probe_available",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "actual_presentation_media_turntable",
+      "status": "pass",
+      "details": {
+        "width": 1920,
+        "height": 1080,
+        "fps": "30/1",
+        "duration": 15.0,
+        "has_audio": false,
+        "sha256": "02163e4f1c173036ddf1b7f9ba3a8efc12cc4cedfe068575421645b8ae90f654"
+      }
+    },
+    {
+      "name": "presentation_capture_identity_turntable",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "actual_presentation_media_motion",
+      "status": "pass",
+      "details": {
+        "width": 1920,
+        "height": 1080,
+        "fps": "30/1",
+        "duration": 110.0,
+        "has_audio": true,
+        "sha256": "2aaccb231228349c514d9ded0288f69a91ac64a2b576677a10327eae8d3508d8"
+      }
+    },
+    {
+      "name": "presentation_capture_identity_motion",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "actual_presentation_media_face",
+      "status": "pass",
+      "details": {
+        "width": 1920,
+        "height": 1080,
+        "fps": "30/1",
+        "duration": 13.566984,
+        "has_audio": true,
+        "sha256": "b683bcd3a235c2f37950df55e0f95ceb8a9db50d8e3691f584a94e9871281fa9"
+      }
+    },
+    {
+      "name": "presentation_capture_identity_face",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "independent_final_presentation_review_passes",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "visual_review_matches_delivered_source_binary_and_media",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "inspected_frames_captures_and_trace_match_review_record",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "runtime_audit_exists_sequence",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "runtime_audit_passes_sequence",
+      "status": "pass",
+      "details": {
+        "pass": 10,
+        "fail": 0
+      }
+    },
+    {
+      "name": "runtime_audit_exists_inventory",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "runtime_audit_passes_inventory",
+      "status": "pass",
+      "details": {
+        "pass": 5,
+        "fail": 0
+      }
+    },
+    {
+      "name": "recorded_final_sequence_audit_exists",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "recorded_final_sequence_audit_passes",
+      "status": "pass",
+      "details": {
+        "pass": 10,
+        "fail": 0
+      }
+    },
+    {
+      "name": "recorded_sequence_audit_matches_current_capture_trace",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "independent_performance_report_matches_final_binary",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "warmed_performance_sample_exists_1",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "actual_1080p_warmed_sample_1",
+      "status": "pass",
+      "details": {
+        "instances": 1,
+        "frames": 16145,
+        "warmup_seconds": 5,
+        "sample_seconds": 30,
+        "width": 1920,
+        "height": 1080,
+        "mean_ms": 1.85825,
+        "p95_ms": 2.24742,
+        "p99_ms": 3.07428,
+        "cpu": "AMD Ryzen 9 9950X 16-Core Processor",
+        "physical_ram_gib": 92,
+        "process_ram_mib": 1791.59,
+        "gpu": "NVIDIA GeForce RTX 5090",
+        "rhi": "Vulkan",
+        "screen_percentage": 100,
+        "vsync": false,
+        "generated_frames": false,
+        "client_binary_sha256": "8479393c16e8a6fe6dd3ffabca4a58ffaedf953967aba95c7eee395ec5a547e8",
+        "csv_sha256": "fce85f6cb237998a3e5cf3f0b15af231396d82fecbfe5366e087136e608fea5f",
+        "metrics": {
+          "frame_ms": {
+            "mean_ms": 1.8582480346856611,
+            "p95_ms": 2.24742,
+            "p99_ms": 3.07428,
+            "max_ms": 10.60643
+          },
+          "game_ms": {
+            "mean_ms": 0.6525461133477857,
+            "p95_ms": 0.881,
+            "p99_ms": 1.158,
+            "max_ms": 1.872
+          },
+          "render_ms": {
+            "mean_ms": 1.4199972127593683,
+            "p95_ms": 1.786,
+            "p99_ms": 2.374,
+            "max_ms": 11.437
+          },
+          "gpu_ms": {
+            "mean_ms": 1.6343321152059462,
+            "p95_ms": 1.793,
+            "p99_ms": 1.822,
+            "max_ms": 1.995
+          }
+        },
+        "frames_over_16_667_ms": 0,
+        "sample_duration_seconds_from_frame_deltas": 30.001414519999997
+      }
+    },
+    {
+      "name": "performance_sample_matches_final_binary_1",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "actual_frame_log_agrees_with_summary_1",
+      "status": "pass",
+      "details": {
+        "frames": 16145,
+        "actual_sample_seconds": 30.001414519999997,
+        "actual_mean_ms": 1.8582480346856611
+      }
+    },
+    {
+      "name": "neutral_showcase_mean_meets_60fps_target_1",
+      "status": "pass",
+      "details": 1.8582480346856611
+    },
+    {
+      "name": "warmed_performance_sample_exists_10",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "actual_1080p_warmed_sample_10",
+      "status": "pass",
+      "details": {
+        "instances": 10,
+        "frames": 15049,
+        "warmup_seconds": 5,
+        "sample_seconds": 30,
+        "width": 1920,
+        "height": 1080,
+        "mean_ms": 1.99357,
+        "p95_ms": 2.5089,
+        "p99_ms": 3.51356,
+        "cpu": "AMD Ryzen 9 9950X 16-Core Processor",
+        "physical_ram_gib": 92,
+        "process_ram_mib": 1969.43,
+        "gpu": "NVIDIA GeForce RTX 5090",
+        "rhi": "Vulkan",
+        "screen_percentage": 100,
+        "vsync": false,
+        "generated_frames": false,
+        "client_binary_sha256": "8479393c16e8a6fe6dd3ffabca4a58ffaedf953967aba95c7eee395ec5a547e8",
+        "csv_sha256": "084f07f9575b925fceaa1b87c5092d2619808b163b7d5aeadd13d2cf7e89d4ee",
+        "metrics": {
+          "frame_ms": {
+            "mean_ms": 1.9935669566084124,
+            "p95_ms": 2.5089,
+            "p99_ms": 3.51356,
+            "max_ms": 12.68637
+          },
+          "game_ms": {
+            "mean_ms": 0.9747112100471792,
+            "p95_ms": 1.278,
+            "p99_ms": 1.568,
+            "max_ms": 2.383
+          },
+          "render_ms": {
+            "mean_ms": 1.6816868230447206,
+            "p95_ms": 2.092,
+            "p99_ms": 3.249,
+            "max_ms": 13.174
+          },
+          "gpu_ms": {
+            "mean_ms": 1.6952305136553925,
+            "p95_ms": 1.857,
+            "p99_ms": 1.896,
+            "max_ms": 2.064
+          }
+        },
+        "frames_over_16_667_ms": 0,
+        "sample_duration_seconds_from_frame_deltas": 30.00118913
+      }
+    },
+    {
+      "name": "performance_sample_matches_final_binary_10",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "actual_frame_log_agrees_with_summary_10",
+      "status": "pass",
+      "details": {
+        "frames": 15049,
+        "actual_sample_seconds": 30.00118913,
+        "actual_mean_ms": 1.9935669566084124
+      }
+    },
+    {
+      "name": "neutral_showcase_mean_meets_60fps_target_10",
+      "status": "pass",
+      "details": 1.9935669566084124
+    }
+  ],
+  "presentation": {
+    "turntable": {
+      "width": 1920,
+      "height": 1080,
+      "fps": "30/1",
+      "duration": 15.0,
+      "has_audio": false,
+      "sha256": "02163e4f1c173036ddf1b7f9ba3a8efc12cc4cedfe068575421645b8ae90f654"
+    },
+    "motion": {
+      "width": 1920,
+      "height": 1080,
+      "fps": "30/1",
+      "duration": 110.0,
+      "has_audio": true,
+      "sha256": "2aaccb231228349c514d9ded0288f69a91ac64a2b576677a10327eae8d3508d8"
+    },
+    "face": {
+      "width": 1920,
+      "height": 1080,
+      "fps": "30/1",
+      "duration": 13.566984,
+      "has_audio": true,
+      "sha256": "b683bcd3a235c2f37950df55e0f95ceb8a9db50d8e3691f584a94e9871281fa9"
+    }
+  },
+  "source_sha256": "afe4b13d031ed014e98918b5ea66fd4a1792dedeebccdb18abb90b09d4ab96dd",
+  "manifest_sha256": "5bccaf591d602fb73cf366366c082582a2c7e390a54cbbebb08d6044533dba57",
+  "client_binary_sha256": "8479393c16e8a6fe6dd3ffabca4a58ffaedf953967aba95c7eee395ec5a547e8",
+  "summary": {
+    "pass": 138,
+    "fail": 0
+  }
+}

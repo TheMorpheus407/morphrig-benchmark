@@ -1,0 +1,5 @@
+[in#0/x11grab @ 0x55c6a023cd80] Stream #0: not enough frames to estimate rate; consider increasing probesize
+[libx264 @ 0x55c6a0247300] non-strictly-monotonic PTS
+    Last message repeated 15 times
+[in#0/x11grab @ 0x55c6a023cd80] Failed to translate xcb geometry
+[in#0/x11grab @ 0x55c6a023ca80] Error during demuxing: Generic error in an external library

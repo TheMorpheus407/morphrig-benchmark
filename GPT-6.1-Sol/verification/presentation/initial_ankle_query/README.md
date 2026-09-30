@@ -1,0 +1,1 @@
+Diagnostic recordings before the boot-footprint contact correction and sequence face-lighting reset. These are superseded by the final presentation/ files. Recording metadata preserves the original executable identity and output paths; the copied MP4 hashes are unchanged.

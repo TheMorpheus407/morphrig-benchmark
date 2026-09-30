@@ -1,0 +1,185 @@
+﻿Log file open, 09/30/26 02:11:14
+LogInit: Running DelayedAutoRegister Phase StartOfEnginePreInit
+LogTrace: Initializing trace...
+LogTrace: Finished trace initialization.
+LogTrace: Display: Control listening on port 39348
+LogModuleManager: InternalLoadLibrary: 'PakFile' ('/home/morpheus/UnrealEngine/5.8.3/Engine/Binaries/Linux/libUnrealPak-PakFile.so')
+LogModuleManager: InternalLoadLibrary: 'RSA' ('/home/morpheus/UnrealEngine/5.8.3/Engine/Binaries/Linux/libUnrealPak-RSA.so')
+LogModuleManager: InternalLoadLibrary: 'SandboxFile' ('/home/morpheus/UnrealEngine/5.8.3/Engine/Binaries/Linux/libUnrealPak-SandboxFile.so')
+LogInit: Running DelayedAutoRegister Phase FileSystemReady
+LogInit: Running DelayedAutoRegister Phase TaskGraphSystemReady
+LogInit: Running DelayedAutoRegister Phase StatSystemReady
+LogModuleManager: InternalLoadLibrary: 'CoreUObject' ('/home/morpheus/UnrealEngine/5.8.3/Engine/Binaries/Linux/libUnrealPak-CoreUObject.so')
+OodleDataCompression: Display: Oodle v2.9.16 format for pak/iostore with method=Kraken, level=4=Normal
+LogInit: Session CrashGUID >====================================================
+         Session CrashGUID >   UECC-Linux-01A0EFA6B4A77F04BBC42578E56B5B21
+         Session CrashGUID >====================================================
+LogConfig: No local boot hotfix file found at: [../../../../../Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Saved/PersistentDownloadDir/HotfixForNextBoot.txt]
+LogInit: Running DelayedAutoRegister Phase IniSystemReady
+LogPluginManager: Mounting Engine plugin TcpMessaging
+LogPluginManager: Mounting Engine plugin PlatformCrypto
+LogModuleManager: InternalLoadLibrary: 'PlatformCrypto' ('/home/morpheus/UnrealEngine/5.8.3/Engine/Plugins/Experimental/PlatformCrypto/Binaries/Linux/libUnrealPak-PlatformCrypto.so')
+LogModuleManager: InternalLoadLibrary: 'PlatformCryptoTypes' ('/home/morpheus/UnrealEngine/5.8.3/Engine/Plugins/Experimental/PlatformCrypto/Binaries/Linux/libUnrealPak-PlatformCryptoTypes.so')
+LogModuleManager: InternalLoadLibrary: 'PlatformCryptoContext' ('/home/morpheus/UnrealEngine/5.8.3/Engine/Plugins/Experimental/PlatformCrypto/Binaries/Linux/libUnrealPak-PlatformCryptoContext.so')
+LogInit: Running DelayedAutoRegister Phase EarliestPossiblePluginsLoaded
+LogInit: ExecutableName: UnrealPak
+LogInit: Build: ++UE5+Release-5.8-CL-58210709
+LogInit: Platform=LinuxEditor
+LogInit: MachineId=c9673246f5f8469487af59b6808d4ab3-000003e8
+LogInit: DeviceId=
+LogInit: Engine Version: 5.8.3-58210709+++UE5+Release-5.8
+LogInit: Compatible Engine Version: 5.8.0-55116800+++UE5+Release-5.8
+LogInit: Net CL: 55116800
+LogInit: OS: NixOS 26.05 (Yarara) (6.18.43), CPU: AMD Ryzen 9 9950X 16-Core Processor, GPU: NVIDIA GeForce RTX 5090 (NVIDIA UNIX Open Kernel Module for x86_64  595.71.05  Release Build  (nixbld@))
+LogInit: CPU Model ID: 1a440, microcode revision: b404035
+LogInit: Compiled (64-bit): Sep 17 2026 19:13:29
+LogInit: Architecture: x64
+LogInit: Compiled with Clang: 20.1.8 (github.com/llvm/llvm-project 87f0227cb60147a26a1eeb4fb06e3b505e9c7261)
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE5+Release-5.8
+LogInit: Command Line: -cryptokeys=/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Saved/Cooked/Linux/MorphRig/Metadata/Crypto.json -unattended -compressionformats=Oodle -compresslevel=4 -compressmethod=Kraken -ProjectStore=/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Saved/Cooked/Linux/ue.projectstore -platform=Linux -CreateMultiple=/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/verification/logs/UAT/PakCommands.txt -nopak
+LogInit: Base Directory: /home/morpheus/UnrealEngine/5.8.3/Engine/Binaries/Linux/
+LogInit: Allocator: Mimalloc
+LogInit: Installed Engine Build: 1
+LogInit: This binary is optimized with LTO: no, PGO: no, instrumented for PGO data collection: no
+LogDevObjectVersion: Number of dev versions registered: 35
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 20
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 49
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 268
+LogDevObjectVersion:   FortniteValkyrie (8DBC2C5B-54A7-43E0-A768-FCBB7DA29060): 8
+LogDevObjectVersion:   FortniteSeason (5B4C06B7-2463-4AF8-805B-BF70CDF5D0DD): 15
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 20
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 11
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   UE5-Main (697DD581-E64F-41AB-AA4A-51ECBEB7B628): 123
+LogDevObjectVersion:   UE5-Release (D89B5E42-24BD-4D46-8412-ACA8DF641779): 68
+LogDevObjectVersion:   UE5-SpecialProject (59DA5D52-1232-4948-B878-597870B8E98B): 9
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogDevObjectVersion:   Dev-NaniteResearch (30D58BE3-95EA-4282-A6E3-B159D8EBB06A): 1
+LogInit: Presizing for max 100000 objects, including 0 objects not considered by GC.
+LogStreaming: Display: AsyncLoading2 - Created: Async Loading Thread: false, Async Post Load: false, Multithreaded: false
+LogInit: Object subsystem initialized
+LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+LogConfig: CVar [[p.chaos.AllowCreatePhysxBodies:1]] deferred - dummy variable created
+LogConfig: CVar [[fx.SkipVectorVMBackendOptimizations:1]] deferred - dummy variable created
+LogConfig: Applying CVar settings from Section [Startup_Linux] File [../../../Engine/Config/ConsoleVariables.ini]
+LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
+LogConfig: Set CVar [[g.TimeoutForBlockOnRenderFence:60000]]
+LogConfig: Set CVar [[memory.MemoryPressureCriticalThresholdPercent:10]]
+[2026.09.30-00.11.15:080][  0]LogInit: Unix hardware info:
+[2026.09.30-00.11.15:080][  0]LogInit:  - we are the first instance of this executable
+[2026.09.30-00.11.15:080][  0]LogInit:  - this process' id (pid) is 280749, parent process' id (ppid) is 277277
+[2026.09.30-00.11.15:080][  0]LogInit:  - we are not running under debugger
+[2026.09.30-00.11.15:080][  0]LogInit:  - machine network name is 'nixos'
+[2026.09.30-00.11.15:080][  0]LogInit:  - user name is 'morpheus' (morpheus)
+[2026.09.30-00.11.15:080][  0]LogInit:  - we're logged in locally
+[2026.09.30-00.11.15:080][  0]LogInit:  - we're running with rendering
+[2026.09.30-00.11.15:080][  0]LogInit:  - CPU: AuthenticAMD 'AMD Ryzen 9 9950X 16-Core Processor' (signature: 0xB40F40)
+[2026.09.30-00.11.15:080][  0]LogInit:  - Number of physical cores available for the process: 16
+[2026.09.30-00.11.15:080][  0]LogInit:  - Number of logical cores available for the process: 32
+[2026.09.30-00.11.15:080][  0]LogInit:  - GPU Brand Info: NVIDIA GeForce RTX 5090 (NVIDIA UNIX Open Kernel Module for x86_64  595.71.05  Release Build  (nixbld@))
+[2026.09.30-00.11.15:080][  0]LogInit:  - Memory allocator used: Mimalloc
+[2026.09.30-00.11.15:080][  0]LogInit:  - This is an internal build.
+[2026.09.30-00.11.15:080][  0]LogCore: Skipped benchmarking clocks because the engine is running in a standalone program mode - CLOCK_MONOTONIC will be used.
+[2026.09.30-00.11.15:080][  0]LogInit: Unix-specific commandline switches:
+[2026.09.30-00.11.15:080][  0]LogInit:  -ansimalloc - use malloc()/free() from libc (useful for tools like valgrind and electric fence)
+[2026.09.30-00.11.15:080][  0]LogInit:  -jemalloc - use jemalloc for all memory allocation
+[2026.09.30-00.11.15:080][  0]LogInit:  -binnedmalloc - use binned malloc  for all memory allocation
+[2026.09.30-00.11.15:080][  0]LogInit:  -filemapcachesize=NUMBER - set the size for case-sensitive file mapping cache
+[2026.09.30-00.11.15:080][  0]LogInit:  -useksm - uses kernel same-page mapping (KSM) for mapped memory (OFF)
+[2026.09.30-00.11.15:080][  0]LogInit:  -ksmmergeall - marks all mmap'd memory pages suitable for KSM (OFF)
+[2026.09.30-00.11.15:080][  0]LogInit:  -preloadmodulesymbols - Loads the main module symbols file into memory (OFF)
+[2026.09.30-00.11.15:080][  0]LogInit:  -sigdfl=SIGNAL - Allows a specific signal to be set to its default handler rather then ignoring the signal
+[2026.09.30-00.11.15:080][  0]LogInit:  -crashhandlerstacksize - Allows setting crash handler stack sizes (204800)
+[2026.09.30-00.11.15:080][  0]LogInit:  -noexclusivelockonwrite - disables marking files created by the engine as exclusive locked while the engine has them opened
+[2026.09.30-00.11.15:080][  0]LogInit:  -httpproxy=ADDRESS:PORT - redirects HTTP requests to a proxy (only supported if compiled with libcurl)
+[2026.09.30-00.11.15:080][  0]LogInit:  -reuseconn - allow libcurl to reuse HTTP connections (only matters if compiled with libcurl)
+[2026.09.30-00.11.15:080][  0]LogInit:  -virtmemkb=NUMBER - sets process virtual memory (address space) limit (overrides VirtualMemoryLimitInKB value from .ini)
+[2026.09.30-00.11.15:080][  0]LogInit:  -allowsyscallfilterfile=PATH_TO_FILE - sets up a system call filter allow list. any invalid syscall in this list *will* cause a crash
+[2026.09.30-00.11.15:081][  0]LogInit:  - Physical RAM available (not considering process quota): 92 GB (94085 MB, 96343072 KB, 98655305728 bytes)
+[2026.09.30-00.11.15:081][  0]LogInit:  - VirtualMemoryAllocator pools will grow at scale 1
+[2026.09.30-00.11.15:081][  0]LogInit:  - MemoryRangeDecommit() will be a no-op (re-run with -vmapoolevict to change)
+[2026.09.30-00.11.15:081][  0]LogInit:  - PageSize 4096
+[2026.09.30-00.11.15:081][  0]LogInit:  - BinnedPageSize 65536
+[2026.09.30-00.11.15:085][  0]LogAssetRegistry: ActiveMountsLoading is disabled.
+[2026.09.30-00.11.15:085][  0]LogAssetRegistry: FAssetRegistry took 0.0001 seconds to start up
+[2026.09.30-00.11.15:085][  0]LogModuleManager: InternalLoadLibrary: 'TelemetryUtils' ('/home/morpheus/UnrealEngine/5.8.3/Engine/Binaries/Linux/libUnrealPak-TelemetryUtils.so')
+[2026.09.30-00.11.15:085][  0]LogUObjectArray: 877 objects as part of root set at end of initial load.
+[2026.09.30-00.11.15:085][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2026.09.30-00.11.15:086][  0]LogInit: Using OS detected language ().
+[2026.09.30-00.11.15:086][  0]LogInit: Using OS detected locale ().
+[2026.09.30-00.11.15:086][  0]LogTextLocalizationManager: No localization for '' exists, so 'en' will be used for the language.
+[2026.09.30-00.11.15:086][  0]LogTextLocalizationManager: No localization for '' exists, so 'en' will be used for the locale.
+[2026.09.30-00.11.15:086][  0]LogInit: Using OS detected language ().
+[2026.09.30-00.11.15:086][  0]LogInit: Using OS detected locale ().
+[2026.09.30-00.11.15:086][  0]LogTextLocalizationManager: No localization for '' exists, so 'en' will be used for the language.
+[2026.09.30-00.11.15:086][  0]LogTextLocalizationManager: No localization for '' exists, so 'en' will be used for the locale.
+[2026.09.30-00.11.15:086][  0]LogPakFile: Display: ProjectDir: ../../../../../Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/
+[2026.09.30-00.11.15:086][  0]LogPakFile: Display: Parsing crypto keys from a crypto key cache file
+[2026.09.30-00.11.15:086][  0]LogPakFile: Engine only spawned 30 worker threads, bumping up to 31!
+[2026.09.30-00.11.15:087][  0]LogPakFile: Display: CompressionFormats in priority order: Oodle, Zlib
+[2026.09.30-00.11.15:095][  0]LogZenServiceInstance: Found Zen config default=/home/morpheus/.config/Epic/UnrealEngine/Common/Zen/Data
+[2026.09.30-00.11.15:095][  0]LogZenServiceInstance: Display: Launching zen utility '/home/morpheus/UnrealEngine/5.8.3/Engine/Binaries/Linux/zen service status'.
+[2026.09.30-00.11.15:115][  0]LogZenServiceInstance: Display: Writing plugin version info to '/home/morpheus/.config/Epic/UnrealEngine/Common/Zen/Install/zen_plugin_versions.json'
+[2026.09.30-00.11.15:115][  0]LogZenServiceInstance: Display: Read zen version cache file from '/home/morpheus/.config/Epic/UnrealEngine/5.8/Saved/Zen/zen.version', version: '5.8.13-202605190912-linux-x86_64-release-094f62c2'
+[2026.09.30-00.11.15:115][  0]LogZenServiceInstance: InTree version at '/home/morpheus/UnrealEngine/5.8.3/Engine/Binaries/Linux/zenserver' is '5.8.13-202605190912-linux-x86_64-release-094f62c2'
+[2026.09.30-00.11.15:115][  0]LogZenServiceInstance: Display: Read zen version cache file from '/home/morpheus/.config/Epic/UnrealEngine/Common/Zen/Install/zen.version', version: '5.8.13-202605190912-linux-x86_64-release-094f62c2'
+[2026.09.30-00.11.15:115][  0]LogZenServiceInstance: Installed version at '/home/morpheus/.config/Epic/UnrealEngine/Common/Zen/Install/zenserver' is '5.8.13-202605190912-linux-x86_64-release-094f62c2'
+[2026.09.30-00.11.15:115][  0]LogZenServiceInstance: Display: Installed service at '/home/morpheus/.config/Epic/UnrealEngine/Common/Zen/Install/zenserver' is up to date
+[2026.09.30-00.11.15:116][  0]LogUnixPlatformFile: FUnixFileMapper::MapCaseInsensitiveFile: Lookup:/home/morpheus/UnrealEngine/5.8.3/Engine/Binaries/DotNet/OidcToken/linux-x64/OidcToken Found:/home/morpheus/UnrealEngine/5.8.3/Engine/Binaries/DotNET/OidcToken/linux-x64/OidcToken
+
+[2026.09.30-00.11.15:116][  0]LogZenServiceInstance: No current process using the data dir found, launching a new instance
+[2026.09.30-00.11.15:116][  0]LogZenServiceInstance: Display: Launching executable '/home/morpheus/.config/Epic/UnrealEngine/Common/Zen/Install/zenserver', working dir '/home/morpheus/.config/Epic/UnrealEngine/Common/Zen/Install', data dir '/home/morpheus/.config/Epic/UnrealEngine/Common/Zen/Data', args '--port 8558 --data-dir /home/morpheus/.config/Epic/UnrealEngine/Common/Zen/Data --http asio --gc-cache-duration-seconds 1209600 --gc-interval-seconds 21600 --gc-low-diskspace-threshold 2147483648 --cache-bucket-limit-overwrites --quiet --restrict-content-types --allow-external-oidctoken-exe=false --plugins-config "/home/morpheus/.config/Epic/UnrealEngine/Common/Zen/Install/zen_plugins_v1.json" --security-config-path "/home/morpheus/.config/Epic/UnrealEngine/Common/Zen/Install/security-config.json" --owner-pid 280749  --child-id Zen_280749_Startup --detach'
+[2026.09.30-00.11.15:204][  0]LogZenServiceInstance: Display: Unreal Zen Storage Server HTTP service at http://[::1]:8558 status: OK!.
+[2026.09.30-00.11.15:204][  0]LogZenServiceInstance: Local ZenServer AutoLaunch initialization completed in 0.089 seconds
+[2026.09.30-00.11.15:204][  0]LogModuleManager: InternalLoadLibrary: 'SSL' ('/home/morpheus/UnrealEngine/5.8.3/Engine/Binaries/Linux/libUnrealPak-SSL.so')
+[2026.09.30-00.11.15:209][  0]LogZenStore: Display: Opening oplog MorphRig.1b96f95e / Linux
+[2026.09.30-00.11.15:213][  0]LogIoStore: Display: Fetched 622 oplog items from Zen in 0.13 seconds
+[2026.09.30-00.11.15:218][  0]LogIoStore: Display: Parsed 622 oplog items 0.00 seconds, 3461 chunks
+[2026.09.30-00.11.15:228][  0]LogIoStore: Display: Loaded 665 chunk hashes from Zen in 0.01 seconds, 665 hashes updated in 0.00 seconds
+[2026.09.30-00.11.15:228][  0]LogPakFile: Display: Oodle enabled on 'NoPluginCompression' files
+[2026.09.30-00.11.15:229][  0]LogPakFile: Display: Loading response file /home/morpheus/UnrealEngine/5.8.3/Engine/Programs/AutomationTool/Saved/ResponseFiles/PakList_MorphRig-Linux.txt
+[2026.09.30-00.11.15:231][  0]LogPakFile: Display: Added 1731 entries to add to pak file.
+[2026.09.30-00.11.15:231][  0]LogPakFile: Display: Collecting files to add to pak file...
+[2026.09.30-00.11.15:235][  0]LogPakFile: Display: Collected 1731 files in 0.00s.
+[2026.09.30-00.11.15:235][  0]LogPakFile: Display: Creating pak /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Saved/StagedBuilds/Linux/MorphRig/Content/Paks/MorphRig-Linux.pak.
+[2026.09.30-00.11.15:265][  0]LogPakFile: Display: Created pak file: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Saved/StagedBuilds/Linux/MorphRig/Content/Paks/MorphRig-Linux.pak
+[2026.09.30-00.11.15:272][  0]LogPakFile: Display: CompressionFormat 0 [Oodle] : 384 files, 26189486 -> 9519205 bytes
+[2026.09.30-00.11.15:272][  0]LogPakFile: Display: CompressionFormat 2 [None] : 1347 files, 789456 -> 789456 bytes
+[2026.09.30-00.11.15:272][  0]LogPakFile: Display: Added 1731 files, 10548666 bytes total
+[2026.09.30-00.11.15:272][  0]LogPakFile: Display: PrimaryIndex size: 23934 bytes
+[2026.09.30-00.11.15:272][  0]LogPakFile: Display: PathHashIndex size: 53829 bytes
+[2026.09.30-00.11.15:272][  0]LogPakFile: Display: FullDirectoryIndex size: 57142 bytes
+[2026.09.30-00.11.15:272][  0]LogPakFile: Display: Compression summary: 36.35% of original size. Compressed Size 9519205 bytes, Original Size 26189486 bytes. 
+[2026.09.30-00.11.15:272][  0]LogPakFile: Display: Encryption - DISABLED
+[2026.09.30-00.11.15:272][  0]LogPakFile: Display: 
+[2026.09.30-00.11.15:272][  0]LogPakFile: Display: Writer and Compression Threads exited.
+[2026.09.30-00.11.15:272][  0]LogPakFile: Display: UnrealPak executed in 0.186520 seconds
+[2026.09.30-00.11.15:284][  0]LogCore: Engine exit requested (reason: UnrealPak Exiting)
+[2026.09.30-00.11.15:284][  0]LogExit: Preparing to exit.
+[2026.09.30-00.11.15:285][  0]LogExit: Object subsystem successfully closed.
+[2026.09.30-00.11.15:286][  0]LogPakFile: Destroying PakPlatformFile
+[2026.09.30-00.11.15:287][  0]LogExit: Exiting.
+[2026.09.30-00.11.15:296][  0]Log file closed, 09/30/26 02:11:15

@@ -1,0 +1,13 @@
+00:00.461  blend            | Read blend: "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/source/Operative.blend"
+up L arm 5.975811542131174e-07 0.0
+up L leg 3.7312924936936606e-07 0.0
+up R arm 5.975811542131174e-07 0.0
+up R leg 3.743546055950993e-07 0.0
+squat L arm 1.195464172800144e-06 0.0
+squat L leg 4.938380609888837e-06 0.0
+squat R arm 1.2449605831221925e-06 0.0
+squat R leg 3.961831783095483e-06 0.0
+Blender 5.1.1
+scripts disabled for "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/source/Operative.blend", skipping 'Operative_Animator_Panel.py'
+
+Blender quit

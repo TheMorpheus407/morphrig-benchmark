@@ -1,0 +1,1 @@
+﻿-Output="/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/unreal/Saved/StagedBuilds/Linux/MorphRig/Content/Paks/MorphRig-Linux.utoc" -ContainerName=MorphRig-Linux -ResponseFile="/home/morpheus/UnrealEngine/5.8.3/Engine/Programs/AutomationTool/Saved/ResponseFiles/PakListIoStore_MorphRig-Linux.txt"

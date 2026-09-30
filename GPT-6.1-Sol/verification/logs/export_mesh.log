@@ -1,0 +1,22 @@
+00:00.825  blend            | Read blend: "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/source/Operative.blend"
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/Operative.fbx'
+export finished in 0.2715 sec.
+EXPORTED export/Operative.fbx
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/Operative_LOD1.fbx'
+export finished in 0.0425 sec.
+EXPORTED export/Operative_LOD1.fbx
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/Operative_LOD2.fbx'
+export finished in 0.0277 sec.
+EXPORTED export/Operative_LOD2.fbx
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/Beacon.fbx'
+export finished in 0.0040 sec.
+EXPORTED export/Beacon.fbx
+EXPORT COMPLETE
+Blender 5.1.1
+scripts disabled for "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/source/Operative.blend", skipping 'Operative_Animator_Panel.py'
+
+Blender quit

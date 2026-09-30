@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "entries": 96,
+  "all_every_frame_pose_signatures_unchanged": true,
+  "all_sampled_pose_signatures_unchanged": true,
+  "source_metadata_changes_limited_to": [
+    "intended_layer",
+    "interrupt_blend_seconds",
+    "layer",
+    "movement_rule",
+    "priority"
+  ],
+  "manifest_changes_limited_to": [
+    "intended_layer",
+    "interrupt_blend_seconds",
+    "layer",
+    "movement_rule",
+    "priority"
+  ],
+  "all_timings_events_action_and_export_paths_unchanged": true,
+  "interrupt_blend_seconds": 0.14,
+  "locomotion_layer": "base_locomotion",
+  "priority_contract": {
+    "death_and_dead": 100,
+    "knockup": 85,
+    "knockdown_prone_getup": 80,
+    "stun": 70,
+    "sleep": 60,
+    "other": 0,
+    "respawn": "explicit request exception; priority 0"
+  },
+  "manifest_sha256": "5bccaf591d602fb73cf366366c082582a2c7e390a54cbbebb08d6044533dba57"
+}

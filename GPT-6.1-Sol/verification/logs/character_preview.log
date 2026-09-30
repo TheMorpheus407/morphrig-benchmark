@@ -1,0 +1,10 @@
+/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/source/generators/build_character.py:14: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  world=bpy.data.worlds.new('Neutral studio');world.use_nodes=True;world.node_tree.nodes['Background'].inputs[0].default_value=(.095,.12,.16,1);world.node_tree.nodes['Background'].inputs[1].default_value=.5;scene.world=world
+/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/source/generators/build_character.py:15: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  bpy.ops.mesh.primitive_plane_add(size=200,location=(0,0,-.003));floor=bpy.context.object;floor.name='Presentation_Floor';m=bpy.data.materials.new('Studio_floor');m.diffuse_color=(.095,.115,.14,1);m.use_nodes=True;m.node_tree.nodes['Principled BSDF'].inputs['Base Color'].default_value=(.075,.09,.12,1);m.node_tree.nodes['Principled BSDF'].inputs['Roughness'].default_value=.78;floor.data.materials.append(m)
+Blender 5.1.1
+00:03.994  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/verification/neutral.png'
+Info: Saved as "Operative.blend"
+FINISHED SOURCE
+
+Blender quit

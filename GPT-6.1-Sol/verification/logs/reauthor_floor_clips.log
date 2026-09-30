@@ -1,0 +1,21 @@
+00:00.451  blend            | Read blend: "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/source/Operative.blend"
+REAUTHORED jump_start 22
+REAUTHORED jump_land 25
+REAUTHORED land_heavy 34
+REAUTHORED deploy 49
+REAUTHORED knockdown_front 55
+REAUTHORED knockdown_back 58
+REAUTHORED prone_front 61
+REAUTHORED prone_back 61
+REAUTHORED getup_front 82
+REAUTHORED getup_back 85
+REAUTHORED death_front 82
+REAUTHORED death_back 88
+REAUTHORED dead_front 2
+REAUTHORED dead_back 2
+Info: Saved as "Operative.blend"
+SELECTED_SOURCE_UPDATE_COMPLETE
+Blender 5.1.1
+scripts disabled for "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/source/Operative.blend", skipping 'Operative_Animator_Panel.py'
+
+Blender quit

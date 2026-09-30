@@ -1,0 +1,40 @@
+00:00.450  blend            | Read blend: "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/source/Operative.blend"
+WEIGHTS [('upper_arm.L', 1.0)]
+KEY Basis 1.0 delta 0.0
+KEY blink_L 0.0 delta 0.0
+KEY blink_R 0.0 delta 0.0
+KEY squint_L 0.0 delta 0.0
+KEY squint_R 0.0 delta 0.0
+KEY brow_raise_L 0.0 delta 0.0
+KEY brow_raise_R 0.0 delta 0.0
+KEY brow_lower_L 0.0 delta 0.0
+KEY brow_lower_R 0.0 delta 0.0
+KEY cheek_L 0.0 delta 0.0
+KEY cheek_R 0.0 delta 0.0
+KEY jaw 0.0 delta 0.0
+KEY lip_close 0.0 delta 0.0
+KEY smile_L 0.0 delta 0.0
+KEY smile_R 0.0 delta 0.0
+KEY frown_L 0.0 delta 0.0
+KEY frown_R 0.0 delta 0.0
+KEY width 0.0 delta 0.0
+KEY pucker 0.0 delta 0.0
+KEY funnel 0.0 delta 0.0
+KEY tongue 0.0 delta 0.0
+KEY eye_yaw_L 0.0 delta 0.0
+KEY eye_yaw_R 0.0 delta 0.0
+KEY eye_pitch_L 0.0 delta 0.0
+KEY eye_pitch_R 0.0 delta 0.0
+KEY correct_shoulder_L 1.0 delta 0.005214273084388784
+KEY correct_shoulder_R 1.0 delta 0.005214273084388784
+KEY correct_hip_L 0.37394458055496216 delta 0.010428546168777569
+KEY correct_hip_R 0.37394577264785767 delta 0.020857092337555137
+KEY correct_wrist_L 1.0 delta 0.041714184675110275
+KEY correct_wrist_R 1.0 delta 0.08342836935022055
+linear expected <Vector (-0.1807, 0.0638, 1.4083)>
+DQ True <Vector (-0.1603, 0.2040, 1.4486)>
+DQ False <Vector (-0.1603, 0.2040, 1.4486)>
+Blender 5.1.1
+scripts disabled for "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/source/Operative.blend", skipping 'Operative_Animator_Panel.py'
+
+Blender quit

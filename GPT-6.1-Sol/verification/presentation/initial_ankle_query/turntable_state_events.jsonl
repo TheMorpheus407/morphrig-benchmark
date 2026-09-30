@@ -1,0 +1,8 @@
+{"t": 0.0, "epoch": 1790722098.495, "actor": "MorphOperative_2147482390", "state": "locomotion", "action": "ready clips=96 height_units=cm", "rate": 1.0, "x": 0.0, "y": 0.0, "z": 90.0}
+{"t": 0.3698, "epoch": 1790722098.954, "actor": "MorphOperative_2147482390", "state": "jump_land", "action": "enter jump_land token=2 layer=body", "rate": 1.0, "x": 0.0, "y": 0.0, "z": 88.285}
+{"t": 0.3698, "epoch": 1790722098.957, "actor": "MorphOperative_2147482390", "state": "jump_land", "action": "marker jump_land/land_contact clip_t=0.0000 token=2 cycle=0", "rate": 1.0, "x": 0.0, "y": 0.0, "z": 90.15}
+{"t": 0.3698, "epoch": 1790722098.957, "actor": "MorphOperative_2147482390", "state": "jump_land", "action": "marker jump_land/compression clip_t=0.2667 token=2 cycle=0", "rate": 1.0, "x": 0.0, "y": 0.0, "z": 90.15}
+{"t": 0.6021, "epoch": 1790722099.187, "actor": "MorphOperative_2147482390", "state": "jump_land", "action": "marker jump_land/recover clip_t=0.5667 token=2 cycle=0", "rate": 1.0, "x": 0.0, "y": 0.0, "z": 90.15}
+{"t": 0.8214, "epoch": 1790722099.405, "actor": "MorphOperative_2147482390", "state": "jump_land", "action": "complete jump_land", "rate": 1.0, "x": 0.0, "y": 0.0, "z": 90.15}
+{"t": 8.0014, "epoch": 1790722106.584, "actor": "MorphOperative_2147482390", "state": "locomotion", "action": "presentation_start", "rate": 1.0, "x": 0.0, "y": 0.0, "z": 90.15}
+{"t": 8.0014, "epoch": 1790722106.584, "actor": "MorphOperative_2147482390", "state": "idle_relaxed", "action": "enter idle_relaxed token=3 layer=body", "rate": 1.0, "x": 0.0, "y": 0.0, "z": 90.15}

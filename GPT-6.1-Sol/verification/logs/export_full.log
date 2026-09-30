@@ -1,0 +1,503 @@
+00:00.458  blend            | Read blend: "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/source/Operative.blend"
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/Operative.fbx'
+export finished in 0.1241 sec.
+EXPORTED export/Operative.fbx
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/Operative_LOD1.fbx'
+export finished in 0.0327 sec.
+EXPORTED export/Operative_LOD1.fbx
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/Operative_LOD2.fbx'
+export finished in 0.0237 sec.
+EXPORTED export/Operative_LOD2.fbx
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/Beacon.fbx'
+export finished in 0.0034 sec.
+EXPORTED export/Beacon.fbx
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/idle_relaxed.fbx'
+export finished in 0.2006 sec.
+EXPORTED export/animations/idle_relaxed.fbx
+BAKED 1 96 idle_relaxed
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/idle_combat.fbx'
+export finished in 0.1912 sec.
+EXPORTED export/animations/idle_combat.fbx
+BAKED 2 96 idle_combat
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/idle_wounded.fbx'
+export finished in 0.2127 sec.
+EXPORTED export/animations/idle_wounded.fbx
+BAKED 3 96 idle_wounded
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/walk_f.fbx'
+export finished in 0.0827 sec.
+EXPORTED export/animations/walk_f.fbx
+BAKED 4 96 walk_f
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/walk_fl.fbx'
+export finished in 0.0947 sec.
+EXPORTED export/animations/walk_fl.fbx
+BAKED 5 96 walk_fl
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/walk_l.fbx'
+export finished in 0.0869 sec.
+EXPORTED export/animations/walk_l.fbx
+BAKED 6 96 walk_l
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/walk_bl.fbx'
+export finished in 0.0841 sec.
+EXPORTED export/animations/walk_bl.fbx
+BAKED 7 96 walk_bl
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/walk_b.fbx'
+export finished in 0.0805 sec.
+EXPORTED export/animations/walk_b.fbx
+BAKED 8 96 walk_b
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/walk_br.fbx'
+export finished in 0.0850 sec.
+EXPORTED export/animations/walk_br.fbx
+BAKED 9 96 walk_br
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/walk_r.fbx'
+export finished in 0.0887 sec.
+EXPORTED export/animations/walk_r.fbx
+BAKED 10 96 walk_r
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/walk_fr.fbx'
+export finished in 0.0849 sec.
+EXPORTED export/animations/walk_fr.fbx
+BAKED 11 96 walk_fr
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/run_f.fbx'
+export finished in 0.0754 sec.
+EXPORTED export/animations/run_f.fbx
+BAKED 12 96 run_f
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/run_fl.fbx'
+export finished in 0.0806 sec.
+EXPORTED export/animations/run_fl.fbx
+BAKED 13 96 run_fl
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/run_l.fbx'
+export finished in 0.0843 sec.
+EXPORTED export/animations/run_l.fbx
+BAKED 14 96 run_l
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/run_bl.fbx'
+export finished in 0.0761 sec.
+EXPORTED export/animations/run_bl.fbx
+BAKED 15 96 run_bl
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/run_b.fbx'
+export finished in 0.0756 sec.
+EXPORTED export/animations/run_b.fbx
+BAKED 16 96 run_b
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/run_br.fbx'
+export finished in 0.0779 sec.
+EXPORTED export/animations/run_br.fbx
+BAKED 17 96 run_br
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/run_r.fbx'
+export finished in 0.0756 sec.
+EXPORTED export/animations/run_r.fbx
+BAKED 18 96 run_r
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/run_fr.fbx'
+export finished in 0.0748 sec.
+EXPORTED export/animations/run_fr.fbx
+BAKED 19 96 run_fr
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/sprint_f.fbx'
+export finished in 0.0544 sec.
+EXPORTED export/animations/sprint_f.fbx
+BAKED 20 96 sprint_f
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/start_f.fbx'
+export finished in 0.0746 sec.
+EXPORTED export/animations/start_f.fbx
+BAKED 21 96 start_f
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/stop_f.fbx'
+export finished in 0.1056 sec.
+EXPORTED export/animations/stop_f.fbx
+BAKED 22 96 stop_f
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/turn_l90.fbx'
+export finished in 0.0860 sec.
+EXPORTED export/animations/turn_l90.fbx
+BAKED 23 96 turn_l90
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/turn_r90.fbx'
+export finished in 0.0847 sec.
+EXPORTED export/animations/turn_r90.fbx
+BAKED 24 96 turn_r90
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/pivot_l180.fbx'
+export finished in 0.0875 sec.
+EXPORTED export/animations/pivot_l180.fbx
+BAKED 25 96 pivot_l180
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/pivot_r180.fbx'
+export finished in 0.0899 sec.
+EXPORTED export/animations/pivot_r180.fbx
+BAKED 26 96 pivot_r180
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/jump_start.fbx'
+export finished in 0.0846 sec.
+EXPORTED export/animations/jump_start.fbx
+BAKED 27 96 jump_start
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/jump_air.fbx'
+export finished in 0.0782 sec.
+EXPORTED export/animations/jump_air.fbx
+BAKED 28 96 jump_air
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/jump_land.fbx'
+export finished in 0.0855 sec.
+EXPORTED export/animations/jump_land.fbx
+BAKED 29 96 jump_land
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/fall.fbx'
+export finished in 0.0838 sec.
+EXPORTED export/animations/fall.fbx
+BAKED 30 96 fall
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/land_heavy.fbx'
+export finished in 0.1068 sec.
+EXPORTED export/animations/land_heavy.fbx
+BAKED 31 96 land_heavy
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/dash_f.fbx'
+export finished in 0.0602 sec.
+EXPORTED export/animations/dash_f.fbx
+BAKED 32 96 dash_f
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/dash_b.fbx'
+export finished in 0.0596 sec.
+EXPORTED export/animations/dash_b.fbx
+BAKED 33 96 dash_b
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/dash_l.fbx'
+export finished in 0.0610 sec.
+EXPORTED export/animations/dash_l.fbx
+BAKED 34 96 dash_l
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/dash_r.fbx'
+export finished in 0.0602 sec.
+EXPORTED export/animations/dash_r.fbx
+BAKED 35 96 dash_r
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/blink_out.fbx'
+export finished in 0.0549 sec.
+EXPORTED export/animations/blink_out.fbx
+BAKED 36 96 blink_out
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/blink_in.fbx'
+export finished in 0.0611 sec.
+EXPORTED export/animations/blink_in.fbx
+BAKED 37 96 blink_in
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/melee_1.fbx'
+export finished in 0.0892 sec.
+EXPORTED export/animations/melee_1.fbx
+BAKED 38 96 melee_1
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/melee_2.fbx'
+export finished in 0.0932 sec.
+EXPORTED export/animations/melee_2.fbx
+BAKED 39 96 melee_2
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/melee_3.fbx'
+export finished in 0.1153 sec.
+EXPORTED export/animations/melee_3.fbx
+BAKED 40 96 melee_3
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/ranged_fire.fbx'
+export finished in 0.0544 sec.
+EXPORTED export/animations/ranged_fire.fbx
+BAKED 41 96 ranged_fire
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/ranged_burst.fbx'
+export finished in 0.0781 sec.
+EXPORTED export/animations/ranged_burst.fbx
+BAKED 42 96 ranged_burst
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/reload.fbx'
+export finished in 0.1662 sec.
+EXPORTED export/animations/reload.fbx
+BAKED 43 96 reload
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/cast_directional.fbx'
+export finished in 0.0936 sec.
+EXPORTED export/animations/cast_directional.fbx
+BAKED 44 96 cast_directional
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/cast_ground.fbx'
+export finished in 0.1186 sec.
+EXPORTED export/animations/cast_ground.fbx
+BAKED 45 96 cast_ground
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/cast_self.fbx'
+export finished in 0.0908 sec.
+EXPORTED export/animations/cast_self.fbx
+BAKED 46 96 cast_self
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/channel_start.fbx'
+export finished in 0.0739 sec.
+EXPORTED export/animations/channel_start.fbx
+BAKED 47 96 channel_start
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/channel_loop.fbx'
+export finished in 0.1093 sec.
+EXPORTED export/animations/channel_loop.fbx
+BAKED 48 96 channel_loop
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/channel_end.fbx'
+export finished in 0.0855 sec.
+EXPORTED export/animations/channel_end.fbx
+BAKED 49 96 channel_end
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/channel_interrupt.fbx'
+export finished in 0.0602 sec.
+EXPORTED export/animations/channel_interrupt.fbx
+BAKED 50 96 channel_interrupt
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/charge_start.fbx'
+export finished in 0.0862 sec.
+EXPORTED export/animations/charge_start.fbx
+BAKED 51 96 charge_start
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/charge_hold.fbx'
+export finished in 0.0985 sec.
+EXPORTED export/animations/charge_hold.fbx
+BAKED 52 96 charge_hold
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/charge_release.fbx'
+export finished in 0.0889 sec.
+EXPORTED export/animations/charge_release.fbx
+BAKED 53 96 charge_release
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/charge_cancel.fbx'
+export finished in 0.0735 sec.
+EXPORTED export/animations/charge_cancel.fbx
+BAKED 54 96 charge_cancel
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/deploy.fbx'
+export finished in 0.1333 sec.
+EXPORTED export/animations/deploy.fbx
+BAKED 55 96 deploy
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/uplink_start.fbx'
+export finished in 0.0909 sec.
+EXPORTED export/animations/uplink_start.fbx
+BAKED 56 96 uplink_start
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/uplink_loop.fbx'
+export finished in 0.1231 sec.
+EXPORTED export/animations/uplink_loop.fbx
+BAKED 57 96 uplink_loop
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/uplink_end.fbx'
+export finished in 0.0883 sec.
+EXPORTED export/animations/uplink_end.fbx
+BAKED 58 96 uplink_end
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/uplink_cancel.fbx'
+export finished in 0.0814 sec.
+EXPORTED export/animations/uplink_cancel.fbx
+BAKED 59 96 uplink_cancel
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/hit_f.fbx'
+export finished in 0.0551 sec.
+EXPORTED export/animations/hit_f.fbx
+BAKED 60 96 hit_f
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/hit_b.fbx'
+export finished in 0.0541 sec.
+EXPORTED export/animations/hit_b.fbx
+BAKED 61 96 hit_b
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/hit_l.fbx'
+export finished in 0.0546 sec.
+EXPORTED export/animations/hit_l.fbx
+BAKED 62 96 hit_l
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/hit_r.fbx'
+export finished in 0.0554 sec.
+EXPORTED export/animations/hit_r.fbx
+BAKED 63 96 hit_r
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/stun_start.fbx'
+export finished in 0.1146 sec.
+EXPORTED export/animations/stun_start.fbx
+BAKED 64 96 stun_start
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/stun_loop.fbx'
+export finished in 0.1500 sec.
+EXPORTED export/animations/stun_loop.fbx
+BAKED 65 96 stun_loop
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/stun_end.fbx'
+export finished in 0.1036 sec.
+EXPORTED export/animations/stun_end.fbx
+BAKED 66 96 stun_end
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/knockback.fbx'
+export finished in 0.1269 sec.
+EXPORTED export/animations/knockback.fbx
+BAKED 67 96 knockback
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/knockup_start.fbx'
+export finished in 0.0850 sec.
+EXPORTED export/animations/knockup_start.fbx
+BAKED 68 96 knockup_start
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/knockup_air.fbx'
+export finished in 0.0900 sec.
+EXPORTED export/animations/knockup_air.fbx
+BAKED 69 96 knockup_air
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/knockdown_front.fbx'
+export finished in 0.1391 sec.
+EXPORTED export/animations/knockdown_front.fbx
+BAKED 70 96 knockdown_front
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/knockdown_back.fbx'
+export finished in 0.1542 sec.
+EXPORTED export/animations/knockdown_back.fbx
+BAKED 71 96 knockdown_back
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/prone_front.fbx'
+export finished in 0.1507 sec.
+EXPORTED export/animations/prone_front.fbx
+BAKED 72 96 prone_front
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/prone_back.fbx'
+export finished in 0.1533 sec.
+EXPORTED export/animations/prone_back.fbx
+BAKED 73 96 prone_back
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/getup_front.fbx'
+export finished in 0.1833 sec.
+EXPORTED export/animations/getup_front.fbx
+BAKED 74 96 getup_front
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/getup_back.fbx'
+export finished in 0.2093 sec.
+EXPORTED export/animations/getup_back.fbx
+BAKED 75 96 getup_back
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/sleep_start.fbx'
+export finished in 0.1627 sec.
+EXPORTED export/animations/sleep_start.fbx
+BAKED 76 96 sleep_start
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/sleep_loop.fbx'
+export finished in 0.1818 sec.
+EXPORTED export/animations/sleep_loop.fbx
+BAKED 77 96 sleep_loop
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/sleep_end.fbx'
+export finished in 0.1686 sec.
+EXPORTED export/animations/sleep_end.fbx
+BAKED 78 96 sleep_end
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/death_front.fbx'
+export finished in 0.1980 sec.
+EXPORTED export/animations/death_front.fbx
+BAKED 79 96 death_front
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/death_back.fbx'
+export finished in 0.1983 sec.
+EXPORTED export/animations/death_back.fbx
+BAKED 80 96 death_back
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/dead_front.fbx'
+export finished in 0.0360 sec.
+EXPORTED export/animations/dead_front.fbx
+BAKED 81 96 dead_front
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/dead_back.fbx'
+export finished in 0.0348 sec.
+EXPORTED export/animations/dead_back.fbx
+BAKED 82 96 dead_back
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/respawn.fbx'
+export finished in 0.1817 sec.
+EXPORTED export/animations/respawn.fbx
+BAKED 83 96 respawn
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/greet.fbx'
+export finished in 0.1829 sec.
+EXPORTED export/animations/greet.fbx
+BAKED 84 96 greet
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/victory.fbx'
+export finished in 0.1985 sec.
+EXPORTED export/animations/victory.fbx
+BAKED 85 96 victory
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/defeat.fbx'
+export finished in 0.1902 sec.
+EXPORTED export/animations/defeat.fbx
+BAKED 86 96 defeat
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/dialogue.fbx'
+export finished in 0.7503 sec.
+EXPORTED export/animations/dialogue.fbx
+BAKED 87 96 dialogue
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/aim_down_left.fbx'
+export finished in 0.0366 sec.
+EXPORTED export/animations/aim_down_left.fbx
+BAKED 88 96 aim_down_left
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/aim_down_center.fbx'
+export finished in 0.0349 sec.
+EXPORTED export/animations/aim_down_center.fbx
+BAKED 89 96 aim_down_center
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/aim_down_right.fbx'
+export finished in 0.0369 sec.
+EXPORTED export/animations/aim_down_right.fbx
+BAKED 90 96 aim_down_right
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/aim_level_left.fbx'
+export finished in 0.0367 sec.
+EXPORTED export/animations/aim_level_left.fbx
+BAKED 91 96 aim_level_left
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/aim_level_center.fbx'
+export finished in 0.0349 sec.
+EXPORTED export/animations/aim_level_center.fbx
+BAKED 92 96 aim_level_center
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/aim_level_right.fbx'
+export finished in 0.0477 sec.
+EXPORTED export/animations/aim_level_right.fbx
+BAKED 93 96 aim_level_right
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/aim_up_left.fbx'
+export finished in 0.0367 sec.
+EXPORTED export/animations/aim_up_left.fbx
+BAKED 94 96 aim_up_left
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/aim_up_center.fbx'
+export finished in 0.0368 sec.
+EXPORTED export/animations/aim_up_center.fbx
+BAKED 95 96 aim_up_center
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/export/animations/aim_up_right.fbx'
+export finished in 0.0347 sec.
+EXPORTED export/animations/aim_up_right.fbx
+BAKED 96 96 aim_up_right
+Info: Saved as "Operative.blend"
+EXPORT COMPLETE
+Blender 5.1.1
+scripts disabled for "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/source/Operative.blend", skipping 'Operative_Animator_Panel.py'
+
+Blender quit

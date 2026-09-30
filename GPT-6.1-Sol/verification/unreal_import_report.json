@@ -1,0 +1,3052 @@
+{
+  "engine_version": "5.8.3-58210709+++UE5+Release-5.8",
+  "mesh_only": false,
+  "source_units": "meters",
+  "runtime_units": "centimeters",
+  "import_scale": 1.0,
+  "animations": [
+    {
+      "id": "aim_down_center",
+      "asset": "/Game/Operative/Animations/aim_down_center.aim_down_center",
+      "duration": 0.03333333507180214,
+      "root_motion": false,
+      "markers": 0
+    },
+    {
+      "id": "aim_down_left",
+      "asset": "/Game/Operative/Animations/aim_down_left.aim_down_left",
+      "duration": 0.03333333507180214,
+      "root_motion": false,
+      "markers": 0
+    },
+    {
+      "id": "aim_down_right",
+      "asset": "/Game/Operative/Animations/aim_down_right.aim_down_right",
+      "duration": 0.03333333507180214,
+      "root_motion": false,
+      "markers": 0
+    },
+    {
+      "id": "aim_level_center",
+      "asset": "/Game/Operative/Animations/aim_level_center.aim_level_center",
+      "duration": 0.03333333507180214,
+      "root_motion": false,
+      "markers": 0
+    },
+    {
+      "id": "aim_level_left",
+      "asset": "/Game/Operative/Animations/aim_level_left.aim_level_left",
+      "duration": 0.03333333507180214,
+      "root_motion": false,
+      "markers": 0
+    },
+    {
+      "id": "aim_level_right",
+      "asset": "/Game/Operative/Animations/aim_level_right.aim_level_right",
+      "duration": 0.03333333507180214,
+      "root_motion": false,
+      "markers": 0
+    },
+    {
+      "id": "aim_up_center",
+      "asset": "/Game/Operative/Animations/aim_up_center.aim_up_center",
+      "duration": 0.03333333507180214,
+      "root_motion": false,
+      "markers": 0
+    },
+    {
+      "id": "aim_up_left",
+      "asset": "/Game/Operative/Animations/aim_up_left.aim_up_left",
+      "duration": 0.03333333507180214,
+      "root_motion": false,
+      "markers": 0
+    },
+    {
+      "id": "aim_up_right",
+      "asset": "/Game/Operative/Animations/aim_up_right.aim_up_right",
+      "duration": 0.03333333507180214,
+      "root_motion": false,
+      "markers": 0
+    },
+    {
+      "id": "blink_in",
+      "asset": "/Game/Operative/Animations/blink_in.blink_in",
+      "duration": 0.5,
+      "root_motion": false,
+      "markers": 3
+    },
+    {
+      "id": "blink_out",
+      "asset": "/Game/Operative/Animations/blink_out.blink_out",
+      "duration": 0.4000000059604645,
+      "root_motion": false,
+      "markers": 3
+    },
+    {
+      "id": "cast_directional",
+      "asset": "/Game/Operative/Animations/cast_directional.cast_directional",
+      "duration": 0.8999999761581421,
+      "root_motion": false,
+      "markers": 3
+    },
+    {
+      "id": "cast_ground",
+      "asset": "/Game/Operative/Animations/cast_ground.cast_ground",
+      "duration": 1.2000000476837158,
+      "root_motion": false,
+      "markers": 3
+    },
+    {
+      "id": "cast_self",
+      "asset": "/Game/Operative/Animations/cast_self.cast_self",
+      "duration": 0.8999999761581421,
+      "root_motion": false,
+      "markers": 3
+    },
+    {
+      "id": "channel_end",
+      "asset": "/Game/Operative/Animations/channel_end.channel_end",
+      "duration": 0.6000000238418579,
+      "root_motion": false,
+      "markers": 2
+    },
+    {
+      "id": "channel_interrupt",
+      "asset": "/Game/Operative/Animations/channel_interrupt.channel_interrupt",
+      "duration": 0.5,
+      "root_motion": false,
+      "markers": 3
+    },
+    {
+      "id": "channel_loop",
+      "asset": "/Game/Operative/Animations/channel_loop.channel_loop",
+      "duration": 1.2000000476837158,
+      "root_motion": false,
+      "markers": 1
+    },
+    {
+      "id": "channel_start",
+      "asset": "/Game/Operative/Animations/channel_start.channel_start",
+      "duration": 0.6000000238418579,
+      "root_motion": false,
+      "markers": 1
+    },
+    {
+      "id": "charge_cancel",
+      "asset": "/Game/Operative/Animations/charge_cancel.charge_cancel",
+      "duration": 0.6000000238418579,
+      "root_motion": false,
+      "markers": 2
+    },
+    {
+      "id": "charge_hold",
+      "asset": "/Game/Operative/Animations/charge_hold.charge_hold",
+      "duration": 1.0,
+      "root_motion": false,
+      "markers": 1
+    },
+    {
+      "id": "charge_release",
+      "asset": "/Game/Operative/Animations/charge_release.charge_release",
+      "duration": 0.800000011920929,
+      "root_motion": false,
+      "markers": 2
+    },
+    {
+      "id": "charge_start",
+      "asset": "/Game/Operative/Animations/charge_start.charge_start",
+      "duration": 0.800000011920929,
+      "root_motion": false,
+      "markers": 1
+    },
+    {
+      "id": "dash_b",
+      "asset": "/Game/Operative/Animations/dash_b.dash_b",
+      "duration": 0.5,
+      "root_motion": true,
+      "markers": 4,
+      "root_delta_cm": [
+        0.0,
+        -200.0,
+        0.0
+      ],
+      "native_extraction": {
+        "extracted_root_motion_cm": [
+          -199.99999999999682,
+          -2.6631610865024413e-05,
+          -2.3841856601089622e-05
+        ],
+        "reference_root_rotation_degrees": [
+          1.1195993782409352e-38,
+          -3.5083548023555002e-15,
+          3.5083548023555002e-15
+        ],
+        "duration": 0.5
+      }
+    },
+    {
+      "id": "dash_f",
+      "asset": "/Game/Operative/Animations/dash_f.dash_f",
+      "duration": 0.5,
+      "root_motion": true,
+      "markers": 4,
+      "root_delta_cm": [
+        0.0,
+        200.0,
+        0.0
+      ],
+      "native_extraction": {
+        "extracted_root_motion_cm": [
+          199.99999999999682,
+          2.6631610865024413e-05,
+          2.3841856601089622e-05
+        ],
+        "reference_root_rotation_degrees": [
+          1.1195993782409352e-38,
+          -3.5083548023555002e-15,
+          3.5083548023555002e-15
+        ],
+        "duration": 0.5
+      }
+    },
+    {
+      "id": "dash_l",
+      "asset": "/Game/Operative/Animations/dash_l.dash_l",
+      "duration": 0.5,
+      "root_motion": true,
+      "markers": 4,
+      "root_delta_cm": [
+        -200.0,
+        0.0,
+        0.0
+      ],
+      "native_extraction": {
+        "extracted_root_motion_cm": [
+          -2.6631610865024413e-05,
+          199.99999999999824,
+          -3.1869817064376785e-12
+        ],
+        "reference_root_rotation_degrees": [
+          1.1195993782409352e-38,
+          -3.5083548023555002e-15,
+          3.5083548023555002e-15
+        ],
+        "duration": 0.5
+      }
+    },
+    {
+      "id": "dash_r",
+      "asset": "/Game/Operative/Animations/dash_r.dash_r",
+      "duration": 0.5,
+      "root_motion": true,
+      "markers": 4,
+      "root_delta_cm": [
+        200.0,
+        0.0,
+        0.0
+      ],
+      "native_extraction": {
+        "extracted_root_motion_cm": [
+          2.6631610865024413e-05,
+          -199.99999999999824,
+          3.1869817064376785e-12
+        ],
+        "reference_root_rotation_degrees": [
+          1.1195993782409352e-38,
+          -3.5083548023555002e-15,
+          3.5083548023555002e-15
+        ],
+        "duration": 0.5
+      }
+    },
+    {
+      "id": "dead_back",
+      "asset": "/Game/Operative/Animations/dead_back.dead_back",
+      "duration": 0.03333333507180214,
+      "root_motion": false,
+      "markers": 0
+    },
+    {
+      "id": "dead_front",
+      "asset": "/Game/Operative/Animations/dead_front.dead_front",
+      "duration": 0.03333333507180214,
+      "root_motion": false,
+      "markers": 0
+    },
+    {
+      "id": "death_back",
+      "asset": "/Game/Operative/Animations/death_back.death_back",
+      "duration": 2.9000000953674316,
+      "root_motion": false,
+      "markers": 4
+    },
+    {
+      "id": "death_front",
+      "asset": "/Game/Operative/Animations/death_front.death_front",
+      "duration": 2.700000047683716,
+      "root_motion": false,
+      "markers": 5
+    },
+    {
+      "id": "defeat",
+      "asset": "/Game/Operative/Animations/defeat.defeat",
+      "duration": 2.799999952316284,
+      "root_motion": false,
+      "markers": 2
+    },
+    {
+      "id": "deploy",
+      "asset": "/Game/Operative/Animations/deploy.deploy",
+      "duration": 1.600000023841858,
+      "root_motion": false,
+      "markers": 5
+    },
+    {
+      "id": "dialogue",
+      "asset": "/Game/Operative/Animations/dialogue.dialogue",
+      "duration": 13.566666603088379,
+      "root_motion": false,
+      "markers": 7
+    },
+    {
+      "id": "fall",
+      "asset": "/Game/Operative/Animations/fall.fall",
+      "duration": 0.800000011920929,
+      "root_motion": false,
+      "markers": 0
+    },
+    {
+      "id": "getup_back",
+      "asset": "/Game/Operative/Animations/getup_back.getup_back",
+      "duration": 2.799999952316284,
+      "root_motion": false,
+      "markers": 5
+    },
+    {
+      "id": "getup_front",
+      "asset": "/Game/Operative/Animations/getup_front.getup_front",
+      "duration": 2.700000047683716,
+      "root_motion": false,
+      "markers": 5
+    },
+    {
+      "id": "greet",
+      "asset": "/Game/Operative/Animations/greet.greet",
+      "duration": 2.4000000953674316,
+      "root_motion": false,
+      "markers": 2
+    },
+    {
+      "id": "hit_b",
+      "asset": "/Game/Operative/Animations/hit_b.hit_b",
+      "duration": 0.4000000059604645,
+      "root_motion": false,
+      "markers": 2
+    },
+    {
+      "id": "hit_f",
+      "asset": "/Game/Operative/Animations/hit_f.hit_f",
+      "duration": 0.4000000059604645,
+      "root_motion": false,
+      "markers": 2
+    },
+    {
+      "id": "hit_l",
+      "asset": "/Game/Operative/Animations/hit_l.hit_l",
+      "duration": 0.4000000059604645,
+      "root_motion": false,
+      "markers": 2
+    },
+    {
+      "id": "hit_r",
+      "asset": "/Game/Operative/Animations/hit_r.hit_r",
+      "duration": 0.4000000059604645,
+      "root_motion": false,
+      "markers": 2
+    },
+    {
+      "id": "idle_combat",
+      "asset": "/Game/Operative/Animations/idle_combat.idle_combat",
+      "duration": 2.799999952316284,
+      "root_motion": false,
+      "markers": 0
+    },
+    {
+      "id": "idle_relaxed",
+      "asset": "/Game/Operative/Animations/idle_relaxed.idle_relaxed",
+      "duration": 3.0,
+      "root_motion": false,
+      "markers": 0
+    },
+    {
+      "id": "idle_wounded",
+      "asset": "/Game/Operative/Animations/idle_wounded.idle_wounded",
+      "duration": 3.200000047683716,
+      "root_motion": false,
+      "markers": 0
+    },
+    {
+      "id": "jump_air",
+      "asset": "/Game/Operative/Animations/jump_air.jump_air",
+      "duration": 0.699999988079071,
+      "root_motion": false,
+      "markers": 0
+    },
+    {
+      "id": "jump_land",
+      "asset": "/Game/Operative/Animations/jump_land.jump_land",
+      "duration": 0.800000011920929,
+      "root_motion": false,
+      "markers": 3
+    },
+    {
+      "id": "jump_start",
+      "asset": "/Game/Operative/Animations/jump_start.jump_start",
+      "duration": 0.699999988079071,
+      "root_motion": false,
+      "markers": 2
+    },
+    {
+      "id": "knockback",
+      "asset": "/Game/Operative/Animations/knockback.knockback",
+      "duration": 1.2999999523162842,
+      "root_motion": false,
+      "markers": 4
+    },
+    {
+      "id": "knockdown_back",
+      "asset": "/Game/Operative/Animations/knockdown_back.knockdown_back",
+      "duration": 1.899999976158142,
+      "root_motion": false,
+      "markers": 3
+    },
+    {
+      "id": "knockdown_front",
+      "asset": "/Game/Operative/Animations/knockdown_front.knockdown_front",
+      "duration": 1.7999999523162842,
+      "root_motion": false,
+      "markers": 3
+    },
+    {
+      "id": "knockup_air",
+      "asset": "/Game/Operative/Animations/knockup_air.knockup_air",
+      "duration": 0.8999999761581421,
+      "root_motion": false,
+      "markers": 0
+    },
+    {
+      "id": "knockup_start",
+      "asset": "/Game/Operative/Animations/knockup_start.knockup_start",
+      "duration": 0.800000011920929,
+      "root_motion": false,
+      "markers": 2
+    },
+    {
+      "id": "land_heavy",
+      "asset": "/Game/Operative/Animations/land_heavy.land_heavy",
+      "duration": 1.100000023841858,
+      "root_motion": false,
+      "markers": 3
+    },
+    {
+      "id": "melee_1",
+      "asset": "/Game/Operative/Animations/melee_1.melee_1",
+      "duration": 0.8999999761581421,
+      "root_motion": false,
+      "markers": 5
+    },
+    {
+      "id": "melee_2",
+      "asset": "/Game/Operative/Animations/melee_2.melee_2",
+      "duration": 1.0,
+      "root_motion": false,
+      "markers": 5
+    },
+    {
+      "id": "melee_3",
+      "asset": "/Game/Operative/Animations/melee_3.melee_3",
+      "duration": 1.100000023841858,
+      "root_motion": false,
+      "markers": 5
+    },
+    {
+      "id": "pivot_l180",
+      "asset": "/Game/Operative/Animations/pivot_l180.pivot_l180",
+      "duration": 0.8999999761581421,
+      "root_motion": false,
+      "markers": 4
+    },
+    {
+      "id": "pivot_r180",
+      "asset": "/Game/Operative/Animations/pivot_r180.pivot_r180",
+      "duration": 0.8999999761581421,
+      "root_motion": false,
+      "markers": 4
+    },
+    {
+      "id": "prone_back",
+      "asset": "/Game/Operative/Animations/prone_back.prone_back",
+      "duration": 2.0,
+      "root_motion": false,
+      "markers": 0
+    },
+    {
+      "id": "prone_front",
+      "asset": "/Game/Operative/Animations/prone_front.prone_front",
+      "duration": 2.0,
+      "root_motion": false,
+      "markers": 0
+    },
+    {
+      "id": "ranged_burst",
+      "asset": "/Game/Operative/Animations/ranged_burst.ranged_burst",
+      "duration": 0.699999988079071,
+      "root_motion": false,
+      "markers": 4
+    },
+    {
+      "id": "ranged_fire",
+      "asset": "/Game/Operative/Animations/ranged_fire.ranged_fire",
+      "duration": 0.4000000059604645,
+      "root_motion": false,
+      "markers": 2
+    },
+    {
+      "id": "reload",
+      "asset": "/Game/Operative/Animations/reload.reload",
+      "duration": 2.200000047683716,
+      "root_motion": false,
+      "markers": 7
+    },
+    {
+      "id": "respawn",
+      "asset": "/Game/Operative/Animations/respawn.respawn",
+      "duration": 2.5,
+      "root_motion": false,
+      "markers": 4
+    },
+    {
+      "id": "run_b",
+      "asset": "/Game/Operative/Animations/run_b.run_b",
+      "duration": 0.6000000238418579,
+      "root_motion": false,
+      "markers": 4
+    },
+    {
+      "id": "run_bl",
+      "asset": "/Game/Operative/Animations/run_bl.run_bl",
+      "duration": 0.6000000238418579,
+      "root_motion": false,
+      "markers": 4
+    },
+    {
+      "id": "run_br",
+      "asset": "/Game/Operative/Animations/run_br.run_br",
+      "duration": 0.6000000238418579,
+      "root_motion": false,
+      "markers": 4
+    },
+    {
+      "id": "run_f",
+      "asset": "/Game/Operative/Animations/run_f.run_f",
+      "duration": 0.6000000238418579,
+      "root_motion": false,
+      "markers": 4
+    },
+    {
+      "id": "run_fl",
+      "asset": "/Game/Operative/Animations/run_fl.run_fl",
+      "duration": 0.6000000238418579,
+      "root_motion": false,
+      "markers": 4
+    },
+    {
+      "id": "run_fr",
+      "asset": "/Game/Operative/Animations/run_fr.run_fr",
+      "duration": 0.6000000238418579,
+      "root_motion": false,
+      "markers": 4
+    },
+    {
+      "id": "run_l",
+      "asset": "/Game/Operative/Animations/run_l.run_l",
+      "duration": 0.6000000238418579,
+      "root_motion": false,
+      "markers": 4
+    },
+    {
+      "id": "run_r",
+      "asset": "/Game/Operative/Animations/run_r.run_r",
+      "duration": 0.6000000238418579,
+      "root_motion": false,
+      "markers": 4
+    },
+    {
+      "id": "sleep_end",
+      "asset": "/Game/Operative/Animations/sleep_end.sleep_end",
+      "duration": 2.200000047683716,
+      "root_motion": false,
+      "markers": 4
+    },
+    {
+      "id": "sleep_loop",
+      "asset": "/Game/Operative/Animations/sleep_loop.sleep_loop",
+      "duration": 2.5,
+      "root_motion": false,
+      "markers": 0
+    },
+    {
+      "id": "sleep_start",
+      "asset": "/Game/Operative/Animations/sleep_start.sleep_start",
+      "duration": 2.200000047683716,
+      "root_motion": false,
+      "markers": 3
+    },
+    {
+      "id": "sprint_f",
+      "asset": "/Game/Operative/Animations/sprint_f.sprint_f",
+      "duration": 0.4000000059604645,
+      "root_motion": false,
+      "markers": 4
+    },
+    {
+      "id": "start_f",
+      "asset": "/Game/Operative/Animations/start_f.start_f",
+      "duration": 0.6000000238418579,
+      "root_motion": false,
+      "markers": 3
+    },
+    {
+      "id": "stop_f",
+      "asset": "/Game/Operative/Animations/stop_f.stop_f",
+      "duration": 0.699999988079071,
+      "root_motion": false,
+      "markers": 3
+    },
+    {
+      "id": "stun_end",
+      "asset": "/Game/Operative/Animations/stun_end.stun_end",
+      "duration": 1.100000023841858,
+      "root_motion": false,
+      "markers": 2
+    },
+    {
+      "id": "stun_loop",
+      "asset": "/Game/Operative/Animations/stun_loop.stun_loop",
+      "duration": 2.0,
+      "root_motion": false,
+      "markers": 0
+    },
+    {
+      "id": "stun_start",
+      "asset": "/Game/Operative/Animations/stun_start.stun_start",
+      "duration": 1.2000000476837158,
+      "root_motion": false,
+      "markers": 2
+    },
+    {
+      "id": "turn_l90",
+      "asset": "/Game/Operative/Animations/turn_l90.turn_l90",
+      "duration": 0.800000011920929,
+      "root_motion": false,
+      "markers": 4
+    },
+    {
+      "id": "turn_r90",
+      "asset": "/Game/Operative/Animations/turn_r90.turn_r90",
+      "duration": 0.800000011920929,
+      "root_motion": false,
+      "markers": 4
+    },
+    {
+      "id": "uplink_cancel",
+      "asset": "/Game/Operative/Animations/uplink_cancel.uplink_cancel",
+      "duration": 0.6000000238418579,
+      "root_motion": false,
+      "markers": 2
+    },
+    {
+      "id": "uplink_end",
+      "asset": "/Game/Operative/Animations/uplink_end.uplink_end",
+      "duration": 0.699999988079071,
+      "root_motion": false,
+      "markers": 2
+    },
+    {
+      "id": "uplink_loop",
+      "asset": "/Game/Operative/Animations/uplink_loop.uplink_loop",
+      "duration": 1.5,
+      "root_motion": false,
+      "markers": 1
+    },
+    {
+      "id": "uplink_start",
+      "asset": "/Game/Operative/Animations/uplink_start.uplink_start",
+      "duration": 0.8999999761581421,
+      "root_motion": false,
+      "markers": 2
+    },
+    {
+      "id": "victory",
+      "asset": "/Game/Operative/Animations/victory.victory",
+      "duration": 3.0,
+      "root_motion": false,
+      "markers": 3
+    },
+    {
+      "id": "walk_b",
+      "asset": "/Game/Operative/Animations/walk_b.walk_b",
+      "duration": 0.800000011920929,
+      "root_motion": false,
+      "markers": 4
+    },
+    {
+      "id": "walk_bl",
+      "asset": "/Game/Operative/Animations/walk_bl.walk_bl",
+      "duration": 0.800000011920929,
+      "root_motion": false,
+      "markers": 4
+    },
+    {
+      "id": "walk_br",
+      "asset": "/Game/Operative/Animations/walk_br.walk_br",
+      "duration": 0.800000011920929,
+      "root_motion": false,
+      "markers": 4
+    },
+    {
+      "id": "walk_f",
+      "asset": "/Game/Operative/Animations/walk_f.walk_f",
+      "duration": 0.800000011920929,
+      "root_motion": false,
+      "markers": 4
+    },
+    {
+      "id": "walk_fl",
+      "asset": "/Game/Operative/Animations/walk_fl.walk_fl",
+      "duration": 0.800000011920929,
+      "root_motion": false,
+      "markers": 4
+    },
+    {
+      "id": "walk_fr",
+      "asset": "/Game/Operative/Animations/walk_fr.walk_fr",
+      "duration": 0.800000011920929,
+      "root_motion": false,
+      "markers": 4
+    },
+    {
+      "id": "walk_l",
+      "asset": "/Game/Operative/Animations/walk_l.walk_l",
+      "duration": 0.800000011920929,
+      "root_motion": false,
+      "markers": 4
+    },
+    {
+      "id": "walk_r",
+      "asset": "/Game/Operative/Animations/walk_r.walk_r",
+      "duration": 0.800000011920929,
+      "root_motion": false,
+      "markers": 4
+    }
+  ],
+  "missing": [],
+  "errors": [],
+  "import_settings": {
+    "convert_scene": "True",
+    "force_front_x_axis": "True",
+    "convert_scene_unit": "True",
+    "import_rotation": "<Struct 'Rotator' (0xa10543bba78) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+    "import_uniform_scale": "1.0",
+    "coordinate_system_policy": "<CoordinateSystemPolicy.MATCH_UP_FORWARD_AXES: 0>"
+  },
+  "materials": [
+    {
+      "slot": "Skin",
+      "asset": "/Game/Operative/Materials/M_Skin.M_Skin"
+    },
+    {
+      "slot": "Suit",
+      "asset": "/Game/Operative/Materials/M_Suit.M_Suit"
+    },
+    {
+      "slot": "Armor",
+      "asset": "/Game/Operative/Materials/M_Armor.M_Armor"
+    },
+    {
+      "slot": "Silver",
+      "asset": "/Game/Operative/Materials/M_Silver.M_Silver"
+    },
+    {
+      "slot": "Accent",
+      "asset": "/Game/Operative/Materials/M_Accent.M_Accent"
+    },
+    {
+      "slot": "Hair",
+      "asset": "/Game/Operative/Materials/M_Hair.M_Hair"
+    },
+    {
+      "slot": "Eyes",
+      "asset": "/Game/Operative/Materials/M_Eyes.M_Eyes"
+    },
+    {
+      "slot": "Mouth",
+      "asset": "/Game/Operative/Materials/M_Mouth.M_Mouth"
+    }
+  ],
+  "lods": [
+    {
+      "lod": 0,
+      "vertices": 34093,
+      "sections": 8
+    },
+    {
+      "lod": 1,
+      "vertices": 19778,
+      "sections": 8
+    },
+    {
+      "lod": 2,
+      "vertices": 11852,
+      "sections": 8
+    }
+  ],
+  "sockets": [
+    {
+      "name": "hand_L",
+      "bone": "hand.L",
+      "offset_m": [
+        0,
+        0,
+        0
+      ],
+      "unreal_bone": "hand_L"
+    },
+    {
+      "name": "hand_R",
+      "bone": "hand.R",
+      "offset_m": [
+        0,
+        0,
+        0
+      ],
+      "unreal_bone": "hand_R"
+    },
+    {
+      "name": "emitter_muzzle",
+      "bone": "forearm.R",
+      "position_m": [
+        0.39,
+        -0.08,
+        0.966
+      ],
+      "unreal_bone": "forearm_R"
+    },
+    {
+      "name": "blade_base",
+      "bone": "blade",
+      "position_m": [
+        0.442,
+        0.012,
+        1.087
+      ],
+      "unreal_bone": "blade"
+    },
+    {
+      "name": "blade_tip",
+      "bone": "blade",
+      "position_m": [
+        0.481,
+        -0.003,
+        0.825
+      ],
+      "unreal_bone": "blade"
+    },
+    {
+      "name": "effect_chest",
+      "bone": "chest",
+      "position_m": [
+        0,
+        -0.12,
+        1.3
+      ],
+      "unreal_bone": "chest"
+    },
+    {
+      "name": "cell_socket",
+      "bone": "forearm.R",
+      "position_m": [
+        0.395,
+        0.031,
+        1.01
+      ],
+      "unreal_bone": "forearm_R"
+    },
+    {
+      "name": "beacon_socket",
+      "bone": "pelvis",
+      "position_m": [
+        -0.125,
+        0.118,
+        0.96
+      ],
+      "unreal_bone": "pelvis"
+    }
+  ],
+  "mesh_bounds_cm": {
+    "height": 180
+  },
+  "bone_count": 79,
+  "root_bones": [
+    "root"
+  ],
+  "bone_hierarchy": [
+    {
+      "name": "root",
+      "parent": "None",
+      "position_cm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "pelvis",
+      "parent": "root",
+      "position_cm": [
+        -7.022607429126129e-39,
+        1.852884572118782e-22,
+        94
+      ]
+    },
+    {
+      "name": "spine_01",
+      "parent": "pelvis",
+      "position_cm": [
+        -6.17200367457246e-39,
+        2.3428345945367724e-22,
+        104.99999237060547
+      ]
+    },
+    {
+      "name": "spine_02",
+      "parent": "spine_01",
+      "position_cm": [
+        -5.275273901218625e-39,
+        2.87223018657071e-22,
+        116.99999237060547
+      ]
+    },
+    {
+      "name": "chest",
+      "parent": "spine_02",
+      "position_cm": [
+        -4.3324181090646224e-39,
+        3.441071348220595e-22,
+        130
+      ]
+    },
+    {
+      "name": "neck",
+      "parent": "chest",
+      "position_cm": [
+        -7.458929381638331e-39,
+        3.441071348220595e-22,
+        146
+      ]
+    },
+    {
+      "name": "head",
+      "parent": "neck",
+      "position_cm": [
+        -7.010564494961413e-39,
+        3.705769144237564e-22,
+        152
+      ]
+    },
+    {
+      "name": "jaw",
+      "parent": "head",
+      "position_cm": [
+        1.5,
+        3.872736035557533e-22,
+        161.39999389648438
+      ]
+    },
+    {
+      "name": "tongue",
+      "parent": "jaw",
+      "position_cm": [
+        7.000002938153786,
+        4.430247274293529e-16,
+        157.3999948072468
+      ]
+    },
+    {
+      "name": "lip_lower",
+      "parent": "jaw",
+      "position_cm": [
+        8.500003046394278,
+        5.260419588686741e-16,
+        157.79998885337454
+      ]
+    },
+    {
+      "name": "eye_L",
+      "parent": "head",
+      "position_cm": [
+        6.599999904632568,
+        3.5000000000000004,
+        166.60000610351562
+      ]
+    },
+    {
+      "name": "brow_L",
+      "parent": "head",
+      "position_cm": [
+        8.90000057220459,
+        3.5000000000000004,
+        169
+      ]
+    },
+    {
+      "name": "lid_upper_L",
+      "parent": "head",
+      "position_cm": [
+        6.599999904632568,
+        3.5000000000000004,
+        166.60000610351562
+      ]
+    },
+    {
+      "name": "lid_lower_L",
+      "parent": "head",
+      "position_cm": [
+        6.599999904632568,
+        3.5000000000000004,
+        166.60000610351562
+      ]
+    },
+    {
+      "name": "lip_corner_L",
+      "parent": "head",
+      "position_cm": [
+        8.800000190734863,
+        3.0999999046325684,
+        158.25
+      ]
+    },
+    {
+      "name": "cheek_L",
+      "parent": "head",
+      "position_cm": [
+        8,
+        5,
+        163
+      ]
+    },
+    {
+      "name": "eye_R",
+      "parent": "head",
+      "position_cm": [
+        6.599999904632568,
+        -3.4999999999999996,
+        166.60000610351562
+      ]
+    },
+    {
+      "name": "brow_R",
+      "parent": "head",
+      "position_cm": [
+        8.90000057220459,
+        -3.4999999999999996,
+        169
+      ]
+    },
+    {
+      "name": "lid_upper_R",
+      "parent": "head",
+      "position_cm": [
+        6.599999904632568,
+        -3.4999999999999996,
+        166.60000610351562
+      ]
+    },
+    {
+      "name": "lid_lower_R",
+      "parent": "head",
+      "position_cm": [
+        6.599999904632568,
+        -3.4999999999999996,
+        166.60000610351562
+      ]
+    },
+    {
+      "name": "lip_corner_R",
+      "parent": "head",
+      "position_cm": [
+        8.800000190734863,
+        -3.0999999046325684,
+        158.25
+      ]
+    },
+    {
+      "name": "cheek_R",
+      "parent": "head",
+      "position_cm": [
+        8,
+        -5,
+        163
+      ]
+    },
+    {
+      "name": "lip_upper",
+      "parent": "head",
+      "position_cm": [
+        8.5,
+        3.592260011694185e-22,
+        158.59999084472656
+      ]
+    },
+    {
+      "name": "clavicle_L",
+      "parent": "chest",
+      "position_cm": [
+        6.61744494194842e-24,
+        3.5000000000000004,
+        139
+      ]
+    },
+    {
+      "name": "upper_arm_L",
+      "parent": "clavicle_L",
+      "position_cm": [
+        -1.7763568327828056e-15,
+        19.000000029802266,
+        139
+      ]
+    },
+    {
+      "name": "forearm_L",
+      "parent": "upper_arm_L",
+      "position_cm": [
+        -3.844447858725175e-06,
+        34.000004220389144,
+        115.00000277243127
+      ]
+    },
+    {
+      "name": "hand_L",
+      "parent": "forearm_L",
+      "position_cm": [
+        1.4999971640565548,
+        40.00000605133192,
+        94.0000117722839
+      ]
+    },
+    {
+      "name": "index_01_L",
+      "parent": "hand_L",
+      "position_cm": [
+        1.9999990882733096,
+        38.70000328761778,
+        85.6999942427389
+      ]
+    },
+    {
+      "name": "index_02_L",
+      "parent": "index_01_L",
+      "position_cm": [
+        2.1999966102401434,
+        38.70000713177015,
+        82.9800087531522
+      ]
+    },
+    {
+      "name": "index_03_L",
+      "parent": "index_02_L",
+      "position_cm": [
+        2.3999969506376972,
+        38.70000714524424,
+        80.66800502307619
+      ]
+    },
+    {
+      "name": "middle_01_L",
+      "parent": "hand_L",
+      "position_cm": [
+        1.999998501703268,
+        40.49999473932209,
+        85.69999462602985
+      ]
+    },
+    {
+      "name": "middle_02_L",
+      "parent": "middle_01_L",
+      "position_cm": [
+        2.1999961597851163,
+        40.50000247349972,
+        82.70000272075204
+      ]
+    },
+    {
+      "name": "middle_03_L",
+      "parent": "middle_02_L",
+      "position_cm": [
+        2.3999962715392837,
+        40.50000634864503,
+        80.14999992342321
+      ]
+    },
+    {
+      "name": "ring_01_L",
+      "parent": "hand_L",
+      "position_cm": [
+        1.9999994859339993,
+        42.39999642267908,
+        85.6999869087344
+      ]
+    },
+    {
+      "name": "ring_02_L",
+      "parent": "ring_01_L",
+      "position_cm": [
+        2.1999965721931476,
+        42.4000002726754,
+        82.85999098013104
+      ]
+    },
+    {
+      "name": "ring_03_L",
+      "parent": "ring_02_L",
+      "position_cm": [
+        2.399996244632218,
+        42.400004073655936,
+        80.44599761798264
+      ]
+    },
+    {
+      "name": "pinky_01_L",
+      "parent": "hand_L",
+      "position_cm": [
+        1.9999991860792783,
+        44.09999727907106,
+        85.69999417106183
+      ]
+    },
+    {
+      "name": "pinky_02_L",
+      "parent": "pinky_01_L",
+      "position_cm": [
+        2.199996369232982,
+        44.10000109566254,
+        83.50000515045174
+      ]
+    },
+    {
+      "name": "pinky_03_L",
+      "parent": "pinky_02_L",
+      "position_cm": [
+        2.3999965819633697,
+        44.10000493214815,
+        81.63001026449172
+      ]
+    },
+    {
+      "name": "thumb_01_L",
+      "parent": "hand_L",
+      "position_cm": [
+        1.900000467412202,
+        38.20000690921485,
+        91.39999070815699
+      ]
+    },
+    {
+      "name": "thumb_02_L",
+      "parent": "thumb_01_L",
+      "position_cm": [
+        3.1999912931149024,
+        36.3000129915918,
+        89.1000105336378
+      ]
+    },
+    {
+      "name": "thumb_03_L",
+      "parent": "thumb_02_L",
+      "position_cm": [
+        3.8999966635392607,
+        35.40000793104204,
+        86.70000117757462
+      ]
+    },
+    {
+      "name": "wrist_twist_L",
+      "parent": "forearm_L",
+      "position_cm": [
+        0.7999973776543774,
+        37.400006603433056,
+        103.09999502250706
+      ]
+    },
+    {
+      "name": "arm_twist_L",
+      "parent": "upper_arm_L",
+      "position_cm": [
+        -1.3456058751692979e-06,
+        24.500002330250567,
+        130.20001281515098
+      ]
+    },
+    {
+      "name": "clavicle_R",
+      "parent": "chest",
+      "position_cm": [
+        -6.617444858900024e-24,
+        -3.4999999999999996,
+        139
+      ]
+    },
+    {
+      "name": "upper_arm_R",
+      "parent": "clavicle_R",
+      "position_cm": [
+        1.7763568327828056e-15,
+        -19.000000029802266,
+        139
+      ]
+    },
+    {
+      "name": "forearm_R",
+      "parent": "upper_arm_R",
+      "position_cm": [
+        -3.8444478551724615e-06,
+        -34.000004220389144,
+        115.00000277243127
+      ]
+    },
+    {
+      "name": "hand_R",
+      "parent": "forearm_R",
+      "position_cm": [
+        1.4999971640565584,
+        -40.00000605133192,
+        94.0000117722839
+      ]
+    },
+    {
+      "name": "index_01_R",
+      "parent": "hand_R",
+      "position_cm": [
+        1.9999990882733132,
+        -38.70000328761778,
+        85.6999942427389
+      ]
+    },
+    {
+      "name": "index_02_R",
+      "parent": "index_01_R",
+      "position_cm": [
+        2.199996610240147,
+        -38.70000713177015,
+        82.9800087531522
+      ]
+    },
+    {
+      "name": "index_03_R",
+      "parent": "index_02_R",
+      "position_cm": [
+        2.399996950637701,
+        -38.700007145244236,
+        80.66800502307619
+      ]
+    },
+    {
+      "name": "middle_01_R",
+      "parent": "hand_R",
+      "position_cm": [
+        1.9999985017032715,
+        -40.49999473932209,
+        85.69999462602985
+      ]
+    },
+    {
+      "name": "middle_02_R",
+      "parent": "middle_01_R",
+      "position_cm": [
+        2.19999615978512,
+        -40.50000247349972,
+        82.70000272075204
+      ]
+    },
+    {
+      "name": "middle_03_R",
+      "parent": "middle_02_R",
+      "position_cm": [
+        2.3999962715392873,
+        -40.50000634864503,
+        80.14999992342321
+      ]
+    },
+    {
+      "name": "ring_01_R",
+      "parent": "hand_R",
+      "position_cm": [
+        1.999999485934003,
+        -42.39999642267908,
+        85.6999869087344
+      ]
+    },
+    {
+      "name": "ring_02_R",
+      "parent": "ring_01_R",
+      "position_cm": [
+        2.199996572193151,
+        -42.4000002726754,
+        82.85999098013104
+      ]
+    },
+    {
+      "name": "ring_03_R",
+      "parent": "ring_02_R",
+      "position_cm": [
+        2.3999962446322214,
+        -42.40000407365548,
+        80.44599761798264
+      ]
+    },
+    {
+      "name": "pinky_01_R",
+      "parent": "hand_R",
+      "position_cm": [
+        1.9999991860792818,
+        -44.09999727907106,
+        85.69999417106183
+      ]
+    },
+    {
+      "name": "pinky_02_R",
+      "parent": "pinky_01_R",
+      "position_cm": [
+        2.1999963692329856,
+        -44.10000109566254,
+        83.50000515045174
+      ]
+    },
+    {
+      "name": "pinky_03_R",
+      "parent": "pinky_02_R",
+      "position_cm": [
+        2.3999965819633733,
+        -44.10000493214815,
+        81.63001026449172
+      ]
+    },
+    {
+      "name": "thumb_01_R",
+      "parent": "hand_R",
+      "position_cm": [
+        1.9000004674122055,
+        -38.20000690921485,
+        91.39999070815699
+      ]
+    },
+    {
+      "name": "thumb_02_R",
+      "parent": "thumb_01_R",
+      "position_cm": [
+        3.199991293114906,
+        -36.3000129915918,
+        89.1000105336378
+      ]
+    },
+    {
+      "name": "thumb_03_R",
+      "parent": "thumb_02_R",
+      "position_cm": [
+        3.899996663539264,
+        -35.40000793104204,
+        86.70000117757462
+      ]
+    },
+    {
+      "name": "wrist_twist_R",
+      "parent": "forearm_R",
+      "position_cm": [
+        0.799997377654381,
+        -37.400006603433056,
+        103.09999502250706
+      ]
+    },
+    {
+      "name": "cell",
+      "parent": "forearm_R",
+      "position_cm": [
+        -3.1000022188931826,
+        -39.50000531649246,
+        101.00001201492736
+      ]
+    },
+    {
+      "name": "blade",
+      "parent": "forearm_R",
+      "position_cm": [
+        -1.2000017416505848,
+        -44.20000590564186,
+        108.70001538335505
+      ]
+    },
+    {
+      "name": "arm_twist_R",
+      "parent": "upper_arm_R",
+      "position_cm": [
+        -1.3456058716165842e-06,
+        -24.500002330250567,
+        130.20001281515098
+      ]
+    },
+    {
+      "name": "cable_01",
+      "parent": "chest",
+      "position_cm": [
+        -9.5,
+        -9.999999999999998,
+        137
+      ]
+    },
+    {
+      "name": "cable_02",
+      "parent": "cable_01",
+      "position_cm": [
+        -12.300005122402837,
+        -13.000007623675554,
+        130.9999844329565
+      ]
+    },
+    {
+      "name": "cable_03",
+      "parent": "cable_02",
+      "position_cm": [
+        -14.799993492668062,
+        -13.399996604130427,
+        123.00000633973974
+      ]
+    },
+    {
+      "name": "thigh_L",
+      "parent": "pelvis",
+      "position_cm": [
+        2.646977960169688e-23,
+        10,
+        94
+      ]
+    },
+    {
+      "name": "shin_L",
+      "parent": "thigh_L",
+      "position_cm": [
+        2.499988262443848,
+        10.999995308831256,
+        52.99999425033255
+      ]
+    },
+    {
+      "name": "foot_L",
+      "parent": "shin_L",
+      "position_cm": [
+        -7.84623944038998e-06,
+        10.999994450963115,
+        9.999998191929826
+      ]
+    },
+    {
+      "name": "toe_L",
+      "parent": "foot_L",
+      "position_cm": [
+        13.99993806402994,
+        10.999995342371697,
+        3.999994970084355
+      ]
+    },
+    {
+      "name": "thigh_R",
+      "parent": "pelvis",
+      "position_cm": [
+        -2.646977960169689e-23,
+        -10,
+        94
+      ]
+    },
+    {
+      "name": "shin_R",
+      "parent": "thigh_R",
+      "position_cm": [
+        2.499988262443849,
+        -10.999995308831261,
+        52.99999425033255
+      ]
+    },
+    {
+      "name": "foot_R",
+      "parent": "shin_R",
+      "position_cm": [
+        -7.846239439501801e-06,
+        -10.999994450963126,
+        9.999998191929826
+      ]
+    },
+    {
+      "name": "toe_R",
+      "parent": "foot_R",
+      "position_cm": [
+        13.99993806402994,
+        -10.999995342371713,
+        3.999994970084355
+      ]
+    },
+    {
+      "name": "beacon",
+      "parent": "pelvis",
+      "position_cm": [
+        -11.800000190734863,
+        12.5,
+        96
+      ]
+    }
+  ],
+  "morph_targets": [
+    "blink_L",
+    "blink_R",
+    "squint_L",
+    "squint_R",
+    "brow_raise_L",
+    "brow_raise_R",
+    "brow_lower_L",
+    "brow_lower_R",
+    "cheek_L",
+    "cheek_R",
+    "jaw",
+    "lip_close",
+    "smile_L",
+    "smile_R",
+    "frown_L",
+    "frown_R",
+    "width",
+    "pucker",
+    "funnel",
+    "tongue",
+    "eye_yaw_L",
+    "eye_yaw_R",
+    "eye_pitch_L",
+    "eye_pitch_R",
+    "correct_shoulder_L",
+    "correct_shoulder_R",
+    "correct_hip_L",
+    "correct_hip_R",
+    "correct_wrist_L",
+    "correct_wrist_R"
+  ],
+  "reference_bone_locations_cm": {
+    "root": [
+      0,
+      0,
+      0
+    ],
+    "pelvis": [
+      -7.022607429126129e-39,
+      1.852884572118782e-22,
+      94
+    ],
+    "spine_01": [
+      -6.17200367457246e-39,
+      2.3428345945367724e-22,
+      104.99999237060547
+    ],
+    "spine_02": [
+      -5.275273901218625e-39,
+      2.87223018657071e-22,
+      116.99999237060547
+    ],
+    "chest": [
+      -4.3324181090646224e-39,
+      3.441071348220595e-22,
+      130
+    ],
+    "neck": [
+      -7.458929381638331e-39,
+      3.441071348220595e-22,
+      146
+    ],
+    "head": [
+      -7.010564494961413e-39,
+      3.705769144237564e-22,
+      152
+    ],
+    "jaw": [
+      1.5,
+      3.872736035557533e-22,
+      161.39999389648438
+    ],
+    "tongue": [
+      7.000002938153786,
+      4.430247274293529e-16,
+      157.3999948072468
+    ],
+    "lip_lower": [
+      8.500003046394278,
+      5.260419588686741e-16,
+      157.79998885337454
+    ],
+    "eye_L": [
+      6.599999904632568,
+      3.5000000000000004,
+      166.60000610351562
+    ],
+    "brow_L": [
+      8.90000057220459,
+      3.5000000000000004,
+      169
+    ],
+    "lid_upper_L": [
+      6.599999904632568,
+      3.5000000000000004,
+      166.60000610351562
+    ],
+    "lid_lower_L": [
+      6.599999904632568,
+      3.5000000000000004,
+      166.60000610351562
+    ],
+    "lip_corner_L": [
+      8.800000190734863,
+      3.0999999046325684,
+      158.25
+    ],
+    "cheek_L": [
+      8,
+      5,
+      163
+    ],
+    "eye_R": [
+      6.599999904632568,
+      -3.4999999999999996,
+      166.60000610351562
+    ],
+    "brow_R": [
+      8.90000057220459,
+      -3.4999999999999996,
+      169
+    ],
+    "lid_upper_R": [
+      6.599999904632568,
+      -3.4999999999999996,
+      166.60000610351562
+    ],
+    "lid_lower_R": [
+      6.599999904632568,
+      -3.4999999999999996,
+      166.60000610351562
+    ],
+    "lip_corner_R": [
+      8.800000190734863,
+      -3.0999999046325684,
+      158.25
+    ],
+    "cheek_R": [
+      8,
+      -5,
+      163
+    ],
+    "lip_upper": [
+      8.5,
+      3.592260011694185e-22,
+      158.59999084472656
+    ],
+    "clavicle_L": [
+      6.61744494194842e-24,
+      3.5000000000000004,
+      139
+    ],
+    "upper_arm_L": [
+      -1.7763568327828056e-15,
+      19.000000029802266,
+      139
+    ],
+    "forearm_L": [
+      -3.844447858725175e-06,
+      34.000004220389144,
+      115.00000277243127
+    ],
+    "hand_L": [
+      1.4999971640565548,
+      40.00000605133192,
+      94.0000117722839
+    ],
+    "index_01_L": [
+      1.9999990882733096,
+      38.70000328761778,
+      85.6999942427389
+    ],
+    "index_02_L": [
+      2.1999966102401434,
+      38.70000713177015,
+      82.9800087531522
+    ],
+    "index_03_L": [
+      2.3999969506376972,
+      38.70000714524424,
+      80.66800502307619
+    ],
+    "middle_01_L": [
+      1.999998501703268,
+      40.49999473932209,
+      85.69999462602985
+    ],
+    "middle_02_L": [
+      2.1999961597851163,
+      40.50000247349972,
+      82.70000272075204
+    ],
+    "middle_03_L": [
+      2.3999962715392837,
+      40.50000634864503,
+      80.14999992342321
+    ],
+    "ring_01_L": [
+      1.9999994859339993,
+      42.39999642267908,
+      85.6999869087344
+    ],
+    "ring_02_L": [
+      2.1999965721931476,
+      42.4000002726754,
+      82.85999098013104
+    ],
+    "ring_03_L": [
+      2.399996244632218,
+      42.400004073655936,
+      80.44599761798264
+    ],
+    "pinky_01_L": [
+      1.9999991860792783,
+      44.09999727907106,
+      85.69999417106183
+    ],
+    "pinky_02_L": [
+      2.199996369232982,
+      44.10000109566254,
+      83.50000515045174
+    ],
+    "pinky_03_L": [
+      2.3999965819633697,
+      44.10000493214815,
+      81.63001026449172
+    ],
+    "thumb_01_L": [
+      1.900000467412202,
+      38.20000690921485,
+      91.39999070815699
+    ],
+    "thumb_02_L": [
+      3.1999912931149024,
+      36.3000129915918,
+      89.1000105336378
+    ],
+    "thumb_03_L": [
+      3.8999966635392607,
+      35.40000793104204,
+      86.70000117757462
+    ],
+    "wrist_twist_L": [
+      0.7999973776543774,
+      37.400006603433056,
+      103.09999502250706
+    ],
+    "arm_twist_L": [
+      -1.3456058751692979e-06,
+      24.500002330250567,
+      130.20001281515098
+    ],
+    "clavicle_R": [
+      -6.617444858900024e-24,
+      -3.4999999999999996,
+      139
+    ],
+    "upper_arm_R": [
+      1.7763568327828056e-15,
+      -19.000000029802266,
+      139
+    ],
+    "forearm_R": [
+      -3.8444478551724615e-06,
+      -34.000004220389144,
+      115.00000277243127
+    ],
+    "hand_R": [
+      1.4999971640565584,
+      -40.00000605133192,
+      94.0000117722839
+    ],
+    "index_01_R": [
+      1.9999990882733132,
+      -38.70000328761778,
+      85.6999942427389
+    ],
+    "index_02_R": [
+      2.199996610240147,
+      -38.70000713177015,
+      82.9800087531522
+    ],
+    "index_03_R": [
+      2.399996950637701,
+      -38.700007145244236,
+      80.66800502307619
+    ],
+    "middle_01_R": [
+      1.9999985017032715,
+      -40.49999473932209,
+      85.69999462602985
+    ],
+    "middle_02_R": [
+      2.19999615978512,
+      -40.50000247349972,
+      82.70000272075204
+    ],
+    "middle_03_R": [
+      2.3999962715392873,
+      -40.50000634864503,
+      80.14999992342321
+    ],
+    "ring_01_R": [
+      1.999999485934003,
+      -42.39999642267908,
+      85.6999869087344
+    ],
+    "ring_02_R": [
+      2.199996572193151,
+      -42.4000002726754,
+      82.85999098013104
+    ],
+    "ring_03_R": [
+      2.3999962446322214,
+      -42.40000407365548,
+      80.44599761798264
+    ],
+    "pinky_01_R": [
+      1.9999991860792818,
+      -44.09999727907106,
+      85.69999417106183
+    ],
+    "pinky_02_R": [
+      2.1999963692329856,
+      -44.10000109566254,
+      83.50000515045174
+    ],
+    "pinky_03_R": [
+      2.3999965819633733,
+      -44.10000493214815,
+      81.63001026449172
+    ],
+    "thumb_01_R": [
+      1.9000004674122055,
+      -38.20000690921485,
+      91.39999070815699
+    ],
+    "thumb_02_R": [
+      3.199991293114906,
+      -36.3000129915918,
+      89.1000105336378
+    ],
+    "thumb_03_R": [
+      3.899996663539264,
+      -35.40000793104204,
+      86.70000117757462
+    ],
+    "wrist_twist_R": [
+      0.799997377654381,
+      -37.400006603433056,
+      103.09999502250706
+    ],
+    "cell": [
+      -3.1000022188931826,
+      -39.50000531649246,
+      101.00001201492736
+    ],
+    "blade": [
+      -1.2000017416505848,
+      -44.20000590564186,
+      108.70001538335505
+    ],
+    "arm_twist_R": [
+      -1.3456058716165842e-06,
+      -24.500002330250567,
+      130.20001281515098
+    ],
+    "cable_01": [
+      -9.5,
+      -9.999999999999998,
+      137
+    ],
+    "cable_02": [
+      -12.300005122402837,
+      -13.000007623675554,
+      130.9999844329565
+    ],
+    "cable_03": [
+      -14.799993492668062,
+      -13.399996604130427,
+      123.00000633973974
+    ],
+    "thigh_L": [
+      2.646977960169688e-23,
+      10,
+      94
+    ],
+    "shin_L": [
+      2.499988262443848,
+      10.999995308831256,
+      52.99999425033255
+    ],
+    "foot_L": [
+      -7.84623944038998e-06,
+      10.999994450963115,
+      9.999998191929826
+    ],
+    "toe_L": [
+      13.99993806402994,
+      10.999995342371697,
+      3.999994970084355
+    ],
+    "thigh_R": [
+      -2.646977960169689e-23,
+      -10,
+      94
+    ],
+    "shin_R": [
+      2.499988262443849,
+      -10.999995308831261,
+      52.99999425033255
+    ],
+    "foot_R": [
+      -7.846239439501801e-06,
+      -10.999994450963126,
+      9.999998191929826
+    ],
+    "toe_R": [
+      13.99993806402994,
+      -10.999995342371713,
+      3.999994970084355
+    ],
+    "beacon": [
+      -11.800000190734863,
+      12.5,
+      96
+    ]
+  },
+  "native_asset_inspection": {
+    "height_cm": 180,
+    "bone_count": 79,
+    "bones": [
+      {
+        "name": "root",
+        "parent": "None",
+        "position_cm": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "pelvis",
+        "parent": "root",
+        "position_cm": [
+          -7.022607429126129e-39,
+          1.852884572118782e-22,
+          94
+        ]
+      },
+      {
+        "name": "spine_01",
+        "parent": "pelvis",
+        "position_cm": [
+          -6.17200367457246e-39,
+          2.3428345945367724e-22,
+          104.99999237060547
+        ]
+      },
+      {
+        "name": "spine_02",
+        "parent": "spine_01",
+        "position_cm": [
+          -5.275273901218625e-39,
+          2.87223018657071e-22,
+          116.99999237060547
+        ]
+      },
+      {
+        "name": "chest",
+        "parent": "spine_02",
+        "position_cm": [
+          -4.3324181090646224e-39,
+          3.441071348220595e-22,
+          130
+        ]
+      },
+      {
+        "name": "neck",
+        "parent": "chest",
+        "position_cm": [
+          -7.458929381638331e-39,
+          3.441071348220595e-22,
+          146
+        ]
+      },
+      {
+        "name": "head",
+        "parent": "neck",
+        "position_cm": [
+          -7.010564494961413e-39,
+          3.705769144237564e-22,
+          152
+        ]
+      },
+      {
+        "name": "jaw",
+        "parent": "head",
+        "position_cm": [
+          1.5,
+          3.872736035557533e-22,
+          161.39999389648438
+        ]
+      },
+      {
+        "name": "tongue",
+        "parent": "jaw",
+        "position_cm": [
+          7.000002938153786,
+          4.430247274293529e-16,
+          157.3999948072468
+        ]
+      },
+      {
+        "name": "lip_lower",
+        "parent": "jaw",
+        "position_cm": [
+          8.500003046394278,
+          5.260419588686741e-16,
+          157.79998885337454
+        ]
+      },
+      {
+        "name": "eye_L",
+        "parent": "head",
+        "position_cm": [
+          6.599999904632568,
+          3.5000000000000004,
+          166.60000610351562
+        ]
+      },
+      {
+        "name": "brow_L",
+        "parent": "head",
+        "position_cm": [
+          8.90000057220459,
+          3.5000000000000004,
+          169
+        ]
+      },
+      {
+        "name": "lid_upper_L",
+        "parent": "head",
+        "position_cm": [
+          6.599999904632568,
+          3.5000000000000004,
+          166.60000610351562
+        ]
+      },
+      {
+        "name": "lid_lower_L",
+        "parent": "head",
+        "position_cm": [
+          6.599999904632568,
+          3.5000000000000004,
+          166.60000610351562
+        ]
+      },
+      {
+        "name": "lip_corner_L",
+        "parent": "head",
+        "position_cm": [
+          8.800000190734863,
+          3.0999999046325684,
+          158.25
+        ]
+      },
+      {
+        "name": "cheek_L",
+        "parent": "head",
+        "position_cm": [
+          8,
+          5,
+          163
+        ]
+      },
+      {
+        "name": "eye_R",
+        "parent": "head",
+        "position_cm": [
+          6.599999904632568,
+          -3.4999999999999996,
+          166.60000610351562
+        ]
+      },
+      {
+        "name": "brow_R",
+        "parent": "head",
+        "position_cm": [
+          8.90000057220459,
+          -3.4999999999999996,
+          169
+        ]
+      },
+      {
+        "name": "lid_upper_R",
+        "parent": "head",
+        "position_cm": [
+          6.599999904632568,
+          -3.4999999999999996,
+          166.60000610351562
+        ]
+      },
+      {
+        "name": "lid_lower_R",
+        "parent": "head",
+        "position_cm": [
+          6.599999904632568,
+          -3.4999999999999996,
+          166.60000610351562
+        ]
+      },
+      {
+        "name": "lip_corner_R",
+        "parent": "head",
+        "position_cm": [
+          8.800000190734863,
+          -3.0999999046325684,
+          158.25
+        ]
+      },
+      {
+        "name": "cheek_R",
+        "parent": "head",
+        "position_cm": [
+          8,
+          -5,
+          163
+        ]
+      },
+      {
+        "name": "lip_upper",
+        "parent": "head",
+        "position_cm": [
+          8.5,
+          3.592260011694185e-22,
+          158.59999084472656
+        ]
+      },
+      {
+        "name": "clavicle_L",
+        "parent": "chest",
+        "position_cm": [
+          6.61744494194842e-24,
+          3.5000000000000004,
+          139
+        ]
+      },
+      {
+        "name": "upper_arm_L",
+        "parent": "clavicle_L",
+        "position_cm": [
+          -1.7763568327828056e-15,
+          19.000000029802266,
+          139
+        ]
+      },
+      {
+        "name": "forearm_L",
+        "parent": "upper_arm_L",
+        "position_cm": [
+          -3.844447858725175e-06,
+          34.000004220389144,
+          115.00000277243127
+        ]
+      },
+      {
+        "name": "hand_L",
+        "parent": "forearm_L",
+        "position_cm": [
+          1.4999971640565548,
+          40.00000605133192,
+          94.0000117722839
+        ]
+      },
+      {
+        "name": "index_01_L",
+        "parent": "hand_L",
+        "position_cm": [
+          1.9999990882733096,
+          38.70000328761778,
+          85.6999942427389
+        ]
+      },
+      {
+        "name": "index_02_L",
+        "parent": "index_01_L",
+        "position_cm": [
+          2.1999966102401434,
+          38.70000713177015,
+          82.9800087531522
+        ]
+      },
+      {
+        "name": "index_03_L",
+        "parent": "index_02_L",
+        "position_cm": [
+          2.3999969506376972,
+          38.70000714524424,
+          80.66800502307619
+        ]
+      },
+      {
+        "name": "middle_01_L",
+        "parent": "hand_L",
+        "position_cm": [
+          1.999998501703268,
+          40.49999473932209,
+          85.69999462602985
+        ]
+      },
+      {
+        "name": "middle_02_L",
+        "parent": "middle_01_L",
+        "position_cm": [
+          2.1999961597851163,
+          40.50000247349972,
+          82.70000272075204
+        ]
+      },
+      {
+        "name": "middle_03_L",
+        "parent": "middle_02_L",
+        "position_cm": [
+          2.3999962715392837,
+          40.50000634864503,
+          80.14999992342321
+        ]
+      },
+      {
+        "name": "ring_01_L",
+        "parent": "hand_L",
+        "position_cm": [
+          1.9999994859339993,
+          42.39999642267908,
+          85.6999869087344
+        ]
+      },
+      {
+        "name": "ring_02_L",
+        "parent": "ring_01_L",
+        "position_cm": [
+          2.1999965721931476,
+          42.4000002726754,
+          82.85999098013104
+        ]
+      },
+      {
+        "name": "ring_03_L",
+        "parent": "ring_02_L",
+        "position_cm": [
+          2.399996244632218,
+          42.400004073655936,
+          80.44599761798264
+        ]
+      },
+      {
+        "name": "pinky_01_L",
+        "parent": "hand_L",
+        "position_cm": [
+          1.9999991860792783,
+          44.09999727907106,
+          85.69999417106183
+        ]
+      },
+      {
+        "name": "pinky_02_L",
+        "parent": "pinky_01_L",
+        "position_cm": [
+          2.199996369232982,
+          44.10000109566254,
+          83.50000515045174
+        ]
+      },
+      {
+        "name": "pinky_03_L",
+        "parent": "pinky_02_L",
+        "position_cm": [
+          2.3999965819633697,
+          44.10000493214815,
+          81.63001026449172
+        ]
+      },
+      {
+        "name": "thumb_01_L",
+        "parent": "hand_L",
+        "position_cm": [
+          1.900000467412202,
+          38.20000690921485,
+          91.39999070815699
+        ]
+      },
+      {
+        "name": "thumb_02_L",
+        "parent": "thumb_01_L",
+        "position_cm": [
+          3.1999912931149024,
+          36.3000129915918,
+          89.1000105336378
+        ]
+      },
+      {
+        "name": "thumb_03_L",
+        "parent": "thumb_02_L",
+        "position_cm": [
+          3.8999966635392607,
+          35.40000793104204,
+          86.70000117757462
+        ]
+      },
+      {
+        "name": "wrist_twist_L",
+        "parent": "forearm_L",
+        "position_cm": [
+          0.7999973776543774,
+          37.400006603433056,
+          103.09999502250706
+        ]
+      },
+      {
+        "name": "arm_twist_L",
+        "parent": "upper_arm_L",
+        "position_cm": [
+          -1.3456058751692979e-06,
+          24.500002330250567,
+          130.20001281515098
+        ]
+      },
+      {
+        "name": "clavicle_R",
+        "parent": "chest",
+        "position_cm": [
+          -6.617444858900024e-24,
+          -3.4999999999999996,
+          139
+        ]
+      },
+      {
+        "name": "upper_arm_R",
+        "parent": "clavicle_R",
+        "position_cm": [
+          1.7763568327828056e-15,
+          -19.000000029802266,
+          139
+        ]
+      },
+      {
+        "name": "forearm_R",
+        "parent": "upper_arm_R",
+        "position_cm": [
+          -3.8444478551724615e-06,
+          -34.000004220389144,
+          115.00000277243127
+        ]
+      },
+      {
+        "name": "hand_R",
+        "parent": "forearm_R",
+        "position_cm": [
+          1.4999971640565584,
+          -40.00000605133192,
+          94.0000117722839
+        ]
+      },
+      {
+        "name": "index_01_R",
+        "parent": "hand_R",
+        "position_cm": [
+          1.9999990882733132,
+          -38.70000328761778,
+          85.6999942427389
+        ]
+      },
+      {
+        "name": "index_02_R",
+        "parent": "index_01_R",
+        "position_cm": [
+          2.199996610240147,
+          -38.70000713177015,
+          82.9800087531522
+        ]
+      },
+      {
+        "name": "index_03_R",
+        "parent": "index_02_R",
+        "position_cm": [
+          2.399996950637701,
+          -38.700007145244236,
+          80.66800502307619
+        ]
+      },
+      {
+        "name": "middle_01_R",
+        "parent": "hand_R",
+        "position_cm": [
+          1.9999985017032715,
+          -40.49999473932209,
+          85.69999462602985
+        ]
+      },
+      {
+        "name": "middle_02_R",
+        "parent": "middle_01_R",
+        "position_cm": [
+          2.19999615978512,
+          -40.50000247349972,
+          82.70000272075204
+        ]
+      },
+      {
+        "name": "middle_03_R",
+        "parent": "middle_02_R",
+        "position_cm": [
+          2.3999962715392873,
+          -40.50000634864503,
+          80.14999992342321
+        ]
+      },
+      {
+        "name": "ring_01_R",
+        "parent": "hand_R",
+        "position_cm": [
+          1.999999485934003,
+          -42.39999642267908,
+          85.6999869087344
+        ]
+      },
+      {
+        "name": "ring_02_R",
+        "parent": "ring_01_R",
+        "position_cm": [
+          2.199996572193151,
+          -42.4000002726754,
+          82.85999098013104
+        ]
+      },
+      {
+        "name": "ring_03_R",
+        "parent": "ring_02_R",
+        "position_cm": [
+          2.3999962446322214,
+          -42.40000407365548,
+          80.44599761798264
+        ]
+      },
+      {
+        "name": "pinky_01_R",
+        "parent": "hand_R",
+        "position_cm": [
+          1.9999991860792818,
+          -44.09999727907106,
+          85.69999417106183
+        ]
+      },
+      {
+        "name": "pinky_02_R",
+        "parent": "pinky_01_R",
+        "position_cm": [
+          2.1999963692329856,
+          -44.10000109566254,
+          83.50000515045174
+        ]
+      },
+      {
+        "name": "pinky_03_R",
+        "parent": "pinky_02_R",
+        "position_cm": [
+          2.3999965819633733,
+          -44.10000493214815,
+          81.63001026449172
+        ]
+      },
+      {
+        "name": "thumb_01_R",
+        "parent": "hand_R",
+        "position_cm": [
+          1.9000004674122055,
+          -38.20000690921485,
+          91.39999070815699
+        ]
+      },
+      {
+        "name": "thumb_02_R",
+        "parent": "thumb_01_R",
+        "position_cm": [
+          3.199991293114906,
+          -36.3000129915918,
+          89.1000105336378
+        ]
+      },
+      {
+        "name": "thumb_03_R",
+        "parent": "thumb_02_R",
+        "position_cm": [
+          3.899996663539264,
+          -35.40000793104204,
+          86.70000117757462
+        ]
+      },
+      {
+        "name": "wrist_twist_R",
+        "parent": "forearm_R",
+        "position_cm": [
+          0.799997377654381,
+          -37.400006603433056,
+          103.09999502250706
+        ]
+      },
+      {
+        "name": "cell",
+        "parent": "forearm_R",
+        "position_cm": [
+          -3.1000022188931826,
+          -39.50000531649246,
+          101.00001201492736
+        ]
+      },
+      {
+        "name": "blade",
+        "parent": "forearm_R",
+        "position_cm": [
+          -1.2000017416505848,
+          -44.20000590564186,
+          108.70001538335505
+        ]
+      },
+      {
+        "name": "arm_twist_R",
+        "parent": "upper_arm_R",
+        "position_cm": [
+          -1.3456058716165842e-06,
+          -24.500002330250567,
+          130.20001281515098
+        ]
+      },
+      {
+        "name": "cable_01",
+        "parent": "chest",
+        "position_cm": [
+          -9.5,
+          -9.999999999999998,
+          137
+        ]
+      },
+      {
+        "name": "cable_02",
+        "parent": "cable_01",
+        "position_cm": [
+          -12.300005122402837,
+          -13.000007623675554,
+          130.9999844329565
+        ]
+      },
+      {
+        "name": "cable_03",
+        "parent": "cable_02",
+        "position_cm": [
+          -14.799993492668062,
+          -13.399996604130427,
+          123.00000633973974
+        ]
+      },
+      {
+        "name": "thigh_L",
+        "parent": "pelvis",
+        "position_cm": [
+          2.646977960169688e-23,
+          10,
+          94
+        ]
+      },
+      {
+        "name": "shin_L",
+        "parent": "thigh_L",
+        "position_cm": [
+          2.499988262443848,
+          10.999995308831256,
+          52.99999425033255
+        ]
+      },
+      {
+        "name": "foot_L",
+        "parent": "shin_L",
+        "position_cm": [
+          -7.84623944038998e-06,
+          10.999994450963115,
+          9.999998191929826
+        ]
+      },
+      {
+        "name": "toe_L",
+        "parent": "foot_L",
+        "position_cm": [
+          13.99993806402994,
+          10.999995342371697,
+          3.999994970084355
+        ]
+      },
+      {
+        "name": "thigh_R",
+        "parent": "pelvis",
+        "position_cm": [
+          -2.646977960169689e-23,
+          -10,
+          94
+        ]
+      },
+      {
+        "name": "shin_R",
+        "parent": "thigh_R",
+        "position_cm": [
+          2.499988262443849,
+          -10.999995308831261,
+          52.99999425033255
+        ]
+      },
+      {
+        "name": "foot_R",
+        "parent": "shin_R",
+        "position_cm": [
+          -7.846239439501801e-06,
+          -10.999994450963126,
+          9.999998191929826
+        ]
+      },
+      {
+        "name": "toe_R",
+        "parent": "foot_R",
+        "position_cm": [
+          13.99993806402994,
+          -10.999995342371713,
+          3.999994970084355
+        ]
+      },
+      {
+        "name": "beacon",
+        "parent": "pelvis",
+        "position_cm": [
+          -11.800000190734863,
+          12.5,
+          96
+        ]
+      }
+    ],
+    "root_bones": [
+      "root"
+    ],
+    "morph_targets": [
+      "blink_L",
+      "blink_R",
+      "squint_L",
+      "squint_R",
+      "brow_raise_L",
+      "brow_raise_R",
+      "brow_lower_L",
+      "brow_lower_R",
+      "cheek_L",
+      "cheek_R",
+      "jaw",
+      "lip_close",
+      "smile_L",
+      "smile_R",
+      "frown_L",
+      "frown_R",
+      "width",
+      "pucker",
+      "funnel",
+      "tongue",
+      "eye_yaw_L",
+      "eye_yaw_R",
+      "eye_pitch_L",
+      "eye_pitch_R",
+      "correct_shoulder_L",
+      "correct_shoulder_R",
+      "correct_hip_L",
+      "correct_hip_R",
+      "correct_wrist_L",
+      "correct_wrist_R"
+    ],
+    "lods": [
+      {
+        "lod": 0,
+        "vertices": 34093,
+        "triangles": 40940,
+        "sections": 8,
+        "section_material_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "lod": 1,
+        "vertices": 19778,
+        "triangles": 21698,
+        "sections": 8,
+        "section_material_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "lod": 2,
+        "vertices": 11852,
+        "triangles": 11053,
+        "sections": 8,
+        "section_material_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      }
+    ],
+    "morph_lod_data": [
+      {
+        "name": "blink_L",
+        "delta_vertices_by_lod": [
+          283
+        ]
+      },
+      {
+        "name": "blink_R",
+        "delta_vertices_by_lod": [
+          283
+        ]
+      },
+      {
+        "name": "squint_L",
+        "delta_vertices_by_lod": [
+          283
+        ]
+      },
+      {
+        "name": "squint_R",
+        "delta_vertices_by_lod": [
+          283
+        ]
+      },
+      {
+        "name": "brow_raise_L",
+        "delta_vertices_by_lod": [
+          185
+        ]
+      },
+      {
+        "name": "brow_raise_R",
+        "delta_vertices_by_lod": [
+          193
+        ]
+      },
+      {
+        "name": "brow_lower_L",
+        "delta_vertices_by_lod": [
+          172
+        ]
+      },
+      {
+        "name": "brow_lower_R",
+        "delta_vertices_by_lod": [
+          185
+        ]
+      },
+      {
+        "name": "cheek_L",
+        "delta_vertices_by_lod": [
+          92
+        ]
+      },
+      {
+        "name": "cheek_R",
+        "delta_vertices_by_lod": [
+          103
+        ]
+      },
+      {
+        "name": "jaw",
+        "delta_vertices_by_lod": [
+          2330
+        ]
+      },
+      {
+        "name": "lip_close",
+        "delta_vertices_by_lod": [
+          154
+        ]
+      },
+      {
+        "name": "smile_L",
+        "delta_vertices_by_lod": [
+          146
+        ]
+      },
+      {
+        "name": "smile_R",
+        "delta_vertices_by_lod": [
+          121
+        ]
+      },
+      {
+        "name": "frown_L",
+        "delta_vertices_by_lod": [
+          143
+        ]
+      },
+      {
+        "name": "frown_R",
+        "delta_vertices_by_lod": [
+          118
+        ]
+      },
+      {
+        "name": "width",
+        "delta_vertices_by_lod": [
+          420
+        ]
+      },
+      {
+        "name": "pucker",
+        "delta_vertices_by_lod": [
+          444
+        ]
+      },
+      {
+        "name": "funnel",
+        "delta_vertices_by_lod": [
+          435
+        ]
+      },
+      {
+        "name": "tongue",
+        "delta_vertices_by_lod": [
+          434
+        ]
+      },
+      {
+        "name": "eye_yaw_L",
+        "delta_vertices_by_lod": [
+          2863
+        ]
+      },
+      {
+        "name": "eye_yaw_R",
+        "delta_vertices_by_lod": [
+          2863
+        ]
+      },
+      {
+        "name": "eye_pitch_L",
+        "delta_vertices_by_lod": [
+          3285
+        ]
+      },
+      {
+        "name": "eye_pitch_R",
+        "delta_vertices_by_lod": [
+          3285
+        ]
+      },
+      {
+        "name": "correct_shoulder_L",
+        "delta_vertices_by_lod": [
+          140
+        ]
+      },
+      {
+        "name": "correct_shoulder_R",
+        "delta_vertices_by_lod": [
+          1013
+        ]
+      },
+      {
+        "name": "correct_hip_L",
+        "delta_vertices_by_lod": [
+          98
+        ]
+      },
+      {
+        "name": "correct_hip_R",
+        "delta_vertices_by_lod": [
+          98
+        ]
+      },
+      {
+        "name": "correct_wrist_L",
+        "delta_vertices_by_lod": [
+          367
+        ]
+      },
+      {
+        "name": "correct_wrist_R",
+        "delta_vertices_by_lod": [
+          366
+        ]
+      }
+    ]
+  },
+  "complete": true,
+  "normal_import": {
+    "source_convention": "OpenGL tangent +Y",
+    "flip_green_channel": true,
+    "srgb": false,
+    "compression": "TC_NORMALMAP",
+    "strength": 0.55
+  },
+  "beacon_materials": [
+    {
+      "slot": "Armor",
+      "asset": "/Game/Operative/Materials/M_Armor.M_Armor"
+    },
+    {
+      "slot": "Accent",
+      "asset": "/Game/Operative/Materials/M_Accent.M_Accent"
+    }
+  ],
+  "boot_surface_bindings": {
+    "vertices": 1938,
+    "lod": 0,
+    "source": "Measured imported LOD0 vertex positions and skin weights"
+  }
+}

@@ -1,0 +1,1928 @@
+{
+  "schema_version": 1,
+  "blender_version": "5.1.1",
+  "source": "source/Operative.blend",
+  "units": "metres",
+  "source_sha256": "afe4b13d031ed014e98918b5ea66fd4a1792dedeebccdb18abb90b09d4ab96dd",
+  "validated_utc": "2026-09-29T21:41:09Z",
+  "skinning_basis": "delivered",
+  "geometry": {
+    "Operative_LOD0": {
+      "vertices": 21438,
+      "triangles": 40940,
+      "material_slots": 8,
+      "influence_histogram": {
+        "1": 17531,
+        "2": 3492,
+        "3": 415
+      },
+      "max_deformation_influences": 3,
+      "unweighted_vertices": 0,
+      "unnormalized_vertices": 0,
+      "nondeformation_weight_vertices": 0,
+      "orphan_vertices": 0,
+      "nonfinite_vertices": false,
+      "zero_area_triangles": 138,
+      "boundary_edges": 1636,
+      "nonmanifold_edges": 0,
+      "connected_surface_components": 101,
+      "inverted_closed_components": [],
+      "uv_finite_complete": true,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "object_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Operative_LOD1": {
+      "vertices": 11210,
+      "triangles": 21698,
+      "material_slots": 8,
+      "influence_histogram": {
+        "1": 8832,
+        "2": 2142,
+        "3": 233,
+        "5": 3
+      },
+      "max_deformation_influences": 5,
+      "unweighted_vertices": 0,
+      "unnormalized_vertices": 0,
+      "nondeformation_weight_vertices": 0,
+      "orphan_vertices": 0,
+      "nonfinite_vertices": false,
+      "zero_area_triangles": 133,
+      "boundary_edges": 422,
+      "nonmanifold_edges": 0,
+      "connected_surface_components": 101,
+      "inverted_closed_components": [],
+      "uv_finite_complete": true,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "object_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Operative_LOD2": {
+      "vertices": 5826,
+      "triangles": 11053,
+      "material_slots": 8,
+      "influence_histogram": {
+        "1": 4277,
+        "2": 1414,
+        "3": 128,
+        "4": 1,
+        "5": 6
+      },
+      "max_deformation_influences": 5,
+      "unweighted_vertices": 0,
+      "unnormalized_vertices": 0,
+      "nondeformation_weight_vertices": 0,
+      "orphan_vertices": 0,
+      "nonfinite_vertices": false,
+      "zero_area_triangles": 132,
+      "boundary_edges": 299,
+      "nonmanifold_edges": 0,
+      "connected_surface_components": 101,
+      "inverted_closed_components": [],
+      "uv_finite_complete": true,
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "object_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "neutral_bounds_m": {
+      "min": [
+        -0.4510000944137573,
+        -0.18600177764892578,
+        -6.754437436029548e-07
+      ],
+      "max": [
+        0.4809999167919159,
+        0.1539994329214096,
+        1.7999999523162842
+      ],
+      "height": 1.8000006277600278
+    },
+    "raw_bounds_m": {
+      "min": [
+        -0.4509999752044678,
+        -0.18599998950958252,
+        0.0
+      ],
+      "max": [
+        0.48100000619888306,
+        0.15399999916553497,
+        1.7999999523162842
+      ]
+    },
+    "uv_bounds": {
+      "min": [
+        0.007790697272866964,
+        0.007790684700012207
+      ],
+      "max": [
+        0.992142379283905,
+        0.9922093749046326
+      ]
+    },
+    "textures": [
+      {
+        "name": "Accent_BaseColor",
+        "size": [
+          256,
+          256
+        ],
+        "packed": true,
+        "file_exists": true,
+        "RGBA8_with_mips_estimate_bytes": 349525
+      },
+      {
+        "name": "Armor_BaseColor",
+        "size": [
+          256,
+          256
+        ],
+        "packed": true,
+        "file_exists": true,
+        "RGBA8_with_mips_estimate_bytes": 349525
+      },
+      {
+        "name": "Eyes_BaseColor",
+        "size": [
+          256,
+          256
+        ],
+        "packed": true,
+        "file_exists": true,
+        "RGBA8_with_mips_estimate_bytes": 349525
+      },
+      {
+        "name": "Hair_BaseColor",
+        "size": [
+          256,
+          256
+        ],
+        "packed": true,
+        "file_exists": true,
+        "RGBA8_with_mips_estimate_bytes": 349525
+      },
+      {
+        "name": "Mouth_BaseColor",
+        "size": [
+          256,
+          256
+        ],
+        "packed": true,
+        "file_exists": true,
+        "RGBA8_with_mips_estimate_bytes": 349525
+      },
+      {
+        "name": "Silver_BaseColor",
+        "size": [
+          256,
+          256
+        ],
+        "packed": true,
+        "file_exists": true,
+        "RGBA8_with_mips_estimate_bytes": 349525
+      },
+      {
+        "name": "Skin_BaseColor",
+        "size": [
+          256,
+          256
+        ],
+        "packed": true,
+        "file_exists": true,
+        "RGBA8_with_mips_estimate_bytes": 349525
+      },
+      {
+        "name": "Skin_Normal",
+        "size": [
+          256,
+          256
+        ],
+        "packed": true,
+        "file_exists": true,
+        "RGBA8_with_mips_estimate_bytes": 349525
+      },
+      {
+        "name": "Suit_BaseColor",
+        "size": [
+          256,
+          256
+        ],
+        "packed": true,
+        "file_exists": true,
+        "RGBA8_with_mips_estimate_bytes": 349525
+      },
+      {
+        "name": "Suit_Normal",
+        "size": [
+          256,
+          256
+        ],
+        "packed": true,
+        "file_exists": true,
+        "RGBA8_with_mips_estimate_bytes": 349525
+      }
+    ],
+    "corrective_targets": {
+      "correct_shoulder_L": {
+        "affected_vertices": 84,
+        "unrelated_vertices": 0,
+        "maximum_delta_m": 0.005645000244430415
+      },
+      "correct_shoulder_R": {
+        "affected_vertices": 559,
+        "unrelated_vertices": 0,
+        "maximum_delta_m": 0.005645000244430415
+      },
+      "correct_hip_L": {
+        "affected_vertices": 56,
+        "unrelated_vertices": 0,
+        "maximum_delta_m": 0.0024514272968332125
+      },
+      "correct_hip_R": {
+        "affected_vertices": 56,
+        "unrelated_vertices": 0,
+        "maximum_delta_m": 0.0024514272968332125
+      },
+      "correct_wrist_L": {
+        "affected_vertices": 236,
+        "unrelated_vertices": 0,
+        "maximum_delta_m": 0.0019578505783617605
+      },
+      "correct_wrist_R": {
+        "affected_vertices": 236,
+        "unrelated_vertices": 0,
+        "maximum_delta_m": 0.0019578505783617605
+      }
+    }
+  },
+  "rig": {
+    "deformation_bones": 79,
+    "roots": [
+      "root"
+    ],
+    "unused_deformation_bones": [
+      "root",
+      "clavicle.L",
+      "wrist_twist.L",
+      "arm_twist.L",
+      "wrist_twist.R",
+      "arm_twist.R"
+    ],
+    "blink_visibility": {
+      "neutral": {
+        "L": {
+          "eye_surface_samples": 35,
+          "material_hit_counts": {
+            "Accent": 13,
+            "Hair": 21,
+            "Eyes": 1
+          },
+          "total_samples": 35
+        },
+        "R": {
+          "eye_surface_samples": 35,
+          "material_hit_counts": {
+            "Accent": 13,
+            "Hair": 21,
+            "Eyes": 1
+          },
+          "total_samples": 35
+        }
+      },
+      "left_only": {
+        "L": {
+          "eye_surface_samples": 0,
+          "material_hit_counts": {
+            "Skin": 35
+          },
+          "total_samples": 35
+        },
+        "R": {
+          "eye_surface_samples": 35,
+          "material_hit_counts": {
+            "Accent": 13,
+            "Hair": 21,
+            "Eyes": 1
+          },
+          "total_samples": 35
+        }
+      },
+      "both": {
+        "L": {
+          "eye_surface_samples": 0,
+          "material_hit_counts": {
+            "Skin": 35
+          },
+          "total_samples": 35
+        },
+        "R": {
+          "eye_surface_samples": 0,
+          "material_hit_counts": {
+            "Skin": 35
+          },
+          "total_samples": 35
+        }
+      }
+    },
+    "switch_matching": {
+      "arm.L": {
+        "IK_to_FK": {
+          "max_position_delta_m": 4.831401359103166e-07,
+          "position_bone": "thumb_03.L",
+          "max_rotation_delta_degrees": 0.0,
+          "rotation_bone": "upper_arm.L",
+          "max_scale_delta": 3.998401124775034e-07
+        },
+        "FK_to_IK": {
+          "max_position_delta_m": 5.975811542131174e-07,
+          "position_bone": "forearm.L",
+          "max_rotation_delta_degrees": 0.0,
+          "rotation_bone": "upper_arm.L",
+          "max_scale_delta": 8.323335673671329e-07
+        }
+      },
+      "leg.L": {
+        "IK_to_FK": {
+          "max_position_delta_m": 2.0572778651596927e-06,
+          "position_bone": "shin.L",
+          "max_rotation_delta_degrees": 0.0,
+          "rotation_bone": "thigh.L",
+          "max_scale_delta": 6.8927817335673046e-06
+        },
+        "FK_to_IK": {
+          "max_position_delta_m": 4.938380609888837e-06,
+          "position_bone": "shin.L",
+          "max_rotation_delta_degrees": 0.0,
+          "rotation_bone": "thigh.L",
+          "max_scale_delta": 1.1496127558938211e-06
+        }
+      },
+      "arm.R": {
+        "IK_to_FK": {
+          "max_position_delta_m": 8.582409135479152e-07,
+          "position_bone": "thumb_03.R",
+          "max_rotation_delta_degrees": 0.0,
+          "rotation_bone": "upper_arm.R",
+          "max_scale_delta": 5.196212462831347e-07
+        },
+        "FK_to_IK": {
+          "max_position_delta_m": 5.975811542131174e-07,
+          "position_bone": "forearm.R",
+          "max_rotation_delta_degrees": 0.0,
+          "rotation_bone": "upper_arm.R",
+          "max_scale_delta": 8.323335673671329e-07
+        }
+      },
+      "leg.R": {
+        "IK_to_FK": {
+          "max_position_delta_m": 2.0574397556892878e-06,
+          "position_bone": "shin.R",
+          "max_rotation_delta_degrees": 0.0,
+          "rotation_bone": "thigh.R",
+          "max_scale_delta": 6.926716266182755e-06
+        },
+        "FK_to_IK": {
+          "max_position_delta_m": 3.961831783095483e-06,
+          "position_bone": "shin.R",
+          "max_rotation_delta_degrees": 0.0,
+          "rotation_bone": "thigh.R",
+          "max_scale_delta": 9.610960183499514e-07
+        }
+      }
+    },
+    "hand_pivot_look_controls": {
+      "heel_heel_L": {
+        "angle_radians": -0.3,
+        "pivot_center_shift_m": 0.0,
+        "ankle_pivot_error_m": 3.4837918206368654e-06,
+        "ankle_motion_m": 0.027795001281690056
+      },
+      "toe_toe_L": {
+        "angle_radians": 0.3,
+        "pivot_center_shift_m": 0.0,
+        "ankle_pivot_error_m": 1.9875680246134776e-05,
+        "ankle_motion_m": 0.05964631953726005
+      },
+      "foot_roll_heel_L": {
+        "angle_radians": -0.3,
+        "pivot_center_shift_m": 0.0,
+        "ankle_pivot_error_m": 3.4837918206368654e-06,
+        "ankle_motion_m": 0.027795001281690056
+      },
+      "foot_roll_toe_L": {
+        "angle_radians": 0.3,
+        "pivot_center_shift_m": 0.0,
+        "ankle_pivot_error_m": 1.9875680246134776e-05,
+        "ankle_motion_m": 0.05964631953726005
+      },
+      "heel_heel_R": {
+        "angle_radians": -0.3,
+        "pivot_center_shift_m": 0.0,
+        "ankle_pivot_error_m": 3.4832241214155456e-06,
+        "ankle_motion_m": 0.02779500651713283
+      },
+      "toe_toe_R": {
+        "angle_radians": 0.3,
+        "pivot_center_shift_m": 0.0,
+        "ankle_pivot_error_m": 1.9875121654623894e-05,
+        "ankle_motion_m": 0.05964631075432478
+      },
+      "foot_roll_heel_R": {
+        "angle_radians": -0.3,
+        "pivot_center_shift_m": 0.0,
+        "ankle_pivot_error_m": 3.4832241214155456e-06,
+        "ankle_motion_m": 0.02779500651713283
+      },
+      "foot_roll_toe_R": {
+        "angle_radians": 0.3,
+        "pivot_center_shift_m": 0.0,
+        "ankle_pivot_error_m": 1.9875121654623894e-05,
+        "ankle_motion_m": 0.05964631075432478
+      },
+      "eye_look_at": {
+        "eye.L": 0.0,
+        "eye.R": 0.0
+      },
+      "head_look_at": {
+        "head": 0.0
+      }
+    },
+    "demanding_pose_metrics": {
+      "neutral": {
+        "IK_target_errors_m": {
+          "hand.L": 1.495026575891652e-07,
+          "hand.R": 1.4995161118044505e-07,
+          "foot.L": 1.343172518709298e-07,
+          "foot.R": 1.3463974273578227e-07
+        },
+        "minimum_surface_z_m": -7.061773885652656e-07,
+        "maximum_surface_z_m": 1.8000001907348633,
+        "floor_penetrating_vertex_groups": {}
+      },
+      "overhead_reach": {
+        "IK_target_errors_m": {
+          "hand.L": 1.0667607980427409e-07,
+          "hand.R": 1.0667607980427409e-07,
+          "foot.L": 1.343172518709298e-07,
+          "foot.R": 1.3463974273578227e-07
+        },
+        "minimum_surface_z_m": -7.061773885652656e-07,
+        "maximum_surface_z_m": 1.8677846193313599,
+        "floor_penetrating_vertex_groups": {}
+      },
+      "deep_squat": {
+        "IK_target_errors_m": {
+          "hand.L": 2.501129167282362e-05,
+          "hand.R": 2.5026108728264186e-05,
+          "foot.L": 5.874879369232305e-05,
+          "foot.R": 5.874879369232305e-05
+        },
+        "minimum_surface_z_m": -5.605191472568549e-05,
+        "maximum_surface_z_m": 1.4522777795791626,
+        "floor_penetrating_vertex_groups": {},
+        "knee_centers_m": {
+          "L": [
+            -0.18499457836151123,
+            -0.3053746223449707,
+            0.3942849040031433
+          ],
+          "R": [
+            0.18499460816383362,
+            -0.3053746223449707,
+            0.3942849040031433
+          ]
+        }
+      },
+      "crossed_arm": {
+        "IK_target_errors_m": {
+          "hand.L": 2.369331956936531e-05,
+          "hand.R": 1.1756978409613403e-05,
+          "foot.L": 1.343172518709298e-07,
+          "foot.R": 1.3463974273578227e-07
+        },
+        "minimum_surface_z_m": -7.061773885652656e-07,
+        "maximum_surface_z_m": 1.8000001907348633,
+        "floor_penetrating_vertex_groups": {}
+      },
+      "torso_twist": {
+        "IK_target_errors_m": {
+          "hand.L": 5.842797558647375e-05,
+          "hand.R": 4.821533154218799e-05,
+          "foot.L": 1.343172518709298e-07,
+          "foot.R": 1.3463974273578227e-07
+        },
+        "minimum_surface_z_m": -7.061773885652656e-07,
+        "maximum_surface_z_m": 1.8000001907348633,
+        "floor_penetrating_vertex_groups": {}
+      },
+      "kneeling": {
+        "IK_target_errors_m": {
+          "hand.L": 1.3835310897584619e-05,
+          "hand.R": 1.7669635842503005e-05,
+          "foot.L": 5.9850494921404747e-05,
+          "foot.R": 6.64226815220308e-05
+        },
+        "minimum_surface_z_m": -5.9191010223003104e-05,
+        "maximum_surface_z_m": 1.4600001573562622,
+        "floor_penetrating_vertex_groups": {}
+      },
+      "hand_support": {
+        "IK_target_errors_m": {
+          "hand.L": 1.1250129990683123e-07,
+          "hand.R": 1.1733186057227569e-07,
+          "foot.L": 3.342969490413201e-05,
+          "foot.R": 3.3452509500908813e-05
+        },
+        "minimum_surface_z_m": -2.636968929436989e-05,
+        "maximum_surface_z_m": 0.7760781645774841,
+        "floor_penetrating_vertex_groups": {}
+      },
+      "closed_grip": {
+        "IK_target_errors_m": {
+          "hand.L": 1.3042423820723957e-05,
+          "hand.R": 1.3069643602629443e-05,
+          "foot.L": 1.343172518709298e-07,
+          "foot.R": 1.3463974273578227e-07
+        },
+        "minimum_surface_z_m": -7.061773885652656e-07,
+        "maximum_surface_z_m": 1.8000001907348633,
+        "floor_penetrating_vertex_groups": {}
+      }
+    }
+  },
+  "face_controls": {
+    "blink.L": {
+      "affected_vertices_above_1um": 264,
+      "maximum_displacement_m": 0.018467999082275942
+    },
+    "blink.R": {
+      "affected_vertices_above_1um": 264,
+      "maximum_displacement_m": 0.018467999082275942
+    },
+    "squint.L": {
+      "affected_vertices_above_1um": 264,
+      "maximum_displacement_m": 0.008490260038589773
+    },
+    "squint.R": {
+      "affected_vertices_above_1um": 264,
+      "maximum_displacement_m": 0.008490260038589773
+    },
+    "brow_raise.L": {
+      "affected_vertices_above_1um": 152,
+      "maximum_displacement_m": 0.008999943719793886
+    },
+    "brow_raise.R": {
+      "affected_vertices_above_1um": 157,
+      "maximum_displacement_m": 0.008999943719793886
+    },
+    "brow_lower.L": {
+      "affected_vertices_above_1um": 146,
+      "maximum_displacement_m": 0.006000041942722248
+    },
+    "brow_lower.R": {
+      "affected_vertices_above_1um": 151,
+      "maximum_displacement_m": 0.006000041942722248
+    },
+    "cheek.L": {
+      "affected_vertices_above_1um": 206,
+      "maximum_displacement_m": 0.0009249171528678424
+    },
+    "cheek.R": {
+      "affected_vertices_above_1um": 219,
+      "maximum_displacement_m": 0.0009249171528678424
+    },
+    "jaw": {
+      "affected_vertices_above_1um": 1635,
+      "maximum_displacement_m": 0.0372979399608649
+    },
+    "lip_close": {
+      "affected_vertices_above_1um": 238,
+      "maximum_displacement_m": 0.0003000497817993164
+    },
+    "smile.L": {
+      "affected_vertices_above_1um": 65,
+      "maximum_displacement_m": 0.006999969482421875
+    },
+    "smile.R": {
+      "affected_vertices_above_1um": 65,
+      "maximum_displacement_m": 0.006999969482421875
+    },
+    "frown.L": {
+      "affected_vertices_above_1um": 65,
+      "maximum_displacement_m": 0.006000041942722248
+    },
+    "frown.R": {
+      "affected_vertices_above_1um": 65,
+      "maximum_displacement_m": 0.006000041942722248
+    },
+    "width": {
+      "affected_vertices_above_1um": 230,
+      "maximum_displacement_m": 0.006000001015607182
+    },
+    "pucker": {
+      "affected_vertices_above_1um": 240,
+      "maximum_displacement_m": 0.009709903886053969
+    },
+    "funnel": {
+      "affected_vertices_above_1um": 238,
+      "maximum_displacement_m": 0.004799999251186518
+    },
+    "tongue": {
+      "affected_vertices_above_1um": 264,
+      "maximum_displacement_m": 0.010706273663020684
+    },
+    "eye_yaw.L": {
+      "affected_vertices_above_1um": 1920,
+      "maximum_displacement_m": 0.006575277001800376
+    },
+    "eye_yaw.R": {
+      "affected_vertices_above_1um": 1920,
+      "maximum_displacement_m": 0.006575284471095736
+    },
+    "eye_pitch.L": {
+      "affected_vertices_above_1um": 2262,
+      "maximum_displacement_m": 0.0061585723875879905
+    },
+    "eye_pitch.R": {
+      "affected_vertices_above_1um": 2262,
+      "maximum_displacement_m": 0.0061585723875879905
+    },
+    "viseme_closure": {
+      "affected_vertices_above_1um": 238,
+      "maximum_displacement_m": 0.0003000497817993164
+    },
+    "viseme_labiodental": {
+      "affected_vertices_above_1um": 1635,
+      "maximum_displacement_m": 0.0044931450243138014
+    },
+    "viseme_open": {
+      "affected_vertices_above_1um": 1635,
+      "maximum_displacement_m": 0.02616122325450989
+    },
+    "viseme_wide": {
+      "affected_vertices_above_1um": 1637,
+      "maximum_displacement_m": 0.011229683521449034
+    },
+    "viseme_round": {
+      "affected_vertices_above_1um": 1637,
+      "maximum_displacement_m": 0.011229683521449034
+    },
+    "viseme_tongue": {
+      "affected_vertices_above_1um": 1635,
+      "maximum_displacement_m": 0.008236460795157793
+    },
+    "viseme_consonant": {
+      "affected_vertices_above_1um": 1637,
+      "maximum_displacement_m": 0.0044931450243138014
+    }
+  },
+  "checks": [
+    {
+      "name": "Operative_LOD0_triangle_budget",
+      "status": "pass",
+      "details": {
+        "actual": 40940,
+        "maximum": 80000
+      }
+    },
+    {
+      "name": "Operative_LOD0_skin",
+      "status": "pass",
+      "details": {
+        "max_deformation_influences": 3,
+        "unweighted_vertices": 0,
+        "unnormalized_vertices": 0,
+        "nondeformation_weight_vertices": 0
+      }
+    },
+    {
+      "name": "Operative_LOD0_surface_integrity",
+      "status": "pass",
+      "details": {
+        "orphan_vertices": 0,
+        "nonfinite_vertices": false,
+        "nonmanifold_edges": 0,
+        "inverted_closed_components": []
+      }
+    },
+    {
+      "name": "Operative_LOD0_UV_and_material_budget",
+      "status": "pass",
+      "details": {
+        "uv_complete": true,
+        "material_slots": 8
+      }
+    },
+    {
+      "name": "Operative_LOD1_triangle_budget",
+      "status": "pass",
+      "details": {
+        "actual": 21698,
+        "maximum": 40000
+      }
+    },
+    {
+      "name": "Operative_LOD1_skin",
+      "status": "pass",
+      "details": {
+        "max_deformation_influences": 5,
+        "unweighted_vertices": 0,
+        "unnormalized_vertices": 0,
+        "nondeformation_weight_vertices": 0
+      }
+    },
+    {
+      "name": "Operative_LOD1_surface_integrity",
+      "status": "pass",
+      "details": {
+        "orphan_vertices": 0,
+        "nonfinite_vertices": false,
+        "nonmanifold_edges": 0,
+        "inverted_closed_components": []
+      }
+    },
+    {
+      "name": "Operative_LOD1_UV_and_material_budget",
+      "status": "pass",
+      "details": {
+        "uv_complete": true,
+        "material_slots": 8
+      }
+    },
+    {
+      "name": "Operative_LOD2_triangle_budget",
+      "status": "pass",
+      "details": {
+        "actual": 11053,
+        "maximum": 20000
+      }
+    },
+    {
+      "name": "Operative_LOD2_skin",
+      "status": "pass",
+      "details": {
+        "max_deformation_influences": 5,
+        "unweighted_vertices": 0,
+        "unnormalized_vertices": 0,
+        "nondeformation_weight_vertices": 0
+      }
+    },
+    {
+      "name": "Operative_LOD2_surface_integrity",
+      "status": "pass",
+      "details": {
+        "orphan_vertices": 0,
+        "nonfinite_vertices": false,
+        "nonmanifold_edges": 0,
+        "inverted_closed_components": []
+      }
+    },
+    {
+      "name": "Operative_LOD2_UV_and_material_budget",
+      "status": "pass",
+      "details": {
+        "uv_complete": true,
+        "material_slots": 8
+      }
+    },
+    {
+      "name": "genuine_LOD_reduction",
+      "status": "pass",
+      "details": [
+        40940,
+        21698,
+        11053
+      ]
+    },
+    {
+      "name": "standing_real_world_scale",
+      "status": "pass",
+      "details": {
+        "min": [
+          -0.4510000944137573,
+          -0.18600177764892578,
+          -6.754437436029548e-07
+        ],
+        "max": [
+          0.4809999167919159,
+          0.1539994329214096,
+          1.7999999523162842
+        ],
+        "height": 1.8000006277600278
+      }
+    },
+    {
+      "name": "UVs_inside_editable_unit_tile",
+      "status": "pass",
+      "details": {
+        "min": [
+          0.007790697272866964,
+          0.007790684700012207
+        ],
+        "max": [
+          0.992142379283905,
+          0.9922093749046326
+        ]
+      }
+    },
+    {
+      "name": "available_bounded_textures",
+      "status": "pass",
+      "details": [
+        {
+          "name": "Accent_BaseColor",
+          "size": [
+            256,
+            256
+          ],
+          "packed": true,
+          "file_exists": true,
+          "RGBA8_with_mips_estimate_bytes": 349525
+        },
+        {
+          "name": "Armor_BaseColor",
+          "size": [
+            256,
+            256
+          ],
+          "packed": true,
+          "file_exists": true,
+          "RGBA8_with_mips_estimate_bytes": 349525
+        },
+        {
+          "name": "Eyes_BaseColor",
+          "size": [
+            256,
+            256
+          ],
+          "packed": true,
+          "file_exists": true,
+          "RGBA8_with_mips_estimate_bytes": 349525
+        },
+        {
+          "name": "Hair_BaseColor",
+          "size": [
+            256,
+            256
+          ],
+          "packed": true,
+          "file_exists": true,
+          "RGBA8_with_mips_estimate_bytes": 349525
+        },
+        {
+          "name": "Mouth_BaseColor",
+          "size": [
+            256,
+            256
+          ],
+          "packed": true,
+          "file_exists": true,
+          "RGBA8_with_mips_estimate_bytes": 349525
+        },
+        {
+          "name": "Silver_BaseColor",
+          "size": [
+            256,
+            256
+          ],
+          "packed": true,
+          "file_exists": true,
+          "RGBA8_with_mips_estimate_bytes": 349525
+        },
+        {
+          "name": "Skin_BaseColor",
+          "size": [
+            256,
+            256
+          ],
+          "packed": true,
+          "file_exists": true,
+          "RGBA8_with_mips_estimate_bytes": 349525
+        },
+        {
+          "name": "Skin_Normal",
+          "size": [
+            256,
+            256
+          ],
+          "packed": true,
+          "file_exists": true,
+          "RGBA8_with_mips_estimate_bytes": 349525
+        },
+        {
+          "name": "Suit_BaseColor",
+          "size": [
+            256,
+            256
+          ],
+          "packed": true,
+          "file_exists": true,
+          "RGBA8_with_mips_estimate_bytes": 349525
+        },
+        {
+          "name": "Suit_Normal",
+          "size": [
+            256,
+            256
+          ],
+          "packed": true,
+          "file_exists": true,
+          "RGBA8_with_mips_estimate_bytes": 349525
+        }
+      ]
+    },
+    {
+      "name": "corrective_locality_correct_shoulder_L",
+      "status": "pass",
+      "details": {
+        "affected_vertices": 84,
+        "unrelated_vertices": 0,
+        "maximum_delta_m": 0.005645000244430415
+      }
+    },
+    {
+      "name": "corrective_locality_correct_shoulder_R",
+      "status": "pass",
+      "details": {
+        "affected_vertices": 559,
+        "unrelated_vertices": 0,
+        "maximum_delta_m": 0.005645000244430415
+      }
+    },
+    {
+      "name": "corrective_locality_correct_hip_L",
+      "status": "pass",
+      "details": {
+        "affected_vertices": 56,
+        "unrelated_vertices": 0,
+        "maximum_delta_m": 0.0024514272968332125
+      }
+    },
+    {
+      "name": "corrective_locality_correct_hip_R",
+      "status": "pass",
+      "details": {
+        "affected_vertices": 56,
+        "unrelated_vertices": 0,
+        "maximum_delta_m": 0.0024514272968332125
+      }
+    },
+    {
+      "name": "corrective_locality_correct_wrist_L",
+      "status": "pass",
+      "details": {
+        "affected_vertices": 236,
+        "unrelated_vertices": 0,
+        "maximum_delta_m": 0.0019578505783617605
+      }
+    },
+    {
+      "name": "corrective_locality_correct_wrist_R",
+      "status": "pass",
+      "details": {
+        "affected_vertices": 236,
+        "unrelated_vertices": 0,
+        "maximum_delta_m": 0.0019578505783617605
+      }
+    },
+    {
+      "name": "single_root_independent_of_pelvis",
+      "status": "pass",
+      "details": {
+        "deformation_bones": 79,
+        "roots": [
+          "root"
+        ],
+        "unused_deformation_bones": [
+          "root",
+          "clavicle.L",
+          "wrist_twist.L",
+          "arm_twist.L",
+          "wrist_twist.R",
+          "arm_twist.R"
+        ],
+        "blink_visibility": {
+          "neutral": {
+            "L": {
+              "eye_surface_samples": 35,
+              "material_hit_counts": {
+                "Accent": 13,
+                "Hair": 21,
+                "Eyes": 1
+              },
+              "total_samples": 35
+            },
+            "R": {
+              "eye_surface_samples": 35,
+              "material_hit_counts": {
+                "Accent": 13,
+                "Hair": 21,
+                "Eyes": 1
+              },
+              "total_samples": 35
+            }
+          },
+          "left_only": {
+            "L": {
+              "eye_surface_samples": 0,
+              "material_hit_counts": {
+                "Skin": 35
+              },
+              "total_samples": 35
+            },
+            "R": {
+              "eye_surface_samples": 35,
+              "material_hit_counts": {
+                "Accent": 13,
+                "Hair": 21,
+                "Eyes": 1
+              },
+              "total_samples": 35
+            }
+          },
+          "both": {
+            "L": {
+              "eye_surface_samples": 0,
+              "material_hit_counts": {
+                "Skin": 35
+              },
+              "total_samples": 35
+            },
+            "R": {
+              "eye_surface_samples": 0,
+              "material_hit_counts": {
+                "Skin": 35
+              },
+              "total_samples": 35
+            }
+          }
+        },
+        "switch_matching": {
+          "arm.L": {
+            "IK_to_FK": {
+              "max_position_delta_m": 4.831401359103166e-07,
+              "position_bone": "thumb_03.L",
+              "max_rotation_delta_degrees": 0.0,
+              "rotation_bone": "upper_arm.L",
+              "max_scale_delta": 3.998401124775034e-07
+            },
+            "FK_to_IK": {
+              "max_position_delta_m": 5.975811542131174e-07,
+              "position_bone": "forearm.L",
+              "max_rotation_delta_degrees": 0.0,
+              "rotation_bone": "upper_arm.L",
+              "max_scale_delta": 8.323335673671329e-07
+            }
+          },
+          "leg.L": {
+            "IK_to_FK": {
+              "max_position_delta_m": 2.0572778651596927e-06,
+              "position_bone": "shin.L",
+              "max_rotation_delta_degrees": 0.0,
+              "rotation_bone": "thigh.L",
+              "max_scale_delta": 6.8927817335673046e-06
+            },
+            "FK_to_IK": {
+              "max_position_delta_m": 4.938380609888837e-06,
+              "position_bone": "shin.L",
+              "max_rotation_delta_degrees": 0.0,
+              "rotation_bone": "thigh.L",
+              "max_scale_delta": 1.1496127558938211e-06
+            }
+          },
+          "arm.R": {
+            "IK_to_FK": {
+              "max_position_delta_m": 8.582409135479152e-07,
+              "position_bone": "thumb_03.R",
+              "max_rotation_delta_degrees": 0.0,
+              "rotation_bone": "upper_arm.R",
+              "max_scale_delta": 5.196212462831347e-07
+            },
+            "FK_to_IK": {
+              "max_position_delta_m": 5.975811542131174e-07,
+              "position_bone": "forearm.R",
+              "max_rotation_delta_degrees": 0.0,
+              "rotation_bone": "upper_arm.R",
+              "max_scale_delta": 8.323335673671329e-07
+            }
+          },
+          "leg.R": {
+            "IK_to_FK": {
+              "max_position_delta_m": 2.0574397556892878e-06,
+              "position_bone": "shin.R",
+              "max_rotation_delta_degrees": 0.0,
+              "rotation_bone": "thigh.R",
+              "max_scale_delta": 6.926716266182755e-06
+            },
+            "FK_to_IK": {
+              "max_position_delta_m": 3.961831783095483e-06,
+              "position_bone": "shin.R",
+              "max_rotation_delta_degrees": 0.0,
+              "rotation_bone": "thigh.R",
+              "max_scale_delta": 9.610960183499514e-07
+            }
+          }
+        },
+        "hand_pivot_look_controls": {
+          "heel_heel_L": {
+            "angle_radians": -0.3,
+            "pivot_center_shift_m": 0.0,
+            "ankle_pivot_error_m": 3.4837918206368654e-06,
+            "ankle_motion_m": 0.027795001281690056
+          },
+          "toe_toe_L": {
+            "angle_radians": 0.3,
+            "pivot_center_shift_m": 0.0,
+            "ankle_pivot_error_m": 1.9875680246134776e-05,
+            "ankle_motion_m": 0.05964631953726005
+          },
+          "foot_roll_heel_L": {
+            "angle_radians": -0.3,
+            "pivot_center_shift_m": 0.0,
+            "ankle_pivot_error_m": 3.4837918206368654e-06,
+            "ankle_motion_m": 0.027795001281690056
+          },
+          "foot_roll_toe_L": {
+            "angle_radians": 0.3,
+            "pivot_center_shift_m": 0.0,
+            "ankle_pivot_error_m": 1.9875680246134776e-05,
+            "ankle_motion_m": 0.05964631953726005
+          },
+          "heel_heel_R": {
+            "angle_radians": -0.3,
+            "pivot_center_shift_m": 0.0,
+            "ankle_pivot_error_m": 3.4832241214155456e-06,
+            "ankle_motion_m": 0.02779500651713283
+          },
+          "toe_toe_R": {
+            "angle_radians": 0.3,
+            "pivot_center_shift_m": 0.0,
+            "ankle_pivot_error_m": 1.9875121654623894e-05,
+            "ankle_motion_m": 0.05964631075432478
+          },
+          "foot_roll_heel_R": {
+            "angle_radians": -0.3,
+            "pivot_center_shift_m": 0.0,
+            "ankle_pivot_error_m": 3.4832241214155456e-06,
+            "ankle_motion_m": 0.02779500651713283
+          },
+          "foot_roll_toe_R": {
+            "angle_radians": 0.3,
+            "pivot_center_shift_m": 0.0,
+            "ankle_pivot_error_m": 1.9875121654623894e-05,
+            "ankle_motion_m": 0.05964631075432478
+          },
+          "eye_look_at": {
+            "eye.L": 0.0,
+            "eye.R": 0.0
+          },
+          "head_look_at": {
+            "head": 0.0
+          }
+        },
+        "demanding_pose_metrics": {
+          "neutral": {
+            "IK_target_errors_m": {
+              "hand.L": 1.495026575891652e-07,
+              "hand.R": 1.4995161118044505e-07,
+              "foot.L": 1.343172518709298e-07,
+              "foot.R": 1.3463974273578227e-07
+            },
+            "minimum_surface_z_m": -7.061773885652656e-07,
+            "maximum_surface_z_m": 1.8000001907348633,
+            "floor_penetrating_vertex_groups": {}
+          },
+          "overhead_reach": {
+            "IK_target_errors_m": {
+              "hand.L": 1.0667607980427409e-07,
+              "hand.R": 1.0667607980427409e-07,
+              "foot.L": 1.343172518709298e-07,
+              "foot.R": 1.3463974273578227e-07
+            },
+            "minimum_surface_z_m": -7.061773885652656e-07,
+            "maximum_surface_z_m": 1.8677846193313599,
+            "floor_penetrating_vertex_groups": {}
+          },
+          "deep_squat": {
+            "IK_target_errors_m": {
+              "hand.L": 2.501129167282362e-05,
+              "hand.R": 2.5026108728264186e-05,
+              "foot.L": 5.874879369232305e-05,
+              "foot.R": 5.874879369232305e-05
+            },
+            "minimum_surface_z_m": -5.605191472568549e-05,
+            "maximum_surface_z_m": 1.4522777795791626,
+            "floor_penetrating_vertex_groups": {},
+            "knee_centers_m": {
+              "L": [
+                -0.18499457836151123,
+                -0.3053746223449707,
+                0.3942849040031433
+              ],
+              "R": [
+                0.18499460816383362,
+                -0.3053746223449707,
+                0.3942849040031433
+              ]
+            }
+          },
+          "crossed_arm": {
+            "IK_target_errors_m": {
+              "hand.L": 2.369331956936531e-05,
+              "hand.R": 1.1756978409613403e-05,
+              "foot.L": 1.343172518709298e-07,
+              "foot.R": 1.3463974273578227e-07
+            },
+            "minimum_surface_z_m": -7.061773885652656e-07,
+            "maximum_surface_z_m": 1.8000001907348633,
+            "floor_penetrating_vertex_groups": {}
+          },
+          "torso_twist": {
+            "IK_target_errors_m": {
+              "hand.L": 5.842797558647375e-05,
+              "hand.R": 4.821533154218799e-05,
+              "foot.L": 1.343172518709298e-07,
+              "foot.R": 1.3463974273578227e-07
+            },
+            "minimum_surface_z_m": -7.061773885652656e-07,
+            "maximum_surface_z_m": 1.8000001907348633,
+            "floor_penetrating_vertex_groups": {}
+          },
+          "kneeling": {
+            "IK_target_errors_m": {
+              "hand.L": 1.3835310897584619e-05,
+              "hand.R": 1.7669635842503005e-05,
+              "foot.L": 5.9850494921404747e-05,
+              "foot.R": 6.64226815220308e-05
+            },
+            "minimum_surface_z_m": -5.9191010223003104e-05,
+            "maximum_surface_z_m": 1.4600001573562622,
+            "floor_penetrating_vertex_groups": {}
+          },
+          "hand_support": {
+            "IK_target_errors_m": {
+              "hand.L": 1.1250129990683123e-07,
+              "hand.R": 1.1733186057227569e-07,
+              "foot.L": 3.342969490413201e-05,
+              "foot.R": 3.3452509500908813e-05
+            },
+            "minimum_surface_z_m": -2.636968929436989e-05,
+            "maximum_surface_z_m": 0.7760781645774841,
+            "floor_penetrating_vertex_groups": {}
+          },
+          "closed_grip": {
+            "IK_target_errors_m": {
+              "hand.L": 1.3042423820723957e-05,
+              "hand.R": 1.3069643602629443e-05,
+              "foot.L": 1.343172518709298e-07,
+              "foot.R": 1.3463974273578227e-07
+            },
+            "minimum_surface_z_m": -7.061773885652656e-07,
+            "maximum_surface_z_m": 1.8000001907348633,
+            "floor_penetrating_vertex_groups": {}
+          }
+        }
+      }
+    },
+    {
+      "name": "root_control_drives_export_root",
+      "status": "pass",
+      "details": {
+        "requested_m": [
+          0,
+          -2,
+          0
+        ],
+        "evaluated_m": [
+          0.0,
+          -2.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "face_control_blink.L",
+      "status": "pass",
+      "details": {
+        "affected_vertices_above_1um": 264,
+        "maximum_displacement_m": 0.018467999082275942
+      }
+    },
+    {
+      "name": "face_control_blink.R",
+      "status": "pass",
+      "details": {
+        "affected_vertices_above_1um": 264,
+        "maximum_displacement_m": 0.018467999082275942
+      }
+    },
+    {
+      "name": "face_control_squint.L",
+      "status": "pass",
+      "details": {
+        "affected_vertices_above_1um": 264,
+        "maximum_displacement_m": 0.008490260038589773
+      }
+    },
+    {
+      "name": "face_control_squint.R",
+      "status": "pass",
+      "details": {
+        "affected_vertices_above_1um": 264,
+        "maximum_displacement_m": 0.008490260038589773
+      }
+    },
+    {
+      "name": "face_control_brow_raise.L",
+      "status": "pass",
+      "details": {
+        "affected_vertices_above_1um": 152,
+        "maximum_displacement_m": 0.008999943719793886
+      }
+    },
+    {
+      "name": "face_control_brow_raise.R",
+      "status": "pass",
+      "details": {
+        "affected_vertices_above_1um": 157,
+        "maximum_displacement_m": 0.008999943719793886
+      }
+    },
+    {
+      "name": "face_control_brow_lower.L",
+      "status": "pass",
+      "details": {
+        "affected_vertices_above_1um": 146,
+        "maximum_displacement_m": 0.006000041942722248
+      }
+    },
+    {
+      "name": "face_control_brow_lower.R",
+      "status": "pass",
+      "details": {
+        "affected_vertices_above_1um": 151,
+        "maximum_displacement_m": 0.006000041942722248
+      }
+    },
+    {
+      "name": "face_control_cheek.L",
+      "status": "pass",
+      "details": {
+        "affected_vertices_above_1um": 206,
+        "maximum_displacement_m": 0.0009249171528678424
+      }
+    },
+    {
+      "name": "face_control_cheek.R",
+      "status": "pass",
+      "details": {
+        "affected_vertices_above_1um": 219,
+        "maximum_displacement_m": 0.0009249171528678424
+      }
+    },
+    {
+      "name": "face_control_jaw",
+      "status": "pass",
+      "details": {
+        "affected_vertices_above_1um": 1635,
+        "maximum_displacement_m": 0.0372979399608649
+      }
+    },
+    {
+      "name": "face_control_lip_close",
+      "status": "pass",
+      "details": {
+        "affected_vertices_above_1um": 238,
+        "maximum_displacement_m": 0.0003000497817993164
+      }
+    },
+    {
+      "name": "face_control_smile.L",
+      "status": "pass",
+      "details": {
+        "affected_vertices_above_1um": 65,
+        "maximum_displacement_m": 0.006999969482421875
+      }
+    },
+    {
+      "name": "face_control_smile.R",
+      "status": "pass",
+      "details": {
+        "affected_vertices_above_1um": 65,
+        "maximum_displacement_m": 0.006999969482421875
+      }
+    },
+    {
+      "name": "face_control_frown.L",
+      "status": "pass",
+      "details": {
+        "affected_vertices_above_1um": 65,
+        "maximum_displacement_m": 0.006000041942722248
+      }
+    },
+    {
+      "name": "face_control_frown.R",
+      "status": "pass",
+      "details": {
+        "affected_vertices_above_1um": 65,
+        "maximum_displacement_m": 0.006000041942722248
+      }
+    },
+    {
+      "name": "face_control_width",
+      "status": "pass",
+      "details": {
+        "affected_vertices_above_1um": 230,
+        "maximum_displacement_m": 0.006000001015607182
+      }
+    },
+    {
+      "name": "face_control_pucker",
+      "status": "pass",
+      "details": {
+        "affected_vertices_above_1um": 240,
+        "maximum_displacement_m": 0.009709903886053969
+      }
+    },
+    {
+      "name": "face_control_funnel",
+      "status": "pass",
+      "details": {
+        "affected_vertices_above_1um": 238,
+        "maximum_displacement_m": 0.004799999251186518
+      }
+    },
+    {
+      "name": "face_control_tongue",
+      "status": "pass",
+      "details": {
+        "affected_vertices_above_1um": 264,
+        "maximum_displacement_m": 0.010706273663020684
+      }
+    },
+    {
+      "name": "face_control_eye_yaw.L",
+      "status": "pass",
+      "details": {
+        "affected_vertices_above_1um": 1920,
+        "maximum_displacement_m": 0.006575277001800376
+      }
+    },
+    {
+      "name": "face_control_eye_yaw.R",
+      "status": "pass",
+      "details": {
+        "affected_vertices_above_1um": 1920,
+        "maximum_displacement_m": 0.006575284471095736
+      }
+    },
+    {
+      "name": "face_control_eye_pitch.L",
+      "status": "pass",
+      "details": {
+        "affected_vertices_above_1um": 2262,
+        "maximum_displacement_m": 0.0061585723875879905
+      }
+    },
+    {
+      "name": "face_control_eye_pitch.R",
+      "status": "pass",
+      "details": {
+        "affected_vertices_above_1um": 2262,
+        "maximum_displacement_m": 0.0061585723875879905
+      }
+    },
+    {
+      "name": "face_control_viseme_closure",
+      "status": "pass",
+      "details": {
+        "affected_vertices_above_1um": 238,
+        "maximum_displacement_m": 0.0003000497817993164
+      }
+    },
+    {
+      "name": "face_control_viseme_labiodental",
+      "status": "pass",
+      "details": {
+        "affected_vertices_above_1um": 1635,
+        "maximum_displacement_m": 0.0044931450243138014
+      }
+    },
+    {
+      "name": "face_control_viseme_open",
+      "status": "pass",
+      "details": {
+        "affected_vertices_above_1um": 1635,
+        "maximum_displacement_m": 0.02616122325450989
+      }
+    },
+    {
+      "name": "face_control_viseme_wide",
+      "status": "pass",
+      "details": {
+        "affected_vertices_above_1um": 1637,
+        "maximum_displacement_m": 0.011229683521449034
+      }
+    },
+    {
+      "name": "face_control_viseme_round",
+      "status": "pass",
+      "details": {
+        "affected_vertices_above_1um": 1637,
+        "maximum_displacement_m": 0.011229683521449034
+      }
+    },
+    {
+      "name": "face_control_viseme_tongue",
+      "status": "pass",
+      "details": {
+        "affected_vertices_above_1um": 1635,
+        "maximum_displacement_m": 0.008236460795157793
+      }
+    },
+    {
+      "name": "face_control_viseme_consonant",
+      "status": "pass",
+      "details": {
+        "affected_vertices_above_1um": 1637,
+        "maximum_displacement_m": 0.0044931450243138014
+      }
+    },
+    {
+      "name": "bilateral_blink_occludes_iris",
+      "status": "pass",
+      "details": {
+        "L": {
+          "eye_surface_samples": 0,
+          "material_hit_counts": {
+            "Skin": 35
+          },
+          "total_samples": 35
+        },
+        "R": {
+          "eye_surface_samples": 0,
+          "material_hit_counts": {
+            "Skin": 35
+          },
+          "total_samples": 35
+        }
+      }
+    },
+    {
+      "name": "independent_left_blink",
+      "status": "pass",
+      "details": {
+        "L": {
+          "eye_surface_samples": 0,
+          "material_hit_counts": {
+            "Skin": 35
+          },
+          "total_samples": 35
+        },
+        "R": {
+          "eye_surface_samples": 35,
+          "material_hit_counts": {
+            "Accent": 13,
+            "Hair": 21,
+            "Eyes": 1
+          },
+          "total_samples": 35
+        }
+      }
+    },
+    {
+      "name": "jaw_opens_lip_downwards",
+      "status": "pass",
+      "details": {
+        "lower_lip_start_m": [
+          0.0,
+          -0.08500000834465027,
+          1.5779999494552612
+        ],
+        "lower_lip_open_m": [
+          0.0,
+          -0.06783092021942139,
+          1.5556484460830688
+        ]
+      }
+    },
+    {
+      "name": "match_IK_to_FK_arm.L",
+      "status": "pass",
+      "details": {
+        "max_position_delta_m": 4.831401359103166e-07,
+        "position_bone": "thumb_03.L",
+        "max_rotation_delta_degrees": 0.0,
+        "rotation_bone": "upper_arm.L",
+        "max_scale_delta": 3.998401124775034e-07
+      }
+    },
+    {
+      "name": "match_FK_to_IK_arm.L",
+      "status": "pass",
+      "details": {
+        "max_position_delta_m": 5.975811542131174e-07,
+        "position_bone": "forearm.L",
+        "max_rotation_delta_degrees": 0.0,
+        "rotation_bone": "upper_arm.L",
+        "max_scale_delta": 8.323335673671329e-07
+      }
+    },
+    {
+      "name": "match_IK_to_FK_leg.L",
+      "status": "pass",
+      "details": {
+        "max_position_delta_m": 2.0572778651596927e-06,
+        "position_bone": "shin.L",
+        "max_rotation_delta_degrees": 0.0,
+        "rotation_bone": "thigh.L",
+        "max_scale_delta": 6.8927817335673046e-06
+      }
+    },
+    {
+      "name": "match_FK_to_IK_leg.L",
+      "status": "pass",
+      "details": {
+        "max_position_delta_m": 4.938380609888837e-06,
+        "position_bone": "shin.L",
+        "max_rotation_delta_degrees": 0.0,
+        "rotation_bone": "thigh.L",
+        "max_scale_delta": 1.1496127558938211e-06
+      }
+    },
+    {
+      "name": "match_IK_to_FK_arm.R",
+      "status": "pass",
+      "details": {
+        "max_position_delta_m": 8.582409135479152e-07,
+        "position_bone": "thumb_03.R",
+        "max_rotation_delta_degrees": 0.0,
+        "rotation_bone": "upper_arm.R",
+        "max_scale_delta": 5.196212462831347e-07
+      }
+    },
+    {
+      "name": "match_FK_to_IK_arm.R",
+      "status": "pass",
+      "details": {
+        "max_position_delta_m": 5.975811542131174e-07,
+        "position_bone": "forearm.R",
+        "max_rotation_delta_degrees": 0.0,
+        "rotation_bone": "upper_arm.R",
+        "max_scale_delta": 8.323335673671329e-07
+      }
+    },
+    {
+      "name": "match_IK_to_FK_leg.R",
+      "status": "pass",
+      "details": {
+        "max_position_delta_m": 2.0574397556892878e-06,
+        "position_bone": "shin.R",
+        "max_rotation_delta_degrees": 0.0,
+        "rotation_bone": "thigh.R",
+        "max_scale_delta": 6.926716266182755e-06
+      }
+    },
+    {
+      "name": "match_FK_to_IK_leg.R",
+      "status": "pass",
+      "details": {
+        "max_position_delta_m": 3.961831783095483e-06,
+        "position_bone": "shin.R",
+        "max_rotation_delta_degrees": 0.0,
+        "rotation_bone": "thigh.R",
+        "max_scale_delta": 9.610960183499514e-07
+      }
+    },
+    {
+      "name": "global_control_uniform_scale",
+      "status": "pass",
+      "details": {
+        "scale": 2,
+        "maximum_mesh_error_m": 9.902267292640298e-07
+      }
+    },
+    {
+      "name": "panel_reset_rest_pose",
+      "status": "pass",
+      "details": {
+        "maximum_mesh_error_m": 0.0
+      }
+    },
+    {
+      "name": "demanding_pose_reach_neutral",
+      "status": "pass",
+      "details": {
+        "IK_target_errors_m": {
+          "hand.L": 1.495026575891652e-07,
+          "hand.R": 1.4995161118044505e-07,
+          "foot.L": 1.343172518709298e-07,
+          "foot.R": 1.3463974273578227e-07
+        },
+        "minimum_surface_z_m": -7.061773885652656e-07,
+        "maximum_surface_z_m": 1.8000001907348633,
+        "floor_penetrating_vertex_groups": {}
+      }
+    },
+    {
+      "name": "demanding_pose_ground_clearance_neutral",
+      "status": "pass",
+      "details": -7.061773885652656e-07
+    },
+    {
+      "name": "demanding_pose_reach_overhead_reach",
+      "status": "pass",
+      "details": {
+        "IK_target_errors_m": {
+          "hand.L": 1.0667607980427409e-07,
+          "hand.R": 1.0667607980427409e-07,
+          "foot.L": 1.343172518709298e-07,
+          "foot.R": 1.3463974273578227e-07
+        },
+        "minimum_surface_z_m": -7.061773885652656e-07,
+        "maximum_surface_z_m": 1.8677846193313599,
+        "floor_penetrating_vertex_groups": {}
+      }
+    },
+    {
+      "name": "demanding_pose_ground_clearance_overhead_reach",
+      "status": "pass",
+      "details": -7.061773885652656e-07
+    },
+    {
+      "name": "demanding_pose_reach_deep_squat",
+      "status": "pass",
+      "details": {
+        "IK_target_errors_m": {
+          "hand.L": 2.501129167282362e-05,
+          "hand.R": 2.5026108728264186e-05,
+          "foot.L": 5.874879369232305e-05,
+          "foot.R": 5.874879369232305e-05
+        },
+        "minimum_surface_z_m": -5.605191472568549e-05,
+        "maximum_surface_z_m": 1.4522777795791626,
+        "floor_penetrating_vertex_groups": {},
+        "knee_centers_m": {
+          "L": [
+            -0.18499457836151123,
+            -0.3053746223449707,
+            0.3942849040031433
+          ],
+          "R": [
+            0.18499460816383362,
+            -0.3053746223449707,
+            0.3942849040031433
+          ]
+        }
+      }
+    },
+    {
+      "name": "demanding_pose_ground_clearance_deep_squat",
+      "status": "pass",
+      "details": -5.605191472568549e-05
+    },
+    {
+      "name": "squat_knees_follow_anatomical_side",
+      "status": "pass",
+      "details": {
+        "L": [
+          -0.18499457836151123,
+          -0.3053746223449707,
+          0.3942849040031433
+        ],
+        "R": [
+          0.18499460816383362,
+          -0.3053746223449707,
+          0.3942849040031433
+        ]
+      }
+    },
+    {
+      "name": "demanding_pose_reach_crossed_arm",
+      "status": "pass",
+      "details": {
+        "IK_target_errors_m": {
+          "hand.L": 2.369331956936531e-05,
+          "hand.R": 1.1756978409613403e-05,
+          "foot.L": 1.343172518709298e-07,
+          "foot.R": 1.3463974273578227e-07
+        },
+        "minimum_surface_z_m": -7.061773885652656e-07,
+        "maximum_surface_z_m": 1.8000001907348633,
+        "floor_penetrating_vertex_groups": {}
+      }
+    },
+    {
+      "name": "demanding_pose_ground_clearance_crossed_arm",
+      "status": "pass",
+      "details": -7.061773885652656e-07
+    },
+    {
+      "name": "demanding_pose_reach_torso_twist",
+      "status": "pass",
+      "details": {
+        "IK_target_errors_m": {
+          "hand.L": 5.842797558647375e-05,
+          "hand.R": 4.821533154218799e-05,
+          "foot.L": 1.343172518709298e-07,
+          "foot.R": 1.3463974273578227e-07
+        },
+        "minimum_surface_z_m": -7.061773885652656e-07,
+        "maximum_surface_z_m": 1.8000001907348633,
+        "floor_penetrating_vertex_groups": {}
+      }
+    },
+    {
+      "name": "demanding_pose_ground_clearance_torso_twist",
+      "status": "pass",
+      "details": -7.061773885652656e-07
+    },
+    {
+      "name": "demanding_pose_reach_kneeling",
+      "status": "pass",
+      "details": {
+        "IK_target_errors_m": {
+          "hand.L": 1.3835310897584619e-05,
+          "hand.R": 1.7669635842503005e-05,
+          "foot.L": 5.9850494921404747e-05,
+          "foot.R": 6.64226815220308e-05
+        },
+        "minimum_surface_z_m": -5.9191010223003104e-05,
+        "maximum_surface_z_m": 1.4600001573562622,
+        "floor_penetrating_vertex_groups": {}
+      }
+    },
+    {
+      "name": "demanding_pose_ground_clearance_kneeling",
+      "status": "pass",
+      "details": -5.9191010223003104e-05
+    },
+    {
+      "name": "demanding_pose_reach_hand_support",
+      "status": "pass",
+      "details": {
+        "IK_target_errors_m": {
+          "hand.L": 1.1250129990683123e-07,
+          "hand.R": 1.1733186057227569e-07,
+          "foot.L": 3.342969490413201e-05,
+          "foot.R": 3.3452509500908813e-05
+        },
+        "minimum_surface_z_m": -2.636968929436989e-05,
+        "maximum_surface_z_m": 0.7760781645774841,
+        "floor_penetrating_vertex_groups": {}
+      }
+    },
+    {
+      "name": "demanding_pose_ground_clearance_hand_support",
+      "status": "pass",
+      "details": -2.636968929436989e-05
+    },
+    {
+      "name": "demanding_pose_reach_closed_grip",
+      "status": "pass",
+      "details": {
+        "IK_target_errors_m": {
+          "hand.L": 1.3042423820723957e-05,
+          "hand.R": 1.3069643602629443e-05,
+          "foot.L": 1.343172518709298e-07,
+          "foot.R": 1.3463974273578227e-07
+        },
+        "minimum_surface_z_m": -7.061773885652656e-07,
+        "maximum_surface_z_m": 1.8000001907348633,
+        "floor_penetrating_vertex_groups": {}
+      }
+    },
+    {
+      "name": "demanding_pose_ground_clearance_closed_grip",
+      "status": "pass",
+      "details": -7.061773885652656e-07
+    }
+  ],
+  "summary": {
+    "pass": 85,
+    "fail": 0
+  },
+  "derived_from": "verification/asset_validation.json",
+  "evaluation_scope": "Final measurements for the same named checks previously recorded in this diagnostic report; derived from the complete final validation."
+}

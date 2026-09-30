@@ -1,0 +1,15 @@
+00:00.455  blend            | Read blend: "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/source/Operative.blend"
+L -3.141592653589793 <Vector (0.2232, -0.0590, 0.3664)>
+L -1.5707963267948966 <Vector (-0.1850, -0.3054, 0.3943)>
+L 0 <Vector (-0.4325, 0.1017, 0.3667)>
+L 1.5707963267948966 <Vector (-0.0243, 0.3480, 0.3388)>
+L 3.141592653589793 <Vector (0.2232, -0.0590, 0.3664)>
+R -3.141592653589793 <Vector (0.4325, 0.1017, 0.3667)>
+R -1.5707963267948966 <Vector (0.1850, -0.3054, 0.3943)>
+R 0 <Vector (-0.2232, -0.0590, 0.3664)>
+R 1.5707963267948966 <Vector (0.0243, 0.3480, 0.3388)>
+R 3.141592653589793 <Vector (0.4325, 0.1017, 0.3667)>
+Blender 5.1.1
+scripts disabled for "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/GPT-6.1-Sol/source/Operative.blend", skipping 'Operative_Animator_Panel.py'
+
+Blender quit

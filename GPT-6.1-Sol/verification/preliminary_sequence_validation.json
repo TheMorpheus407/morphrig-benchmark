@@ -1,0 +1,110 @@
+{
+  "source": "verification/preliminary_sequence.jsonl",
+  "rows": 314,
+  "markers": 176,
+  "entered_clips": [
+    "blink_in",
+    "blink_out",
+    "cast_directional",
+    "cast_ground",
+    "channel_end",
+    "channel_interrupt",
+    "channel_loop",
+    "channel_start",
+    "charge_cancel",
+    "charge_hold",
+    "charge_release",
+    "charge_start",
+    "dash_f",
+    "dead_back",
+    "dead_front",
+    "death_back",
+    "death_front",
+    "deploy",
+    "dialogue",
+    "fall",
+    "getup_back",
+    "getup_front",
+    "hit_l",
+    "jump_land",
+    "jump_start",
+    "knockdown_back",
+    "knockdown_front",
+    "knockup_start",
+    "land_heavy",
+    "melee_1",
+    "prone_back",
+    "prone_front",
+    "ranged_burst",
+    "reload",
+    "respawn",
+    "sleep_end",
+    "sleep_start",
+    "start_f",
+    "stop_f",
+    "stun_end",
+    "stun_loop",
+    "stun_start",
+    "uplink_cancel",
+    "uplink_loop",
+    "uplink_start"
+  ],
+  "checks": [
+    {
+      "name": "trace_has_rows",
+      "status": "pass",
+      "details": 314
+    },
+    {
+      "name": "marker_executes_once_per_actor_track_cycle",
+      "status": "pass",
+      "details": []
+    },
+    {
+      "name": "markers_belong_to_authored_manifest",
+      "status": "fail",
+      "details": [
+        [
+          "jump_land",
+          "Compression"
+        ]
+      ]
+    },
+    {
+      "name": "major_combined_states_played",
+      "status": "fail",
+      "details": [
+        "ranged_fire",
+        "sleep_loop"
+      ]
+    },
+    {
+      "name": "sequence_finished",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "representative_half_rate_and_fast_rate",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "name": "one_blink_actor_event",
+      "status": "pass",
+      "details": 1
+    },
+    {
+      "name": "forward_dash_capsule_travels_two_meters",
+      "status": "pass",
+      "details": [
+        200.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "summary": {
+    "pass": 6,
+    "fail": 2
+  }
+}

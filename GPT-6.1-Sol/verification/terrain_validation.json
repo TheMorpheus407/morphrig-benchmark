@@ -1,0 +1,177 @@
+{
+  "measurement": "Packaged Linux client; shared current authored gait/snapshot pose drives game-thread footprint queries after capsule movement. Walkable normals orient soles and completed imported LOD0 skin vertices are sampled in OnBoneTransformsFinalized. Interactive start/stop uses a continuing distance-synchronized gait and authored torso transition.",
+  "binary_sha256": "8479393c16e8a6fe6dd3ffabca4a58ffaedf953967aba95c7eee395ec5a547e8",
+  "geometry": {
+    "imported_lod0_boot_vertices": 1938,
+    "fore_cm": 18.6,
+    "rear_cm": 4.45,
+    "half_width_cm": 5.15,
+    "plane_clearance_margin_cm": 0.1,
+    "edge_clearance_margin_cm": 0.35
+  },
+  "acceptance": {
+    "maximum_surface_pressure_cm": 1.0,
+    "maximum_planted_clearance_cm": 1.0,
+    "stance_weight_threshold": 0.999,
+    "explanation": "One-centimeter geometric/contact allowance matches source QA. Swing clearance is distinct from planted support. Horizontal support is classified using authored contact/release events and evaluated gait phase, including events crossed during a long frame interval; raw intervals remain in the CSV.",
+    "maximum_measured_pressure_cm": 0,
+    "horizontal_support_review_cm": 1.0
+  },
+  "diagnostic_comparison": {
+    "stale_bone_buffer": "verification/ramp_stop_pre_finalize_contacts.csv",
+    "previous_socket_queries": [
+      "verification/terrain_pre_current_query_contacts.csv",
+      "verification/ramp_stop_pre_current_query_contacts.csv"
+    ],
+    "ankle_only_riser_intersection": "verification/qa_stair_footprint_initial.png",
+    "toe_bin_and_normal_toggle": [
+      "verification/toe_bins_terrain_packaged_diagnostic.csv",
+      "verification/toe_bins_ramp_stop_packaged_diagnostic.csv"
+    ],
+    "unwalkable_ramp_end_normal": "verification/exact_toe_unwalkable_normal_packaged_diagnostic.csv",
+    "explanation": "Current-pose queries avoid socket latency, measured footprint support removes the deep toe/riser cut, exact toe points cover discontinuities, and rejecting unwalkable normals prevents rotation toward the exposed ramp side."
+  },
+  "runs": {
+    "terrain_contacts.csv": {
+      "rows": 225,
+      "csv_sha256": "47e5fd15e940086287006c60a0d6e5d3c2c3cf2a312a83116aeca5442bb30bde",
+      "client_binary_sha256": "8479393c16e8a6fe6dd3ffabca4a58ffaedf953967aba95c7eee395ec5a547e8",
+      "log": "verification/logs/terrain_gait_final_packaged.log",
+      "phases": {
+        "ramp": {
+          "left": {
+            "surface_clearance_min_cm": 0.1,
+            "minimum_at_seconds": 1.9374,
+            "minimum_stance_weight": 1.0,
+            "surface_pressure_max_cm": 0,
+            "inside_step_vertices_sum": 0,
+            "step_penetration_max_cm": 0.0,
+            "planted_samples": 94,
+            "planted_clearance_min_cm": 0.1,
+            "planted_clearance_max_cm": 0.943,
+            "planted_clearance_median_cm": 0.1002,
+            "swing_samples": 33
+          },
+          "right": {
+            "surface_clearance_min_cm": 0.1,
+            "minimum_at_seconds": 0.6518,
+            "minimum_stance_weight": 1.0,
+            "surface_pressure_max_cm": 0,
+            "inside_step_vertices_sum": 0,
+            "step_penetration_max_cm": 0.0,
+            "planted_samples": 98,
+            "planted_clearance_min_cm": 0.1,
+            "planted_clearance_max_cm": 0.1146,
+            "planted_clearance_median_cm": 0.1001,
+            "swing_samples": 29
+          }
+        },
+        "steps": {
+          "left": {
+            "surface_clearance_min_cm": 0.1,
+            "minimum_at_seconds": 10.2528,
+            "minimum_stance_weight": 1.0,
+            "surface_pressure_max_cm": 0,
+            "inside_step_vertices_sum": 0,
+            "step_penetration_max_cm": 0.0,
+            "planted_samples": 75,
+            "planted_clearance_min_cm": 0.1,
+            "planted_clearance_max_cm": 0.3576,
+            "planted_clearance_median_cm": 0.1002,
+            "swing_samples": 23
+          },
+          "right": {
+            "surface_clearance_min_cm": 0.1,
+            "minimum_at_seconds": 8.1696,
+            "minimum_stance_weight": 1.0,
+            "surface_pressure_max_cm": 0,
+            "inside_step_vertices_sum": 0,
+            "step_penetration_max_cm": 0.0,
+            "planted_samples": 77,
+            "planted_clearance_min_cm": 0.1,
+            "planted_clearance_max_cm": 0.3503,
+            "planted_clearance_median_cm": 0.1002,
+            "swing_samples": 21
+          }
+        }
+      },
+      "maximum_pelvis_lowering_cm": 20.333
+    },
+    "ramp_stop_contacts.csv": {
+      "rows": 227,
+      "csv_sha256": "1afb3f50b216659383eb3045d933f67643e135ccc5d50e7fb51bc81c6414b028",
+      "client_binary_sha256": "8479393c16e8a6fe6dd3ffabca4a58ffaedf953967aba95c7eee395ec5a547e8",
+      "log": "verification/logs/ramp_stop_gait_final_packaged.log",
+      "phases": {
+        "ramp": {
+          "left": {
+            "surface_clearance_min_cm": 0.1,
+            "minimum_at_seconds": 1.8982,
+            "minimum_stance_weight": 1.0,
+            "surface_pressure_max_cm": 0,
+            "inside_step_vertices_sum": 0,
+            "step_penetration_max_cm": 0.0,
+            "planted_samples": 115,
+            "planted_clearance_min_cm": 0.1,
+            "planted_clearance_max_cm": 0.943,
+            "planted_clearance_median_cm": 0.1002,
+            "swing_samples": 16
+          },
+          "right": {
+            "surface_clearance_min_cm": 0.1,
+            "minimum_at_seconds": 0.5265,
+            "minimum_stance_weight": 1.0,
+            "surface_pressure_max_cm": 0,
+            "inside_step_vertices_sum": 0,
+            "step_penetration_max_cm": 0.0,
+            "planted_samples": 114,
+            "planted_clearance_min_cm": 0.1,
+            "planted_clearance_max_cm": 0.1368,
+            "planted_clearance_median_cm": 0.1002,
+            "swing_samples": 17
+          }
+        },
+        "steps": {
+          "left": {
+            "surface_clearance_min_cm": 0.1,
+            "minimum_at_seconds": 7.154,
+            "minimum_stance_weight": 1.0,
+            "surface_pressure_max_cm": 0,
+            "inside_step_vertices_sum": 0,
+            "step_penetration_max_cm": 0.0,
+            "planted_samples": 72,
+            "planted_clearance_min_cm": 0.1,
+            "planted_clearance_max_cm": 0.3502,
+            "planted_clearance_median_cm": 0.1002,
+            "swing_samples": 24
+          },
+          "right": {
+            "surface_clearance_min_cm": 0.1,
+            "minimum_at_seconds": 9.709,
+            "minimum_stance_weight": 1.0,
+            "surface_pressure_max_cm": 0,
+            "inside_step_vertices_sum": 0,
+            "step_penetration_max_cm": 0.0,
+            "planted_samples": 75,
+            "planted_clearance_min_cm": 0.1,
+            "planted_clearance_max_cm": 0.3506,
+            "planted_clearance_median_cm": 0.1002,
+            "swing_samples": 21
+          }
+        }
+      },
+      "maximum_pelvis_lowering_cm": 20.39
+    }
+  },
+  "summary": {
+    "pass": true,
+    "screenshots": [
+      "verification/standalone_ramp_seam.png",
+      "verification/standalone_steps_stop.png"
+    ],
+    "limitations": "Both complete walking and stopping routes retain finalized geometry and support phase, including screenshot-induced frame intervals. Minimum measured surface clearance is 1 mm, with no solid-step penetration. This sampled terrain evidence does not establish behavior on every arbitrary user path."
+  },
+  "evaluated_utc": "2026-09-30T00:20:14.022174+00:00",
+  "horizontal_validation": "verification/qa_runtime_horizontal_validation.json",
+  "surface_validation": "verification/qa_runtime_surface_validation.json"
+}

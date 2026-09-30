@@ -1,0 +1,123 @@
+{
+  "lods": [
+    {
+      "name": "Operative_LOD0",
+      "triangles": 40940,
+      "vertices": 21438,
+      "material_slots": 8,
+      "skin_max_influences": 3
+    },
+    {
+      "name": "Operative_LOD1",
+      "triangles": 21698,
+      "vertices": 11210,
+      "material_slots": 8,
+      "skin_max_influences": 5
+    },
+    {
+      "name": "Operative_LOD2",
+      "triangles": 11053,
+      "vertices": 5826,
+      "material_slots": 8,
+      "skin_max_influences": 5
+    }
+  ],
+  "deformation_bones": 79,
+  "materials": [
+    {
+      "name": "Skin",
+      "metallic": 0.0,
+      "roughness": 0.46,
+      "normal_texture": "Skin_Normal.png"
+    },
+    {
+      "name": "Suit",
+      "metallic": 0.05,
+      "roughness": 0.69,
+      "normal_texture": "Suit_Normal.png"
+    },
+    {
+      "name": "Armor",
+      "metallic": 0.72,
+      "roughness": 0.32,
+      "normal_texture": null
+    },
+    {
+      "name": "Silver",
+      "metallic": 0.85,
+      "roughness": 0.24,
+      "normal_texture": null
+    },
+    {
+      "name": "Accent",
+      "metallic": 0.28,
+      "roughness": 0.34,
+      "normal_texture": null
+    },
+    {
+      "name": "Hair",
+      "metallic": 0,
+      "roughness": 0.51,
+      "normal_texture": null
+    },
+    {
+      "name": "Eyes",
+      "metallic": 0,
+      "roughness": 0.2,
+      "normal_texture": null
+    },
+    {
+      "name": "Mouth",
+      "metallic": 0,
+      "roughness": 0.46,
+      "normal_texture": null
+    }
+  ],
+  "textures": {
+    "count": 10,
+    "max_dimension": 256,
+    "rgba8_bytes": 2621440,
+    "with_mipmaps_bytes": 3495253
+  },
+  "height_m": 1.8,
+  "object_transforms": {
+    "mesh_scale": [
+      1,
+      1,
+      1
+    ],
+    "rig_scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "authorship": "Parametric original mesh, handcrafted cross-section anatomical proportions, fitted weights and controls; all motion authored for this project.",
+  "unreal_measured_lods": [
+    {
+      "lod": 0,
+      "vertices": 34093,
+      "triangles": 40940,
+      "sections": 8
+    },
+    {
+      "lod": 1,
+      "vertices": 19778,
+      "triangles": 21698,
+      "sections": 8
+    },
+    {
+      "lod": 2,
+      "vertices": 11852,
+      "triangles": 11053,
+      "sections": 8
+    }
+  ],
+  "unreal_height_cm": 180,
+  "texture_estimate_note": "RGBA8 uncompressed source estimate, including all eight base colors and two tangent normals; full mip chain estimate. Actual cooked BC compression and streaming residency differ.",
+  "normal_map_convention": {
+    "source": "Tangent-space OpenGL (+Y), non-color data",
+    "unreal": "Flip green channel on import for Unreal tangent convention",
+    "strength": 0.55
+  }
+}
