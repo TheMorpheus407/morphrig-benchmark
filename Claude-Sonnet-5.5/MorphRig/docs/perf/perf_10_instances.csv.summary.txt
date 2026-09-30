@@ -1,0 +1,43 @@
+MORPHRIG performance log
+date: 2026.09.29-13.46.42
+csv: perf_10_instances.csv
+frames sampled: 7669 after 240 warm-up frames and 5.0 s of warm-up, 20.0 s wall
+instances: 10 animated Operatives (every one runs the autopilot loop of locomotion and actions), view: third person, render mode: textured, LOD: automatic, overlays: 0
+
+HARDWARE
+cpu: AMD Ryzen 9 9950X 16-Core Processor, 16 cores / 32 threads
+ram: 91.9 GiB
+gpu: NVIDIA GeForce RTX 5090  driver 595.71 (internal 595.71)
+rhi: Vulkan  os: nixos26.05
+resolution: 1920 x 1080 (windowed)
+
+SETTINGS (console variables at the time of the run)
+r.ScreenPercentage = 0
+r.ScreenPercentage.Default = 100
+r.VSync = 0
+t.MaxFPS = 0
+r.AntiAliasingMethod = 4
+r.DynamicGlobalIlluminationMethod = 0
+r.ReflectionMethod = 2
+r.Shadow.Virtual.Enable = 1
+r.Lumen.DiffuseIndirect.Allow = 1
+r.SkinCache.Mode = 1
+r.MotionBlurQuality = 4
+r.Streaming.PoolSize = 1000
+r.Shadow.Virtual.ResolutionLodBiasDirectional = -1
+r.Shadow.Virtual.SMRT.RayCountDirectional = 16
+r.Shadow.Virtual.SMRT.SamplesPerRayDirectional = 12
+sg.ShadowQuality = 3
+sg.PostProcessQuality = 3
+r.Tonemapper.Sharpen = -1
+command line: -windowed -ResX=1920 -ResY=1080 -stdout -FullStdOutLogOutput -PerfLog=perf_10_instances.csv -Instances=10 -ExitAfterPerf
+host load average (1, 5 and 15 minutes) at the start of the sample: 4.50 3.96 3.70
+host load average at the end of the sample:                       4.78 4.05 3.73
+(other processes on the host share the 32 hardware threads; a load above that number adds waiting time to the game and render thread columns)
+
+RESULT (ms per frame; the target is 16.67 ms = 60 FPS)
+frame (wall)   avg 2.608  min 1.402  p50 2.462  p95 3.003  p99 10.739  max 11.652
+game thread    avg 1.257  min 0.905  p50 1.199  p95 1.712  p99 2.068  max 2.460
+render thread  avg 1.564  min 1.128  p50 1.400  p95 1.921  p99 10.287  max 11.554
+gpu            avg 2.286  min 2.140  p50 2.267  p95 2.477  p99 2.600  max 2.787
+average FPS 383.4   1% low FPS 93.1 (from p99 frame time)

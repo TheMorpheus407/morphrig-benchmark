@@ -1,0 +1,1087 @@
+SHOWCASE_TRACE t=0.000 kind=RUN start=2026.09.29-13.56.04 build=Development
+SHOWCASE_TRACE t=0.000 kind=RUN fixed_step=1/30s
+SHOWCASE_TRACE t=0.067 kind=STATE step=- from="" to="Locomotion/Idle" pos=(0,0,91) speed=0
+SHOWCASE_TRACE t=0.067 kind=CLIP step=- clip=idle_relaxed length=4.000 rate=1.00
+SHOWCASE_TRACE t=0.700 kind=CONTENT loop_closure clip=idle_relaxed max_bone_delta_cm=0.00 pass=1
+SHOWCASE_TRACE t=0.700 kind=CONTENT loop_closure clip=idle_combat max_bone_delta_cm=0.00 pass=1
+SHOWCASE_TRACE t=0.700 kind=CONTENT loop_closure clip=idle_wounded max_bone_delta_cm=0.00 pass=1
+SHOWCASE_TRACE t=0.700 kind=CONTENT loop_closure clip=walk_f max_bone_delta_cm=0.00 pass=1
+SHOWCASE_TRACE t=0.700 kind=CONTENT loop_closure clip=walk_fl max_bone_delta_cm=0.00 pass=1
+SHOWCASE_TRACE t=0.700 kind=CONTENT loop_closure clip=walk_l max_bone_delta_cm=0.00 pass=1
+SHOWCASE_TRACE t=0.700 kind=CONTENT loop_closure clip=walk_bl max_bone_delta_cm=0.00 pass=1
+SHOWCASE_TRACE t=0.700 kind=CONTENT loop_closure clip=walk_b max_bone_delta_cm=0.00 pass=1
+SHOWCASE_TRACE t=0.700 kind=CONTENT loop_closure clip=walk_br max_bone_delta_cm=0.00 pass=1
+SHOWCASE_TRACE t=0.700 kind=CONTENT loop_closure clip=walk_r max_bone_delta_cm=0.00 pass=1
+SHOWCASE_TRACE t=0.700 kind=CONTENT loop_closure clip=walk_fr max_bone_delta_cm=0.00 pass=1
+SHOWCASE_TRACE t=0.700 kind=CONTENT loop_closure clip=run_f max_bone_delta_cm=0.00 pass=1
+SHOWCASE_TRACE t=0.700 kind=CONTENT loop_closure clip=run_fl max_bone_delta_cm=0.00 pass=1
+SHOWCASE_TRACE t=0.700 kind=CONTENT loop_closure clip=run_l max_bone_delta_cm=0.00 pass=1
+SHOWCASE_TRACE t=0.700 kind=CONTENT loop_closure clip=run_bl max_bone_delta_cm=0.00 pass=1
+SHOWCASE_TRACE t=0.700 kind=CONTENT loop_closure clip=run_b max_bone_delta_cm=0.00 pass=1
+SHOWCASE_TRACE t=0.700 kind=CONTENT loop_closure clip=run_br max_bone_delta_cm=0.00 pass=1
+SHOWCASE_TRACE t=0.700 kind=CONTENT loop_closure clip=run_r max_bone_delta_cm=0.00 pass=1
+SHOWCASE_TRACE t=0.700 kind=CONTENT loop_closure clip=run_fr max_bone_delta_cm=0.00 pass=1
+SHOWCASE_TRACE t=0.700 kind=CONTENT loop_closure clip=sprint_f max_bone_delta_cm=0.00 pass=1
+SHOWCASE_TRACE t=0.700 kind=CONTENT loop_closure clip=jump_air max_bone_delta_cm=0.00 pass=1
+SHOWCASE_TRACE t=0.700 kind=CONTENT loop_closure clip=fall max_bone_delta_cm=0.00 pass=1
+SHOWCASE_TRACE t=0.700 kind=CONTENT loop_closure clip=channel_loop max_bone_delta_cm=0.00 pass=1
+SHOWCASE_TRACE t=0.700 kind=CONTENT loop_closure clip=charge_hold max_bone_delta_cm=0.00 pass=1
+SHOWCASE_TRACE t=0.700 kind=CONTENT loop_closure clip=uplink_loop max_bone_delta_cm=0.00 pass=1
+SHOWCASE_TRACE t=0.700 kind=CONTENT loop_closure clip=stun_loop max_bone_delta_cm=0.01 pass=1
+SHOWCASE_TRACE t=0.700 kind=CONTENT loop_closure clip=knockup_air max_bone_delta_cm=0.00 pass=1
+SHOWCASE_TRACE t=0.700 kind=CONTENT loop_closure clip=prone_front max_bone_delta_cm=0.01 pass=1
+SHOWCASE_TRACE t=0.700 kind=CONTENT loop_closure clip=prone_back max_bone_delta_cm=0.00 pass=1
+SHOWCASE_TRACE t=0.700 kind=CONTENT loop_closure clip=sleep_loop max_bone_delta_cm=0.00 pass=1
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=melee_2 bone=hand_l frame=11 delta_cm=74.7
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=melee_3 bone=hand_l frame=11 delta_cm=59.4
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=melee_1 bone=hand_l frame=10 delta_cm=58.3
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=blink_in bone=hand_r frame=2 delta_cm=57.5
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=dash_b bone=foot_r frame=5 delta_cm=51.4
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=dash_f bone=foot_r frame=8 delta_cm=49.9
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=dash_r bone=foot_r frame=5 delta_cm=48.7
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=dash_l bone=foot_l frame=5 delta_cm=48.6
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=channel_interrupt bone=hand_l frame=7 delta_cm=43.1
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=knockup_start bone=hand_l frame=10 delta_cm=42.9
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=cast_directional bone=hand_r frame=11 delta_cm=42.7
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=jump_start bone=hand_l frame=7 delta_cm=42.2
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=land_heavy bone=hand_r frame=3 delta_cm=40.2
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=cast_self bone=hand_l frame=14 delta_cm=39.8
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=blink_out bone=hand_l frame=6 delta_cm=38.3
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=charge_release bone=hand_r frame=3 delta_cm=37.5
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=sleep_end bone=hand_r frame=14 delta_cm=33.8
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=pivot_r180 bone=foot_l frame=20 delta_cm=30.0
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=reload bone=hand_r frame=56 delta_cm=25.6
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=sprint_f bone=foot_l frame=2 delta_cm=21.7
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=knockdown_back bone=hand_l frame=35 delta_cm=21.0
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=deploy bone=hand_r frame=3 delta_cm=20.8
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=victory bone=hand_l frame=80 delta_cm=20.8
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=knockdown_front bone=hand_l frame=10 delta_cm=20.6
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=stun_start bone=hand_l frame=3 delta_cm=20.4
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=pivot_l180 bone=hand_r frame=11 delta_cm=20.4
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=death_back bone=hand_l frame=5 delta_cm=19.8
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=cast_ground bone=hand_r frame=24 delta_cm=18.6
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=knockback bone=hand_l frame=16 delta_cm=17.7
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=jump_land bone=hand_r frame=5 delta_cm=17.2
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=run_f bone=foot_r frame=4 delta_cm=16.5
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=run_fr bone=foot_r frame=4 delta_cm=15.2
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=run_fl bone=foot_l frame=13 delta_cm=15.2
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=walk_f bone=foot_r frame=9 delta_cm=15.0
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=walk_fl bone=foot_r frame=9 delta_cm=14.1
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=walk_fr bone=foot_r frame=9 delta_cm=14.1
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=getup_front bone=hand_l frame=6 delta_cm=13.7
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=uplink_cancel bone=hand_l frame=7 delta_cm=13.6
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=stop_f bone=foot_r frame=3 delta_cm=13.4
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=greet bone=hand_r frame=12 delta_cm=13.2
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=death_front bone=hand_l frame=4 delta_cm=11.9
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=sleep_start bone=Head frame=43 delta_cm=11.4
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=getup_back bone=hand_l frame=44 delta_cm=11.4
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=run_b bone=foot_l frame=8 delta_cm=11.3
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=walk_bl bone=foot_r frame=9 delta_cm=11.3
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=walk_br bone=foot_r frame=9 delta_cm=11.3
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=charge_cancel bone=hand_r frame=3 delta_cm=11.1
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=run_bl bone=foot_l frame=8 delta_cm=10.9
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=run_br bone=foot_l frame=8 delta_cm=10.9
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=walk_b bone=foot_r frame=10 delta_cm=10.8
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=run_l bone=foot_r frame=4 delta_cm=10.8
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=run_r bone=foot_r frame=4 delta_cm=10.8
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=channel_end bone=hand_l frame=7 delta_cm=10.2
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=walk_r bone=foot_r frame=8 delta_cm=10.1
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=walk_l bone=foot_r frame=8 delta_cm=10.1
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=dialogue bone=hand_r frame=52 delta_cm=9.2
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=turn_l90 bone=hand_r frame=7 delta_cm=8.6
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=ranged_fire bone=hand_l frame=1 delta_cm=8.5
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=stun_end bone=hand_r frame=12 delta_cm=8.1
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=start_f bone=foot_l frame=7 delta_cm=8.0
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=respawn bone=hand_l frame=62 delta_cm=7.6
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=uplink_end bone=hand_l frame=13 delta_cm=7.5
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=turn_r90 bone=hand_r frame=7 delta_cm=7.2
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=charge_start bone=hand_l frame=4 delta_cm=6.9
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=uplink_start bone=hand_l frame=4 delta_cm=6.7
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=channel_start bone=hand_l frame=3 delta_cm=6.3
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=knockup_air bone=hand_r frame=1 delta_cm=6.1
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=fall bone=hand_l frame=18 delta_cm=5.4
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=ranged_burst bone=hand_l frame=17 delta_cm=4.8
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=jump_air bone=hand_l frame=10 delta_cm=1.8
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=defeat bone=Head frame=15 delta_cm=1.8
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=stun_loop bone=hand_r frame=41 delta_cm=1.2
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=charge_hold bone=Head frame=20 delta_cm=1.2
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=channel_loop bone=hand_r frame=2 delta_cm=0.9
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=uplink_loop bone=hand_l frame=11 delta_cm=0.5
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=idle_wounded bone=hand_l frame=8 delta_cm=0.3
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=idle_combat bone=hand_r frame=12 delta_cm=0.2
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=idle_relaxed bone=hand_l frame=112 delta_cm=0.2
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=prone_back bone=Head frame=30 delta_cm=0.1
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=prone_front bone=Head frame=30 delta_cm=0.1
+SHOWCASE_TRACE t=0.700 kind=CONTENT max_frame_step clip=sleep_loop bone=Head frame=50 delta_cm=0.1
+SHOWCASE_TRACE t=0.700 kind=CHECK name=content_no_authored_pops pass=1 clips with a bone step above 45 cm in one frame (melee, dash, blink excluded): 0. largest: melee_2(hand_l f11 75 cm) melee_3(hand_l f11 59 cm) melee_1(hand_l f10 58 cm) blink_in(hand_r f2 58 cm) dash_b(foot_r f5 51 cm) dash_f(foot_r f8 50 cm) dash_r(foot_r f5 49 cm) dash_l(foot_l f5 49 cm) channel_interrupt(hand_l f7 43 cm) knockup_start(hand_l f10 43 cm) cast_directional(hand_r f11 43 cm) jump_start(hand_l f7 42 cm) 
+SHOWCASE_TRACE t=0.700 kind=CHECK name=content_loops_close pass=1 loops=30 open_loops=0 (tolerance 1.5 cm on head, pelvis, hands, feet, chest)
+SHOWCASE_TRACE t=0.700 kind=CHECK name=content_death_front_connects_to_dead_front pass=1 max_bone_delta_cm=0.0 (hand_r), tolerance 3 cm
+SHOWCASE_TRACE t=0.700 kind=CHECK name=content_death_back_connects_to_dead_back pass=1 max_bone_delta_cm=0.0 (foot_r), tolerance 3 cm
+SHOWCASE_TRACE t=0.700 kind=CHECK name=content_dash_f_root_travel_200cm pass=1 root travel=200.0 cm
+SHOWCASE_TRACE t=0.700 kind=CHECK name=content_dash_b_root_travel_200cm pass=1 root travel=200.0 cm
+SHOWCASE_TRACE t=0.700 kind=CHECK name=content_dash_l_root_travel_200cm pass=1 root travel=200.0 cm
+SHOWCASE_TRACE t=0.700 kind=CHECK name=content_dash_r_root_travel_200cm pass=1 root travel=200.0 cm
+SHOWCASE_TRACE t=0.700 kind=CHECK name=content_standing_clips_upright pass=1 clips with the head below 110 cm: 0 
+SHOWCASE_TRACE t=0.700 kind=CHECK name=content_respawn_ends_upright pass=1 head z at the end of respawn = 149 cm
+SHOWCASE_TRACE t=0.700 kind=CHECK name=content_aim_samples_differ pass=1 hand_l distance left/right aim = 104.8 cm
+SHOWCASE_TRACE t=0.700 kind=CONTENT manifest_events clips_with_events=96 of 96 (missing events use fallback times, marked source=fallback)
+SHOWCASE_TRACE t=0.700 kind=MATERIAL slot=0 name=MI_suit material=MI_suit_TeamA
+SHOWCASE_TRACE t=0.700 kind=MATERIAL slot=1 name=MI_skin material=MI_skin_TeamA
+SHOWCASE_TRACE t=0.700 kind=MATERIAL slot=2 name=MI_eye material=MI_eye_TeamA
+SHOWCASE_TRACE t=0.700 kind=MATERIAL slot=3 name=MI_mouth material=MI_mouth_TeamA
+SHOWCASE_TRACE t=0.700 kind=MATERIAL slot=4 name=MI_armor material=MI_armor_TeamA
+SHOWCASE_TRACE t=0.700 kind=MATERIAL slot=5 name=MI_cyber material=MI_cyber_TeamA
+SHOWCASE_TRACE t=0.700 kind=MATERIAL slot=6 name=MI_hair material=MI_hair_TeamA
+SHOWCASE_TRACE t=0.700 kind=MATERIAL overlay=MI_Outline_TeamA lod_forced=0 mesh=SK_Operative
+SHOWCASE_TRACE t=0.700 kind=SOCKET name=hand_grip_l component_pos=(16.9,-31.5,80.6)
+SHOWCASE_TRACE t=0.700 kind=SOCKET name=hand_grip_r component_pos=(17.4,27.6,79.1)
+SHOWCASE_TRACE t=0.700 kind=SOCKET name=emitter_muzzle component_pos=(20.3,-35.9,74.6)
+SHOWCASE_TRACE t=0.700 kind=SOCKET name=blade_base component_pos=(2.4,-31.1,107.2)
+SHOWCASE_TRACE t=0.700 kind=SOCKET name=blade_tip component_pos=(14.4,-35.5,84.7)
+SHOWCASE_TRACE t=0.700 kind=SOCKET name=cell_slot component_pos=(12.6,-28.4,97.6)
+SHOWCASE_TRACE t=0.700 kind=SOCKET name=cell_pouch component_pos=(5.5,14.0,92.8)
+SHOWCASE_TRACE t=0.700 kind=SOCKET name=beacon_dock component_pos=(-10.0,14.0,86.8)
+SHOWCASE_TRACE t=0.700 kind=SOCKET name=prop_cell component_pos=(16.4,-29.7,102.6)
+SHOWCASE_TRACE t=0.700 kind=SOCKET name=prop_beacon component_pos=(-10.0,14.0,89.5)
+SHOWCASE_TRACE t=0.700 kind=SOCKET name=fx_chest component_pos=(11.9,-1.2,128.5)
+SHOWCASE_TRACE t=0.700 kind=SOCKET name=fx_head_top component_pos=(1.8,-0.1,178.3)
+SHOWCASE_TRACE t=0.700 kind=SOCKET name=fx_mouth component_pos=(10.1,-1.2,156.4)
+SHOWCASE_TRACE t=0.700 kind=SOCKET name=eye_l component_pos=(8.2,-4.0,162.7)
+SHOWCASE_TRACE t=0.700 kind=SOCKET name=floor_l component_pos=(2.0,-10.0,-2.1)
+SHOWCASE_TRACE t=0.700 kind=SEQUENCE begin tasks=308
+SHOWCASE_TRACE t=0.700 kind=STEP begin=locomotion_walk_run_sprint_stop view=0
+SHOWCASE_TRACE t=1.367 kind=STATE step=locomotion_walk_run_sprint_stop from="Locomotion/Idle" to="Locomotion/Start" pos=(-1249,1100,92) speed=37
+SHOWCASE_TRACE t=1.367 kind=CLIP step=locomotion_walk_run_sprint_stop clip=start_f length=0.600 rate=1.00
+SHOWCASE_TRACE t=1.500 kind=EVENT step=locomotion_walk_run_sprint_stop event=foot_lift clip=start_f clip_time=0.133 player=base pass=3 params=Foot=l source=manifest
+SHOWCASE_TRACE t=1.800 kind=EVENT step=locomotion_walk_run_sprint_stop event=foot_plant clip=start_f clip_time=0.433 player=base pass=3 params=Foot=l source=manifest
+SHOWCASE_TRACE t=1.867 kind=EVENT step=locomotion_walk_run_sprint_stop event=foot_lift clip=start_f clip_time=0.500 player=base pass=3 params=Foot=r source=manifest
+SHOWCASE_TRACE t=1.867 kind=EVENT step=locomotion_walk_run_sprint_stop event=control_return clip=start_f clip_time=0.500 player=base pass=3 source=manifest
+SHOWCASE_TRACE t=1.967 kind=STATE step=locomotion_walk_run_sprint_stop from="Locomotion/Start" to="Locomotion/Move" pos=(-1163,1100,92) speed=150
+SHOWCASE_TRACE t=1.967 kind=CLIP step=locomotion_walk_run_sprint_stop clip=walk_f length=0.900 rate=1.00
+SHOWCASE_TRACE t=2.000 kind=EVENT step=locomotion_walk_run_sprint_stop event=foot_plant clip=walk_f clip_time=0.033 player=base pass=4 params=Foot=l source=manifest
+SHOWCASE_TRACE t=2.067 kind=EVENT step=locomotion_walk_run_sprint_stop event=foot_lift clip=walk_f clip_time=0.100 player=base pass=4 params=Foot=r source=manifest
+SHOWCASE_TRACE t=2.433 kind=EVENT step=locomotion_walk_run_sprint_stop event=foot_plant clip=walk_f clip_time=0.467 player=base pass=4 params=Foot=r source=manifest
+SHOWCASE_TRACE t=2.533 kind=EVENT step=locomotion_walk_run_sprint_stop event=foot_lift clip=walk_f clip_time=0.567 player=base pass=4 params=Foot=l source=manifest
+SHOWCASE_TRACE t=2.833 kind=CHECK name=walk_speed pass=1 speed=150.0 expected=150
+SHOWCASE_TRACE t=2.900 kind=EVENT step=locomotion_walk_run_sprint_stop event=foot_plant clip=walk_f clip_time=0.033 player=base pass=5 params=Foot=l source=manifest
+SHOWCASE_TRACE t=2.967 kind=EVENT step=locomotion_walk_run_sprint_stop event=foot_lift clip=walk_f clip_time=0.122 player=base pass=5 params=Foot=r source=manifest
+SHOWCASE_TRACE t=3.000 kind=CLIP step=locomotion_walk_run_sprint_stop clip=run_f length=0.600 rate=1.00
+SHOWCASE_TRACE t=3.167 kind=EVENT step=locomotion_walk_run_sprint_stop event=foot_lift clip=run_f clip_time=0.256 player=base pass=6 params=Foot=l source=manifest
+SHOWCASE_TRACE t=3.233 kind=EVENT step=locomotion_walk_run_sprint_stop event=foot_plant clip=run_f clip_time=0.323 player=base pass=6 params=Foot=r source=manifest
+SHOWCASE_TRACE t=3.467 kind=EVENT step=locomotion_walk_run_sprint_stop event=foot_lift clip=run_f clip_time=0.556 player=base pass=6 params=Foot=r source=manifest
+SHOWCASE_TRACE t=3.533 kind=EVENT step=locomotion_walk_run_sprint_stop event=foot_plant clip=run_f clip_time=0.023 player=base pass=7 params=Foot=l source=manifest
+SHOWCASE_TRACE t=3.767 kind=EVENT step=locomotion_walk_run_sprint_stop event=foot_lift clip=run_f clip_time=0.256 player=base pass=7 params=Foot=l source=manifest
+SHOWCASE_TRACE t=3.833 kind=EVENT step=locomotion_walk_run_sprint_stop event=foot_plant clip=run_f clip_time=0.323 player=base pass=7 params=Foot=r source=manifest
+SHOWCASE_TRACE t=4.067 kind=EVENT step=locomotion_walk_run_sprint_stop event=foot_lift clip=run_f clip_time=0.556 player=base pass=7 params=Foot=r source=manifest
+SHOWCASE_TRACE t=4.133 kind=EVENT step=locomotion_walk_run_sprint_stop event=foot_plant clip=run_f clip_time=0.023 player=base pass=8 params=Foot=l source=manifest
+SHOWCASE_TRACE t=4.133 kind=CHECK name=run_speed pass=1 speed=400.0 expected=400
+SHOWCASE_TRACE t=4.333 kind=CLIP step=locomotion_walk_run_sprint_stop clip=sprint_f length=0.500 rate=1.00
+SHOWCASE_TRACE t=4.433 kind=EVENT step=locomotion_walk_run_sprint_stop event=foot_plant clip=sprint_f clip_time=0.297 player=base pass=9 params=Foot=r source=manifest
+SHOWCASE_TRACE t=4.567 kind=EVENT step=locomotion_walk_run_sprint_stop event=foot_lift clip=sprint_f clip_time=0.430 player=base pass=9 params=Foot=r source=manifest
+SHOWCASE_TRACE t=4.667 kind=EVENT step=locomotion_walk_run_sprint_stop event=foot_plant clip=sprint_f clip_time=0.030 player=base pass=10 params=Foot=l source=manifest
+SHOWCASE_TRACE t=4.800 kind=EVENT step=locomotion_walk_run_sprint_stop event=foot_lift clip=sprint_f clip_time=0.164 player=base pass=10 params=Foot=l source=manifest
+SHOWCASE_TRACE t=4.933 kind=EVENT step=locomotion_walk_run_sprint_stop event=foot_plant clip=sprint_f clip_time=0.297 player=base pass=10 params=Foot=r source=manifest
+SHOWCASE_TRACE t=5.033 kind=CHECK name=sprint_speed pass=1 speed=650.0 expected=650
+SHOWCASE_TRACE t=5.067 kind=EVENT step=locomotion_walk_run_sprint_stop event=foot_lift clip=sprint_f clip_time=0.430 player=base pass=10 params=Foot=r source=manifest
+SHOWCASE_TRACE t=5.100 kind=STATE step=locomotion_walk_run_sprint_stop from="Locomotion/Move" to="Locomotion/Stop" pos=(49,1100,92) speed=623
+SHOWCASE_TRACE t=5.100 kind=CLIP step=locomotion_walk_run_sprint_stop clip=stop_f length=0.533 rate=1.00
+SHOWCASE_TRACE t=5.400 kind=EVENT step=locomotion_walk_run_sprint_stop event=foot_plant clip=stop_f clip_time=0.300 player=base pass=11 params=Foot=r source=manifest
+SHOWCASE_TRACE t=5.500 kind=EVENT step=locomotion_walk_run_sprint_stop event=control_return clip=stop_f clip_time=0.400 player=base pass=11 source=manifest
+SHOWCASE_TRACE t=5.567 kind=CHECK name=stop_clip_played pass=1 clips=start_f,walk_f,run_f,sprint_f,stop_f
+SHOWCASE_TRACE t=5.567 kind=STEP_METRIC step=locomotion_walk_run_sprint_stop max_bone_delta_cm=24.8 bone=hand_r
+SHOWCASE_TRACE t=5.567 kind=STEP begin=eight_directions_independent_facing view=3
+SHOWCASE_TRACE t=5.567 kind=STATE step=eight_directions_independent_facing from="Locomotion/Stop" to="Locomotion/Idle" pos=(0,1100,92) speed=0
+SHOWCASE_TRACE t=5.567 kind=CLIP step=eight_directions_independent_facing clip=idle_relaxed length=4.000 rate=1.00
+SHOWCASE_TRACE t=6.133 kind=STATE step=eight_directions_independent_facing from="Locomotion/Idle" to="Locomotion/Start" pos=(1,1100,92) speed=37
+SHOWCASE_TRACE t=6.133 kind=CLIP step=eight_directions_independent_facing clip=start_f length=0.600 rate=1.00
+SHOWCASE_TRACE t=6.267 kind=EVENT step=eight_directions_independent_facing event=foot_lift clip=start_f clip_time=0.133 player=base pass=14 params=Foot=l source=manifest
+SHOWCASE_TRACE t=6.567 kind=EVENT step=eight_directions_independent_facing event=foot_plant clip=start_f clip_time=0.433 player=base pass=14 params=Foot=l source=manifest
+SHOWCASE_TRACE t=6.633 kind=EVENT step=eight_directions_independent_facing event=foot_lift clip=start_f clip_time=0.500 player=base pass=14 params=Foot=r source=manifest
+SHOWCASE_TRACE t=6.633 kind=EVENT step=eight_directions_independent_facing event=control_return clip=start_f clip_time=0.500 player=base pass=14 source=manifest
+SHOWCASE_TRACE t=6.733 kind=STATE step=eight_directions_independent_facing from="Locomotion/Start" to="Locomotion/Move" pos=(187,1100,92) speed=400
+SHOWCASE_TRACE t=6.733 kind=CLIP step=eight_directions_independent_facing clip=run_f length=0.600 rate=1.00
+SHOWCASE_TRACE t=6.800 kind=EVENT step=eight_directions_independent_facing event=foot_lift clip=run_f clip_time=0.554 player=base pass=15 params=Foot=r source=manifest
+SHOWCASE_TRACE t=6.867 kind=EVENT step=eight_directions_independent_facing event=foot_plant clip=run_f clip_time=0.021 player=base pass=16 params=Foot=l source=manifest
+SHOWCASE_TRACE t=7.100 kind=EVENT step=eight_directions_independent_facing event=foot_lift clip=run_f clip_time=0.254 player=base pass=16 params=Foot=l source=manifest
+SHOWCASE_TRACE t=7.133 kind=CLIP step=eight_directions_independent_facing clip=walk_f length=0.900 rate=1.00
+SHOWCASE_TRACE t=7.200 kind=CLIP step=eight_directions_independent_facing clip=walk_fr length=0.900 rate=1.00
+SHOWCASE_TRACE t=7.233 kind=CLIP step=eight_directions_independent_facing clip=walk_r length=0.800 rate=1.00
+SHOWCASE_TRACE t=7.267 kind=EVENT step=eight_directions_independent_facing event=foot_plant clip=walk_r clip_time=0.425 player=base pass=19 params=Foot=r source=manifest
+SHOWCASE_TRACE t=7.300 kind=CLIP step=eight_directions_independent_facing clip=walk_br length=1.000 rate=1.00
+SHOWCASE_TRACE t=7.367 kind=EVENT step=eight_directions_independent_facing event=foot_lift clip=walk_b clip_time=0.699 player=base pass=21 params=Foot=l source=manifest
+SHOWCASE_TRACE t=7.367 kind=CLIP step=eight_directions_independent_facing clip=walk_b length=1.000 rate=1.00
+SHOWCASE_TRACE t=7.433 kind=CLIP step=eight_directions_independent_facing clip=run_b length=0.700 rate=1.00
+SHOWCASE_TRACE t=7.500 kind=EVENT step=eight_directions_independent_facing event=foot_lift clip=run_b clip_time=0.667 player=base pass=22 params=Foot=r source=manifest
+SHOWCASE_TRACE t=7.533 kind=EVENT step=eight_directions_independent_facing event=foot_plant clip=run_b clip_time=0.023 player=base pass=23 params=Foot=l source=manifest
+SHOWCASE_TRACE t=7.700 kind=EVENT step=eight_directions_independent_facing event=foot_lift clip=run_b clip_time=0.300 player=base pass=23 params=Foot=l source=manifest
+SHOWCASE_TRACE t=7.733 kind=EVENT step=eight_directions_independent_facing event=foot_plant clip=run_b clip_time=0.356 player=base pass=23 params=Foot=r source=manifest
+SHOWCASE_TRACE t=7.900 kind=EVENT step=eight_directions_independent_facing event=foot_lift clip=run_b clip_time=0.634 player=base pass=23 params=Foot=r source=manifest
+SHOWCASE_TRACE t=7.967 kind=EVENT step=eight_directions_independent_facing event=foot_plant clip=run_b clip_time=0.045 player=base pass=24 params=Foot=l source=manifest
+SHOWCASE_TRACE t=8.133 kind=EVENT step=eight_directions_independent_facing event=foot_lift clip=run_bl clip_time=0.297 player=base pass=25 params=Foot=l source=manifest
+SHOWCASE_TRACE t=8.133 kind=CLIP step=eight_directions_independent_facing clip=run_bl length=0.700 rate=1.00
+SHOWCASE_TRACE t=8.167 kind=EVENT step=eight_directions_independent_facing event=foot_plant clip=run_bl clip_time=0.343 player=base pass=25 params=Foot=r source=manifest
+SHOWCASE_TRACE t=8.200 kind=EVENT step=eight_directions_independent_facing event=foot_plant clip=run_l clip_time=0.338 player=base pass=26 params=Foot=r source=manifest
+SHOWCASE_TRACE t=8.200 kind=CLIP step=eight_directions_independent_facing clip=run_l length=0.600 rate=1.00
+SHOWCASE_TRACE t=8.333 kind=EVENT step=eight_directions_independent_facing event=foot_lift clip=run_l clip_time=0.539 player=base pass=26 params=Foot=r source=manifest
+SHOWCASE_TRACE t=8.400 kind=EVENT step=eight_directions_independent_facing event=foot_plant clip=run_l clip_time=0.040 player=base pass=27 params=Foot=l source=manifest
+SHOWCASE_TRACE t=8.533 kind=EVENT step=eight_directions_independent_facing event=foot_lift clip=run_l clip_time=0.244 player=base pass=27 params=Foot=l source=manifest
+SHOWCASE_TRACE t=8.600 kind=EVENT step=eight_directions_independent_facing event=foot_plant clip=run_l clip_time=0.346 player=base pass=27 params=Foot=r source=manifest
+SHOWCASE_TRACE t=8.733 kind=CLIP step=eight_directions_independent_facing clip=walk_l length=0.800 rate=1.00
+SHOWCASE_TRACE t=9.067 kind=CLIP step=eight_directions_independent_facing clip=walk_fl length=0.900 rate=1.00
+SHOWCASE_TRACE t=9.133 kind=CLIP step=eight_directions_independent_facing clip=walk_f length=0.900 rate=1.00
+SHOWCASE_TRACE t=9.200 kind=CLIP step=eight_directions_independent_facing clip=walk_fr length=0.900 rate=1.00
+SHOWCASE_TRACE t=9.233 kind=EVENT step=eight_directions_independent_facing event=foot_plant clip=walk_r clip_time=0.053 player=base pass=33 params=Foot=l source=manifest
+SHOWCASE_TRACE t=9.233 kind=CLIP step=eight_directions_independent_facing clip=walk_r length=0.800 rate=1.00
+SHOWCASE_TRACE t=9.267 kind=CLIP step=eight_directions_independent_facing clip=run_r length=0.600 rate=1.00
+SHOWCASE_TRACE t=9.400 kind=EVENT step=eight_directions_independent_facing event=foot_lift clip=run_r clip_time=0.251 player=base pass=34 params=Foot=l source=manifest
+SHOWCASE_TRACE t=9.433 kind=EVENT step=eight_directions_independent_facing event=foot_plant clip=run_r clip_time=0.301 player=base pass=34 params=Foot=r source=manifest
+SHOWCASE_TRACE t=9.600 kind=EVENT step=eight_directions_independent_facing event=foot_lift clip=run_r clip_time=0.552 player=base pass=34 params=Foot=r source=manifest
+SHOWCASE_TRACE t=9.633 kind=EVENT step=eight_directions_independent_facing event=foot_plant clip=run_r clip_time=0.003 player=base pass=35 params=Foot=l source=manifest
+SHOWCASE_TRACE t=9.800 kind=EVENT step=eight_directions_independent_facing event=foot_lift clip=run_r clip_time=0.257 player=base pass=35 params=Foot=l source=manifest
+SHOWCASE_TRACE t=9.833 kind=EVENT step=eight_directions_independent_facing event=foot_plant clip=run_r clip_time=0.309 player=base pass=35 params=Foot=r source=manifest
+SHOWCASE_TRACE t=10.000 kind=EVENT step=eight_directions_independent_facing event=foot_lift clip=run_r clip_time=0.565 player=base pass=35 params=Foot=r source=manifest
+SHOWCASE_TRACE t=10.033 kind=EVENT step=eight_directions_independent_facing event=foot_plant clip=walk_fr clip_time=0.006 player=base pass=37 params=Foot=l source=manifest
+SHOWCASE_TRACE t=10.033 kind=CLIP step=eight_directions_independent_facing clip=walk_fr length=0.900 rate=1.00
+SHOWCASE_TRACE t=10.133 kind=EVENT step=eight_directions_independent_facing event=foot_lift clip=walk_f clip_time=0.122 player=base pass=38 params=Foot=r source=manifest
+SHOWCASE_TRACE t=10.133 kind=CLIP step=eight_directions_independent_facing clip=walk_f length=0.900 rate=1.00
+SHOWCASE_TRACE t=10.167 kind=CLIP step=eight_directions_independent_facing clip=walk_fl length=0.900 rate=1.00
+SHOWCASE_TRACE t=10.200 kind=CLIP step=eight_directions_independent_facing clip=run_fl length=0.600 rate=1.00
+SHOWCASE_TRACE t=10.333 kind=EVENT step=eight_directions_independent_facing event=foot_lift clip=run_fl clip_time=0.266 player=base pass=40 params=Foot=l source=manifest
+SHOWCASE_TRACE t=10.367 kind=EVENT step=eight_directions_independent_facing event=foot_plant clip=run_fl clip_time=0.302 player=base pass=40 params=Foot=r source=manifest
+SHOWCASE_TRACE t=10.600 kind=EVENT step=eight_directions_independent_facing event=foot_lift clip=run_fl clip_time=0.554 player=base pass=40 params=Foot=r source=manifest
+SHOWCASE_TRACE t=10.667 kind=EVENT step=eight_directions_independent_facing event=foot_plant clip=run_fl clip_time=0.026 player=base pass=41 params=Foot=l source=manifest
+SHOWCASE_TRACE t=10.867 kind=EVENT step=eight_directions_independent_facing event=foot_lift clip=run_fl clip_time=0.244 player=base pass=41 params=Foot=l source=manifest
+SHOWCASE_TRACE t=10.933 kind=EVENT step=eight_directions_independent_facing event=foot_plant clip=run_fl clip_time=0.318 player=base pass=41 params=Foot=r source=manifest
+SHOWCASE_TRACE t=11.000 kind=CLIP step=eight_directions_independent_facing clip=walk_fl length=0.900 rate=1.00
+SHOWCASE_TRACE t=11.067 kind=EVENT step=eight_directions_independent_facing event=foot_lift clip=walk_f clip_time=0.571 player=base pass=43 params=Foot=l source=manifest
+SHOWCASE_TRACE t=11.067 kind=CLIP step=eight_directions_independent_facing clip=walk_f length=0.900 rate=1.00
+SHOWCASE_TRACE t=11.133 kind=CLIP step=eight_directions_independent_facing clip=walk_fr length=0.900 rate=1.00
+SHOWCASE_TRACE t=11.167 kind=CLIP step=eight_directions_independent_facing clip=walk_r length=0.800 rate=1.00
+SHOWCASE_TRACE t=11.233 kind=CLIP step=eight_directions_independent_facing clip=walk_br length=1.000 rate=1.00
+SHOWCASE_TRACE t=11.300 kind=CLIP step=eight_directions_independent_facing clip=run_br length=0.700 rate=1.00
+SHOWCASE_TRACE t=11.333 kind=EVENT step=eight_directions_independent_facing event=foot_plant clip=run_br clip_time=0.032 player=base pass=48 params=Foot=l source=manifest
+SHOWCASE_TRACE t=11.500 kind=EVENT step=eight_directions_independent_facing event=foot_lift clip=run_br clip_time=0.295 player=base pass=48 params=Foot=l source=manifest
+SHOWCASE_TRACE t=11.533 kind=EVENT step=eight_directions_independent_facing event=foot_plant clip=run_br clip_time=0.348 player=base pass=48 params=Foot=r source=manifest
+SHOWCASE_TRACE t=11.733 kind=EVENT step=eight_directions_independent_facing event=foot_lift clip=run_br clip_time=0.669 player=base pass=48 params=Foot=r source=manifest
+SHOWCASE_TRACE t=11.767 kind=EVENT step=eight_directions_independent_facing event=foot_plant clip=run_br clip_time=0.022 player=base pass=49 params=Foot=l source=manifest
+SHOWCASE_TRACE t=11.933 kind=EVENT step=eight_directions_independent_facing event=foot_lift clip=run_br clip_time=0.289 player=base pass=49 params=Foot=l source=manifest
+SHOWCASE_TRACE t=11.967 kind=EVENT step=eight_directions_independent_facing event=foot_plant clip=run_br clip_time=0.334 player=base pass=49 params=Foot=r source=manifest
+SHOWCASE_TRACE t=12.000 kind=EVENT step=eight_directions_independent_facing event=foot_plant clip=run_r clip_time=0.326 player=base pass=50 params=Foot=r source=manifest
+SHOWCASE_TRACE t=12.000 kind=CLIP step=eight_directions_independent_facing clip=run_r length=0.600 rate=1.00
+SHOWCASE_TRACE t=12.067 kind=CLIP step=eight_directions_independent_facing clip=run_fr length=0.600 rate=1.00
+SHOWCASE_TRACE t=12.200 kind=EVENT step=eight_directions_independent_facing event=foot_lift clip=run_fr clip_time=0.550 player=base pass=51 params=Foot=r source=manifest
+SHOWCASE_TRACE t=12.267 kind=EVENT step=eight_directions_independent_facing event=foot_plant clip=run_fr clip_time=0.024 player=base pass=52 params=Foot=l source=manifest
+SHOWCASE_TRACE t=12.467 kind=EVENT step=eight_directions_independent_facing event=foot_lift clip=run_fr clip_time=0.247 player=base pass=52 params=Foot=l source=manifest
+SHOWCASE_TRACE t=12.533 kind=EVENT step=eight_directions_independent_facing event=foot_plant clip=run_fr clip_time=0.321 player=base pass=52 params=Foot=r source=manifest
+SHOWCASE_TRACE t=12.733 kind=EVENT step=eight_directions_independent_facing event=foot_lift clip=run_fr clip_time=0.546 player=base pass=52 params=Foot=r source=manifest
+SHOWCASE_TRACE t=12.800 kind=EVENT step=eight_directions_independent_facing event=foot_plant clip=run_fr clip_time=0.021 player=base pass=53 params=Foot=l source=manifest
+SHOWCASE_TRACE t=12.933 kind=CLIP step=eight_directions_independent_facing clip=walk_fr length=0.900 rate=1.00
+SHOWCASE_TRACE t=13.000 kind=CLIP step=eight_directions_independent_facing clip=walk_f length=0.900 rate=1.00
+SHOWCASE_TRACE t=13.067 kind=CLIP step=eight_directions_independent_facing clip=walk_fl length=0.900 rate=1.00
+SHOWCASE_TRACE t=13.133 kind=CLIP step=eight_directions_independent_facing clip=walk_l length=0.800 rate=1.00
+SHOWCASE_TRACE t=13.167 kind=EVENT step=eight_directions_independent_facing event=foot_plant clip=walk_l clip_time=0.406 player=base pass=57 params=Foot=r source=manifest
+SHOWCASE_TRACE t=13.200 kind=CLIP step=eight_directions_independent_facing clip=run_bl length=0.700 rate=1.00
+SHOWCASE_TRACE t=13.367 kind=EVENT step=eight_directions_independent_facing event=foot_lift clip=run_bl clip_time=0.637 player=base pass=58 params=Foot=r source=manifest
+SHOWCASE_TRACE t=13.433 kind=EVENT step=eight_directions_independent_facing event=foot_plant clip=run_bl clip_time=0.045 player=base pass=59 params=Foot=l source=manifest
+SHOWCASE_TRACE t=13.600 kind=EVENT step=eight_directions_independent_facing event=foot_lift clip=run_bl clip_time=0.315 player=base pass=59 params=Foot=l source=manifest
+SHOWCASE_TRACE t=13.633 kind=EVENT step=eight_directions_independent_facing event=foot_plant clip=run_bl clip_time=0.369 player=base pass=59 params=Foot=r source=manifest
+SHOWCASE_TRACE t=13.800 kind=EVENT step=eight_directions_independent_facing event=foot_lift clip=run_bl clip_time=0.638 player=base pass=59 params=Foot=r source=manifest
+SHOWCASE_TRACE t=13.867 kind=EVENT step=eight_directions_independent_facing event=foot_plant clip=run_bl clip_time=0.046 player=base pass=60 params=Foot=l source=manifest
+SHOWCASE_TRACE t=14.067 kind=CLIP step=eight_directions_independent_facing clip=walk_bl length=1.000 rate=1.00
+SHOWCASE_TRACE t=14.100 kind=EVENT step=eight_directions_independent_facing event=foot_plant clip=walk_bl clip_time=0.504 player=base pass=61 params=Foot=r source=manifest
+SHOWCASE_TRACE t=14.200 kind=EVENT step=eight_directions_independent_facing event=foot_lift clip=walk_bl clip_time=0.651 player=base pass=61 params=Foot=l source=manifest
+SHOWCASE_TRACE t=14.367 kind=CHECK name=facing_independent_of_travel pass=1 yaw=-1.6 travelled=3686 cm
+SHOWCASE_TRACE t=14.367 kind=CHECK name=strafe_clips_used pass=1 clips=idle_relaxed,start_f,run_f,walk_f,walk_fr,walk_r,walk_br,walk_b,run_b,run_bl,run_l,walk_l,walk_fl,run_r,run_fl,run_br,run_fr,walk_bl
+SHOWCASE_TRACE t=14.367 kind=CHECK name=topdown_character_about_120px pass=1 character 118 px tall in the top-down view, 118 px scaled to a 1080 px high frame (viewport 1920x1080)
+SHOWCASE_TRACE t=14.367 kind=STEP_METRIC step=eight_directions_independent_facing max_bone_delta_cm=45.3 bone=hand_r
+SHOWCASE_TRACE t=14.367 kind=STEP begin=aim_while_moving_fire_burst_cast view=0
+SHOWCASE_TRACE t=14.367 kind=STATE step=aim_while_moving_fire_burst_cast from="Locomotion/Move" to="Locomotion/Idle" pos=(500,-600,92) speed=0
+SHOWCASE_TRACE t=14.367 kind=CLIP step=aim_while_moving_fire_burst_cast clip=idle_relaxed length=4.000 rate=1.00
+SHOWCASE_TRACE t=14.400 kind=STATE step=aim_while_moving_fire_burst_cast from="Locomotion/Idle" to="Locomotion/Idle +aim" pos=(500,-600,92) speed=0
+SHOWCASE_TRACE t=14.433 kind=STATE step=aim_while_moving_fire_burst_cast from="Locomotion/Idle +aim" to="Locomotion/Move +aim" pos=(500,-599,92) speed=37
+SHOWCASE_TRACE t=14.433 kind=CLIP step=aim_while_moving_fire_burst_cast clip=walk_f length=0.900 rate=1.00
+SHOWCASE_TRACE t=14.600 kind=EVENT step=aim_while_moving_fire_burst_cast event=foot_plant clip=walk_f clip_time=0.010 player=base pass=66 params=Foot=l source=manifest
+SHOWCASE_TRACE t=14.667 kind=CLIP step=aim_while_moving_fire_burst_cast clip=run_f length=0.600 rate=1.00
+SHOWCASE_TRACE t=14.867 kind=EVENT step=aim_while_moving_fire_burst_cast event=foot_lift clip=run_f clip_time=0.246 player=base pass=67 params=Foot=l source=manifest
+SHOWCASE_TRACE t=14.933 kind=EVENT step=aim_while_moving_fire_burst_cast event=foot_plant clip=run_f clip_time=0.313 player=base pass=67 params=Foot=r source=manifest
+SHOWCASE_TRACE t=15.167 kind=EVENT step=aim_while_moving_fire_burst_cast event=foot_lift clip=run_f clip_time=0.546 player=base pass=67 params=Foot=r source=manifest
+SHOWCASE_TRACE t=15.233 kind=EVENT step=aim_while_moving_fire_burst_cast event=foot_plant clip=run_f clip_time=0.013 player=base pass=68 params=Foot=l source=manifest
+SHOWCASE_TRACE t=15.267 kind=STATE step=aim_while_moving_fire_burst_cast from="Locomotion/Move +aim" to="Locomotion/Move +upper:ranged_fire +aim" pos=(500,-319,92) speed=400
+SHOWCASE_TRACE t=15.300 kind=EVENT step=aim_while_moving_fire_burst_cast event=muzzle_fire clip=ranged_fire clip_time=0.033 player=upper pass=69 params=Index=0 source=manifest
+SHOWCASE_TRACE t=15.467 kind=EVENT step=aim_while_moving_fire_burst_cast event=foot_lift clip=run_f clip_time=0.246 player=base pass=68 params=Foot=l source=manifest
+SHOWCASE_TRACE t=15.467 kind=EVENT step=aim_while_moving_fire_burst_cast event=cancel_window_begin clip=ranged_fire clip_time=0.200 player=upper pass=69 source=manifest
+SHOWCASE_TRACE t=15.533 kind=EVENT step=aim_while_moving_fire_burst_cast event=foot_plant clip=run_f clip_time=0.313 player=base pass=68 params=Foot=r source=manifest
+SHOWCASE_TRACE t=15.567 kind=STATE step=aim_while_moving_fire_burst_cast from="Locomotion/Move +upper:ranged_fire +aim" to="Locomotion/Move +aim" pos=(500,-199,92) speed=400
+SHOWCASE_TRACE t=15.767 kind=EVENT step=aim_while_moving_fire_burst_cast event=foot_lift clip=run_f clip_time=0.546 player=base pass=68 params=Foot=r source=manifest
+SHOWCASE_TRACE t=15.833 kind=EVENT step=aim_while_moving_fire_burst_cast event=foot_plant clip=run_f clip_time=0.013 player=base pass=70 params=Foot=l source=manifest
+SHOWCASE_TRACE t=16.067 kind=EVENT step=aim_while_moving_fire_burst_cast event=foot_lift clip=run_f clip_time=0.246 player=base pass=70 params=Foot=l source=manifest
+SHOWCASE_TRACE t=16.067 kind=STATE step=aim_while_moving_fire_burst_cast from="Locomotion/Move +aim" to="Locomotion/Move +upper:ranged_fire +aim" pos=(500,1,92) speed=400
+SHOWCASE_TRACE t=16.100 kind=EVENT step=aim_while_moving_fire_burst_cast event=muzzle_fire clip=ranged_fire clip_time=0.033 player=upper pass=71 params=Index=0 source=manifest
+SHOWCASE_TRACE t=16.133 kind=EVENT step=aim_while_moving_fire_burst_cast event=foot_plant clip=run_f clip_time=0.313 player=base pass=70 params=Foot=r source=manifest
+SHOWCASE_TRACE t=16.267 kind=EVENT step=aim_while_moving_fire_burst_cast event=cancel_window_begin clip=ranged_fire clip_time=0.200 player=upper pass=71 source=manifest
+SHOWCASE_TRACE t=16.367 kind=EVENT step=aim_while_moving_fire_burst_cast event=foot_lift clip=run_f clip_time=0.546 player=base pass=70 params=Foot=r source=manifest
+SHOWCASE_TRACE t=16.367 kind=STATE step=aim_while_moving_fire_burst_cast from="Locomotion/Move +upper:ranged_fire +aim" to="Locomotion/Move +aim" pos=(500,121,92) speed=400
+SHOWCASE_TRACE t=16.433 kind=EVENT step=aim_while_moving_fire_burst_cast event=foot_plant clip=run_f clip_time=0.013 player=base pass=72 params=Foot=l source=manifest
+SHOWCASE_TRACE t=16.667 kind=EVENT step=aim_while_moving_fire_burst_cast event=foot_lift clip=run_f clip_time=0.246 player=base pass=72 params=Foot=l source=manifest
+SHOWCASE_TRACE t=16.733 kind=EVENT step=aim_while_moving_fire_burst_cast event=foot_plant clip=run_f clip_time=0.313 player=base pass=72 params=Foot=r source=manifest
+SHOWCASE_TRACE t=16.867 kind=STATE step=aim_while_moving_fire_burst_cast from="Locomotion/Move +aim" to="Locomotion/Move +upper:ranged_burst +aim" pos=(500,321,92) speed=400
+SHOWCASE_TRACE t=16.933 kind=EVENT step=aim_while_moving_fire_burst_cast event=muzzle_fire clip=ranged_burst clip_time=0.067 player=upper pass=73 params=Index=0 source=manifest
+SHOWCASE_TRACE t=16.967 kind=EVENT step=aim_while_moving_fire_burst_cast event=foot_lift clip=run_f clip_time=0.546 player=base pass=72 params=Foot=r source=manifest
+SHOWCASE_TRACE t=17.033 kind=EVENT step=aim_while_moving_fire_burst_cast event=foot_plant clip=run_f clip_time=0.013 player=base pass=74 params=Foot=l source=manifest
+SHOWCASE_TRACE t=17.133 kind=EVENT step=aim_while_moving_fire_burst_cast event=muzzle_fire clip=ranged_burst clip_time=0.267 player=upper pass=73 params=Index=1 source=manifest
+SHOWCASE_TRACE t=17.267 kind=EVENT step=aim_while_moving_fire_burst_cast event=foot_lift clip=run_f clip_time=0.246 player=base pass=74 params=Foot=l source=manifest
+SHOWCASE_TRACE t=17.333 kind=EVENT step=aim_while_moving_fire_burst_cast event=foot_plant clip=run_f clip_time=0.313 player=base pass=74 params=Foot=r source=manifest
+SHOWCASE_TRACE t=17.333 kind=EVENT step=aim_while_moving_fire_burst_cast event=muzzle_fire clip=ranged_burst clip_time=0.467 player=upper pass=73 params=Index=2 source=manifest
+SHOWCASE_TRACE t=17.400 kind=EVENT step=aim_while_moving_fire_burst_cast event=cancel_window_begin clip=ranged_burst clip_time=0.533 player=upper pass=73 source=manifest
+SHOWCASE_TRACE t=17.467 kind=STATE step=aim_while_moving_fire_burst_cast from="Locomotion/Move +upper:ranged_burst +aim" to="Locomotion/Move +aim" pos=(500,561,92) speed=400
+SHOWCASE_TRACE t=17.567 kind=EVENT step=aim_while_moving_fire_burst_cast event=foot_lift clip=run_f clip_time=0.546 player=base pass=74 params=Foot=r source=manifest
+SHOWCASE_TRACE t=17.633 kind=EVENT step=aim_while_moving_fire_burst_cast event=foot_plant clip=run_f clip_time=0.013 player=base pass=75 params=Foot=l source=manifest
+SHOWCASE_TRACE t=17.867 kind=EVENT step=aim_while_moving_fire_burst_cast event=foot_lift clip=run_f clip_time=0.246 player=base pass=75 params=Foot=l source=manifest
+SHOWCASE_TRACE t=17.867 kind=STATE step=aim_while_moving_fire_burst_cast from="Locomotion/Move +aim" to="Locomotion/Move +upper:cast_directional +aim" pos=(500,721,92) speed=400
+SHOWCASE_TRACE t=17.933 kind=EVENT step=aim_while_moving_fire_burst_cast event=foot_plant clip=run_f clip_time=0.313 player=base pass=75 params=Foot=r source=manifest
+SHOWCASE_TRACE t=17.933 kind=STATE step=aim_while_moving_fire_burst_cast from="Locomotion/Move +upper:cast_directional +aim" to="Locomotion/Pivot +upper:cast_directional" pos=(500,738,92) speed=123
+SHOWCASE_TRACE t=17.933 kind=CLIP step=aim_while_moving_fire_burst_cast clip=pivot_l180 length=0.733 rate=1.00
+SHOWCASE_TRACE t=18.133 kind=EVENT step=aim_while_moving_fire_burst_cast event=foot_plant clip=pivot_l180 clip_time=0.200 player=base pass=77 params=Foot=r source=manifest
+SHOWCASE_TRACE t=18.267 kind=EVENT step=aim_while_moving_fire_burst_cast event=cast_release clip=cast_directional clip_time=0.400 player=upper pass=76 source=manifest
+SHOWCASE_TRACE t=18.367 kind=EVENT step=aim_while_moving_fire_burst_cast event=foot_lift clip=pivot_l180 clip_time=0.433 player=base pass=77 params=Foot=r source=manifest
+SHOWCASE_TRACE t=18.400 kind=EVENT step=aim_while_moving_fire_burst_cast event=cancel_window_begin clip=cast_directional clip_time=0.533 player=upper pass=76 source=manifest
+SHOWCASE_TRACE t=18.433 kind=EVENT step=aim_while_moving_fire_burst_cast event=foot_plant clip=pivot_l180 clip_time=0.500 player=base pass=77 params=Foot=l source=manifest
+SHOWCASE_TRACE t=18.567 kind=EVENT step=aim_while_moving_fire_burst_cast event=control_return clip=pivot_l180 clip_time=0.633 player=base pass=77 source=manifest
+SHOWCASE_TRACE t=18.667 kind=STATE step=aim_while_moving_fire_burst_cast from="Locomotion/Pivot +upper:cast_directional" to="Locomotion/Move +aim" pos=(500,604,92) speed=220
+SHOWCASE_TRACE t=18.667 kind=CLIP step=aim_while_moving_fire_burst_cast clip=walk_f length=0.900 rate=1.00
+SHOWCASE_TRACE t=18.733 kind=CLIP step=aim_while_moving_fire_burst_cast clip=run_f length=0.600 rate=1.00
+SHOWCASE_TRACE t=18.900 kind=EVENT step=aim_while_moving_fire_burst_cast event=foot_lift clip=run_f clip_time=0.544 player=base pass=79 params=Foot=r source=manifest
+SHOWCASE_TRACE t=18.967 kind=EVENT step=aim_while_moving_fire_burst_cast event=foot_plant clip=run_f clip_time=0.010 player=base pass=80 params=Foot=l source=manifest
+SHOWCASE_TRACE t=19.200 kind=EVENT step=aim_while_moving_fire_burst_cast event=foot_lift clip=run_f clip_time=0.244 player=base pass=80 params=Foot=l source=manifest
+SHOWCASE_TRACE t=19.267 kind=EVENT step=aim_while_moving_fire_burst_cast event=foot_plant clip=run_f clip_time=0.310 player=base pass=80 params=Foot=r source=manifest
+SHOWCASE_TRACE t=19.333 kind=STATE step=aim_while_moving_fire_burst_cast from="Locomotion/Move +aim" to="Locomotion/Stop +aim" pos=(500,350,92) speed=373
+SHOWCASE_TRACE t=19.333 kind=CLIP step=aim_while_moving_fire_burst_cast clip=stop_f length=0.533 rate=1.00
+SHOWCASE_TRACE t=19.633 kind=EVENT step=aim_while_moving_fire_burst_cast event=foot_plant clip=stop_f clip_time=0.300 player=base pass=81 params=Foot=r source=manifest
+SHOWCASE_TRACE t=19.633 kind=CHECK name=muzzle_fire_events pass=1 muzzle_fire=5 expected>=4 (1+1+3 shots, one may be queued)
+SHOWCASE_TRACE t=19.633 kind=CHECK name=upper_clips_used pass=1 clips=idle_relaxed,walk_f,run_f,ranged_fire,ranged_burst,cast_directional,pivot_l180,stop_f
+SHOWCASE_TRACE t=19.633 kind=STEP_METRIC step=aim_while_moving_fire_burst_cast max_bone_delta_cm=52.0 bone=hand_l
+SHOWCASE_TRACE t=19.633 kind=STEP begin=jump_run_jump_long_fall view=2
+SHOWCASE_TRACE t=19.633 kind=STATE step=jump_run_jump_long_fall from="Locomotion/Stop +aim" to="Locomotion/Idle +aim" pos=(0,1100,92) speed=0
+SHOWCASE_TRACE t=19.633 kind=CLIP step=jump_run_jump_long_fall clip=idle_combat length=3.200 rate=1.00
+SHOWCASE_TRACE t=19.667 kind=STATE step=jump_run_jump_long_fall from="Locomotion/Idle +aim" to="Locomotion/Idle" pos=(0,1100,92) speed=0
+SHOWCASE_TRACE t=19.700 kind=CLIP step=jump_run_jump_long_fall clip=idle_relaxed length=4.000 rate=1.00
+SHOWCASE_TRACE t=20.033 kind=STATE step=jump_run_jump_long_fall from="Locomotion/Idle" to="Airborne/JumpStart" pos=(0,1100,92) speed=0
+SHOWCASE_TRACE t=20.033 kind=CLIP step=jump_run_jump_long_fall clip=jump_start length=0.467 rate=1.00
+SHOWCASE_TRACE t=20.333 kind=EVENT step=jump_run_jump_long_fall event=jump_takeoff clip=jump_start clip_time=0.300 player=base pass=85 source=manifest
+SHOWCASE_TRACE t=20.500 kind=STATE step=jump_run_jump_long_fall from="Airborne/JumpStart" to="Airborne/JumpAir" pos=(0,1100,181) speed=0
+SHOWCASE_TRACE t=20.500 kind=CLIP step=jump_run_jump_long_fall clip=jump_air length=0.600 rate=1.00
+SHOWCASE_TRACE t=20.800 kind=EVENT step=jump_run_jump_long_fall event=jump_apex clip=jump_air clip_time=0.300 player=base pass=86 source=manifest
+SHOWCASE_TRACE t=20.933 kind=STATE step=jump_run_jump_long_fall from="Airborne/JumpAir" to="Airborne/Fall" pos=(0,1100,131) speed=0
+SHOWCASE_TRACE t=20.933 kind=CLIP step=jump_run_jump_long_fall clip=fall length=0.600 rate=1.00
+SHOWCASE_TRACE t=20.967 kind=EVENT step=jump_run_jump_long_fall event=fall_loop_point clip=fall clip_time=0.033 player=base pass=87 source=manifest
+SHOWCASE_TRACE t=21.067 kind=STATE step=jump_run_jump_long_fall from="Airborne/Fall" to="Airborne/Land" pos=(0,1100,92) speed=0
+SHOWCASE_TRACE t=21.067 kind=CLIP step=jump_run_jump_long_fall clip=jump_land length=0.500 rate=1.00
+SHOWCASE_TRACE t=21.167 kind=EVENT step=jump_run_jump_long_fall event=land_contact clip=jump_land clip_time=0.100 player=base pass=88 source=manifest
+SHOWCASE_TRACE t=21.433 kind=EVENT step=jump_run_jump_long_fall event=control_return clip=jump_land clip_time=0.367 player=base pass=88 source=manifest
+SHOWCASE_TRACE t=21.567 kind=STATE step=jump_run_jump_long_fall from="Airborne/Land" to="Locomotion/Idle" pos=(0,1100,92) speed=0
+SHOWCASE_TRACE t=21.567 kind=CLIP step=jump_run_jump_long_fall clip=idle_relaxed length=4.000 rate=1.00
+SHOWCASE_TRACE t=21.633 kind=STATE step=jump_run_jump_long_fall from="Locomotion/Idle" to="Locomotion/Move" pos=(1,1100,92) speed=37
+SHOWCASE_TRACE t=21.633 kind=CLIP step=jump_run_jump_long_fall clip=walk_f length=0.900 rate=1.00
+SHOWCASE_TRACE t=21.867 kind=CLIP step=jump_run_jump_long_fall clip=run_f length=0.600 rate=1.00
+SHOWCASE_TRACE t=22.100 kind=EVENT step=jump_run_jump_long_fall event=foot_lift clip=run_f clip_time=0.542 player=base pass=91 params=Foot=r source=manifest
+SHOWCASE_TRACE t=22.167 kind=EVENT step=jump_run_jump_long_fall event=foot_plant clip=run_f clip_time=0.009 player=base pass=92 params=Foot=l source=manifest
+SHOWCASE_TRACE t=22.367 kind=STATE step=jump_run_jump_long_fall from="Locomotion/Move" to="Airborne/JumpStart" pos=(241,1100,92) speed=400
+SHOWCASE_TRACE t=22.367 kind=CLIP step=jump_run_jump_long_fall clip=jump_start length=0.467 rate=1.00
+SHOWCASE_TRACE t=22.667 kind=EVENT step=jump_run_jump_long_fall event=jump_takeoff clip=jump_start clip_time=0.300 player=base pass=93 source=manifest
+SHOWCASE_TRACE t=22.833 kind=STATE step=jump_run_jump_long_fall from="Airborne/JumpStart" to="Airborne/JumpAir" pos=(353,1100,181) speed=187
+SHOWCASE_TRACE t=22.833 kind=CLIP step=jump_run_jump_long_fall clip=jump_air length=0.600 rate=1.00
+SHOWCASE_TRACE t=23.133 kind=EVENT step=jump_run_jump_long_fall event=jump_apex clip=jump_air clip_time=0.300 player=base pass=94 source=manifest
+SHOWCASE_TRACE t=23.267 kind=STATE step=jump_run_jump_long_fall from="Airborne/JumpAir" to="Airborne/Fall" pos=(470,1100,131) speed=353
+SHOWCASE_TRACE t=23.267 kind=CLIP step=jump_run_jump_long_fall clip=fall length=0.600 rate=1.00
+SHOWCASE_TRACE t=23.300 kind=EVENT step=jump_run_jump_long_fall event=fall_loop_point clip=fall clip_time=0.033 player=base pass=95 source=manifest
+SHOWCASE_TRACE t=23.400 kind=STATE step=jump_run_jump_long_fall from="Airborne/Fall" to="Airborne/Land" pos=(521,1100,92) speed=400
+SHOWCASE_TRACE t=23.400 kind=CLIP step=jump_run_jump_long_fall clip=jump_land length=0.500 rate=1.00
+SHOWCASE_TRACE t=23.500 kind=EVENT step=jump_run_jump_long_fall event=land_contact clip=jump_land clip_time=0.100 player=base pass=96 source=manifest
+SHOWCASE_TRACE t=23.767 kind=EVENT step=jump_run_jump_long_fall event=control_return clip=jump_land clip_time=0.367 player=base pass=96 source=manifest
+SHOWCASE_TRACE t=23.767 kind=STATE step=jump_run_jump_long_fall from="Airborne/Land" to="Locomotion/Idle" pos=(611,1100,92) speed=177
+SHOWCASE_TRACE t=23.767 kind=CLIP step=jump_run_jump_long_fall clip=idle_relaxed length=4.000 rate=1.00
+SHOWCASE_TRACE t=23.800 kind=STATE step=jump_run_jump_long_fall from="Locomotion/Idle" to="Locomotion/Move" pos=(618,1100,92) speed=213
+SHOWCASE_TRACE t=23.800 kind=CLIP step=jump_run_jump_long_fall clip=walk_f length=0.900 rate=1.00
+SHOWCASE_TRACE t=23.900 kind=CLIP step=jump_run_jump_long_fall clip=run_f length=0.600 rate=1.00
+SHOWCASE_TRACE t=23.967 kind=EVENT step=jump_run_jump_long_fall event=foot_plant clip=run_f clip_time=0.327 player=base pass=99 params=Foot=r source=manifest
+SHOWCASE_TRACE t=24.067 kind=STATE step=jump_run_jump_long_fall from="Locomotion/Move" to="Locomotion/Stop" pos=(711,1100,92) speed=373
+SHOWCASE_TRACE t=24.067 kind=CLIP step=jump_run_jump_long_fall clip=stop_f length=0.533 rate=1.00
+SHOWCASE_TRACE t=24.367 kind=EVENT step=jump_run_jump_long_fall event=foot_plant clip=stop_f clip_time=0.300 player=base pass=100 params=Foot=r source=manifest
+SHOWCASE_TRACE t=24.367 kind=CHECK name=jump_clips pass=1 clips=idle_combat,idle_relaxed,jump_start,jump_air,fall,jump_land,walk_f,run_f,stop_f takeoff=2 land_contact=2
+SHOWCASE_TRACE t=24.367 kind=STEP_METRIC step=jump_run_jump_long_fall max_bone_delta_cm=42.2 bone=hand_l
+SHOWCASE_TRACE t=24.367 kind=STATE step=jump_run_jump_long_fall from="Locomotion/Stop" to="Locomotion/Idle" pos=(294,-900,392) speed=0
+SHOWCASE_TRACE t=24.367 kind=CLIP step=jump_run_jump_long_fall clip=idle_relaxed length=4.000 rate=1.00
+SHOWCASE_TRACE t=25.233 kind=STATE step=jump_run_jump_long_fall from="Locomotion/Idle" to="Locomotion/Start" pos=(295,-900,392) speed=37
+SHOWCASE_TRACE t=25.233 kind=CLIP step=jump_run_jump_long_fall clip=start_f length=0.600 rate=1.00
+SHOWCASE_TRACE t=25.367 kind=EVENT step=jump_run_jump_long_fall event=foot_lift clip=start_f clip_time=0.133 player=base pass=102 params=Foot=l source=manifest
+SHOWCASE_TRACE t=25.667 kind=EVENT step=jump_run_jump_long_fall event=foot_plant clip=start_f clip_time=0.433 player=base pass=102 params=Foot=l source=manifest
+SHOWCASE_TRACE t=25.733 kind=EVENT step=jump_run_jump_long_fall event=foot_lift clip=start_f clip_time=0.500 player=base pass=102 params=Foot=r source=manifest
+SHOWCASE_TRACE t=25.733 kind=EVENT step=jump_run_jump_long_fall event=control_return clip=start_f clip_time=0.500 player=base pass=102 source=manifest
+SHOWCASE_TRACE t=25.833 kind=STATE step=jump_run_jump_long_fall from="Locomotion/Start" to="Locomotion/Move" pos=(481,-900,392) speed=400
+SHOWCASE_TRACE t=25.833 kind=CLIP step=jump_run_jump_long_fall clip=run_f length=0.600 rate=1.00
+SHOWCASE_TRACE t=25.900 kind=EVENT step=jump_run_jump_long_fall event=foot_lift clip=run_f clip_time=0.554 player=base pass=103 params=Foot=r source=manifest
+SHOWCASE_TRACE t=25.967 kind=EVENT step=jump_run_jump_long_fall event=foot_plant clip=run_f clip_time=0.021 player=base pass=104 params=Foot=l source=manifest
+SHOWCASE_TRACE t=26.200 kind=EVENT step=jump_run_jump_long_fall event=foot_lift clip=run_f clip_time=0.254 player=base pass=104 params=Foot=l source=manifest
+SHOWCASE_TRACE t=26.267 kind=EVENT step=jump_run_jump_long_fall event=foot_plant clip=run_f clip_time=0.321 player=base pass=104 params=Foot=r source=manifest
+SHOWCASE_TRACE t=26.400 kind=STATE step=jump_run_jump_long_fall from="Locomotion/Move" to="Airborne/JumpAir" pos=(708,-900,353) speed=400
+SHOWCASE_TRACE t=26.400 kind=CLIP step=jump_run_jump_long_fall clip=jump_air length=0.600 rate=1.00
+SHOWCASE_TRACE t=26.700 kind=EVENT step=jump_run_jump_long_fall event=jump_apex clip=jump_air clip_time=0.300 player=base pass=105 source=manifest
+SHOWCASE_TRACE t=26.833 kind=STATE step=jump_run_jump_long_fall from="Airborne/JumpAir" to="Airborne/Fall" pos=(881,-900,92) speed=396
+SHOWCASE_TRACE t=26.833 kind=CLIP step=jump_run_jump_long_fall clip=fall length=0.600 rate=1.00
+SHOWCASE_TRACE t=26.867 kind=EVENT step=jump_run_jump_long_fall event=fall_loop_point clip=fall clip_time=0.033 player=base pass=106 source=manifest
+SHOWCASE_TRACE t=26.867 kind=STATE step=jump_run_jump_long_fall from="Airborne/Fall" to="Airborne/LandHeavy" pos=(894,-900,92) speed=369
+SHOWCASE_TRACE t=26.867 kind=CLIP step=jump_run_jump_long_fall clip=land_heavy length=0.800 rate=1.00
+SHOWCASE_TRACE t=26.900 kind=EVENT step=jump_run_jump_long_fall event=land_contact clip=land_heavy clip_time=0.033 player=base pass=107 source=fallback
+SHOWCASE_TRACE t=27.000 kind=EVENT step=jump_run_jump_long_fall event=land_impact_heavy clip=land_heavy clip_time=0.133 player=base pass=107 source=manifest
+SHOWCASE_TRACE t=27.533 kind=EVENT step=jump_run_jump_long_fall event=control_return clip=land_heavy clip_time=0.667 player=base pass=107 source=manifest
+SHOWCASE_TRACE t=27.667 kind=CHECK name=fall_and_heavy_landing pass=1 clips=idle_combat,idle_relaxed,jump_start,jump_air,fall,jump_land,walk_f,run_f,stop_f,start_f,land_heavy
+SHOWCASE_TRACE t=27.667 kind=STEP_METRIC step=jump_run_jump_long_fall max_bone_delta_cm=42.2 bone=hand_l
+SHOWCASE_TRACE t=27.667 kind=STEP begin=foot_ik_ramp_and_steps view=2
+SHOWCASE_TRACE t=27.667 kind=STATE step=foot_ik_ramp_and_steps from="Airborne/LandHeavy" to="Locomotion/Idle" pos=(-800,-900,92) speed=0
+SHOWCASE_TRACE t=27.667 kind=CLIP step=foot_ik_ramp_and_steps clip=idle_relaxed length=4.000 rate=1.00
+SHOWCASE_TRACE t=28.333 kind=STATE step=foot_ik_ramp_and_steps from="Locomotion/Idle" to="Locomotion/Start" pos=(-799,-900,92) speed=37
+SHOWCASE_TRACE t=28.333 kind=CLIP step=foot_ik_ramp_and_steps clip=start_f length=0.600 rate=1.00
+SHOWCASE_TRACE t=28.467 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=start_f clip_time=0.133 player=base pass=110 params=Foot=l source=manifest
+SHOWCASE_TRACE t=28.767 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=start_f clip_time=0.433 player=base pass=110 params=Foot=l source=manifest
+SHOWCASE_TRACE t=28.833 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=start_f clip_time=0.500 player=base pass=110 params=Foot=r source=manifest
+SHOWCASE_TRACE t=28.833 kind=EVENT step=foot_ik_ramp_and_steps event=control_return clip=start_f clip_time=0.500 player=base pass=110 source=manifest
+SHOWCASE_TRACE t=28.933 kind=STATE step=foot_ik_ramp_and_steps from="Locomotion/Start" to="Locomotion/Move" pos=(-713,-900,92) speed=150
+SHOWCASE_TRACE t=28.933 kind=CLIP step=foot_ik_ramp_and_steps clip=walk_f length=0.900 rate=1.00
+SHOWCASE_TRACE t=28.967 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.033 player=base pass=111 params=Foot=l source=manifest
+SHOWCASE_TRACE t=29.033 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=walk_f clip_time=0.100 player=base pass=111 params=Foot=r source=manifest
+SHOWCASE_TRACE t=29.400 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.467 player=base pass=111 params=Foot=r source=manifest
+SHOWCASE_TRACE t=29.500 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=walk_f clip_time=0.567 player=base pass=111 params=Foot=l source=manifest
+SHOWCASE_TRACE t=29.867 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.033 player=base pass=112 params=Foot=l source=manifest
+SHOWCASE_TRACE t=29.933 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=walk_f clip_time=0.100 player=base pass=112 params=Foot=r source=manifest
+SHOWCASE_TRACE t=30.300 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.467 player=base pass=112 params=Foot=r source=manifest
+SHOWCASE_TRACE t=30.400 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=walk_f clip_time=0.567 player=base pass=112 params=Foot=l source=manifest
+SHOWCASE_TRACE t=30.767 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.033 player=base pass=113 params=Foot=l source=manifest
+SHOWCASE_TRACE t=30.833 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=walk_f clip_time=0.100 player=base pass=113 params=Foot=r source=manifest
+SHOWCASE_TRACE t=31.200 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.467 player=base pass=113 params=Foot=r source=manifest
+SHOWCASE_TRACE t=31.300 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=walk_f clip_time=0.567 player=base pass=113 params=Foot=l source=manifest
+SHOWCASE_TRACE t=31.667 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.033 player=base pass=114 params=Foot=l source=manifest
+SHOWCASE_TRACE t=31.733 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=walk_f clip_time=0.100 player=base pass=114 params=Foot=r source=manifest
+SHOWCASE_TRACE t=32.100 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.467 player=base pass=114 params=Foot=r source=manifest
+SHOWCASE_TRACE t=32.200 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=walk_f clip_time=0.567 player=base pass=114 params=Foot=l source=manifest
+SHOWCASE_TRACE t=32.567 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.033 player=base pass=115 params=Foot=l source=manifest
+SHOWCASE_TRACE t=32.633 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=walk_f clip_time=0.100 player=base pass=115 params=Foot=r source=manifest
+SHOWCASE_TRACE t=33.000 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.467 player=base pass=115 params=Foot=r source=manifest
+SHOWCASE_TRACE t=33.100 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=walk_f clip_time=0.567 player=base pass=115 params=Foot=l source=manifest
+SHOWCASE_TRACE t=33.467 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.033 player=base pass=116 params=Foot=l source=manifest
+SHOWCASE_TRACE t=33.500 kind=IK run=ramp_20deg_ik_on planted_samples=114 mean_abs_error_cm=1.92 max_penetration_cm=0.00 max_float_cm=2.44 max_pelvis_offset_cm=12.51
+SHOWCASE_TRACE t=33.533 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=walk_f clip_time=0.100 player=base pass=116 params=Foot=r source=manifest
+SHOWCASE_TRACE t=33.567 kind=STATE step=foot_ik_ramp_and_steps from="Locomotion/Move" to="Locomotion/Stop" pos=(-19,-900,342) speed=123
+SHOWCASE_TRACE t=33.567 kind=CLIP step=foot_ik_ramp_and_steps clip=stop_f length=0.533 rate=1.00
+SHOWCASE_TRACE t=33.867 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=stop_f clip_time=0.300 player=base pass=117 params=Foot=r source=manifest
+SHOWCASE_TRACE t=33.867 kind=STATE step=foot_ik_ramp_and_steps from="Locomotion/Stop" to="Locomotion/Idle" pos=(-800,-900,92) speed=0
+SHOWCASE_TRACE t=33.867 kind=CLIP step=foot_ik_ramp_and_steps clip=idle_relaxed length=4.000 rate=1.00
+SHOWCASE_TRACE t=34.533 kind=STATE step=foot_ik_ramp_and_steps from="Locomotion/Idle" to="Locomotion/Start" pos=(-799,-900,92) speed=37
+SHOWCASE_TRACE t=34.533 kind=CLIP step=foot_ik_ramp_and_steps clip=start_f length=0.600 rate=1.00
+SHOWCASE_TRACE t=34.667 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=start_f clip_time=0.133 player=base pass=120 params=Foot=l source=manifest
+SHOWCASE_TRACE t=34.967 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=start_f clip_time=0.433 player=base pass=120 params=Foot=l source=manifest
+SHOWCASE_TRACE t=35.033 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=start_f clip_time=0.500 player=base pass=120 params=Foot=r source=manifest
+SHOWCASE_TRACE t=35.033 kind=EVENT step=foot_ik_ramp_and_steps event=control_return clip=start_f clip_time=0.500 player=base pass=120 source=manifest
+SHOWCASE_TRACE t=35.133 kind=STATE step=foot_ik_ramp_and_steps from="Locomotion/Start" to="Locomotion/Move" pos=(-713,-900,92) speed=150
+SHOWCASE_TRACE t=35.133 kind=CLIP step=foot_ik_ramp_and_steps clip=walk_f length=0.900 rate=1.00
+SHOWCASE_TRACE t=35.167 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.033 player=base pass=121 params=Foot=l source=manifest
+SHOWCASE_TRACE t=35.233 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=walk_f clip_time=0.100 player=base pass=121 params=Foot=r source=manifest
+SHOWCASE_TRACE t=35.600 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.467 player=base pass=121 params=Foot=r source=manifest
+SHOWCASE_TRACE t=35.700 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=walk_f clip_time=0.567 player=base pass=121 params=Foot=l source=manifest
+SHOWCASE_TRACE t=36.067 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.033 player=base pass=122 params=Foot=l source=manifest
+SHOWCASE_TRACE t=36.133 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=walk_f clip_time=0.100 player=base pass=122 params=Foot=r source=manifest
+SHOWCASE_TRACE t=36.500 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.467 player=base pass=122 params=Foot=r source=manifest
+SHOWCASE_TRACE t=36.600 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=walk_f clip_time=0.567 player=base pass=122 params=Foot=l source=manifest
+SHOWCASE_TRACE t=36.967 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.033 player=base pass=123 params=Foot=l source=manifest
+SHOWCASE_TRACE t=37.033 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=walk_f clip_time=0.100 player=base pass=123 params=Foot=r source=manifest
+SHOWCASE_TRACE t=37.400 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.467 player=base pass=123 params=Foot=r source=manifest
+SHOWCASE_TRACE t=37.500 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=walk_f clip_time=0.567 player=base pass=123 params=Foot=l source=manifest
+SHOWCASE_TRACE t=37.867 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.033 player=base pass=124 params=Foot=l source=manifest
+SHOWCASE_TRACE t=37.933 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=walk_f clip_time=0.100 player=base pass=124 params=Foot=r source=manifest
+SHOWCASE_TRACE t=38.300 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.467 player=base pass=124 params=Foot=r source=manifest
+SHOWCASE_TRACE t=38.400 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=walk_f clip_time=0.567 player=base pass=124 params=Foot=l source=manifest
+SHOWCASE_TRACE t=38.767 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.033 player=base pass=125 params=Foot=l source=manifest
+SHOWCASE_TRACE t=38.833 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=walk_f clip_time=0.100 player=base pass=125 params=Foot=r source=manifest
+SHOWCASE_TRACE t=39.200 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.467 player=base pass=125 params=Foot=r source=manifest
+SHOWCASE_TRACE t=39.300 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=walk_f clip_time=0.567 player=base pass=125 params=Foot=l source=manifest
+SHOWCASE_TRACE t=39.667 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.033 player=base pass=126 params=Foot=l source=manifest
+SHOWCASE_TRACE t=39.700 kind=IK run=ramp_20deg_ik_off planted_samples=12 mean_abs_error_cm=12.21 max_penetration_cm=15.72 max_float_cm=3.35 max_pelvis_offset_cm=0.01
+SHOWCASE_TRACE t=39.733 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=walk_f clip_time=0.100 player=base pass=126 params=Foot=r source=manifest
+SHOWCASE_TRACE t=39.767 kind=STATE step=foot_ik_ramp_and_steps from="Locomotion/Move" to="Locomotion/Stop" pos=(-19,-900,342) speed=123
+SHOWCASE_TRACE t=39.767 kind=CLIP step=foot_ik_ramp_and_steps clip=stop_f length=0.533 rate=1.00
+SHOWCASE_TRACE t=40.067 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=stop_f clip_time=0.300 player=base pass=127 params=Foot=r source=manifest
+SHOWCASE_TRACE t=40.067 kind=STATE step=foot_ik_ramp_and_steps from="Locomotion/Stop" to="Locomotion/Idle" pos=(-520,700,92) speed=0
+SHOWCASE_TRACE t=40.067 kind=CLIP step=foot_ik_ramp_and_steps clip=idle_relaxed length=4.000 rate=1.00
+SHOWCASE_TRACE t=40.733 kind=STATE step=foot_ik_ramp_and_steps from="Locomotion/Idle" to="Locomotion/Start" pos=(-519,700,92) speed=37
+SHOWCASE_TRACE t=40.733 kind=CLIP step=foot_ik_ramp_and_steps clip=start_f length=0.600 rate=1.00
+SHOWCASE_TRACE t=40.867 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=start_f clip_time=0.133 player=base pass=130 params=Foot=l source=manifest
+SHOWCASE_TRACE t=41.167 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=start_f clip_time=0.433 player=base pass=130 params=Foot=l source=manifest
+SHOWCASE_TRACE t=41.233 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=start_f clip_time=0.500 player=base pass=130 params=Foot=r source=manifest
+SHOWCASE_TRACE t=41.233 kind=EVENT step=foot_ik_ramp_and_steps event=control_return clip=start_f clip_time=0.500 player=base pass=130 source=manifest
+SHOWCASE_TRACE t=41.333 kind=STATE step=foot_ik_ramp_and_steps from="Locomotion/Start" to="Locomotion/Move" pos=(-433,700,92) speed=150
+SHOWCASE_TRACE t=41.333 kind=CLIP step=foot_ik_ramp_and_steps clip=walk_f length=0.900 rate=1.00
+SHOWCASE_TRACE t=41.367 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.033 player=base pass=131 params=Foot=l source=manifest
+SHOWCASE_TRACE t=41.433 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=walk_f clip_time=0.100 player=base pass=131 params=Foot=r source=manifest
+SHOWCASE_TRACE t=41.800 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.467 player=base pass=131 params=Foot=r source=manifest
+SHOWCASE_TRACE t=41.900 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=walk_f clip_time=0.567 player=base pass=131 params=Foot=l source=manifest
+SHOWCASE_TRACE t=42.267 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.033 player=base pass=132 params=Foot=l source=manifest
+SHOWCASE_TRACE t=42.333 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=walk_f clip_time=0.100 player=base pass=132 params=Foot=r source=manifest
+SHOWCASE_TRACE t=42.700 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.467 player=base pass=132 params=Foot=r source=manifest
+SHOWCASE_TRACE t=42.800 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=walk_f clip_time=0.567 player=base pass=132 params=Foot=l source=manifest
+SHOWCASE_TRACE t=43.167 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.033 player=base pass=133 params=Foot=l source=manifest
+SHOWCASE_TRACE t=43.233 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=walk_f clip_time=0.100 player=base pass=133 params=Foot=r source=manifest
+SHOWCASE_TRACE t=43.600 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.467 player=base pass=133 params=Foot=r source=manifest
+SHOWCASE_TRACE t=43.700 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=walk_f clip_time=0.567 player=base pass=133 params=Foot=l source=manifest
+SHOWCASE_TRACE t=44.067 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.033 player=base pass=134 params=Foot=l source=manifest
+SHOWCASE_TRACE t=44.133 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=walk_f clip_time=0.100 player=base pass=134 params=Foot=r source=manifest
+SHOWCASE_TRACE t=44.500 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.467 player=base pass=134 params=Foot=r source=manifest
+SHOWCASE_TRACE t=44.600 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=walk_f clip_time=0.567 player=base pass=134 params=Foot=l source=manifest
+SHOWCASE_TRACE t=44.967 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.033 player=base pass=135 params=Foot=l source=manifest
+SHOWCASE_TRACE t=45.033 kind=STATE step=foot_ik_ramp_and_steps from="Locomotion/Move" to="Airborne/JumpAir" pos=(122,700,153) speed=150
+SHOWCASE_TRACE t=45.033 kind=CLIP step=foot_ik_ramp_and_steps clip=jump_air length=0.600 rate=1.00
+SHOWCASE_TRACE t=45.100 kind=IK run=stairs_5x20cm_ik_on planted_samples=75 mean_abs_error_cm=0.79 max_penetration_cm=0.02 max_float_cm=3.27 max_pelvis_offset_cm=26.60
+SHOWCASE_TRACE t=45.233 kind=STATE step=foot_ik_ramp_and_steps from="Airborne/JumpAir" to="Airborne/Land" pos=(151,700,92) speed=121
+SHOWCASE_TRACE t=45.233 kind=CLIP step=foot_ik_ramp_and_steps clip=jump_land length=0.500 rate=1.00
+SHOWCASE_TRACE t=45.333 kind=EVENT step=foot_ik_ramp_and_steps event=land_contact clip=jump_land clip_time=0.100 player=base pass=137 source=manifest
+SHOWCASE_TRACE t=45.600 kind=EVENT step=foot_ik_ramp_and_steps event=control_return clip=jump_land clip_time=0.367 player=base pass=137 source=manifest
+SHOWCASE_TRACE t=45.733 kind=STATE step=foot_ik_ramp_and_steps from="Airborne/Land" to="Locomotion/Idle" pos=(-520,700,92) speed=0
+SHOWCASE_TRACE t=45.733 kind=CLIP step=foot_ik_ramp_and_steps clip=idle_relaxed length=4.000 rate=1.00
+SHOWCASE_TRACE t=46.400 kind=STATE step=foot_ik_ramp_and_steps from="Locomotion/Idle" to="Locomotion/Start" pos=(-519,700,92) speed=37
+SHOWCASE_TRACE t=46.400 kind=CLIP step=foot_ik_ramp_and_steps clip=start_f length=0.600 rate=1.00
+SHOWCASE_TRACE t=46.533 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=start_f clip_time=0.133 player=base pass=140 params=Foot=l source=manifest
+SHOWCASE_TRACE t=46.833 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=start_f clip_time=0.433 player=base pass=140 params=Foot=l source=manifest
+SHOWCASE_TRACE t=46.900 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=start_f clip_time=0.500 player=base pass=140 params=Foot=r source=manifest
+SHOWCASE_TRACE t=46.900 kind=EVENT step=foot_ik_ramp_and_steps event=control_return clip=start_f clip_time=0.500 player=base pass=140 source=manifest
+SHOWCASE_TRACE t=47.000 kind=STATE step=foot_ik_ramp_and_steps from="Locomotion/Start" to="Locomotion/Move" pos=(-433,700,92) speed=150
+SHOWCASE_TRACE t=47.000 kind=CLIP step=foot_ik_ramp_and_steps clip=walk_f length=0.900 rate=1.00
+SHOWCASE_TRACE t=47.033 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.033 player=base pass=141 params=Foot=l source=manifest
+SHOWCASE_TRACE t=47.100 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=walk_f clip_time=0.100 player=base pass=141 params=Foot=r source=manifest
+SHOWCASE_TRACE t=47.467 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.467 player=base pass=141 params=Foot=r source=manifest
+SHOWCASE_TRACE t=47.567 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=walk_f clip_time=0.567 player=base pass=141 params=Foot=l source=manifest
+SHOWCASE_TRACE t=47.933 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.033 player=base pass=142 params=Foot=l source=manifest
+SHOWCASE_TRACE t=48.000 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=walk_f clip_time=0.100 player=base pass=142 params=Foot=r source=manifest
+SHOWCASE_TRACE t=48.367 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.467 player=base pass=142 params=Foot=r source=manifest
+SHOWCASE_TRACE t=48.467 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=walk_f clip_time=0.567 player=base pass=142 params=Foot=l source=manifest
+SHOWCASE_TRACE t=48.833 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.033 player=base pass=143 params=Foot=l source=manifest
+SHOWCASE_TRACE t=48.900 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=walk_f clip_time=0.100 player=base pass=143 params=Foot=r source=manifest
+SHOWCASE_TRACE t=49.267 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.467 player=base pass=143 params=Foot=r source=manifest
+SHOWCASE_TRACE t=49.367 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=walk_f clip_time=0.567 player=base pass=143 params=Foot=l source=manifest
+SHOWCASE_TRACE t=49.733 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.033 player=base pass=144 params=Foot=l source=manifest
+SHOWCASE_TRACE t=49.800 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=walk_f clip_time=0.100 player=base pass=144 params=Foot=r source=manifest
+SHOWCASE_TRACE t=50.167 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.467 player=base pass=144 params=Foot=r source=manifest
+SHOWCASE_TRACE t=50.267 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=walk_f clip_time=0.567 player=base pass=144 params=Foot=l source=manifest
+SHOWCASE_TRACE t=50.633 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.033 player=base pass=145 params=Foot=l source=manifest
+SHOWCASE_TRACE t=50.700 kind=STATE step=foot_ik_ramp_and_steps from="Locomotion/Move" to="Airborne/JumpAir" pos=(122,700,153) speed=150
+SHOWCASE_TRACE t=50.700 kind=CLIP step=foot_ik_ramp_and_steps clip=jump_air length=0.600 rate=1.00
+SHOWCASE_TRACE t=50.767 kind=IK run=stairs_5x20cm_ik_off planted_samples=58 mean_abs_error_cm=1.88 max_penetration_cm=2.30 max_float_cm=2.04 max_pelvis_offset_cm=0.01
+SHOWCASE_TRACE t=50.900 kind=STATE step=foot_ik_ramp_and_steps from="Airborne/JumpAir" to="Airborne/Land" pos=(151,700,92) speed=121
+SHOWCASE_TRACE t=50.900 kind=CLIP step=foot_ik_ramp_and_steps clip=jump_land length=0.500 rate=1.00
+SHOWCASE_TRACE t=51.000 kind=EVENT step=foot_ik_ramp_and_steps event=land_contact clip=jump_land clip_time=0.100 player=base pass=147 source=manifest
+SHOWCASE_TRACE t=51.267 kind=EVENT step=foot_ik_ramp_and_steps event=control_return clip=jump_land clip_time=0.367 player=base pass=147 source=manifest
+SHOWCASE_TRACE t=51.400 kind=STATE step=foot_ik_ramp_and_steps from="Airborne/Land" to="Locomotion/Idle" pos=(-1100,-300,92) speed=0
+SHOWCASE_TRACE t=51.400 kind=CLIP step=foot_ik_ramp_and_steps clip=idle_relaxed length=4.000 rate=1.00
+SHOWCASE_TRACE t=52.067 kind=STATE step=foot_ik_ramp_and_steps from="Locomotion/Idle" to="Locomotion/Start" pos=(-1099,-300,92) speed=37
+SHOWCASE_TRACE t=52.067 kind=CLIP step=foot_ik_ramp_and_steps clip=start_f length=0.600 rate=1.00
+SHOWCASE_TRACE t=52.200 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=start_f clip_time=0.133 player=base pass=150 params=Foot=l source=manifest
+SHOWCASE_TRACE t=52.500 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=start_f clip_time=0.433 player=base pass=150 params=Foot=l source=manifest
+SHOWCASE_TRACE t=52.567 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=start_f clip_time=0.500 player=base pass=150 params=Foot=r source=manifest
+SHOWCASE_TRACE t=52.567 kind=EVENT step=foot_ik_ramp_and_steps event=control_return clip=start_f clip_time=0.500 player=base pass=150 source=manifest
+SHOWCASE_TRACE t=52.667 kind=STATE step=foot_ik_ramp_and_steps from="Locomotion/Start" to="Locomotion/Move" pos=(-1013,-300,92) speed=150
+SHOWCASE_TRACE t=52.667 kind=CLIP step=foot_ik_ramp_and_steps clip=walk_f length=0.900 rate=1.00
+SHOWCASE_TRACE t=52.700 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.033 player=base pass=151 params=Foot=l source=manifest
+SHOWCASE_TRACE t=52.767 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=walk_f clip_time=0.100 player=base pass=151 params=Foot=r source=manifest
+SHOWCASE_TRACE t=53.133 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.467 player=base pass=151 params=Foot=r source=manifest
+SHOWCASE_TRACE t=53.233 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=walk_f clip_time=0.567 player=base pass=151 params=Foot=l source=manifest
+SHOWCASE_TRACE t=53.600 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.033 player=base pass=152 params=Foot=l source=manifest
+SHOWCASE_TRACE t=53.667 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=walk_f clip_time=0.100 player=base pass=152 params=Foot=r source=manifest
+SHOWCASE_TRACE t=54.033 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.467 player=base pass=152 params=Foot=r source=manifest
+SHOWCASE_TRACE t=54.133 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=walk_f clip_time=0.567 player=base pass=152 params=Foot=l source=manifest
+SHOWCASE_TRACE t=54.500 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.033 player=base pass=153 params=Foot=l source=manifest
+SHOWCASE_TRACE t=54.567 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=walk_f clip_time=0.100 player=base pass=153 params=Foot=r source=manifest
+SHOWCASE_TRACE t=54.933 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.467 player=base pass=153 params=Foot=r source=manifest
+SHOWCASE_TRACE t=55.033 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=walk_f clip_time=0.567 player=base pass=153 params=Foot=l source=manifest
+SHOWCASE_TRACE t=55.400 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.033 player=base pass=154 params=Foot=l source=manifest
+SHOWCASE_TRACE t=55.467 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=walk_f clip_time=0.100 player=base pass=154 params=Foot=r source=manifest
+SHOWCASE_TRACE t=55.833 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.467 player=base pass=154 params=Foot=r source=manifest
+SHOWCASE_TRACE t=55.933 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=walk_f clip_time=0.567 player=base pass=154 params=Foot=l source=manifest
+SHOWCASE_TRACE t=56.300 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.033 player=base pass=155 params=Foot=l source=manifest
+SHOWCASE_TRACE t=56.367 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=walk_f clip_time=0.100 player=base pass=155 params=Foot=r source=manifest
+SHOWCASE_TRACE t=56.733 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.467 player=base pass=155 params=Foot=r source=manifest
+SHOWCASE_TRACE t=56.833 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=walk_f clip_time=0.567 player=base pass=155 params=Foot=l source=manifest
+SHOWCASE_TRACE t=57.200 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.033 player=base pass=156 params=Foot=l source=manifest
+SHOWCASE_TRACE t=57.267 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=walk_f clip_time=0.100 player=base pass=156 params=Foot=r source=manifest
+SHOWCASE_TRACE t=57.633 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.467 player=base pass=156 params=Foot=r source=manifest
+SHOWCASE_TRACE t=57.733 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=walk_f clip_time=0.567 player=base pass=156 params=Foot=l source=manifest
+SHOWCASE_TRACE t=58.100 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.033 player=base pass=157 params=Foot=l source=manifest
+SHOWCASE_TRACE t=58.167 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=walk_f clip_time=0.100 player=base pass=157 params=Foot=r source=manifest
+SHOWCASE_TRACE t=58.533 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.467 player=base pass=157 params=Foot=r source=manifest
+SHOWCASE_TRACE t=58.633 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=walk_f clip_time=0.567 player=base pass=157 params=Foot=l source=manifest
+SHOWCASE_TRACE t=58.833 kind=IK run=curbs_10_15_20cm_ik_on planted_samples=165 mean_abs_error_cm=0.47 max_penetration_cm=1.81 max_float_cm=2.65 max_pelvis_offset_cm=21.48
+SHOWCASE_TRACE t=58.900 kind=STATE step=foot_ik_ramp_and_steps from="Locomotion/Move" to="Locomotion/Stop" pos=(-79,-300,92) speed=123
+SHOWCASE_TRACE t=58.900 kind=CLIP step=foot_ik_ramp_and_steps clip=stop_f length=0.533 rate=1.00
+SHOWCASE_TRACE t=59.200 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=stop_f clip_time=0.300 player=base pass=158 params=Foot=r source=manifest
+SHOWCASE_TRACE t=59.200 kind=STATE step=foot_ik_ramp_and_steps from="Locomotion/Stop" to="Locomotion/Idle" pos=(-1100,-300,92) speed=0
+SHOWCASE_TRACE t=59.200 kind=CLIP step=foot_ik_ramp_and_steps clip=idle_relaxed length=4.000 rate=1.00
+SHOWCASE_TRACE t=59.867 kind=STATE step=foot_ik_ramp_and_steps from="Locomotion/Idle" to="Locomotion/Start" pos=(-1099,-300,92) speed=37
+SHOWCASE_TRACE t=59.867 kind=CLIP step=foot_ik_ramp_and_steps clip=start_f length=0.600 rate=1.00
+SHOWCASE_TRACE t=60.000 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=start_f clip_time=0.133 player=base pass=161 params=Foot=l source=manifest
+SHOWCASE_TRACE t=60.300 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=start_f clip_time=0.433 player=base pass=161 params=Foot=l source=manifest
+SHOWCASE_TRACE t=60.367 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=start_f clip_time=0.500 player=base pass=161 params=Foot=r source=manifest
+SHOWCASE_TRACE t=60.367 kind=EVENT step=foot_ik_ramp_and_steps event=control_return clip=start_f clip_time=0.500 player=base pass=161 source=manifest
+SHOWCASE_TRACE t=60.467 kind=STATE step=foot_ik_ramp_and_steps from="Locomotion/Start" to="Locomotion/Move" pos=(-1013,-300,92) speed=150
+SHOWCASE_TRACE t=60.467 kind=CLIP step=foot_ik_ramp_and_steps clip=walk_f length=0.900 rate=1.00
+SHOWCASE_TRACE t=60.500 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.033 player=base pass=162 params=Foot=l source=manifest
+SHOWCASE_TRACE t=60.567 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=walk_f clip_time=0.100 player=base pass=162 params=Foot=r source=manifest
+SHOWCASE_TRACE t=60.933 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.467 player=base pass=162 params=Foot=r source=manifest
+SHOWCASE_TRACE t=61.033 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=walk_f clip_time=0.567 player=base pass=162 params=Foot=l source=manifest
+SHOWCASE_TRACE t=61.400 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.033 player=base pass=163 params=Foot=l source=manifest
+SHOWCASE_TRACE t=61.467 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=walk_f clip_time=0.100 player=base pass=163 params=Foot=r source=manifest
+SHOWCASE_TRACE t=61.833 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.467 player=base pass=163 params=Foot=r source=manifest
+SHOWCASE_TRACE t=61.933 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=walk_f clip_time=0.567 player=base pass=163 params=Foot=l source=manifest
+SHOWCASE_TRACE t=62.300 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.033 player=base pass=164 params=Foot=l source=manifest
+SHOWCASE_TRACE t=62.367 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=walk_f clip_time=0.100 player=base pass=164 params=Foot=r source=manifest
+SHOWCASE_TRACE t=62.733 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.467 player=base pass=164 params=Foot=r source=manifest
+SHOWCASE_TRACE t=62.833 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=walk_f clip_time=0.567 player=base pass=164 params=Foot=l source=manifest
+SHOWCASE_TRACE t=63.200 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.033 player=base pass=165 params=Foot=l source=manifest
+SHOWCASE_TRACE t=63.267 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=walk_f clip_time=0.100 player=base pass=165 params=Foot=r source=manifest
+SHOWCASE_TRACE t=63.633 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.467 player=base pass=165 params=Foot=r source=manifest
+SHOWCASE_TRACE t=63.733 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=walk_f clip_time=0.567 player=base pass=165 params=Foot=l source=manifest
+SHOWCASE_TRACE t=64.100 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.033 player=base pass=166 params=Foot=l source=manifest
+SHOWCASE_TRACE t=64.167 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=walk_f clip_time=0.100 player=base pass=166 params=Foot=r source=manifest
+SHOWCASE_TRACE t=64.533 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.467 player=base pass=166 params=Foot=r source=manifest
+SHOWCASE_TRACE t=64.633 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=walk_f clip_time=0.567 player=base pass=166 params=Foot=l source=manifest
+SHOWCASE_TRACE t=65.000 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.033 player=base pass=167 params=Foot=l source=manifest
+SHOWCASE_TRACE t=65.067 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=walk_f clip_time=0.100 player=base pass=167 params=Foot=r source=manifest
+SHOWCASE_TRACE t=65.433 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.467 player=base pass=167 params=Foot=r source=manifest
+SHOWCASE_TRACE t=65.533 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=walk_f clip_time=0.567 player=base pass=167 params=Foot=l source=manifest
+SHOWCASE_TRACE t=65.900 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.033 player=base pass=168 params=Foot=l source=manifest
+SHOWCASE_TRACE t=65.967 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=walk_f clip_time=0.100 player=base pass=168 params=Foot=r source=manifest
+SHOWCASE_TRACE t=66.333 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=walk_f clip_time=0.467 player=base pass=168 params=Foot=r source=manifest
+SHOWCASE_TRACE t=66.433 kind=EVENT step=foot_ik_ramp_and_steps event=foot_lift clip=walk_f clip_time=0.567 player=base pass=168 params=Foot=l source=manifest
+SHOWCASE_TRACE t=66.633 kind=IK run=curbs_10_15_20cm_ik_off planted_samples=143 mean_abs_error_cm=1.97 max_penetration_cm=6.81 max_float_cm=3.54 max_pelvis_offset_cm=0.01
+SHOWCASE_TRACE t=66.700 kind=STATE step=foot_ik_ramp_and_steps from="Locomotion/Move" to="Locomotion/Stop" pos=(-79,-300,92) speed=123
+SHOWCASE_TRACE t=66.700 kind=CLIP step=foot_ik_ramp_and_steps clip=stop_f length=0.533 rate=1.00
+SHOWCASE_TRACE t=67.000 kind=EVENT step=foot_ik_ramp_and_steps event=foot_plant clip=stop_f clip_time=0.300 player=base pass=169 params=Foot=r source=manifest
+SHOWCASE_TRACE t=67.000 kind=CHECK name=foot_ik_ramp_20deg pass=1 planted samples on=114 off=12, mean abs error on=1.92 cm off=12.21 cm, max penetration on=0.00 cm off=15.72 cm, max float on=2.44 off=3.35, max pelvis offset 12.51 cm
+SHOWCASE_TRACE t=67.000 kind=CHECK name=foot_ik_stairs_5x20cm pass=1 planted samples on=75 off=58, mean abs error on=0.79 cm off=1.88 cm, max penetration on=0.02 cm off=2.30 cm, max float on=3.27 off=2.04, max pelvis offset 26.60 cm
+SHOWCASE_TRACE t=67.000 kind=CHECK name=foot_ik_curbs_10_15_20cm pass=1 planted samples on=165 off=143, mean abs error on=0.47 cm off=1.97 cm, max penetration on=1.81 cm off=6.81 cm, max float on=2.65 off=3.54, max pelvis offset 21.48 cm
+SHOWCASE_TRACE t=67.000 kind=STEP_METRIC step=foot_ik_ramp_and_steps max_bone_delta_cm=27.2 bone=hand_l
+SHOWCASE_TRACE t=67.000 kind=STEP begin=dash_forward_left_back_right view=2
+SHOWCASE_TRACE t=67.000 kind=STATE step=dash_forward_left_back_right from="Locomotion/Stop" to="Locomotion/Idle" pos=(0,1100,92) speed=0
+SHOWCASE_TRACE t=67.000 kind=CLIP step=dash_forward_left_back_right clip=idle_relaxed length=4.000 rate=1.00
+SHOWCASE_TRACE t=67.500 kind=STATE step=dash_forward_left_back_right from="Locomotion/Idle" to="Dash" pos=(0,1100,92) speed=0
+SHOWCASE_TRACE t=67.500 kind=CLIP step=dash_forward_left_back_right clip=dash_f length=0.400 rate=1.00
+SHOWCASE_TRACE t=67.533 kind=EVENT step=dash_forward_left_back_right event=dash_begin clip=dash_f clip_time=0.033 player=base pass=172 source=manifest
+SHOWCASE_TRACE t=67.833 kind=EVENT step=dash_forward_left_back_right event=dash_end clip=dash_f clip_time=0.333 player=base pass=172 source=manifest
+SHOWCASE_TRACE t=67.867 kind=EVENT step=dash_forward_left_back_right event=control_return clip=dash_f clip_time=0.367 player=base pass=172 source=manifest
+SHOWCASE_TRACE t=67.900 kind=CHECK name=dash_f_capsule_displacement pass=1 along_dash_axis=200.0 cm expected=200 total=200.0
+SHOWCASE_TRACE t=67.900 kind=STATE step=dash_forward_left_back_right from="Dash" to="Locomotion/Idle" pos=(200,1100,92) speed=11
+SHOWCASE_TRACE t=67.900 kind=CLIP step=dash_forward_left_back_right clip=idle_relaxed length=4.000 rate=1.00
+SHOWCASE_TRACE t=68.200 kind=STATE step=dash_forward_left_back_right from="Locomotion/Idle" to="Dash" pos=(200,1100,92) speed=0
+SHOWCASE_TRACE t=68.200 kind=CLIP step=dash_forward_left_back_right clip=dash_l length=0.400 rate=1.00
+SHOWCASE_TRACE t=68.233 kind=EVENT step=dash_forward_left_back_right event=dash_begin clip=dash_l clip_time=0.033 player=base pass=174 source=manifest
+SHOWCASE_TRACE t=68.533 kind=EVENT step=dash_forward_left_back_right event=dash_end clip=dash_l clip_time=0.333 player=base pass=174 source=manifest
+SHOWCASE_TRACE t=68.567 kind=EVENT step=dash_forward_left_back_right event=control_return clip=dash_l clip_time=0.367 player=base pass=174 source=manifest
+SHOWCASE_TRACE t=68.600 kind=CHECK name=dash_l_capsule_displacement pass=1 along_dash_axis=200.0 cm expected=200 total=200.0
+SHOWCASE_TRACE t=68.600 kind=STATE step=dash_forward_left_back_right from="Dash" to="Locomotion/Idle" pos=(200,900,92) speed=11
+SHOWCASE_TRACE t=68.600 kind=CLIP step=dash_forward_left_back_right clip=idle_relaxed length=4.000 rate=1.00
+SHOWCASE_TRACE t=68.900 kind=STATE step=dash_forward_left_back_right from="Locomotion/Idle" to="Dash" pos=(200,900,92) speed=0
+SHOWCASE_TRACE t=68.900 kind=CLIP step=dash_forward_left_back_right clip=dash_b length=0.400 rate=1.00
+SHOWCASE_TRACE t=68.933 kind=EVENT step=dash_forward_left_back_right event=dash_begin clip=dash_b clip_time=0.033 player=base pass=176 source=manifest
+SHOWCASE_TRACE t=69.233 kind=EVENT step=dash_forward_left_back_right event=dash_end clip=dash_b clip_time=0.333 player=base pass=176 source=manifest
+SHOWCASE_TRACE t=69.267 kind=EVENT step=dash_forward_left_back_right event=control_return clip=dash_b clip_time=0.367 player=base pass=176 source=manifest
+SHOWCASE_TRACE t=69.300 kind=CHECK name=dash_b_capsule_displacement pass=1 along_dash_axis=199.5 cm expected=200 total=200.0
+SHOWCASE_TRACE t=69.300 kind=STATE step=dash_forward_left_back_right from="Dash" to="Locomotion/Idle" pos=(1,886,92) speed=11
+SHOWCASE_TRACE t=69.300 kind=CLIP step=dash_forward_left_back_right clip=idle_relaxed length=4.000 rate=1.00
+SHOWCASE_TRACE t=69.600 kind=STATE step=dash_forward_left_back_right from="Locomotion/Idle" to="Dash" pos=(1,886,92) speed=0
+SHOWCASE_TRACE t=69.600 kind=CLIP step=dash_forward_left_back_right clip=dash_r length=0.400 rate=1.00
+SHOWCASE_TRACE t=69.633 kind=EVENT step=dash_forward_left_back_right event=dash_begin clip=dash_r clip_time=0.033 player=base pass=178 source=manifest
+SHOWCASE_TRACE t=69.933 kind=EVENT step=dash_forward_left_back_right event=dash_end clip=dash_r clip_time=0.333 player=base pass=178 source=manifest
+SHOWCASE_TRACE t=69.967 kind=EVENT step=dash_forward_left_back_right event=control_return clip=dash_r clip_time=0.367 player=base pass=178 source=manifest
+SHOWCASE_TRACE t=70.000 kind=CHECK name=dash_r_capsule_displacement pass=1 along_dash_axis=199.5 cm expected=200 total=200.0
+SHOWCASE_TRACE t=70.000 kind=STATE step=dash_forward_left_back_right from="Dash" to="Locomotion/Idle" pos=(-14,1085,92) speed=11
+SHOWCASE_TRACE t=70.000 kind=CLIP step=dash_forward_left_back_right clip=idle_relaxed length=4.000 rate=1.00
+SHOWCASE_TRACE t=70.300 kind=STEP begin=blink_teleport_event view=0
+SHOWCASE_TRACE t=70.700 kind=STATE step=blink_teleport_event from="Locomotion/Idle" to="Blink" pos=(-500,1100,92) speed=0
+SHOWCASE_TRACE t=70.700 kind=CLIP step=blink_teleport_event clip=blink_out length=0.300 rate=1.00
+SHOWCASE_TRACE t=70.933 kind=EVENT step=blink_teleport_event event=blink_vanish clip=blink_out clip_time=0.233 player=base pass=181 source=manifest
+SHOWCASE_TRACE t=71.000 kind=CLIP step=blink_teleport_event clip=blink_in length=0.333 rate=1.00
+SHOWCASE_TRACE t=71.033 kind=EVENT step=blink_teleport_event event=blink_appear clip=blink_in clip_time=0.033 player=base pass=182 source=manifest
+SHOWCASE_TRACE t=71.133 kind=EVENT step=blink_teleport_event event=land_contact clip=blink_in clip_time=0.133 player=base pass=182 source=manifest
+SHOWCASE_TRACE t=71.300 kind=EVENT step=blink_teleport_event event=control_return clip=blink_in clip_time=0.300 player=base pass=182 source=manifest
+SHOWCASE_TRACE t=71.333 kind=CHECK name=blink_travel pass=1 distance=500.0 expected~500
+SHOWCASE_TRACE t=71.333 kind=CHECK name=blink_events_once pass=1 vanish=1 appear=1
+SHOWCASE_TRACE t=71.333 kind=STEP_METRIC step=blink_teleport_event max_bone_delta_cm=0.2 bone=hand_r
+SHOWCASE_TRACE t=71.333 kind=STEP begin=melee_chain_1_2_3 view=0
+SHOWCASE_TRACE t=71.333 kind=STATE step=melee_chain_1_2_3 from="Blink" to="Locomotion/Idle" pos=(0,0,92) speed=0
+SHOWCASE_TRACE t=71.333 kind=CLIP step=melee_chain_1_2_3 clip=idle_relaxed length=4.000 rate=1.00
+SHOWCASE_TRACE t=71.733 kind=STATE step=melee_chain_1_2_3 from="Locomotion/Idle" to="Action/Melee#0" pos=(0,0,92) speed=0
+SHOWCASE_TRACE t=71.733 kind=CLIP step=melee_chain_1_2_3 clip=melee_1 length=0.800 rate=1.00
+SHOWCASE_TRACE t=71.800 kind=EVENT step=melee_chain_1_2_3 event=blade_extend clip=melee_1 clip_time=0.067 player=base pass=185 source=manifest
+SHOWCASE_TRACE t=72.067 kind=EVENT step=melee_chain_1_2_3 event=melee_hit_begin clip=melee_1 clip_time=0.333 player=base pass=185 source=manifest
+SHOWCASE_TRACE t=72.133 kind=EVENT step=melee_chain_1_2_3 event=foot_plant clip=melee_1 clip_time=0.400 player=base pass=185 params=Foot=l source=manifest
+SHOWCASE_TRACE t=72.200 kind=EVENT step=melee_chain_1_2_3 event=cancel_window_begin clip=melee_1 clip_time=0.467 player=base pass=185 source=fallback
+SHOWCASE_TRACE t=72.200 kind=EVENT step=melee_chain_1_2_3 event=melee_hit_end clip=melee_1 clip_time=0.467 player=base pass=185 source=manifest
+SHOWCASE_TRACE t=72.200 kind=CLIP step=melee_chain_1_2_3 clip=melee_2 length=0.800 rate=1.00
+SHOWCASE_TRACE t=72.267 kind=EVENT step=melee_chain_1_2_3 event=blade_extend clip=melee_2 clip_time=0.067 player=base pass=186 source=manifest
+SHOWCASE_TRACE t=72.567 kind=EVENT step=melee_chain_1_2_3 event=melee_hit_begin clip=melee_2 clip_time=0.367 player=base pass=186 source=manifest
+SHOWCASE_TRACE t=72.633 kind=EVENT step=melee_chain_1_2_3 event=foot_plant clip=melee_2 clip_time=0.433 player=base pass=186 params=Foot=r source=manifest
+SHOWCASE_TRACE t=72.667 kind=EVENT step=melee_chain_1_2_3 event=cancel_window_begin clip=melee_2 clip_time=0.467 player=base pass=186 source=fallback
+SHOWCASE_TRACE t=72.700 kind=EVENT step=melee_chain_1_2_3 event=melee_hit_end clip=melee_2 clip_time=0.500 player=base pass=186 source=manifest
+SHOWCASE_TRACE t=72.733 kind=CLIP step=melee_chain_1_2_3 clip=melee_3 length=0.800 rate=1.00
+SHOWCASE_TRACE t=72.800 kind=EVENT step=melee_chain_1_2_3 event=blade_extend clip=melee_3 clip_time=0.067 player=base pass=187 source=manifest
+SHOWCASE_TRACE t=73.133 kind=EVENT step=melee_chain_1_2_3 event=melee_hit_begin clip=melee_3 clip_time=0.400 player=base pass=187 source=manifest
+SHOWCASE_TRACE t=73.167 kind=EVENT step=melee_chain_1_2_3 event=foot_plant clip=melee_3 clip_time=0.433 player=base pass=187 params=Foot=l source=manifest
+SHOWCASE_TRACE t=73.200 kind=EVENT step=melee_chain_1_2_3 event=cancel_window_begin clip=melee_3 clip_time=0.467 player=base pass=187 source=fallback
+SHOWCASE_TRACE t=73.300 kind=EVENT step=melee_chain_1_2_3 event=melee_hit_end clip=melee_3 clip_time=0.567 player=base pass=187 source=manifest
+SHOWCASE_TRACE t=73.400 kind=EVENT step=melee_chain_1_2_3 event=melee_recover clip=melee_3 clip_time=0.667 player=base pass=187 source=manifest
+SHOWCASE_TRACE t=73.500 kind=EVENT step=melee_chain_1_2_3 event=blade_retract clip=melee_3 clip_time=0.767 player=base pass=187 source=manifest
+SHOWCASE_TRACE t=73.500 kind=EVENT step=melee_chain_1_2_3 event=control_return clip=melee_3 clip_time=0.767 player=base pass=187 source=manifest
+SHOWCASE_TRACE t=73.533 kind=CHECK name=melee_chain_played pass=1 clips=idle_relaxed,melee_1,melee_2,melee_3
+SHOWCASE_TRACE t=73.533 kind=CHECK name=melee_hit_windows_once_each pass=1 hit_begin=3 hit_end=3 (3 expected)
+SHOWCASE_TRACE t=73.533 kind=STEP_METRIC step=melee_chain_1_2_3 max_bone_delta_cm=74.7 bone=hand_l
+SHOWCASE_TRACE t=73.533 kind=STEP begin=action_rate_0_5x_and_1_5x view=0
+SHOWCASE_TRACE t=73.533 kind=STATE step=action_rate_0_5x_and_1_5x from="Action/Melee#0" to="Locomotion/Idle" pos=(0,0,92) speed=0
+SHOWCASE_TRACE t=73.533 kind=CLIP step=action_rate_0_5x_and_1_5x clip=idle_relaxed length=4.000 rate=1.00
+SHOWCASE_TRACE t=73.833 kind=STATE step=action_rate_0_5x_and_1_5x from="Locomotion/Idle" to="Action/Melee#0" pos=(0,0,92) speed=0
+SHOWCASE_TRACE t=73.833 kind=CLIP step=action_rate_0_5x_and_1_5x clip=melee_1 length=0.800 rate=0.50
+SHOWCASE_TRACE t=73.967 kind=EVENT step=action_rate_0_5x_and_1_5x event=blade_extend clip=melee_1 clip_time=0.067 player=base pass=190 source=manifest
+SHOWCASE_TRACE t=74.500 kind=EVENT step=action_rate_0_5x_and_1_5x event=melee_hit_begin clip=melee_1 clip_time=0.333 player=base pass=190 source=manifest
+SHOWCASE_TRACE t=74.633 kind=EVENT step=action_rate_0_5x_and_1_5x event=foot_plant clip=melee_1 clip_time=0.400 player=base pass=190 params=Foot=l source=manifest
+SHOWCASE_TRACE t=74.733 kind=EVENT step=action_rate_0_5x_and_1_5x event=cancel_window_begin clip=melee_1 clip_time=0.450 player=base pass=190 source=fallback
+SHOWCASE_TRACE t=74.733 kind=CLIP step=action_rate_0_5x_and_1_5x clip=melee_2 length=0.800 rate=0.50
+SHOWCASE_TRACE t=74.867 kind=EVENT step=action_rate_0_5x_and_1_5x event=blade_extend clip=melee_2 clip_time=0.067 player=base pass=191 source=manifest
+SHOWCASE_TRACE t=75.467 kind=EVENT step=action_rate_0_5x_and_1_5x event=melee_hit_begin clip=melee_2 clip_time=0.367 player=base pass=191 source=manifest
+SHOWCASE_TRACE t=75.600 kind=EVENT step=action_rate_0_5x_and_1_5x event=foot_plant clip=melee_2 clip_time=0.433 player=base pass=191 params=Foot=r source=manifest
+SHOWCASE_TRACE t=75.633 kind=EVENT step=action_rate_0_5x_and_1_5x event=cancel_window_begin clip=melee_2 clip_time=0.450 player=base pass=191 source=fallback
+SHOWCASE_TRACE t=75.633 kind=CLIP step=action_rate_0_5x_and_1_5x clip=melee_3 length=0.800 rate=0.50
+SHOWCASE_TRACE t=75.767 kind=EVENT step=action_rate_0_5x_and_1_5x event=blade_extend clip=melee_3 clip_time=0.067 player=base pass=192 source=manifest
+SHOWCASE_TRACE t=76.433 kind=EVENT step=action_rate_0_5x_and_1_5x event=melee_hit_begin clip=melee_3 clip_time=0.400 player=base pass=192 source=manifest
+SHOWCASE_TRACE t=76.500 kind=EVENT step=action_rate_0_5x_and_1_5x event=foot_plant clip=melee_3 clip_time=0.433 player=base pass=192 params=Foot=l source=manifest
+SHOWCASE_TRACE t=76.533 kind=EVENT step=action_rate_0_5x_and_1_5x event=cancel_window_begin clip=melee_3 clip_time=0.450 player=base pass=192 source=fallback
+SHOWCASE_TRACE t=76.767 kind=EVENT step=action_rate_0_5x_and_1_5x event=melee_hit_end clip=melee_3 clip_time=0.567 player=base pass=192 source=manifest
+SHOWCASE_TRACE t=76.967 kind=EVENT step=action_rate_0_5x_and_1_5x event=melee_recover clip=melee_3 clip_time=0.667 player=base pass=192 source=manifest
+SHOWCASE_TRACE t=77.167 kind=EVENT step=action_rate_0_5x_and_1_5x event=blade_retract clip=melee_3 clip_time=0.767 player=base pass=192 source=manifest
+SHOWCASE_TRACE t=77.167 kind=EVENT step=action_rate_0_5x_and_1_5x event=control_return clip=melee_3 clip_time=0.767 player=base pass=192 source=manifest
+SHOWCASE_TRACE t=77.267 kind=CHECK name=rate_0_5_hit_windows_not_duplicated pass=1 hit_begin=3 (3 expected)
+SHOWCASE_TRACE t=77.267 kind=STEP_METRIC step=action_rate_0_5x_and_1_5x max_bone_delta_cm=58.0 bone=hand_l
+SHOWCASE_TRACE t=77.267 kind=STATE step=action_rate_0_5x_and_1_5x from="Action/Melee#0" to="Locomotion/Idle" pos=(0,0,92) speed=0
+SHOWCASE_TRACE t=77.267 kind=CLIP step=action_rate_0_5x_and_1_5x clip=idle_relaxed length=4.000 rate=1.00
+SHOWCASE_TRACE t=77.567 kind=STATE step=action_rate_0_5x_and_1_5x from="Locomotion/Idle" to="Action/Melee#0" pos=(0,0,92) speed=0
+SHOWCASE_TRACE t=77.567 kind=CLIP step=action_rate_0_5x_and_1_5x clip=melee_1 length=0.800 rate=1.50
+SHOWCASE_TRACE t=77.633 kind=EVENT step=action_rate_0_5x_and_1_5x event=blade_extend clip=melee_1 clip_time=0.100 player=base pass=194 source=manifest
+SHOWCASE_TRACE t=77.800 kind=EVENT step=action_rate_0_5x_and_1_5x event=melee_hit_begin clip=melee_1 clip_time=0.350 player=base pass=194 source=manifest
+SHOWCASE_TRACE t=77.833 kind=EVENT step=action_rate_0_5x_and_1_5x event=foot_plant clip=melee_1 clip_time=0.400 player=base pass=194 params=Foot=l source=manifest
+SHOWCASE_TRACE t=77.867 kind=EVENT step=action_rate_0_5x_and_1_5x event=cancel_window_begin clip=melee_1 clip_time=0.450 player=base pass=194 source=fallback
+SHOWCASE_TRACE t=77.867 kind=CLIP step=action_rate_0_5x_and_1_5x clip=melee_2 length=0.800 rate=1.50
+SHOWCASE_TRACE t=77.933 kind=EVENT step=action_rate_0_5x_and_1_5x event=blade_extend clip=melee_2 clip_time=0.100 player=base pass=195 source=manifest
+SHOWCASE_TRACE t=78.133 kind=EVENT step=action_rate_0_5x_and_1_5x event=melee_hit_begin clip=melee_2 clip_time=0.400 player=base pass=195 source=manifest
+SHOWCASE_TRACE t=78.167 kind=EVENT step=action_rate_0_5x_and_1_5x event=foot_plant clip=melee_2 clip_time=0.450 player=base pass=195 params=Foot=r source=manifest
+SHOWCASE_TRACE t=78.167 kind=EVENT step=action_rate_0_5x_and_1_5x event=cancel_window_begin clip=melee_2 clip_time=0.450 player=base pass=195 source=fallback
+SHOWCASE_TRACE t=78.167 kind=CLIP step=action_rate_0_5x_and_1_5x clip=melee_3 length=0.800 rate=1.50
+SHOWCASE_TRACE t=78.233 kind=EVENT step=action_rate_0_5x_and_1_5x event=blade_extend clip=melee_3 clip_time=0.100 player=base pass=196 source=manifest
+SHOWCASE_TRACE t=78.433 kind=EVENT step=action_rate_0_5x_and_1_5x event=melee_hit_begin clip=melee_3 clip_time=0.400 player=base pass=196 source=manifest
+SHOWCASE_TRACE t=78.467 kind=EVENT step=action_rate_0_5x_and_1_5x event=foot_plant clip=melee_3 clip_time=0.450 player=base pass=196 params=Foot=l source=manifest
+SHOWCASE_TRACE t=78.467 kind=EVENT step=action_rate_0_5x_and_1_5x event=cancel_window_begin clip=melee_3 clip_time=0.450 player=base pass=196 source=fallback
+SHOWCASE_TRACE t=78.567 kind=EVENT step=action_rate_0_5x_and_1_5x event=melee_hit_end clip=melee_3 clip_time=0.600 player=base pass=196 source=manifest
+SHOWCASE_TRACE t=78.633 kind=EVENT step=action_rate_0_5x_and_1_5x event=melee_recover clip=melee_3 clip_time=0.700 player=base pass=196 source=manifest
+SHOWCASE_TRACE t=78.700 kind=EVENT step=action_rate_0_5x_and_1_5x event=blade_retract clip=melee_3 clip_time=0.800 player=base pass=196 source=manifest
+SHOWCASE_TRACE t=78.700 kind=EVENT step=action_rate_0_5x_and_1_5x event=control_return clip=melee_3 clip_time=0.800 player=base pass=196 source=manifest
+SHOWCASE_TRACE t=78.700 kind=CHECK name=rate_1_5_hit_windows_not_duplicated pass=1 hit_begin=3 (3 expected)
+SHOWCASE_TRACE t=78.700 kind=STEP_METRIC step=action_rate_0_5x_and_1_5x max_bone_delta_cm=95.6 bone=hand_l
+SHOWCASE_TRACE t=78.700 kind=STEP begin=reload_and_casts view=5
+SHOWCASE_TRACE t=78.700 kind=STATE step=reload_and_casts from="Action/Melee#0" to="Locomotion/Idle" pos=(0,0,92) speed=0
+SHOWCASE_TRACE t=78.700 kind=CLIP step=reload_and_casts clip=idle_relaxed length=4.000 rate=1.00
+SHOWCASE_TRACE t=79.100 kind=STATE step=reload_and_casts from="Locomotion/Idle" to="Action/Reload#0" pos=(0,0,92) speed=0
+SHOWCASE_TRACE t=79.100 kind=CLIP step=reload_and_casts clip=reload length=1.900 rate=1.00
+SHOWCASE_TRACE t=79.133 kind=EVENT step=reload_and_casts event=cancel_window_begin clip=reload clip_time=0.033 player=base pass=199 source=manifest
+SHOWCASE_TRACE t=79.667 kind=EVENT step=reload_and_casts event=cancel_window_end clip=reload clip_time=0.567 player=base pass=199 source=manifest
+SHOWCASE_TRACE t=79.733 kind=EVENT step=reload_and_casts event=reload_eject clip=reload clip_time=0.633 player=base pass=199 source=manifest
+SHOWCASE_TRACE t=80.267 kind=EVENT step=reload_and_casts event=reload_handoff clip=reload clip_time=1.167 player=base pass=199 source=manifest
+SHOWCASE_TRACE t=80.767 kind=EVENT step=reload_and_casts event=reload_insert clip=reload clip_time=1.667 player=base pass=199 source=manifest
+SHOWCASE_TRACE t=80.867 kind=EVENT step=reload_and_casts event=control_return clip=reload clip_time=1.767 player=base pass=199 source=fallback
+SHOWCASE_TRACE t=80.933 kind=EVENT step=reload_and_casts event=reload_complete clip=reload clip_time=1.833 player=base pass=199 source=manifest
+SHOWCASE_TRACE t=81.033 kind=STATE step=reload_and_casts from="Action/Reload#0" to="Action/CastGround#0" pos=(0,0,92) speed=0
+SHOWCASE_TRACE t=81.033 kind=CLIP step=reload_and_casts clip=cast_ground length=1.100 rate=1.00
+SHOWCASE_TRACE t=81.533 kind=EVENT step=reload_and_casts event=cancel_window_end clip=cast_ground clip_time=0.500 player=base pass=201 source=manifest
+SHOWCASE_TRACE t=81.633 kind=EVENT step=reload_and_casts event=cast_release clip=cast_ground clip_time=0.600 player=base pass=201 source=manifest
+SHOWCASE_TRACE t=81.933 kind=EVENT step=reload_and_casts event=cancel_window_begin clip=cast_ground clip_time=0.900 player=base pass=201 source=fallback
+SHOWCASE_TRACE t=82.033 kind=EVENT step=reload_and_casts event=control_return clip=cast_ground clip_time=1.000 player=base pass=201 source=manifest
+SHOWCASE_TRACE t=82.133 kind=STATE step=reload_and_casts from="Action/CastGround#0" to="Action/CastSelf#0" pos=(0,0,92) speed=0
+SHOWCASE_TRACE t=82.133 kind=CLIP step=reload_and_casts clip=cast_self length=0.800 rate=1.00
+SHOWCASE_TRACE t=82.567 kind=EVENT step=reload_and_casts event=cast_release clip=cast_self clip_time=0.433 player=base pass=203 source=manifest
+SHOWCASE_TRACE t=82.800 kind=EVENT step=reload_and_casts event=cancel_window_begin clip=cast_self clip_time=0.667 player=base pass=203 source=fallback
+SHOWCASE_TRACE t=82.867 kind=EVENT step=reload_and_casts event=control_return clip=cast_self clip_time=0.733 player=base pass=203 source=manifest
+SHOWCASE_TRACE t=82.933 kind=CHECK name=reload_and_cast_events pass=1 reload_handoff=1 cast_release=2
+SHOWCASE_TRACE t=82.933 kind=STEP_METRIC step=reload_and_casts max_bone_delta_cm=39.8 bone=hand_l
+SHOWCASE_TRACE t=82.933 kind=STEP begin=channel_sustain_interrupt_release view=0
+SHOWCASE_TRACE t=82.933 kind=STATE step=channel_sustain_interrupt_release from="Action/CastSelf#0" to="Locomotion/Idle" pos=(0,0,92) speed=0
+SHOWCASE_TRACE t=82.933 kind=CLIP step=channel_sustain_interrupt_release clip=idle_relaxed length=4.000 rate=1.00
+SHOWCASE_TRACE t=83.333 kind=STATE step=channel_sustain_interrupt_release from="Locomotion/Idle" to="Action/Channel#0" pos=(0,0,92) speed=0
+SHOWCASE_TRACE t=83.333 kind=CLIP step=channel_sustain_interrupt_release clip=channel_start length=0.500 rate=1.00
+SHOWCASE_TRACE t=83.467 kind=EVENT step=channel_sustain_interrupt_release event=cancel_window_begin clip=channel_start clip_time=0.133 player=base pass=206 source=manifest
+SHOWCASE_TRACE t=83.800 kind=EVENT step=channel_sustain_interrupt_release event=channel_sustain_begin clip=channel_start clip_time=0.467 player=base pass=206 source=manifest
+SHOWCASE_TRACE t=83.833 kind=STATE step=channel_sustain_interrupt_release from="Action/Channel#0" to="Action/Channel#1" pos=(0,0,92) speed=0
+SHOWCASE_TRACE t=83.833 kind=CLIP step=channel_sustain_interrupt_release clip=channel_loop length=1.200 rate=1.00
+SHOWCASE_TRACE t=84.133 kind=EVENT step=channel_sustain_interrupt_release event=channel_pulse clip=channel_loop clip_time=0.300 player=base pass=207 source=manifest
+SHOWCASE_TRACE t=84.733 kind=EVENT step=channel_sustain_interrupt_release event=channel_pulse clip=channel_loop clip_time=0.900 player=base pass=207 source=manifest
+SHOWCASE_TRACE t=84.733 kind=STATE step=channel_sustain_interrupt_release from="Action/Channel#1" to="Action/Channel#3" pos=(0,0,92) speed=0
+SHOWCASE_TRACE t=84.733 kind=CLIP step=channel_sustain_interrupt_release clip=channel_interrupt length=0.400 rate=1.00
+SHOWCASE_TRACE t=84.767 kind=EVENT step=channel_sustain_interrupt_release event=channel_interrupted clip=channel_interrupt clip_time=0.033 player=base pass=208 source=manifest
+SHOWCASE_TRACE t=85.067 kind=EVENT step=channel_sustain_interrupt_release event=control_return clip=channel_interrupt clip_time=0.333 player=base pass=208 source=manifest
+SHOWCASE_TRACE t=85.133 kind=CHECK name=channel_interrupt_clip pass=1 clips=idle_relaxed,channel_start,channel_loop,channel_interrupt interrupted=1
+SHOWCASE_TRACE t=85.133 kind=STEP_METRIC step=channel_sustain_interrupt_release max_bone_delta_cm=43.1 bone=hand_l
+SHOWCASE_TRACE t=85.133 kind=STATE step=channel_sustain_interrupt_release from="Action/Channel#3" to="Action/Channel#0" pos=(0,0,92) speed=0
+SHOWCASE_TRACE t=85.133 kind=CLIP step=channel_sustain_interrupt_release clip=channel_start length=0.500 rate=1.00
+SHOWCASE_TRACE t=85.267 kind=EVENT step=channel_sustain_interrupt_release event=cancel_window_begin clip=channel_start clip_time=0.133 player=base pass=210 source=manifest
+SHOWCASE_TRACE t=85.367 kind=STATE step=channel_sustain_interrupt_release from="Action/Channel#0" to="Action/Channel#2" pos=(0,0,92) speed=0
+SHOWCASE_TRACE t=85.367 kind=CLIP step=channel_sustain_interrupt_release clip=channel_end length=0.500 rate=1.00
+SHOWCASE_TRACE t=85.500 kind=EVENT step=channel_sustain_interrupt_release event=channel_release clip=channel_end clip_time=0.133 player=base pass=211 source=manifest
+SHOWCASE_TRACE t=85.800 kind=EVENT step=channel_sustain_interrupt_release event=control_return clip=channel_end clip_time=0.433 player=base pass=211 source=manifest
+SHOWCASE_TRACE t=85.867 kind=CHECK name=channel_early_release_goes_to_end pass=1 clips=channel_start,channel_end
+SHOWCASE_TRACE t=85.867 kind=STEP_METRIC step=channel_sustain_interrupt_release max_bone_delta_cm=43.1 bone=hand_l
+SHOWCASE_TRACE t=85.867 kind=STATE step=channel_sustain_interrupt_release from="Action/Channel#2" to="Action/Channel#0" pos=(0,0,92) speed=0
+SHOWCASE_TRACE t=85.867 kind=CLIP step=channel_sustain_interrupt_release clip=channel_start length=0.500 rate=1.00
+SHOWCASE_TRACE t=86.000 kind=EVENT step=channel_sustain_interrupt_release event=cancel_window_begin clip=channel_start clip_time=0.133 player=base pass=213 source=manifest
+SHOWCASE_TRACE t=86.333 kind=EVENT step=channel_sustain_interrupt_release event=channel_sustain_begin clip=channel_start clip_time=0.467 player=base pass=213 source=manifest
+SHOWCASE_TRACE t=86.367 kind=STATE step=channel_sustain_interrupt_release from="Action/Channel#0" to="Action/Channel#1" pos=(0,0,92) speed=0
+SHOWCASE_TRACE t=86.367 kind=CLIP step=channel_sustain_interrupt_release clip=channel_loop length=1.200 rate=1.00
+SHOWCASE_TRACE t=86.667 kind=EVENT step=channel_sustain_interrupt_release event=channel_pulse clip=channel_loop clip_time=0.300 player=base pass=214 source=manifest
+SHOWCASE_TRACE t=87.067 kind=STATE step=channel_sustain_interrupt_release from="Action/Channel#1" to="Action/Channel#2" pos=(0,0,92) speed=0
+SHOWCASE_TRACE t=87.067 kind=CLIP step=channel_sustain_interrupt_release clip=channel_end length=0.500 rate=1.00
+SHOWCASE_TRACE t=87.200 kind=EVENT step=channel_sustain_interrupt_release event=channel_release clip=channel_end clip_time=0.133 player=base pass=215 source=manifest
+SHOWCASE_TRACE t=87.500 kind=EVENT step=channel_sustain_interrupt_release event=control_return clip=channel_end clip_time=0.433 player=base pass=215 source=manifest
+SHOWCASE_TRACE t=87.567 kind=CHECK name=channel_end_clip pass=1 clips=channel_start,channel_loop,channel_end release=1
+SHOWCASE_TRACE t=87.567 kind=STEP_METRIC step=channel_sustain_interrupt_release max_bone_delta_cm=43.1 bone=hand_l
+SHOWCASE_TRACE t=87.567 kind=STEP begin=charge_release_early_late_cancel view=0
+SHOWCASE_TRACE t=87.567 kind=STATE step=charge_release_early_late_cancel from="Action/Channel#2" to="Locomotion/Idle" pos=(0,0,92) speed=0
+SHOWCASE_TRACE t=87.567 kind=CLIP step=charge_release_early_late_cancel clip=idle_relaxed length=4.000 rate=1.00
+SHOWCASE_TRACE t=87.967 kind=STATE step=charge_release_early_late_cancel from="Locomotion/Idle" to="Action/Charge#0" pos=(0,0,92) speed=0
+SHOWCASE_TRACE t=87.967 kind=CLIP step=charge_release_early_late_cancel clip=charge_start length=0.700 rate=1.00
+SHOWCASE_TRACE t=88.167 kind=EVENT step=charge_release_early_late_cancel event=cancel_window_begin clip=charge_start clip_time=0.200 player=base pass=218 source=manifest
+SHOWCASE_TRACE t=88.600 kind=EVENT step=charge_release_early_late_cancel event=charge_full clip=charge_start clip_time=0.633 player=base pass=218 source=manifest
+SHOWCASE_TRACE t=88.667 kind=STATE step=charge_release_early_late_cancel from="Action/Charge#0" to="Action/Charge#1" pos=(0,0,92) speed=0
+SHOWCASE_TRACE t=88.667 kind=CLIP step=charge_release_early_late_cancel clip=charge_hold length=1.000 rate=1.00
+SHOWCASE_TRACE t=88.933 kind=EVENT step=charge_release_early_late_cancel event=charge_pulse clip=charge_hold clip_time=0.267 player=base pass=219 source=manifest
+SHOWCASE_TRACE t=89.400 kind=EVENT step=charge_release_early_late_cancel event=charge_pulse clip=charge_hold clip_time=0.733 player=base pass=219 source=manifest
+SHOWCASE_TRACE t=89.933 kind=EVENT step=charge_release_early_late_cancel event=charge_pulse clip=charge_hold clip_time=0.267 player=base pass=220 source=manifest
+SHOWCASE_TRACE t=90.033 kind=STATE step=charge_release_early_late_cancel from="Action/Charge#1" to="Action/Charge#2" pos=(0,0,92) speed=0
+SHOWCASE_TRACE t=90.033 kind=CLIP step=charge_release_early_late_cancel clip=charge_release length=0.600 rate=1.00
+SHOWCASE_TRACE t=90.200 kind=EVENT step=charge_release_early_late_cancel event=charge_release clip=charge_release clip_time=0.167 player=base pass=221 source=manifest
+SHOWCASE_TRACE t=90.233 kind=EVENT step=charge_release_early_late_cancel event=foot_plant clip=charge_release clip_time=0.200 player=base pass=221 params=Foot=l source=manifest
+SHOWCASE_TRACE t=90.533 kind=EVENT step=charge_release_early_late_cancel event=control_return clip=charge_release clip_time=0.500 player=base pass=221 source=manifest
+SHOWCASE_TRACE t=90.633 kind=CHECK name=charge_full_then_release pass=1 full=1 release=1
+SHOWCASE_TRACE t=90.633 kind=STEP_METRIC step=charge_release_early_late_cancel max_bone_delta_cm=40.4 bone=hand_r
+SHOWCASE_TRACE t=90.633 kind=STATE step=charge_release_early_late_cancel from="Action/Charge#2" to="Action/Charge#0" pos=(0,0,92) speed=0
+SHOWCASE_TRACE t=90.633 kind=CLIP step=charge_release_early_late_cancel clip=charge_start length=0.700 rate=1.00
+SHOWCASE_TRACE t=90.833 kind=EVENT step=charge_release_early_late_cancel event=cancel_window_begin clip=charge_start clip_time=0.200 player=base pass=223 source=manifest
+SHOWCASE_TRACE t=90.933 kind=STATE step=charge_release_early_late_cancel from="Action/Charge#0" to="Action/Charge#2" pos=(0,0,92) speed=0
+SHOWCASE_TRACE t=90.933 kind=CLIP step=charge_release_early_late_cancel clip=charge_release length=0.600 rate=1.00
+SHOWCASE_TRACE t=91.100 kind=EVENT step=charge_release_early_late_cancel event=charge_release clip=charge_release clip_time=0.167 player=base pass=224 source=manifest
+SHOWCASE_TRACE t=91.133 kind=EVENT step=charge_release_early_late_cancel event=foot_plant clip=charge_release clip_time=0.200 player=base pass=224 params=Foot=l source=manifest
+SHOWCASE_TRACE t=91.433 kind=EVENT step=charge_release_early_late_cancel event=control_return clip=charge_release clip_time=0.500 player=base pass=224 source=manifest
+SHOWCASE_TRACE t=91.533 kind=STATE step=charge_release_early_late_cancel from="Action/Charge#2" to="Action/Charge#0" pos=(0,0,92) speed=0
+SHOWCASE_TRACE t=91.533 kind=CLIP step=charge_release_early_late_cancel clip=charge_start length=0.700 rate=1.00
+SHOWCASE_TRACE t=91.733 kind=EVENT step=charge_release_early_late_cancel event=cancel_window_begin clip=charge_start clip_time=0.200 player=base pass=226 source=manifest
+SHOWCASE_TRACE t=92.167 kind=EVENT step=charge_release_early_late_cancel event=charge_full clip=charge_start clip_time=0.633 player=base pass=226 source=manifest
+SHOWCASE_TRACE t=92.233 kind=STATE step=charge_release_early_late_cancel from="Action/Charge#0" to="Action/Charge#1" pos=(0,0,92) speed=0
+SHOWCASE_TRACE t=92.233 kind=CLIP step=charge_release_early_late_cancel clip=charge_hold length=1.000 rate=1.00
+SHOWCASE_TRACE t=92.467 kind=STATE step=charge_release_early_late_cancel from="Action/Charge#1" to="Action/Charge#3" pos=(0,0,92) speed=0
+SHOWCASE_TRACE t=92.467 kind=CLIP step=charge_release_early_late_cancel clip=charge_cancel length=0.467 rate=1.00
+SHOWCASE_TRACE t=92.567 kind=EVENT step=charge_release_early_late_cancel event=charge_cancel clip=charge_cancel clip_time=0.100 player=base pass=228 source=manifest
+SHOWCASE_TRACE t=92.833 kind=EVENT step=charge_release_early_late_cancel event=control_return clip=charge_cancel clip_time=0.367 player=base pass=228 source=manifest
+SHOWCASE_TRACE t=92.933 kind=CHECK name=charge_cancel pass=1 cancel=1 release=0
+SHOWCASE_TRACE t=92.933 kind=STEP_METRIC step=charge_release_early_late_cancel max_bone_delta_cm=40.4 bone=hand_r
+SHOWCASE_TRACE t=92.933 kind=STEP begin=deploy_beacon view=5
+SHOWCASE_TRACE t=92.933 kind=STATE step=deploy_beacon from="Action/Charge#3" to="Locomotion/Idle" pos=(0,0,92) speed=0
+SHOWCASE_TRACE t=92.933 kind=CLIP step=deploy_beacon clip=idle_relaxed length=4.000 rate=1.00
+SHOWCASE_TRACE t=93.333 kind=STATE step=deploy_beacon from="Locomotion/Idle" to="Action/Deploy#0" pos=(0,0,92) speed=0
+SHOWCASE_TRACE t=93.333 kind=CLIP step=deploy_beacon clip=deploy length=1.200 rate=1.00
+SHOWCASE_TRACE t=93.600 kind=EVENT step=deploy_beacon event=deploy_attach clip=deploy clip_time=0.267 player=base pass=231 source=manifest
+SHOWCASE_TRACE t=94.167 kind=EVENT step=deploy_beacon event=deploy_release clip=deploy clip_time=0.833 player=base pass=231 source=manifest
+SHOWCASE_TRACE t=94.367 kind=EVENT step=deploy_beacon event=deploy_settle clip=deploy clip_time=1.033 player=base pass=231 source=manifest
+SHOWCASE_TRACE t=94.433 kind=EVENT step=deploy_beacon event=cancel_window_begin clip=deploy clip_time=1.100 player=base pass=231 source=fallback
+SHOWCASE_TRACE t=94.467 kind=EVENT step=deploy_beacon event=control_return clip=deploy clip_time=1.133 player=base pass=231 source=manifest
+SHOWCASE_TRACE t=94.533 kind=STATE step=deploy_beacon from="Action/Deploy#0" to="Locomotion/Idle" pos=(0,0,92) speed=0
+SHOWCASE_TRACE t=94.533 kind=CLIP step=deploy_beacon clip=idle_relaxed length=4.000 rate=1.00
+SHOWCASE_TRACE t=95.133 kind=CHECK name=beacon_spawned_at_release pass=1 world_beacon=1 release=1
+SHOWCASE_TRACE t=95.133 kind=STEP_METRIC step=deploy_beacon max_bone_delta_cm=25.6 bone=hand_l
+SHOWCASE_TRACE t=95.133 kind=STEP begin=uplink_cancel_and_complete view=0
+SHOWCASE_TRACE t=95.133 kind=STATE step=uplink_cancel_and_complete from="Locomotion/Idle" to="Action/Uplink#0" pos=(0,0,92) speed=0
+SHOWCASE_TRACE t=95.133 kind=CLIP step=uplink_cancel_and_complete clip=uplink_start length=0.700 rate=1.00
+SHOWCASE_TRACE t=95.267 kind=EVENT step=uplink_cancel_and_complete event=cancel_window_begin clip=uplink_start clip_time=0.133 player=base pass=233 source=manifest
+SHOWCASE_TRACE t=95.800 kind=EVENT step=uplink_cancel_and_complete event=uplink_sustain_begin clip=uplink_start clip_time=0.667 player=base pass=233 source=manifest
+SHOWCASE_TRACE t=95.833 kind=STATE step=uplink_cancel_and_complete from="Action/Uplink#0" to="Action/Uplink#1" pos=(0,0,92) speed=0
+SHOWCASE_TRACE t=95.833 kind=CLIP step=uplink_cancel_and_complete clip=uplink_loop length=1.500 rate=1.00
+SHOWCASE_TRACE t=96.200 kind=EVENT step=uplink_cancel_and_complete event=uplink_pulse clip=uplink_loop clip_time=0.367 player=base pass=234 source=manifest
+SHOWCASE_TRACE t=96.367 kind=STATE step=uplink_cancel_and_complete from="Action/Uplink#1" to="Action/Uplink#3" pos=(0,0,92) speed=0
+SHOWCASE_TRACE t=96.367 kind=CLIP step=uplink_cancel_and_complete clip=uplink_cancel length=0.467 rate=1.00
+SHOWCASE_TRACE t=96.500 kind=EVENT step=uplink_cancel_and_complete event=uplink_cancelled clip=uplink_cancel clip_time=0.133 player=base pass=235 source=manifest
+SHOWCASE_TRACE t=96.733 kind=EVENT step=uplink_cancel_and_complete event=control_return clip=uplink_cancel clip_time=0.367 player=base pass=235 source=manifest
+SHOWCASE_TRACE t=96.833 kind=CHECK name=uplink_cancelled pass=1 clips=uplink_start,uplink_loop,uplink_cancel
+SHOWCASE_TRACE t=96.833 kind=STEP_METRIC step=uplink_cancel_and_complete max_bone_delta_cm=23.1 bone=hand_l
+SHOWCASE_TRACE t=96.833 kind=STATE step=uplink_cancel_and_complete from="Action/Uplink#3" to="Action/Uplink#0" pos=(0,0,92) speed=0
+SHOWCASE_TRACE t=96.833 kind=CLIP step=uplink_cancel_and_complete clip=uplink_start length=0.700 rate=1.00
+SHOWCASE_TRACE t=96.967 kind=EVENT step=uplink_cancel_and_complete event=cancel_window_begin clip=uplink_start clip_time=0.133 player=base pass=237 source=manifest
+SHOWCASE_TRACE t=97.500 kind=EVENT step=uplink_cancel_and_complete event=uplink_sustain_begin clip=uplink_start clip_time=0.667 player=base pass=237 source=manifest
+SHOWCASE_TRACE t=97.533 kind=STATE step=uplink_cancel_and_complete from="Action/Uplink#0" to="Action/Uplink#1" pos=(0,0,92) speed=0
+SHOWCASE_TRACE t=97.533 kind=CLIP step=uplink_cancel_and_complete clip=uplink_loop length=1.500 rate=1.00
+SHOWCASE_TRACE t=97.900 kind=EVENT step=uplink_cancel_and_complete event=uplink_pulse clip=uplink_loop clip_time=0.367 player=base pass=238 source=manifest
+SHOWCASE_TRACE t=98.667 kind=EVENT step=uplink_cancel_and_complete event=uplink_pulse clip=uplink_loop clip_time=1.133 player=base pass=238 source=manifest
+SHOWCASE_TRACE t=99.167 kind=STATE step=uplink_cancel_and_complete from="Action/Uplink#1" to="Action/Uplink#2" pos=(0,0,92) speed=0
+SHOWCASE_TRACE t=99.167 kind=CLIP step=uplink_cancel_and_complete clip=uplink_end length=0.500 rate=1.00
+SHOWCASE_TRACE t=99.300 kind=EVENT step=uplink_cancel_and_complete event=uplink_complete clip=uplink_end clip_time=0.133 player=base pass=240 source=manifest
+SHOWCASE_TRACE t=99.600 kind=EVENT step=uplink_cancel_and_complete event=control_return clip=uplink_end clip_time=0.433 player=base pass=240 source=manifest
+SHOWCASE_TRACE t=99.667 kind=CHECK name=uplink_complete pass=1 clips=uplink_start,uplink_loop,uplink_end
+SHOWCASE_TRACE t=99.667 kind=STEP_METRIC step=uplink_cancel_and_complete max_bone_delta_cm=23.1 bone=hand_l
+SHOWCASE_TRACE t=99.667 kind=STEP begin=hits_while_moving view=0
+SHOWCASE_TRACE t=99.667 kind=STATE step=hits_while_moving from="Action/Uplink#2" to="Locomotion/Idle" pos=(0,0,92) speed=0
+SHOWCASE_TRACE t=99.667 kind=CLIP step=hits_while_moving clip=idle_relaxed length=4.000 rate=1.00
+SHOWCASE_TRACE t=99.733 kind=STATE step=hits_while_moving from="Locomotion/Idle" to="Locomotion/Move" pos=(1,0,92) speed=37
+SHOWCASE_TRACE t=99.733 kind=CLIP step=hits_while_moving clip=walk_f length=0.900 rate=1.00
+SHOWCASE_TRACE t=99.967 kind=CLIP step=hits_while_moving clip=run_f length=0.600 rate=1.00
+SHOWCASE_TRACE t=100.133 kind=CLIP step=hits_while_moving clip=walk_f length=0.900 rate=1.00
+SHOWCASE_TRACE t=100.600 kind=STATE step=hits_while_moving from="Locomotion/Move" to="Locomotion/Move +aim" pos=(81,0,92) speed=0
+SHOWCASE_TRACE t=100.633 kind=EVENT step=hits_while_moving event=hit_peak clip=hit_f clip_time=0.067 player=hit0 pass=246 source=manifest
+SHOWCASE_TRACE t=101.133 kind=EVENT step=hits_while_moving event=hit_peak clip=hit_b clip_time=0.067 player=hit0 pass=247 source=manifest
+SHOWCASE_TRACE t=101.633 kind=EVENT step=hits_while_moving event=hit_peak clip=hit_l clip_time=0.067 player=hit0 pass=248 source=manifest
+SHOWCASE_TRACE t=102.133 kind=EVENT step=hits_while_moving event=hit_peak clip=hit_r clip_time=0.067 player=hit0 pass=249 source=manifest
+SHOWCASE_TRACE t=102.633 kind=CHECK name=hits_do_not_change_state pass=1 hit_peak=4
+SHOWCASE_TRACE t=102.633 kind=STEP_METRIC step=hits_while_moving max_bone_delta_cm=38.5 bone=foot_l
+SHOWCASE_TRACE t=102.633 kind=STEP begin=stun_sleep_knockback view=0
+SHOWCASE_TRACE t=102.633 kind=STATE step=stun_sleep_knockback from="Locomotion/Move +aim" to="Locomotion/Idle +aim" pos=(0,0,92) speed=0
+SHOWCASE_TRACE t=102.633 kind=CLIP step=stun_sleep_knockback clip=idle_combat length=3.200 rate=1.00
+SHOWCASE_TRACE t=102.667 kind=STATE step=stun_sleep_knockback from="Locomotion/Idle +aim" to="Locomotion/Idle" pos=(0,0,92) speed=0
+SHOWCASE_TRACE t=102.700 kind=CLIP step=stun_sleep_knockback clip=idle_relaxed length=4.000 rate=1.00
+SHOWCASE_TRACE t=103.033 kind=STATE step=stun_sleep_knockback from="Locomotion/Idle" to="Stun" pos=(0,0,92) speed=0
+SHOWCASE_TRACE t=103.033 kind=CLIP step=stun_sleep_knockback clip=stun_start length=0.600 rate=1.00
+SHOWCASE_TRACE t=103.067 kind=EVENT step=stun_sleep_knockback event=stun_begin clip=stun_start clip_time=0.033 player=base pass=253 source=manifest
+SHOWCASE_TRACE t=103.633 kind=CLIP step=stun_sleep_knockback clip=stun_loop length=1.600 rate=1.00
+SHOWCASE_TRACE t=104.233 kind=CLIP step=stun_sleep_knockback clip=stun_end length=0.800 rate=1.00
+SHOWCASE_TRACE t=104.967 kind=EVENT step=stun_sleep_knockback event=control_return clip=stun_end clip_time=0.733 player=base pass=255 source=manifest
+SHOWCASE_TRACE t=105.033 kind=STATE step=stun_sleep_knockback from="Stun" to="Sleep" pos=(0,0,92) speed=0
+SHOWCASE_TRACE t=105.033 kind=CLIP step=stun_sleep_knockback clip=sleep_start length=1.800 rate=1.00
+SHOWCASE_TRACE t=106.667 kind=EVENT step=stun_sleep_knockback event=sleep_settle clip=sleep_start clip_time=1.633 player=base pass=257 source=manifest
+SHOWCASE_TRACE t=106.867 kind=CLIP step=stun_sleep_knockback clip=sleep_loop length=3.000 rate=1.00
+SHOWCASE_TRACE t=107.600 kind=EVENT step=stun_sleep_knockback event=breath_in clip=sleep_loop clip_time=0.733 player=base pass=258 source=manifest
+SHOWCASE_TRACE t=108.400 kind=CLIP step=stun_sleep_knockback clip=sleep_end length=1.600 rate=1.00
+SHOWCASE_TRACE t=109.700 kind=EVENT step=stun_sleep_knockback event=getup_stand clip=sleep_end clip_time=1.300 player=base pass=259 source=manifest
+SHOWCASE_TRACE t=109.867 kind=EVENT step=stun_sleep_knockback event=control_return clip=sleep_end clip_time=1.467 player=base pass=259 source=manifest
+SHOWCASE_TRACE t=110.033 kind=STATE step=stun_sleep_knockback from="Sleep" to="Knockback" pos=(0,0,92) speed=0
+SHOWCASE_TRACE t=110.033 kind=CLIP step=stun_sleep_knockback clip=knockback length=0.900 rate=1.00
+SHOWCASE_TRACE t=110.200 kind=EVENT step=stun_sleep_knockback event=hit_peak clip=knockback clip_time=0.167 player=base pass=261 source=manifest
+SHOWCASE_TRACE t=110.833 kind=EVENT step=stun_sleep_knockback event=control_return clip=knockback clip_time=0.800 player=base pass=261 source=manifest
+SHOWCASE_TRACE t=110.933 kind=CHECK name=stun_chain pass=1 clips=idle_combat,idle_relaxed,stun_start,stun_loop,stun_end,sleep_start,sleep_loop,sleep_end,knockback
+SHOWCASE_TRACE t=110.933 kind=CHECK name=sleep_chain pass=1 
+SHOWCASE_TRACE t=110.933 kind=CHECK name=knockback_travel pass=1 distance=250.4 expected~260
+SHOWCASE_TRACE t=110.933 kind=STEP_METRIC step=stun_sleep_knockback max_bone_delta_cm=33.8 bone=hand_r
+SHOWCASE_TRACE t=110.933 kind=STEP begin=knockup_knockdown_getup_both_directions view=0
+SHOWCASE_TRACE t=110.933 kind=STATE step=knockup_knockdown_getup_both_directions from="Knockback" to="Locomotion/Idle" pos=(0,0,92) speed=0
+SHOWCASE_TRACE t=110.933 kind=CLIP step=knockup_knockdown_getup_both_directions clip=idle_relaxed length=4.000 rate=1.00
+SHOWCASE_TRACE t=111.333 kind=STATE step=knockup_knockdown_getup_both_directions from="Locomotion/Idle" to="Knockup" pos=(0,0,92) speed=0
+SHOWCASE_TRACE t=111.333 kind=CLIP step=knockup_knockdown_getup_both_directions clip=knockup_start length=0.600 rate=1.00
+SHOWCASE_TRACE t=111.500 kind=EVENT step=knockup_knockdown_getup_both_directions event=knockup_launch clip=knockup_start clip_time=0.167 player=base pass=264 source=manifest
+SHOWCASE_TRACE t=111.933 kind=CLIP step=knockup_knockdown_getup_both_directions clip=knockup_air length=0.900 rate=1.00
+SHOWCASE_TRACE t=112.400 kind=EVENT step=knockup_knockdown_getup_both_directions event=tumble_half clip=knockup_air clip_time=0.467 player=base pass=265 source=manifest
+SHOWCASE_TRACE t=112.533 kind=STATE step=knockup_knockdown_getup_both_directions from="Knockup" to="Knockdown" pos=(-62,0,92) speed=0
+SHOWCASE_TRACE t=112.533 kind=CLIP step=knockup_knockdown_getup_both_directions clip=knockdown_back length=1.400 rate=1.00
+SHOWCASE_TRACE t=112.667 kind=EVENT step=knockup_knockdown_getup_both_directions event=hit_peak clip=knockdown_back clip_time=0.133 player=base pass=266 source=manifest
+SHOWCASE_TRACE t=113.467 kind=EVENT step=knockup_knockdown_getup_both_directions event=ground_impact clip=knockdown_back clip_time=0.933 player=base pass=266 source=manifest
+SHOWCASE_TRACE t=113.900 kind=EVENT step=knockup_knockdown_getup_both_directions event=control_return clip=knockdown_back clip_time=1.367 player=base pass=266 source=manifest
+SHOWCASE_TRACE t=113.933 kind=CLIP step=knockup_knockdown_getup_both_directions clip=prone_back length=2.000 rate=1.00
+SHOWCASE_TRACE t=114.433 kind=EVENT step=knockup_knockdown_getup_both_directions event=breath_in clip=prone_back clip_time=0.500 player=base pass=267 source=manifest
+SHOWCASE_TRACE t=115.133 kind=CLIP step=knockup_knockdown_getup_both_directions clip=getup_back length=2.200 rate=1.00
+SHOWCASE_TRACE t=115.433 kind=EVENT step=knockup_knockdown_getup_both_directions event=ground_impact clip=getup_back clip_time=0.300 player=base pass=268 source=manifest
+SHOWCASE_TRACE t=117.100 kind=EVENT step=knockup_knockdown_getup_both_directions event=getup_stand clip=getup_back clip_time=1.967 player=base pass=268 source=manifest
+SHOWCASE_TRACE t=117.233 kind=EVENT step=knockup_knockdown_getup_both_directions event=control_return clip=getup_back clip_time=2.100 player=base pass=268 source=manifest
+SHOWCASE_TRACE t=117.367 kind=CHECK name=knockup_lands_face_up pass=1 clips=idle_relaxed,knockup_start,knockup_air,knockdown_back,prone_back,getup_back
+SHOWCASE_TRACE t=117.367 kind=STEP_METRIC step=knockup_knockdown_getup_both_directions max_bone_delta_cm=46.1 bone=hand_r
+SHOWCASE_TRACE t=117.367 kind=CLIP step=knockup_knockdown_getup_both_directions clip=knockdown_front length=1.400 rate=1.00
+SHOWCASE_TRACE t=117.500 kind=EVENT step=knockup_knockdown_getup_both_directions event=hit_peak clip=knockdown_front clip_time=0.133 player=base pass=270 source=manifest
+SHOWCASE_TRACE t=118.333 kind=EVENT step=knockup_knockdown_getup_both_directions event=ground_impact clip=knockdown_front clip_time=0.967 player=base pass=270 source=manifest
+SHOWCASE_TRACE t=118.733 kind=EVENT step=knockup_knockdown_getup_both_directions event=control_return clip=knockdown_front clip_time=1.367 player=base pass=270 source=manifest
+SHOWCASE_TRACE t=118.767 kind=CLIP step=knockup_knockdown_getup_both_directions clip=prone_front length=2.000 rate=1.00
+SHOWCASE_TRACE t=119.267 kind=EVENT step=knockup_knockdown_getup_both_directions event=breath_in clip=prone_front clip_time=0.500 player=base pass=271 source=manifest
+SHOWCASE_TRACE t=119.967 kind=CLIP step=knockup_knockdown_getup_both_directions clip=getup_front length=2.200 rate=1.00
+SHOWCASE_TRACE t=120.333 kind=EVENT step=knockup_knockdown_getup_both_directions event=ground_impact clip=getup_front clip_time=0.367 player=base pass=272 source=manifest
+SHOWCASE_TRACE t=121.867 kind=EVENT step=knockup_knockdown_getup_both_directions event=getup_stand clip=getup_front clip_time=1.900 player=base pass=272 source=manifest
+SHOWCASE_TRACE t=122.033 kind=EVENT step=knockup_knockdown_getup_both_directions event=control_return clip=getup_front clip_time=2.067 player=base pass=272 source=manifest
+SHOWCASE_TRACE t=122.200 kind=CHECK name=knockdown_from_behind_face_down pass=1 clips=knockdown_front,prone_front,getup_front
+SHOWCASE_TRACE t=122.200 kind=STEP_METRIC step=knockup_knockdown_getup_both_directions max_bone_delta_cm=46.1 bone=hand_r
+SHOWCASE_TRACE t=122.200 kind=CLIP step=knockup_knockdown_getup_both_directions clip=knockdown_back length=1.400 rate=1.00
+SHOWCASE_TRACE t=122.333 kind=EVENT step=knockup_knockdown_getup_both_directions event=hit_peak clip=knockdown_back clip_time=0.133 player=base pass=274 source=manifest
+SHOWCASE_TRACE t=123.133 kind=EVENT step=knockup_knockdown_getup_both_directions event=ground_impact clip=knockdown_back clip_time=0.933 player=base pass=274 source=manifest
+SHOWCASE_TRACE t=123.567 kind=EVENT step=knockup_knockdown_getup_both_directions event=control_return clip=knockdown_back clip_time=1.367 player=base pass=274 source=manifest
+SHOWCASE_TRACE t=123.600 kind=CLIP step=knockup_knockdown_getup_both_directions clip=prone_back length=2.000 rate=1.00
+SHOWCASE_TRACE t=124.100 kind=EVENT step=knockup_knockdown_getup_both_directions event=breath_in clip=prone_back clip_time=0.500 player=base pass=275 source=manifest
+SHOWCASE_TRACE t=124.800 kind=CLIP step=knockup_knockdown_getup_both_directions clip=getup_back length=2.200 rate=1.00
+SHOWCASE_TRACE t=125.100 kind=EVENT step=knockup_knockdown_getup_both_directions event=ground_impact clip=getup_back clip_time=0.300 player=base pass=276 source=manifest
+SHOWCASE_TRACE t=126.767 kind=EVENT step=knockup_knockdown_getup_both_directions event=getup_stand clip=getup_back clip_time=1.967 player=base pass=276 source=manifest
+SHOWCASE_TRACE t=126.900 kind=EVENT step=knockup_knockdown_getup_both_directions event=control_return clip=getup_back clip_time=2.100 player=base pass=276 source=manifest
+SHOWCASE_TRACE t=127.033 kind=CHECK name=knockdown_from_front_face_up pass=1 clips=knockdown_back,prone_back,getup_back
+SHOWCASE_TRACE t=127.033 kind=STEP_METRIC step=knockup_knockdown_getup_both_directions max_bone_delta_cm=46.1 bone=hand_r
+SHOWCASE_TRACE t=127.033 kind=STEP begin=death_during_cast_respawn view=0
+SHOWCASE_TRACE t=127.033 kind=STATE step=death_during_cast_respawn from="Knockdown" to="Action/Channel#0" pos=(0,0,92) speed=0
+SHOWCASE_TRACE t=127.033 kind=CLIP step=death_during_cast_respawn clip=channel_start length=0.500 rate=1.00
+SHOWCASE_TRACE t=127.167 kind=EVENT step=death_during_cast_respawn event=cancel_window_begin clip=channel_start clip_time=0.133 player=base pass=279 source=manifest
+SHOWCASE_TRACE t=127.500 kind=EVENT step=death_during_cast_respawn event=channel_sustain_begin clip=channel_start clip_time=0.467 player=base pass=279 source=manifest
+SHOWCASE_TRACE t=127.533 kind=STATE step=death_during_cast_respawn from="Action/Channel#0" to="Action/Channel#1" pos=(0,0,92) speed=0
+SHOWCASE_TRACE t=127.533 kind=CLIP step=death_during_cast_respawn clip=channel_loop length=1.200 rate=1.00
+SHOWCASE_TRACE t=127.833 kind=EVENT step=death_during_cast_respawn event=channel_pulse clip=channel_loop clip_time=0.300 player=base pass=280 source=manifest
+SHOWCASE_TRACE t=128.000 kind=EVENT step=death_during_cast_respawn event=channel_interrupted clip=channel_loop clip_time=0.467 player=gameplay pass=0 params=reason=cancel source=manifest
+SHOWCASE_TRACE t=128.000 kind=STATE step=death_during_cast_respawn from="Action/Channel#1" to="Dying" pos=(0,0,92) speed=0
+SHOWCASE_TRACE t=128.000 kind=CLIP step=death_during_cast_respawn clip=death_front length=2.400 rate=1.00
+SHOWCASE_TRACE t=128.233 kind=EVENT step=death_during_cast_respawn event=hit_peak clip=death_front clip_time=0.233 player=base pass=281 source=manifest
+SHOWCASE_TRACE t=129.867 kind=EVENT step=death_during_cast_respawn event=death_impact clip=death_front clip_time=1.867 player=base pass=281 source=manifest
+SHOWCASE_TRACE t=130.433 kind=STATE step=death_during_cast_respawn from="Dying" to="Dead" pos=(0,0,92) speed=0
+SHOWCASE_TRACE t=130.433 kind=CLIP step=death_during_cast_respawn clip=dead_front length=0.033 rate=1.00
+SHOWCASE_TRACE t=131.233 kind=CHECK name=death_once_front pass=1 clips=channel_start,channel_loop,death_front,dead_front
+SHOWCASE_TRACE t=131.233 kind=CHECK name=no_action_after_death pass=1 
+SHOWCASE_TRACE t=131.233 kind=CHECK name=death_impact_once pass=1 death_impact=1
+SHOWCASE_TRACE t=131.233 kind=STEP_METRIC step=death_during_cast_respawn max_bone_delta_cm=20.0 bone=hand_l
+SHOWCASE_TRACE t=131.233 kind=STATE step=death_during_cast_respawn from="Dead" to="Respawning" pos=(0,0,92) speed=0
+SHOWCASE_TRACE t=131.233 kind=CLIP step=death_during_cast_respawn clip=respawn length=2.600 rate=1.00
+SHOWCASE_TRACE t=132.000 kind=EVENT step=death_during_cast_respawn event=respawn_activate clip=respawn clip_time=0.767 player=base pass=283 source=manifest
+SHOWCASE_TRACE t=133.700 kind=EVENT step=death_during_cast_respawn event=control_return clip=respawn clip_time=2.467 player=base pass=283 source=manifest
+SHOWCASE_TRACE t=133.867 kind=CHECK name=respawn_clean_state pass=1 clips=channel_start,channel_loop,death_front,dead_front,respawn beacon=0 visible=1
+SHOWCASE_TRACE t=133.867 kind=STEP_METRIC step=death_during_cast_respawn max_bone_delta_cm=20.0 bone=hand_l
+SHOWCASE_TRACE t=133.867 kind=STATE step=death_during_cast_respawn from="Respawning" to="Airborne/JumpStart" pos=(0,0,92) speed=0
+SHOWCASE_TRACE t=133.867 kind=CLIP step=death_during_cast_respawn clip=jump_start length=0.467 rate=1.00
+SHOWCASE_TRACE t=134.167 kind=EVENT step=death_during_cast_respawn event=jump_takeoff clip=jump_start clip_time=0.300 player=base pass=285 source=manifest
+SHOWCASE_TRACE t=134.167 kind=STATE step=death_during_cast_respawn from="Airborne/JumpStart" to="Dying" pos=(0,0,112) speed=0
+SHOWCASE_TRACE t=134.167 kind=CLIP step=death_during_cast_respawn clip=death_back length=2.400 rate=1.00
+SHOWCASE_TRACE t=134.400 kind=EVENT step=death_during_cast_respawn event=hit_peak clip=death_back clip_time=0.233 player=base pass=286 source=manifest
+SHOWCASE_TRACE t=135.667 kind=EVENT step=death_during_cast_respawn event=death_impact clip=death_back clip_time=1.500 player=base pass=286 source=manifest
+SHOWCASE_TRACE t=136.600 kind=STATE step=death_during_cast_respawn from="Dying" to="Dead" pos=(0,0,92) speed=0
+SHOWCASE_TRACE t=136.600 kind=CLIP step=death_during_cast_respawn clip=dead_back length=0.033 rate=1.00
+SHOWCASE_TRACE t=136.900 kind=CHECK name=death_back_from_behind_in_air pass=1 clips=jump_start,death_back,dead_back
+SHOWCASE_TRACE t=136.900 kind=STEP_METRIC step=death_during_cast_respawn max_bone_delta_cm=53.3 bone=hand_l
+SHOWCASE_TRACE t=137.400 kind=STATE step=death_during_cast_respawn from="Dead" to="Respawning" pos=(0,0,92) speed=0
+SHOWCASE_TRACE t=137.400 kind=CLIP step=death_during_cast_respawn clip=respawn length=2.600 rate=1.00
+SHOWCASE_TRACE t=138.167 kind=EVENT step=death_during_cast_respawn event=respawn_activate clip=respawn clip_time=0.767 player=base pass=288 source=manifest
+SHOWCASE_TRACE t=139.867 kind=EVENT step=death_during_cast_respawn event=control_return clip=respawn clip_time=2.467 player=base pass=288 source=manifest
+SHOWCASE_TRACE t=140.033 kind=STEP begin=dialogue_speech_sample view=4
+SHOWCASE_TRACE t=140.033 kind=STATE step=dialogue_speech_sample from="Respawning" to="Action/Greet#0" pos=(0,0,92) speed=0
+SHOWCASE_TRACE t=140.033 kind=CLIP step=dialogue_speech_sample clip=greet length=2.200 rate=1.00
+SHOWCASE_TRACE t=142.000 kind=EVENT step=dialogue_speech_sample event=control_return clip=greet clip_time=1.967 player=base pass=291 source=manifest
+SHOWCASE_TRACE t=142.267 kind=STATE step=dialogue_speech_sample from="Action/Greet#0" to="Action/Dialogue#0" pos=(0,0,92) speed=0
+SHOWCASE_TRACE t=142.267 kind=CLIP step=dialogue_speech_sample clip=dialogue length=16.600 rate=1.00
+SHOWCASE_TRACE t=142.800 kind=EVENT step=dialogue_speech_sample event=dialogue_start clip=dialogue clip_time=0.533 player=base pass=293 source=manifest
+SHOWCASE_TRACE t=142.800 kind=EVENT step=dialogue_speech_sample event=dialogue_line clip=dialogue clip_time=0.533 player=base pass=293 params=Index=0 source=manifest
+SHOWCASE_TRACE t=143.933 kind=EVENT step=dialogue_speech_sample event=dialogue_line clip=dialogue clip_time=1.667 player=base pass=293 params=Index=1 source=manifest
+SHOWCASE_TRACE t=149.433 kind=EVENT step=dialogue_speech_sample event=dialogue_line clip=dialogue clip_time=7.167 player=base pass=293 params=Index=2 source=manifest
+SHOWCASE_TRACE t=149.433 kind=EVENT step=dialogue_speech_sample event=emotion_shift clip=dialogue clip_time=7.167 player=base pass=293 params=frm=concern_sadness,To=focus source=manifest
+SHOWCASE_TRACE t=151.333 kind=EVENT step=dialogue_speech_sample event=emotion_shift clip=dialogue clip_time=9.067 player=base pass=293 params=frm=focus,To=joy_confidence source=manifest
+SHOWCASE_TRACE t=153.100 kind=EVENT step=dialogue_speech_sample event=dialogue_line clip=dialogue clip_time=10.833 player=base pass=293 params=Index=3 source=manifest
+SHOWCASE_TRACE t=156.400 kind=EVENT step=dialogue_speech_sample event=dialogue_line clip=dialogue clip_time=14.133 player=base pass=293 params=Index=4 source=manifest
+SHOWCASE_TRACE t=157.833 kind=EVENT step=dialogue_speech_sample event=dialogue_end clip=dialogue clip_time=15.567 player=base pass=293 source=manifest
+SHOWCASE_TRACE t=158.867 kind=CHECK name=dialogue_duration_and_events pass=1 elapsed=16.60 clip=16.60 audio_start_offset_ms=0
+SHOWCASE_TRACE t=158.867 kind=STEP_METRIC step=dialogue_speech_sample max_bone_delta_cm=20.9 bone=hand_l
+SHOWCASE_TRACE t=158.867 kind=CHECK name=no_duplicate_events pass=1 duplicates=0 total_events=507
+SHOWCASE_TRACE t=158.867 kind=CHECK name=no_pose_spikes pass=1 spikes=0 max_bone_delta_cm=95.6 at hand_l step=action_rate_0_5x_and_1_5x state=Action/Melee#0
+SHOWCASE_TRACE t=158.867 kind=STEP_METRIC step=done max_bone_delta_cm=20.9 bone=hand_l
+SHOWCASE_TRACE t=158.867 kind=STATE step=done from="Action/Dialogue#0" to="Locomotion/Idle" pos=(0,0,92) speed=0
+SHOWCASE_TRACE t=158.867 kind=CLIP step=done clip=idle_relaxed length=4.000 rate=1.00
+SHOWCASE_TRACE t=158.900 kind=SUMMARY checks=59 passed=59 duplicate_events=0 pose_spikes=0 max_bone_delta_cm=95.6 (hand_l step=action_rate_0_5x_and_1_5x state=Action/Melee#0) events=507 total_time=158.2
+SHOWCASE_TRACE t=158.900 kind=RUN finish reason="sequence complete"
+SHOWCASE_TRACE t=159.867 kind=EVENT step=done event=idle_breath clip=idle_relaxed clip_time=1.000 player=base pass=294 source=manifest
+SHOWCASE_TRACE t=160.367 kind=RUN exit

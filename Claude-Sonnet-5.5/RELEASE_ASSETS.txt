@@ -1,0 +1,18 @@
+Parts of this run that are not stored in git (packaged builds and files
+over 100 MB) are attached to the release
+https://github.com/TheMorpheus407/morphrig-benchmark/releases/tag/claude-sonnet-5-5
+
+name      MorphRig-build.tar.zst
+contents  MorphRig/build/ (packaged Linux build)
+size      387292757 bytes
+sha256    0f06e63ddf426f17e8e27b524011663902fa90ccb50ee2b6e3fe130d089b3212
+download  https://github.com/TheMorpheus407/morphrig-benchmark/releases/download/claude-sonnet-5-5/MorphRig-build.tar.zst
+
+name      en_US-ljspeech-high.onnx
+contents  MorphRig/source/audio/voice/en_US-ljspeech-high.onnx (Piper voice model, see docs/THIRD_PARTY_ASSETS.csv)
+size      114199011 bytes
+sha256    5d4f08ba6a2a48c44592eed3ce56bf85e9de3dd4e20df90541ae68a8310c029a
+download  https://github.com/TheMorpheus407/morphrig-benchmark/releases/download/claude-sonnet-5-5/en_US-ljspeech-high.onnx
+
+Unpack an archive inside this folder:  zstd -d < NAME | tar -x
+Unreal runtime folders (Saved/) are not included.

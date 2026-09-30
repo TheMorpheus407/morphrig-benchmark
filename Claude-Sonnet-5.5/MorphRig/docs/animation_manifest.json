@@ -1,0 +1,7335 @@
+{
+ "schema": "morphrig.animation_manifest/1",
+ "fps": 30,
+ "clip_count": 96,
+ "motion_entries": 85,
+ "static_pose_entries": 11,
+ "conventions": {
+  "frames": "frames = number of 30 fps intervals; keys = frames + 1; Blender frame = 1 + clip frame",
+  "loops": "loop clips repeat keys 0..N with pose(N) equal to pose(0); Unreal loops over length = frames/30",
+  "root_motion": "root bone translation baked in centimetres in Unreal axes (forward +X); in_place clips keep root at the origin",
+  "additive": "hit_* are authored as offsets from their first frame; Unreal derives the additive pose from frame 0",
+  "layers": {
+   "full": "full body",
+   "upper": "upper-body layer from spine_01 upward over the locomotion base",
+   "additive": "additive over any base",
+   "pose": "static pose entry"
+  }
+ },
+ "clips": [
+  {
+   "id": "idle_relaxed",
+   "form": "loop",
+   "root_motion": "in_place",
+   "behavior": "Relaxed breathing and attentive weight shifts.",
+   "duration_s": 4.0,
+   "frames": 120,
+   "keys": 121,
+   "sample_rate": 30,
+   "loop": true,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    121
+   ],
+   "source_action": "A_idle_relaxed",
+   "baked_action": "idle_relaxed",
+   "export_file": "export/animations/idle_relaxed.fbx",
+   "unreal_asset": "/Game/Operative/Anims/idle_relaxed",
+   "events": [
+    {
+     "name": "idle_breath",
+     "frame": 30,
+     "params": {},
+     "time_s": 1.0
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "any_grounded_free"
+   ],
+   "exit_states": [
+    "any"
+   ],
+   "morph_curves": [],
+   "procedural_components": {},
+   "note": "relaxed breathing with a weight shift, head drift and blinks"
+  },
+  {
+   "id": "idle_combat",
+   "form": "loop",
+   "root_motion": "in_place",
+   "behavior": "Ready stance with free hands and readable silhouette.",
+   "duration_s": 3.2,
+   "frames": 96,
+   "keys": 97,
+   "sample_rate": 30,
+   "loop": true,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    97
+   ],
+   "source_action": "A_idle_combat",
+   "baked_action": "idle_combat",
+   "export_file": "export/animations/idle_combat.fbx",
+   "unreal_asset": "/Game/Operative/Anims/idle_combat",
+   "events": [
+    {
+     "name": "idle_breath",
+     "frame": 24,
+     "params": {},
+     "time_s": 0.8
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "any_grounded_free"
+   ],
+   "exit_states": [
+    "any"
+   ],
+   "morph_curves": [
+    "brow_down_l",
+    "brow_down_r",
+    "lip_press",
+    "mouth_narrow",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {},
+   "note": "ready stance with a breathing bounce and target scanning"
+  },
+  {
+   "id": "idle_wounded",
+   "form": "loop",
+   "root_motion": "in_place",
+   "behavior": "Injured but alert; no new skeleton or detached limbs.",
+   "duration_s": 3.6,
+   "frames": 108,
+   "keys": 109,
+   "sample_rate": 30,
+   "loop": true,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    109
+   ],
+   "source_action": "A_idle_wounded",
+   "baked_action": "idle_wounded",
+   "export_file": "export/animations/idle_wounded.fbx",
+   "unreal_asset": "/Game/Operative/Anims/idle_wounded",
+   "events": [
+    {
+     "name": "idle_breath",
+     "frame": 27,
+     "params": {},
+     "time_s": 0.9
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "any_grounded_free"
+   ],
+   "exit_states": [
+    "any"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {},
+   "note": "hunched, right hand on the left flank, weight on the left leg, laboured breathing"
+  },
+  {
+   "id": "walk_f",
+   "form": "loop",
+   "root_motion": "in_place",
+   "behavior": "Walk forward; retain facing, synchronized contacts, genuine directional gait.",
+   "duration_s": 0.9,
+   "frames": 27,
+   "keys": 28,
+   "sample_rate": 30,
+   "loop": true,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 150.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    28
+   ],
+   "source_action": "A_walk_f",
+   "baked_action": "walk_f",
+   "export_file": "export/animations/walk_f.fbx",
+   "unreal_asset": "/Game/Operative/Anims/walk_f",
+   "events": [
+    {
+     "name": "foot_plant",
+     "frame": 0,
+     "params": {
+      "foot": "l"
+     },
+     "time_s": 0.0
+    },
+    {
+     "name": "foot_lift",
+     "frame": 17,
+     "params": {
+      "foot": "l"
+     },
+     "time_s": 0.5666666666666667
+    },
+    {
+     "name": "foot_plant",
+     "frame": 14,
+     "params": {
+      "foot": "r"
+     },
+     "time_s": 0.4666666666666667
+    },
+    {
+     "name": "foot_lift",
+     "frame": 3,
+     "params": {
+      "foot": "r"
+     },
+     "time_s": 0.1
+    }
+   ],
+   "foot_contacts": [
+    {
+     "foot": "l",
+     "plant_frame": 0,
+     "lift_frame": 17
+    },
+    {
+     "foot": "r",
+     "plant_frame": 14,
+     "lift_frame": 3
+    }
+   ],
+   "entry_states": [
+    "locomotion"
+   ],
+   "exit_states": [
+    "locomotion"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {
+    "generator": "gait.py",
+    "style": "walk",
+    "direction_deg": 0.0,
+    "duty": 0.62,
+    "cycle_s": 0.9
+   },
+   "note": "procedural walk gait, direction 0.0 deg, nominal 150.0 cm/s"
+  },
+  {
+   "id": "walk_fl",
+   "form": "loop",
+   "root_motion": "in_place",
+   "behavior": "Walk forward-left; retain facing, synchronized contacts, genuine directional gait.",
+   "duration_s": 0.9,
+   "frames": 27,
+   "keys": 28,
+   "sample_rate": 30,
+   "loop": true,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 140.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    28
+   ],
+   "source_action": "A_walk_fl",
+   "baked_action": "walk_fl",
+   "export_file": "export/animations/walk_fl.fbx",
+   "unreal_asset": "/Game/Operative/Anims/walk_fl",
+   "events": [
+    {
+     "name": "foot_plant",
+     "frame": 0,
+     "params": {
+      "foot": "l"
+     },
+     "time_s": 0.0
+    },
+    {
+     "name": "foot_lift",
+     "frame": 17,
+     "params": {
+      "foot": "l"
+     },
+     "time_s": 0.5666666666666667
+    },
+    {
+     "name": "foot_plant",
+     "frame": 14,
+     "params": {
+      "foot": "r"
+     },
+     "time_s": 0.4666666666666667
+    },
+    {
+     "name": "foot_lift",
+     "frame": 3,
+     "params": {
+      "foot": "r"
+     },
+     "time_s": 0.1
+    }
+   ],
+   "foot_contacts": [
+    {
+     "foot": "l",
+     "plant_frame": 0,
+     "lift_frame": 17
+    },
+    {
+     "foot": "r",
+     "plant_frame": 14,
+     "lift_frame": 3
+    }
+   ],
+   "entry_states": [
+    "locomotion"
+   ],
+   "exit_states": [
+    "locomotion"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {
+    "generator": "gait.py",
+    "style": "walk",
+    "direction_deg": 45.0,
+    "duty": 0.62,
+    "cycle_s": 0.9
+   },
+   "note": "procedural walk gait, direction 45.0 deg, nominal 140.0 cm/s"
+  },
+  {
+   "id": "walk_l",
+   "form": "loop",
+   "root_motion": "in_place",
+   "behavior": "Walk left strafe; retain facing, synchronized contacts, genuine directional gait.",
+   "duration_s": 0.8,
+   "frames": 24,
+   "keys": 25,
+   "sample_rate": 30,
+   "loop": true,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 100.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    25
+   ],
+   "source_action": "A_walk_l",
+   "baked_action": "walk_l",
+   "export_file": "export/animations/walk_l.fbx",
+   "unreal_asset": "/Game/Operative/Anims/walk_l",
+   "events": [
+    {
+     "name": "foot_plant",
+     "frame": 0,
+     "params": {
+      "foot": "l"
+     },
+     "time_s": 0.0
+    },
+    {
+     "name": "foot_lift",
+     "frame": 15,
+     "params": {
+      "foot": "l"
+     },
+     "time_s": 0.5
+    },
+    {
+     "name": "foot_plant",
+     "frame": 12,
+     "params": {
+      "foot": "r"
+     },
+     "time_s": 0.4
+    },
+    {
+     "name": "foot_lift",
+     "frame": 3,
+     "params": {
+      "foot": "r"
+     },
+     "time_s": 0.1
+    }
+   ],
+   "foot_contacts": [
+    {
+     "foot": "l",
+     "plant_frame": 0,
+     "lift_frame": 15
+    },
+    {
+     "foot": "r",
+     "plant_frame": 12,
+     "lift_frame": 3
+    }
+   ],
+   "entry_states": [
+    "locomotion"
+   ],
+   "exit_states": [
+    "locomotion"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {
+    "generator": "gait.py",
+    "style": "walk",
+    "direction_deg": 90.0,
+    "duty": 0.62,
+    "cycle_s": 0.8
+   },
+   "note": "procedural walk gait, direction 90.0 deg, nominal 100.0 cm/s"
+  },
+  {
+   "id": "walk_bl",
+   "form": "loop",
+   "root_motion": "in_place",
+   "behavior": "Walk back-left; retain facing, synchronized contacts, genuine directional gait.",
+   "duration_s": 1.0,
+   "frames": 30,
+   "keys": 31,
+   "sample_rate": 30,
+   "loop": true,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 110.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    31
+   ],
+   "source_action": "A_walk_bl",
+   "baked_action": "walk_bl",
+   "export_file": "export/animations/walk_bl.fbx",
+   "unreal_asset": "/Game/Operative/Anims/walk_bl",
+   "events": [
+    {
+     "name": "foot_plant",
+     "frame": 0,
+     "params": {
+      "foot": "l"
+     },
+     "time_s": 0.0
+    },
+    {
+     "name": "foot_lift",
+     "frame": 19,
+     "params": {
+      "foot": "l"
+     },
+     "time_s": 0.6333333333333333
+    },
+    {
+     "name": "foot_plant",
+     "frame": 15,
+     "params": {
+      "foot": "r"
+     },
+     "time_s": 0.5
+    },
+    {
+     "name": "foot_lift",
+     "frame": 4,
+     "params": {
+      "foot": "r"
+     },
+     "time_s": 0.13333333333333333
+    }
+   ],
+   "foot_contacts": [
+    {
+     "foot": "l",
+     "plant_frame": 0,
+     "lift_frame": 19
+    },
+    {
+     "foot": "r",
+     "plant_frame": 15,
+     "lift_frame": 4
+    }
+   ],
+   "entry_states": [
+    "locomotion"
+   ],
+   "exit_states": [
+    "locomotion"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {
+    "generator": "gait.py",
+    "style": "walk",
+    "direction_deg": 135.0,
+    "duty": 0.62,
+    "cycle_s": 1.0
+   },
+   "note": "procedural walk gait, direction 135.0 deg, nominal 110.0 cm/s"
+  },
+  {
+   "id": "walk_b",
+   "form": "loop",
+   "root_motion": "in_place",
+   "behavior": "Walk backward; retain facing, synchronized contacts, genuine directional gait.",
+   "duration_s": 1.0,
+   "frames": 30,
+   "keys": 31,
+   "sample_rate": 30,
+   "loop": true,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 105.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    31
+   ],
+   "source_action": "A_walk_b",
+   "baked_action": "walk_b",
+   "export_file": "export/animations/walk_b.fbx",
+   "unreal_asset": "/Game/Operative/Anims/walk_b",
+   "events": [
+    {
+     "name": "foot_plant",
+     "frame": 0,
+     "params": {
+      "foot": "l"
+     },
+     "time_s": 0.0
+    },
+    {
+     "name": "foot_lift",
+     "frame": 19,
+     "params": {
+      "foot": "l"
+     },
+     "time_s": 0.6333333333333333
+    },
+    {
+     "name": "foot_plant",
+     "frame": 15,
+     "params": {
+      "foot": "r"
+     },
+     "time_s": 0.5
+    },
+    {
+     "name": "foot_lift",
+     "frame": 4,
+     "params": {
+      "foot": "r"
+     },
+     "time_s": 0.13333333333333333
+    }
+   ],
+   "foot_contacts": [
+    {
+     "foot": "l",
+     "plant_frame": 0,
+     "lift_frame": 19
+    },
+    {
+     "foot": "r",
+     "plant_frame": 15,
+     "lift_frame": 4
+    }
+   ],
+   "entry_states": [
+    "locomotion"
+   ],
+   "exit_states": [
+    "locomotion"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {
+    "generator": "gait.py",
+    "style": "walk",
+    "direction_deg": 180.0,
+    "duty": 0.62,
+    "cycle_s": 1.0
+   },
+   "note": "procedural walk gait, direction 180.0 deg, nominal 105.0 cm/s"
+  },
+  {
+   "id": "walk_br",
+   "form": "loop",
+   "root_motion": "in_place",
+   "behavior": "Walk back-right; retain facing, synchronized contacts, genuine directional gait.",
+   "duration_s": 1.0,
+   "frames": 30,
+   "keys": 31,
+   "sample_rate": 30,
+   "loop": true,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 110.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    31
+   ],
+   "source_action": "A_walk_br",
+   "baked_action": "walk_br",
+   "export_file": "export/animations/walk_br.fbx",
+   "unreal_asset": "/Game/Operative/Anims/walk_br",
+   "events": [
+    {
+     "name": "foot_plant",
+     "frame": 0,
+     "params": {
+      "foot": "l"
+     },
+     "time_s": 0.0
+    },
+    {
+     "name": "foot_lift",
+     "frame": 19,
+     "params": {
+      "foot": "l"
+     },
+     "time_s": 0.6333333333333333
+    },
+    {
+     "name": "foot_plant",
+     "frame": 15,
+     "params": {
+      "foot": "r"
+     },
+     "time_s": 0.5
+    },
+    {
+     "name": "foot_lift",
+     "frame": 4,
+     "params": {
+      "foot": "r"
+     },
+     "time_s": 0.13333333333333333
+    }
+   ],
+   "foot_contacts": [
+    {
+     "foot": "l",
+     "plant_frame": 0,
+     "lift_frame": 19
+    },
+    {
+     "foot": "r",
+     "plant_frame": 15,
+     "lift_frame": 4
+    }
+   ],
+   "entry_states": [
+    "locomotion"
+   ],
+   "exit_states": [
+    "locomotion"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {
+    "generator": "gait.py",
+    "style": "walk",
+    "direction_deg": -135.0,
+    "duty": 0.62,
+    "cycle_s": 1.0
+   },
+   "note": "procedural walk gait, direction -135.0 deg, nominal 110.0 cm/s"
+  },
+  {
+   "id": "walk_r",
+   "form": "loop",
+   "root_motion": "in_place",
+   "behavior": "Walk right strafe; retain facing, synchronized contacts, genuine directional gait.",
+   "duration_s": 0.8,
+   "frames": 24,
+   "keys": 25,
+   "sample_rate": 30,
+   "loop": true,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 100.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    25
+   ],
+   "source_action": "A_walk_r",
+   "baked_action": "walk_r",
+   "export_file": "export/animations/walk_r.fbx",
+   "unreal_asset": "/Game/Operative/Anims/walk_r",
+   "events": [
+    {
+     "name": "foot_plant",
+     "frame": 0,
+     "params": {
+      "foot": "l"
+     },
+     "time_s": 0.0
+    },
+    {
+     "name": "foot_lift",
+     "frame": 15,
+     "params": {
+      "foot": "l"
+     },
+     "time_s": 0.5
+    },
+    {
+     "name": "foot_plant",
+     "frame": 12,
+     "params": {
+      "foot": "r"
+     },
+     "time_s": 0.4
+    },
+    {
+     "name": "foot_lift",
+     "frame": 3,
+     "params": {
+      "foot": "r"
+     },
+     "time_s": 0.1
+    }
+   ],
+   "foot_contacts": [
+    {
+     "foot": "l",
+     "plant_frame": 0,
+     "lift_frame": 15
+    },
+    {
+     "foot": "r",
+     "plant_frame": 12,
+     "lift_frame": 3
+    }
+   ],
+   "entry_states": [
+    "locomotion"
+   ],
+   "exit_states": [
+    "locomotion"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {
+    "generator": "gait.py",
+    "style": "walk",
+    "direction_deg": -90.0,
+    "duty": 0.62,
+    "cycle_s": 0.8
+   },
+   "note": "procedural walk gait, direction -90.0 deg, nominal 100.0 cm/s"
+  },
+  {
+   "id": "walk_fr",
+   "form": "loop",
+   "root_motion": "in_place",
+   "behavior": "Walk forward-right; retain facing, synchronized contacts, genuine directional gait.",
+   "duration_s": 0.9,
+   "frames": 27,
+   "keys": 28,
+   "sample_rate": 30,
+   "loop": true,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 140.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    28
+   ],
+   "source_action": "A_walk_fr",
+   "baked_action": "walk_fr",
+   "export_file": "export/animations/walk_fr.fbx",
+   "unreal_asset": "/Game/Operative/Anims/walk_fr",
+   "events": [
+    {
+     "name": "foot_plant",
+     "frame": 0,
+     "params": {
+      "foot": "l"
+     },
+     "time_s": 0.0
+    },
+    {
+     "name": "foot_lift",
+     "frame": 17,
+     "params": {
+      "foot": "l"
+     },
+     "time_s": 0.5666666666666667
+    },
+    {
+     "name": "foot_plant",
+     "frame": 14,
+     "params": {
+      "foot": "r"
+     },
+     "time_s": 0.4666666666666667
+    },
+    {
+     "name": "foot_lift",
+     "frame": 3,
+     "params": {
+      "foot": "r"
+     },
+     "time_s": 0.1
+    }
+   ],
+   "foot_contacts": [
+    {
+     "foot": "l",
+     "plant_frame": 0,
+     "lift_frame": 17
+    },
+    {
+     "foot": "r",
+     "plant_frame": 14,
+     "lift_frame": 3
+    }
+   ],
+   "entry_states": [
+    "locomotion"
+   ],
+   "exit_states": [
+    "locomotion"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {
+    "generator": "gait.py",
+    "style": "walk",
+    "direction_deg": -45.0,
+    "duty": 0.62,
+    "cycle_s": 0.9
+   },
+   "note": "procedural walk gait, direction -45.0 deg, nominal 140.0 cm/s"
+  },
+  {
+   "id": "run_f",
+   "form": "loop",
+   "root_motion": "in_place",
+   "behavior": "Run forward; retain facing, synchronized contacts, genuine directional gait.",
+   "duration_s": 0.6,
+   "frames": 18,
+   "keys": 19,
+   "sample_rate": 30,
+   "loop": true,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 400.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    19
+   ],
+   "source_action": "A_run_f",
+   "baked_action": "run_f",
+   "export_file": "export/animations/run_f.fbx",
+   "unreal_asset": "/Game/Operative/Anims/run_f",
+   "events": [
+    {
+     "name": "foot_plant",
+     "frame": 0,
+     "params": {
+      "foot": "l"
+     },
+     "time_s": 0.0
+    },
+    {
+     "name": "foot_lift",
+     "frame": 7,
+     "params": {
+      "foot": "l"
+     },
+     "time_s": 0.23333333333333334
+    },
+    {
+     "name": "foot_plant",
+     "frame": 9,
+     "params": {
+      "foot": "r"
+     },
+     "time_s": 0.3
+    },
+    {
+     "name": "foot_lift",
+     "frame": 16,
+     "params": {
+      "foot": "r"
+     },
+     "time_s": 0.5333333333333333
+    }
+   ],
+   "foot_contacts": [
+    {
+     "foot": "l",
+     "plant_frame": 0,
+     "lift_frame": 7
+    },
+    {
+     "foot": "r",
+     "plant_frame": 9,
+     "lift_frame": 16
+    }
+   ],
+   "entry_states": [
+    "locomotion"
+   ],
+   "exit_states": [
+    "locomotion"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {
+    "generator": "gait.py",
+    "style": "run",
+    "direction_deg": 0.0,
+    "duty": 0.4,
+    "cycle_s": 0.6
+   },
+   "note": "procedural run gait, direction 0.0 deg, nominal 400.0 cm/s"
+  },
+  {
+   "id": "run_fl",
+   "form": "loop",
+   "root_motion": "in_place",
+   "behavior": "Run forward-left; retain facing, synchronized contacts, genuine directional gait.",
+   "duration_s": 0.6,
+   "frames": 18,
+   "keys": 19,
+   "sample_rate": 30,
+   "loop": true,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 370.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    19
+   ],
+   "source_action": "A_run_fl",
+   "baked_action": "run_fl",
+   "export_file": "export/animations/run_fl.fbx",
+   "unreal_asset": "/Game/Operative/Anims/run_fl",
+   "events": [
+    {
+     "name": "foot_plant",
+     "frame": 0,
+     "params": {
+      "foot": "l"
+     },
+     "time_s": 0.0
+    },
+    {
+     "name": "foot_lift",
+     "frame": 7,
+     "params": {
+      "foot": "l"
+     },
+     "time_s": 0.23333333333333334
+    },
+    {
+     "name": "foot_plant",
+     "frame": 9,
+     "params": {
+      "foot": "r"
+     },
+     "time_s": 0.3
+    },
+    {
+     "name": "foot_lift",
+     "frame": 16,
+     "params": {
+      "foot": "r"
+     },
+     "time_s": 0.5333333333333333
+    }
+   ],
+   "foot_contacts": [
+    {
+     "foot": "l",
+     "plant_frame": 0,
+     "lift_frame": 7
+    },
+    {
+     "foot": "r",
+     "plant_frame": 9,
+     "lift_frame": 16
+    }
+   ],
+   "entry_states": [
+    "locomotion"
+   ],
+   "exit_states": [
+    "locomotion"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {
+    "generator": "gait.py",
+    "style": "run",
+    "direction_deg": 45.0,
+    "duty": 0.4,
+    "cycle_s": 0.6
+   },
+   "note": "procedural run gait, direction 45.0 deg, nominal 370.0 cm/s"
+  },
+  {
+   "id": "run_l",
+   "form": "loop",
+   "root_motion": "in_place",
+   "behavior": "Run left strafe; retain facing, synchronized contacts, genuine directional gait.",
+   "duration_s": 0.6,
+   "frames": 18,
+   "keys": 19,
+   "sample_rate": 30,
+   "loop": true,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 260.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    19
+   ],
+   "source_action": "A_run_l",
+   "baked_action": "run_l",
+   "export_file": "export/animations/run_l.fbx",
+   "unreal_asset": "/Game/Operative/Anims/run_l",
+   "events": [
+    {
+     "name": "foot_plant",
+     "frame": 0,
+     "params": {
+      "foot": "l"
+     },
+     "time_s": 0.0
+    },
+    {
+     "name": "foot_lift",
+     "frame": 7,
+     "params": {
+      "foot": "l"
+     },
+     "time_s": 0.23333333333333334
+    },
+    {
+     "name": "foot_plant",
+     "frame": 9,
+     "params": {
+      "foot": "r"
+     },
+     "time_s": 0.3
+    },
+    {
+     "name": "foot_lift",
+     "frame": 16,
+     "params": {
+      "foot": "r"
+     },
+     "time_s": 0.5333333333333333
+    }
+   ],
+   "foot_contacts": [
+    {
+     "foot": "l",
+     "plant_frame": 0,
+     "lift_frame": 7
+    },
+    {
+     "foot": "r",
+     "plant_frame": 9,
+     "lift_frame": 16
+    }
+   ],
+   "entry_states": [
+    "locomotion"
+   ],
+   "exit_states": [
+    "locomotion"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {
+    "generator": "gait.py",
+    "style": "run",
+    "direction_deg": 90.0,
+    "duty": 0.4,
+    "cycle_s": 0.6
+   },
+   "note": "procedural run gait, direction 90.0 deg, nominal 260.0 cm/s"
+  },
+  {
+   "id": "run_bl",
+   "form": "loop",
+   "root_motion": "in_place",
+   "behavior": "Run back-left; retain facing, synchronized contacts, genuine directional gait.",
+   "duration_s": 0.7,
+   "frames": 21,
+   "keys": 22,
+   "sample_rate": 30,
+   "loop": true,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 250.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    22
+   ],
+   "source_action": "A_run_bl",
+   "baked_action": "run_bl",
+   "export_file": "export/animations/run_bl.fbx",
+   "unreal_asset": "/Game/Operative/Anims/run_bl",
+   "events": [
+    {
+     "name": "foot_plant",
+     "frame": 0,
+     "params": {
+      "foot": "l"
+     },
+     "time_s": 0.0
+    },
+    {
+     "name": "foot_lift",
+     "frame": 8,
+     "params": {
+      "foot": "l"
+     },
+     "time_s": 0.26666666666666666
+    },
+    {
+     "name": "foot_plant",
+     "frame": 10,
+     "params": {
+      "foot": "r"
+     },
+     "time_s": 0.3333333333333333
+    },
+    {
+     "name": "foot_lift",
+     "frame": 19,
+     "params": {
+      "foot": "r"
+     },
+     "time_s": 0.6333333333333333
+    }
+   ],
+   "foot_contacts": [
+    {
+     "foot": "l",
+     "plant_frame": 0,
+     "lift_frame": 8
+    },
+    {
+     "foot": "r",
+     "plant_frame": 10,
+     "lift_frame": 19
+    }
+   ],
+   "entry_states": [
+    "locomotion"
+   ],
+   "exit_states": [
+    "locomotion"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {
+    "generator": "gait.py",
+    "style": "run",
+    "direction_deg": 135.0,
+    "duty": 0.4,
+    "cycle_s": 0.7
+   },
+   "note": "procedural run gait, direction 135.0 deg, nominal 250.0 cm/s"
+  },
+  {
+   "id": "run_b",
+   "form": "loop",
+   "root_motion": "in_place",
+   "behavior": "Run backward; retain facing, synchronized contacts, genuine directional gait.",
+   "duration_s": 0.7,
+   "frames": 21,
+   "keys": 22,
+   "sample_rate": 30,
+   "loop": true,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 240.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    22
+   ],
+   "source_action": "A_run_b",
+   "baked_action": "run_b",
+   "export_file": "export/animations/run_b.fbx",
+   "unreal_asset": "/Game/Operative/Anims/run_b",
+   "events": [
+    {
+     "name": "foot_plant",
+     "frame": 0,
+     "params": {
+      "foot": "l"
+     },
+     "time_s": 0.0
+    },
+    {
+     "name": "foot_lift",
+     "frame": 8,
+     "params": {
+      "foot": "l"
+     },
+     "time_s": 0.26666666666666666
+    },
+    {
+     "name": "foot_plant",
+     "frame": 10,
+     "params": {
+      "foot": "r"
+     },
+     "time_s": 0.3333333333333333
+    },
+    {
+     "name": "foot_lift",
+     "frame": 19,
+     "params": {
+      "foot": "r"
+     },
+     "time_s": 0.6333333333333333
+    }
+   ],
+   "foot_contacts": [
+    {
+     "foot": "l",
+     "plant_frame": 0,
+     "lift_frame": 8
+    },
+    {
+     "foot": "r",
+     "plant_frame": 10,
+     "lift_frame": 19
+    }
+   ],
+   "entry_states": [
+    "locomotion"
+   ],
+   "exit_states": [
+    "locomotion"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {
+    "generator": "gait.py",
+    "style": "run",
+    "direction_deg": 180.0,
+    "duty": 0.4,
+    "cycle_s": 0.7
+   },
+   "note": "procedural run gait, direction 180.0 deg, nominal 240.0 cm/s"
+  },
+  {
+   "id": "run_br",
+   "form": "loop",
+   "root_motion": "in_place",
+   "behavior": "Run back-right; retain facing, synchronized contacts, genuine directional gait.",
+   "duration_s": 0.7,
+   "frames": 21,
+   "keys": 22,
+   "sample_rate": 30,
+   "loop": true,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 250.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    22
+   ],
+   "source_action": "A_run_br",
+   "baked_action": "run_br",
+   "export_file": "export/animations/run_br.fbx",
+   "unreal_asset": "/Game/Operative/Anims/run_br",
+   "events": [
+    {
+     "name": "foot_plant",
+     "frame": 0,
+     "params": {
+      "foot": "l"
+     },
+     "time_s": 0.0
+    },
+    {
+     "name": "foot_lift",
+     "frame": 8,
+     "params": {
+      "foot": "l"
+     },
+     "time_s": 0.26666666666666666
+    },
+    {
+     "name": "foot_plant",
+     "frame": 10,
+     "params": {
+      "foot": "r"
+     },
+     "time_s": 0.3333333333333333
+    },
+    {
+     "name": "foot_lift",
+     "frame": 19,
+     "params": {
+      "foot": "r"
+     },
+     "time_s": 0.6333333333333333
+    }
+   ],
+   "foot_contacts": [
+    {
+     "foot": "l",
+     "plant_frame": 0,
+     "lift_frame": 8
+    },
+    {
+     "foot": "r",
+     "plant_frame": 10,
+     "lift_frame": 19
+    }
+   ],
+   "entry_states": [
+    "locomotion"
+   ],
+   "exit_states": [
+    "locomotion"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {
+    "generator": "gait.py",
+    "style": "run",
+    "direction_deg": -135.0,
+    "duty": 0.4,
+    "cycle_s": 0.7
+   },
+   "note": "procedural run gait, direction -135.0 deg, nominal 250.0 cm/s"
+  },
+  {
+   "id": "run_r",
+   "form": "loop",
+   "root_motion": "in_place",
+   "behavior": "Run right strafe; retain facing, synchronized contacts, genuine directional gait.",
+   "duration_s": 0.6,
+   "frames": 18,
+   "keys": 19,
+   "sample_rate": 30,
+   "loop": true,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 260.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    19
+   ],
+   "source_action": "A_run_r",
+   "baked_action": "run_r",
+   "export_file": "export/animations/run_r.fbx",
+   "unreal_asset": "/Game/Operative/Anims/run_r",
+   "events": [
+    {
+     "name": "foot_plant",
+     "frame": 0,
+     "params": {
+      "foot": "l"
+     },
+     "time_s": 0.0
+    },
+    {
+     "name": "foot_lift",
+     "frame": 7,
+     "params": {
+      "foot": "l"
+     },
+     "time_s": 0.23333333333333334
+    },
+    {
+     "name": "foot_plant",
+     "frame": 9,
+     "params": {
+      "foot": "r"
+     },
+     "time_s": 0.3
+    },
+    {
+     "name": "foot_lift",
+     "frame": 16,
+     "params": {
+      "foot": "r"
+     },
+     "time_s": 0.5333333333333333
+    }
+   ],
+   "foot_contacts": [
+    {
+     "foot": "l",
+     "plant_frame": 0,
+     "lift_frame": 7
+    },
+    {
+     "foot": "r",
+     "plant_frame": 9,
+     "lift_frame": 16
+    }
+   ],
+   "entry_states": [
+    "locomotion"
+   ],
+   "exit_states": [
+    "locomotion"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {
+    "generator": "gait.py",
+    "style": "run",
+    "direction_deg": -90.0,
+    "duty": 0.4,
+    "cycle_s": 0.6
+   },
+   "note": "procedural run gait, direction -90.0 deg, nominal 260.0 cm/s"
+  },
+  {
+   "id": "run_fr",
+   "form": "loop",
+   "root_motion": "in_place",
+   "behavior": "Run forward-right; retain facing, synchronized contacts, genuine directional gait.",
+   "duration_s": 0.6,
+   "frames": 18,
+   "keys": 19,
+   "sample_rate": 30,
+   "loop": true,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 370.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    19
+   ],
+   "source_action": "A_run_fr",
+   "baked_action": "run_fr",
+   "export_file": "export/animations/run_fr.fbx",
+   "unreal_asset": "/Game/Operative/Anims/run_fr",
+   "events": [
+    {
+     "name": "foot_plant",
+     "frame": 0,
+     "params": {
+      "foot": "l"
+     },
+     "time_s": 0.0
+    },
+    {
+     "name": "foot_lift",
+     "frame": 7,
+     "params": {
+      "foot": "l"
+     },
+     "time_s": 0.23333333333333334
+    },
+    {
+     "name": "foot_plant",
+     "frame": 9,
+     "params": {
+      "foot": "r"
+     },
+     "time_s": 0.3
+    },
+    {
+     "name": "foot_lift",
+     "frame": 16,
+     "params": {
+      "foot": "r"
+     },
+     "time_s": 0.5333333333333333
+    }
+   ],
+   "foot_contacts": [
+    {
+     "foot": "l",
+     "plant_frame": 0,
+     "lift_frame": 7
+    },
+    {
+     "foot": "r",
+     "plant_frame": 9,
+     "lift_frame": 16
+    }
+   ],
+   "entry_states": [
+    "locomotion"
+   ],
+   "exit_states": [
+    "locomotion"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {
+    "generator": "gait.py",
+    "style": "run",
+    "direction_deg": -45.0,
+    "duty": 0.4,
+    "cycle_s": 0.6
+   },
+   "note": "procedural run gait, direction -45.0 deg, nominal 370.0 cm/s"
+  },
+  {
+   "id": "sprint_f",
+   "form": "loop",
+   "root_motion": "in_place",
+   "behavior": "Distinct full-effort forward sprint; not only a faster walk.",
+   "duration_s": 0.5,
+   "frames": 15,
+   "keys": 16,
+   "sample_rate": 30,
+   "loop": true,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 650.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    16
+   ],
+   "source_action": "A_sprint_f",
+   "baked_action": "sprint_f",
+   "export_file": "export/animations/sprint_f.fbx",
+   "unreal_asset": "/Game/Operative/Anims/sprint_f",
+   "events": [
+    {
+     "name": "foot_plant",
+     "frame": 0,
+     "params": {
+      "foot": "l"
+     },
+     "time_s": 0.0
+    },
+    {
+     "name": "foot_lift",
+     "frame": 4,
+     "params": {
+      "foot": "l"
+     },
+     "time_s": 0.13333333333333333
+    },
+    {
+     "name": "foot_plant",
+     "frame": 8,
+     "params": {
+      "foot": "r"
+     },
+     "time_s": 0.26666666666666666
+    },
+    {
+     "name": "foot_lift",
+     "frame": 12,
+     "params": {
+      "foot": "r"
+     },
+     "time_s": 0.4
+    }
+   ],
+   "foot_contacts": [
+    {
+     "foot": "l",
+     "plant_frame": 0,
+     "lift_frame": 4
+    },
+    {
+     "foot": "r",
+     "plant_frame": 8,
+     "lift_frame": 12
+    }
+   ],
+   "entry_states": [
+    "locomotion"
+   ],
+   "exit_states": [
+    "locomotion"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {
+    "generator": "gait.py",
+    "style": "sprint",
+    "direction_deg": 0.0,
+    "duty": 0.3,
+    "cycle_s": 0.5
+   },
+   "note": "procedural sprint gait, direction 0.0 deg, nominal 650.0 cm/s"
+  },
+  {
+   "id": "start_f",
+   "form": "one_shot",
+   "root_motion": "in_place",
+   "behavior": "Accelerate from stand to forward travel.",
+   "duration_s": 0.6,
+   "frames": 18,
+   "keys": 19,
+   "sample_rate": 30,
+   "loop": false,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    19
+   ],
+   "source_action": "A_start_f",
+   "baked_action": "start_f",
+   "export_file": "export/animations/start_f.fbx",
+   "unreal_asset": "/Game/Operative/Anims/start_f",
+   "events": [
+    {
+     "name": "foot_lift",
+     "frame": 4,
+     "params": {
+      "foot": "l"
+     },
+     "time_s": 0.13333333333333333
+    },
+    {
+     "name": "foot_plant",
+     "frame": 13,
+     "params": {
+      "foot": "l"
+     },
+     "time_s": 0.43333333333333335
+    },
+    {
+     "name": "foot_lift",
+     "frame": 15,
+     "params": {
+      "foot": "r"
+     },
+     "time_s": 0.5
+    },
+    {
+     "name": "control_return",
+     "frame": 15,
+     "params": {},
+     "time_s": 0.5
+    }
+   ],
+   "foot_contacts": [
+    {
+     "foot": "l",
+     "plant_frame": 13,
+     "lift_frame": 4
+    },
+    {
+     "foot": "r",
+     "plant_frame": 0,
+     "lift_frame": 15
+    }
+   ],
+   "entry_states": [
+    "idle"
+   ],
+   "exit_states": [
+    "locomotion"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {},
+   "note": "stand to walk: weight shift, first left step, ends on the walk_f cycle start pose"
+  },
+  {
+   "id": "stop_f",
+   "form": "one_shot",
+   "root_motion": "in_place",
+   "behavior": "Brake into a planted stance.",
+   "duration_s": 0.5333333333333333,
+   "frames": 16,
+   "keys": 17,
+   "sample_rate": 30,
+   "loop": false,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    17
+   ],
+   "source_action": "A_stop_f",
+   "baked_action": "stop_f",
+   "export_file": "export/animations/stop_f.fbx",
+   "unreal_asset": "/Game/Operative/Anims/stop_f",
+   "events": [
+    {
+     "name": "foot_plant",
+     "frame": 9,
+     "params": {
+      "foot": "r"
+     },
+     "time_s": 0.3
+    },
+    {
+     "name": "control_return",
+     "frame": 12,
+     "params": {},
+     "time_s": 0.4
+    }
+   ],
+   "foot_contacts": [
+    {
+     "foot": "l",
+     "plant_frame": 0,
+     "lift_frame": 17
+    },
+    {
+     "foot": "r",
+     "plant_frame": 9,
+     "lift_frame": 17
+    }
+   ],
+   "entry_states": [
+    "locomotion"
+   ],
+   "exit_states": [
+    "idle"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {},
+   "note": "brake into a planted stance and settle to relaxed"
+  },
+  {
+   "id": "turn_l90",
+   "form": "one_shot",
+   "root_motion": "in_place",
+   "behavior": "Turn left 90 degrees with foot placement.",
+   "duration_s": 0.7,
+   "frames": 21,
+   "keys": 22,
+   "sample_rate": 30,
+   "loop": false,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    22
+   ],
+   "source_action": "A_turn_l90",
+   "baked_action": "turn_l90",
+   "export_file": "export/animations/turn_l90.fbx",
+   "unreal_asset": "/Game/Operative/Anims/turn_l90",
+   "events": [
+    {
+     "name": "foot_lift",
+     "frame": 6,
+     "params": {
+      "foot": "r"
+     },
+     "time_s": 0.2
+    },
+    {
+     "name": "foot_plant",
+     "frame": 12,
+     "params": {
+      "foot": "r"
+     },
+     "time_s": 0.4
+    },
+    {
+     "name": "foot_lift",
+     "frame": 14,
+     "params": {
+      "foot": "l"
+     },
+     "time_s": 0.4666666666666667
+    },
+    {
+     "name": "foot_plant",
+     "frame": 18,
+     "params": {
+      "foot": "l"
+     },
+     "time_s": 0.6
+    },
+    {
+     "name": "control_return",
+     "frame": 18,
+     "params": {},
+     "time_s": 0.6
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "idle"
+   ],
+   "exit_states": [
+    "idle"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {
+    "root_yaw_deg": 90.0
+   },
+   "note": "in-place 90 degree turn, root yaw rotation 90 degrees, feet planted and stepped in world space"
+  },
+  {
+   "id": "turn_r90",
+   "form": "one_shot",
+   "root_motion": "in_place",
+   "behavior": "Turn right 90 degrees with foot placement.",
+   "duration_s": 0.7,
+   "frames": 21,
+   "keys": 22,
+   "sample_rate": 30,
+   "loop": false,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    22
+   ],
+   "source_action": "A_turn_r90",
+   "baked_action": "turn_r90",
+   "export_file": "export/animations/turn_r90.fbx",
+   "unreal_asset": "/Game/Operative/Anims/turn_r90",
+   "events": [
+    {
+     "name": "foot_lift",
+     "frame": 6,
+     "params": {
+      "foot": "l"
+     },
+     "time_s": 0.2
+    },
+    {
+     "name": "foot_plant",
+     "frame": 12,
+     "params": {
+      "foot": "l"
+     },
+     "time_s": 0.4
+    },
+    {
+     "name": "foot_lift",
+     "frame": 14,
+     "params": {
+      "foot": "r"
+     },
+     "time_s": 0.4666666666666667
+    },
+    {
+     "name": "foot_plant",
+     "frame": 18,
+     "params": {
+      "foot": "r"
+     },
+     "time_s": 0.6
+    },
+    {
+     "name": "control_return",
+     "frame": 18,
+     "params": {},
+     "time_s": 0.6
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "idle"
+   ],
+   "exit_states": [
+    "idle"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {
+    "root_yaw_deg": -90.0
+   },
+   "note": "in-place 90 degree turn, root yaw rotation -90 degrees, feet planted and stepped in world space"
+  },
+  {
+   "id": "pivot_l180",
+   "form": "one_shot",
+   "root_motion": "in_place",
+   "behavior": "Left 180-degree moving direction change.",
+   "duration_s": 0.7333333333333333,
+   "frames": 22,
+   "keys": 23,
+   "sample_rate": 30,
+   "loop": false,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    23
+   ],
+   "source_action": "A_pivot_l180",
+   "baked_action": "pivot_l180",
+   "export_file": "export/animations/pivot_l180.fbx",
+   "unreal_asset": "/Game/Operative/Anims/pivot_l180",
+   "events": [
+    {
+     "name": "foot_plant",
+     "frame": 6,
+     "params": {
+      "foot": "r"
+     },
+     "time_s": 0.2
+    },
+    {
+     "name": "foot_lift",
+     "frame": 13,
+     "params": {
+      "foot": "r"
+     },
+     "time_s": 0.43333333333333335
+    },
+    {
+     "name": "foot_plant",
+     "frame": 15,
+     "params": {
+      "foot": "l"
+     },
+     "time_s": 0.5
+    },
+    {
+     "name": "control_return",
+     "frame": 19,
+     "params": {},
+     "time_s": 0.6333333333333333
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "locomotion"
+   ],
+   "exit_states": [
+    "locomotion"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {
+    "root_yaw_deg": 180.0
+   },
+   "note": "running pivot, root yaw 180 degrees, exits on the run_f cycle start pose"
+  },
+  {
+   "id": "pivot_r180",
+   "form": "one_shot",
+   "root_motion": "in_place",
+   "behavior": "Right 180-degree moving direction change.",
+   "duration_s": 0.7333333333333333,
+   "frames": 22,
+   "keys": 23,
+   "sample_rate": 30,
+   "loop": false,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    23
+   ],
+   "source_action": "A_pivot_r180",
+   "baked_action": "pivot_r180",
+   "export_file": "export/animations/pivot_r180.fbx",
+   "unreal_asset": "/Game/Operative/Anims/pivot_r180",
+   "events": [
+    {
+     "name": "foot_plant",
+     "frame": 6,
+     "params": {
+      "foot": "l"
+     },
+     "time_s": 0.2
+    },
+    {
+     "name": "foot_lift",
+     "frame": 13,
+     "params": {
+      "foot": "l"
+     },
+     "time_s": 0.43333333333333335
+    },
+    {
+     "name": "foot_plant",
+     "frame": 15,
+     "params": {
+      "foot": "r"
+     },
+     "time_s": 0.5
+    },
+    {
+     "name": "control_return",
+     "frame": 19,
+     "params": {},
+     "time_s": 0.6333333333333333
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "locomotion"
+   ],
+   "exit_states": [
+    "locomotion"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {
+    "root_yaw_deg": -180.0
+   },
+   "note": "running pivot, root yaw -180 degrees, exits on the run_f cycle start pose"
+  },
+  {
+   "id": "jump_start",
+   "form": "one_shot",
+   "root_motion": "in_place",
+   "behavior": "Visible anticipation and takeoff.",
+   "duration_s": 0.4666666666666667,
+   "frames": 14,
+   "keys": 15,
+   "sample_rate": 30,
+   "loop": false,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    15
+   ],
+   "source_action": "A_jump_start",
+   "baked_action": "jump_start",
+   "export_file": "export/animations/jump_start.fbx",
+   "unreal_asset": "/Game/Operative/Anims/jump_start",
+   "events": [
+    {
+     "name": "jump_takeoff",
+     "frame": 9,
+     "params": {},
+     "time_s": 0.3
+    }
+   ],
+   "foot_contacts": [
+    {
+     "foot": "l",
+     "plant_frame": 0,
+     "lift_frame": 9
+    },
+    {
+     "foot": "r",
+     "plant_frame": 0,
+     "lift_frame": 9
+    }
+   ],
+   "entry_states": [
+    "grounded"
+   ],
+   "exit_states": [
+    "jump_air"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {},
+   "note": "crouch, explosive extension, take-off into the airborne posture"
+  },
+  {
+   "id": "jump_air",
+   "form": "loop",
+   "root_motion": "in_place",
+   "behavior": "Controllable airborne posture.",
+   "duration_s": 0.6,
+   "frames": 18,
+   "keys": 19,
+   "sample_rate": 30,
+   "loop": true,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    19
+   ],
+   "source_action": "A_jump_air",
+   "baked_action": "jump_air",
+   "export_file": "export/animations/jump_air.fbx",
+   "unreal_asset": "/Game/Operative/Anims/jump_air",
+   "events": [
+    {
+     "name": "jump_apex",
+     "frame": 9,
+     "params": {},
+     "time_s": 0.3
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "jump_start",
+    "walk_off_ledge"
+   ],
+   "exit_states": [
+    "jump_land",
+    "fall"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {},
+   "note": "airborne posture for a controllable jump"
+  },
+  {
+   "id": "jump_land",
+   "form": "one_shot",
+   "root_motion": "in_place",
+   "behavior": "Soft landing with compression and recovery.",
+   "duration_s": 0.5,
+   "frames": 15,
+   "keys": 16,
+   "sample_rate": 30,
+   "loop": false,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    16
+   ],
+   "source_action": "A_jump_land",
+   "baked_action": "jump_land",
+   "export_file": "export/animations/jump_land.fbx",
+   "unreal_asset": "/Game/Operative/Anims/jump_land",
+   "events": [
+    {
+     "name": "land_contact",
+     "frame": 3,
+     "params": {},
+     "time_s": 0.1
+    },
+    {
+     "name": "control_return",
+     "frame": 11,
+     "params": {},
+     "time_s": 0.36666666666666664
+    }
+   ],
+   "foot_contacts": [
+    {
+     "foot": "l",
+     "plant_frame": 3,
+     "lift_frame": 15
+    },
+    {
+     "foot": "r",
+     "plant_frame": 3,
+     "lift_frame": 15
+    }
+   ],
+   "entry_states": [
+    "jump_air"
+   ],
+   "exit_states": [
+    "idle",
+    "locomotion"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {},
+   "note": "soft landing with compression and recovery"
+  },
+  {
+   "id": "fall",
+   "form": "loop",
+   "root_motion": "in_place",
+   "behavior": "Long-fall posture, distinct from the jump apex.",
+   "duration_s": 0.6,
+   "frames": 18,
+   "keys": 19,
+   "sample_rate": 30,
+   "loop": true,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    19
+   ],
+   "source_action": "A_fall",
+   "baked_action": "fall",
+   "export_file": "export/animations/fall.fbx",
+   "unreal_asset": "/Game/Operative/Anims/fall",
+   "events": [
+    {
+     "name": "fall_loop_point",
+     "frame": 0,
+     "params": {},
+     "time_s": 0.0
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "airborne_long"
+   ],
+   "exit_states": [
+    "land_heavy",
+    "jump_land"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {},
+   "note": "long-fall posture: arms raised, back arched, legs trailing (distinct from the jump apex)"
+  },
+  {
+   "id": "land_heavy",
+   "form": "one_shot",
+   "root_motion": "in_place",
+   "behavior": "Hard landing with clear weight and recovery.",
+   "duration_s": 0.8,
+   "frames": 24,
+   "keys": 25,
+   "sample_rate": 30,
+   "loop": false,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    25
+   ],
+   "source_action": "A_land_heavy",
+   "baked_action": "land_heavy",
+   "export_file": "export/animations/land_heavy.fbx",
+   "unreal_asset": "/Game/Operative/Anims/land_heavy",
+   "events": [
+    {
+     "name": "land_impact_heavy",
+     "frame": 4,
+     "params": {},
+     "time_s": 0.13333333333333333
+    },
+    {
+     "name": "control_return",
+     "frame": 20,
+     "params": {},
+     "time_s": 0.6666666666666666
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "fall"
+   ],
+   "exit_states": [
+    "idle"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {},
+   "note": "hard landing: deep crouch with a supporting hand, slow recovery"
+  },
+  {
+   "id": "dash_f",
+   "form": "one_shot",
+   "root_motion": "root_motion",
+   "behavior": "Ground dash forward, 2 m nominal horizontal displacement; controller/capsule tracks motion.",
+   "duration_s": 0.4,
+   "frames": 12,
+   "keys": 13,
+   "sample_rate": 30,
+   "loop": false,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 500.0,
+   "root_motion_cm": {
+    "x": 200.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    13
+   ],
+   "source_action": "A_dash_f",
+   "baked_action": "dash_f",
+   "export_file": "export/animations/dash_f.fbx",
+   "unreal_asset": "/Game/Operative/Anims/dash_f",
+   "events": [
+    {
+     "name": "dash_begin",
+     "frame": 1,
+     "params": {},
+     "time_s": 0.03333333333333333
+    },
+    {
+     "name": "dash_end",
+     "frame": 10,
+     "params": {},
+     "time_s": 0.3333333333333333
+    },
+    {
+     "name": "control_return",
+     "frame": 11,
+     "params": {},
+     "time_s": 0.36666666666666664
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "grounded_free"
+   ],
+   "exit_states": [
+    "idle",
+    "locomotion"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {},
+   "note": "ground dash f, 2 m nominal; root translation carries the motion, feet planted in world space"
+  },
+  {
+   "id": "dash_b",
+   "form": "one_shot",
+   "root_motion": "root_motion",
+   "behavior": "Ground dash backward, 2 m nominal horizontal displacement; controller/capsule tracks motion.",
+   "duration_s": 0.4,
+   "frames": 12,
+   "keys": 13,
+   "sample_rate": 30,
+   "loop": false,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 500.0,
+   "root_motion_cm": {
+    "x": -200.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    13
+   ],
+   "source_action": "A_dash_b",
+   "baked_action": "dash_b",
+   "export_file": "export/animations/dash_b.fbx",
+   "unreal_asset": "/Game/Operative/Anims/dash_b",
+   "events": [
+    {
+     "name": "dash_begin",
+     "frame": 1,
+     "params": {},
+     "time_s": 0.03333333333333333
+    },
+    {
+     "name": "dash_end",
+     "frame": 10,
+     "params": {},
+     "time_s": 0.3333333333333333
+    },
+    {
+     "name": "control_return",
+     "frame": 11,
+     "params": {},
+     "time_s": 0.36666666666666664
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "grounded_free"
+   ],
+   "exit_states": [
+    "idle",
+    "locomotion"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {},
+   "note": "ground dash b, 2 m nominal; root translation carries the motion, feet planted in world space"
+  },
+  {
+   "id": "dash_l",
+   "form": "one_shot",
+   "root_motion": "root_motion",
+   "behavior": "Ground dash left, 2 m nominal horizontal displacement; controller/capsule tracks motion.",
+   "duration_s": 0.4,
+   "frames": 12,
+   "keys": 13,
+   "sample_rate": 30,
+   "loop": false,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 500.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -200.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    13
+   ],
+   "source_action": "A_dash_l",
+   "baked_action": "dash_l",
+   "export_file": "export/animations/dash_l.fbx",
+   "unreal_asset": "/Game/Operative/Anims/dash_l",
+   "events": [
+    {
+     "name": "dash_begin",
+     "frame": 1,
+     "params": {},
+     "time_s": 0.03333333333333333
+    },
+    {
+     "name": "dash_end",
+     "frame": 10,
+     "params": {},
+     "time_s": 0.3333333333333333
+    },
+    {
+     "name": "control_return",
+     "frame": 11,
+     "params": {},
+     "time_s": 0.36666666666666664
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "grounded_free"
+   ],
+   "exit_states": [
+    "idle",
+    "locomotion"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {},
+   "note": "ground dash l, 2 m nominal; root translation carries the motion, feet planted in world space"
+  },
+  {
+   "id": "dash_r",
+   "form": "one_shot",
+   "root_motion": "root_motion",
+   "behavior": "Ground dash right, 2 m nominal horizontal displacement; controller/capsule tracks motion.",
+   "duration_s": 0.4,
+   "frames": 12,
+   "keys": 13,
+   "sample_rate": 30,
+   "loop": false,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 500.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": 200.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    13
+   ],
+   "source_action": "A_dash_r",
+   "baked_action": "dash_r",
+   "export_file": "export/animations/dash_r.fbx",
+   "unreal_asset": "/Game/Operative/Anims/dash_r",
+   "events": [
+    {
+     "name": "dash_begin",
+     "frame": 1,
+     "params": {},
+     "time_s": 0.03333333333333333
+    },
+    {
+     "name": "dash_end",
+     "frame": 10,
+     "params": {},
+     "time_s": 0.3333333333333333
+    },
+    {
+     "name": "control_return",
+     "frame": 11,
+     "params": {},
+     "time_s": 0.36666666666666664
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "grounded_free"
+   ],
+   "exit_states": [
+    "idle",
+    "locomotion"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {},
+   "note": "ground dash r, 2 m nominal; root translation carries the motion, feet planted in world space"
+  },
+  {
+   "id": "blink_out",
+   "form": "one_shot",
+   "root_motion": "in_place",
+   "behavior": "Anticipation and disappearance transition; actor teleport is an event, not baked travel.",
+   "duration_s": 0.3,
+   "frames": 9,
+   "keys": 10,
+   "sample_rate": 30,
+   "loop": false,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    10
+   ],
+   "source_action": "A_blink_out",
+   "baked_action": "blink_out",
+   "export_file": "export/animations/blink_out.fbx",
+   "unreal_asset": "/Game/Operative/Anims/blink_out",
+   "events": [
+    {
+     "name": "blink_vanish",
+     "frame": 7,
+     "params": {},
+     "time_s": 0.23333333333333334
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "grounded_free"
+   ],
+   "exit_states": [
+    "blink_teleport"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {},
+   "note": "coil, burst upward with arms flung wide; the actor teleport is a runtime event"
+  },
+  {
+   "id": "blink_in",
+   "form": "one_shot",
+   "root_motion": "in_place",
+   "behavior": "Reappearance, plant and settle at destination.",
+   "duration_s": 0.3333333333333333,
+   "frames": 10,
+   "keys": 11,
+   "sample_rate": 30,
+   "loop": false,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    11
+   ],
+   "source_action": "A_blink_in",
+   "baked_action": "blink_in",
+   "export_file": "export/animations/blink_in.fbx",
+   "unreal_asset": "/Game/Operative/Anims/blink_in",
+   "events": [
+    {
+     "name": "blink_appear",
+     "frame": 0,
+     "params": {},
+     "time_s": 0.0
+    },
+    {
+     "name": "land_contact",
+     "frame": 4,
+     "params": {},
+     "time_s": 0.13333333333333333
+    },
+    {
+     "name": "control_return",
+     "frame": 9,
+     "params": {},
+     "time_s": 0.3
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "blink_teleport"
+   ],
+   "exit_states": [
+    "idle"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {},
+   "note": "reappear mid-air, plant with a supporting hand and settle into the ready stance"
+  },
+  {
+   "id": "melee_1",
+   "form": "one_shot",
+   "root_motion": "in_place",
+   "behavior": "Diagonal forearm-blade slash. Supply hit-window and recovery markers.",
+   "duration_s": 0.8,
+   "frames": 24,
+   "keys": 25,
+   "sample_rate": 30,
+   "loop": false,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    25
+   ],
+   "source_action": "A_melee_1",
+   "baked_action": "melee_1",
+   "export_file": "export/animations/melee_1.fbx",
+   "unreal_asset": "/Game/Operative/Anims/melee_1",
+   "events": [
+    {
+     "name": "blade_extend",
+     "frame": 2,
+     "params": {},
+     "time_s": 0.06666666666666667
+    },
+    {
+     "name": "melee_hit_begin",
+     "frame": 10,
+     "params": {},
+     "time_s": 0.3333333333333333
+    },
+    {
+     "name": "melee_hit_end",
+     "frame": 14,
+     "params": {},
+     "time_s": 0.4666666666666667
+    },
+    {
+     "name": "melee_recover",
+     "frame": 17,
+     "params": {},
+     "time_s": 0.5666666666666667
+    },
+    {
+     "name": "blade_retract",
+     "frame": 21,
+     "params": {},
+     "time_s": 0.7
+    },
+    {
+     "name": "foot_plant",
+     "frame": 12,
+     "params": {
+      "foot": "l"
+     },
+     "time_s": 0.4
+    },
+    {
+     "name": "control_return",
+     "frame": 22,
+     "params": {},
+     "time_s": 0.7333333333333333
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "grounded_free",
+    "melee_chain"
+   ],
+   "exit_states": [
+    "idle",
+    "melee_chain"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {},
+   "note": "diagonal forearm-blade slash from high right to low left with a lunge step"
+  },
+  {
+   "id": "melee_2",
+   "form": "one_shot",
+   "root_motion": "in_place",
+   "behavior": "Reverse slash with different preparation and weight shift. Supply hit-window and recovery markers.",
+   "duration_s": 0.8,
+   "frames": 24,
+   "keys": 25,
+   "sample_rate": 30,
+   "loop": false,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    25
+   ],
+   "source_action": "A_melee_2",
+   "baked_action": "melee_2",
+   "export_file": "export/animations/melee_2.fbx",
+   "unreal_asset": "/Game/Operative/Anims/melee_2",
+   "events": [
+    {
+     "name": "blade_extend",
+     "frame": 2,
+     "params": {},
+     "time_s": 0.06666666666666667
+    },
+    {
+     "name": "melee_hit_begin",
+     "frame": 11,
+     "params": {},
+     "time_s": 0.36666666666666664
+    },
+    {
+     "name": "melee_hit_end",
+     "frame": 15,
+     "params": {},
+     "time_s": 0.5
+    },
+    {
+     "name": "melee_recover",
+     "frame": 18,
+     "params": {},
+     "time_s": 0.6
+    },
+    {
+     "name": "blade_retract",
+     "frame": 21,
+     "params": {},
+     "time_s": 0.7
+    },
+    {
+     "name": "foot_plant",
+     "frame": 13,
+     "params": {
+      "foot": "r"
+     },
+     "time_s": 0.43333333333333335
+    },
+    {
+     "name": "control_return",
+     "frame": 22,
+     "params": {},
+     "time_s": 0.7333333333333333
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "grounded_free",
+    "melee_chain"
+   ],
+   "exit_states": [
+    "idle",
+    "melee_chain"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {},
+   "note": "reverse rising slash from low left to high right, coiled crouch and a right-foot step"
+  },
+  {
+   "id": "melee_3",
+   "form": "one_shot",
+   "root_motion": "in_place",
+   "behavior": "Committed finisher with distinct follow-through. Supply hit-window and recovery markers.",
+   "duration_s": 0.8,
+   "frames": 24,
+   "keys": 25,
+   "sample_rate": 30,
+   "loop": false,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    25
+   ],
+   "source_action": "A_melee_3",
+   "baked_action": "melee_3",
+   "export_file": "export/animations/melee_3.fbx",
+   "unreal_asset": "/Game/Operative/Anims/melee_3",
+   "events": [
+    {
+     "name": "blade_extend",
+     "frame": 2,
+     "params": {},
+     "time_s": 0.06666666666666667
+    },
+    {
+     "name": "melee_hit_begin",
+     "frame": 12,
+     "params": {},
+     "time_s": 0.4
+    },
+    {
+     "name": "melee_hit_end",
+     "frame": 17,
+     "params": {},
+     "time_s": 0.5666666666666667
+    },
+    {
+     "name": "melee_recover",
+     "frame": 20,
+     "params": {},
+     "time_s": 0.6666666666666666
+    },
+    {
+     "name": "blade_retract",
+     "frame": 23,
+     "params": {},
+     "time_s": 0.7666666666666667
+    },
+    {
+     "name": "foot_plant",
+     "frame": 13,
+     "params": {
+      "foot": "l"
+     },
+     "time_s": 0.43333333333333335
+    },
+    {
+     "name": "control_return",
+     "frame": 23,
+     "params": {},
+     "time_s": 0.7666666666666667
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "grounded_free",
+    "melee_chain"
+   ],
+   "exit_states": [
+    "idle",
+    "melee_chain"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {},
+   "note": "committed overhead finisher: rise to a two-arm overhead raise, deep lunge chop, long follow-through and slow recovery"
+  },
+  {
+   "id": "ranged_fire",
+   "form": "one_shot",
+   "root_motion": "in_place",
+   "behavior": "Wrist-emitter single shot, recoil and recovery; supports moving upper-body layering.",
+   "duration_s": 0.3,
+   "frames": 9,
+   "keys": 10,
+   "sample_rate": 30,
+   "loop": false,
+   "static_pose": false,
+   "layer": "upper",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    10
+   ],
+   "source_action": "A_ranged_fire",
+   "baked_action": "ranged_fire",
+   "export_file": "export/animations/ranged_fire.fbx",
+   "unreal_asset": "/Game/Operative/Anims/ranged_fire",
+   "events": [
+    {
+     "name": "muzzle_fire",
+     "frame": 1,
+     "params": {
+      "index": 0
+     },
+     "time_s": 0.03333333333333333
+    },
+    {
+     "name": "cancel_window_begin",
+     "frame": 6,
+     "params": {},
+     "time_s": 0.2
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "grounded_free",
+    "locomotion"
+   ],
+   "exit_states": [
+    "any"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {},
+   "note": "single wrist-emitter shot with recoil and recovery (upper-body layer)"
+  },
+  {
+   "id": "ranged_burst",
+   "form": "one_shot",
+   "root_motion": "in_place",
+   "behavior": "Three-shot burst with three distinct muzzle-event markers.",
+   "duration_s": 0.6,
+   "frames": 18,
+   "keys": 19,
+   "sample_rate": 30,
+   "loop": false,
+   "static_pose": false,
+   "layer": "upper",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    19
+   ],
+   "source_action": "A_ranged_burst",
+   "baked_action": "ranged_burst",
+   "export_file": "export/animations/ranged_burst.fbx",
+   "unreal_asset": "/Game/Operative/Anims/ranged_burst",
+   "events": [
+    {
+     "name": "muzzle_fire",
+     "frame": 2,
+     "params": {
+      "index": 0
+     },
+     "time_s": 0.06666666666666667
+    },
+    {
+     "name": "muzzle_fire",
+     "frame": 8,
+     "params": {
+      "index": 1
+     },
+     "time_s": 0.26666666666666666
+    },
+    {
+     "name": "muzzle_fire",
+     "frame": 14,
+     "params": {
+      "index": 2
+     },
+     "time_s": 0.4666666666666667
+    },
+    {
+     "name": "cancel_window_begin",
+     "frame": 16,
+     "params": {},
+     "time_s": 0.5333333333333333
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "grounded_free",
+    "locomotion"
+   ],
+   "exit_states": [
+    "any"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {},
+   "note": "three-shot burst with muzzle climb (upper-body layer)"
+  },
+  {
+   "id": "reload",
+   "form": "one_shot",
+   "root_motion": "in_place",
+   "behavior": "Physical emitter-cell manipulation with correct hand/object contact.",
+   "duration_s": 1.9,
+   "frames": 57,
+   "keys": 58,
+   "sample_rate": 30,
+   "loop": false,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    58
+   ],
+   "source_action": "A_reload",
+   "baked_action": "reload",
+   "export_file": "export/animations/reload.fbx",
+   "unreal_asset": "/Game/Operative/Anims/reload",
+   "events": [
+    {
+     "name": "reload_eject",
+     "frame": 19,
+     "params": {},
+     "time_s": 0.6333333333333333
+    },
+    {
+     "name": "reload_handoff",
+     "frame": 35,
+     "params": {},
+     "time_s": 1.1666666666666667
+    },
+    {
+     "name": "reload_insert",
+     "frame": 50,
+     "params": {},
+     "time_s": 1.6666666666666667
+    },
+    {
+     "name": "reload_complete",
+     "frame": 55,
+     "params": {},
+     "time_s": 1.8333333333333333
+    },
+    {
+     "name": "cancel_window_begin",
+     "frame": 0,
+     "params": {},
+     "time_s": 0.0
+    },
+    {
+     "name": "cancel_window_end",
+     "frame": 17,
+     "params": {},
+     "time_s": 0.5666666666666667
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "grounded_free"
+   ],
+   "exit_states": [
+    "idle"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {},
+   "note": "physical cell swap: right hand pulls the cell from the forearm slot, stows it in the hip pouch, takes a fresh cell and seats it"
+  },
+  {
+   "id": "cast_directional",
+   "form": "one_shot",
+   "root_motion": "in_place",
+   "behavior": "Readable direction-targeted release.",
+   "duration_s": 0.8,
+   "frames": 24,
+   "keys": 25,
+   "sample_rate": 30,
+   "loop": false,
+   "static_pose": false,
+   "layer": "upper",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    25
+   ],
+   "source_action": "A_cast_directional",
+   "baked_action": "cast_directional",
+   "export_file": "export/animations/cast_directional.fbx",
+   "unreal_asset": "/Game/Operative/Anims/cast_directional",
+   "events": [
+    {
+     "name": "cast_release",
+     "frame": 12,
+     "params": {},
+     "time_s": 0.4
+    },
+    {
+     "name": "cancel_window_begin",
+     "frame": 16,
+     "params": {},
+     "time_s": 0.5333333333333333
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "grounded_free",
+    "locomotion"
+   ],
+   "exit_states": [
+    "any"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {},
+   "note": "direction-targeted release: right hand winds back to the shoulder and thrusts forward palm out (upper-body layer)"
+  },
+  {
+   "id": "cast_ground",
+   "form": "one_shot",
+   "root_motion": "in_place",
+   "behavior": "Ground-targeted placement/cast with look direction.",
+   "duration_s": 1.1,
+   "frames": 33,
+   "keys": 34,
+   "sample_rate": 30,
+   "loop": false,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    34
+   ],
+   "source_action": "A_cast_ground",
+   "baked_action": "cast_ground",
+   "export_file": "export/animations/cast_ground.fbx",
+   "unreal_asset": "/Game/Operative/Anims/cast_ground",
+   "events": [
+    {
+     "name": "cast_release",
+     "frame": 18,
+     "params": {},
+     "time_s": 0.6
+    },
+    {
+     "name": "cancel_window_end",
+     "frame": 15,
+     "params": {},
+     "time_s": 0.5
+    },
+    {
+     "name": "control_return",
+     "frame": 30,
+     "params": {},
+     "time_s": 1.0
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "grounded_free"
+   ],
+   "exit_states": [
+    "idle"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {},
+   "note": "crouch and place a ground-targeted cast with the right hand, looking at the target point"
+  },
+  {
+   "id": "cast_self",
+   "form": "one_shot",
+   "root_motion": "in_place",
+   "behavior": "Self-centered defensive/emission cast.",
+   "duration_s": 0.8,
+   "frames": 24,
+   "keys": 25,
+   "sample_rate": 30,
+   "loop": false,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    25
+   ],
+   "source_action": "A_cast_self",
+   "baked_action": "cast_self",
+   "export_file": "export/animations/cast_self.fbx",
+   "unreal_asset": "/Game/Operative/Anims/cast_self",
+   "events": [
+    {
+     "name": "cast_release",
+     "frame": 13,
+     "params": {},
+     "time_s": 0.43333333333333335
+    },
+    {
+     "name": "control_return",
+     "frame": 22,
+     "params": {},
+     "time_s": 0.7333333333333333
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "grounded_free"
+   ],
+   "exit_states": [
+    "idle"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {},
+   "note": "self-centred emission: arms cross over the chest then open outward"
+  },
+  {
+   "id": "channel_start",
+   "form": "one_shot",
+   "root_motion": "in_place",
+   "behavior": "Enter sustainable channel pose.",
+   "duration_s": 0.5,
+   "frames": 15,
+   "keys": 16,
+   "sample_rate": 30,
+   "loop": false,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    16
+   ],
+   "source_action": "A_channel_start",
+   "baked_action": "channel_start",
+   "export_file": "export/animations/channel_start.fbx",
+   "unreal_asset": "/Game/Operative/Anims/channel_start",
+   "events": [
+    {
+     "name": "channel_sustain_begin",
+     "frame": 14,
+     "params": {},
+     "time_s": 0.4666666666666667
+    },
+    {
+     "name": "cancel_window_begin",
+     "frame": 4,
+     "params": {},
+     "time_s": 0.13333333333333333
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "grounded_free"
+   ],
+   "exit_states": [
+    "channel_loop",
+    "channel_interrupt",
+    "channel_end"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {},
+   "note": "enter the sustained channel: wide braced stance, emitter arm extended, supporting arm"
+  },
+  {
+   "id": "channel_loop",
+   "form": "loop",
+   "root_motion": "in_place",
+   "behavior": "Sustained beam-like emission, with restrained motion.",
+   "duration_s": 1.2,
+   "frames": 36,
+   "keys": 37,
+   "sample_rate": 30,
+   "loop": true,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    37
+   ],
+   "source_action": "A_channel_loop",
+   "baked_action": "channel_loop",
+   "export_file": "export/animations/channel_loop.fbx",
+   "unreal_asset": "/Game/Operative/Anims/channel_loop",
+   "events": [
+    {
+     "name": "channel_pulse",
+     "frame": 9,
+     "params": {},
+     "time_s": 0.3
+    },
+    {
+     "name": "channel_pulse",
+     "frame": 27,
+     "params": {},
+     "time_s": 0.9
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "channel_start"
+   ],
+   "exit_states": [
+    "channel_end",
+    "channel_interrupt"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {},
+   "note": "sustained beam emission with restrained tremble and breathing"
+  },
+  {
+   "id": "channel_end",
+   "form": "one_shot",
+   "root_motion": "in_place",
+   "behavior": "Deliberate successful channel release.",
+   "duration_s": 0.5,
+   "frames": 15,
+   "keys": 16,
+   "sample_rate": 30,
+   "loop": false,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    16
+   ],
+   "source_action": "A_channel_end",
+   "baked_action": "channel_end",
+   "export_file": "export/animations/channel_end.fbx",
+   "unreal_asset": "/Game/Operative/Anims/channel_end",
+   "events": [
+    {
+     "name": "channel_release",
+     "frame": 4,
+     "params": {},
+     "time_s": 0.13333333333333333
+    },
+    {
+     "name": "control_return",
+     "frame": 13,
+     "params": {},
+     "time_s": 0.43333333333333335
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "channel_loop"
+   ],
+   "exit_states": [
+    "idle"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {},
+   "note": "deliberate release: a small forward thrust, then the arm drops and the stance closes"
+  },
+  {
+   "id": "channel_interrupt",
+   "form": "one_shot",
+   "root_motion": "in_place",
+   "behavior": "Forced channel interruption distinct from completion.",
+   "duration_s": 0.4,
+   "frames": 12,
+   "keys": 13,
+   "sample_rate": 30,
+   "loop": false,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    13
+   ],
+   "source_action": "A_channel_interrupt",
+   "baked_action": "channel_interrupt",
+   "export_file": "export/animations/channel_interrupt.fbx",
+   "unreal_asset": "/Game/Operative/Anims/channel_interrupt",
+   "events": [
+    {
+     "name": "channel_interrupted",
+     "frame": 1,
+     "params": {},
+     "time_s": 0.03333333333333333
+    },
+    {
+     "name": "control_return",
+     "frame": 10,
+     "params": {},
+     "time_s": 0.3333333333333333
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "channel_start",
+    "channel_loop"
+   ],
+   "exit_states": [
+    "idle"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {},
+   "note": "forced interruption: the arm is knocked up and back, the body recoils and staggers"
+  },
+  {
+   "id": "charge_start",
+   "form": "one_shot",
+   "root_motion": "in_place",
+   "behavior": "Wind up and accumulate energy.",
+   "duration_s": 0.7,
+   "frames": 21,
+   "keys": 22,
+   "sample_rate": 30,
+   "loop": false,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    22
+   ],
+   "source_action": "A_charge_start",
+   "baked_action": "charge_start",
+   "export_file": "export/animations/charge_start.fbx",
+   "unreal_asset": "/Game/Operative/Anims/charge_start",
+   "events": [
+    {
+     "name": "charge_full",
+     "frame": 19,
+     "params": {},
+     "time_s": 0.6333333333333333
+    },
+    {
+     "name": "cancel_window_begin",
+     "frame": 6,
+     "params": {},
+     "time_s": 0.2
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "grounded_free"
+   ],
+   "exit_states": [
+    "charge_hold",
+    "charge_release",
+    "charge_cancel"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {},
+   "note": "wind-up: crouch and coil, both fists drawn back to the right hip"
+  },
+  {
+   "id": "charge_hold",
+   "form": "loop",
+   "root_motion": "in_place",
+   "behavior": "Hold charge without freezing the whole character.",
+   "duration_s": 1.0,
+   "frames": 30,
+   "keys": 31,
+   "sample_rate": 30,
+   "loop": true,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    31
+   ],
+   "source_action": "A_charge_hold",
+   "baked_action": "charge_hold",
+   "export_file": "export/animations/charge_hold.fbx",
+   "unreal_asset": "/Game/Operative/Anims/charge_hold",
+   "events": [
+    {
+     "name": "charge_pulse",
+     "frame": 8,
+     "params": {},
+     "time_s": 0.26666666666666666
+    },
+    {
+     "name": "charge_pulse",
+     "frame": 22,
+     "params": {},
+     "time_s": 0.7333333333333333
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "charge_start"
+   ],
+   "exit_states": [
+    "charge_release",
+    "charge_cancel"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {},
+   "note": "held charge with tremble, breathing and a slow sway"
+  },
+  {
+   "id": "charge_release",
+   "form": "one_shot",
+   "root_motion": "in_place",
+   "behavior": "Forceful release with weight transfer.",
+   "duration_s": 0.6,
+   "frames": 18,
+   "keys": 19,
+   "sample_rate": 30,
+   "loop": false,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    19
+   ],
+   "source_action": "A_charge_release",
+   "baked_action": "charge_release",
+   "export_file": "export/animations/charge_release.fbx",
+   "unreal_asset": "/Game/Operative/Anims/charge_release",
+   "events": [
+    {
+     "name": "charge_release",
+     "frame": 5,
+     "params": {},
+     "time_s": 0.16666666666666666
+    },
+    {
+     "name": "foot_plant",
+     "frame": 6,
+     "params": {
+      "foot": "l"
+     },
+     "time_s": 0.2
+    },
+    {
+     "name": "control_return",
+     "frame": 15,
+     "params": {},
+     "time_s": 0.5
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "charge_start",
+    "charge_hold"
+   ],
+   "exit_states": [
+    "idle"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {},
+   "note": "forceful release: lunge step, torso uncoils, both arms thrust forward palms open"
+  },
+  {
+   "id": "charge_cancel",
+   "form": "one_shot",
+   "root_motion": "in_place",
+   "behavior": "Safely cancel the stored charge.",
+   "duration_s": 0.4666666666666667,
+   "frames": 14,
+   "keys": 15,
+   "sample_rate": 30,
+   "loop": false,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    15
+   ],
+   "source_action": "A_charge_cancel",
+   "baked_action": "charge_cancel",
+   "export_file": "export/animations/charge_cancel.fbx",
+   "unreal_asset": "/Game/Operative/Anims/charge_cancel",
+   "events": [
+    {
+     "name": "charge_cancel",
+     "frame": 3,
+     "params": {},
+     "time_s": 0.1
+    },
+    {
+     "name": "control_return",
+     "frame": 11,
+     "params": {},
+     "time_s": 0.36666666666666664
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "charge_start",
+    "charge_hold"
+   ],
+   "exit_states": [
+    "idle"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {},
+   "note": "safe cancel: fists open, arms drop, a short exhale back to the ready stance"
+  },
+  {
+   "id": "deploy",
+   "form": "one_shot",
+   "root_motion": "in_place",
+   "behavior": "Place a visible small drone/beacon prop using believable contact.",
+   "duration_s": 1.2,
+   "frames": 36,
+   "keys": 37,
+   "sample_rate": 30,
+   "loop": false,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    37
+   ],
+   "source_action": "A_deploy",
+   "baked_action": "deploy",
+   "export_file": "export/animations/deploy.fbx",
+   "unreal_asset": "/Game/Operative/Anims/deploy",
+   "events": [
+    {
+     "name": "deploy_attach",
+     "frame": 8,
+     "params": {},
+     "time_s": 0.26666666666666666
+    },
+    {
+     "name": "deploy_release",
+     "frame": 25,
+     "params": {},
+     "time_s": 0.8333333333333334
+    },
+    {
+     "name": "deploy_settle",
+     "frame": 31,
+     "params": {},
+     "time_s": 1.0333333333333334
+    },
+    {
+     "name": "control_return",
+     "frame": 34,
+     "params": {},
+     "time_s": 1.1333333333333333
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "grounded_free"
+   ],
+   "exit_states": [
+    "idle"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {},
+   "note": "take the beacon from the rear right dock, crouch and set it on the floor, release and rise"
+  },
+  {
+   "id": "uplink_start",
+   "form": "one_shot",
+   "root_motion": "in_place",
+   "behavior": "Begin recall-like console gesture.",
+   "duration_s": 0.7,
+   "frames": 21,
+   "keys": 22,
+   "sample_rate": 30,
+   "loop": false,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    22
+   ],
+   "source_action": "A_uplink_start",
+   "baked_action": "uplink_start",
+   "export_file": "export/animations/uplink_start.fbx",
+   "unreal_asset": "/Game/Operative/Anims/uplink_start",
+   "events": [
+    {
+     "name": "uplink_sustain_begin",
+     "frame": 20,
+     "params": {},
+     "time_s": 0.6666666666666666
+    },
+    {
+     "name": "cancel_window_begin",
+     "frame": 4,
+     "params": {},
+     "time_s": 0.13333333333333333
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "grounded_free"
+   ],
+   "exit_states": [
+    "uplink_loop",
+    "uplink_cancel",
+    "uplink_end"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {},
+   "note": "begin the recall gesture: both hands rise to the virtual console, head lowers to the display"
+  },
+  {
+   "id": "uplink_loop",
+   "form": "loop",
+   "root_motion": "in_place",
+   "behavior": "Maintain recall gesture; feet remain planted.",
+   "duration_s": 1.5,
+   "frames": 45,
+   "keys": 46,
+   "sample_rate": 30,
+   "loop": true,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    46
+   ],
+   "source_action": "A_uplink_loop",
+   "baked_action": "uplink_loop",
+   "export_file": "export/animations/uplink_loop.fbx",
+   "unreal_asset": "/Game/Operative/Anims/uplink_loop",
+   "events": [
+    {
+     "name": "uplink_pulse",
+     "frame": 11,
+     "params": {},
+     "time_s": 0.36666666666666664
+    },
+    {
+     "name": "uplink_pulse",
+     "frame": 34,
+     "params": {},
+     "time_s": 1.1333333333333333
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "uplink_start"
+   ],
+   "exit_states": [
+    "uplink_end",
+    "uplink_cancel"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {},
+   "note": "maintain the recall gesture: fingers tap and drift over the console, feet planted"
+  },
+  {
+   "id": "uplink_end",
+   "form": "one_shot",
+   "root_motion": "in_place",
+   "behavior": "Successful completion cue; later blink is separate.",
+   "duration_s": 0.5,
+   "frames": 15,
+   "keys": 16,
+   "sample_rate": 30,
+   "loop": false,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    16
+   ],
+   "source_action": "A_uplink_end",
+   "baked_action": "uplink_end",
+   "export_file": "export/animations/uplink_end.fbx",
+   "unreal_asset": "/Game/Operative/Anims/uplink_end",
+   "events": [
+    {
+     "name": "uplink_complete",
+     "frame": 4,
+     "params": {},
+     "time_s": 0.13333333333333333
+    },
+    {
+     "name": "control_return",
+     "frame": 13,
+     "params": {},
+     "time_s": 0.43333333333333335
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "uplink_loop"
+   ],
+   "exit_states": [
+    "idle"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {},
+   "note": "confirm tap, a short nod and the hands lower back to the ready stance"
+  },
+  {
+   "id": "uplink_cancel",
+   "form": "one_shot",
+   "root_motion": "in_place",
+   "behavior": "Interrupted/canceled recall, clean return to control.",
+   "duration_s": 0.4666666666666667,
+   "frames": 14,
+   "keys": 15,
+   "sample_rate": 30,
+   "loop": false,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    15
+   ],
+   "source_action": "A_uplink_cancel",
+   "baked_action": "uplink_cancel",
+   "export_file": "export/animations/uplink_cancel.fbx",
+   "unreal_asset": "/Game/Operative/Anims/uplink_cancel",
+   "events": [
+    {
+     "name": "uplink_cancelled",
+     "frame": 4,
+     "params": {},
+     "time_s": 0.13333333333333333
+    },
+    {
+     "name": "control_return",
+     "frame": 11,
+     "params": {},
+     "time_s": 0.36666666666666664
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "uplink_start",
+    "uplink_loop"
+   ],
+   "exit_states": [
+    "idle"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {},
+   "note": "interrupted recall: hands snap back, a step back and a glance around before the ready stance"
+  },
+  {
+   "id": "hit_f",
+   "form": "additive",
+   "root_motion": "in_place",
+   "behavior": "Reaction to hit from front; layer over idle and motion without snapping planted feet.",
+   "duration_s": 0.3333333333333333,
+   "frames": 10,
+   "keys": 11,
+   "sample_rate": 30,
+   "loop": false,
+   "static_pose": false,
+   "layer": "additive",
+   "additive": true,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    11
+   ],
+   "source_action": "A_hit_f",
+   "baked_action": "hit_f",
+   "export_file": "export/animations/hit_f.fbx",
+   "unreal_asset": "/Game/Operative/Anims/hit_f",
+   "events": [
+    {
+     "name": "hit_peak",
+     "frame": 2,
+     "params": {},
+     "time_s": 0.06666666666666667
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "any_alive"
+   ],
+   "exit_states": [
+    "any"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {},
+   "note": "additive hit reaction (from the front); frame 0 is the neutral reference pose"
+  },
+  {
+   "id": "hit_b",
+   "form": "additive",
+   "root_motion": "in_place",
+   "behavior": "Reaction to hit from back; layer over idle and motion without snapping planted feet.",
+   "duration_s": 0.3333333333333333,
+   "frames": 10,
+   "keys": 11,
+   "sample_rate": 30,
+   "loop": false,
+   "static_pose": false,
+   "layer": "additive",
+   "additive": true,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    11
+   ],
+   "source_action": "A_hit_b",
+   "baked_action": "hit_b",
+   "export_file": "export/animations/hit_b.fbx",
+   "unreal_asset": "/Game/Operative/Anims/hit_b",
+   "events": [
+    {
+     "name": "hit_peak",
+     "frame": 2,
+     "params": {},
+     "time_s": 0.06666666666666667
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "any_alive"
+   ],
+   "exit_states": [
+    "any"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {},
+   "note": "additive hit reaction (from the back); frame 0 is the neutral reference pose"
+  },
+  {
+   "id": "hit_l",
+   "form": "additive",
+   "root_motion": "in_place",
+   "behavior": "Reaction to hit from left; layer over idle and motion without snapping planted feet.",
+   "duration_s": 0.3333333333333333,
+   "frames": 10,
+   "keys": 11,
+   "sample_rate": 30,
+   "loop": false,
+   "static_pose": false,
+   "layer": "additive",
+   "additive": true,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    11
+   ],
+   "source_action": "A_hit_l",
+   "baked_action": "hit_l",
+   "export_file": "export/animations/hit_l.fbx",
+   "unreal_asset": "/Game/Operative/Anims/hit_l",
+   "events": [
+    {
+     "name": "hit_peak",
+     "frame": 2,
+     "params": {},
+     "time_s": 0.06666666666666667
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "any_alive"
+   ],
+   "exit_states": [
+    "any"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {},
+   "note": "additive hit reaction (from the left); frame 0 is the neutral reference pose"
+  },
+  {
+   "id": "hit_r",
+   "form": "additive",
+   "root_motion": "in_place",
+   "behavior": "Reaction to hit from right; layer over idle and motion without snapping planted feet.",
+   "duration_s": 0.3333333333333333,
+   "frames": 10,
+   "keys": 11,
+   "sample_rate": 30,
+   "loop": false,
+   "static_pose": false,
+   "layer": "additive",
+   "additive": true,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    11
+   ],
+   "source_action": "A_hit_r",
+   "baked_action": "hit_r",
+   "export_file": "export/animations/hit_r.fbx",
+   "unreal_asset": "/Game/Operative/Anims/hit_r",
+   "events": [
+    {
+     "name": "hit_peak",
+     "frame": 2,
+     "params": {},
+     "time_s": 0.06666666666666667
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "any_alive"
+   ],
+   "exit_states": [
+    "any"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {},
+   "note": "additive hit reaction (from the right); frame 0 is the neutral reference pose"
+  },
+  {
+   "id": "stun_start",
+   "form": "one_shot",
+   "root_motion": "in_place",
+   "behavior": "Lose control and enter stun.",
+   "duration_s": 0.6,
+   "frames": 18,
+   "keys": 19,
+   "sample_rate": 30,
+   "loop": false,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    19
+   ],
+   "source_action": "A_stun_start",
+   "baked_action": "stun_start",
+   "export_file": "export/animations/stun_start.fbx",
+   "unreal_asset": "/Game/Operative/Anims/stun_start",
+   "events": [
+    {
+     "name": "stun_begin",
+     "frame": 1,
+     "params": {},
+     "time_s": 0.03333333333333333
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "any_alive"
+   ],
+   "exit_states": [
+    "stun_loop"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {},
+   "note": "control lost: head snaps back, knees buckle, arms flail, settling into the dazed stance"
+  },
+  {
+   "id": "stun_loop",
+   "form": "loop",
+   "root_motion": "in_place",
+   "behavior": "Disoriented stable pose, alive and breathing.",
+   "duration_s": 1.6,
+   "frames": 48,
+   "keys": 49,
+   "sample_rate": 30,
+   "loop": true,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    49
+   ],
+   "source_action": "A_stun_loop",
+   "baked_action": "stun_loop",
+   "export_file": "export/animations/stun_loop.fbx",
+   "unreal_asset": "/Game/Operative/Anims/stun_loop",
+   "events": [
+    {
+     "name": "stun_sway_peak",
+     "frame": 24,
+     "params": {},
+     "time_s": 0.8
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "stun_start"
+   ],
+   "exit_states": [
+    "stun_end"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {},
+   "note": "dazed sway: slow pelvis circle, head loll, arms dangling, breathing"
+  },
+  {
+   "id": "stun_end",
+   "form": "one_shot",
+   "root_motion": "in_place",
+   "behavior": "Regain control without sliding.",
+   "duration_s": 0.8,
+   "frames": 24,
+   "keys": 25,
+   "sample_rate": 30,
+   "loop": false,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    25
+   ],
+   "source_action": "A_stun_end",
+   "baked_action": "stun_end",
+   "export_file": "export/animations/stun_end.fbx",
+   "unreal_asset": "/Game/Operative/Anims/stun_end",
+   "events": [
+    {
+     "name": "control_return",
+     "frame": 22,
+     "params": {},
+     "time_s": 0.7333333333333333
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "stun_loop"
+   ],
+   "exit_states": [
+    "idle"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {},
+   "note": "regain control: a head shake, straighten and plant the feet without sliding"
+  },
+  {
+   "id": "knockback",
+   "form": "one_shot",
+   "root_motion": "in_place",
+   "behavior": "Reaction to backward forced travel; travel is controlled by the host.",
+   "duration_s": 0.9,
+   "frames": 27,
+   "keys": 28,
+   "sample_rate": 30,
+   "loop": false,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    28
+   ],
+   "source_action": "A_knockback",
+   "baked_action": "knockback",
+   "export_file": "export/animations/knockback.fbx",
+   "unreal_asset": "/Game/Operative/Anims/knockback",
+   "events": [
+    {
+     "name": "hit_peak",
+     "frame": 5,
+     "params": {},
+     "time_s": 0.16666666666666666
+    },
+    {
+     "name": "control_return",
+     "frame": 24,
+     "params": {},
+     "time_s": 0.8
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "any_alive"
+   ],
+   "exit_states": [
+    "idle",
+    "knockdown"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {},
+   "note": "reaction to backward forced travel: feet skid while the body leans back, then a recovery step (travel is host controlled)"
+  },
+  {
+   "id": "knockup_start",
+   "form": "one_shot",
+   "root_motion": "in_place",
+   "behavior": "Forced launch, distinct from voluntary jump.",
+   "duration_s": 0.6,
+   "frames": 18,
+   "keys": 19,
+   "sample_rate": 30,
+   "loop": false,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    19
+   ],
+   "source_action": "A_knockup_start",
+   "baked_action": "knockup_start",
+   "export_file": "export/animations/knockup_start.fbx",
+   "unreal_asset": "/Game/Operative/Anims/knockup_start",
+   "events": [
+    {
+     "name": "knockup_launch",
+     "frame": 5,
+     "params": {},
+     "time_s": 0.16666666666666666
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "any_alive"
+   ],
+   "exit_states": [
+    "knockup_air"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "brow_up_out_l",
+    "brow_up_out_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "eye_wide_l",
+    "eye_wide_r",
+    "jaw_open_corr",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_funnel",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "nostril_flare_l",
+    "nostril_flare_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {},
+   "note": "forced launch: a buckle then the body is thrown up and back, arms flung, legs trailing"
+  },
+  {
+   "id": "knockup_air",
+   "form": "loop",
+   "root_motion": "in_place",
+   "behavior": "Helpless airborne pose.",
+   "duration_s": 0.9,
+   "frames": 27,
+   "keys": 28,
+   "sample_rate": 30,
+   "loop": true,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    28
+   ],
+   "source_action": "A_knockup_air",
+   "baked_action": "knockup_air",
+   "export_file": "export/animations/knockup_air.fbx",
+   "unreal_asset": "/Game/Operative/Anims/knockup_air",
+   "events": [
+    {
+     "name": "tumble_half",
+     "frame": 14,
+     "params": {},
+     "time_s": 0.4666666666666667
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "knockup_start"
+   ],
+   "exit_states": [
+    "knockdown_front",
+    "knockdown_back"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {},
+   "note": "helpless airborne pose: limp limbs and a slow rocking tumble"
+  },
+  {
+   "id": "knockdown_front",
+   "form": "one_shot",
+   "root_motion": "in_place",
+   "behavior": "Fall into a face-down position.",
+   "duration_s": 1.4,
+   "frames": 42,
+   "keys": 43,
+   "sample_rate": 30,
+   "loop": false,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    43
+   ],
+   "source_action": "A_knockdown_front",
+   "baked_action": "knockdown_front",
+   "export_file": "export/animations/knockdown_front.fbx",
+   "unreal_asset": "/Game/Operative/Anims/knockdown_front",
+   "events": [
+    {
+     "name": "hit_peak",
+     "frame": 4,
+     "params": {},
+     "time_s": 0.13333333333333333
+    },
+    {
+     "name": "ground_impact",
+     "frame": 29,
+     "params": {},
+     "time_s": 0.9666666666666667
+    },
+    {
+     "name": "control_return",
+     "frame": 41,
+     "params": {},
+     "time_s": 1.3666666666666667
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "knockup_air",
+    "knockback",
+    "any_alive"
+   ],
+   "exit_states": [
+    "prone_front"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {},
+   "note": "stumble forward, catch with a hand, fall face-down and settle into prone_front (ends on its first pose)"
+  },
+  {
+   "id": "knockdown_back",
+   "form": "one_shot",
+   "root_motion": "in_place",
+   "behavior": "Fall into a face-up position.",
+   "duration_s": 1.4,
+   "frames": 42,
+   "keys": 43,
+   "sample_rate": 30,
+   "loop": false,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    43
+   ],
+   "source_action": "A_knockdown_back",
+   "baked_action": "knockdown_back",
+   "export_file": "export/animations/knockdown_back.fbx",
+   "unreal_asset": "/Game/Operative/Anims/knockdown_back",
+   "events": [
+    {
+     "name": "hit_peak",
+     "frame": 4,
+     "params": {},
+     "time_s": 0.13333333333333333
+    },
+    {
+     "name": "ground_impact",
+     "frame": 28,
+     "params": {},
+     "time_s": 0.9333333333333333
+    },
+    {
+     "name": "control_return",
+     "frame": 41,
+     "params": {},
+     "time_s": 1.3666666666666667
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "knockup_air",
+    "knockback",
+    "any_alive"
+   ],
+   "exit_states": [
+    "prone_back"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {},
+   "note": "recoil, stumble backward, fall onto the back with the arms flung and settle into prone_back"
+  },
+  {
+   "id": "prone_front",
+   "form": "loop",
+   "root_motion": "in_place",
+   "behavior": "Face-down floor pose with restrained life motion.",
+   "duration_s": 2.0,
+   "frames": 60,
+   "keys": 61,
+   "sample_rate": 30,
+   "loop": true,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    61
+   ],
+   "source_action": "A_prone_front",
+   "baked_action": "prone_front",
+   "export_file": "export/animations/prone_front.fbx",
+   "unreal_asset": "/Game/Operative/Anims/prone_front",
+   "events": [
+    {
+     "name": "breath_in",
+     "frame": 15,
+     "params": {},
+     "time_s": 0.5
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "knockdown_front"
+   ],
+   "exit_states": [
+    "getup_front"
+   ],
+   "morph_curves": [],
+   "procedural_components": {},
+   "note": "face-down floor pose with restrained breathing"
+  },
+  {
+   "id": "prone_back",
+   "form": "loop",
+   "root_motion": "in_place",
+   "behavior": "Face-up floor pose with restrained life motion.",
+   "duration_s": 2.0,
+   "frames": 60,
+   "keys": 61,
+   "sample_rate": 30,
+   "loop": true,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    61
+   ],
+   "source_action": "A_prone_back",
+   "baked_action": "prone_back",
+   "export_file": "export/animations/prone_back.fbx",
+   "unreal_asset": "/Game/Operative/Anims/prone_back",
+   "events": [
+    {
+     "name": "breath_in",
+     "frame": 15,
+     "params": {},
+     "time_s": 0.5
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "knockdown_back"
+   ],
+   "exit_states": [
+    "getup_back"
+   ],
+   "morph_curves": [],
+   "procedural_components": {},
+   "note": "face-up floor pose with restrained breathing"
+  },
+  {
+   "id": "getup_front",
+   "form": "one_shot",
+   "root_motion": "in_place",
+   "behavior": "Stand from face-down through plausible supporting contacts.",
+   "duration_s": 2.2,
+   "frames": 66,
+   "keys": 67,
+   "sample_rate": 30,
+   "loop": false,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    67
+   ],
+   "source_action": "A_getup_front",
+   "baked_action": "getup_front",
+   "export_file": "export/animations/getup_front.fbx",
+   "unreal_asset": "/Game/Operative/Anims/getup_front",
+   "events": [
+    {
+     "name": "ground_impact",
+     "frame": 11,
+     "params": {},
+     "time_s": 0.36666666666666664
+    },
+    {
+     "name": "getup_stand",
+     "frame": 57,
+     "params": {},
+     "time_s": 1.9
+    },
+    {
+     "name": "control_return",
+     "frame": 62,
+     "params": {},
+     "time_s": 2.066666666666667
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "prone_front"
+   ],
+   "exit_states": [
+    "idle"
+   ],
+   "morph_curves": [],
+   "procedural_components": {},
+   "note": "from face-down: hands plant beside the chest, push up, feet gather under the hips, rise through a crouch to the ready stance"
+  },
+  {
+   "id": "getup_back",
+   "form": "one_shot",
+   "root_motion": "in_place",
+   "behavior": "Stand from face-up through plausible supporting contacts.",
+   "duration_s": 2.2,
+   "frames": 66,
+   "keys": 67,
+   "sample_rate": 30,
+   "loop": false,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    67
+   ],
+   "source_action": "A_getup_back",
+   "baked_action": "getup_back",
+   "export_file": "export/animations/getup_back.fbx",
+   "unreal_asset": "/Game/Operative/Anims/getup_back",
+   "events": [
+    {
+     "name": "ground_impact",
+     "frame": 9,
+     "params": {},
+     "time_s": 0.3
+    },
+    {
+     "name": "getup_stand",
+     "frame": 59,
+     "params": {},
+     "time_s": 1.9666666666666666
+    },
+    {
+     "name": "control_return",
+     "frame": 63,
+     "params": {},
+     "time_s": 2.1
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "prone_back"
+   ],
+   "exit_states": [
+    "idle"
+   ],
+   "morph_curves": [],
+   "procedural_components": {},
+   "note": "from face-up: sit up on both hands, draw the legs in, roll onto one knee and rise to the ready stance"
+  },
+  {
+   "id": "sleep_start",
+   "form": "one_shot",
+   "root_motion": "in_place",
+   "behavior": "Enter a stable sleep posture.",
+   "duration_s": 1.8,
+   "frames": 54,
+   "keys": 55,
+   "sample_rate": 30,
+   "loop": false,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    55
+   ],
+   "source_action": "A_sleep_start",
+   "baked_action": "sleep_start",
+   "export_file": "export/animations/sleep_start.fbx",
+   "unreal_asset": "/Game/Operative/Anims/sleep_start",
+   "events": [
+    {
+     "name": "sleep_settle",
+     "frame": 49,
+     "params": {},
+     "time_s": 1.6333333333333333
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "grounded_free"
+   ],
+   "exit_states": [
+    "sleep_loop"
+   ],
+   "morph_curves": [],
+   "procedural_components": {},
+   "note": "kneel, sit and recline onto the left side into a curled sleeping posture"
+  },
+  {
+   "id": "sleep_loop",
+   "form": "loop",
+   "root_motion": "in_place",
+   "behavior": "Sustained sleeping posture with breathing.",
+   "duration_s": 3.0,
+   "frames": 90,
+   "keys": 91,
+   "sample_rate": 30,
+   "loop": true,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    91
+   ],
+   "source_action": "A_sleep_loop",
+   "baked_action": "sleep_loop",
+   "export_file": "export/animations/sleep_loop.fbx",
+   "unreal_asset": "/Game/Operative/Anims/sleep_loop",
+   "events": [
+    {
+     "name": "breath_in",
+     "frame": 22,
+     "params": {},
+     "time_s": 0.7333333333333333
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "sleep_start"
+   ],
+   "exit_states": [
+    "sleep_end"
+   ],
+   "morph_curves": [],
+   "procedural_components": {},
+   "note": "curled on the left side, slow breathing"
+  },
+  {
+   "id": "sleep_end",
+   "form": "one_shot",
+   "root_motion": "in_place",
+   "behavior": "Awaken and return to readiness.",
+   "duration_s": 1.6,
+   "frames": 48,
+   "keys": 49,
+   "sample_rate": 30,
+   "loop": false,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    49
+   ],
+   "source_action": "A_sleep_end",
+   "baked_action": "sleep_end",
+   "export_file": "export/animations/sleep_end.fbx",
+   "unreal_asset": "/Game/Operative/Anims/sleep_end",
+   "events": [
+    {
+     "name": "getup_stand",
+     "frame": 39,
+     "params": {},
+     "time_s": 1.3
+    },
+    {
+     "name": "control_return",
+     "frame": 44,
+     "params": {},
+     "time_s": 1.4666666666666666
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "sleep_loop"
+   ],
+   "exit_states": [
+    "idle"
+   ],
+   "morph_curves": [
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "brow_up_out_l",
+    "brow_up_out_r",
+    "eye_wide_l",
+    "eye_wide_r",
+    "jaw_open_corr",
+    "mouth_funnel",
+    "nostril_flare_l",
+    "nostril_flare_r"
+   ],
+   "procedural_components": {},
+   "note": "wake up: stretch, sit up, get a hand under the body and rise to the ready stance"
+  },
+  {
+   "id": "death_front",
+   "form": "one_shot",
+   "root_motion": "in_place",
+   "behavior": "Front-impact death ending in a clear stable body pose.",
+   "duration_s": 2.4,
+   "frames": 72,
+   "keys": 73,
+   "sample_rate": 30,
+   "loop": false,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    73
+   ],
+   "source_action": "A_death_front",
+   "baked_action": "death_front",
+   "export_file": "export/animations/death_front.fbx",
+   "unreal_asset": "/Game/Operative/Anims/death_front",
+   "events": [
+    {
+     "name": "hit_peak",
+     "frame": 7,
+     "params": {},
+     "time_s": 0.23333333333333334
+    },
+    {
+     "name": "death_impact",
+     "frame": 56,
+     "params": {},
+     "time_s": 1.8666666666666667
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "any_alive"
+   ],
+   "exit_states": [
+    "dead_front"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {},
+   "note": "front impact: recoil, a stagger with a hand to the wound, knees give, topple forward; the last frame equals dead_front"
+  },
+  {
+   "id": "death_back",
+   "form": "one_shot",
+   "root_motion": "in_place",
+   "behavior": "Back-impact death, not a mirrored duplicate with impossible contacts.",
+   "duration_s": 2.4,
+   "frames": 72,
+   "keys": 73,
+   "sample_rate": 30,
+   "loop": false,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    73
+   ],
+   "source_action": "A_death_back",
+   "baked_action": "death_back",
+   "export_file": "export/animations/death_back.fbx",
+   "unreal_asset": "/Game/Operative/Anims/death_back",
+   "events": [
+    {
+     "name": "hit_peak",
+     "frame": 7,
+     "params": {},
+     "time_s": 0.23333333333333334
+    },
+    {
+     "name": "death_impact",
+     "frame": 45,
+     "params": {},
+     "time_s": 1.5
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "any_alive"
+   ],
+   "exit_states": [
+    "dead_back"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {},
+   "note": "back impact: arched recoil, a backward stagger with a crossing step, fall onto the back with the cyber arm flung wide; the last frame equals dead_back"
+  },
+  {
+   "id": "dead_front",
+   "form": "pose",
+   "root_motion": "in_place",
+   "behavior": "Held final pose of death_front.",
+   "duration_s": 0.03333333333333333,
+   "frames": 1,
+   "keys": 2,
+   "sample_rate": 30,
+   "loop": false,
+   "static_pose": true,
+   "layer": "pose",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    2
+   ],
+   "source_action": "A_dead_front",
+   "baked_action": "dead_front",
+   "export_file": "export/animations/dead_front.fbx",
+   "unreal_asset": "/Game/Operative/Anims/dead_front",
+   "events": [
+    {
+     "name": "dead_hold",
+     "frame": 0,
+     "params": {},
+     "time_s": 0.0
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "death_front"
+   ],
+   "exit_states": [
+    "respawn"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {
+    "static": true
+   },
+   "note": "held final pose of death_front (identical to its last frame)"
+  },
+  {
+   "id": "dead_back",
+   "form": "pose",
+   "root_motion": "in_place",
+   "behavior": "Held final pose of death_back.",
+   "duration_s": 0.03333333333333333,
+   "frames": 1,
+   "keys": 2,
+   "sample_rate": 30,
+   "loop": false,
+   "static_pose": true,
+   "layer": "pose",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    2
+   ],
+   "source_action": "A_dead_back",
+   "baked_action": "dead_back",
+   "export_file": "export/animations/dead_back.fbx",
+   "unreal_asset": "/Game/Operative/Anims/dead_back",
+   "events": [
+    {
+     "name": "dead_hold",
+     "frame": 0,
+     "params": {},
+     "time_s": 0.0
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "death_back"
+   ],
+   "exit_states": [
+    "respawn"
+   ],
+   "morph_curves": [
+    "brow_pinch",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_wide",
+    "nose_wrinkle_l",
+    "nose_wrinkle_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {
+    "static": true
+   },
+   "note": "held final pose of death_back (identical to its last frame)"
+  },
+  {
+   "id": "respawn",
+   "form": "one_shot",
+   "root_motion": "in_place",
+   "behavior": "Reconstruct/activate and settle into a ready living stance; not reverse playback of a death.",
+   "duration_s": 2.6,
+   "frames": 78,
+   "keys": 79,
+   "sample_rate": 30,
+   "loop": false,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    79
+   ],
+   "source_action": "A_respawn",
+   "baked_action": "respawn",
+   "export_file": "export/animations/respawn.fbx",
+   "unreal_asset": "/Game/Operative/Anims/respawn",
+   "events": [
+    {
+     "name": "respawn_activate",
+     "frame": 23,
+     "params": {},
+     "time_s": 0.7666666666666667
+    },
+    {
+     "name": "control_return",
+     "frame": 74,
+     "params": {},
+     "time_s": 2.466666666666667
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "dead_front",
+    "dead_back"
+   ],
+   "exit_states": [
+    "idle"
+   ],
+   "morph_curves": [
+    "brow_down_l",
+    "brow_down_r",
+    "brow_up_out_l",
+    "brow_up_out_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "dimple_l",
+    "dimple_r",
+    "lip_press",
+    "mouth_narrow",
+    "mouth_smile_l",
+    "mouth_smile_r",
+    "nostril_flare_l",
+    "nostril_flare_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {},
+   "note": "reactivation from a kneeling crouch: shudder, unfold, rise and settle into the ready stance (not a reversed death)"
+  },
+  {
+   "id": "greet",
+   "form": "one_shot",
+   "root_motion": "in_place",
+   "behavior": "Short intentional social greeting.",
+   "duration_s": 2.2,
+   "frames": 66,
+   "keys": 67,
+   "sample_rate": 30,
+   "loop": false,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    67
+   ],
+   "source_action": "A_greet",
+   "baked_action": "greet",
+   "export_file": "export/animations/greet.fbx",
+   "unreal_asset": "/Game/Operative/Anims/greet",
+   "events": [
+    {
+     "name": "control_return",
+     "frame": 59,
+     "params": {},
+     "time_s": 1.9666666666666666
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "grounded_free"
+   ],
+   "exit_states": [
+    "idle"
+   ],
+   "morph_curves": [
+    "brow_up_out_l",
+    "brow_up_out_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "dimple_l",
+    "dimple_r",
+    "mouth_smile_l",
+    "mouth_smile_r",
+    "nostril_flare_l",
+    "nostril_flare_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {},
+   "note": "friendly greeting: right hand raised in a wave, nod and a warm expression"
+  },
+  {
+   "id": "victory",
+   "form": "one_shot",
+   "root_motion": "in_place",
+   "behavior": "Confident celebration with readable face and hands.",
+   "duration_s": 3.0,
+   "frames": 90,
+   "keys": 91,
+   "sample_rate": 30,
+   "loop": false,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    91
+   ],
+   "source_action": "A_victory",
+   "baked_action": "victory",
+   "export_file": "export/animations/victory.fbx",
+   "unreal_asset": "/Game/Operative/Anims/victory",
+   "events": [
+    {
+     "name": "blade_extend",
+     "frame": 31,
+     "params": {},
+     "time_s": 1.0333333333333334
+    },
+    {
+     "name": "blade_retract",
+     "frame": 72,
+     "params": {},
+     "time_s": 2.4
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "grounded_free"
+   ],
+   "exit_states": [
+    "idle"
+   ],
+   "morph_curves": [
+    "brow_up_out_l",
+    "brow_up_out_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "dimple_l",
+    "dimple_r",
+    "mouth_smile_l",
+    "mouth_smile_r",
+    "nostril_flare_l",
+    "nostril_flare_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {},
+   "note": "confident celebration: both fists up, chest out, a fist-pump with the blade flourish and a broad smile"
+  },
+  {
+   "id": "defeat",
+   "form": "one_shot",
+   "root_motion": "in_place",
+   "behavior": "Disappointment, nonfatal, distinct from death.",
+   "duration_s": 3.0,
+   "frames": 90,
+   "keys": 91,
+   "sample_rate": 30,
+   "loop": false,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    91
+   ],
+   "source_action": "A_defeat",
+   "baked_action": "defeat",
+   "export_file": "export/animations/defeat.fbx",
+   "unreal_asset": "/Game/Operative/Anims/defeat",
+   "events": [
+    {
+     "name": "defeat_slump",
+     "frame": 45,
+     "params": {},
+     "time_s": 1.5
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "grounded_free"
+   ],
+   "exit_states": [
+    "idle"
+   ],
+   "morph_curves": [
+    "brow_down_l",
+    "brow_down_r",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "chin_raise",
+    "lip_corner_down_l",
+    "lip_corner_down_r",
+    "lip_roll_down",
+    "mouth_frown_l",
+    "mouth_frown_r"
+   ],
+   "procedural_components": {},
+   "note": "disappointment: shoulders drop, head sinks, a slow shake of the head and a heavy exhale"
+  },
+  {
+   "id": "dialogue",
+   "form": "one_shot",
+   "root_motion": "in_place",
+   "behavior": "Original spoken performance with synchronized lips, eyes, facial expression, hand gestures and body acting; include audio and alignment.",
+   "duration_s": 16.6,
+   "frames": 498,
+   "keys": 499,
+   "sample_rate": 30,
+   "loop": false,
+   "static_pose": false,
+   "layer": "full",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    499
+   ],
+   "source_action": "A_dialogue",
+   "baked_action": "dialogue",
+   "export_file": "export/animations/dialogue.fbx",
+   "unreal_asset": "/Game/Operative/Anims/dialogue",
+   "events": [
+    {
+     "name": "dialogue_start",
+     "frame": 16,
+     "params": {},
+     "time_s": 0.5333333333333333
+    },
+    {
+     "name": "dialogue_line",
+     "frame": 16,
+     "params": {
+      "index": 0
+     },
+     "time_s": 0.5333333333333333
+    },
+    {
+     "name": "dialogue_line",
+     "frame": 50,
+     "params": {
+      "index": 1
+     },
+     "time_s": 1.6666666666666667
+    },
+    {
+     "name": "dialogue_line",
+     "frame": 215,
+     "params": {
+      "index": 2
+     },
+     "time_s": 7.166666666666667
+    },
+    {
+     "name": "dialogue_line",
+     "frame": 325,
+     "params": {
+      "index": 3
+     },
+     "time_s": 10.833333333333334
+    },
+    {
+     "name": "dialogue_line",
+     "frame": 424,
+     "params": {
+      "index": 4
+     },
+     "time_s": 14.133333333333333
+    },
+    {
+     "name": "emotion_shift",
+     "frame": 215,
+     "params": {
+      "frm": "concern_sadness",
+      "to": "focus"
+     },
+     "time_s": 7.166666666666667
+    },
+    {
+     "name": "emotion_shift",
+     "frame": 272,
+     "params": {
+      "frm": "focus",
+      "to": "joy_confidence"
+     },
+     "time_s": 9.066666666666666
+    },
+    {
+     "name": "dialogue_end",
+     "frame": 467,
+     "params": {},
+     "time_s": 15.566666666666666
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "grounded_free"
+   ],
+   "exit_states": [
+    "idle"
+   ],
+   "morph_curves": [
+    "brow_down_l",
+    "brow_down_r",
+    "brow_up_in_l",
+    "brow_up_in_r",
+    "brow_up_out_l",
+    "brow_up_out_r",
+    "cheek_raise_l",
+    "cheek_raise_r",
+    "chin_raise",
+    "dimple_l",
+    "dimple_r",
+    "jaw_open_corr",
+    "lip_corner_down_l",
+    "lip_corner_down_r",
+    "lip_down_l",
+    "lip_down_r",
+    "lip_press",
+    "lip_roll_down",
+    "lip_tuck_lower",
+    "lip_up_l",
+    "lip_up_r",
+    "mouth_frown_l",
+    "mouth_frown_r",
+    "mouth_funnel",
+    "mouth_narrow",
+    "mouth_pucker",
+    "mouth_smile_l",
+    "mouth_smile_r",
+    "mouth_wide",
+    "nostril_flare_l",
+    "nostril_flare_r",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {
+    "audio": "source/audio/dialogue.wav",
+    "transcript": "source/audio/dialogue.txt",
+    "alignment": "source/audio/dialogue_alignment.json",
+    "audio_offset_s": 0.0,
+    "sample_rate": 22050
+   },
+   "note": "spoken performance synchronised to source/audio/dialogue.wav (16.5871 s): phoneme-driven lips, gaze, blinks, emotional arc, hand gestures and body acting"
+  },
+  {
+   "id": "aim_down_left",
+   "form": "pose",
+   "root_motion": "in_place",
+   "behavior": "Aim pose at pitch down / yaw left; nine calibrated grid samples, stable wrists and shoulders.",
+   "duration_s": 0.03333333333333333,
+   "frames": 1,
+   "keys": 2,
+   "sample_rate": 30,
+   "loop": false,
+   "static_pose": true,
+   "layer": "pose",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    2
+   ],
+   "source_action": "A_aim_down_left",
+   "baked_action": "aim_down_left",
+   "export_file": "export/animations/aim_down_left.fbx",
+   "unreal_asset": "/Game/Operative/Anims/aim_down_left",
+   "events": [
+    {
+     "name": "aim_hold",
+     "frame": 0,
+     "params": {},
+     "time_s": 0.0
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "aim_layer"
+   ],
+   "exit_states": [
+    "aim_layer"
+   ],
+   "morph_curves": [
+    "brow_down_l",
+    "brow_down_r",
+    "lip_press",
+    "mouth_narrow",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {
+    "aim_yaw_deg": 60.0,
+    "aim_pitch_deg": -35.0,
+    "static": true
+   },
+   "note": "aim pose yaw +60 (positive = left), pitch -35 (positive = up); legs identical in all nine samples"
+  },
+  {
+   "id": "aim_down_center",
+   "form": "pose",
+   "root_motion": "in_place",
+   "behavior": "Aim pose at pitch down / yaw center; nine calibrated grid samples, stable wrists and shoulders.",
+   "duration_s": 0.03333333333333333,
+   "frames": 1,
+   "keys": 2,
+   "sample_rate": 30,
+   "loop": false,
+   "static_pose": true,
+   "layer": "pose",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    2
+   ],
+   "source_action": "A_aim_down_center",
+   "baked_action": "aim_down_center",
+   "export_file": "export/animations/aim_down_center.fbx",
+   "unreal_asset": "/Game/Operative/Anims/aim_down_center",
+   "events": [
+    {
+     "name": "aim_hold",
+     "frame": 0,
+     "params": {},
+     "time_s": 0.0
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "aim_layer"
+   ],
+   "exit_states": [
+    "aim_layer"
+   ],
+   "morph_curves": [
+    "brow_down_l",
+    "brow_down_r",
+    "lip_press",
+    "mouth_narrow",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {
+    "aim_yaw_deg": 0.0,
+    "aim_pitch_deg": -35.0,
+    "static": true
+   },
+   "note": "aim pose yaw +0 (positive = left), pitch -35 (positive = up); legs identical in all nine samples"
+  },
+  {
+   "id": "aim_down_right",
+   "form": "pose",
+   "root_motion": "in_place",
+   "behavior": "Aim pose at pitch down / yaw right; nine calibrated grid samples, stable wrists and shoulders.",
+   "duration_s": 0.03333333333333333,
+   "frames": 1,
+   "keys": 2,
+   "sample_rate": 30,
+   "loop": false,
+   "static_pose": true,
+   "layer": "pose",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    2
+   ],
+   "source_action": "A_aim_down_right",
+   "baked_action": "aim_down_right",
+   "export_file": "export/animations/aim_down_right.fbx",
+   "unreal_asset": "/Game/Operative/Anims/aim_down_right",
+   "events": [
+    {
+     "name": "aim_hold",
+     "frame": 0,
+     "params": {},
+     "time_s": 0.0
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "aim_layer"
+   ],
+   "exit_states": [
+    "aim_layer"
+   ],
+   "morph_curves": [
+    "brow_down_l",
+    "brow_down_r",
+    "lip_press",
+    "mouth_narrow",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {
+    "aim_yaw_deg": -60.0,
+    "aim_pitch_deg": -35.0,
+    "static": true
+   },
+   "note": "aim pose yaw -60 (positive = left), pitch -35 (positive = up); legs identical in all nine samples"
+  },
+  {
+   "id": "aim_level_left",
+   "form": "pose",
+   "root_motion": "in_place",
+   "behavior": "Aim pose at pitch level / yaw left; nine calibrated grid samples, stable wrists and shoulders.",
+   "duration_s": 0.03333333333333333,
+   "frames": 1,
+   "keys": 2,
+   "sample_rate": 30,
+   "loop": false,
+   "static_pose": true,
+   "layer": "pose",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    2
+   ],
+   "source_action": "A_aim_level_left",
+   "baked_action": "aim_level_left",
+   "export_file": "export/animations/aim_level_left.fbx",
+   "unreal_asset": "/Game/Operative/Anims/aim_level_left",
+   "events": [
+    {
+     "name": "aim_hold",
+     "frame": 0,
+     "params": {},
+     "time_s": 0.0
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "aim_layer"
+   ],
+   "exit_states": [
+    "aim_layer"
+   ],
+   "morph_curves": [
+    "brow_down_l",
+    "brow_down_r",
+    "lip_press",
+    "mouth_narrow",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {
+    "aim_yaw_deg": 60.0,
+    "aim_pitch_deg": 0.0,
+    "static": true
+   },
+   "note": "aim pose yaw +60 (positive = left), pitch +0 (positive = up); legs identical in all nine samples"
+  },
+  {
+   "id": "aim_level_center",
+   "form": "pose",
+   "root_motion": "in_place",
+   "behavior": "Aim pose at pitch level / yaw center; nine calibrated grid samples, stable wrists and shoulders.",
+   "duration_s": 0.03333333333333333,
+   "frames": 1,
+   "keys": 2,
+   "sample_rate": 30,
+   "loop": false,
+   "static_pose": true,
+   "layer": "pose",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    2
+   ],
+   "source_action": "A_aim_level_center",
+   "baked_action": "aim_level_center",
+   "export_file": "export/animations/aim_level_center.fbx",
+   "unreal_asset": "/Game/Operative/Anims/aim_level_center",
+   "events": [
+    {
+     "name": "aim_hold",
+     "frame": 0,
+     "params": {},
+     "time_s": 0.0
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "aim_layer"
+   ],
+   "exit_states": [
+    "aim_layer"
+   ],
+   "morph_curves": [
+    "brow_down_l",
+    "brow_down_r",
+    "lip_press",
+    "mouth_narrow",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {
+    "aim_yaw_deg": 0.0,
+    "aim_pitch_deg": 0.0,
+    "static": true
+   },
+   "note": "aim pose yaw +0 (positive = left), pitch +0 (positive = up); legs identical in all nine samples"
+  },
+  {
+   "id": "aim_level_right",
+   "form": "pose",
+   "root_motion": "in_place",
+   "behavior": "Aim pose at pitch level / yaw right; nine calibrated grid samples, stable wrists and shoulders.",
+   "duration_s": 0.03333333333333333,
+   "frames": 1,
+   "keys": 2,
+   "sample_rate": 30,
+   "loop": false,
+   "static_pose": true,
+   "layer": "pose",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    2
+   ],
+   "source_action": "A_aim_level_right",
+   "baked_action": "aim_level_right",
+   "export_file": "export/animations/aim_level_right.fbx",
+   "unreal_asset": "/Game/Operative/Anims/aim_level_right",
+   "events": [
+    {
+     "name": "aim_hold",
+     "frame": 0,
+     "params": {},
+     "time_s": 0.0
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "aim_layer"
+   ],
+   "exit_states": [
+    "aim_layer"
+   ],
+   "morph_curves": [
+    "brow_down_l",
+    "brow_down_r",
+    "lip_press",
+    "mouth_narrow",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {
+    "aim_yaw_deg": -60.0,
+    "aim_pitch_deg": 0.0,
+    "static": true
+   },
+   "note": "aim pose yaw -60 (positive = left), pitch +0 (positive = up); legs identical in all nine samples"
+  },
+  {
+   "id": "aim_up_left",
+   "form": "pose",
+   "root_motion": "in_place",
+   "behavior": "Aim pose at pitch up / yaw left; nine calibrated grid samples, stable wrists and shoulders.",
+   "duration_s": 0.03333333333333333,
+   "frames": 1,
+   "keys": 2,
+   "sample_rate": 30,
+   "loop": false,
+   "static_pose": true,
+   "layer": "pose",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    2
+   ],
+   "source_action": "A_aim_up_left",
+   "baked_action": "aim_up_left",
+   "export_file": "export/animations/aim_up_left.fbx",
+   "unreal_asset": "/Game/Operative/Anims/aim_up_left",
+   "events": [
+    {
+     "name": "aim_hold",
+     "frame": 0,
+     "params": {},
+     "time_s": 0.0
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "aim_layer"
+   ],
+   "exit_states": [
+    "aim_layer"
+   ],
+   "morph_curves": [
+    "brow_down_l",
+    "brow_down_r",
+    "lip_press",
+    "mouth_narrow",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {
+    "aim_yaw_deg": 60.0,
+    "aim_pitch_deg": 35.0,
+    "static": true
+   },
+   "note": "aim pose yaw +60 (positive = left), pitch +35 (positive = up); legs identical in all nine samples"
+  },
+  {
+   "id": "aim_up_center",
+   "form": "pose",
+   "root_motion": "in_place",
+   "behavior": "Aim pose at pitch up / yaw center; nine calibrated grid samples, stable wrists and shoulders.",
+   "duration_s": 0.03333333333333333,
+   "frames": 1,
+   "keys": 2,
+   "sample_rate": 30,
+   "loop": false,
+   "static_pose": true,
+   "layer": "pose",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    2
+   ],
+   "source_action": "A_aim_up_center",
+   "baked_action": "aim_up_center",
+   "export_file": "export/animations/aim_up_center.fbx",
+   "unreal_asset": "/Game/Operative/Anims/aim_up_center",
+   "events": [
+    {
+     "name": "aim_hold",
+     "frame": 0,
+     "params": {},
+     "time_s": 0.0
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "aim_layer"
+   ],
+   "exit_states": [
+    "aim_layer"
+   ],
+   "morph_curves": [
+    "brow_down_l",
+    "brow_down_r",
+    "lip_press",
+    "mouth_narrow",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {
+    "aim_yaw_deg": 0.0,
+    "aim_pitch_deg": 35.0,
+    "static": true
+   },
+   "note": "aim pose yaw +0 (positive = left), pitch +35 (positive = up); legs identical in all nine samples"
+  },
+  {
+   "id": "aim_up_right",
+   "form": "pose",
+   "root_motion": "in_place",
+   "behavior": "Aim pose at pitch up / yaw right; nine calibrated grid samples, stable wrists and shoulders.",
+   "duration_s": 0.03333333333333333,
+   "frames": 1,
+   "keys": 2,
+   "sample_rate": 30,
+   "loop": false,
+   "static_pose": true,
+   "layer": "pose",
+   "additive": false,
+   "nominal_speed_cm_s": 0.0,
+   "root_motion_cm": {
+    "x": 0.0,
+    "y": -0.0,
+    "z": 0.0,
+    "note": "Unreal axes (forward +X, left -Y)"
+   },
+   "blender_frame_range": [
+    1,
+    2
+   ],
+   "source_action": "A_aim_up_right",
+   "baked_action": "aim_up_right",
+   "export_file": "export/animations/aim_up_right.fbx",
+   "unreal_asset": "/Game/Operative/Anims/aim_up_right",
+   "events": [
+    {
+     "name": "aim_hold",
+     "frame": 0,
+     "params": {},
+     "time_s": 0.0
+    }
+   ],
+   "foot_contacts": [],
+   "entry_states": [
+    "aim_layer"
+   ],
+   "exit_states": [
+    "aim_layer"
+   ],
+   "morph_curves": [
+    "brow_down_l",
+    "brow_down_r",
+    "lip_press",
+    "mouth_narrow",
+    "squint_l",
+    "squint_r"
+   ],
+   "procedural_components": {
+    "aim_yaw_deg": -60.0,
+    "aim_pitch_deg": 35.0,
+    "static": true
+   },
+   "note": "aim pose yaw -60 (positive = left), pitch +35 (positive = up); legs identical in all nine samples"
+  }
+ ]
+}

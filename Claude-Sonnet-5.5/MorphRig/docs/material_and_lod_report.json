@@ -1,0 +1,395 @@
+{
+ "schema": "morphrig.material_and_lod_report/1",
+ "lods": {
+  "LOD0": {
+   "triangles": 40088,
+   "vertices": 21140,
+   "morph_targets": 44,
+   "budget_triangles": 80000,
+   "within_budget": true
+  },
+  "LOD1": {
+   "triangles": 20043,
+   "vertices": 11047,
+   "decimate_ratio": 0.5,
+   "morph_targets": 0,
+   "budget_triangles": 40000,
+   "within_budget": true
+  },
+  "LOD2": {
+   "triangles": 8818,
+   "vertices": 5120,
+   "decimate_ratio": 0.22,
+   "morph_targets": 0,
+   "budget_triangles": 20000,
+   "within_budget": true
+  }
+ },
+ "material_slots": {
+  "character": [
+   "MI_suit",
+   "MI_skin",
+   "MI_eye",
+   "MI_mouth",
+   "MI_armor",
+   "MI_cyber",
+   "MI_hair"
+  ],
+  "props": {
+   "Operative_PowerCell": {
+    "triangles": 648,
+    "materials": [
+     "MI_armor",
+     "MI_cyber"
+    ]
+   },
+   "Operative_Beacon": {
+    "triangles": 740,
+    "materials": [
+     "MI_armor",
+     "MI_cyber"
+    ]
+   }
+  },
+  "total_unique_slots": 7,
+  "limit": 8
+ },
+ "materials": {
+  "MI_skin": {
+   "atlas_size": 2048,
+   "textures": [
+    {
+     "file": "T_Skin_BC.png",
+     "kind": "base colour (sRGB)",
+     "width": 2048,
+     "height": 2048,
+     "unreal_compression_estimate": "BC1",
+     "memory_mib_with_mips_compressed": 2.667,
+     "memory_mib_with_mips_rgba8": 21.333
+    },
+    {
+     "file": "T_Skin_N.png",
+     "kind": "normal (DirectX)",
+     "width": 2048,
+     "height": 2048,
+     "unreal_compression_estimate": "BC5",
+     "memory_mib_with_mips_compressed": 5.333,
+     "memory_mib_with_mips_rgba8": 21.333
+    },
+    {
+     "file": "T_Skin_ORM.png",
+     "kind": "AO/roughness/metallic",
+     "width": 2048,
+     "height": 2048,
+     "unreal_compression_estimate": "BC1 (masks)",
+     "memory_mib_with_mips_compressed": 2.667,
+     "memory_mib_with_mips_rgba8": 21.333
+    }
+   ],
+   "objects_using_it": [
+    "Operative_Body",
+    "Operative_Hand_R",
+    "Operative_Head"
+   ],
+   "island_coverage": 0.6896,
+   "triangles_lod0": 14804
+  },
+  "MI_suit": {
+   "atlas_size": 2048,
+   "textures": [
+    {
+     "file": "T_Suit_BC.png",
+     "kind": "base colour (sRGB)",
+     "width": 2048,
+     "height": 2048,
+     "unreal_compression_estimate": "BC1",
+     "memory_mib_with_mips_compressed": 2.667,
+     "memory_mib_with_mips_rgba8": 21.333
+    },
+    {
+     "file": "T_Suit_N.png",
+     "kind": "normal (DirectX)",
+     "width": 2048,
+     "height": 2048,
+     "unreal_compression_estimate": "BC5",
+     "memory_mib_with_mips_compressed": 5.333,
+     "memory_mib_with_mips_rgba8": 21.333
+    },
+    {
+     "file": "T_Suit_ORM.png",
+     "kind": "AO/roughness/metallic",
+     "width": 2048,
+     "height": 2048,
+     "unreal_compression_estimate": "BC1 (masks)",
+     "memory_mib_with_mips_compressed": 2.667,
+     "memory_mib_with_mips_rgba8": 21.333
+    },
+    {
+     "file": "T_Suit_TM.png",
+     "kind": "team mask",
+     "width": 2048,
+     "height": 2048,
+     "unreal_compression_estimate": "BC7",
+     "memory_mib_with_mips_compressed": 5.333,
+     "memory_mib_with_mips_rgba8": 21.333
+    }
+   ],
+   "objects_using_it": [
+    "Operative_Body",
+    "Operative_Gear"
+   ],
+   "island_coverage": 0.6018,
+   "triangles_lod0": 4960
+  },
+  "MI_armor": {
+   "atlas_size": 1024,
+   "textures": [
+    {
+     "file": "T_Armor_BC.png",
+     "kind": "base colour (sRGB)",
+     "width": 1024,
+     "height": 1024,
+     "unreal_compression_estimate": "BC1",
+     "memory_mib_with_mips_compressed": 0.667,
+     "memory_mib_with_mips_rgba8": 5.333
+    },
+    {
+     "file": "T_Armor_N.png",
+     "kind": "normal (DirectX)",
+     "width": 1024,
+     "height": 1024,
+     "unreal_compression_estimate": "BC5",
+     "memory_mib_with_mips_compressed": 1.333,
+     "memory_mib_with_mips_rgba8": 5.333
+    },
+    {
+     "file": "T_Armor_ORM.png",
+     "kind": "AO/roughness/metallic",
+     "width": 1024,
+     "height": 1024,
+     "unreal_compression_estimate": "BC1 (masks)",
+     "memory_mib_with_mips_compressed": 0.667,
+     "memory_mib_with_mips_rgba8": 5.333
+    },
+    {
+     "file": "T_Armor_TM.png",
+     "kind": "team mask",
+     "width": 1024,
+     "height": 1024,
+     "unreal_compression_estimate": "BC7",
+     "memory_mib_with_mips_compressed": 1.333,
+     "memory_mib_with_mips_rgba8": 5.333
+    }
+   ],
+   "objects_using_it": [
+    "Operative_Boots",
+    "Operative_Cable",
+    "Operative_CyberArm_L",
+    "Operative_Gear",
+    "Operative_Prop_Beacon",
+    "Operative_Prop_PowerCell"
+   ],
+   "island_coverage": 0.5043,
+   "triangles_lod0": 6656
+  },
+  "MI_cyber": {
+   "atlas_size": 1024,
+   "textures": [
+    {
+     "file": "T_Cyber_BC.png",
+     "kind": "base colour (sRGB)",
+     "width": 1024,
+     "height": 1024,
+     "unreal_compression_estimate": "BC1",
+     "memory_mib_with_mips_compressed": 0.667,
+     "memory_mib_with_mips_rgba8": 5.333
+    },
+    {
+     "file": "T_Cyber_N.png",
+     "kind": "normal (DirectX)",
+     "width": 1024,
+     "height": 1024,
+     "unreal_compression_estimate": "BC5",
+     "memory_mib_with_mips_compressed": 1.333,
+     "memory_mib_with_mips_rgba8": 5.333
+    },
+    {
+     "file": "T_Cyber_ORM.png",
+     "kind": "AO/roughness/metallic",
+     "width": 1024,
+     "height": 1024,
+     "unreal_compression_estimate": "BC1 (masks)",
+     "memory_mib_with_mips_compressed": 0.667,
+     "memory_mib_with_mips_rgba8": 5.333
+    },
+    {
+     "file": "T_Cyber_E.png",
+     "kind": "emission intensity",
+     "width": 1024,
+     "height": 1024,
+     "unreal_compression_estimate": "BC1 (masks)",
+     "memory_mib_with_mips_compressed": 0.667,
+     "memory_mib_with_mips_rgba8": 5.333
+    },
+    {
+     "file": "T_Cyber_TM.png",
+     "kind": "team mask",
+     "width": 1024,
+     "height": 1024,
+     "unreal_compression_estimate": "BC7",
+     "memory_mib_with_mips_compressed": 1.333,
+     "memory_mib_with_mips_rgba8": 5.333
+    }
+   ],
+   "objects_using_it": [
+    "Operative_Boots",
+    "Operative_Braid",
+    "Operative_Cable",
+    "Operative_CyberArm_L",
+    "Operative_Gear",
+    "Operative_Prop_Beacon",
+    "Operative_Prop_PowerCell"
+   ],
+   "island_coverage": 0.5621,
+   "triangles_lod0": 5924
+  },
+  "MI_hair": {
+   "atlas_size": 1024,
+   "textures": [
+    {
+     "file": "T_Hair_BC.png",
+     "kind": "base colour (sRGB)",
+     "width": 1024,
+     "height": 1024,
+     "unreal_compression_estimate": "BC1",
+     "memory_mib_with_mips_compressed": 0.667,
+     "memory_mib_with_mips_rgba8": 5.333
+    },
+    {
+     "file": "T_Hair_N.png",
+     "kind": "normal (DirectX)",
+     "width": 1024,
+     "height": 1024,
+     "unreal_compression_estimate": "BC5",
+     "memory_mib_with_mips_compressed": 1.333,
+     "memory_mib_with_mips_rgba8": 5.333
+    },
+    {
+     "file": "T_Hair_ORM.png",
+     "kind": "AO/roughness/metallic",
+     "width": 1024,
+     "height": 1024,
+     "unreal_compression_estimate": "BC1 (masks)",
+     "memory_mib_with_mips_compressed": 0.667,
+     "memory_mib_with_mips_rgba8": 5.333
+    }
+   ],
+   "objects_using_it": [
+    "Operative_Braid",
+    "Operative_Hair"
+   ],
+   "island_coverage": 0.4318,
+   "triangles_lod0": 3040
+  },
+  "MI_mouth": {
+   "atlas_size": 512,
+   "textures": [
+    {
+     "file": "T_Mouth_BC.png",
+     "kind": "base colour (sRGB)",
+     "width": 512,
+     "height": 512,
+     "unreal_compression_estimate": "BC1",
+     "memory_mib_with_mips_compressed": 0.167,
+     "memory_mib_with_mips_rgba8": 1.333
+    },
+    {
+     "file": "T_Mouth_N.png",
+     "kind": "normal (DirectX)",
+     "width": 512,
+     "height": 512,
+     "unreal_compression_estimate": "BC5",
+     "memory_mib_with_mips_compressed": 0.333,
+     "memory_mib_with_mips_rgba8": 1.333
+    },
+    {
+     "file": "T_Mouth_ORM.png",
+     "kind": "AO/roughness/metallic",
+     "width": 512,
+     "height": 512,
+     "unreal_compression_estimate": "BC1 (masks)",
+     "memory_mib_with_mips_compressed": 0.167,
+     "memory_mib_with_mips_rgba8": 1.333
+    }
+   ],
+   "objects_using_it": [
+    "Operative_Mouth"
+   ],
+   "island_coverage": 0.6916,
+   "triangles_lod0": 3024
+  },
+  "MI_eye": {
+   "atlas_size": 1024,
+   "textures": [
+    {
+     "file": "T_Eye_BC.png",
+     "kind": "base colour (sRGB)",
+     "width": 1024,
+     "height": 1024,
+     "unreal_compression_estimate": "BC1",
+     "memory_mib_with_mips_compressed": 0.667,
+     "memory_mib_with_mips_rgba8": 5.333
+    },
+    {
+     "file": "T_Eye_N.png",
+     "kind": "normal (DirectX)",
+     "width": 1024,
+     "height": 1024,
+     "unreal_compression_estimate": "BC5",
+     "memory_mib_with_mips_compressed": 1.333,
+     "memory_mib_with_mips_rgba8": 5.333
+    },
+    {
+     "file": "T_Eye_ORM.png",
+     "kind": "AO/roughness/metallic",
+     "width": 1024,
+     "height": 1024,
+     "unreal_compression_estimate": "BC1 (masks)",
+     "memory_mib_with_mips_compressed": 0.667,
+     "memory_mib_with_mips_rgba8": 5.333
+    }
+   ],
+   "objects_using_it": [
+    "Operative_Eyes"
+   ],
+   "island_coverage": 0.8769,
+   "triangles_lod0": 1680
+  }
+ },
+ "texture_limits": {
+  "max_dimension": 4096,
+  "largest_dimension_used": 2048
+ },
+ "texture_memory_mib": {
+  "unreal_compressed_estimate_with_mips": 41.33,
+  "uncompressed_rgba8_with_mips": 233.33,
+  "note": "estimate from pixel counts (BC1/BC5/BC7 sizes, +1/3 for mips); the packaged build reports the real numbers in the showcase overlay"
+ },
+ "skeleton": {
+  "bones_total": 111,
+  "deformation_bones": 111,
+  "roots": 1,
+  "deformation_bones_with_weights": 106,
+  "max_influences_per_vertex": 6,
+  "influence_limit": 8
+ },
+ "morph_targets_lod0": 44,
+ "team_variants": {
+  "A": "cyan, circle icon",
+  "B": "magenta, diamond icon",
+  "mechanism": "TeamIndex parameter selects the colour (Blender: scene[\"mr_team\"]); icons live in the team mask G/B channels; the rim outline is a material parameter (Blender: scene[\"mr_outline\"])"
+ },
+ "height_cm": 180.05,
+ "height_cm_with_hair": 180.8,
+ "height_note": "rest pose, measured on the meshes: the ground to the top of the skull is the standing height; the hair cap adds a few millimetres on top"
+}

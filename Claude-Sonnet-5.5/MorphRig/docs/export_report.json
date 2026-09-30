@@ -1,0 +1,60 @@
+{
+ "lods": {
+  "LOD0": {
+   "triangles": 40088,
+   "vertices": 21140,
+   "morph_targets": 44
+  },
+  "LOD1": {
+   "triangles": 20043,
+   "vertices": 11047,
+   "decimate_ratio": 0.5,
+   "morph_targets": 0
+  },
+  "LOD2": {
+   "triangles": 8818,
+   "vertices": 5120,
+   "decimate_ratio": 0.22,
+   "morph_targets": 0
+  }
+ },
+ "skin": {
+  "max_influences_per_vertex": 6,
+  "deformation_bones_with_weights": 106,
+  "total_bones": 111
+ },
+ "material_slots": [
+  "MI_suit",
+  "MI_skin",
+  "MI_eye",
+  "MI_mouth",
+  "MI_armor",
+  "MI_cyber",
+  "MI_hair"
+ ],
+ "triangles_per_material": {
+  "MI_suit": 4960,
+  "MI_skin": 14804,
+  "MI_eye": 1680,
+  "MI_mouth": 3024,
+  "MI_armor": 6656,
+  "MI_cyber": 5924,
+  "MI_hair": 3040
+ },
+ "props": {
+  "Operative_PowerCell": {
+   "triangles": 648,
+   "materials": [
+    "MI_armor",
+    "MI_cyber"
+   ]
+  },
+  "Operative_Beacon": {
+   "triangles": 740,
+   "materials": [
+    "MI_armor",
+    "MI_cyber"
+   ]
+  }
+ }
+}

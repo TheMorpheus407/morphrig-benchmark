@@ -1,0 +1,39 @@
+Unreal Engine 5.8.3, project MorphRig: report of the last full import (tools/ue_import_all.sh) and of the last package (tools/build_linux.sh).
+The import log lines carry the prefix MRIMPORT; the run ends with IMPORT OK when no step failed.
+
+== import ==
+MRIMPORT START steps=mesh,clips,props,audio,materials,assets,level root=<project folder>
+MRIMPORT mesh import [['/Game/Operative/Mesh/SK_Operative_Skeleton.SK_Operative_Skeleton', '/Game/Operative/Mesh/SK_Operative.SK_Operative']]
+MRIMPORT LOD import 1 -> 1
+MRIMPORT LOD import 2 -> 2
+MRIMPORT LOD count 3 verts [31271, 18545, 9790]
+MRIMPORT sockets created: 21
+MRIMPORT physics asset /Game/Operative/Mesh/SK_Operative_PhysicsAsset.SK_Operative_PhysicsAsset
+MRIMPORT mesh height cm = 180.80  origin z = 0.00
+MRIMPORT mesh slots ['MI_suit', 'MI_skin', 'MI_eye', 'MI_mouth', 'MI_armor', 'MI_cyber', 'MI_hair'] morphs 44
+MRIMPORT STEP_OK mesh 6.5s
+MRIMPORT clips imported 96/96 removed_curves=2849 events=246 bad=0
+MRIMPORT STEP_OK clips 33.5s
+MRIMPORT prop SM_PowerCell extent cm (5.0 7.8 10.5) slots ['MI_armor', 'MI_cyber']
+MRIMPORT prop SM_Beacon extent cm (14.8 13.2 19.8) slots ['MI_armor', 'MI_cyber']
+MRIMPORT STEP_OK props 0.1s
+MRIMPORT dialogue sound /Game/Operative/Audio/dialogue.dialogue duration 16.59 s
+MRIMPORT STEP_OK audio 0.0s
+MRIMPORT textures imported: {'armor': ['BC', 'N', 'ORM', 'TM'], 'cyber': ['BC', 'E', 'N', 'ORM', 'TM'], 'eye': ['BC', 'N', 'ORM'], 'hair': ['BC', 'N', 'ORM'], 'mouth': ['BC', 'N', 'ORM'], 'skin': ['BC', 'N', 'ORM'], 'suit': ['BC', 'N', 'ORM', 'TM']}
+MRIMPORT master material built /Game/Operative/Materials/M_Operative_Master.M_Operative_Master
+MRIMPORT utility materials: ['M_Clay', 'M_DebugNormal', 'M_Fx', 'M_ShowcaseFloor', 'M_ShowcaseProp', 'M_ShowcaseTarget', 'M_ShowcaseWall', 'M_StudioFloor', 'M_StudioWall', 'M_Wireframe']
+MRIMPORT material instances created for both teams
+MRIMPORT STEP_OK materials 15.0s
+MRIMPORT data asset saved: clips=96 slots=7 extras=['Clay', 'Floor', 'Fx', 'Normal', 'Prop', 'StudioFloor', 'StudioWall', 'Target', 'Wall', 'Wireframe']
+MRIMPORT STEP_OK assets 0.0s
+MRIMPORT level saved /Game/Showcase/L_Showcase True
+MRIMPORT STEP_OK level 0.0s
+MRIMPORT SUMMARY failed=[] total=55.3s
+IMPORT OK
+
+== package ==
+LogCook: Display: Cooked packages 660 Packages Remain 0 Total 660
+Stage command time: 29.41 s
+Archive command time: 0.29 s
+BUILD SUCCESSFUL
+PACKAGE OK

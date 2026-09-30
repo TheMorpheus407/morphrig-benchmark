@@ -1,0 +1,108 @@
+{
+ "uv_layout_sha1": "9441c2a3ba69b23e3974fe849508caa810679d63",
+ "materials": {
+  "skin": {
+   "size": 2048,
+   "files": {
+    "bc": "T_Skin_BC.png",
+    "n": "T_Skin_N.png",
+    "orm": "T_Skin_ORM.png"
+   },
+   "island_coverage": 0.6896,
+   "objects": [
+    "Operative_Body",
+    "Operative_Hand_R",
+    "Operative_Head"
+   ]
+  },
+  "suit": {
+   "size": 2048,
+   "files": {
+    "bc": "T_Suit_BC.png",
+    "n": "T_Suit_N.png",
+    "orm": "T_Suit_ORM.png",
+    "tm": "T_Suit_TM.png"
+   },
+   "island_coverage": 0.6018,
+   "objects": [
+    "Operative_Body",
+    "Operative_Gear"
+   ]
+  },
+  "armor": {
+   "size": 1024,
+   "files": {
+    "bc": "T_Armor_BC.png",
+    "n": "T_Armor_N.png",
+    "orm": "T_Armor_ORM.png",
+    "tm": "T_Armor_TM.png"
+   },
+   "island_coverage": 0.5043,
+   "objects": [
+    "Operative_Boots",
+    "Operative_Cable",
+    "Operative_CyberArm_L",
+    "Operative_Gear",
+    "Operative_Prop_Beacon",
+    "Operative_Prop_PowerCell"
+   ]
+  },
+  "cyber": {
+   "size": 1024,
+   "files": {
+    "bc": "T_Cyber_BC.png",
+    "n": "T_Cyber_N.png",
+    "orm": "T_Cyber_ORM.png",
+    "e": "T_Cyber_E.png",
+    "tm": "T_Cyber_TM.png"
+   },
+   "island_coverage": 0.5621,
+   "objects": [
+    "Operative_Boots",
+    "Operative_Braid",
+    "Operative_Cable",
+    "Operative_CyberArm_L",
+    "Operative_Gear",
+    "Operative_Prop_Beacon",
+    "Operative_Prop_PowerCell"
+   ]
+  },
+  "hair": {
+   "size": 1024,
+   "files": {
+    "bc": "T_Hair_BC.png",
+    "n": "T_Hair_N.png",
+    "orm": "T_Hair_ORM.png"
+   },
+   "island_coverage": 0.4318,
+   "objects": [
+    "Operative_Braid",
+    "Operative_Hair"
+   ]
+  },
+  "mouth": {
+   "size": 512,
+   "files": {
+    "bc": "T_Mouth_BC.png",
+    "n": "T_Mouth_N.png",
+    "orm": "T_Mouth_ORM.png"
+   },
+   "island_coverage": 0.6916,
+   "objects": [
+    "Operative_Mouth"
+   ]
+  },
+  "eye": {
+   "size": 1024,
+   "files": {
+    "bc": "T_Eye_BC.png",
+    "n": "T_Eye_N.png",
+    "orm": "T_Eye_ORM.png"
+   },
+   "island_coverage": 0.8769,
+   "objects": [
+    "Operative_Eyes"
+   ]
+  }
+ }
+}
