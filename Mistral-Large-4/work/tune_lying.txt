@@ -1,0 +1,101 @@
+00:01.168  blend            | Read blend: "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Mistral-Large-4/source/Operative_rig.blend"
+== PART 1: lying floor contact sweep (kind=prone_fwd, leg_s=1, arm_s=1)
+   rows: face_down pz pitch | head butt chest armL armR legL legR | global argmin
+   down pz=0.10 pitch=-40.0 | head=-0.2212 butt=-0.0211 ches=-0.0482 armL= 0.0147 armR= 0.0607 legL= 0.0002 legR= 0.0002 prop= 0.0718 othe=1000000000.0000 | g=-0.2212 (head)
+   down pz=0.10 pitch=-20.0 | head=-0.1640 butt=-0.0211 ches=-0.0482 armL= 0.0147 armR= 0.0607 legL= 0.0002 legR= 0.0002 prop= 0.0718 othe=1000000000.0000 | g=-0.1640 (head)
+   down pz=0.10 pitch=  0.0 | head=-0.0676 butt=-0.0211 ches=-0.0482 armL= 0.0147 armR= 0.0607 legL= 0.0002 legR= 0.0002 prop= 0.0718 othe=1000000000.0000 | g=-0.0676 (head)
+   down pz=0.10 pitch= 20.0 | head= 0.0019 butt=-0.0211 ches=-0.0482 armL= 0.0147 armR= 0.0607 legL= 0.0002 legR= 0.0002 prop= 0.0718 othe=1000000000.0000 | g=-0.0482 (chest)
+   down pz=0.10 pitch= 40.0 | head= 0.0339 butt=-0.0211 ches=-0.0482 armL= 0.0147 armR= 0.0607 legL= 0.0002 legR= 0.0002 prop= 0.0718 othe=1000000000.0000 | g=-0.0482 (chest)
+   down pz=0.12 pitch=-40.0 | head=-0.2012 butt=-0.0011 ches=-0.0282 armL= 0.0401 armR= 0.0756 legL= 0.0002 legR= 0.0002 prop= 0.0918 othe=1000000000.0000 | g=-0.2012 (head)
+   down pz=0.12 pitch=-20.0 | head=-0.1440 butt=-0.0011 ches=-0.0282 armL= 0.0401 armR= 0.0756 legL= 0.0002 legR= 0.0002 prop= 0.0918 othe=1000000000.0000 | g=-0.1440 (head)
+   down pz=0.12 pitch=  0.0 | head=-0.0476 butt=-0.0011 ches=-0.0282 armL= 0.0401 armR= 0.0756 legL= 0.0002 legR= 0.0002 prop= 0.0918 othe=1000000000.0000 | g=-0.0476 (head)
+   down pz=0.12 pitch= 20.0 | head= 0.0219 butt=-0.0011 ches=-0.0282 armL= 0.0401 armR= 0.0756 legL= 0.0002 legR= 0.0002 prop= 0.0918 othe=1000000000.0000 | g=-0.0282 (chest)
+   down pz=0.12 pitch= 40.0 | head= 0.0539 butt=-0.0011 ches=-0.0282 armL= 0.0401 armR= 0.0756 legL= 0.0002 legR= 0.0002 prop= 0.0918 othe=1000000000.0000 | g=-0.0282 (chest)
+   down pz=0.14 pitch=-40.0 | head=-0.1812 butt= 0.0189 ches=-0.0082 armL= 0.0666 armR= 0.0756 legL= 0.0002 legR= 0.0002 prop= 0.1118 othe=1000000000.0000 | g=-0.1812 (head)
+   down pz=0.14 pitch=-20.0 | head=-0.1240 butt= 0.0189 ches=-0.0082 armL= 0.0666 armR= 0.0756 legL= 0.0002 legR= 0.0002 prop= 0.1118 othe=1000000000.0000 | g=-0.1240 (head)
+   down pz=0.14 pitch=  0.0 | head=-0.0276 butt= 0.0189 ches=-0.0082 armL= 0.0666 armR= 0.0756 legL= 0.0002 legR= 0.0002 prop= 0.1118 othe=1000000000.0000 | g=-0.0276 (head)
+   down pz=0.14 pitch= 20.0 | head= 0.0419 butt= 0.0189 ches=-0.0082 armL= 0.0666 armR= 0.0756 legL= 0.0002 legR= 0.0002 prop= 0.1118 othe=1000000000.0000 | g=-0.0082 (chest)
+   down pz=0.14 pitch= 40.0 | head= 0.0739 butt= 0.0189 ches=-0.0082 armL= 0.0666 armR= 0.0756 legL= 0.0002 legR= 0.0002 prop= 0.1118 othe=1000000000.0000 | g=-0.0082 (chest)
+   down pz=0.16 pitch=-40.0 | head=-0.1612 butt= 0.0389 ches= 0.0118 armL= 0.0919 armR= 0.0756 legL= 0.0002 legR= 0.0002 prop= 0.1318 othe=1000000000.0000 | g=-0.1612 (head)
+   down pz=0.16 pitch=-20.0 | head=-0.1040 butt= 0.0389 ches= 0.0118 armL= 0.0919 armR= 0.0756 legL= 0.0002 legR= 0.0002 prop= 0.1318 othe=1000000000.0000 | g=-0.1040 (head)
+   down pz=0.16 pitch=  0.0 | head=-0.0076 butt= 0.0389 ches= 0.0118 armL= 0.0919 armR= 0.0756 legL= 0.0002 legR= 0.0002 prop= 0.1318 othe=1000000000.0000 | g=-0.0076 (head)
+   down pz=0.16 pitch= 20.0 | head= 0.0619 butt= 0.0389 ches= 0.0118 armL= 0.0919 armR= 0.0756 legL= 0.0002 legR= 0.0002 prop= 0.1318 othe=1000000000.0000 | g=0.0002 (legR)
+   down pz=0.16 pitch= 40.0 | head= 0.0939 butt= 0.0389 ches= 0.0118 armL= 0.0919 armR= 0.0756 legL= 0.0002 legR= 0.0002 prop= 0.1318 othe=1000000000.0000 | g=0.0002 (legR)
+   down pz=0.18 pitch=-40.0 | head=-0.1412 butt= 0.0589 ches= 0.0318 armL= 0.1061 armR= 0.0756 legL= 0.0002 legR= 0.0002 prop= 0.1498 othe=1000000000.0000 | g=-0.1412 (head)
+   down pz=0.18 pitch=-20.0 | head=-0.0840 butt= 0.0589 ches= 0.0318 armL= 0.1061 armR= 0.0756 legL= 0.0002 legR= 0.0002 prop= 0.1498 othe=1000000000.0000 | g=-0.0840 (head)
+   down pz=0.18 pitch=  0.0 | head= 0.0124 butt= 0.0589 ches= 0.0318 armL= 0.1061 armR= 0.0756 legL= 0.0002 legR= 0.0002 prop= 0.1498 othe=1000000000.0000 | g=0.0002 (legR)
+   down pz=0.18 pitch= 20.0 | head= 0.0819 butt= 0.0589 ches= 0.0318 armL= 0.1061 armR= 0.0756 legL= 0.0002 legR= 0.0002 prop= 0.1498 othe=1000000000.0000 | g=0.0002 (legR)
+   down pz=0.18 pitch= 40.0 | head= 0.1139 butt= 0.0589 ches= 0.0318 armL= 0.1061 armR= 0.0756 legL= 0.0002 legR= 0.0002 prop= 0.1498 othe=1000000000.0000 | g=0.0002 (legR)
+   down pz=0.20 pitch=-40.0 | head=-0.1212 butt= 0.0789 ches= 0.0518 armL= 0.1061 armR= 0.0756 legL= 0.0002 legR= 0.0002 prop= 0.1543 othe=1000000000.0000 | g=-0.1212 (head)
+   down pz=0.20 pitch=-20.0 | head=-0.0640 butt= 0.0789 ches= 0.0518 armL= 0.1061 armR= 0.0756 legL= 0.0002 legR= 0.0002 prop= 0.1543 othe=1000000000.0000 | g=-0.0640 (head)
+   down pz=0.20 pitch=  0.0 | head= 0.0324 butt= 0.0789 ches= 0.0518 armL= 0.1061 armR= 0.0756 legL= 0.0002 legR= 0.0002 prop= 0.1543 othe=1000000000.0000 | g=0.0002 (legR)
+   down pz=0.20 pitch= 20.0 | head= 0.1019 butt= 0.0789 ches= 0.0518 armL= 0.1061 armR= 0.0756 legL= 0.0002 legR= 0.0002 prop= 0.1543 othe=1000000000.0000 | g=0.0002 (legR)
+   down pz=0.20 pitch= 40.0 | head= 0.1339 butt= 0.0789 ches= 0.0518 armL= 0.1061 armR= 0.0756 legL= 0.0002 legR= 0.0002 prop= 0.1543 othe=1000000000.0000 | g=0.0002 (legR)
+   down pz=0.22 pitch=-40.0 | head=-0.1012 butt= 0.0989 ches= 0.0718 armL= 0.1061 armR= 0.0756 legL= 0.0002 legR= 0.0002 prop= 0.1529 othe=1000000000.0000 | g=-0.1012 (head)
+   down pz=0.22 pitch=-20.0 | head=-0.0440 butt= 0.0989 ches= 0.0718 armL= 0.1061 armR= 0.0756 legL= 0.0002 legR= 0.0002 prop= 0.1529 othe=1000000000.0000 | g=-0.0440 (head)
+   down pz=0.22 pitch=  0.0 | head= 0.0524 butt= 0.0989 ches= 0.0718 armL= 0.1061 armR= 0.0756 legL= 0.0002 legR= 0.0002 prop= 0.1529 othe=1000000000.0000 | g=0.0002 (legL)
+   down pz=0.22 pitch= 20.0 | head= 0.1219 butt= 0.0989 ches= 0.0718 armL= 0.1061 armR= 0.0756 legL= 0.0002 legR= 0.0002 prop= 0.1529 othe=1000000000.0000 | g=0.0002 (legL)
+   down pz=0.22 pitch= 40.0 | head= 0.1539 butt= 0.0989 ches= 0.0718 armL= 0.1061 armR= 0.0756 legL= 0.0002 legR= 0.0002 prop= 0.1529 othe=1000000000.0000 | g=0.0002 (legL)
+   up   pz=0.10 pitch=-40.0 | head= 0.0602 butt=-0.0289 ches=-0.0851 armL= 0.1061 armR= 0.0756 legL= 0.0002 legR= 0.0002 prop=-0.0525 othe=1000000000.0000 | g=-0.0851 (chest)
+   up   pz=0.10 pitch=-20.0 | head= 0.0536 butt=-0.0289 ches=-0.0851 armL= 0.1061 armR= 0.0756 legL= 0.0002 legR= 0.0002 prop=-0.0525 othe=1000000000.0000 | g=-0.0851 (chest)
+   up   pz=0.10 pitch=  0.0 | head= 0.0320 butt=-0.0289 ches=-0.0851 armL= 0.1061 armR= 0.0756 legL= 0.0002 legR= 0.0002 prop=-0.0525 othe=1000000000.0000 | g=-0.0851 (chest)
+   up   pz=0.10 pitch= 20.0 | head=-0.0456 butt=-0.0289 ches=-0.0851 armL= 0.1061 armR= 0.0756 legL= 0.0002 legR= 0.0002 prop=-0.0525 othe=1000000000.0000 | g=-0.0851 (chest)
+   up   pz=0.10 pitch= 40.0 | head=-0.1462 butt=-0.0289 ches=-0.0851 armL= 0.1061 armR= 0.0756 legL= 0.0002 legR= 0.0002 prop=-0.0525 othe=1000000000.0000 | g=-0.1462 (head)
+   up   pz=0.12 pitch=-40.0 | head= 0.0802 butt=-0.0089 ches=-0.0651 armL= 0.1061 armR= 0.0756 legL= 0.0002 legR= 0.0002 prop=-0.0325 othe=1000000000.0000 | g=-0.0651 (chest)
+   up   pz=0.12 pitch=-20.0 | head= 0.0736 butt=-0.0089 ches=-0.0651 armL= 0.1061 armR= 0.0756 legL= 0.0002 legR= 0.0002 prop=-0.0325 othe=1000000000.0000 | g=-0.0651 (chest)
+   up   pz=0.12 pitch=  0.0 | head= 0.0520 butt=-0.0089 ches=-0.0651 armL= 0.1061 armR= 0.0756 legL= 0.0002 legR= 0.0002 prop=-0.0325 othe=1000000000.0000 | g=-0.0651 (chest)
+   up   pz=0.12 pitch= 20.0 | head=-0.0256 butt=-0.0089 ches=-0.0651 armL= 0.1061 armR= 0.0756 legL= 0.0002 legR= 0.0002 prop=-0.0325 othe=1000000000.0000 | g=-0.0651 (chest)
+   up   pz=0.12 pitch= 40.0 | head=-0.1262 butt=-0.0089 ches=-0.0651 armL= 0.1061 armR= 0.0756 legL= 0.0002 legR= 0.0002 prop=-0.0325 othe=1000000000.0000 | g=-0.1262 (head)
+   up   pz=0.14 pitch=-40.0 | head= 0.1002 butt= 0.0111 ches=-0.0451 armL= 0.1061 armR= 0.0756 legL= 0.0002 legR= 0.0002 prop=-0.0125 othe=1000000000.0000 | g=-0.0451 (chest)
+   up   pz=0.14 pitch=-20.0 | head= 0.0936 butt= 0.0111 ches=-0.0451 armL= 0.1061 armR= 0.0756 legL= 0.0002 legR= 0.0002 prop=-0.0125 othe=1000000000.0000 | g=-0.0451 (chest)Traceback (most recent call last):
+  File "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Mistral-Large-4/work/tune_lying.py", line 240, in <module>
+    fc = act.fcurves.new('pose.bones["root"].location', index=2)
+         ^^^^^^^^^^^
+AttributeError: 'Action' object has no attribute 'fcurves'
+
+   up   pz=0.14 pitch=  0.0 | head= 0.0720 butt= 0.0111 ches=-0.0451 armL= 0.1061 armR= 0.0756 legL= 0.0002 legR= 0.0002 prop=-0.0125 othe=1000000000.0000 | g=-0.0451 (chest)
+   up   pz=0.14 pitch= 20.0 | head=-0.0056 butt= 0.0111 ches=-0.0451 armL= 0.1061 armR= 0.0756 legL= 0.0002 legR= 0.0002 prop=-0.0125 othe=1000000000.0000 | g=-0.0451 (chest)
+   up   pz=0.14 pitch= 40.0 | head=-0.1062 butt= 0.0111 ches=-0.0451 armL= 0.1061 armR= 0.0756 legL= 0.0002 legR= 0.0002 prop=-0.0125 othe=1000000000.0000 | g=-0.1062 (head)
+   up   pz=0.16 pitch=-40.0 | head= 0.1202 butt= 0.0311 ches=-0.0251 armL= 0.1061 armR= 0.0756 legL= 0.0002 legR= 0.0002 prop= 0.0075 othe=1000000000.0000 | g=-0.0251 (chest)
+   up   pz=0.16 pitch=-20.0 | head= 0.1136 butt= 0.0311 ches=-0.0251 armL= 0.1061 armR= 0.0756 legL= 0.0002 legR= 0.0002 prop= 0.0075 othe=1000000000.0000 | g=-0.0251 (chest)
+   up   pz=0.16 pitch=  0.0 | head= 0.0920 butt= 0.0311 ches=-0.0251 armL= 0.1061 armR= 0.0756 legL= 0.0002 legR= 0.0002 prop= 0.0075 othe=1000000000.0000 | g=-0.0251 (chest)
+   up   pz=0.16 pitch= 20.0 | head= 0.0144 butt= 0.0311 ches=-0.0251 armL= 0.1061 armR= 0.0756 legL= 0.0002 legR= 0.0002 prop= 0.0075 othe=1000000000.0000 | g=-0.0251 (chest)
+   up   pz=0.16 pitch= 40.0 | head=-0.0862 butt= 0.0311 ches=-0.0251 armL= 0.1061 armR= 0.0756 legL= 0.0002 legR= 0.0002 prop= 0.0075 othe=1000000000.0000 | g=-0.0862 (head)
+   up   pz=0.18 pitch=-40.0 | head= 0.1402 butt= 0.0511 ches=-0.0051 armL= 0.1061 armR= 0.0756 legL= 0.0002 legR= 0.0002 prop= 0.0275 othe=1000000000.0000 | g=-0.0051 (chest)
+   up   pz=0.18 pitch=-20.0 | head= 0.1336 butt= 0.0511 ches=-0.0051 armL= 0.1061 armR= 0.0756 legL= 0.0002 legR= 0.0002 prop= 0.0275 othe=1000000000.0000 | g=-0.0051 (chest)
+   up   pz=0.18 pitch=  0.0 | head= 0.1120 butt= 0.0511 ches=-0.0051 armL= 0.1061 armR= 0.0756 legL= 0.0002 legR= 0.0002 prop= 0.0275 othe=1000000000.0000 | g=-0.0051 (chest)
+   up   pz=0.18 pitch= 20.0 | head= 0.0344 butt= 0.0511 ches=-0.0051 armL= 0.1061 armR= 0.0756 legL= 0.0002 legR= 0.0002 prop= 0.0275 othe=1000000000.0000 | g=-0.0051 (chest)
+   up   pz=0.18 pitch= 40.0 | head=-0.0662 butt= 0.0511 ches=-0.0051 armL= 0.1061 armR= 0.0756 legL= 0.0002 legR= 0.0002 prop= 0.0275 othe=1000000000.0000 | g=-0.0662 (head)
+   up   pz=0.20 pitch=-40.0 | head= 0.1602 butt= 0.0711 ches= 0.0149 armL= 0.1061 armR= 0.0756 legL= 0.0002 legR= 0.0002 prop= 0.0475 othe=1000000000.0000 | g=0.0002 (legL)
+   up   pz=0.20 pitch=-20.0 | head= 0.1536 butt= 0.0711 ches= 0.0149 armL= 0.1061 armR= 0.0756 legL= 0.0002 legR= 0.0002 prop= 0.0475 othe=1000000000.0000 | g=0.0002 (legL)
+   up   pz=0.20 pitch=  0.0 | head= 0.1320 butt= 0.0711 ches= 0.0149 armL= 0.1061 armR= 0.0756 legL= 0.0002 legR= 0.0002 prop= 0.0475 othe=1000000000.0000 | g=0.0002 (legL)
+   up   pz=0.20 pitch= 20.0 | head= 0.0544 butt= 0.0711 ches= 0.0149 armL= 0.1061 armR= 0.0756 legL= 0.0002 legR= 0.0002 prop= 0.0475 othe=1000000000.0000 | g=0.0002 (legL)
+   up   pz=0.20 pitch= 40.0 | head=-0.0462 butt= 0.0711 ches= 0.0149 armL= 0.1061 armR= 0.0756 legL= 0.0002 legR= 0.0002 prop= 0.0475 othe=1000000000.0000 | g=-0.0462 (head)
+   up   pz=0.22 pitch=-40.0 | head= 0.1802 butt= 0.0911 ches= 0.0349 armL= 0.1061 armR= 0.0756 legL= 0.0002 legR= 0.0002 prop= 0.0675 othe=1000000000.0000 | g=0.0002 (legL)
+   up   pz=0.22 pitch=-20.0 | head= 0.1736 butt= 0.0911 ches= 0.0349 armL= 0.1061 armR= 0.0756 legL= 0.0002 legR= 0.0002 prop= 0.0675 othe=1000000000.0000 | g=0.0002 (legL)
+   up   pz=0.22 pitch=  0.0 | head= 0.1520 butt= 0.0911 ches= 0.0349 armL= 0.1061 armR= 0.0756 legL= 0.0002 legR= 0.0002 prop= 0.0675 othe=1000000000.0000 | g=0.0002 (legL)
+   up   pz=0.22 pitch= 20.0 | head= 0.0744 butt= 0.0911 ches= 0.0349 armL= 0.1061 armR= 0.0756 legL= 0.0002 legR= 0.0002 prop= 0.0675 othe=1000000000.0000 | g=0.0002 (legL)
+   up   pz=0.22 pitch= 40.0 | head=-0.0262 butt= 0.0911 ches= 0.0349 armL= 0.1061 armR= 0.0756 legL= 0.0002 legR= 0.0002 prop= 0.0675 othe=1000000000.0000 | g=-0.0262 (head)
+
+== PART 2: hand droop per kind (pz=0.13, pitch=0, leg_s=1, arm_s=1)
+   droop = hand_floor_z - arm_min  (want final mesh bottom ~ +0.005)
+   down side      | hfz=0.050 arm_min= 0.0106 droop=0.0394 | hfz=0.115 arm_min= 0.0616 droop=0.0534
+   down prone_fwd | hfz=0.050 arm_min= 0.0106 droop=0.0394 | hfz=0.115 arm_min= 0.0533 droop=0.0617
+   down push      | hfz=0.050 arm_min= 0.0106 droop=0.0394 | hfz=0.115 arm_min= 0.0381 droop=0.0769
+   down out       | hfz=0.050 arm_min=-0.0607 droop=0.1107 | hfz=0.115 arm_min= 0.0043 droop=0.1107
+   up   side      | hfz=0.050 arm_min= 0.0106 droop=0.0394 | hfz=0.115 arm_min= 0.0756 droop=0.0394
+   up   prone_fwd | hfz=0.050 arm_min= 0.0106 droop=0.0394 | hfz=0.115 arm_min= 0.0756 droop=0.0394
+   up   push      | hfz=0.050 arm_min= 0.0106 droop=0.0394 | hfz=0.115 arm_min= 0.0756 droop=0.0394
+   up   out       | hfz=0.050 arm_min=-0.0607 droop=0.1107 | hfz=0.115 arm_min= 0.0043 droop=0.1107
+
+== PART 3: leg_s=0 fold (new formula) + leg_s=0.35
+   down leg_s=0.00 global=-0.0376 legL=0.0002 legR=0.0002 kneeL=(-0.105,0.311,0.470) kneeR=(0.105,0.311,0.470)
+   down leg_s=0.35 global=-0.0376 legL=0.0002 legR=0.0002 kneeL=(-0.105,0.304,0.475) kneeR=(0.105,0.304,0.475)
+   up   leg_s=0.00 global=-0.0551 legL=0.0002 legR=0.0002 kneeL=(-0.105,-0.337,0.464) kneeR=(0.105,-0.337,0.464)
+   up   leg_s=0.35 global=-0.0551 legL=0.0002 legR=0.0002 kneeL=(-0.105,-0.322,0.477) kneeR=(0.105,-0.322,0.477)
+
+== PART 4: Action.use_cyclic wrap test
+Blender 5.1.1
+scripts disabled for "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Mistral-Large-4/source/Operative_rig.blend", skipping 'rig_ops.py'
+
+Blender quit

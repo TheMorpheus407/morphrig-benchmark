@@ -1,0 +1,104 @@
+00:00.775  blend            | Read blend: "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Mistral-Large-4/source/Operative_rig.blend"
+gen_03: rig ready, 96 required entries, arm limit 0.61144 m, leg 0.85037 m
+== every frame of all 96 clips
+   idle_relaxed       n=120 chain=5.36e-07 ik=3.34e-07 floor_min=+0.0002 @79 
+   idle_combat        n=120 chain=7.87e-07 ik=3.51e-07 floor_min=+0.0002 @30 
+   idle_wounded       n=120 chain=5.41e-07 ik=1.08e-06 floor_min=+0.0002 @27 
+   walk_f             n= 24 chain=6.20e-07 ik=3.34e-07 floor_min=-0.0009 @1 
+   walk_fl            n= 24 chain=5.33e-07 ik=4.32e-07 floor_min=-0.0009 @1 
+   walk_l             n= 24 chain=6.01e-07 ik=3.69e-07 floor_min=-0.0009 @1 
+   walk_bl            n= 24 chain=6.76e-07 ik=3.08e-07 floor_min=-0.0009 @1 
+   walk_b             n= 24 chain=8.22e-07 ik=3.88e-07 floor_min=-0.0009 @1 
+   walk_br            n= 24 chain=6.37e-07 ik=3.96e-07 floor_min=-0.0009 @13 
+   walk_r             n= 24 chain=5.51e-07 ik=3.61e-07 floor_min=-0.0009 @13 
+   walk_fr            n= 24 chain=5.66e-07 ik=3.77e-07 floor_min=-0.0009 @13 
+   run_f              n= 18 chain=5.89e-07 ik=3.92e-07 floor_min=-0.0000 @15 
+   run_fl             n= 18 chain=6.20e-07 ik=4.52e-07 floor_min=-0.0000 @6 
+   run_l              n= 18 chain=4.14e-07 ik=3.00e-07 floor_min=-0.0000 @15 
+   run_bl             n= 18 chain=5.96e-07 ik=3.20e-07 floor_min=-0.0000 @15 
+   run_b              n= 18 chain=4.60e-07 ik=4.77e-07 floor_min=-0.0000 @15 
+   run_br             n= 18 chain=6.09e-07 ik=3.20e-07 floor_min=-0.0000 @15 
+   run_r              n= 18 chain=4.12e-07 ik=3.58e-07 floor_min=-0.0000 @6 
+   run_fr             n= 18 chain=6.51e-07 ik=4.34e-07 floor_min=-0.0000 @15 
+   sprint_f           n= 12 chain=7.03e-07 ik=3.87e-07 floor_min=+0.0002 @9 
+   start_f            n= 24 chain=5.18e-07 ik=3.89e-07 floor_min=-0.0008 @13 
+   stop_f             n= 24 chain=6.20e-07 ik=4.10e-07 floor_min=-0.0010 @14 
+   turn_l90           n= 24 chain=6.56e-07 ik=3.84e-07 floor_min=+0.0002 @21 
+   turn_r90           n= 24 chain=6.63e-07 ik=3.84e-07 floor_min=+0.0002 @20 
+   pivot_l180         n= 30 chain=5.74e-07 ik=3.91e-07 floor_min=+0.0002 @13 
+   pivot_r180         n= 30 chain=6.48e-07 ik=3.61e-07 floor_min=+0.0002 @13 
+   jump_start         n= 18 chain=6.69e-07 ik=3.43e-07 floor_min=+0.0002 @7 
+   jump_air           n= 15 chain=5.45e-07 ik=2.74e-07 floor_min=+0.2778 @9 
+   jump_land          n= 18 chain=6.11e-07 ik=3.46e-07 floor_min=+0.0002 @16 
+   fall               n= 18 chain=4.41e-07 ik=2.87e-07 floor_min=+0.0839 @13 
+   land_heavy         n= 21 chain=4.67e-07 ik=3.90e-07 floor_min=+0.0002 @16 
+   dash_f             n= 15 chain=5.10e-07 ik=5.62e-07 floor_min=-0.0008 @13 
+   dash_b             n= 15 chain=4.57e-07 ik=5.36e-07 floor_min=-0.0008 @13 
+   dash_l             n= 15 chain=5.26e-07 ik=4.87e-07 floor_min=-0.0008 @13 
+   dash_r             n= 15 chain=5.88e-07 ik=3.49e-07 floor_min=-0.0008 @13 
+   blink_out          n= 12 chain=4.65e-07 ik=1.17e-07 floor_min=+0.0000 @11 
+   blink_in           n= 12 chain=5.13e-07 ik=2.88e-07 floor_min=+0.0000 @1 
+   melee_1            n= 27 chain=5.57e-07 ik=1.98e-07 floor_min=+0.0002 @19 
+   melee_2            n= 27 chain=5.43e-07 ik=1.98e-07 floor_min=+0.0002 @19 
+   melee_3            n= 33 chain=4.92e-07 ik=9.68e-07 floor_min=+0.0002 @3 
+   ranged_fire        n= 12 chain=3.73e-07 ik=7.46e-07 floor_min=+0.0002 @1 
+   ranged_burst       n= 21 chain=3.30e-07 ik=6.08e-07 floor_min=+0.0002 @1 
+   reload             n= 60 chain=3.86e-07 ik=1.21e-06 floor_min=+0.0002 @1 
+   cast_directional   n= 18 chain=8.10e-07 ik=7.26e-07 floor_min=+0.0002 @1 
+   cast_ground        n= 30 chain=6.46e-07 ik=7.23e-07 floor_min=+0.0002 @8 
+   cast_self          n= 24 chain=3.51e-07 ik=6.28e-07 floor_min=+0.0002 @1 
+   channel_start      n= 18 chain=4.65e-07 ik=9.64e-07 floor_min=+0.0002 @8 
+   channel_loop       n= 36 chain=5.26e-07 ik=6.42e-07 floor_min=+0.0002 @1 
+   channel_end        n= 18 chain=3.58e-07 ik=5.56e-07 floor_min=+0.0002 @1 
+   channel_interrupt  n= 15 chain=5.47e-07 ik=6.05e-07 floor_min=+0.0002 @1 
+   charge_start       n= 21 chain=5.24e-07 ik=9.25e-07 floor_min=+0.0002 @15 
+   charge_hold        n= 30 chain=5.76e-07 ik=9.11e-07 floor_min=+0.0002 @2 
+   charge_release     n= 21 chain=4.93e-07 ik=1.34e-06 floor_min=+0.0002 @9 
+   charge_cancel      n= 15 chain=4.69e-07 ik=6.84e-07 floor_min=+0.0002 @1 
+   deploy             n= 42 chain=4.46e-07 ik=2.64e-06 floor_min=+0.0002 @17 
+   uplink_start       n= 21 chain=3.40e-07 ik=6.23e-07 floor_min=+0.0002 @1 
+   uplink_loop        n= 45 chain=4.78e-07 ik=8.46e-07 floor_min=+0.0002 @1 
+   uplink_end         n= 18 chain=5.12e-07 ik=7.22e-07 floor_min=+0.0002 @1 
+   uplink_cancel      n= 15 chain=4.17e-07 ik=8.50e-07 floor_min=+0.0002 @1 
+   hit_f              n= 12 chain=4.15e-07 ik=1.13e-06 floor_min=+0.0002 @1 
+   hit_b              n= 12 chain=4.80e-07 ik=9.82e-07 floor_min=+0.0002 @5 
+   hit_l              n= 12 chain=3.32e-07 ik=6.39e-07 floor_min=+0.0002 @2 
+   hit_r              n= 12 chain=4.26e-07 ik=6.69e-07 floor_min=+0.0002 @2 
+   stun_start         n= 30 chain=6.23e-07 ik=1.10e-06 floor_min=+0.0002 @4 
+   stun_loop          n= 45 chain=5.45e-07 ik=1.20e-06 floor_min=+0.0002 @40 
+   stun_end           n= 30 chain=4.13e-07 ik=7.98e-07 floor_min=+0.0002 @27 
+   knockback          n= 24 chain=7.03e-07 ik=3.35e-07 floor_min=+0.0002 @5 
+   knockup_start      n= 18 chain=5.10e-07 ik=4.18e-07 floor_min=+0.0002 @6 
+   knockup_air        n= 24 chain=3.31e-07 ik=3.58e-07 floor_min=+0.1238 @6 
+   knockdown_front    n= 36 chain=3.90e-07 ik=6.03e-07 floor_min=-0.0002 @22 
+   knockdown_back     n= 36 chain=4.45e-07 ik=6.93e-07 floor_min=+0.0002 @12 
+   prone_front        n= 45 chain=2.94e-07 ik=8.37e-07 floor_min=-0.0042 @35 
+   prone_back         n= 45 chain=3.07e-07 ik=7.84e-07 floor_min=-0.0037 @35 
+   getup_front        n= 54 chain=6.75e-07 ik=1.06e-06 floor_min=-0.0002 @1 
+   getup_back         n= 54 chain=6.10e-07 ik=1.02e-06 floor_min=+0.0002 @32 
+   sleep_start        n= 36 chain=4.43e-07 ik=8.32e-07 floor_min=+0.0002 @19 
+   sleep_loop         n= 60 chain=2.67e-07 ik=7.89e-07 floor_min=-0.0077 @46 
+   sleep_end          n= 36 chain=4.43e-07 ik=7.79e-07 floor_min=+0.0002 @18 
+   death_front        n= 75 chain=4.05e-07 ik=9.34e-07 floor_min=+0.0002 @19 
+   death_back         n= 75 chain=5.06e-07 ik=9.65e-07 floor_min=-0.0002 @52 
+   dead_front         n=  2 chain=1.43e-07 ik=3.53e-07 floor_min=+0.0002 @1 
+   dead_back          n=  2 chain=2.34e-07 ik=3.60e-07 floor_min=-0.0002 @1 
+   respawn            n= 90 chain=6.13e-07 ik=1.35e-06 floor_min=+0.0002 @83 
+   greet              n= 48 chain=2.42e-07 ik=7.02e-07 floor_min=+0.0002 @1 
+   victory            n= 60 chain=3.13e-07 ik=1.40e-06 floor_min=+0.0002 @1 
+   defeat             n= 60 chain=4.79e-07 ik=7.77e-07 floor_min=+0.0002 @2 
+   dialogue           n=408 chain=4.84e-07 ik=3.24e-06 floor_min=+0.0002 @3 
+   aim_down_left      n=  2 chain=1.49e-07 ik=1.78e-07 floor_min=+0.0002 @1 
+   aim_down_center    n=  2 chain=1.37e-07 ik=1.05e-07 floor_min=+0.0002 @1 
+   aim_down_right     n=  2 chain=1.37e-07 ik=5.37e-08 floor_min=+0.0002 @1 
+   aim_level_left     n=  2 chain=1.37e-07 ik=2.47e-07 floor_min=+0.0002 @1 
+   aim_level_center   n=  2 chain=1.37e-07 ik=4.05e-08 floor_min=+0.0002 @1 
+   aim_level_right    n=  2 chain=1.98e-07 ik=2.87e-07 floor_min=+0.0002 @1 
+   aim_up_left        n=  2 chain=2.68e-07 ik=1.42e-07 floor_min=+0.0002 @1 
+   aim_up_center      n=  2 chain=2.06e-07 ik=2.96e-07 floor_min=+0.0002 @1 
+   aim_up_right       n=  2 chain=3.74e-07 ik=5.72e-07 floor_min=+0.0002 @1 
+PROBE ALL DONE, clips flagged: 0
+Blender 5.1.1
+scripts disabled for "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Mistral-Large-4/source/Operative_rig.blend", skipping 'rig_ops.py'
+
+Blender quit

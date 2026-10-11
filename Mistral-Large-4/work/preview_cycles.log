@@ -1,0 +1,35 @@
+00:00.481  blend            | Read blend: "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Mistral-Large-4/source/Operative.blend"
+00:00.490  blend            | Read blend: "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Mistral-Large-4/source/Operative.blend"
+/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Mistral-Large-4/work/preview_cycles.py:68: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  world.use_nodes = True
+/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Mistral-Large-4/work/preview_cycles.py:24: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat.use_nodes = True
+Blender 5.1.1
+00:00.914  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Mistral-Large-4/work/preview/cyc_sil_front.png'
+00:00.915  blend            | Read blend: "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Mistral-Large-4/source/Operative.blend"
+00:01.190  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Mistral-Large-4/work/preview/cyc_sil_face.png'
+00:01.191  blend            | Read blend: "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Mistral-Large-4/source/Operative.blend"
+00:01.459  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Mistral-Large-4/work/preview/cyc_id_front.png'
+00:01.460  blend            | Read blend: "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Mistral-Large-4/source/Operative.blend"
+00:01.738  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Mistral-Large-4/work/preview/cyc_id_face.png'
+00:01.739  blend            | Read blend: "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Mistral-Large-4/source/Operative.blend"
+00:02.022  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Mistral-Large-4/work/preview/cyc_id_forearm.png'
+00:02.023  blend            | Read blend: "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Mistral-Large-4/source/Operative.blend"
+/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Mistral-Large-4/work/preview_cycles.py:122: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  world.use_nodes = True
+00:03.540  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Mistral-Large-4/work/preview/cyc_lit_front.png'
+00:03.540  blend            | Read blend: "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Mistral-Large-4/source/Operative.blend"
+00:05.488  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Mistral-Large-4/work/preview/cyc_lit_face.png'
+00:05.490  blend            | Read blend: "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Mistral-Large-4/source/Operative.blend"
+00:07.597  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Mistral-Large-4/work/preview/cyc_lit_forearm.png'
+RENDERED cyc_sil_front
+RENDERED cyc_sil_face
+RENDERED cyc_id_front
+RENDERED cyc_id_face
+RENDERED cyc_id_forearm
+RENDERED cyc_lit_front
+RENDERED cyc_lit_face
+RENDERED cyc_lit_forearm
+CYCLES_PREVIEWS_DONE
+
+Blender quit

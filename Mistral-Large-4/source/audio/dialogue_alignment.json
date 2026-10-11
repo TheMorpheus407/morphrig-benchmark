@@ -1,0 +1,2753 @@
+{
+  "asset": "dialogue",
+  "fps": 30,
+  "sample_rate_hz": 44100,
+  "channels": 1,
+  "bits_per_sample": 16,
+  "duration_seconds": 13.5867,
+  "duration_frames": 408,
+  "speech_region": [
+    0.013,
+    13.155
+  ],
+  "transcript": "Hold the lane. The network stays ours. Nobody crosses while we stand watch. Keep your eyes up and your cell steady. We stabilize the grid together, or we lose everything.",
+  "tts": {
+    "engine": "espeak-ng",
+    "version": "1.52.0.1",
+    "voice": "en-us",
+    "speed_wpm": 140,
+    "pitch": 40,
+    "license": "GPL-3.0-or-later",
+    "note": "synthetic voice, no voice cloning"
+  },
+  "timing": {
+    "source": "espeak-ng libespeak-ng synthesis events (espeakINITIALIZE_PHONEME_EVENTS) via work/espeak_timing.c",
+    "internal_sample_rate_hz": 22050,
+    "positions": "milliseconds in the generated audio; 1 ms exact",
+    "audio_verified_identical_to_cli": true
+  },
+  "method": "Audio is one continuous espeak-ng synthesis of the full transcript (natural prosody, punctuation pauses included; energy-measured speech region [0.030, 13.180] s). Word, phoneme and clause timings are taken directly from the synthesizer's own event stream: work/espeak_timing.c links libespeak-ng, re-synthesizes the identical text/voice/speed/pitch with phoneme events enabled and dumps WORD/SENTENCE/END/PHONEME events with millisecond audio positions; the helper's generated audio is verified byte-identical to the CLI WAV, so event positions map 1:1 onto this file's timeline (the delivered WAV is the CLI output resampled 22050->44100 Hz; resampling preserves time). The event stream arrives in audio order and every event's span runs to the next event's position (any type), so it tiles the whole utterance: word slots are [WORD event, next WORD event), a word's speech ends where its last phoneme ends, and all inter-word / inter-clause silence is carried by pause phonemes ('_:' clause pause, '_!' word gap, '_' lead-in); this slot model was verified against the audio (the gaps measure ~0 RMS). Word identity comes from WORD events (1-based character position + length); clause slots run from the clause's first WORD event to its END event. The phoneme name sequence is cross-checked against espeak-ng -x. Phonemes map to visemes via phoneme_to_viseme; viseme_to_jaw_open matches tools/rig_ops.py VISEMES. Frame numbers are 1-based at 30 fps; frame f covers [(f-1)/30, f/30) seconds. Event positions are exact (1 ms); no envelope estimation is used.",
+  "phoneme_to_viseme": {
+    "p": "MBP",
+    "b": "MBP",
+    "m": "MBP",
+    "f": "FV",
+    "v": "FV",
+    "T": "TH",
+    "D": "TH",
+    "k": "KG",
+    "g": "KG",
+    "N": "KG",
+    "c": "KG",
+    "q": "KG",
+    "x": "KG",
+    "s": "SZ",
+    "z": "SZ",
+    "S": "SZ",
+    "Z": "SZ",
+    "tS": "SZ",
+    "dZ": "SZ",
+    "l": "L",
+    "r": "R",
+    "w": "UW",
+    "j": "IH",
+    "h": "IH",
+    "y": "IH",
+    "J": "IH",
+    "t": "REST",
+    "d": "REST",
+    "n": "REST",
+    "i": "EE",
+    "eI": "EE",
+    "i:": "EE",
+    "I:": "EE",
+    "I": "IH",
+    "@": "IH",
+    "3": "IH",
+    "3:": "IH",
+    "2": "IH",
+    "^": "IH",
+    "e": "IH",
+    "8": "IH",
+    "8:": "IH",
+    "2:": "IH",
+    "a": "AW",
+    "A": "AW",
+    "0": "AW",
+    "aU": "AW",
+    "aI": "AW",
+    "a:": "AW",
+    "A:": "AW",
+    "E": "AW",
+    "E:": "AW",
+    "V": "AW",
+    "O": "OH",
+    "o": "OH",
+    "O:": "OH",
+    "o:": "OH",
+    "Q": "OH",
+    "O@": "OH",
+    "oU": "OO",
+    "u": "OO",
+    "U": "OO",
+    "u:": "OO",
+    "U:": "OO",
+    "@U": "OO",
+    "U@": "OO"
+  },
+  "viseme_to_jaw_open": {
+    "REST": 0.0,
+    "MBP": 0.08,
+    "FV": 0.18,
+    "TH": 0.3,
+    "KG": 0.15,
+    "SZ": 0.15,
+    "L": 0.45,
+    "R": 0.3,
+    "IH": 0.25,
+    "EE": 0.2,
+    "AW": 0.95,
+    "OH": 0.5,
+    "OO": 0.3,
+    "UW": 0.35
+  },
+  "clauses": [
+    {
+      "index": 0,
+      "sentence": 0,
+      "start": 0.0,
+      "end": 1.543,
+      "speech_start": 0.013,
+      "speech_end": 1.112,
+      "pause_start": 1.112,
+      "pause_end": 1.543,
+      "words": [
+        "Hold",
+        "the",
+        "lane"
+      ]
+    },
+    {
+      "index": 1,
+      "sentence": 1,
+      "start": 1.543,
+      "end": 3.461,
+      "speech_start": 1.557,
+      "speech_end": 3.03,
+      "pause_start": 3.03,
+      "pause_end": 3.461,
+      "words": [
+        "The",
+        "network",
+        "stays",
+        "ours"
+      ]
+    },
+    {
+      "index": 2,
+      "sentence": 2,
+      "start": 3.461,
+      "end": 6.557,
+      "speech_start": 3.461,
+      "speech_end": 6.126,
+      "pause_start": 6.126,
+      "pause_end": 6.557,
+      "words": [
+        "Nobody",
+        "crosses",
+        "while",
+        "we",
+        "stand",
+        "watch"
+      ]
+    },
+    {
+      "index": 3,
+      "sentence": 3,
+      "start": 6.557,
+      "end": 9.532,
+      "speech_start": 6.615,
+      "speech_end": 9.101,
+      "pause_start": 9.101,
+      "pause_end": 9.532,
+      "words": [
+        "Keep",
+        "your",
+        "eyes",
+        "up",
+        "and",
+        "your",
+        "cell",
+        "steady"
+      ]
+    },
+    {
+      "index": 4,
+      "sentence": 4,
+      "start": 9.532,
+      "end": 11.747,
+      "speech_start": 9.532,
+      "speech_end": 11.532,
+      "pause_start": 11.532,
+      "pause_end": 11.747,
+      "words": [
+        "We",
+        "stabilize",
+        "the",
+        "grid",
+        "together"
+      ]
+    },
+    {
+      "index": 5,
+      "sentence": 4,
+      "start": 11.747,
+      "end": 13.586,
+      "speech_start": 11.747,
+      "speech_end": 13.155,
+      "pause_start": 13.155,
+      "pause_end": 13.586,
+      "words": [
+        "or",
+        "we",
+        "lose",
+        "everything"
+      ]
+    }
+  ],
+  "words": [
+    {
+      "index": 0,
+      "word": "Hold",
+      "punct": "",
+      "clause": 0,
+      "start": 0.0,
+      "end": 0.475,
+      "slot_end": 0.475,
+      "start_frame": 1,
+      "end_frame": 15,
+      "phonemes": [
+        "h",
+        "oU",
+        "l",
+        "d"
+      ]
+    },
+    {
+      "index": 1,
+      "word": "the",
+      "punct": "",
+      "clause": 0,
+      "start": 0.475,
+      "end": 0.619,
+      "slot_end": 0.619,
+      "start_frame": 15,
+      "end_frame": 19,
+      "phonemes": [
+        "D",
+        "@"
+      ]
+    },
+    {
+      "index": 2,
+      "word": "lane",
+      "punct": ".",
+      "clause": 0,
+      "start": 0.619,
+      "end": 1.112,
+      "slot_end": 1.543,
+      "start_frame": 19,
+      "end_frame": 34,
+      "phonemes": [
+        "l",
+        "eI",
+        "n"
+      ]
+    },
+    {
+      "index": 3,
+      "word": "The",
+      "punct": "",
+      "clause": 1,
+      "start": 1.543,
+      "end": 1.676,
+      "slot_end": 1.676,
+      "start_frame": 47,
+      "end_frame": 51,
+      "phonemes": [
+        "D",
+        "@"
+      ]
+    },
+    {
+      "index": 4,
+      "word": "network",
+      "punct": "",
+      "clause": 1,
+      "start": 1.676,
+      "end": 2.253,
+      "slot_end": 2.253,
+      "start_frame": 51,
+      "end_frame": 68,
+      "phonemes": [
+        "n",
+        "E",
+        "t",
+        "w",
+        "3:",
+        "k"
+      ]
+    },
+    {
+      "index": 5,
+      "word": "stays",
+      "punct": "",
+      "clause": 1,
+      "start": 2.253,
+      "end": 2.718,
+      "slot_end": 2.718,
+      "start_frame": 68,
+      "end_frame": 82,
+      "phonemes": [
+        "s",
+        "t",
+        "eI",
+        "z"
+      ]
+    },
+    {
+      "index": 6,
+      "word": "ours",
+      "punct": ".",
+      "clause": 1,
+      "start": 2.718,
+      "end": 3.03,
+      "slot_end": 3.461,
+      "start_frame": 82,
+      "end_frame": 91,
+      "phonemes": [
+        "aU",
+        "3",
+        "z"
+      ]
+    },
+    {
+      "index": 7,
+      "word": "Nobody",
+      "punct": "",
+      "clause": 2,
+      "start": 3.461,
+      "end": 3.986,
+      "slot_end": 3.986,
+      "start_frame": 104,
+      "end_frame": 120,
+      "phonemes": [
+        "n",
+        "oU",
+        "b",
+        "0",
+        "d",
+        "i"
+      ]
+    },
+    {
+      "index": 8,
+      "word": "crosses",
+      "punct": "",
+      "clause": 2,
+      "start": 3.986,
+      "end": 4.601,
+      "slot_end": 4.637,
+      "start_frame": 120,
+      "end_frame": 139,
+      "phonemes": [
+        "k",
+        "r",
+        "O",
+        "s",
+        "I",
+        "z"
+      ]
+    },
+    {
+      "index": 9,
+      "word": "while",
+      "punct": "",
+      "clause": 2,
+      "start": 4.637,
+      "end": 4.944,
+      "slot_end": 4.944,
+      "start_frame": 140,
+      "end_frame": 149,
+      "phonemes": [
+        "w",
+        "aI",
+        "l"
+      ]
+    },
+    {
+      "index": 10,
+      "word": "we",
+      "punct": "",
+      "clause": 2,
+      "start": 4.944,
+      "end": 5.118,
+      "slot_end": 5.118,
+      "start_frame": 149,
+      "end_frame": 154,
+      "phonemes": [
+        "w",
+        "i:"
+      ]
+    },
+    {
+      "index": 11,
+      "word": "stand",
+      "punct": "",
+      "clause": 2,
+      "start": 5.118,
+      "end": 5.613,
+      "slot_end": 5.613,
+      "start_frame": 154,
+      "end_frame": 169,
+      "phonemes": [
+        "s",
+        "t",
+        "a",
+        "n",
+        "d"
+      ]
+    },
+    {
+      "index": 12,
+      "word": "watch",
+      "punct": ".",
+      "clause": 2,
+      "start": 5.613,
+      "end": 6.126,
+      "slot_end": 6.557,
+      "start_frame": 169,
+      "end_frame": 184,
+      "phonemes": [
+        "w",
+        "0",
+        "tS"
+      ]
+    },
+    {
+      "index": 13,
+      "word": "Keep",
+      "punct": "",
+      "clause": 3,
+      "start": 6.557,
+      "end": 6.96,
+      "slot_end": 6.96,
+      "start_frame": 197,
+      "end_frame": 209,
+      "phonemes": [
+        "k",
+        "i:",
+        "p"
+      ]
+    },
+    {
+      "index": 14,
+      "word": "your",
+      "punct": "",
+      "clause": 3,
+      "start": 6.96,
+      "end": 7.134,
+      "slot_end": 7.134,
+      "start_frame": 209,
+      "end_frame": 215,
+      "phonemes": [
+        "j",
+        "U@",
+        "r"
+      ]
+    },
+    {
+      "index": 15,
+      "word": "eyes",
+      "punct": "",
+      "clause": 3,
+      "start": 7.134,
+      "end": 7.416,
+      "slot_end": 7.416,
+      "start_frame": 215,
+      "end_frame": 223,
+      "phonemes": [
+        "aI",
+        "z"
+      ]
+    },
+    {
+      "index": 16,
+      "word": "up",
+      "punct": "",
+      "clause": 3,
+      "start": 7.416,
+      "end": 7.666,
+      "slot_end": 7.824,
+      "start_frame": 223,
+      "end_frame": 230,
+      "phonemes": [
+        "V",
+        "p"
+      ]
+    },
+    {
+      "index": 17,
+      "word": "and",
+      "punct": "",
+      "clause": 3,
+      "start": 7.824,
+      "end": 8.044,
+      "slot_end": 8.044,
+      "start_frame": 235,
+      "end_frame": 242,
+      "phonemes": [
+        "a",
+        "n",
+        "d"
+      ]
+    },
+    {
+      "index": 18,
+      "word": "your",
+      "punct": "",
+      "clause": 3,
+      "start": 8.044,
+      "end": 8.203,
+      "slot_end": 8.203,
+      "start_frame": 242,
+      "end_frame": 247,
+      "phonemes": [
+        "j",
+        "U@"
+      ]
+    },
+    {
+      "index": 19,
+      "word": "cell",
+      "punct": "",
+      "clause": 3,
+      "start": 8.203,
+      "end": 8.557,
+      "slot_end": 8.557,
+      "start_frame": 247,
+      "end_frame": 257,
+      "phonemes": [
+        "s",
+        "E",
+        "l"
+      ]
+    },
+    {
+      "index": 20,
+      "word": "steady",
+      "punct": ".",
+      "clause": 3,
+      "start": 8.557,
+      "end": 9.101,
+      "slot_end": 9.532,
+      "start_frame": 257,
+      "end_frame": 274,
+      "phonemes": [
+        "s",
+        "t",
+        "E",
+        "d",
+        "i"
+      ]
+    },
+    {
+      "index": 21,
+      "word": "We",
+      "punct": "",
+      "clause": 4,
+      "start": 9.532,
+      "end": 9.687,
+      "slot_end": 9.687,
+      "start_frame": 286,
+      "end_frame": 291,
+      "phonemes": [
+        "w",
+        "i:"
+      ]
+    },
+    {
+      "index": 22,
+      "word": "stabilize",
+      "punct": "",
+      "clause": 4,
+      "start": 9.687,
+      "end": 10.405,
+      "slot_end": 10.405,
+      "start_frame": 291,
+      "end_frame": 313,
+      "phonemes": [
+        "s",
+        "t",
+        "eI",
+        "b",
+        "I",
+        "l",
+        "aI",
+        "z"
+      ]
+    },
+    {
+      "index": 23,
+      "word": "the",
+      "punct": "",
+      "clause": 4,
+      "start": 10.405,
+      "end": 10.541,
+      "slot_end": 10.541,
+      "start_frame": 313,
+      "end_frame": 317,
+      "phonemes": [
+        "D",
+        "@"
+      ]
+    },
+    {
+      "index": 24,
+      "word": "grid",
+      "punct": "",
+      "clause": 4,
+      "start": 10.541,
+      "end": 10.857,
+      "slot_end": 10.857,
+      "start_frame": 317,
+      "end_frame": 326,
+      "phonemes": [
+        "g",
+        "r",
+        "I",
+        "d"
+      ]
+    },
+    {
+      "index": 25,
+      "word": "together",
+      "punct": ",",
+      "clause": 4,
+      "start": 10.857,
+      "end": 11.532,
+      "slot_end": 11.747,
+      "start_frame": 326,
+      "end_frame": 346,
+      "phonemes": [
+        "t",
+        "@",
+        "g",
+        "E",
+        "D",
+        "3"
+      ]
+    },
+    {
+      "index": 26,
+      "word": "or",
+      "punct": "",
+      "clause": 5,
+      "start": 11.747,
+      "end": 11.875,
+      "slot_end": 11.875,
+      "start_frame": 353,
+      "end_frame": 357,
+      "phonemes": [
+        "O@"
+      ]
+    },
+    {
+      "index": 27,
+      "word": "we",
+      "punct": "",
+      "clause": 5,
+      "start": 11.875,
+      "end": 12.034,
+      "slot_end": 12.034,
+      "start_frame": 357,
+      "end_frame": 362,
+      "phonemes": [
+        "w",
+        "i:"
+      ]
+    },
+    {
+      "index": 28,
+      "word": "lose",
+      "punct": "",
+      "clause": 5,
+      "start": 12.034,
+      "end": 12.365,
+      "slot_end": 12.365,
+      "start_frame": 362,
+      "end_frame": 371,
+      "phonemes": [
+        "l",
+        "u:",
+        "z"
+      ]
+    },
+    {
+      "index": 29,
+      "word": "everything",
+      "punct": ".",
+      "clause": 5,
+      "start": 12.365,
+      "end": 13.155,
+      "slot_end": 13.586,
+      "start_frame": 371,
+      "end_frame": 395,
+      "phonemes": [
+        "E",
+        "v",
+        "r",
+        "I",
+        "T",
+        "I",
+        "N"
+      ]
+    }
+  ],
+  "phonemes": [
+    {
+      "word_index": 0,
+      "phoneme": "h",
+      "viseme": "IH",
+      "jaw": 0.25,
+      "start": 0.013,
+      "end": 0.074,
+      "start_frame": 1,
+      "end_frame": 3
+    },
+    {
+      "word_index": 0,
+      "phoneme": "oU",
+      "viseme": "OO",
+      "jaw": 0.3,
+      "start": 0.074,
+      "end": 0.386,
+      "start_frame": 3,
+      "end_frame": 12
+    },
+    {
+      "word_index": 0,
+      "phoneme": "l",
+      "viseme": "L",
+      "jaw": 0.45,
+      "start": 0.386,
+      "end": 0.415,
+      "start_frame": 12,
+      "end_frame": 13
+    },
+    {
+      "word_index": 0,
+      "phoneme": "d",
+      "viseme": "REST",
+      "jaw": 0.0,
+      "start": 0.415,
+      "end": 0.475,
+      "start_frame": 13,
+      "end_frame": 15
+    },
+    {
+      "word_index": 1,
+      "phoneme": "D",
+      "viseme": "TH",
+      "jaw": 0.3,
+      "start": 0.489,
+      "end": 0.544,
+      "start_frame": 15,
+      "end_frame": 17
+    },
+    {
+      "word_index": 1,
+      "phoneme": "@",
+      "viseme": "IH",
+      "jaw": 0.25,
+      "start": 0.544,
+      "end": 0.619,
+      "start_frame": 17,
+      "end_frame": 19
+    },
+    {
+      "word_index": 2,
+      "phoneme": "l",
+      "viseme": "L",
+      "jaw": 0.45,
+      "start": 0.63,
+      "end": 0.743,
+      "start_frame": 19,
+      "end_frame": 23
+    },
+    {
+      "word_index": 2,
+      "phoneme": "eI",
+      "viseme": "EE",
+      "jaw": 0.2,
+      "start": 0.743,
+      "end": 0.984,
+      "start_frame": 23,
+      "end_frame": 30
+    },
+    {
+      "word_index": 2,
+      "phoneme": "n",
+      "viseme": "REST",
+      "jaw": 0.0,
+      "start": 0.984,
+      "end": 1.112,
+      "start_frame": 30,
+      "end_frame": 34
+    },
+    {
+      "word_index": 3,
+      "phoneme": "D",
+      "viseme": "TH",
+      "jaw": 0.3,
+      "start": 1.557,
+      "end": 1.612,
+      "start_frame": 47,
+      "end_frame": 49
+    },
+    {
+      "word_index": 3,
+      "phoneme": "@",
+      "viseme": "IH",
+      "jaw": 0.25,
+      "start": 1.612,
+      "end": 1.676,
+      "start_frame": 49,
+      "end_frame": 51
+    },
+    {
+      "word_index": 4,
+      "phoneme": "n",
+      "viseme": "REST",
+      "jaw": 0.0,
+      "start": 1.687,
+      "end": 1.777,
+      "start_frame": 51,
+      "end_frame": 54
+    },
+    {
+      "word_index": 4,
+      "phoneme": "E",
+      "viseme": "AW",
+      "jaw": 0.95,
+      "start": 1.777,
+      "end": 1.932,
+      "start_frame": 54,
+      "end_frame": 58
+    },
+    {
+      "word_index": 4,
+      "phoneme": "t",
+      "viseme": "REST",
+      "jaw": 0.0,
+      "start": 1.932,
+      "end": 1.98,
+      "start_frame": 58,
+      "end_frame": 60
+    },
+    {
+      "word_index": 4,
+      "phoneme": "w",
+      "viseme": "UW",
+      "jaw": 0.35,
+      "start": 1.98,
+      "end": 2.07,
+      "start_frame": 60,
+      "end_frame": 63
+    },
+    {
+      "word_index": 4,
+      "phoneme": "3:",
+      "viseme": "IH",
+      "jaw": 0.25,
+      "start": 2.07,
+      "end": 2.2,
+      "start_frame": 63,
+      "end_frame": 66
+    },
+    {
+      "word_index": 4,
+      "phoneme": "k",
+      "viseme": "KG",
+      "jaw": 0.15,
+      "start": 2.2,
+      "end": 2.253,
+      "start_frame": 67,
+      "end_frame": 68
+    },
+    {
+      "word_index": 5,
+      "phoneme": "s",
+      "viseme": "SZ",
+      "jaw": 0.15,
+      "start": 2.267,
+      "end": 2.349,
+      "start_frame": 69,
+      "end_frame": 71
+    },
+    {
+      "word_index": 5,
+      "phoneme": "t",
+      "viseme": "REST",
+      "jaw": 0.0,
+      "start": 2.349,
+      "end": 2.396,
+      "start_frame": 71,
+      "end_frame": 72
+    },
+    {
+      "word_index": 5,
+      "phoneme": "eI",
+      "viseme": "EE",
+      "jaw": 0.2,
+      "start": 2.396,
+      "end": 2.66,
+      "start_frame": 72,
+      "end_frame": 80
+    },
+    {
+      "word_index": 5,
+      "phoneme": "z",
+      "viseme": "SZ",
+      "jaw": 0.15,
+      "start": 2.66,
+      "end": 2.718,
+      "start_frame": 80,
+      "end_frame": 82
+    },
+    {
+      "word_index": 6,
+      "phoneme": "aU",
+      "viseme": "AW",
+      "jaw": 0.95,
+      "start": 2.718,
+      "end": 2.811,
+      "start_frame": 82,
+      "end_frame": 85
+    },
+    {
+      "word_index": 6,
+      "phoneme": "3",
+      "viseme": "IH",
+      "jaw": 0.25,
+      "start": 2.811,
+      "end": 2.939,
+      "start_frame": 85,
+      "end_frame": 89
+    },
+    {
+      "word_index": 6,
+      "phoneme": "z",
+      "viseme": "SZ",
+      "jaw": 0.15,
+      "start": 2.939,
+      "end": 3.03,
+      "start_frame": 89,
+      "end_frame": 91
+    },
+    {
+      "word_index": 7,
+      "phoneme": "n",
+      "viseme": "REST",
+      "jaw": 0.0,
+      "start": 3.461,
+      "end": 3.557,
+      "start_frame": 104,
+      "end_frame": 107
+    },
+    {
+      "word_index": 7,
+      "phoneme": "oU",
+      "viseme": "OO",
+      "jaw": 0.3,
+      "start": 3.557,
+      "end": 3.69,
+      "start_frame": 107,
+      "end_frame": 111
+    },
+    {
+      "word_index": 7,
+      "phoneme": "b",
+      "viseme": "MBP",
+      "jaw": 0.08,
+      "start": 3.69,
+      "end": 3.754,
+      "start_frame": 111,
+      "end_frame": 113
+    },
+    {
+      "word_index": 7,
+      "phoneme": "0",
+      "viseme": "AW",
+      "jaw": 0.95,
+      "start": 3.754,
+      "end": 3.856,
+      "start_frame": 113,
+      "end_frame": 116
+    },
+    {
+      "word_index": 7,
+      "phoneme": "d",
+      "viseme": "REST",
+      "jaw": 0.0,
+      "start": 3.856,
+      "end": 3.911,
+      "start_frame": 116,
+      "end_frame": 118
+    },
+    {
+      "word_index": 7,
+      "phoneme": "i",
+      "viseme": "EE",
+      "jaw": 0.2,
+      "start": 3.911,
+      "end": 3.986,
+      "start_frame": 118,
+      "end_frame": 120
+    },
+    {
+      "word_index": 8,
+      "phoneme": "k",
+      "viseme": "KG",
+      "jaw": 0.15,
+      "start": 4.044,
+      "end": 4.115,
+      "start_frame": 122,
+      "end_frame": 124
+    },
+    {
+      "word_index": 8,
+      "phoneme": "r",
+      "viseme": "R",
+      "jaw": 0.3,
+      "start": 4.115,
+      "end": 4.176,
+      "start_frame": 124,
+      "end_frame": 126
+    },
+    {
+      "word_index": 8,
+      "phoneme": "O",
+      "viseme": "OH",
+      "jaw": 0.5,
+      "start": 4.176,
+      "end": 4.309,
+      "start_frame": 126,
+      "end_frame": 130
+    },
+    {
+      "word_index": 8,
+      "phoneme": "s",
+      "viseme": "SZ",
+      "jaw": 0.15,
+      "start": 4.309,
+      "end": 4.395,
+      "start_frame": 130,
+      "end_frame": 132
+    },
+    {
+      "word_index": 8,
+      "phoneme": "I",
+      "viseme": "IH",
+      "jaw": 0.25,
+      "start": 4.395,
+      "end": 4.508,
+      "start_frame": 132,
+      "end_frame": 136
+    },
+    {
+      "word_index": 8,
+      "phoneme": "z",
+      "viseme": "SZ",
+      "jaw": 0.15,
+      "start": 4.508,
+      "end": 4.601,
+      "start_frame": 136,
+      "end_frame": 139
+    },
+    {
+      "word_index": 9,
+      "phoneme": "w",
+      "viseme": "UW",
+      "jaw": 0.35,
+      "start": 4.637,
+      "end": 4.736,
+      "start_frame": 140,
+      "end_frame": 143
+    },
+    {
+      "word_index": 9,
+      "phoneme": "aI",
+      "viseme": "AW",
+      "jaw": 0.95,
+      "start": 4.736,
+      "end": 4.944,
+      "start_frame": 143,
+      "end_frame": 149
+    },
+    {
+      "word_index": 9,
+      "phoneme": "l",
+      "viseme": "L",
+      "jaw": 0.45,
+      "start": 4.944,
+      "end": 4.944,
+      "start_frame": 149,
+      "end_frame": 149
+    },
+    {
+      "word_index": 10,
+      "phoneme": "w",
+      "viseme": "UW",
+      "jaw": 0.35,
+      "start": 4.968,
+      "end": 5.055,
+      "start_frame": 150,
+      "end_frame": 152
+    },
+    {
+      "word_index": 10,
+      "phoneme": "i:",
+      "viseme": "EE",
+      "jaw": 0.2,
+      "start": 5.055,
+      "end": 5.118,
+      "start_frame": 152,
+      "end_frame": 154
+    },
+    {
+      "word_index": 11,
+      "phoneme": "s",
+      "viseme": "SZ",
+      "jaw": 0.15,
+      "start": 5.132,
+      "end": 5.233,
+      "start_frame": 154,
+      "end_frame": 157
+    },
+    {
+      "word_index": 11,
+      "phoneme": "t",
+      "viseme": "REST",
+      "jaw": 0.0,
+      "start": 5.233,
+      "end": 5.28,
+      "start_frame": 157,
+      "end_frame": 159
+    },
+    {
+      "word_index": 11,
+      "phoneme": "a",
+      "viseme": "AW",
+      "jaw": 0.95,
+      "start": 5.28,
+      "end": 5.445,
+      "start_frame": 159,
+      "end_frame": 164
+    },
+    {
+      "word_index": 11,
+      "phoneme": "n",
+      "viseme": "REST",
+      "jaw": 0.0,
+      "start": 5.445,
+      "end": 5.578,
+      "start_frame": 164,
+      "end_frame": 168
+    },
+    {
+      "word_index": 11,
+      "phoneme": "d",
+      "viseme": "REST",
+      "jaw": 0.0,
+      "start": 5.578,
+      "end": 5.613,
+      "start_frame": 168,
+      "end_frame": 169
+    },
+    {
+      "word_index": 12,
+      "phoneme": "w",
+      "viseme": "UW",
+      "jaw": 0.35,
+      "start": 5.613,
+      "end": 5.753,
+      "start_frame": 169,
+      "end_frame": 173
+    },
+    {
+      "word_index": 12,
+      "phoneme": "0",
+      "viseme": "AW",
+      "jaw": 0.95,
+      "start": 5.753,
+      "end": 6.022,
+      "start_frame": 173,
+      "end_frame": 181
+    },
+    {
+      "word_index": 12,
+      "phoneme": "tS",
+      "viseme": "SZ",
+      "jaw": 0.15,
+      "start": 6.022,
+      "end": 6.126,
+      "start_frame": 181,
+      "end_frame": 184
+    },
+    {
+      "word_index": 13,
+      "phoneme": "k",
+      "viseme": "KG",
+      "jaw": 0.15,
+      "start": 6.615,
+      "end": 6.68,
+      "start_frame": 199,
+      "end_frame": 201
+    },
+    {
+      "word_index": 13,
+      "phoneme": "i:",
+      "viseme": "EE",
+      "jaw": 0.2,
+      "start": 6.68,
+      "end": 6.869,
+      "start_frame": 201,
+      "end_frame": 207
+    },
+    {
+      "word_index": 13,
+      "phoneme": "p",
+      "viseme": "MBP",
+      "jaw": 0.08,
+      "start": 6.869,
+      "end": 6.96,
+      "start_frame": 207,
+      "end_frame": 209
+    },
+    {
+      "word_index": 14,
+      "phoneme": "j",
+      "viseme": "IH",
+      "jaw": 0.25,
+      "start": 6.96,
+      "end": 7.041,
+      "start_frame": 209,
+      "end_frame": 212
+    },
+    {
+      "word_index": 14,
+      "phoneme": "U@",
+      "viseme": "OO",
+      "jaw": 0.3,
+      "start": 7.041,
+      "end": 7.119,
+      "start_frame": 212,
+      "end_frame": 214
+    },
+    {
+      "word_index": 14,
+      "phoneme": "r",
+      "viseme": "R",
+      "jaw": 0.3,
+      "start": 7.119,
+      "end": 7.134,
+      "start_frame": 214,
+      "end_frame": 215
+    },
+    {
+      "word_index": 15,
+      "phoneme": "aI",
+      "viseme": "AW",
+      "jaw": 0.95,
+      "start": 7.178,
+      "end": 7.349,
+      "start_frame": 216,
+      "end_frame": 221
+    },
+    {
+      "word_index": 15,
+      "phoneme": "z",
+      "viseme": "SZ",
+      "jaw": 0.15,
+      "start": 7.349,
+      "end": 7.416,
+      "start_frame": 221,
+      "end_frame": 223
+    },
+    {
+      "word_index": 16,
+      "phoneme": "V",
+      "viseme": "AW",
+      "jaw": 0.95,
+      "start": 7.416,
+      "end": 7.575,
+      "start_frame": 223,
+      "end_frame": 228
+    },
+    {
+      "word_index": 16,
+      "phoneme": "p",
+      "viseme": "MBP",
+      "jaw": 0.08,
+      "start": 7.575,
+      "end": 7.666,
+      "start_frame": 228,
+      "end_frame": 230
+    },
+    {
+      "word_index": 17,
+      "phoneme": "a",
+      "viseme": "AW",
+      "jaw": 0.95,
+      "start": 7.824,
+      "end": 7.914,
+      "start_frame": 235,
+      "end_frame": 238
+    },
+    {
+      "word_index": 17,
+      "phoneme": "n",
+      "viseme": "REST",
+      "jaw": 0.0,
+      "start": 7.914,
+      "end": 8.009,
+      "start_frame": 238,
+      "end_frame": 241
+    },
+    {
+      "word_index": 17,
+      "phoneme": "d",
+      "viseme": "REST",
+      "jaw": 0.0,
+      "start": 8.009,
+      "end": 8.044,
+      "start_frame": 241,
+      "end_frame": 242
+    },
+    {
+      "word_index": 18,
+      "phoneme": "j",
+      "viseme": "IH",
+      "jaw": 0.25,
+      "start": 8.044,
+      "end": 8.122,
+      "start_frame": 242,
+      "end_frame": 244
+    },
+    {
+      "word_index": 18,
+      "phoneme": "U@",
+      "viseme": "OO",
+      "jaw": 0.3,
+      "start": 8.122,
+      "end": 8.203,
+      "start_frame": 244,
+      "end_frame": 247
+    },
+    {
+      "word_index": 19,
+      "phoneme": "s",
+      "viseme": "SZ",
+      "jaw": 0.15,
+      "start": 8.217,
+      "end": 8.303,
+      "start_frame": 247,
+      "end_frame": 250
+    },
+    {
+      "word_index": 19,
+      "phoneme": "E",
+      "viseme": "AW",
+      "jaw": 0.95,
+      "start": 8.303,
+      "end": 8.557,
+      "start_frame": 250,
+      "end_frame": 257
+    },
+    {
+      "word_index": 19,
+      "phoneme": "l",
+      "viseme": "L",
+      "jaw": 0.45,
+      "start": 8.557,
+      "end": 8.557,
+      "start_frame": 257,
+      "end_frame": 257
+    },
+    {
+      "word_index": 20,
+      "phoneme": "s",
+      "viseme": "SZ",
+      "jaw": 0.15,
+      "start": 8.571,
+      "end": 8.652,
+      "start_frame": 258,
+      "end_frame": 260
+    },
+    {
+      "word_index": 20,
+      "phoneme": "t",
+      "viseme": "REST",
+      "jaw": 0.0,
+      "start": 8.652,
+      "end": 8.7,
+      "start_frame": 260,
+      "end_frame": 261
+    },
+    {
+      "word_index": 20,
+      "phoneme": "E",
+      "viseme": "AW",
+      "jaw": 0.95,
+      "start": 8.7,
+      "end": 8.897,
+      "start_frame": 262,
+      "end_frame": 267
+    },
+    {
+      "word_index": 20,
+      "phoneme": "d",
+      "viseme": "REST",
+      "jaw": 0.0,
+      "start": 8.897,
+      "end": 8.967,
+      "start_frame": 267,
+      "end_frame": 270
+    },
+    {
+      "word_index": 20,
+      "phoneme": "i",
+      "viseme": "EE",
+      "jaw": 0.2,
+      "start": 8.967,
+      "end": 9.101,
+      "start_frame": 270,
+      "end_frame": 274
+    },
+    {
+      "word_index": 21,
+      "phoneme": "w",
+      "viseme": "UW",
+      "jaw": 0.35,
+      "start": 9.532,
+      "end": 9.62,
+      "start_frame": 286,
+      "end_frame": 289
+    },
+    {
+      "word_index": 21,
+      "phoneme": "i:",
+      "viseme": "EE",
+      "jaw": 0.2,
+      "start": 9.62,
+      "end": 9.687,
+      "start_frame": 289,
+      "end_frame": 291
+    },
+    {
+      "word_index": 22,
+      "phoneme": "s",
+      "viseme": "SZ",
+      "jaw": 0.15,
+      "start": 9.701,
+      "end": 9.802,
+      "start_frame": 292,
+      "end_frame": 295
+    },
+    {
+      "word_index": 22,
+      "phoneme": "t",
+      "viseme": "REST",
+      "jaw": 0.0,
+      "start": 9.802,
+      "end": 9.85,
+      "start_frame": 295,
+      "end_frame": 296
+    },
+    {
+      "word_index": 22,
+      "phoneme": "eI",
+      "viseme": "EE",
+      "jaw": 0.2,
+      "start": 9.85,
+      "end": 10.012,
+      "start_frame": 296,
+      "end_frame": 301
+    },
+    {
+      "word_index": 22,
+      "phoneme": "b",
+      "viseme": "MBP",
+      "jaw": 0.08,
+      "start": 10.012,
+      "end": 10.07,
+      "start_frame": 301,
+      "end_frame": 303
+    },
+    {
+      "word_index": 22,
+      "phoneme": "I",
+      "viseme": "IH",
+      "jaw": 0.25,
+      "start": 10.07,
+      "end": 10.143,
+      "start_frame": 303,
+      "end_frame": 305
+    },
+    {
+      "word_index": 22,
+      "phoneme": "l",
+      "viseme": "L",
+      "jaw": 0.45,
+      "start": 10.143,
+      "end": 10.209,
+      "start_frame": 305,
+      "end_frame": 307
+    },
+    {
+      "word_index": 22,
+      "phoneme": "aI",
+      "viseme": "AW",
+      "jaw": 0.95,
+      "start": 10.209,
+      "end": 10.323,
+      "start_frame": 307,
+      "end_frame": 310
+    },
+    {
+      "word_index": 22,
+      "phoneme": "z",
+      "viseme": "SZ",
+      "jaw": 0.15,
+      "start": 10.323,
+      "end": 10.405,
+      "start_frame": 310,
+      "end_frame": 313
+    },
+    {
+      "word_index": 23,
+      "phoneme": "D",
+      "viseme": "TH",
+      "jaw": 0.3,
+      "start": 10.419,
+      "end": 10.474,
+      "start_frame": 313,
+      "end_frame": 315
+    },
+    {
+      "word_index": 23,
+      "phoneme": "@",
+      "viseme": "IH",
+      "jaw": 0.25,
+      "start": 10.474,
+      "end": 10.541,
+      "start_frame": 315,
+      "end_frame": 317
+    },
+    {
+      "word_index": 24,
+      "phoneme": "g",
+      "viseme": "KG",
+      "jaw": 0.15,
+      "start": 10.541,
+      "end": 10.602,
+      "start_frame": 317,
+      "end_frame": 319
+    },
+    {
+      "word_index": 24,
+      "phoneme": "r",
+      "viseme": "R",
+      "jaw": 0.3,
+      "start": 10.602,
+      "end": 10.675,
+      "start_frame": 319,
+      "end_frame": 321
+    },
+    {
+      "word_index": 24,
+      "phoneme": "I",
+      "viseme": "IH",
+      "jaw": 0.25,
+      "start": 10.675,
+      "end": 10.773,
+      "start_frame": 321,
+      "end_frame": 324
+    },
+    {
+      "word_index": 24,
+      "phoneme": "d",
+      "viseme": "REST",
+      "jaw": 0.0,
+      "start": 10.773,
+      "end": 10.857,
+      "start_frame": 324,
+      "end_frame": 326
+    },
+    {
+      "word_index": 25,
+      "phoneme": "t",
+      "viseme": "REST",
+      "jaw": 0.0,
+      "start": 10.903,
+      "end": 10.95,
+      "start_frame": 328,
+      "end_frame": 329
+    },
+    {
+      "word_index": 25,
+      "phoneme": "@",
+      "viseme": "IH",
+      "jaw": 0.25,
+      "start": 10.95,
+      "end": 11.008,
+      "start_frame": 329,
+      "end_frame": 331
+    },
+    {
+      "word_index": 25,
+      "phoneme": "g",
+      "viseme": "KG",
+      "jaw": 0.15,
+      "start": 11.008,
+      "end": 11.101,
+      "start_frame": 331,
+      "end_frame": 334
+    },
+    {
+      "word_index": 25,
+      "phoneme": "E",
+      "viseme": "AW",
+      "jaw": 0.95,
+      "start": 11.101,
+      "end": 11.313,
+      "start_frame": 334,
+      "end_frame": 340
+    },
+    {
+      "word_index": 25,
+      "phoneme": "D",
+      "viseme": "TH",
+      "jaw": 0.3,
+      "start": 11.313,
+      "end": 11.38,
+      "start_frame": 340,
+      "end_frame": 342
+    },
+    {
+      "word_index": 25,
+      "phoneme": "3",
+      "viseme": "IH",
+      "jaw": 0.25,
+      "start": 11.38,
+      "end": 11.532,
+      "start_frame": 342,
+      "end_frame": 346
+    },
+    {
+      "word_index": 26,
+      "phoneme": "O@",
+      "viseme": "OH",
+      "jaw": 0.5,
+      "start": 11.747,
+      "end": 11.875,
+      "start_frame": 353,
+      "end_frame": 357
+    },
+    {
+      "word_index": 27,
+      "phoneme": "w",
+      "viseme": "UW",
+      "jaw": 0.35,
+      "start": 11.886,
+      "end": 11.973,
+      "start_frame": 357,
+      "end_frame": 360
+    },
+    {
+      "word_index": 27,
+      "phoneme": "i:",
+      "viseme": "EE",
+      "jaw": 0.2,
+      "start": 11.973,
+      "end": 12.034,
+      "start_frame": 360,
+      "end_frame": 362
+    },
+    {
+      "word_index": 28,
+      "phoneme": "l",
+      "viseme": "L",
+      "jaw": 0.45,
+      "start": 12.045,
+      "end": 12.135,
+      "start_frame": 362,
+      "end_frame": 365
+    },
+    {
+      "word_index": 28,
+      "phoneme": "u:",
+      "viseme": "OO",
+      "jaw": 0.3,
+      "start": 12.135,
+      "end": 12.266,
+      "start_frame": 365,
+      "end_frame": 368
+    },
+    {
+      "word_index": 28,
+      "phoneme": "z",
+      "viseme": "SZ",
+      "jaw": 0.15,
+      "start": 12.266,
+      "end": 12.365,
+      "start_frame": 368,
+      "end_frame": 371
+    },
+    {
+      "word_index": 29,
+      "phoneme": "E",
+      "viseme": "AW",
+      "jaw": 0.95,
+      "start": 12.365,
+      "end": 12.606,
+      "start_frame": 371,
+      "end_frame": 379
+    },
+    {
+      "word_index": 29,
+      "phoneme": "v",
+      "viseme": "FV",
+      "jaw": 0.18,
+      "start": 12.606,
+      "end": 12.71,
+      "start_frame": 379,
+      "end_frame": 382
+    },
+    {
+      "word_index": 29,
+      "phoneme": "r",
+      "viseme": "R",
+      "jaw": 0.3,
+      "start": 12.71,
+      "end": 12.765,
+      "start_frame": 382,
+      "end_frame": 383
+    },
+    {
+      "word_index": 29,
+      "phoneme": "I",
+      "viseme": "IH",
+      "jaw": 0.25,
+      "start": 12.765,
+      "end": 12.814,
+      "start_frame": 383,
+      "end_frame": 385
+    },
+    {
+      "word_index": 29,
+      "phoneme": "T",
+      "viseme": "TH",
+      "jaw": 0.3,
+      "start": 12.814,
+      "end": 12.911,
+      "start_frame": 385,
+      "end_frame": 388
+    },
+    {
+      "word_index": 29,
+      "phoneme": "I",
+      "viseme": "IH",
+      "jaw": 0.25,
+      "start": 12.911,
+      "end": 13.05,
+      "start_frame": 388,
+      "end_frame": 392
+    },
+    {
+      "word_index": 29,
+      "phoneme": "N",
+      "viseme": "KG",
+      "jaw": 0.15,
+      "start": 13.05,
+      "end": 13.155,
+      "start_frame": 392,
+      "end_frame": 395
+    }
+  ],
+  "pauses": [
+    {
+      "name": "_:",
+      "kind": "clause",
+      "start": 1.112,
+      "end": 1.543,
+      "start_frame": 34,
+      "end_frame": 47
+    },
+    {
+      "name": "_",
+      "kind": "lead",
+      "start": 1.543,
+      "end": 1.543,
+      "start_frame": 47,
+      "end_frame": 47
+    },
+    {
+      "name": "_:",
+      "kind": "clause",
+      "start": 3.03,
+      "end": 3.461,
+      "start_frame": 91,
+      "end_frame": 104
+    },
+    {
+      "name": "_",
+      "kind": "lead",
+      "start": 3.461,
+      "end": 3.461,
+      "start_frame": 104,
+      "end_frame": 104
+    },
+    {
+      "name": "_!",
+      "kind": "word",
+      "start": 4.601,
+      "end": 4.637,
+      "start_frame": 139,
+      "end_frame": 140
+    },
+    {
+      "name": "_:",
+      "kind": "clause",
+      "start": 6.126,
+      "end": 6.557,
+      "start_frame": 184,
+      "end_frame": 197
+    },
+    {
+      "name": "_",
+      "kind": "lead",
+      "start": 6.557,
+      "end": 6.557,
+      "start_frame": 197,
+      "end_frame": 197
+    },
+    {
+      "name": "_:",
+      "kind": "clause",
+      "start": 7.666,
+      "end": 7.745,
+      "start_frame": 230,
+      "end_frame": 233
+    },
+    {
+      "name": "_:",
+      "kind": "clause",
+      "start": 7.745,
+      "end": 7.824,
+      "start_frame": 233,
+      "end_frame": 235
+    },
+    {
+      "name": "_:",
+      "kind": "clause",
+      "start": 9.101,
+      "end": 9.532,
+      "start_frame": 274,
+      "end_frame": 286
+    },
+    {
+      "name": "_",
+      "kind": "lead",
+      "start": 9.532,
+      "end": 9.532,
+      "start_frame": 286,
+      "end_frame": 286
+    },
+    {
+      "name": "_:",
+      "kind": "clause",
+      "start": 11.532,
+      "end": 11.747,
+      "start_frame": 346,
+      "end_frame": 353
+    },
+    {
+      "name": "_",
+      "kind": "lead",
+      "start": 11.747,
+      "end": 11.747,
+      "start_frame": 353,
+      "end_frame": 353
+    },
+    {
+      "name": "_:",
+      "kind": "clause",
+      "start": 13.155,
+      "end": 13.586,
+      "start_frame": 395,
+      "end_frame": 408
+    },
+    {
+      "name": "_",
+      "kind": "lead",
+      "start": 13.586,
+      "end": 13.586,
+      "start_frame": 408,
+      "end_frame": 408
+    }
+  ],
+  "visemes": [
+    {
+      "viseme": "IH",
+      "jaw": 0.25,
+      "start": 0.013,
+      "end": 0.074,
+      "start_frame": 1,
+      "end_frame": 3
+    },
+    {
+      "viseme": "OO",
+      "jaw": 0.3,
+      "start": 0.074,
+      "end": 0.386,
+      "start_frame": 3,
+      "end_frame": 12
+    },
+    {
+      "viseme": "L",
+      "jaw": 0.45,
+      "start": 0.386,
+      "end": 0.415,
+      "start_frame": 12,
+      "end_frame": 13
+    },
+    {
+      "viseme": "REST",
+      "jaw": 0.0,
+      "start": 0.415,
+      "end": 0.475,
+      "start_frame": 13,
+      "end_frame": 15
+    },
+    {
+      "viseme": "TH",
+      "jaw": 0.3,
+      "start": 0.489,
+      "end": 0.544,
+      "start_frame": 15,
+      "end_frame": 17
+    },
+    {
+      "viseme": "IH",
+      "jaw": 0.25,
+      "start": 0.544,
+      "end": 0.619,
+      "start_frame": 17,
+      "end_frame": 19
+    },
+    {
+      "viseme": "L",
+      "jaw": 0.45,
+      "start": 0.63,
+      "end": 0.743,
+      "start_frame": 19,
+      "end_frame": 23
+    },
+    {
+      "viseme": "EE",
+      "jaw": 0.2,
+      "start": 0.743,
+      "end": 0.984,
+      "start_frame": 23,
+      "end_frame": 30
+    },
+    {
+      "viseme": "REST",
+      "jaw": 0.0,
+      "start": 0.984,
+      "end": 1.112,
+      "start_frame": 30,
+      "end_frame": 34
+    },
+    {
+      "viseme": "TH",
+      "jaw": 0.3,
+      "start": 1.557,
+      "end": 1.612,
+      "start_frame": 47,
+      "end_frame": 49
+    },
+    {
+      "viseme": "IH",
+      "jaw": 0.25,
+      "start": 1.612,
+      "end": 1.676,
+      "start_frame": 49,
+      "end_frame": 51
+    },
+    {
+      "viseme": "REST",
+      "jaw": 0.0,
+      "start": 1.687,
+      "end": 1.777,
+      "start_frame": 51,
+      "end_frame": 54
+    },
+    {
+      "viseme": "AW",
+      "jaw": 0.95,
+      "start": 1.777,
+      "end": 1.932,
+      "start_frame": 54,
+      "end_frame": 58
+    },
+    {
+      "viseme": "REST",
+      "jaw": 0.0,
+      "start": 1.932,
+      "end": 1.98,
+      "start_frame": 58,
+      "end_frame": 60
+    },
+    {
+      "viseme": "UW",
+      "jaw": 0.35,
+      "start": 1.98,
+      "end": 2.07,
+      "start_frame": 60,
+      "end_frame": 63
+    },
+    {
+      "viseme": "IH",
+      "jaw": 0.25,
+      "start": 2.07,
+      "end": 2.2,
+      "start_frame": 63,
+      "end_frame": 66
+    },
+    {
+      "viseme": "KG",
+      "jaw": 0.15,
+      "start": 2.2,
+      "end": 2.253,
+      "start_frame": 67,
+      "end_frame": 68
+    },
+    {
+      "viseme": "SZ",
+      "jaw": 0.15,
+      "start": 2.267,
+      "end": 2.349,
+      "start_frame": 69,
+      "end_frame": 71
+    },
+    {
+      "viseme": "REST",
+      "jaw": 0.0,
+      "start": 2.349,
+      "end": 2.396,
+      "start_frame": 71,
+      "end_frame": 72
+    },
+    {
+      "viseme": "EE",
+      "jaw": 0.2,
+      "start": 2.396,
+      "end": 2.66,
+      "start_frame": 72,
+      "end_frame": 80
+    },
+    {
+      "viseme": "SZ",
+      "jaw": 0.15,
+      "start": 2.66,
+      "end": 2.718,
+      "start_frame": 80,
+      "end_frame": 82
+    },
+    {
+      "viseme": "AW",
+      "jaw": 0.95,
+      "start": 2.718,
+      "end": 2.811,
+      "start_frame": 82,
+      "end_frame": 85
+    },
+    {
+      "viseme": "IH",
+      "jaw": 0.25,
+      "start": 2.811,
+      "end": 2.939,
+      "start_frame": 85,
+      "end_frame": 89
+    },
+    {
+      "viseme": "SZ",
+      "jaw": 0.15,
+      "start": 2.939,
+      "end": 3.03,
+      "start_frame": 89,
+      "end_frame": 91
+    },
+    {
+      "viseme": "REST",
+      "jaw": 0.0,
+      "start": 3.461,
+      "end": 3.557,
+      "start_frame": 104,
+      "end_frame": 107
+    },
+    {
+      "viseme": "OO",
+      "jaw": 0.3,
+      "start": 3.557,
+      "end": 3.69,
+      "start_frame": 107,
+      "end_frame": 111
+    },
+    {
+      "viseme": "MBP",
+      "jaw": 0.08,
+      "start": 3.69,
+      "end": 3.754,
+      "start_frame": 111,
+      "end_frame": 113
+    },
+    {
+      "viseme": "AW",
+      "jaw": 0.95,
+      "start": 3.754,
+      "end": 3.856,
+      "start_frame": 113,
+      "end_frame": 116
+    },
+    {
+      "viseme": "REST",
+      "jaw": 0.0,
+      "start": 3.856,
+      "end": 3.911,
+      "start_frame": 116,
+      "end_frame": 118
+    },
+    {
+      "viseme": "EE",
+      "jaw": 0.2,
+      "start": 3.911,
+      "end": 3.986,
+      "start_frame": 118,
+      "end_frame": 120
+    },
+    {
+      "viseme": "KG",
+      "jaw": 0.15,
+      "start": 4.044,
+      "end": 4.115,
+      "start_frame": 122,
+      "end_frame": 124
+    },
+    {
+      "viseme": "R",
+      "jaw": 0.3,
+      "start": 4.115,
+      "end": 4.176,
+      "start_frame": 124,
+      "end_frame": 126
+    },
+    {
+      "viseme": "OH",
+      "jaw": 0.5,
+      "start": 4.176,
+      "end": 4.309,
+      "start_frame": 126,
+      "end_frame": 130
+    },
+    {
+      "viseme": "SZ",
+      "jaw": 0.15,
+      "start": 4.309,
+      "end": 4.395,
+      "start_frame": 130,
+      "end_frame": 132
+    },
+    {
+      "viseme": "IH",
+      "jaw": 0.25,
+      "start": 4.395,
+      "end": 4.508,
+      "start_frame": 132,
+      "end_frame": 136
+    },
+    {
+      "viseme": "SZ",
+      "jaw": 0.15,
+      "start": 4.508,
+      "end": 4.601,
+      "start_frame": 136,
+      "end_frame": 139
+    },
+    {
+      "viseme": "UW",
+      "jaw": 0.35,
+      "start": 4.637,
+      "end": 4.736,
+      "start_frame": 140,
+      "end_frame": 143
+    },
+    {
+      "viseme": "AW",
+      "jaw": 0.95,
+      "start": 4.736,
+      "end": 4.944,
+      "start_frame": 143,
+      "end_frame": 149
+    },
+    {
+      "viseme": "L",
+      "jaw": 0.45,
+      "start": 4.944,
+      "end": 4.944,
+      "start_frame": 149,
+      "end_frame": 149
+    },
+    {
+      "viseme": "UW",
+      "jaw": 0.35,
+      "start": 4.968,
+      "end": 5.055,
+      "start_frame": 150,
+      "end_frame": 152
+    },
+    {
+      "viseme": "EE",
+      "jaw": 0.2,
+      "start": 5.055,
+      "end": 5.118,
+      "start_frame": 152,
+      "end_frame": 154
+    },
+    {
+      "viseme": "SZ",
+      "jaw": 0.15,
+      "start": 5.132,
+      "end": 5.233,
+      "start_frame": 154,
+      "end_frame": 157
+    },
+    {
+      "viseme": "REST",
+      "jaw": 0.0,
+      "start": 5.233,
+      "end": 5.28,
+      "start_frame": 157,
+      "end_frame": 159
+    },
+    {
+      "viseme": "AW",
+      "jaw": 0.95,
+      "start": 5.28,
+      "end": 5.445,
+      "start_frame": 159,
+      "end_frame": 164
+    },
+    {
+      "viseme": "REST",
+      "jaw": 0.0,
+      "start": 5.445,
+      "end": 5.613,
+      "start_frame": 164,
+      "end_frame": 169
+    },
+    {
+      "viseme": "UW",
+      "jaw": 0.35,
+      "start": 5.613,
+      "end": 5.753,
+      "start_frame": 169,
+      "end_frame": 173
+    },
+    {
+      "viseme": "AW",
+      "jaw": 0.95,
+      "start": 5.753,
+      "end": 6.022,
+      "start_frame": 173,
+      "end_frame": 181
+    },
+    {
+      "viseme": "SZ",
+      "jaw": 0.15,
+      "start": 6.022,
+      "end": 6.126,
+      "start_frame": 181,
+      "end_frame": 184
+    },
+    {
+      "viseme": "KG",
+      "jaw": 0.15,
+      "start": 6.615,
+      "end": 6.68,
+      "start_frame": 199,
+      "end_frame": 201
+    },
+    {
+      "viseme": "EE",
+      "jaw": 0.2,
+      "start": 6.68,
+      "end": 6.869,
+      "start_frame": 201,
+      "end_frame": 207
+    },
+    {
+      "viseme": "MBP",
+      "jaw": 0.08,
+      "start": 6.869,
+      "end": 6.96,
+      "start_frame": 207,
+      "end_frame": 209
+    },
+    {
+      "viseme": "IH",
+      "jaw": 0.25,
+      "start": 6.96,
+      "end": 7.041,
+      "start_frame": 209,
+      "end_frame": 212
+    },
+    {
+      "viseme": "OO",
+      "jaw": 0.3,
+      "start": 7.041,
+      "end": 7.119,
+      "start_frame": 212,
+      "end_frame": 214
+    },
+    {
+      "viseme": "R",
+      "jaw": 0.3,
+      "start": 7.119,
+      "end": 7.134,
+      "start_frame": 214,
+      "end_frame": 215
+    },
+    {
+      "viseme": "AW",
+      "jaw": 0.95,
+      "start": 7.178,
+      "end": 7.349,
+      "start_frame": 216,
+      "end_frame": 221
+    },
+    {
+      "viseme": "SZ",
+      "jaw": 0.15,
+      "start": 7.349,
+      "end": 7.416,
+      "start_frame": 221,
+      "end_frame": 223
+    },
+    {
+      "viseme": "AW",
+      "jaw": 0.95,
+      "start": 7.416,
+      "end": 7.575,
+      "start_frame": 223,
+      "end_frame": 228
+    },
+    {
+      "viseme": "MBP",
+      "jaw": 0.08,
+      "start": 7.575,
+      "end": 7.666,
+      "start_frame": 228,
+      "end_frame": 230
+    },
+    {
+      "viseme": "AW",
+      "jaw": 0.95,
+      "start": 7.824,
+      "end": 7.914,
+      "start_frame": 235,
+      "end_frame": 238
+    },
+    {
+      "viseme": "REST",
+      "jaw": 0.0,
+      "start": 7.914,
+      "end": 8.044,
+      "start_frame": 238,
+      "end_frame": 242
+    },
+    {
+      "viseme": "IH",
+      "jaw": 0.25,
+      "start": 8.044,
+      "end": 8.122,
+      "start_frame": 242,
+      "end_frame": 244
+    },
+    {
+      "viseme": "OO",
+      "jaw": 0.3,
+      "start": 8.122,
+      "end": 8.203,
+      "start_frame": 244,
+      "end_frame": 247
+    },
+    {
+      "viseme": "SZ",
+      "jaw": 0.15,
+      "start": 8.217,
+      "end": 8.303,
+      "start_frame": 247,
+      "end_frame": 250
+    },
+    {
+      "viseme": "AW",
+      "jaw": 0.95,
+      "start": 8.303,
+      "end": 8.557,
+      "start_frame": 250,
+      "end_frame": 257
+    },
+    {
+      "viseme": "L",
+      "jaw": 0.45,
+      "start": 8.557,
+      "end": 8.557,
+      "start_frame": 257,
+      "end_frame": 257
+    },
+    {
+      "viseme": "SZ",
+      "jaw": 0.15,
+      "start": 8.571,
+      "end": 8.652,
+      "start_frame": 258,
+      "end_frame": 260
+    },
+    {
+      "viseme": "REST",
+      "jaw": 0.0,
+      "start": 8.652,
+      "end": 8.7,
+      "start_frame": 260,
+      "end_frame": 261
+    },
+    {
+      "viseme": "AW",
+      "jaw": 0.95,
+      "start": 8.7,
+      "end": 8.897,
+      "start_frame": 262,
+      "end_frame": 267
+    },
+    {
+      "viseme": "REST",
+      "jaw": 0.0,
+      "start": 8.897,
+      "end": 8.967,
+      "start_frame": 267,
+      "end_frame": 270
+    },
+    {
+      "viseme": "EE",
+      "jaw": 0.2,
+      "start": 8.967,
+      "end": 9.101,
+      "start_frame": 270,
+      "end_frame": 274
+    },
+    {
+      "viseme": "UW",
+      "jaw": 0.35,
+      "start": 9.532,
+      "end": 9.62,
+      "start_frame": 286,
+      "end_frame": 289
+    },
+    {
+      "viseme": "EE",
+      "jaw": 0.2,
+      "start": 9.62,
+      "end": 9.687,
+      "start_frame": 289,
+      "end_frame": 291
+    },
+    {
+      "viseme": "SZ",
+      "jaw": 0.15,
+      "start": 9.701,
+      "end": 9.802,
+      "start_frame": 292,
+      "end_frame": 295
+    },
+    {
+      "viseme": "REST",
+      "jaw": 0.0,
+      "start": 9.802,
+      "end": 9.85,
+      "start_frame": 295,
+      "end_frame": 296
+    },
+    {
+      "viseme": "EE",
+      "jaw": 0.2,
+      "start": 9.85,
+      "end": 10.012,
+      "start_frame": 296,
+      "end_frame": 301
+    },
+    {
+      "viseme": "MBP",
+      "jaw": 0.08,
+      "start": 10.012,
+      "end": 10.07,
+      "start_frame": 301,
+      "end_frame": 303
+    },
+    {
+      "viseme": "IH",
+      "jaw": 0.25,
+      "start": 10.07,
+      "end": 10.143,
+      "start_frame": 303,
+      "end_frame": 305
+    },
+    {
+      "viseme": "L",
+      "jaw": 0.45,
+      "start": 10.143,
+      "end": 10.209,
+      "start_frame": 305,
+      "end_frame": 307
+    },
+    {
+      "viseme": "AW",
+      "jaw": 0.95,
+      "start": 10.209,
+      "end": 10.323,
+      "start_frame": 307,
+      "end_frame": 310
+    },
+    {
+      "viseme": "SZ",
+      "jaw": 0.15,
+      "start": 10.323,
+      "end": 10.405,
+      "start_frame": 310,
+      "end_frame": 313
+    },
+    {
+      "viseme": "TH",
+      "jaw": 0.3,
+      "start": 10.419,
+      "end": 10.474,
+      "start_frame": 313,
+      "end_frame": 315
+    },
+    {
+      "viseme": "IH",
+      "jaw": 0.25,
+      "start": 10.474,
+      "end": 10.541,
+      "start_frame": 315,
+      "end_frame": 317
+    },
+    {
+      "viseme": "KG",
+      "jaw": 0.15,
+      "start": 10.541,
+      "end": 10.602,
+      "start_frame": 317,
+      "end_frame": 319
+    },
+    {
+      "viseme": "R",
+      "jaw": 0.3,
+      "start": 10.602,
+      "end": 10.675,
+      "start_frame": 319,
+      "end_frame": 321
+    },
+    {
+      "viseme": "IH",
+      "jaw": 0.25,
+      "start": 10.675,
+      "end": 10.773,
+      "start_frame": 321,
+      "end_frame": 324
+    },
+    {
+      "viseme": "REST",
+      "jaw": 0.0,
+      "start": 10.773,
+      "end": 10.857,
+      "start_frame": 324,
+      "end_frame": 326
+    },
+    {
+      "viseme": "REST",
+      "jaw": 0.0,
+      "start": 10.903,
+      "end": 10.95,
+      "start_frame": 328,
+      "end_frame": 329
+    },
+    {
+      "viseme": "IH",
+      "jaw": 0.25,
+      "start": 10.95,
+      "end": 11.008,
+      "start_frame": 329,
+      "end_frame": 331
+    },
+    {
+      "viseme": "KG",
+      "jaw": 0.15,
+      "start": 11.008,
+      "end": 11.101,
+      "start_frame": 331,
+      "end_frame": 334
+    },
+    {
+      "viseme": "AW",
+      "jaw": 0.95,
+      "start": 11.101,
+      "end": 11.313,
+      "start_frame": 334,
+      "end_frame": 340
+    },
+    {
+      "viseme": "TH",
+      "jaw": 0.3,
+      "start": 11.313,
+      "end": 11.38,
+      "start_frame": 340,
+      "end_frame": 342
+    },
+    {
+      "viseme": "IH",
+      "jaw": 0.25,
+      "start": 11.38,
+      "end": 11.532,
+      "start_frame": 342,
+      "end_frame": 346
+    },
+    {
+      "viseme": "OH",
+      "jaw": 0.5,
+      "start": 11.747,
+      "end": 11.875,
+      "start_frame": 353,
+      "end_frame": 357
+    },
+    {
+      "viseme": "UW",
+      "jaw": 0.35,
+      "start": 11.886,
+      "end": 11.973,
+      "start_frame": 357,
+      "end_frame": 360
+    },
+    {
+      "viseme": "EE",
+      "jaw": 0.2,
+      "start": 11.973,
+      "end": 12.034,
+      "start_frame": 360,
+      "end_frame": 362
+    },
+    {
+      "viseme": "L",
+      "jaw": 0.45,
+      "start": 12.045,
+      "end": 12.135,
+      "start_frame": 362,
+      "end_frame": 365
+    },
+    {
+      "viseme": "OO",
+      "jaw": 0.3,
+      "start": 12.135,
+      "end": 12.266,
+      "start_frame": 365,
+      "end_frame": 368
+    },
+    {
+      "viseme": "SZ",
+      "jaw": 0.15,
+      "start": 12.266,
+      "end": 12.365,
+      "start_frame": 368,
+      "end_frame": 371
+    },
+    {
+      "viseme": "AW",
+      "jaw": 0.95,
+      "start": 12.365,
+      "end": 12.606,
+      "start_frame": 371,
+      "end_frame": 379
+    },
+    {
+      "viseme": "FV",
+      "jaw": 0.18,
+      "start": 12.606,
+      "end": 12.71,
+      "start_frame": 379,
+      "end_frame": 382
+    },
+    {
+      "viseme": "R",
+      "jaw": 0.3,
+      "start": 12.71,
+      "end": 12.765,
+      "start_frame": 382,
+      "end_frame": 383
+    },
+    {
+      "viseme": "IH",
+      "jaw": 0.25,
+      "start": 12.765,
+      "end": 12.814,
+      "start_frame": 383,
+      "end_frame": 385
+    },
+    {
+      "viseme": "TH",
+      "jaw": 0.3,
+      "start": 12.814,
+      "end": 12.911,
+      "start_frame": 385,
+      "end_frame": 388
+    },
+    {
+      "viseme": "IH",
+      "jaw": 0.25,
+      "start": 12.911,
+      "end": 13.05,
+      "start_frame": 388,
+      "end_frame": 392
+    },
+    {
+      "viseme": "KG",
+      "jaw": 0.15,
+      "start": 13.05,
+      "end": 13.155,
+      "start_frame": 392,
+      "end_frame": 395
+    }
+  ]
+}

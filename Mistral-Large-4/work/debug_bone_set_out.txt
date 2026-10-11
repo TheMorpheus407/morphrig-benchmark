@@ -1,0 +1,120 @@
+BLENDER 5.1.1
+R1 desired:
+     0.000000  0.000000 -1.000000  0.000000
+     0.000000  1.000000  0.000000  0.000000
+     1.000000  0.000000  0.000000  0.000000
+     0.000000  0.000000  0.000000  1.000000
+R1-default-frame head (0.000000, 0.000000, 0.000000) tail (0.000000, 1.000000, 0.000000) len 1.000000 roll 0.000000
+R1-default-frame   col0 (1.000000, 0.000000, 0.000000) col1 (0.000000, 1.000000, 0.000000) col2 (0.000000, 0.000000, 1.000000)
+R1 fix_B sign +1 framediff 0.000000060 roll -1.570796
+R1 fix_B sign -1 framediff 2.000000000 roll 1.570796
+R1 fix_C framediff 0.000000060 roll -1.570796
+R2 desired:
+     0.000000  1.000000  0.000000  0.000000
+     0.000000  0.000000  1.000000  0.000000
+     1.000000  0.000000  0.000000  0.000000
+     0.000000  0.000000  0.000000  1.000000
+R2-default-frame head (0.000000, 0.000000, 0.000000) tail (1.000000, 0.000000, 0.000000) len 1.000000 roll 0.000000
+R2-default-frame   col0 (0.000000, -1.000000, 0.000000) col1 (1.000000, 0.000000, 0.000000) col2 (0.000000, 0.000000, 1.000000)
+R2 fix_B sign +1 framediff 0.000000060 roll -1.570796
+R2 fix_B sign -1 framediff 2.000000000 roll 1.570796
+R2 fix_C framediff 0.000000060 roll -1.570796
+R4-parent head (0.000000, 0.000000, 0.000000) tail (0.000000, 0.000000, 1.000000) len 1.000000 roll 1.570796
+R4-parent   col0 (-0.000000, 1.000000, 0.000000) col1 (0.000000, 0.000000, 1.000000) col2 (1.000000, 0.000000, 0.000000)
+r4_child_C head (0.200000, 0.100000, 0.500000) tail (0.200000, 0.400000, 0.600000) len 0.316228 roll 0.000000
+r4_child_C   col0 (1.000000, 0.000000, 0.000000) col1 (0.000000, 0.948683, 0.316228) col2 (0.000000, -0.316228, 0.948683)
+r4_childroll_C head (0.200000, 0.100000, 0.500000) tail (0.200000, 0.400000, 0.600000) len 0.316228 roll -1.570796
+r4_childroll_C   col0 (-0.000000, -0.316228, 0.948683) col1 (0.000000, 0.948683, 0.316228) col2 (-1.000000, 0.000000, -0.000000)
+=== OBJECT MODE ground truth ===
+R1 fix_C: head 0.00e+00 tail 0.00e+00 len 0.00e+00 rot 5.96e-08 -> OK
+R1 fix_B +1: head 0.00e+00 tail 0.00e+00 len 0.00e+00 rot 5.96e-08 -> OK
+R1 fix_B -1: head 0.00e+00 tail 0.00e+00 len 0.00e+00 rot 2.00e+00 -> FAIL
+R2 fix_C: head 0.00e+00 tail 0.00e+00 len 0.00e+00 rot 5.96e-08 -> OK
+R2 fix_B +1: head 0.00e+00 tail 0.00e+00 len 0.00e+00 rot 5.96e-08 -> OK
+R2 fix_B -1: head 0.00e+00 tail 0.00e+00 len 0.00e+00 rot 2.00e+00 -> FAIL
+R4 parent: head 0.00e+00 tail 0.00e+00 len 0.00e+00 rot 5.96e-08 -> OK
+R4 child fix_C: head 0.00e+00 tail 0.00e+00 len 2.09e-08 rot 1.79e-07 -> OK
+R4 childroll fix_C: head 0.00e+00 tail 0.00e+00 len 2.09e-08 rot 1.19e-07 -> OK
+R4 childroll fix_B +1: head 0.00e+00 tail 0.00e+00 len 2.09e-08 rot 1.19e-07 -> OK
+R4 childroll fix_B -1: head 0.00e+00 tail 0.00e+00 len 2.09e-08 rot 2.00e+00 -> FAIL
+bone root: head 0.00e+00 tail 0.00e+00 len 2.05e-09 rot 0.00e+00 -> OK
+bone pelvis: head 0.00e+00 tail 0.00e+00 len 5.97e-09 rot 1.19e-07 -> OK
+bone spine_01: head 0.00e+00 tail 0.00e+00 len 2.22e-08 rot 1.19e-07 -> OK
+bone spine_02: head 0.00e+00 tail 0.00e+00 len 1.33e-08 rot 1.19e-07 -> OK
+bone spine_03: head 0.00e+00 tail 0.00e+00 len 1.67e-08 rot 5.96e-08 -> OK
+bone neck_01: head 0.00e+00 tail 0.00e+00 len 1.03e-08 rot 5.96e-08 -> OK
+bone neck_02: head 0.00e+00 tail 0.00e+00 len 6.72e-10 rot 5.96e-08 -> OK
+bone head: head 0.00e+00 tail 0.00e+00 len 2.19e-09 rot 5.96e-08 -> OK
+bone jaw: head 0.00e+00 tail 0.00e+00 len 1.33e-08 rot 5.96e-07 -> OK
+bone eye_L: head 0.00e+00 tail 0.00e+00 len 7.69e-10 rot 5.96e-08 -> OK
+bone lid_upper_L: head 0.00e+00 tail 0.00e+00 len 7.69e-10 rot 5.96e-08 -> OK
+bone lid_lower_L: head 0.00e+00 tail 0.00e+00 len 7.69e-10 rot 5.96e-08 -> OK
+bone brow_L: head 0.00e+00 tail 0.00e+00 len 1.96e-09 rot 2.76e-07 -> OK
+bone clavicle_L: head 0.00e+00 tail 0.00e+00 len 1.70e-09 rot 1.19e-07 -> OK
+bone upper_arm_L: head 0.00e+00 tail 0.00e+00 len 2.34e-08 rot 1.79e-07 -> OK
+bone upper_arm_twist_L: head 0.00e+00 tail 0.00e+00 len 7.24e-09 rot 1.79e-07 -> OK
+bone forearm_L: head 0.00e+00 tail 0.00e+00 len 2.11e-08 rot 1.79e-07 -> OK
+bone forearm_twist_L: head 0.00e+00 tail 0.00e+00 len 6.51e-09 rot 1.19e-07 -> OK
+bone hand_L: head 0.00e+00 tail 0.00e+00 len 9.27e-09 rot 2.38e-07 -> OK
+bone f_thumb_01_L: head 0.00e+00 tail 0.00e+00 len 4.73e-10 rot 2.38e-07 -> OK
+bone f_thumb_02_L: head 0.00e+00 tail 0.00e+00 len 1.27e-09 rot 1.79e-07 -> OK
+bone f_thumb_03_L: head 0.00e+00 tail 0.00e+00 len 1.32e-09 rot 2.38e-07 -> OK
+bone f_index_01_L: head 0.00e+00 tail 0.00e+00 len 8.15e-10 rot 2.98e-07 -> OK
+bone f_index_02_L: head 0.00e+00 tail 0.00e+00 len 2.98e-10 rot 2.98e-07 -> OK
+bone f_index_03_L: head 0.00e+00 tail 0.00e+00 len 4.92e-10 rot 4.17e-07 -> OK
+bone f_middle_01_L: head 0.00e+00 tail 0.00e+00 len 4.61e-09 rot 2.38e-07 -> OK
+bone f_middle_02_L: head 0.00e+00 tail 0.00e+00 len 1.47e-09 rot 2.98e-07 -> OK
+bone f_middle_03_L: head 0.00e+00 tail 0.00e+00 len 7.82e-10 rot 4.17e-07 -> OK
+bone f_ring_01_L: head 0.00e+00 tail 0.00e+00 len 6.16e-10 rot 1.79e-07 -> OK
+bone f_ring_02_L: head 0.00e+00 tail 0.00e+00 len 1.19e-09 rot 2.38e-07 -> OK
+bone f_ring_03_L: head 0.00e+00 tail 0.00e+00 len 4.55e-09 rot 2.98e-07 -> OK
+bone f_pinky_01_L: head 0.00e+00 tail 0.00e+00 len 1.31e-09 rot 3.58e-07 -> OK
+bone f_pinky_02_L: head 0.00e+00 tail 0.00e+00 len 9.17e-10 rot 3.58e-07 -> OK
+bone f_pinky_03_L: head 0.00e+00 tail 0.00e+00 len 4.94e-10 rot 3.58e-07 -> OK
+bone thigh_L: head 0.00e+00 tail 0.00e+00 len 3.02e-08 rot 1.79e-07 -> OK
+bone thigh_twist_L: head 0.00e+00 tail 0.00e+00 len 1.03e-08 rot 2.38e-07 -> OK
+bone shin_L: head 0.00e+00 tail 0.00e+00 len 2.36e-08 rot 2.38e-07 -> OK
+bone shin_twist_L: head 0.00e+00 tail 0.00e+00 len 6.57e-09 rot 1.79e-07 -> OK
+bone foot_L: head 0.00e+00 tail 0.00e+00 len 2.72e-08 rot 2.98e-07 -> OK
+bone toe_L: head 0.00e+00 tail 0.00e+00 len 7.60e-09 rot 2.38e-07 -> OK
+bone eye_R: head 0.00e+00 tail 0.00e+00 len 7.69e-10 rot 5.96e-08 -> OK
+bone lid_upper_R: head 0.00e+00 tail 0.00e+00 len 7.69e-10 rot 5.96e-08 -> OK
+bone lid_lower_R: head 0.00e+00 tail 0.00e+00 len 7.69e-10 rot 5.96e-08 -> OK
+bone brow_R: head 0.00e+00 tail 0.00e+00 len 1.96e-09 rot 2.76e-07 -> OK
+bone clavicle_R: head 0.00e+00 tail 0.00e+00 len 1.70e-09 rot 1.19e-07 -> OK
+bone upper_arm_R: head 0.00e+00 tail 0.00e+00 len 6.36e-09 rot 1.83e-07 -> OK
+bone upper_arm_twist_R: head 0.00e+00 tail 0.00e+00 len 7.24e-09 rot 1.59e-07 -> OK
+bone forearm_R: head 0.00e+00 tail 0.00e+00 len 2.11e-08 rot 1.19e-07 -> OK
+bone forearm_twist_R: head 0.00e+00 tail 0.00e+00 len 9.43e-10 rot 1.11e-07 -> OK
+bone hand_R: head 0.00e+00 tail 0.00e+00 len 9.27e-09 rot 2.38e-07 -> OK
+bone f_thumb_01_R: head 0.00e+00 tail 0.00e+00 len 2.58e-09 rot 3.58e-07 -> OK
+bone f_thumb_02_R: head 0.00e+00 tail 0.00e+00 len 4.79e-09 rot 3.65e-07 -> OK
+bone f_thumb_03_R: head 0.00e+00 tail 0.00e+00 len 7.07e-09 rot 2.98e-07 -> OK
+bone f_index_01_R: head 0.00e+00 tail 0.00e+00 len 3.84e-09 rot 3.58e-07 -> OK
+bone f_index_02_R: head 0.00e+00 tail 0.00e+00 len 4.04e-09 rot 4.77e-07 -> OK
+bone f_index_03_R: head 0.00e+00 tail 0.00e+00 len 4.11e-09 rot 4.77e-07 -> OK
+bone f_middle_01_R: head 0.00e+00 tail 0.00e+00 len 2.73e-10 rot 4.77e-07 -> OK
+bone f_middle_02_R: head 0.00e+00 tail 0.00e+00 len 4.76e-09 rot 5.36e-07 -> OK
+bone f_middle_03_R: head 0.00e+00 tail 0.00e+00 len 7.43e-09 rot 4.17e-07 -> OK
+bone f_ring_01_R: head 0.00e+00 tail 0.00e+00 len 4.94e-10 rot 2.38e-07 -> OK
+bone f_ring_02_R: head 0.00e+00 tail 0.00e+00 len 4.62e-09 rot 2.98e-07 -> OK
+bone f_ring_03_R: head 0.00e+00 tail 0.00e+00 len 2.31e-09 rot 2.38e-07 -> OK
+bone f_pinky_01_R: head 0.00e+00 tail 0.00e+00 len 1.11e-09 rot 2.98e-07 -> OK
+bone f_pinky_02_R: head 0.00e+00 tail 0.00e+00 len 1.29e-09 rot 2.98e-07 -> OK
+bone f_pinky_03_R: head 0.00e+00 tail 0.00e+00 len 4.11e-09 rot 2.38e-07 -> OK
+bone thigh_R: head 0.00e+00 tail 0.00e+00 len 3.02e-08 rot 1.79e-07 -> OK
+bone thigh_twist_R: head 0.00e+00 tail 0.00e+00 len 1.03e-08 rot 2.38e-07 -> OK
+bone shin_R: head 0.00e+00 tail 0.00e+00 len 2.36e-08 rot 2.38e-07 -> OK
+bone shin_twist_R: head 0.00e+00 tail 0.00e+00 len 6.57e-09 rot 1.79e-07 -> OK
+bone foot_R: head 0.00e+00 tail 0.00e+00 len 2.72e-08 rot 2.98e-07 -> OK
+bone toe_R: head 0.00e+00 tail 0.00e+00 len 7.60e-09 rot 2.38e-07 -> OK
+bone emitter: head 0.00e+00 tail 0.00e+00 len 8.63e-09 rot 1.19e-07 -> OK
+bone blade: head 0.00e+00 tail 0.00e+00 len 6.61e-09 rot 1.19e-07 -> OK
+bone cell_new: head 0.00e+00 tail 0.00e+00 len 4.80e-10 rot 0.00e+00 -> OK
+bone cell_spent: head 0.00e+00 tail 0.00e+00 len 5.84e-10 rot 0.00e+00 -> OK
+bone beacon: head 0.00e+00 tail 0.00e+00 len 3.95e-10 rot 0.00e+00 -> OK
+bone cable_01: head 0.00e+00 tail 0.00e+00 len 1.68e-09 rot 2.83e-06 -> FAIL
+bone cable_02: head 0.00e+00 tail 0.00e+00 len 4.53e-08 rot 2.82e-06 -> FAIL
+bone cable_03: head 0.00e+00 tail 0.00e+00 len 1.03e-08 rot 7.75e-07 -> OK
+REAL BONES fix_C: 77/79 OK, bad=['cable_01', 'cable_02']
+DEBUG_DONE

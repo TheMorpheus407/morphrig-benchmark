@@ -1,0 +1,262 @@
+Translate 'hold'
+  1	h        [h]
+
+ 57	old      [oUld]
+  1	o        [0]
+  4	X) o     [0#]
+
+Found: 'the' [D@2]   $nounf $only
+Translate 'lane'
+  1	l        [l]
+
+  1	a        [a]
+ 36	a (Be#   [eI]
+
+  1	n        [n]
+
+  1	E        []
+
+h'oUld D@2 l'eIn
+Found: 'the' [D@2]   $nounf $only
+Translate 'network'
+  1	n        [n]
+
+  1	e        [E]
+
+  1	t        [t]
+
+  1	w        [w]
+104	&) work  [w3:k]
+
+Translate 'net'
+  1	n        [n]
+
+  1	e        [E]
+
+  1	t        [t]
+
+Unpronouncable? 'stays'
+ 40	_) s (t  [s]
+Translate 'stays'
+  1	s        [s]
+ 40	_) s (t  [s]
+
+  1	t        [t]
+
+  1	a        [a]
+ 22	ay       [eI]
+
+ 42	@) s (_  [z]
+ 23	s (_N    [z]
+  1	s        [s]
+ 22	s (_     [s]
+
+Translate 'stay'
+  1	s        [s]
+ 40	_) s (t  [s]
+
+  1	t        [t]
+
+  1	a        [a]
+ 22	ay       [eI]
+
+Translate 'ours'
+ 61	_) our   [aU3]
+ 57	our      [3:]
+ 36	ou       [aU]
+  1	o        [0]
+  5	_) o     [0]
+  4	X) o     [0#]
+
+ 42	@) s (_  [z]
+ 23	s (_N    [z]
+  1	s        [s]
+ 22	s (_     [s]
+
+Translate 'our'
+ 61	_) our   [aU3]
+ 57	our      [3:]
+ 36	ou       [aU]
+  1	o        [0]
+  5	_) o     [0]
+  4	X) o     [0#]
+
+D@2 n'Etw3:k st'eIz aU3z
+Found: 'nobody' ['noUb0di]  
+Unpronouncable? 'crosses'
+ 39	_) c (L  [k]
+Translate 'crosses'
+  1	c        [k]
+ 39	_) c (L  [k]
+
+  1	r        [r]
+
+ 78	r) oss   [O2s]
+  1	o        [0]
+  4	X) o     [0#]
+
+ 97	&s) es   [I#z]
+116	&ss) es  [I#z]
+ 76	&) es (  [z]
+ 95	&C) es   [z]
+  1	e        [E]
+
+Translate 'cross'
+  1	c        [k]
+ 39	_) c (L  [k]
+
+  1	r        [r]
+
+ 78	r) oss   [O2s]
+  1	o        [0]
+  4	X) o     [0#]
+
+Found: 'while' [w,aIl]   $strend $brk
+Found: 'we' [wi:]  $u $verbf $only
+Unpronouncable? 'stand'
+ 40	_) s (t  [s]
+Translate 'stand'
+  1	s        [s]
+ 40	_) s (t  [s]
+
+  1	t        [t]
+
+  1	a        [a]
+
+  1	n        [n]
+
+  1	d        [d]
+
+Translate 'watch'
+  1	w        [w]
+
+ 77	w) at (  [0t]
+ 99	w) atch  [0tS]
+  1	a        [a]
+
+n'oUb0di kr'O2sI#z_! w,aIl wi: st'and w'0tS
+Translate 'keep'
+  1	k        [k]
+
+  1	e        [E]
+ 22	ee       [i:]
+
+  1	p        [p]
+
+Found: 'your' [jU@]  $u $nounf $only
+Translate 'eyes'
+ 36	ey       [aI]
+ 61	_) eye   [aI]
+ 57	eye      [eI]
+  1	e        [E]
+
+ 42	@) s (_  [z]
+ 23	s (_N    [z]
+  1	s        [s]
+ 22	s (_     [s]
+
+Translate 'eye'
+ 36	ey       [aI]
+ 61	_) eye   [aI]
+ 57	eye      [eI]
+  1	e        [E]
+
+Found: 'up' [,Vp]   $strend2
+Found: 'and' [and]  $u $pause $only
+Found: 'your' [jU@]  $u $nounf $only
+Translate 'cell'
+  1	c        [k]
+ 22	c (e     [s]
+
+  1	e        [E]
+
+  1	l        [l]
+ 20	l (C     [l]
+ 42	A) ll    [l]
+
+Unpronouncable? 'steady'
+ 40	_) s (t  [s]
+Translate 'steady'
+  1	s        [s]
+ 40	_) s (t  [s]
+
+  1	t        [t]
+
+ 97	st) ea   [E]
+ 36	ea       [i:]
+  1	e        [E]
+
+  1	d        [d]
+
+ 41	&) y (_  [i]
+ 42	&) y (_  [i]
+ 20	C) y     [I]
+  1	y        [j]
+ 22	y (_     [aI]
+
+k'i:p jU@r- 'aIz ,Vp_:_: and jU@ s'El st'Edi
+Found: 'we' [wi:]  $u $verbf $only
+Unpronouncable? 'stabilize'
+ 40	_) s (t  [s]
+Translate 'stabilize'
+  1	s        [s]
+ 40	_) s (t  [s]
+
+  1	t        [t]
+
+112	st) ab   [eIb]
+  1	a        [a]
+
+ 81	il (ize  [@l]
+  1	i        [I]
+
+  1	i        [I]
+ 36	i (Be#   [aI]
+104	&l) ize  [aIz]
+ 64	ize (_   [aIz]
+
+Translate 'stabil'
+  1	s        [s]
+ 40	_) s (t  [s]
+
+  1	t        [t]
+
+112	st) ab   [eIb]
+  1	a        [a]
+
+  1	i        [I]
+
+  1	l        [l]
+ 22	l (_     [l]
+
+Found: 'the' [D@2]   $nounf $only
+Unpronouncable? 'grid'
+ 39	_) g (L  [g]
+Translate 'grid'
+  1	g        [g]
+ 39	_) g (L  [g]
+
+  1	r        [r]
+
+  1	i        [I]
+
+  1	d        [d]
+
+Found: 'together' [t@gED3]  $u2 $strend2
+wi: st'eIbI2l,aIz D@2 gr'Id t@g'ED3
+Found: 'or' [O@]  $u $pause $only
+Found: 'we' [wi:]  $u $verbf $only
+Translate 'lose'
+  1	l        [l]
+
+ 82	_l) os   [u:z]
+ 78	ose (_   [oUs]
+  1	o        [0]
+  4	X) o     [0#]
+ 36	o (Be#   [oU]
+
+ 41	&) e (_  []
+  1	e        [E]
+
+Found: 'everything' [EvrI2TIN]  
+O@ wi: l'u:z 'EvrI2T,IN
