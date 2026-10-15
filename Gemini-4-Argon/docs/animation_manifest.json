@@ -1,0 +1,3219 @@
+{
+  "project": "MorphRig",
+  "character": "Operative (Vex)",
+  "sample_rate_fps": 30,
+  "total_required_entries": 96,
+  "motion_entries_count": 85,
+  "static_pose_entries_count": 11,
+  "extra_deformation_demo_poses": [
+    "pose_overhead_reach",
+    "pose_deep_squat",
+    "pose_crossed_arm_reach",
+    "pose_torso_twist",
+    "pose_kneeling",
+    "pose_planted_hand_support",
+    "pose_closed_grip"
+  ],
+  "locomotion_reference_speeds_cms": {
+    "walk": 150.0,
+    "run": 400.0,
+    "sprint_f": 650.0,
+    "dash_displacement_cm": 200.0
+  },
+  "aim_offset_grid_conventions": {
+    "yaw_degrees": [
+      -60.0,
+      0.0,
+      60.0
+    ],
+    "pitch_degrees": [
+      -35.0,
+      0.0,
+      35.0
+    ],
+    "yaw_sign": "-60 is aim_right, 0 is aim_center, +60 is aim_left",
+    "pitch_sign": "-35 is aim_down, 0 is aim_level, +35 is aim_up"
+  },
+  "animations": [
+    {
+      "id": "idle_relaxed",
+      "index": 1,
+      "form": "loop",
+      "source_action": "idle_relaxed",
+      "exported_fbx": "export/animations/idle_relaxed.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/idle_relaxed.idle_relaxed",
+      "frame_range": [
+        0,
+        90
+      ],
+      "frame_count": 91,
+      "sample_rate_fps": 30,
+      "duration_seconds": 3.0,
+      "loop": true,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "FullBody",
+      "entry_state": "Idle",
+      "exit_state": "Idle",
+      "event_markers": [],
+      "required_behavior": "Relaxed breathing and attentive weight shifts."
+    },
+    {
+      "id": "idle_combat",
+      "index": 2,
+      "form": "loop",
+      "source_action": "idle_combat",
+      "exported_fbx": "export/animations/idle_combat.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/idle_combat.idle_combat",
+      "frame_range": [
+        0,
+        90
+      ],
+      "frame_count": 91,
+      "sample_rate_fps": 30,
+      "duration_seconds": 3.0,
+      "loop": true,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "FullBody",
+      "entry_state": "Idle",
+      "exit_state": "Idle",
+      "event_markers": [],
+      "required_behavior": "Ready stance with free hands and readable silhouette."
+    },
+    {
+      "id": "idle_wounded",
+      "index": 3,
+      "form": "loop",
+      "source_action": "idle_wounded",
+      "exported_fbx": "export/animations/idle_wounded.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/idle_wounded.idle_wounded",
+      "frame_range": [
+        0,
+        90
+      ],
+      "frame_count": 91,
+      "sample_rate_fps": 30,
+      "duration_seconds": 3.0,
+      "loop": true,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "FullBody",
+      "entry_state": "IdleWounded",
+      "exit_state": "IdleWounded",
+      "event_markers": [],
+      "required_behavior": "Injured but alert; no new skeleton or detached limbs."
+    },
+    {
+      "id": "walk_f",
+      "index": 4,
+      "form": "loop",
+      "source_action": "walk_f",
+      "exported_fbx": "export/animations/walk_f.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/walk_f.walk_f",
+      "frame_range": [
+        0,
+        30
+      ],
+      "frame_count": 31,
+      "sample_rate_fps": 30,
+      "duration_seconds": 1.0,
+      "loop": true,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 150.0,
+      "intended_layer": "Locomotion",
+      "entry_state": "Locomotion",
+      "exit_state": "Locomotion",
+      "event_markers": [
+        {
+          "name": "foot_l_down",
+          "frame": 7,
+          "time_sec": 0.2333
+        },
+        {
+          "name": "foot_r_down",
+          "frame": 22,
+          "time_sec": 0.7333
+        }
+      ],
+      "required_behavior": "Walk forward; retain facing, synchronized contacts, genuine directional gait."
+    },
+    {
+      "id": "walk_fl",
+      "index": 5,
+      "form": "loop",
+      "source_action": "walk_fl",
+      "exported_fbx": "export/animations/walk_fl.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/walk_fl.walk_fl",
+      "frame_range": [
+        0,
+        30
+      ],
+      "frame_count": 31,
+      "sample_rate_fps": 30,
+      "duration_seconds": 1.0,
+      "loop": true,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 150.0,
+      "intended_layer": "Locomotion",
+      "entry_state": "Locomotion",
+      "exit_state": "Locomotion",
+      "event_markers": [
+        {
+          "name": "foot_l_down",
+          "frame": 7,
+          "time_sec": 0.2333
+        },
+        {
+          "name": "foot_r_down",
+          "frame": 22,
+          "time_sec": 0.7333
+        }
+      ],
+      "required_behavior": "Walk forward-left; retain facing, synchronized contacts, genuine directional gait."
+    },
+    {
+      "id": "walk_l",
+      "index": 6,
+      "form": "loop",
+      "source_action": "walk_l",
+      "exported_fbx": "export/animations/walk_l.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/walk_l.walk_l",
+      "frame_range": [
+        0,
+        30
+      ],
+      "frame_count": 31,
+      "sample_rate_fps": 30,
+      "duration_seconds": 1.0,
+      "loop": true,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 150.0,
+      "intended_layer": "Locomotion",
+      "entry_state": "Locomotion",
+      "exit_state": "Locomotion",
+      "event_markers": [
+        {
+          "name": "foot_l_down",
+          "frame": 7,
+          "time_sec": 0.2333
+        },
+        {
+          "name": "foot_r_down",
+          "frame": 22,
+          "time_sec": 0.7333
+        }
+      ],
+      "required_behavior": "Walk left strafe; retain facing, synchronized contacts, genuine directional gait."
+    },
+    {
+      "id": "walk_bl",
+      "index": 7,
+      "form": "loop",
+      "source_action": "walk_bl",
+      "exported_fbx": "export/animations/walk_bl.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/walk_bl.walk_bl",
+      "frame_range": [
+        0,
+        30
+      ],
+      "frame_count": 31,
+      "sample_rate_fps": 30,
+      "duration_seconds": 1.0,
+      "loop": true,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 150.0,
+      "intended_layer": "Locomotion",
+      "entry_state": "Locomotion",
+      "exit_state": "Locomotion",
+      "event_markers": [
+        {
+          "name": "foot_l_down",
+          "frame": 7,
+          "time_sec": 0.2333
+        },
+        {
+          "name": "foot_r_down",
+          "frame": 22,
+          "time_sec": 0.7333
+        }
+      ],
+      "required_behavior": "Walk back-left; retain facing, synchronized contacts, genuine directional gait."
+    },
+    {
+      "id": "walk_b",
+      "index": 8,
+      "form": "loop",
+      "source_action": "walk_b",
+      "exported_fbx": "export/animations/walk_b.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/walk_b.walk_b",
+      "frame_range": [
+        0,
+        30
+      ],
+      "frame_count": 31,
+      "sample_rate_fps": 30,
+      "duration_seconds": 1.0,
+      "loop": true,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 150.0,
+      "intended_layer": "Locomotion",
+      "entry_state": "Locomotion",
+      "exit_state": "Locomotion",
+      "event_markers": [
+        {
+          "name": "foot_l_down",
+          "frame": 7,
+          "time_sec": 0.2333
+        },
+        {
+          "name": "foot_r_down",
+          "frame": 22,
+          "time_sec": 0.7333
+        }
+      ],
+      "required_behavior": "Walk backward; retain facing, synchronized contacts, genuine directional gait."
+    },
+    {
+      "id": "walk_br",
+      "index": 9,
+      "form": "loop",
+      "source_action": "walk_br",
+      "exported_fbx": "export/animations/walk_br.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/walk_br.walk_br",
+      "frame_range": [
+        0,
+        30
+      ],
+      "frame_count": 31,
+      "sample_rate_fps": 30,
+      "duration_seconds": 1.0,
+      "loop": true,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 150.0,
+      "intended_layer": "Locomotion",
+      "entry_state": "Locomotion",
+      "exit_state": "Locomotion",
+      "event_markers": [
+        {
+          "name": "foot_l_down",
+          "frame": 7,
+          "time_sec": 0.2333
+        },
+        {
+          "name": "foot_r_down",
+          "frame": 22,
+          "time_sec": 0.7333
+        }
+      ],
+      "required_behavior": "Walk back-right; retain facing, synchronized contacts, genuine directional gait."
+    },
+    {
+      "id": "walk_r",
+      "index": 10,
+      "form": "loop",
+      "source_action": "walk_r",
+      "exported_fbx": "export/animations/walk_r.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/walk_r.walk_r",
+      "frame_range": [
+        0,
+        30
+      ],
+      "frame_count": 31,
+      "sample_rate_fps": 30,
+      "duration_seconds": 1.0,
+      "loop": true,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 150.0,
+      "intended_layer": "Locomotion",
+      "entry_state": "Locomotion",
+      "exit_state": "Locomotion",
+      "event_markers": [
+        {
+          "name": "foot_l_down",
+          "frame": 7,
+          "time_sec": 0.2333
+        },
+        {
+          "name": "foot_r_down",
+          "frame": 22,
+          "time_sec": 0.7333
+        }
+      ],
+      "required_behavior": "Walk right strafe; retain facing, synchronized contacts, genuine directional gait."
+    },
+    {
+      "id": "walk_fr",
+      "index": 11,
+      "form": "loop",
+      "source_action": "walk_fr",
+      "exported_fbx": "export/animations/walk_fr.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/walk_fr.walk_fr",
+      "frame_range": [
+        0,
+        30
+      ],
+      "frame_count": 31,
+      "sample_rate_fps": 30,
+      "duration_seconds": 1.0,
+      "loop": true,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 150.0,
+      "intended_layer": "Locomotion",
+      "entry_state": "Locomotion",
+      "exit_state": "Locomotion",
+      "event_markers": [
+        {
+          "name": "foot_l_down",
+          "frame": 7,
+          "time_sec": 0.2333
+        },
+        {
+          "name": "foot_r_down",
+          "frame": 22,
+          "time_sec": 0.7333
+        }
+      ],
+      "required_behavior": "Walk forward-right; retain facing, synchronized contacts, genuine directional gait."
+    },
+    {
+      "id": "run_f",
+      "index": 12,
+      "form": "loop",
+      "source_action": "run_f",
+      "exported_fbx": "export/animations/run_f.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/run_f.run_f",
+      "frame_range": [
+        0,
+        24
+      ],
+      "frame_count": 25,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.8,
+      "loop": true,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 400.0,
+      "intended_layer": "Locomotion",
+      "entry_state": "Locomotion",
+      "exit_state": "Locomotion",
+      "event_markers": [
+        {
+          "name": "foot_l_down",
+          "frame": 6,
+          "time_sec": 0.2
+        },
+        {
+          "name": "foot_r_down",
+          "frame": 18,
+          "time_sec": 0.6
+        }
+      ],
+      "required_behavior": "Run forward; retain facing, synchronized contacts, genuine directional gait."
+    },
+    {
+      "id": "run_fl",
+      "index": 13,
+      "form": "loop",
+      "source_action": "run_fl",
+      "exported_fbx": "export/animations/run_fl.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/run_fl.run_fl",
+      "frame_range": [
+        0,
+        24
+      ],
+      "frame_count": 25,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.8,
+      "loop": true,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 400.0,
+      "intended_layer": "Locomotion",
+      "entry_state": "Locomotion",
+      "exit_state": "Locomotion",
+      "event_markers": [
+        {
+          "name": "foot_l_down",
+          "frame": 6,
+          "time_sec": 0.2
+        },
+        {
+          "name": "foot_r_down",
+          "frame": 18,
+          "time_sec": 0.6
+        }
+      ],
+      "required_behavior": "Run forward-left; retain facing, synchronized contacts, genuine directional gait."
+    },
+    {
+      "id": "run_l",
+      "index": 14,
+      "form": "loop",
+      "source_action": "run_l",
+      "exported_fbx": "export/animations/run_l.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/run_l.run_l",
+      "frame_range": [
+        0,
+        24
+      ],
+      "frame_count": 25,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.8,
+      "loop": true,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 400.0,
+      "intended_layer": "Locomotion",
+      "entry_state": "Locomotion",
+      "exit_state": "Locomotion",
+      "event_markers": [
+        {
+          "name": "foot_l_down",
+          "frame": 6,
+          "time_sec": 0.2
+        },
+        {
+          "name": "foot_r_down",
+          "frame": 18,
+          "time_sec": 0.6
+        }
+      ],
+      "required_behavior": "Run left strafe; retain facing, synchronized contacts, genuine directional gait."
+    },
+    {
+      "id": "run_bl",
+      "index": 15,
+      "form": "loop",
+      "source_action": "run_bl",
+      "exported_fbx": "export/animations/run_bl.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/run_bl.run_bl",
+      "frame_range": [
+        0,
+        24
+      ],
+      "frame_count": 25,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.8,
+      "loop": true,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 400.0,
+      "intended_layer": "Locomotion",
+      "entry_state": "Locomotion",
+      "exit_state": "Locomotion",
+      "event_markers": [
+        {
+          "name": "foot_l_down",
+          "frame": 6,
+          "time_sec": 0.2
+        },
+        {
+          "name": "foot_r_down",
+          "frame": 18,
+          "time_sec": 0.6
+        }
+      ],
+      "required_behavior": "Run back-left; retain facing, synchronized contacts, genuine directional gait."
+    },
+    {
+      "id": "run_b",
+      "index": 16,
+      "form": "loop",
+      "source_action": "run_b",
+      "exported_fbx": "export/animations/run_b.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/run_b.run_b",
+      "frame_range": [
+        0,
+        24
+      ],
+      "frame_count": 25,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.8,
+      "loop": true,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 400.0,
+      "intended_layer": "Locomotion",
+      "entry_state": "Locomotion",
+      "exit_state": "Locomotion",
+      "event_markers": [
+        {
+          "name": "foot_l_down",
+          "frame": 6,
+          "time_sec": 0.2
+        },
+        {
+          "name": "foot_r_down",
+          "frame": 18,
+          "time_sec": 0.6
+        }
+      ],
+      "required_behavior": "Run backward; retain facing, synchronized contacts, genuine directional gait."
+    },
+    {
+      "id": "run_br",
+      "index": 17,
+      "form": "loop",
+      "source_action": "run_br",
+      "exported_fbx": "export/animations/run_br.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/run_br.run_br",
+      "frame_range": [
+        0,
+        24
+      ],
+      "frame_count": 25,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.8,
+      "loop": true,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 400.0,
+      "intended_layer": "Locomotion",
+      "entry_state": "Locomotion",
+      "exit_state": "Locomotion",
+      "event_markers": [
+        {
+          "name": "foot_l_down",
+          "frame": 6,
+          "time_sec": 0.2
+        },
+        {
+          "name": "foot_r_down",
+          "frame": 18,
+          "time_sec": 0.6
+        }
+      ],
+      "required_behavior": "Run back-right; retain facing, synchronized contacts, genuine directional gait."
+    },
+    {
+      "id": "run_r",
+      "index": 18,
+      "form": "loop",
+      "source_action": "run_r",
+      "exported_fbx": "export/animations/run_r.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/run_r.run_r",
+      "frame_range": [
+        0,
+        24
+      ],
+      "frame_count": 25,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.8,
+      "loop": true,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 400.0,
+      "intended_layer": "Locomotion",
+      "entry_state": "Locomotion",
+      "exit_state": "Locomotion",
+      "event_markers": [
+        {
+          "name": "foot_l_down",
+          "frame": 6,
+          "time_sec": 0.2
+        },
+        {
+          "name": "foot_r_down",
+          "frame": 18,
+          "time_sec": 0.6
+        }
+      ],
+      "required_behavior": "Run right strafe; retain facing, synchronized contacts, genuine directional gait."
+    },
+    {
+      "id": "run_fr",
+      "index": 19,
+      "form": "loop",
+      "source_action": "run_fr",
+      "exported_fbx": "export/animations/run_fr.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/run_fr.run_fr",
+      "frame_range": [
+        0,
+        24
+      ],
+      "frame_count": 25,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.8,
+      "loop": true,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 400.0,
+      "intended_layer": "Locomotion",
+      "entry_state": "Locomotion",
+      "exit_state": "Locomotion",
+      "event_markers": [
+        {
+          "name": "foot_l_down",
+          "frame": 6,
+          "time_sec": 0.2
+        },
+        {
+          "name": "foot_r_down",
+          "frame": 18,
+          "time_sec": 0.6
+        }
+      ],
+      "required_behavior": "Run forward-right; retain facing, synchronized contacts, genuine directional gait."
+    },
+    {
+      "id": "sprint_f",
+      "index": 20,
+      "form": "loop",
+      "source_action": "sprint_f",
+      "exported_fbx": "export/animations/sprint_f.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/sprint_f.sprint_f",
+      "frame_range": [
+        0,
+        18
+      ],
+      "frame_count": 19,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.6,
+      "loop": true,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 650.0,
+      "intended_layer": "Locomotion",
+      "entry_state": "Sprint",
+      "exit_state": "Sprint",
+      "event_markers": [
+        {
+          "name": "foot_l_down",
+          "frame": 4,
+          "time_sec": 0.1333
+        },
+        {
+          "name": "foot_r_down",
+          "frame": 13,
+          "time_sec": 0.4333
+        }
+      ],
+      "required_behavior": "Distinct full-effort forward sprint; not only a faster walk."
+    },
+    {
+      "id": "start_f",
+      "index": 21,
+      "form": "one_shot",
+      "source_action": "start_f",
+      "exported_fbx": "export/animations/start_f.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/start_f.start_f",
+      "frame_range": [
+        0,
+        15
+      ],
+      "frame_count": 16,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.5,
+      "loop": false,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 200.0,
+      "intended_layer": "Locomotion",
+      "entry_state": "Idle",
+      "exit_state": "Locomotion",
+      "event_markers": [
+        {
+          "name": "foot_l_down",
+          "frame": 8,
+          "time_sec": 0.2667
+        },
+        {
+          "name": "foot_r_down",
+          "frame": 14,
+          "time_sec": 0.4667
+        }
+      ],
+      "required_behavior": "Accelerate from stand to forward travel."
+    },
+    {
+      "id": "stop_f",
+      "index": 22,
+      "form": "one_shot",
+      "source_action": "stop_f",
+      "exported_fbx": "export/animations/stop_f.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/stop_f.stop_f",
+      "frame_range": [
+        0,
+        15
+      ],
+      "frame_count": 16,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.5,
+      "loop": false,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 100.0,
+      "intended_layer": "Locomotion",
+      "entry_state": "Locomotion",
+      "exit_state": "Idle",
+      "event_markers": [
+        {
+          "name": "foot_l_down",
+          "frame": 5,
+          "time_sec": 0.1667
+        },
+        {
+          "name": "foot_r_down",
+          "frame": 11,
+          "time_sec": 0.3667
+        }
+      ],
+      "required_behavior": "Brake into a planted stance."
+    },
+    {
+      "id": "turn_l90",
+      "index": 23,
+      "form": "one_shot",
+      "source_action": "turn_l90",
+      "exported_fbx": "export/animations/turn_l90.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/turn_l90.turn_l90",
+      "frame_range": [
+        0,
+        18
+      ],
+      "frame_count": 19,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.6,
+      "loop": false,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "Locomotion",
+      "entry_state": "Idle",
+      "exit_state": "Idle",
+      "event_markers": [
+        {
+          "name": "foot_l_down",
+          "frame": 8,
+          "time_sec": 0.2667
+        },
+        {
+          "name": "foot_r_down",
+          "frame": 15,
+          "time_sec": 0.5
+        }
+      ],
+      "required_behavior": "Turn left 90 degrees with foot placement."
+    },
+    {
+      "id": "turn_r90",
+      "index": 24,
+      "form": "one_shot",
+      "source_action": "turn_r90",
+      "exported_fbx": "export/animations/turn_r90.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/turn_r90.turn_r90",
+      "frame_range": [
+        0,
+        18
+      ],
+      "frame_count": 19,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.6,
+      "loop": false,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "Locomotion",
+      "entry_state": "Idle",
+      "exit_state": "Idle",
+      "event_markers": [
+        {
+          "name": "foot_r_down",
+          "frame": 8,
+          "time_sec": 0.2667
+        },
+        {
+          "name": "foot_l_down",
+          "frame": 15,
+          "time_sec": 0.5
+        }
+      ],
+      "required_behavior": "Turn right 90 degrees with foot placement."
+    },
+    {
+      "id": "pivot_l180",
+      "index": 25,
+      "form": "one_shot",
+      "source_action": "pivot_l180",
+      "exported_fbx": "export/animations/pivot_l180.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/pivot_l180.pivot_l180",
+      "frame_range": [
+        0,
+        18
+      ],
+      "frame_count": 19,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.6,
+      "loop": false,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 250.0,
+      "intended_layer": "Locomotion",
+      "entry_state": "Locomotion",
+      "exit_state": "Locomotion",
+      "event_markers": [
+        {
+          "name": "pivot_plant",
+          "frame": 8,
+          "time_sec": 0.2667
+        },
+        {
+          "name": "foot_r_down",
+          "frame": 16,
+          "time_sec": 0.5333
+        }
+      ],
+      "required_behavior": "Left 180-degree moving direction change."
+    },
+    {
+      "id": "pivot_r180",
+      "index": 26,
+      "form": "one_shot",
+      "source_action": "pivot_r180",
+      "exported_fbx": "export/animations/pivot_r180.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/pivot_r180.pivot_r180",
+      "frame_range": [
+        0,
+        18
+      ],
+      "frame_count": 19,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.6,
+      "loop": false,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 250.0,
+      "intended_layer": "Locomotion",
+      "entry_state": "Locomotion",
+      "exit_state": "Locomotion",
+      "event_markers": [
+        {
+          "name": "pivot_plant",
+          "frame": 8,
+          "time_sec": 0.2667
+        },
+        {
+          "name": "foot_l_down",
+          "frame": 16,
+          "time_sec": 0.5333
+        }
+      ],
+      "required_behavior": "Right 180-degree moving direction change."
+    },
+    {
+      "id": "jump_start",
+      "index": 27,
+      "form": "one_shot",
+      "source_action": "jump_start",
+      "exported_fbx": "export/animations/jump_start.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/jump_start.jump_start",
+      "frame_range": [
+        0,
+        12
+      ],
+      "frame_count": 13,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.4,
+      "loop": false,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "Airborne",
+      "entry_state": "Locomotion",
+      "exit_state": "JumpAir",
+      "event_markers": [
+        {
+          "name": "jump_takeoff",
+          "frame": 6,
+          "time_sec": 0.2
+        }
+      ],
+      "required_behavior": "Visible anticipation and takeoff."
+    },
+    {
+      "id": "jump_air",
+      "index": 28,
+      "form": "loop",
+      "source_action": "jump_air",
+      "exported_fbx": "export/animations/jump_air.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/jump_air.jump_air",
+      "frame_range": [
+        0,
+        18
+      ],
+      "frame_count": 19,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.6,
+      "loop": true,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "Airborne",
+      "entry_state": "JumpAir",
+      "exit_state": "JumpAir",
+      "event_markers": [],
+      "required_behavior": "Controllable airborne posture."
+    },
+    {
+      "id": "jump_land",
+      "index": 29,
+      "form": "one_shot",
+      "source_action": "jump_land",
+      "exported_fbx": "export/animations/jump_land.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/jump_land.jump_land",
+      "frame_range": [
+        0,
+        15
+      ],
+      "frame_count": 16,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.5,
+      "loop": false,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "Airborne",
+      "entry_state": "JumpAir",
+      "exit_state": "Idle",
+      "event_markers": [
+        {
+          "name": "land_contact",
+          "frame": 2,
+          "time_sec": 0.0667
+        },
+        {
+          "name": "recovery",
+          "frame": 11,
+          "time_sec": 0.3667
+        }
+      ],
+      "required_behavior": "Soft landing with compression and recovery."
+    },
+    {
+      "id": "fall",
+      "index": 30,
+      "form": "loop",
+      "source_action": "fall",
+      "exported_fbx": "export/animations/fall.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/fall.fall",
+      "frame_range": [
+        0,
+        24
+      ],
+      "frame_count": 25,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.8,
+      "loop": true,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "Airborne",
+      "entry_state": "Fall",
+      "exit_state": "Fall",
+      "event_markers": [],
+      "required_behavior": "Long-fall posture, distinct from the jump apex."
+    },
+    {
+      "id": "land_heavy",
+      "index": 31,
+      "form": "one_shot",
+      "source_action": "land_heavy",
+      "exported_fbx": "export/animations/land_heavy.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/land_heavy.land_heavy",
+      "frame_range": [
+        0,
+        24
+      ],
+      "frame_count": 25,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.8,
+      "loop": false,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "Airborne",
+      "entry_state": "Fall",
+      "exit_state": "Idle",
+      "event_markers": [
+        {
+          "name": "land_contact",
+          "frame": 2,
+          "time_sec": 0.0667
+        },
+        {
+          "name": "hand_plant",
+          "frame": 8,
+          "time_sec": 0.2667
+        },
+        {
+          "name": "recovery",
+          "frame": 19,
+          "time_sec": 0.6333
+        }
+      ],
+      "required_behavior": "Hard landing with clear weight and recovery."
+    },
+    {
+      "id": "dash_f",
+      "index": 32,
+      "form": "one_shot",
+      "source_action": "dash_f",
+      "exported_fbx": "export/animations/dash_f.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/dash_f.dash_f",
+      "frame_range": [
+        0,
+        14
+      ],
+      "frame_count": 15,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.45,
+      "loop": false,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "root_motion",
+      "nominal_travel_speed_cms": 444.4,
+      "intended_layer": "FullBodyRootMotion",
+      "entry_state": "Any",
+      "exit_state": "Locomotion",
+      "event_markers": [
+        {
+          "name": "dash_burst",
+          "frame": 2,
+          "time_sec": 0.0667
+        },
+        {
+          "name": "dash_end",
+          "frame": 12,
+          "time_sec": 0.4
+        }
+      ],
+      "required_behavior": "Ground dash forward, 2 m nominal horizontal displacement; controller/capsule tracks motion."
+    },
+    {
+      "id": "dash_b",
+      "index": 33,
+      "form": "one_shot",
+      "source_action": "dash_b",
+      "exported_fbx": "export/animations/dash_b.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/dash_b.dash_b",
+      "frame_range": [
+        0,
+        14
+      ],
+      "frame_count": 15,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.45,
+      "loop": false,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "root_motion",
+      "nominal_travel_speed_cms": 444.4,
+      "intended_layer": "FullBodyRootMotion",
+      "entry_state": "Any",
+      "exit_state": "Locomotion",
+      "event_markers": [
+        {
+          "name": "dash_burst",
+          "frame": 2,
+          "time_sec": 0.0667
+        },
+        {
+          "name": "dash_end",
+          "frame": 12,
+          "time_sec": 0.4
+        }
+      ],
+      "required_behavior": "Ground dash backward, 2 m nominal horizontal displacement; controller/capsule tracks motion."
+    },
+    {
+      "id": "dash_l",
+      "index": 34,
+      "form": "one_shot",
+      "source_action": "dash_l",
+      "exported_fbx": "export/animations/dash_l.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/dash_l.dash_l",
+      "frame_range": [
+        0,
+        14
+      ],
+      "frame_count": 15,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.45,
+      "loop": false,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "root_motion",
+      "nominal_travel_speed_cms": 444.4,
+      "intended_layer": "FullBodyRootMotion",
+      "entry_state": "Any",
+      "exit_state": "Locomotion",
+      "event_markers": [
+        {
+          "name": "dash_burst",
+          "frame": 2,
+          "time_sec": 0.0667
+        },
+        {
+          "name": "dash_end",
+          "frame": 12,
+          "time_sec": 0.4
+        }
+      ],
+      "required_behavior": "Ground dash left, 2 m nominal horizontal displacement; controller/capsule tracks motion."
+    },
+    {
+      "id": "dash_r",
+      "index": 35,
+      "form": "one_shot",
+      "source_action": "dash_r",
+      "exported_fbx": "export/animations/dash_r.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/dash_r.dash_r",
+      "frame_range": [
+        0,
+        14
+      ],
+      "frame_count": 15,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.45,
+      "loop": false,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "root_motion",
+      "nominal_travel_speed_cms": 444.4,
+      "intended_layer": "FullBodyRootMotion",
+      "entry_state": "Any",
+      "exit_state": "Locomotion",
+      "event_markers": [
+        {
+          "name": "dash_burst",
+          "frame": 2,
+          "time_sec": 0.0667
+        },
+        {
+          "name": "dash_end",
+          "frame": 12,
+          "time_sec": 0.4
+        }
+      ],
+      "required_behavior": "Ground dash right, 2 m nominal horizontal displacement; controller/capsule tracks motion."
+    },
+    {
+      "id": "blink_out",
+      "index": 36,
+      "form": "one_shot",
+      "source_action": "blink_out",
+      "exported_fbx": "export/animations/blink_out.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/blink_out.blink_out",
+      "frame_range": [
+        0,
+        10
+      ],
+      "frame_count": 11,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.35,
+      "loop": false,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "FullBody",
+      "entry_state": "Any",
+      "exit_state": "BlinkTeleport",
+      "event_markers": [
+        {
+          "name": "blink_teleport",
+          "frame": 9,
+          "time_sec": 0.3
+        }
+      ],
+      "required_behavior": "Anticipation and disappearance transition; actor teleport is an event, not baked travel."
+    },
+    {
+      "id": "blink_in",
+      "index": 37,
+      "form": "one_shot",
+      "source_action": "blink_in",
+      "exported_fbx": "export/animations/blink_in.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/blink_in.blink_in",
+      "frame_range": [
+        0,
+        10
+      ],
+      "frame_count": 11,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.35,
+      "loop": false,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "FullBody",
+      "entry_state": "BlinkTeleport",
+      "exit_state": "Idle",
+      "event_markers": [
+        {
+          "name": "blink_arrive",
+          "frame": 1,
+          "time_sec": 0.0333
+        },
+        {
+          "name": "foot_plant",
+          "frame": 7,
+          "time_sec": 0.2333
+        }
+      ],
+      "required_behavior": "Reappearance, plant and settle at destination."
+    },
+    {
+      "id": "melee_1",
+      "index": 38,
+      "form": "one_shot",
+      "source_action": "melee_1",
+      "exported_fbx": "export/animations/melee_1.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/melee_1.melee_1",
+      "frame_range": [
+        0,
+        21
+      ],
+      "frame_count": 22,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.7,
+      "loop": false,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "FullBodyAction",
+      "entry_state": "Ready",
+      "exit_state": "MeleeCombo1",
+      "event_markers": [
+        {
+          "name": "hit_window_start",
+          "frame": 6,
+          "time_sec": 0.2
+        },
+        {
+          "name": "hit_window_end",
+          "frame": 12,
+          "time_sec": 0.4
+        },
+        {
+          "name": "recovery",
+          "frame": 16,
+          "time_sec": 0.5333
+        }
+      ],
+      "required_behavior": "Diagonal forearm-blade slash. Supply hit-window and recovery markers."
+    },
+    {
+      "id": "melee_2",
+      "index": 39,
+      "form": "one_shot",
+      "source_action": "melee_2",
+      "exported_fbx": "export/animations/melee_2.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/melee_2.melee_2",
+      "frame_range": [
+        0,
+        22
+      ],
+      "frame_count": 23,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.75,
+      "loop": false,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "FullBodyAction",
+      "entry_state": "MeleeCombo1",
+      "exit_state": "MeleeCombo2",
+      "event_markers": [
+        {
+          "name": "hit_window_start",
+          "frame": 6,
+          "time_sec": 0.2
+        },
+        {
+          "name": "hit_window_end",
+          "frame": 13,
+          "time_sec": 0.4333
+        },
+        {
+          "name": "recovery",
+          "frame": 17,
+          "time_sec": 0.5667
+        }
+      ],
+      "required_behavior": "Reverse slash with different preparation and weight shift. Supply hit-window and recovery markers."
+    },
+    {
+      "id": "melee_3",
+      "index": 40,
+      "form": "one_shot",
+      "source_action": "melee_3",
+      "exported_fbx": "export/animations/melee_3.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/melee_3.melee_3",
+      "frame_range": [
+        0,
+        27
+      ],
+      "frame_count": 28,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.9,
+      "loop": false,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "FullBodyAction",
+      "entry_state": "MeleeCombo2",
+      "exit_state": "Ready",
+      "event_markers": [
+        {
+          "name": "hit_window_start",
+          "frame": 9,
+          "time_sec": 0.3
+        },
+        {
+          "name": "hit_window_end",
+          "frame": 17,
+          "time_sec": 0.5667
+        },
+        {
+          "name": "recovery",
+          "frame": 22,
+          "time_sec": 0.7333
+        }
+      ],
+      "required_behavior": "Committed finisher with distinct follow-through. Supply hit-window and recovery markers."
+    },
+    {
+      "id": "ranged_fire",
+      "index": 41,
+      "form": "one_shot",
+      "source_action": "ranged_fire",
+      "exported_fbx": "export/animations/ranged_fire.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/ranged_fire.ranged_fire",
+      "frame_range": [
+        0,
+        10
+      ],
+      "frame_count": 11,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.35,
+      "loop": false,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "UpperBody",
+      "entry_state": "Ready",
+      "exit_state": "Ready",
+      "event_markers": [
+        {
+          "name": "muzzle_fire",
+          "frame": 3,
+          "time_sec": 0.1
+        },
+        {
+          "name": "recovery",
+          "frame": 8,
+          "time_sec": 0.2667
+        }
+      ],
+      "required_behavior": "Wrist-emitter single shot, recoil and recovery; supports moving upper-body layering."
+    },
+    {
+      "id": "ranged_burst",
+      "index": 42,
+      "form": "one_shot",
+      "source_action": "ranged_burst",
+      "exported_fbx": "export/animations/ranged_burst.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/ranged_burst.ranged_burst",
+      "frame_range": [
+        0,
+        18
+      ],
+      "frame_count": 19,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.6,
+      "loop": false,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "UpperBody",
+      "entry_state": "Ready",
+      "exit_state": "Ready",
+      "event_markers": [
+        {
+          "name": "muzzle_fire_1",
+          "frame": 4,
+          "time_sec": 0.1333
+        },
+        {
+          "name": "muzzle_fire_2",
+          "frame": 8,
+          "time_sec": 0.2667
+        },
+        {
+          "name": "muzzle_fire_3",
+          "frame": 12,
+          "time_sec": 0.4
+        },
+        {
+          "name": "recovery",
+          "frame": 16,
+          "time_sec": 0.5333
+        }
+      ],
+      "required_behavior": "Three-shot burst with three distinct muzzle-event markers."
+    },
+    {
+      "id": "reload",
+      "index": 43,
+      "form": "one_shot",
+      "source_action": "reload",
+      "exported_fbx": "export/animations/reload.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/reload.reload",
+      "frame_range": [
+        0,
+        54
+      ],
+      "frame_count": 55,
+      "sample_rate_fps": 30,
+      "duration_seconds": 1.8,
+      "loop": false,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "UpperBody",
+      "entry_state": "Ready",
+      "exit_state": "Ready",
+      "event_markers": [
+        {
+          "name": "cell_grab",
+          "frame": 12,
+          "time_sec": 0.4
+        },
+        {
+          "name": "cell_extract",
+          "frame": 21,
+          "time_sec": 0.7
+        },
+        {
+          "name": "cell_insert",
+          "frame": 37,
+          "time_sec": 1.2333
+        },
+        {
+          "name": "reload_complete",
+          "frame": 48,
+          "time_sec": 1.6
+        }
+      ],
+      "required_behavior": "Physical emitter-cell manipulation with correct hand/object contact."
+    },
+    {
+      "id": "cast_directional",
+      "index": 44,
+      "form": "one_shot",
+      "source_action": "cast_directional",
+      "exported_fbx": "export/animations/cast_directional.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/cast_directional.cast_directional",
+      "frame_range": [
+        0,
+        21
+      ],
+      "frame_count": 22,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.7,
+      "loop": false,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "UpperBody",
+      "entry_state": "Ready",
+      "exit_state": "Ready",
+      "event_markers": [
+        {
+          "name": "cast_release",
+          "frame": 9,
+          "time_sec": 0.3
+        },
+        {
+          "name": "recovery",
+          "frame": 16,
+          "time_sec": 0.5333
+        }
+      ],
+      "required_behavior": "Readable direction-targeted release."
+    },
+    {
+      "id": "cast_ground",
+      "index": 45,
+      "form": "one_shot",
+      "source_action": "cast_ground",
+      "exported_fbx": "export/animations/cast_ground.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/cast_ground.cast_ground",
+      "frame_range": [
+        0,
+        27
+      ],
+      "frame_count": 28,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.9,
+      "loop": false,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "FullBodyAction",
+      "entry_state": "Ready",
+      "exit_state": "Ready",
+      "event_markers": [
+        {
+          "name": "cast_release",
+          "frame": 14,
+          "time_sec": 0.4667
+        },
+        {
+          "name": "recovery",
+          "frame": 22,
+          "time_sec": 0.7333
+        }
+      ],
+      "required_behavior": "Ground-targeted placement/cast with look direction."
+    },
+    {
+      "id": "cast_self",
+      "index": 46,
+      "form": "one_shot",
+      "source_action": "cast_self",
+      "exported_fbx": "export/animations/cast_self.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/cast_self.cast_self",
+      "frame_range": [
+        0,
+        24
+      ],
+      "frame_count": 25,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.8,
+      "loop": false,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "FullBodyAction",
+      "entry_state": "Ready",
+      "exit_state": "Ready",
+      "event_markers": [
+        {
+          "name": "cast_release",
+          "frame": 15,
+          "time_sec": 0.5
+        },
+        {
+          "name": "recovery",
+          "frame": 20,
+          "time_sec": 0.6667
+        }
+      ],
+      "required_behavior": "Self-centered defensive/emission cast."
+    },
+    {
+      "id": "channel_start",
+      "index": 47,
+      "form": "one_shot",
+      "source_action": "channel_start",
+      "exported_fbx": "export/animations/channel_start.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/channel_start.channel_start",
+      "frame_range": [
+        0,
+        14
+      ],
+      "frame_count": 15,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.45,
+      "loop": false,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "FullBodyAction",
+      "entry_state": "Ready",
+      "exit_state": "ChannelLoop",
+      "event_markers": [
+        {
+          "name": "channel_begin",
+          "frame": 11,
+          "time_sec": 0.3667
+        }
+      ],
+      "required_behavior": "Enter sustainable channel pose."
+    },
+    {
+      "id": "channel_loop",
+      "index": 48,
+      "form": "loop",
+      "source_action": "channel_loop",
+      "exported_fbx": "export/animations/channel_loop.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/channel_loop.channel_loop",
+      "frame_range": [
+        0,
+        30
+      ],
+      "frame_count": 31,
+      "sample_rate_fps": 30,
+      "duration_seconds": 1.0,
+      "loop": true,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "FullBodyAction",
+      "entry_state": "ChannelLoop",
+      "exit_state": "ChannelLoop",
+      "event_markers": [
+        {
+          "name": "channel_pulse",
+          "frame": 15,
+          "time_sec": 0.5
+        }
+      ],
+      "required_behavior": "Sustained beam-like emission, with restrained motion."
+    },
+    {
+      "id": "channel_end",
+      "index": 49,
+      "form": "one_shot",
+      "source_action": "channel_end",
+      "exported_fbx": "export/animations/channel_end.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/channel_end.channel_end",
+      "frame_range": [
+        0,
+        14
+      ],
+      "frame_count": 15,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.45,
+      "loop": false,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "FullBodyAction",
+      "entry_state": "ChannelLoop",
+      "exit_state": "Ready",
+      "event_markers": [
+        {
+          "name": "channel_complete",
+          "frame": 6,
+          "time_sec": 0.2
+        }
+      ],
+      "required_behavior": "Deliberate successful channel release."
+    },
+    {
+      "id": "channel_interrupt",
+      "index": 50,
+      "form": "one_shot",
+      "source_action": "channel_interrupt",
+      "exported_fbx": "export/animations/channel_interrupt.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/channel_interrupt.channel_interrupt",
+      "frame_range": [
+        0,
+        12
+      ],
+      "frame_count": 13,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.4,
+      "loop": false,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "FullBodyAction",
+      "entry_state": "ChannelLoop",
+      "exit_state": "Ready",
+      "event_markers": [
+        {
+          "name": "channel_broken",
+          "frame": 3,
+          "time_sec": 0.1
+        }
+      ],
+      "required_behavior": "Forced channel interruption distinct from completion."
+    },
+    {
+      "id": "charge_start",
+      "index": 51,
+      "form": "one_shot",
+      "source_action": "charge_start",
+      "exported_fbx": "export/animations/charge_start.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/charge_start.charge_start",
+      "frame_range": [
+        0,
+        16
+      ],
+      "frame_count": 17,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.55,
+      "loop": false,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "FullBodyAction",
+      "entry_state": "Ready",
+      "exit_state": "ChargeHold",
+      "event_markers": [
+        {
+          "name": "charge_accumulate",
+          "frame": 10,
+          "time_sec": 0.3333
+        }
+      ],
+      "required_behavior": "Wind up and accumulate energy."
+    },
+    {
+      "id": "charge_hold",
+      "index": 52,
+      "form": "loop",
+      "source_action": "charge_hold",
+      "exported_fbx": "export/animations/charge_hold.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/charge_hold.charge_hold",
+      "frame_range": [
+        0,
+        27
+      ],
+      "frame_count": 28,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.9,
+      "loop": true,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "FullBodyAction",
+      "entry_state": "ChargeHold",
+      "exit_state": "ChargeHold",
+      "event_markers": [
+        {
+          "name": "charge_ready",
+          "frame": 13,
+          "time_sec": 0.4333
+        }
+      ],
+      "required_behavior": "Hold charge without freezing the whole character."
+    },
+    {
+      "id": "charge_release",
+      "index": 53,
+      "form": "one_shot",
+      "source_action": "charge_release",
+      "exported_fbx": "export/animations/charge_release.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/charge_release.charge_release",
+      "frame_range": [
+        0,
+        18
+      ],
+      "frame_count": 19,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.6,
+      "loop": false,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "FullBodyAction",
+      "entry_state": "ChargeHold",
+      "exit_state": "Ready",
+      "event_markers": [
+        {
+          "name": "charge_fire",
+          "frame": 7,
+          "time_sec": 0.2333
+        },
+        {
+          "name": "recovery",
+          "frame": 14,
+          "time_sec": 0.4667
+        }
+      ],
+      "required_behavior": "Forceful release with weight transfer."
+    },
+    {
+      "id": "charge_cancel",
+      "index": 54,
+      "form": "one_shot",
+      "source_action": "charge_cancel",
+      "exported_fbx": "export/animations/charge_cancel.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/charge_cancel.charge_cancel",
+      "frame_range": [
+        0,
+        14
+      ],
+      "frame_count": 15,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.45,
+      "loop": false,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "FullBodyAction",
+      "entry_state": "ChargeHold",
+      "exit_state": "Ready",
+      "event_markers": [
+        {
+          "name": "charge_dissipate",
+          "frame": 5,
+          "time_sec": 0.1667
+        }
+      ],
+      "required_behavior": "Safely cancel the stored charge."
+    },
+    {
+      "id": "deploy",
+      "index": 55,
+      "form": "one_shot",
+      "source_action": "deploy",
+      "exported_fbx": "export/animations/deploy.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/deploy.deploy",
+      "frame_range": [
+        0,
+        33
+      ],
+      "frame_count": 34,
+      "sample_rate_fps": 30,
+      "duration_seconds": 1.1,
+      "loop": false,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "FullBodyAction",
+      "entry_state": "Ready",
+      "exit_state": "Ready",
+      "event_markers": [
+        {
+          "name": "beacon_grab",
+          "frame": 7,
+          "time_sec": 0.2333
+        },
+        {
+          "name": "beacon_release",
+          "frame": 19,
+          "time_sec": 0.6333
+        },
+        {
+          "name": "recovery",
+          "frame": 28,
+          "time_sec": 0.9333
+        }
+      ],
+      "required_behavior": "Place a visible small drone/beacon prop using believable contact."
+    },
+    {
+      "id": "uplink_start",
+      "index": 56,
+      "form": "one_shot",
+      "source_action": "uplink_start",
+      "exported_fbx": "export/animations/uplink_start.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/uplink_start.uplink_start",
+      "frame_range": [
+        0,
+        18
+      ],
+      "frame_count": 19,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.6,
+      "loop": false,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "FullBodyAction",
+      "entry_state": "Ready",
+      "exit_state": "UplinkLoop",
+      "event_markers": [
+        {
+          "name": "uplink_open",
+          "frame": 12,
+          "time_sec": 0.4
+        }
+      ],
+      "required_behavior": "Begin recall-like console gesture."
+    },
+    {
+      "id": "uplink_loop",
+      "index": 57,
+      "form": "loop",
+      "source_action": "uplink_loop",
+      "exported_fbx": "export/animations/uplink_loop.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/uplink_loop.uplink_loop",
+      "frame_range": [
+        0,
+        36
+      ],
+      "frame_count": 37,
+      "sample_rate_fps": 30,
+      "duration_seconds": 1.2,
+      "loop": true,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "FullBodyAction",
+      "entry_state": "UplinkLoop",
+      "exit_state": "UplinkLoop",
+      "event_markers": [
+        {
+          "name": "uplink_sync",
+          "frame": 18,
+          "time_sec": 0.6
+        }
+      ],
+      "required_behavior": "Maintain recall gesture; feet remain planted."
+    },
+    {
+      "id": "uplink_end",
+      "index": 58,
+      "form": "one_shot",
+      "source_action": "uplink_end",
+      "exported_fbx": "export/animations/uplink_end.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/uplink_end.uplink_end",
+      "frame_range": [
+        0,
+        15
+      ],
+      "frame_count": 16,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.5,
+      "loop": false,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "FullBodyAction",
+      "entry_state": "UplinkLoop",
+      "exit_state": "Ready",
+      "event_markers": [
+        {
+          "name": "uplink_complete",
+          "frame": 8,
+          "time_sec": 0.2667
+        }
+      ],
+      "required_behavior": "Successful completion cue; later blink is separate."
+    },
+    {
+      "id": "uplink_cancel",
+      "index": 59,
+      "form": "one_shot",
+      "source_action": "uplink_cancel",
+      "exported_fbx": "export/animations/uplink_cancel.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/uplink_cancel.uplink_cancel",
+      "frame_range": [
+        0,
+        14
+      ],
+      "frame_count": 15,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.45,
+      "loop": false,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "FullBodyAction",
+      "entry_state": "UplinkLoop",
+      "exit_state": "Ready",
+      "event_markers": [
+        {
+          "name": "uplink_abort",
+          "frame": 4,
+          "time_sec": 0.1333
+        }
+      ],
+      "required_behavior": "Interrupted/canceled recall, clean return to control."
+    },
+    {
+      "id": "hit_f",
+      "index": 60,
+      "form": "additive",
+      "source_action": "hit_f",
+      "exported_fbx": "export/animations/hit_f.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/hit_f.hit_f",
+      "frame_range": [
+        0,
+        10
+      ],
+      "frame_count": 11,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.35,
+      "loop": false,
+      "is_additive": true,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "AdditiveHit",
+      "entry_state": "Any",
+      "exit_state": "Any",
+      "event_markers": [
+        {
+          "name": "hit_peak",
+          "frame": 4,
+          "time_sec": 0.1333
+        }
+      ],
+      "required_behavior": "Reaction to hit from front; layer over idle and motion without snapping planted feet."
+    },
+    {
+      "id": "hit_b",
+      "index": 61,
+      "form": "additive",
+      "source_action": "hit_b",
+      "exported_fbx": "export/animations/hit_b.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/hit_b.hit_b",
+      "frame_range": [
+        0,
+        10
+      ],
+      "frame_count": 11,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.35,
+      "loop": false,
+      "is_additive": true,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "AdditiveHit",
+      "entry_state": "Any",
+      "exit_state": "Any",
+      "event_markers": [
+        {
+          "name": "hit_peak",
+          "frame": 4,
+          "time_sec": 0.1333
+        }
+      ],
+      "required_behavior": "Reaction to hit from back; layer over idle and motion without snapping planted feet."
+    },
+    {
+      "id": "hit_l",
+      "index": 62,
+      "form": "additive",
+      "source_action": "hit_l",
+      "exported_fbx": "export/animations/hit_l.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/hit_l.hit_l",
+      "frame_range": [
+        0,
+        10
+      ],
+      "frame_count": 11,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.35,
+      "loop": false,
+      "is_additive": true,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "AdditiveHit",
+      "entry_state": "Any",
+      "exit_state": "Any",
+      "event_markers": [
+        {
+          "name": "hit_peak",
+          "frame": 4,
+          "time_sec": 0.1333
+        }
+      ],
+      "required_behavior": "Reaction to hit from left; layer over idle and motion without snapping planted feet."
+    },
+    {
+      "id": "hit_r",
+      "index": 63,
+      "form": "additive",
+      "source_action": "hit_r",
+      "exported_fbx": "export/animations/hit_r.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/hit_r.hit_r",
+      "frame_range": [
+        0,
+        10
+      ],
+      "frame_count": 11,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.35,
+      "loop": false,
+      "is_additive": true,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "AdditiveHit",
+      "entry_state": "Any",
+      "exit_state": "Any",
+      "event_markers": [
+        {
+          "name": "hit_peak",
+          "frame": 4,
+          "time_sec": 0.1333
+        }
+      ],
+      "required_behavior": "Reaction to hit from right; layer over idle and motion without snapping planted feet."
+    },
+    {
+      "id": "stun_start",
+      "index": 64,
+      "form": "one_shot",
+      "source_action": "stun_start",
+      "exported_fbx": "export/animations/stun_start.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/stun_start.stun_start",
+      "frame_range": [
+        0,
+        15
+      ],
+      "frame_count": 16,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.5,
+      "loop": false,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "Disable",
+      "entry_state": "Any",
+      "exit_state": "StunLoop",
+      "event_markers": [
+        {
+          "name": "stun_enter",
+          "frame": 4,
+          "time_sec": 0.1333
+        }
+      ],
+      "required_behavior": "Lose control and enter stun."
+    },
+    {
+      "id": "stun_loop",
+      "index": 65,
+      "form": "loop",
+      "source_action": "stun_loop",
+      "exported_fbx": "export/animations/stun_loop.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/stun_loop.stun_loop",
+      "frame_range": [
+        0,
+        36
+      ],
+      "frame_count": 37,
+      "sample_rate_fps": 30,
+      "duration_seconds": 1.2,
+      "loop": true,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "Disable",
+      "entry_state": "StunLoop",
+      "exit_state": "StunLoop",
+      "event_markers": [],
+      "required_behavior": "Disoriented stable pose, alive and breathing."
+    },
+    {
+      "id": "stun_end",
+      "index": 66,
+      "form": "one_shot",
+      "source_action": "stun_end",
+      "exported_fbx": "export/animations/stun_end.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/stun_end.stun_end",
+      "frame_range": [
+        0,
+        16
+      ],
+      "frame_count": 17,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.55,
+      "loop": false,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "Disable",
+      "entry_state": "StunLoop",
+      "exit_state": "Ready",
+      "event_markers": [
+        {
+          "name": "stun_recover",
+          "frame": 12,
+          "time_sec": 0.4
+        }
+      ],
+      "required_behavior": "Regain control without sliding."
+    },
+    {
+      "id": "knockback",
+      "index": 67,
+      "form": "one_shot",
+      "source_action": "knockback",
+      "exported_fbx": "export/animations/knockback.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/knockback.knockback",
+      "frame_range": [
+        0,
+        21
+      ],
+      "frame_count": 22,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.7,
+      "loop": false,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "Disable",
+      "entry_state": "Any",
+      "exit_state": "Ready",
+      "event_markers": [
+        {
+          "name": "knockback_slide",
+          "frame": 4,
+          "time_sec": 0.1333
+        },
+        {
+          "name": "foot_plant",
+          "frame": 16,
+          "time_sec": 0.5333
+        }
+      ],
+      "required_behavior": "Reaction to backward forced travel; travel is controlled by the host."
+    },
+    {
+      "id": "knockup_start",
+      "index": 68,
+      "form": "one_shot",
+      "source_action": "knockup_start",
+      "exported_fbx": "export/animations/knockup_start.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/knockup_start.knockup_start",
+      "frame_range": [
+        0,
+        15
+      ],
+      "frame_count": 16,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.5,
+      "loop": false,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "Disable",
+      "entry_state": "Any",
+      "exit_state": "KnockupAir",
+      "event_markers": [
+        {
+          "name": "launch_air",
+          "frame": 3,
+          "time_sec": 0.1
+        }
+      ],
+      "required_behavior": "Forced launch, distinct from voluntary jump."
+    },
+    {
+      "id": "knockup_air",
+      "index": 69,
+      "form": "loop",
+      "source_action": "knockup_air",
+      "exported_fbx": "export/animations/knockup_air.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/knockup_air.knockup_air",
+      "frame_range": [
+        0,
+        27
+      ],
+      "frame_count": 28,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.9,
+      "loop": true,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "Disable",
+      "entry_state": "KnockupAir",
+      "exit_state": "KnockupAir",
+      "event_markers": [],
+      "required_behavior": "Helpless airborne pose."
+    },
+    {
+      "id": "knockdown_front",
+      "index": 70,
+      "form": "one_shot",
+      "source_action": "knockdown_front",
+      "exported_fbx": "export/animations/knockdown_front.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/knockdown_front.knockdown_front",
+      "frame_range": [
+        0,
+        26
+      ],
+      "frame_count": 27,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.85,
+      "loop": false,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "Disable",
+      "entry_state": "Any",
+      "exit_state": "ProneFront",
+      "event_markers": [
+        {
+          "name": "knee_impact",
+          "frame": 10,
+          "time_sec": 0.3333
+        },
+        {
+          "name": "body_impact",
+          "frame": 20,
+          "time_sec": 0.6667
+        }
+      ],
+      "required_behavior": "Fall into a face-down position."
+    },
+    {
+      "id": "knockdown_back",
+      "index": 71,
+      "form": "one_shot",
+      "source_action": "knockdown_back",
+      "exported_fbx": "export/animations/knockdown_back.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/knockdown_back.knockdown_back",
+      "frame_range": [
+        0,
+        26
+      ],
+      "frame_count": 27,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.85,
+      "loop": false,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "Disable",
+      "entry_state": "Any",
+      "exit_state": "ProneBack",
+      "event_markers": [
+        {
+          "name": "hip_impact",
+          "frame": 11,
+          "time_sec": 0.3667
+        },
+        {
+          "name": "back_impact",
+          "frame": 21,
+          "time_sec": 0.7
+        }
+      ],
+      "required_behavior": "Fall into a face-up position."
+    },
+    {
+      "id": "prone_front",
+      "index": 72,
+      "form": "loop",
+      "source_action": "prone_front",
+      "exported_fbx": "export/animations/prone_front.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/prone_front.prone_front",
+      "frame_range": [
+        0,
+        36
+      ],
+      "frame_count": 37,
+      "sample_rate_fps": 30,
+      "duration_seconds": 1.2,
+      "loop": true,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "Disable",
+      "entry_state": "ProneFront",
+      "exit_state": "ProneFront",
+      "event_markers": [],
+      "required_behavior": "Face-down floor pose with restrained life motion."
+    },
+    {
+      "id": "prone_back",
+      "index": 73,
+      "form": "loop",
+      "source_action": "prone_back",
+      "exported_fbx": "export/animations/prone_back.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/prone_back.prone_back",
+      "frame_range": [
+        0,
+        36
+      ],
+      "frame_count": 37,
+      "sample_rate_fps": 30,
+      "duration_seconds": 1.2,
+      "loop": true,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "Disable",
+      "entry_state": "ProneBack",
+      "exit_state": "ProneBack",
+      "event_markers": [],
+      "required_behavior": "Face-up floor pose with restrained life motion."
+    },
+    {
+      "id": "getup_front",
+      "index": 74,
+      "form": "one_shot",
+      "source_action": "getup_front",
+      "exported_fbx": "export/animations/getup_front.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/getup_front.getup_front",
+      "frame_range": [
+        0,
+        33
+      ],
+      "frame_count": 34,
+      "sample_rate_fps": 30,
+      "duration_seconds": 1.1,
+      "loop": false,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "Disable",
+      "entry_state": "ProneFront",
+      "exit_state": "Ready",
+      "event_markers": [
+        {
+          "name": "hand_push",
+          "frame": 8,
+          "time_sec": 0.2667
+        },
+        {
+          "name": "foot_plant",
+          "frame": 20,
+          "time_sec": 0.6667
+        },
+        {
+          "name": "recovery",
+          "frame": 30,
+          "time_sec": 1.0
+        }
+      ],
+      "required_behavior": "Stand from face-down through plausible supporting contacts."
+    },
+    {
+      "id": "getup_back",
+      "index": 75,
+      "form": "one_shot",
+      "source_action": "getup_back",
+      "exported_fbx": "export/animations/getup_back.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/getup_back.getup_back",
+      "frame_range": [
+        0,
+        33
+      ],
+      "frame_count": 34,
+      "sample_rate_fps": 30,
+      "duration_seconds": 1.1,
+      "loop": false,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "Disable",
+      "entry_state": "ProneBack",
+      "exit_state": "Ready",
+      "event_markers": [
+        {
+          "name": "hand_push",
+          "frame": 9,
+          "time_sec": 0.3
+        },
+        {
+          "name": "foot_plant",
+          "frame": 21,
+          "time_sec": 0.7
+        },
+        {
+          "name": "recovery",
+          "frame": 30,
+          "time_sec": 1.0
+        }
+      ],
+      "required_behavior": "Stand from face-up through plausible supporting contacts."
+    },
+    {
+      "id": "sleep_start",
+      "index": 76,
+      "form": "one_shot",
+      "source_action": "sleep_start",
+      "exported_fbx": "export/animations/sleep_start.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/sleep_start.sleep_start",
+      "frame_range": [
+        0,
+        27
+      ],
+      "frame_count": 28,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.9,
+      "loop": false,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "Disable",
+      "entry_state": "Any",
+      "exit_state": "SleepLoop",
+      "event_markers": [
+        {
+          "name": "knee_rest",
+          "frame": 16,
+          "time_sec": 0.5333
+        }
+      ],
+      "required_behavior": "Enter a stable sleep posture."
+    },
+    {
+      "id": "sleep_loop",
+      "index": 77,
+      "form": "loop",
+      "source_action": "sleep_loop",
+      "exported_fbx": "export/animations/sleep_loop.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/sleep_loop.sleep_loop",
+      "frame_range": [
+        0,
+        45
+      ],
+      "frame_count": 46,
+      "sample_rate_fps": 30,
+      "duration_seconds": 1.5,
+      "loop": true,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "Disable",
+      "entry_state": "SleepLoop",
+      "exit_state": "SleepLoop",
+      "event_markers": [],
+      "required_behavior": "Sustained sleeping posture with breathing."
+    },
+    {
+      "id": "sleep_end",
+      "index": 78,
+      "form": "one_shot",
+      "source_action": "sleep_end",
+      "exported_fbx": "export/animations/sleep_end.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/sleep_end.sleep_end",
+      "frame_range": [
+        0,
+        27
+      ],
+      "frame_count": 28,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.9,
+      "loop": false,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "Disable",
+      "entry_state": "SleepLoop",
+      "exit_state": "Ready",
+      "event_markers": [
+        {
+          "name": "wake_stand",
+          "frame": 18,
+          "time_sec": 0.6
+        }
+      ],
+      "required_behavior": "Awaken and return to readiness."
+    },
+    {
+      "id": "death_front",
+      "index": 79,
+      "form": "one_shot",
+      "source_action": "death_front",
+      "exported_fbx": "export/animations/death_front.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/death_front.death_front",
+      "frame_range": [
+        0,
+        45
+      ],
+      "frame_count": 46,
+      "sample_rate_fps": 30,
+      "duration_seconds": 1.5,
+      "loop": false,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "Terminal",
+      "entry_state": "Any",
+      "exit_state": "DeadFront",
+      "event_markers": [
+        {
+          "name": "fatal_hit",
+          "frame": 2,
+          "time_sec": 0.0667
+        },
+        {
+          "name": "knee_drop",
+          "frame": 18,
+          "time_sec": 0.6
+        },
+        {
+          "name": "body_collapse",
+          "frame": 36,
+          "time_sec": 1.2
+        }
+      ],
+      "required_behavior": "Front-impact death ending in a clear stable body pose."
+    },
+    {
+      "id": "death_back",
+      "index": 80,
+      "form": "one_shot",
+      "source_action": "death_back",
+      "exported_fbx": "export/animations/death_back.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/death_back.death_back",
+      "frame_range": [
+        0,
+        45
+      ],
+      "frame_count": 46,
+      "sample_rate_fps": 30,
+      "duration_seconds": 1.5,
+      "loop": false,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "Terminal",
+      "entry_state": "Any",
+      "exit_state": "DeadBack",
+      "event_markers": [
+        {
+          "name": "fatal_hit",
+          "frame": 2,
+          "time_sec": 0.0667
+        },
+        {
+          "name": "back_collapse",
+          "frame": 35,
+          "time_sec": 1.1667
+        }
+      ],
+      "required_behavior": "Back-impact death, not a mirrored duplicate with impossible contacts."
+    },
+    {
+      "id": "dead_front",
+      "index": 81,
+      "form": "pose",
+      "source_action": "dead_front",
+      "exported_fbx": "export/animations/dead_front.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/dead_front.dead_front",
+      "frame_range": [
+        0,
+        1
+      ],
+      "frame_count": 1,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.0,
+      "loop": false,
+      "is_additive": false,
+      "is_static_pose": true,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "Terminal",
+      "entry_state": "DeadFront",
+      "exit_state": "DeadFront",
+      "event_markers": [],
+      "required_behavior": "Held final pose of death_front."
+    },
+    {
+      "id": "dead_back",
+      "index": 82,
+      "form": "pose",
+      "source_action": "dead_back",
+      "exported_fbx": "export/animations/dead_back.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/dead_back.dead_back",
+      "frame_range": [
+        0,
+        1
+      ],
+      "frame_count": 1,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.0,
+      "loop": false,
+      "is_additive": false,
+      "is_static_pose": true,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "Terminal",
+      "entry_state": "DeadBack",
+      "exit_state": "DeadBack",
+      "event_markers": [],
+      "required_behavior": "Held final pose of death_back."
+    },
+    {
+      "id": "respawn",
+      "index": 83,
+      "form": "one_shot",
+      "source_action": "respawn",
+      "exported_fbx": "export/animations/respawn.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/respawn.respawn",
+      "frame_range": [
+        0,
+        48
+      ],
+      "frame_count": 49,
+      "sample_rate_fps": 30,
+      "duration_seconds": 1.6,
+      "loop": false,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "Terminal",
+      "entry_state": "Dead",
+      "exit_state": "Ready",
+      "event_markers": [
+        {
+          "name": "reconstruct_start",
+          "frame": 2,
+          "time_sec": 0.0667
+        },
+        {
+          "name": "feet_touchdown",
+          "frame": 24,
+          "time_sec": 0.8
+        },
+        {
+          "name": "ready_lock",
+          "frame": 42,
+          "time_sec": 1.4
+        }
+      ],
+      "required_behavior": "Reconstruct/activate and settle into a ready living stance; not reverse playback of a death."
+    },
+    {
+      "id": "greet",
+      "index": 84,
+      "form": "one_shot",
+      "source_action": "greet",
+      "exported_fbx": "export/animations/greet.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/greet.greet",
+      "frame_range": [
+        0,
+        42
+      ],
+      "frame_count": 43,
+      "sample_rate_fps": 30,
+      "duration_seconds": 1.4,
+      "loop": false,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "Social",
+      "entry_state": "Idle",
+      "exit_state": "Idle",
+      "event_markers": [
+        {
+          "name": "salute_tap",
+          "frame": 14,
+          "time_sec": 0.4667
+        }
+      ],
+      "required_behavior": "Short intentional social greeting."
+    },
+    {
+      "id": "victory",
+      "index": 85,
+      "form": "one_shot",
+      "source_action": "victory",
+      "exported_fbx": "export/animations/victory.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/victory.victory",
+      "frame_range": [
+        0,
+        54
+      ],
+      "frame_count": 55,
+      "sample_rate_fps": 30,
+      "duration_seconds": 1.8,
+      "loop": false,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "Social",
+      "entry_state": "Idle",
+      "exit_state": "Idle",
+      "event_markers": [
+        {
+          "name": "blade_flourish",
+          "frame": 15,
+          "time_sec": 0.5
+        },
+        {
+          "name": "fist_pump",
+          "frame": 36,
+          "time_sec": 1.2
+        }
+      ],
+      "required_behavior": "Confident celebration with readable face and hands."
+    },
+    {
+      "id": "defeat",
+      "index": 86,
+      "form": "one_shot",
+      "source_action": "defeat",
+      "exported_fbx": "export/animations/defeat.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/defeat.defeat",
+      "frame_range": [
+        0,
+        54
+      ],
+      "frame_count": 55,
+      "sample_rate_fps": 30,
+      "duration_seconds": 1.8,
+      "loop": false,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "Social",
+      "entry_state": "Idle",
+      "exit_state": "Idle",
+      "event_markers": [
+        {
+          "name": "knee_drop",
+          "frame": 18,
+          "time_sec": 0.6
+        }
+      ],
+      "required_behavior": "Disappointment, nonfatal, distinct from death."
+    },
+    {
+      "id": "dialogue",
+      "index": 87,
+      "form": "one_shot",
+      "source_action": "dialogue",
+      "exported_fbx": "export/animations/dialogue.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/dialogue.dialogue",
+      "frame_range": [
+        0,
+        435
+      ],
+      "frame_count": 436,
+      "sample_rate_fps": 30,
+      "duration_seconds": 14.5,
+      "loop": false,
+      "is_additive": false,
+      "is_static_pose": false,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "FullBodyPerformance",
+      "entry_state": "Idle",
+      "exit_state": "Idle",
+      "event_markers": [
+        {
+          "name": "speech_start",
+          "frame": 10,
+          "time_sec": 0.3333
+        },
+        {
+          "name": "emotional_shift_spike",
+          "frame": 160,
+          "time_sec": 5.3333
+        },
+        {
+          "name": "emitter_reroute",
+          "frame": 313,
+          "time_sec": 10.4333
+        },
+        {
+          "name": "network_stabilized",
+          "frame": 384,
+          "time_sec": 12.8
+        }
+      ],
+      "required_behavior": "Original spoken performance with synchronized lips, eyes, facial expression, hand gestures and body acting; include audio and alignment."
+    },
+    {
+      "id": "aim_down_left",
+      "index": 88,
+      "form": "pose",
+      "source_action": "aim_down_left",
+      "exported_fbx": "export/animations/aim_down_left.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/aim_down_left.aim_down_left",
+      "frame_range": [
+        0,
+        1
+      ],
+      "frame_count": 1,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.0,
+      "loop": false,
+      "is_additive": false,
+      "is_static_pose": true,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "AimOffset",
+      "entry_state": "AimGrid",
+      "exit_state": "AimGrid",
+      "event_markers": [],
+      "required_behavior": "Aim pose at pitch down / yaw left; nine calibrated grid samples, stable wrists and shoulders."
+    },
+    {
+      "id": "aim_down_center",
+      "index": 89,
+      "form": "pose",
+      "source_action": "aim_down_center",
+      "exported_fbx": "export/animations/aim_down_center.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/aim_down_center.aim_down_center",
+      "frame_range": [
+        0,
+        1
+      ],
+      "frame_count": 1,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.0,
+      "loop": false,
+      "is_additive": false,
+      "is_static_pose": true,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "AimOffset",
+      "entry_state": "AimGrid",
+      "exit_state": "AimGrid",
+      "event_markers": [],
+      "required_behavior": "Aim pose at pitch down / yaw center; nine calibrated grid samples, stable wrists and shoulders."
+    },
+    {
+      "id": "aim_down_right",
+      "index": 90,
+      "form": "pose",
+      "source_action": "aim_down_right",
+      "exported_fbx": "export/animations/aim_down_right.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/aim_down_right.aim_down_right",
+      "frame_range": [
+        0,
+        1
+      ],
+      "frame_count": 1,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.0,
+      "loop": false,
+      "is_additive": false,
+      "is_static_pose": true,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "AimOffset",
+      "entry_state": "AimGrid",
+      "exit_state": "AimGrid",
+      "event_markers": [],
+      "required_behavior": "Aim pose at pitch down / yaw right; nine calibrated grid samples, stable wrists and shoulders."
+    },
+    {
+      "id": "aim_level_left",
+      "index": 91,
+      "form": "pose",
+      "source_action": "aim_level_left",
+      "exported_fbx": "export/animations/aim_level_left.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/aim_level_left.aim_level_left",
+      "frame_range": [
+        0,
+        1
+      ],
+      "frame_count": 1,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.0,
+      "loop": false,
+      "is_additive": false,
+      "is_static_pose": true,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "AimOffset",
+      "entry_state": "AimGrid",
+      "exit_state": "AimGrid",
+      "event_markers": [],
+      "required_behavior": "Aim pose at pitch level / yaw left; nine calibrated grid samples, stable wrists and shoulders."
+    },
+    {
+      "id": "aim_level_center",
+      "index": 92,
+      "form": "pose",
+      "source_action": "aim_level_center",
+      "exported_fbx": "export/animations/aim_level_center.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/aim_level_center.aim_level_center",
+      "frame_range": [
+        0,
+        1
+      ],
+      "frame_count": 1,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.0,
+      "loop": false,
+      "is_additive": false,
+      "is_static_pose": true,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "AimOffset",
+      "entry_state": "AimGrid",
+      "exit_state": "AimGrid",
+      "event_markers": [],
+      "required_behavior": "Aim pose at pitch level / yaw center; nine calibrated grid samples, stable wrists and shoulders."
+    },
+    {
+      "id": "aim_level_right",
+      "index": 93,
+      "form": "pose",
+      "source_action": "aim_level_right",
+      "exported_fbx": "export/animations/aim_level_right.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/aim_level_right.aim_level_right",
+      "frame_range": [
+        0,
+        1
+      ],
+      "frame_count": 1,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.0,
+      "loop": false,
+      "is_additive": false,
+      "is_static_pose": true,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "AimOffset",
+      "entry_state": "AimGrid",
+      "exit_state": "AimGrid",
+      "event_markers": [],
+      "required_behavior": "Aim pose at pitch level / yaw right; nine calibrated grid samples, stable wrists and shoulders."
+    },
+    {
+      "id": "aim_up_left",
+      "index": 94,
+      "form": "pose",
+      "source_action": "aim_up_left",
+      "exported_fbx": "export/animations/aim_up_left.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/aim_up_left.aim_up_left",
+      "frame_range": [
+        0,
+        1
+      ],
+      "frame_count": 1,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.0,
+      "loop": false,
+      "is_additive": false,
+      "is_static_pose": true,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "AimOffset",
+      "entry_state": "AimGrid",
+      "exit_state": "AimGrid",
+      "event_markers": [],
+      "required_behavior": "Aim pose at pitch up / yaw left; nine calibrated grid samples, stable wrists and shoulders."
+    },
+    {
+      "id": "aim_up_center",
+      "index": 95,
+      "form": "pose",
+      "source_action": "aim_up_center",
+      "exported_fbx": "export/animations/aim_up_center.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/aim_up_center.aim_up_center",
+      "frame_range": [
+        0,
+        1
+      ],
+      "frame_count": 1,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.0,
+      "loop": false,
+      "is_additive": false,
+      "is_static_pose": true,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "AimOffset",
+      "entry_state": "AimGrid",
+      "exit_state": "AimGrid",
+      "event_markers": [],
+      "required_behavior": "Aim pose at pitch up / yaw center; nine calibrated grid samples, stable wrists and shoulders."
+    },
+    {
+      "id": "aim_up_right",
+      "index": 96,
+      "form": "pose",
+      "source_action": "aim_up_right",
+      "exported_fbx": "export/animations/aim_up_right.fbx",
+      "unreal_asset_path": "/Game/MorphRig/Animations/aim_up_right.aim_up_right",
+      "frame_range": [
+        0,
+        1
+      ],
+      "frame_count": 1,
+      "sample_rate_fps": 30,
+      "duration_seconds": 0.0,
+      "loop": false,
+      "is_additive": false,
+      "is_static_pose": true,
+      "root_motion_policy": "in_place",
+      "nominal_travel_speed_cms": 0.0,
+      "intended_layer": "AimOffset",
+      "entry_state": "AimGrid",
+      "exit_state": "AimGrid",
+      "event_markers": [],
+      "required_behavior": "Aim pose at pitch up / yaw right; nine calibrated grid samples, stable wrists and shoulders."
+    }
+  ]
+}

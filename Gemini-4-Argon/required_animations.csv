@@ -1,0 +1,97 @@
+id,form,root_movement,duration_seconds,required_behavior
+idle_relaxed,loop,in_place,2–5,Relaxed breathing and attentive weight shifts.
+idle_combat,loop,in_place,2–5,Ready stance with free hands and readable silhouette.
+idle_wounded,loop,in_place,2–5,Injured but alert; no new skeleton or detached limbs.
+walk_f,loop,in_place,0.6–1.8,"Walk forward; retain facing, synchronized contacts, genuine directional gait."
+walk_fl,loop,in_place,0.6–1.8,"Walk forward-left; retain facing, synchronized contacts, genuine directional gait."
+walk_l,loop,in_place,0.6–1.8,"Walk left strafe; retain facing, synchronized contacts, genuine directional gait."
+walk_bl,loop,in_place,0.6–1.8,"Walk back-left; retain facing, synchronized contacts, genuine directional gait."
+walk_b,loop,in_place,0.6–1.8,"Walk backward; retain facing, synchronized contacts, genuine directional gait."
+walk_br,loop,in_place,0.6–1.8,"Walk back-right; retain facing, synchronized contacts, genuine directional gait."
+walk_r,loop,in_place,0.6–1.8,"Walk right strafe; retain facing, synchronized contacts, genuine directional gait."
+walk_fr,loop,in_place,0.6–1.8,"Walk forward-right; retain facing, synchronized contacts, genuine directional gait."
+run_f,loop,in_place,0.6–1.8,"Run forward; retain facing, synchronized contacts, genuine directional gait."
+run_fl,loop,in_place,0.6–1.8,"Run forward-left; retain facing, synchronized contacts, genuine directional gait."
+run_l,loop,in_place,0.6–1.8,"Run left strafe; retain facing, synchronized contacts, genuine directional gait."
+run_bl,loop,in_place,0.6–1.8,"Run back-left; retain facing, synchronized contacts, genuine directional gait."
+run_b,loop,in_place,0.6–1.8,"Run backward; retain facing, synchronized contacts, genuine directional gait."
+run_br,loop,in_place,0.6–1.8,"Run back-right; retain facing, synchronized contacts, genuine directional gait."
+run_r,loop,in_place,0.6–1.8,"Run right strafe; retain facing, synchronized contacts, genuine directional gait."
+run_fr,loop,in_place,0.6–1.8,"Run forward-right; retain facing, synchronized contacts, genuine directional gait."
+sprint_f,loop,in_place,0.4–1.2,Distinct full-effort forward sprint; not only a faster walk.
+start_f,one_shot,in_place,0.2–1.0,Accelerate from stand to forward travel.
+stop_f,one_shot,in_place,0.2–1.0,Brake into a planted stance.
+turn_l90,one_shot,in_place,0.2–1.0,Turn left 90 degrees with foot placement.
+turn_r90,one_shot,in_place,0.2–1.0,Turn right 90 degrees with foot placement.
+pivot_l180,one_shot,in_place,0.2–1.0,Left 180-degree moving direction change.
+pivot_r180,one_shot,in_place,0.2–1.0,Right 180-degree moving direction change.
+jump_start,one_shot,in_place,0.2–1.2,Visible anticipation and takeoff.
+jump_air,loop,in_place,0.2–1.2,Controllable airborne posture.
+jump_land,one_shot,in_place,0.2–1.2,Soft landing with compression and recovery.
+fall,loop,in_place,0.2–1.2,"Long-fall posture, distinct from the jump apex."
+land_heavy,one_shot,in_place,0.2–1.2,Hard landing with clear weight and recovery.
+dash_f,one_shot,root_motion,0.25–0.65,"Ground dash forward, 2 m nominal horizontal displacement; controller/capsule tracks motion."
+dash_b,one_shot,root_motion,0.25–0.65,"Ground dash backward, 2 m nominal horizontal displacement; controller/capsule tracks motion."
+dash_l,one_shot,root_motion,0.25–0.65,"Ground dash left, 2 m nominal horizontal displacement; controller/capsule tracks motion."
+dash_r,one_shot,root_motion,0.25–0.65,"Ground dash right, 2 m nominal horizontal displacement; controller/capsule tracks motion."
+blink_out,one_shot,in_place,0.15–0.6,"Anticipation and disappearance transition; actor teleport is an event, not baked travel."
+blink_in,one_shot,in_place,0.15–0.6,"Reappearance, plant and settle at destination."
+melee_1,one_shot,in_place,0.4–1.2,Diagonal forearm-blade slash. Supply hit-window and recovery markers.
+melee_2,one_shot,in_place,0.4–1.2,Reverse slash with different preparation and weight shift. Supply hit-window and recovery markers.
+melee_3,one_shot,in_place,0.4–1.2,Committed finisher with distinct follow-through. Supply hit-window and recovery markers.
+ranged_fire,one_shot,in_place,0.15–0.5,"Wrist-emitter single shot, recoil and recovery; supports moving upper-body layering."
+ranged_burst,one_shot,in_place,0.35–0.8,Three-shot burst with three distinct muzzle-event markers.
+reload,one_shot,in_place,1–2.5,Physical emitter-cell manipulation with correct hand/object contact.
+cast_directional,one_shot,in_place,0.4–1.2,Readable direction-targeted release.
+cast_ground,one_shot,in_place,0.5–1.5,Ground-targeted placement/cast with look direction.
+cast_self,one_shot,in_place,0.4–1.2,Self-centered defensive/emission cast.
+channel_start,one_shot,in_place,0.2–0.8,Enter sustainable channel pose.
+channel_loop,loop,in_place,0.6–2,"Sustained beam-like emission, with restrained motion."
+channel_end,one_shot,in_place,0.2–0.8,Deliberate successful channel release.
+channel_interrupt,one_shot,in_place,0.15–0.6,Forced channel interruption distinct from completion.
+charge_start,one_shot,in_place,0.3–1,Wind up and accumulate energy.
+charge_hold,loop,in_place,0.5–1.5,Hold charge without freezing the whole character.
+charge_release,one_shot,in_place,0.3–1,Forceful release with weight transfer.
+charge_cancel,one_shot,in_place,0.2–0.7,Safely cancel the stored charge.
+deploy,one_shot,in_place,0.6–1.8,Place a visible small drone/beacon prop using believable contact.
+uplink_start,one_shot,in_place,0.4–1,Begin recall-like console gesture.
+uplink_loop,loop,in_place,1–2,Maintain recall gesture; feet remain planted.
+uplink_end,one_shot,in_place,0.2–0.8,Successful completion cue; later blink is separate.
+uplink_cancel,one_shot,in_place,0.2–0.7,"Interrupted/canceled recall, clean return to control."
+hit_f,additive,in_place,0.15–0.5,Reaction to hit from front; layer over idle and motion without snapping planted feet.
+hit_b,additive,in_place,0.15–0.5,Reaction to hit from back; layer over idle and motion without snapping planted feet.
+hit_l,additive,in_place,0.15–0.5,Reaction to hit from left; layer over idle and motion without snapping planted feet.
+hit_r,additive,in_place,0.15–0.5,Reaction to hit from right; layer over idle and motion without snapping planted feet.
+stun_start,one_shot,in_place,0.3–3,Lose control and enter stun.
+stun_loop,loop,in_place,0.3–3,"Disoriented stable pose, alive and breathing."
+stun_end,one_shot,in_place,0.3–3,Regain control without sliding.
+knockback,one_shot,in_place,0.3–3,Reaction to backward forced travel; travel is controlled by the host.
+knockup_start,one_shot,in_place,0.3–3,"Forced launch, distinct from voluntary jump."
+knockup_air,loop,in_place,0.3–3,Helpless airborne pose.
+knockdown_front,one_shot,in_place,0.3–3,Fall into a face-down position.
+knockdown_back,one_shot,in_place,0.3–3,Fall into a face-up position.
+prone_front,loop,in_place,0.3–3,Face-down floor pose with restrained life motion.
+prone_back,loop,in_place,0.3–3,Face-up floor pose with restrained life motion.
+getup_front,one_shot,in_place,0.3–3,Stand from face-down through plausible supporting contacts.
+getup_back,one_shot,in_place,0.3–3,Stand from face-up through plausible supporting contacts.
+sleep_start,one_shot,in_place,0.3–3,Enter a stable sleep posture.
+sleep_loop,loop,in_place,0.3–3,Sustained sleeping posture with breathing.
+sleep_end,one_shot,in_place,0.3–3,Awaken and return to readiness.
+death_front,one_shot,in_place,1–4,Front-impact death ending in a clear stable body pose.
+death_back,one_shot,in_place,1–4,"Back-impact death, not a mirrored duplicate with impossible contacts."
+dead_front,pose,in_place,pose,Held final pose of death_front.
+dead_back,pose,in_place,pose,Held final pose of death_back.
+respawn,one_shot,in_place,1–4,Reconstruct/activate and settle into a ready living stance; not reverse playback of a death.
+greet,one_shot,in_place,1–4,Short intentional social greeting.
+victory,one_shot,in_place,1–4,Confident celebration with readable face and hands.
+defeat,one_shot,in_place,1–4,"Disappointment, nonfatal, distinct from death."
+dialogue,one_shot,in_place,12–18,"Original spoken performance with synchronized lips, eyes, facial expression, hand gestures and body acting; include audio and alignment."
+aim_down_left,pose,in_place,pose,"Aim pose at pitch down / yaw left; nine calibrated grid samples, stable wrists and shoulders."
+aim_down_center,pose,in_place,pose,"Aim pose at pitch down / yaw center; nine calibrated grid samples, stable wrists and shoulders."
+aim_down_right,pose,in_place,pose,"Aim pose at pitch down / yaw right; nine calibrated grid samples, stable wrists and shoulders."
+aim_level_left,pose,in_place,pose,"Aim pose at pitch level / yaw left; nine calibrated grid samples, stable wrists and shoulders."
+aim_level_center,pose,in_place,pose,"Aim pose at pitch level / yaw center; nine calibrated grid samples, stable wrists and shoulders."
+aim_level_right,pose,in_place,pose,"Aim pose at pitch level / yaw right; nine calibrated grid samples, stable wrists and shoulders."
+aim_up_left,pose,in_place,pose,"Aim pose at pitch up / yaw left; nine calibrated grid samples, stable wrists and shoulders."
+aim_up_center,pose,in_place,pose,"Aim pose at pitch up / yaw center; nine calibrated grid samples, stable wrists and shoulders."
+aim_up_right,pose,in_place,pose,"Aim pose at pitch up / yaw right; nine calibrated grid samples, stable wrists and shoulders."

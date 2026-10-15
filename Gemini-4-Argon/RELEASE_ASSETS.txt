@@ -1,0 +1,12 @@
+Parts of this run that are not stored in git (packaged builds and files
+over 100 MB) are attached to the release
+https://github.com/TheMorpheus407/morphrig-benchmark/releases/tag/gemini-4-argon
+
+name      build.tar.zst
+contents  build/ (packaged Linux build)
+size      339912030 bytes
+sha256    49049ddd6304b9d590a37570157b8d1e9834625c9f492a375660f89a463b7cc6
+download  https://github.com/TheMorpheus407/morphrig-benchmark/releases/download/gemini-4-argon/build.tar.zst
+
+Unpack an archive inside this folder:  zstd -d < NAME | tar -x
+Unreal runtime folders (Saved/) are not included.

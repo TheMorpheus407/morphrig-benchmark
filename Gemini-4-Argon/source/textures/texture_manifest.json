@@ -1,0 +1,100 @@
+{
+  "T_Operative_Skin": {
+    "resolution": [
+      1024,
+      1024
+    ],
+    "files": [
+      "T_Operative_Skin_D.png",
+      "T_Operative_Skin_R.png",
+      "T_Operative_Skin_M.png",
+      "T_Operative_Skin_ORM.png",
+      "T_Operative_Skin_N.png",
+      "T_Operative_Skin_E.png"
+    ]
+  },
+  "T_Operative_Eyes": {
+    "resolution": [
+      1024,
+      1024
+    ],
+    "files": [
+      "T_Operative_Eyes_D.png",
+      "T_Operative_Eyes_R.png",
+      "T_Operative_Eyes_M.png",
+      "T_Operative_Eyes_ORM.png",
+      "T_Operative_Eyes_N.png",
+      "T_Operative_Eyes_E.png"
+    ]
+  },
+  "T_Operative_Suit": {
+    "resolution": [
+      1024,
+      1024
+    ],
+    "files": [
+      "T_Operative_Suit_D.png",
+      "T_Operative_Suit_R.png",
+      "T_Operative_Suit_M.png",
+      "T_Operative_Suit_ORM.png",
+      "T_Operative_Suit_N.png",
+      "T_Operative_Suit_E.png"
+    ]
+  },
+  "T_Operative_Armor": {
+    "resolution": [
+      1024,
+      1024
+    ],
+    "files": [
+      "T_Operative_Armor_D.png",
+      "T_Operative_Armor_R.png",
+      "T_Operative_Armor_M.png",
+      "T_Operative_Armor_ORM.png",
+      "T_Operative_Armor_N.png",
+      "T_Operative_Armor_E.png"
+    ]
+  },
+  "T_Operative_CyberArm": {
+    "resolution": [
+      1024,
+      1024
+    ],
+    "files": [
+      "T_Operative_CyberArm_D.png",
+      "T_Operative_CyberArm_R.png",
+      "T_Operative_CyberArm_M.png",
+      "T_Operative_CyberArm_ORM.png",
+      "T_Operative_CyberArm_N.png",
+      "T_Operative_CyberArm_E.png"
+    ]
+  },
+  "T_Operative_Props_Accent_TeamA": {
+    "resolution": [
+      1024,
+      1024
+    ],
+    "files": [
+      "T_Operative_Props_Accent_TeamA_D.png",
+      "T_Operative_Props_Accent_TeamA_R.png",
+      "T_Operative_Props_Accent_TeamA_M.png",
+      "T_Operative_Props_Accent_TeamA_ORM.png",
+      "T_Operative_Props_Accent_TeamA_N.png",
+      "T_Operative_Props_Accent_TeamA_E.png"
+    ]
+  },
+  "T_Operative_Props_Accent_TeamB": {
+    "resolution": [
+      1024,
+      1024
+    ],
+    "files": [
+      "T_Operative_Props_Accent_TeamB_D.png",
+      "T_Operative_Props_Accent_TeamB_R.png",
+      "T_Operative_Props_Accent_TeamB_M.png",
+      "T_Operative_Props_Accent_TeamB_ORM.png",
+      "T_Operative_Props_Accent_TeamB_N.png",
+      "T_Operative_Props_Accent_TeamB_E.png"
+    ]
+  }
+}

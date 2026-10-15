@@ -1,0 +1,202 @@
+{
+  "character_name": "Operative (Vex)",
+  "standing_height_m": 1.8,
+  "standing_height_cm_unreal": 180.0,
+  "deformation_bone_count": 93,
+  "max_effective_bone_influences_per_vertex": 4,
+  "spec_max_bone_influences_limit": 8,
+  "material_slots_count": 6,
+  "spec_max_material_slots_limit": 8,
+  "material_slots": [
+    {
+      "slot_index": 0,
+      "material_name": "M_Operative_Skin",
+      "pbr_maps": [
+        "BaseColor (_D)",
+        "Roughness (_R)",
+        "Metallic (_M)",
+        "Packed ORM (_ORM)",
+        "Normal (_N)",
+        "Emissive (_E)"
+      ],
+      "max_dimension_px": 1024
+    },
+    {
+      "slot_index": 1,
+      "material_name": "M_Operative_Eyes",
+      "pbr_maps": [
+        "BaseColor (_D)",
+        "Roughness (_R)",
+        "Metallic (_M)",
+        "Packed ORM (_ORM)",
+        "Normal (_N)",
+        "Emissive (_E)"
+      ],
+      "max_dimension_px": 1024
+    },
+    {
+      "slot_index": 2,
+      "material_name": "M_Operative_Suit",
+      "pbr_maps": [
+        "BaseColor (_D)",
+        "Roughness (_R)",
+        "Metallic (_M)",
+        "Packed ORM (_ORM)",
+        "Normal (_N)",
+        "Emissive (_E)"
+      ],
+      "max_dimension_px": 1024
+    },
+    {
+      "slot_index": 3,
+      "material_name": "M_Operative_Armor",
+      "pbr_maps": [
+        "BaseColor (_D)",
+        "Roughness (_R)",
+        "Metallic (_M)",
+        "Packed ORM (_ORM)",
+        "Normal (_N)",
+        "Emissive (_E)"
+      ],
+      "max_dimension_px": 1024
+    },
+    {
+      "slot_index": 4,
+      "material_name": "M_Operative_CyberArm",
+      "pbr_maps": [
+        "BaseColor (_D)",
+        "Roughness (_R)",
+        "Metallic (_M)",
+        "Packed ORM (_ORM)",
+        "Normal (_N)",
+        "Emissive (_E)"
+      ],
+      "max_dimension_px": 1024
+    },
+    {
+      "slot_index": 5,
+      "material_name": "M_Operative_Props_Accent",
+      "pbr_maps": [
+        "BaseColor (_D)",
+        "Roughness (_R)",
+        "Metallic (_M)",
+        "Packed ORM (_ORM)",
+        "Normal (_N)",
+        "Emissive (_E)"
+      ],
+      "max_dimension_px": 1024
+    }
+  ],
+  "team_accent_variants": {
+    "Team_A": {
+      "material_instance": "MI_Operative_Props_Accent_TeamA",
+      "primary_color": "Electric Cyan (#00F0FF)",
+      "secondary_icon_and_outline": "Hexagonal Triple-Chevron chest/dorsal/beacon insignia + cyan silhouette rim"
+    },
+    "Team_B": {
+      "material_instance": "MI_Operative_Props_Accent_TeamB",
+      "primary_color": "Solar Amber (#FF9900)",
+      "secondary_icon_and_outline": "Crossed-Diamond Strike chest/dorsal/beacon insignia + amber silhouette rim"
+    }
+  },
+  "lods": {
+    "LOD0": {
+      "name": "Operative_LOD0",
+      "vertices": 19930,
+      "triangles": 39070,
+      "polygons": 20008,
+      "material_slots": 6,
+      "shape_keys": 38,
+      "max_bone_influences_per_vertex": 4,
+      "ungrouped_vertices": 0,
+      "bounds_min_m": [
+        -0.89,
+        -0.168,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.866,
+        0.175,
+        1.8
+      ],
+      "standing_height_m": 1.8,
+      "spec_triangle_limit": 80000
+    },
+    "LOD1": {
+      "name": "Operative_LOD1",
+      "vertices": 8486,
+      "triangles": 16334,
+      "polygons": 8484,
+      "material_slots": 6,
+      "shape_keys": 38,
+      "max_bone_influences_per_vertex": 4,
+      "ungrouped_vertices": 0,
+      "bounds_min_m": [
+        -0.89,
+        -0.168,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.866,
+        0.175,
+        1.8
+      ],
+      "standing_height_m": 1.8,
+      "spec_triangle_limit": 40000
+    },
+    "LOD2": {
+      "name": "Operative_LOD2",
+      "vertices": 3070,
+      "triangles": 5602,
+      "polygons": 3036,
+      "material_slots": 6,
+      "shape_keys": 38,
+      "max_bone_influences_per_vertex": 4,
+      "ungrouped_vertices": 0,
+      "bounds_min_m": [
+        -0.89,
+        -0.168,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.866,
+        0.175,
+        1.8
+      ],
+      "standing_height_m": 1.8,
+      "spec_triangle_limit": 20000
+    }
+  },
+  "texture_memory_estimate": {
+    "texture_file_count": 42,
+    "max_resolution": "1024x1024 (limit <= 4096x4096)",
+    "total_png_disk_size_mib": 6.24,
+    "estimated_uncompressed_rgba8_mib": 168.0,
+    "estimated_gpu_bc_compressed_with_mips_mib": 55.99
+  },
+  "unreal_5_8_3_performance_benchmark_1080p": {
+    "engine_version": "Unreal Engine 5.8.3 (SF_VULKAN_SM5)",
+    "resolution": "1920x1080",
+    "frame_generation": "Disabled (0 generated frames)",
+    "host_hardware": {
+      "os": "NixOS 26.05 (Yarara) Linux 6.18.51 x86_64",
+      "cpu": "AMD Ryzen 9 9950X 16-Core Processor (32 threads)",
+      "ram_gib": 91.9,
+      "gpu": "NVIDIA GeForce RTX 5090 (32 GB VRAM, driver 595.71.05)"
+    },
+    "single_instance_1080p": {
+      "samples": 3602,
+      "avg_fps": 516.30,
+      "avg_frame_ms": 1.937,
+      "target_fps": 60.0
+    },
+    "ten_simultaneous_instances_1080p": {
+      "samples": 1262,
+      "avg_fps": 638.91,
+      "avg_frame_ms": 1.565,
+      "min_fps_warmed_up": 160.78,
+      "target_fps": 60.0
+    },
+    "trace_log_file": "build/Linux/MorphRig/Saved/Logs/MorphRigShowcaseTrace.json"
+  }
+}
