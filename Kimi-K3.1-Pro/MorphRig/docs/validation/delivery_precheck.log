@@ -1,0 +1,7 @@
+{"status": "FAIL", "checks": 1939, "failure_count": 6}
+FAIL exists:presentation/motion_showcase.mp4 missing
+FAIL unreal_event_audit 
+FAIL runtime_evidence_exists 
+FAIL state_demo_trace 
+FAIL performance_evidence_exists 
+FAIL rendered_inspection 

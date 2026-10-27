@@ -1,0 +1,65 @@
+{
+  "records": [
+    {
+      "stage": "loaded",
+      "lod_count": 1,
+      "source_model_count": 1,
+      "triangles": [
+        26326,
+        -1,
+        -1
+      ],
+      "morphs": [
+        26,
+        0,
+        0
+      ]
+    },
+    {
+      "stage": "imported_1",
+      "lod_count": 2,
+      "source_model_count": 2,
+      "triangles": [
+        26326,
+        21482,
+        -1
+      ],
+      "morphs": [
+        26,
+        26,
+        0
+      ]
+    },
+    {
+      "stage": "imported_2",
+      "lod_count": 3,
+      "source_model_count": 3,
+      "triangles": [
+        26326,
+        21482,
+        19062
+      ],
+      "morphs": [
+        26,
+        26,
+        26
+      ]
+    },
+    {
+      "stage": "screen_size_updated",
+      "lod_count": 3,
+      "source_model_count": 3,
+      "triangles": [
+        26326,
+        21482,
+        19062
+      ],
+      "morphs": [
+        26,
+        26,
+        26
+      ]
+    }
+  ],
+  "persisted": true
+}

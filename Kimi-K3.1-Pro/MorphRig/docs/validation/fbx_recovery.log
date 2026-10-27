@@ -1,0 +1,610 @@
+00:00.474  blend            | Read blend: "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/source/Operative.blend"
+MESH_LOD_PREPARED Operative_LOD0
+MESH_LOD_PREPARED Operative_LOD1
+MESH_LOD_PREPARED Operative_LOD2
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/Operative_LOD0.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.0788 sec.
+Warning: Mesh 'Operative_Face_Mesh.001' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/Operative_LOD1.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.0768 sec.
+Warning: Mesh 'Operative_Face_Mesh.002' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/Operative_LOD2.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.0601 sec.
+Warning: Mesh 'Operative_Face_Mesh.003' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/Operative.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.2064 sec.
+Warning: Mesh 'Operative_Face_Mesh.001' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+Warning: Mesh 'Operative_Face_Mesh.002' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+Warning: Mesh 'Operative_Face_Mesh.003' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+MESH_EXPORTED Operative.fbx with an FBX LOD group and 3 named LOD meshes
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/idle_relaxed.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.2019 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED idle_relaxed 91
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/idle_combat.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1967 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED idle_combat 91
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/idle_wounded.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1956 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED idle_wounded 91
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/walk_f.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1340 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED walk_f 37
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/walk_fl.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1217 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED walk_fl 37
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/walk_l.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1285 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED walk_l 37
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/walk_bl.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1405 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED walk_bl 37
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/walk_b.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1251 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED walk_b 37
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/walk_br.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1425 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED walk_br 37
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/walk_r.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1416 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED walk_r 37
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/walk_fr.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1236 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED walk_fr 37
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/run_f.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1045 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED run_f 25
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/run_fl.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1075 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED run_fl 25
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/run_l.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1208 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED run_l 25
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/run_bl.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1123 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED run_bl 25
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/run_b.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1056 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED run_b 25
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/run_br.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1332 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED run_br 25
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/run_r.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1108 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED run_r 25
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/run_fr.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1098 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED run_fr 25
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/sprint_f.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1089 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED sprint_f 19
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/start_f.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1021 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED start_f 19
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/stop_f.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.0995 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED stop_f 19
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/turn_l90.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1219 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED turn_l90 25
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/turn_r90.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1248 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED turn_r90 25
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/pivot_l180.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1212 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED pivot_l180 25
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/pivot_r180.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1069 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED pivot_r180 25
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/jump_start.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1176 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED jump_start 19
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/jump_air.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1102 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED jump_air 25
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/jump_land.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1256 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED jump_land 25
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/fall.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1220 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED fall 31
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/land_heavy.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1417 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED land_heavy 31
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/dash_f.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1179 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED dash_f 19
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/dash_b.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1043 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED dash_b 19
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/dash_l.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1059 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED dash_l 19
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/dash_r.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1082 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED dash_r 19
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/blink_out.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.0843 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED blink_out 13
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/blink_in.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.0858 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED blink_in 13
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/melee_1.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1218 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED melee_1 31
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/melee_2.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1181 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED melee_2 31
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/melee_3.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1285 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED melee_3 37
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/ranged_fire.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.0902 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED ranged_fire 13
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/ranged_burst.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1122 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED ranged_burst 19
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/reload.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1417 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED reload 61
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/cast_directional.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1287 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED cast_directional 31
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/cast_ground.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1351 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED cast_ground 37
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/cast_self.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1279 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED cast_self 31
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/channel_start.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.0902 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED channel_start 16
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/channel_loop.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1337 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED channel_loop 37
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/channel_end.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1170 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED channel_end 19
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/channel_interrupt.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.0902 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED channel_interrupt 13
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/charge_start.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1207 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED charge_start 25
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/charge_hold.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1347 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED charge_hold 37
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/charge_release.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1033 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED charge_release 25
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/charge_cancel.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.0919 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED charge_cancel 16
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/deploy.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1324 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED deploy 49
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/uplink_start.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1123 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED uplink_start 25
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/uplink_loop.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1329 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED uplink_loop 49
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/uplink_end.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1012 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED uplink_end 19
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/uplink_cancel.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1150 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED uplink_cancel 16
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/hit_f.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.0972 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED hit_f 10
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/hit_b.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.0937 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED hit_b 10
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/hit_l.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.0842 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED hit_l 10
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/hit_r.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.0845 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED hit_r 10
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/stun_start.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1047 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED stun_start 25
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/stun_loop.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1455 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED stun_loop 49
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/stun_end.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1227 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED stun_end 25
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/knockback.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1106 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED knockback 25
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/knockup_start.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.0999 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED knockup_start 19
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/knockup_air.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1225 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED knockup_air 37
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/knockdown_front.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1642 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED knockdown_front 67
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/knockdown_back.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1608 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED knockdown_back 67
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/prone_front.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1486 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED prone_front 61
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/prone_back.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1686 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED prone_back 61
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/getup_front.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1850 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED getup_front 91
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/getup_back.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1849 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED getup_back 91
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/sleep_start.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1618 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED sleep_start 73
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/sleep_loop.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1894 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED sleep_loop 91
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/sleep_end.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1653 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED sleep_end 73
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/death_front.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1944 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED death_front 97
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/death_back.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.2000 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED death_back 100
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/dead_front.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.0751 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED dead_front 1
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/dead_back.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.0813 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED dead_back 1
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/respawn.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1786 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED respawn 85
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/greet.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1526 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED greet 67
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/victory.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1807 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED victory 91
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/defeat.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1651 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED defeat 73
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/dialogue.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.5539 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED dialogue 457
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/aim_down_left.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.0762 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED aim_down_left 1
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/aim_down_center.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.0750 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED aim_down_center 1
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/aim_down_right.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.0703 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED aim_down_right 1
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/aim_level_left.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.0743 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED aim_level_left 1
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/aim_level_center.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.0724 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED aim_level_center 1
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/aim_level_right.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.0839 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED aim_level_right 1
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/aim_up_left.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.0973 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED aim_up_left 1
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/aim_up_center.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.0741 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED aim_up_center 1
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/aim_up_right.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.0772 sec.
+Warning: Mesh 'Operative_Face_Mesh' has polygons with more than 4 vertices, cannot compute/export tangent space for it
+ANIMATION_EXPORTED aim_up_right 1
+BLENDER_EXPORT_COMPLETE {"mesh": "export/Operative.fbx", "lods": ["export/Operative.fbx", "export/Operative_LOD1.fbx", "export/Operative_LOD2.fbx"], "animations": 96, "fps": 30, "status": "exported; Unreal import audit is separate"}
+Blender 5.1.1
+scripts disabled for "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/source/Operative.blend", skipping 'START_HERE_Rig_Controls.py'
+
+Blender quit

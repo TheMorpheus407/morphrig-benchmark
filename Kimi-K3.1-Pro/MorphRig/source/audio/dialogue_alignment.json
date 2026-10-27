@@ -1,0 +1,762 @@
+{
+  "transcript": "Hold the lane. Keep the network steady. I've got the relay. Watch the left flank. Now. Stabilize the link on my signal. Good. We hold together.",
+  "audio": "dialogue.wav",
+  "sample_rate": 22050,
+  "channels": 1,
+  "duration_seconds": 15.199955,
+  "source": "Original text; locally synthesized with eSpeak NG 1.52 en-us, then silence-trimmed, envelope-normalized and assembled per word. No voice cloning.",
+  "timing_method": "Each word's active synthesized waveform was measured before assembly; alignment is therefore exact to the delivered assembled WAV, not an estimated external transcript.",
+  "viseme_standard": "MorphRig authored controls: MBP lip closure, FV labiodental, AA open vowel, EE wide vowel, OO rounded vowel/funnel, TH tongue-to-teeth, CH postalveolar consonant. Not a proprietary viseme standard.",
+  "words": [
+    {
+      "index": 0,
+      "word": "Hold",
+      "start": 0.0,
+      "end": 0.52161,
+      "phonemes": [
+        {
+          "time": 0.0,
+          "duration": 0.52161,
+          "control": "Viseme_OO"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "word": "the",
+      "start": 0.56966,
+      "end": 0.89185,
+      "phonemes": [
+        {
+          "time": 0.56966,
+          "duration": 0.13887,
+          "control": "Viseme_TH"
+        },
+        {
+          "time": 0.70853,
+          "duration": 0.18331,
+          "control": "Viseme_EE"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "word": "lane",
+      "start": 0.93989,
+      "end": 1.40782,
+      "phonemes": [
+        {
+          "time": 0.93989,
+          "duration": 0.23396,
+          "control": "Viseme_AA"
+        },
+        {
+          "time": 1.17385,
+          "duration": 0.23396,
+          "control": "Viseme_EE"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "word": "Keep",
+      "start": 1.7922,
+      "end": 2.16425,
+      "phonemes": [
+        {
+          "time": 1.7922,
+          "duration": 0.14444,
+          "control": "Viseme_EE"
+        },
+        {
+          "time": 1.93664,
+          "duration": 0.14444,
+          "control": "Viseme_EE"
+        },
+        {
+          "time": 2.08108,
+          "duration": 0.08316,
+          "control": "Viseme_MBP"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "word": "the",
+      "start": 2.21229,
+      "end": 2.53448,
+      "phonemes": [
+        {
+          "time": 2.21229,
+          "duration": 0.13887,
+          "control": "Viseme_TH"
+        },
+        {
+          "time": 2.35117,
+          "duration": 0.18331,
+          "control": "Viseme_EE"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "word": "network",
+      "start": 2.58253,
+      "end": 3.15016,
+      "phonemes": [
+        {
+          "time": 2.58253,
+          "duration": 0.28382,
+          "control": "Viseme_EE"
+        },
+        {
+          "time": 2.86634,
+          "duration": 0.28382,
+          "control": "Viseme_OO"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "word": "steady",
+      "start": 3.19821,
+      "end": 3.68147,
+      "phonemes": [
+        {
+          "time": 3.19821,
+          "duration": 0.16109,
+          "control": "Viseme_EE"
+        },
+        {
+          "time": 3.3593,
+          "duration": 0.16109,
+          "control": "Viseme_AA"
+        },
+        {
+          "time": 3.52039,
+          "duration": 0.16109,
+          "control": "Viseme_EE"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "word": "I've",
+      "start": 4.06586,
+      "end": 4.49543,
+      "phonemes": [
+        {
+          "time": 4.06586,
+          "duration": 0.16483,
+          "control": "Viseme_EE"
+        },
+        {
+          "time": 4.2307,
+          "duration": 0.0999,
+          "control": "Viseme_FV"
+        },
+        {
+          "time": 4.3306,
+          "duration": 0.16483,
+          "control": "Viseme_EE"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "word": "got",
+      "start": 4.54348,
+      "end": 4.91936,
+      "phonemes": [
+        {
+          "time": 4.54348,
+          "duration": 0.37588,
+          "control": "Viseme_OO"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "word": "the",
+      "start": 4.9674,
+      "end": 5.28959,
+      "phonemes": [
+        {
+          "time": 4.9674,
+          "duration": 0.13887,
+          "control": "Viseme_TH"
+        },
+        {
+          "time": 5.10628,
+          "duration": 0.18331,
+          "control": "Viseme_EE"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "word": "relay",
+      "start": 5.33764,
+      "end": 5.78255,
+      "phonemes": [
+        {
+          "time": 5.33764,
+          "duration": 0.1483,
+          "control": "Viseme_EE"
+        },
+        {
+          "time": 5.48594,
+          "duration": 0.1483,
+          "control": "Viseme_AA"
+        },
+        {
+          "time": 5.63424,
+          "duration": 0.1483,
+          "control": "Viseme_EE"
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "word": "Watch",
+      "start": 6.16694,
+      "end": 6.61185,
+      "phonemes": [
+        {
+          "time": 6.16694,
+          "duration": 0.26218,
+          "control": "Viseme_AA"
+        },
+        {
+          "time": 6.42912,
+          "duration": 0.18273,
+          "control": "Viseme_CH"
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "word": "the",
+      "start": 6.65989,
+      "end": 6.98208,
+      "phonemes": [
+        {
+          "time": 6.65989,
+          "duration": 0.13887,
+          "control": "Viseme_TH"
+        },
+        {
+          "time": 6.79877,
+          "duration": 0.18331,
+          "control": "Viseme_EE"
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "word": "left",
+      "start": 7.03013,
+      "end": 7.45203,
+      "phonemes": [
+        {
+          "time": 7.03013,
+          "duration": 0.26269,
+          "control": "Viseme_EE"
+        },
+        {
+          "time": 7.29282,
+          "duration": 0.15921,
+          "control": "Viseme_FV"
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "word": "flank",
+      "start": 7.50007,
+      "end": 8.01402,
+      "phonemes": [
+        {
+          "time": 7.50007,
+          "duration": 0.19394,
+          "control": "Viseme_FV"
+        },
+        {
+          "time": 7.69402,
+          "duration": 0.32,
+          "control": "Viseme_AA"
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "word": "Now",
+      "start": 8.39841,
+      "end": 8.874,
+      "phonemes": [
+        {
+          "time": 8.39841,
+          "duration": 0.47559,
+          "control": "Viseme_OO"
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "word": "Stabilize",
+      "start": 9.25839,
+      "end": 9.9871,
+      "phonemes": [
+        {
+          "time": 9.25839,
+          "duration": 0.15926,
+          "control": "Viseme_AA"
+        },
+        {
+          "time": 9.41764,
+          "duration": 0.09169,
+          "control": "Viseme_MBP"
+        },
+        {
+          "time": 9.50933,
+          "duration": 0.15926,
+          "control": "Viseme_EE"
+        },
+        {
+          "time": 9.66859,
+          "duration": 0.15926,
+          "control": "Viseme_EE"
+        },
+        {
+          "time": 9.82785,
+          "duration": 0.15926,
+          "control": "Viseme_EE"
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "word": "the",
+      "start": 10.03515,
+      "end": 10.35733,
+      "phonemes": [
+        {
+          "time": 10.03515,
+          "duration": 0.13887,
+          "control": "Viseme_TH"
+        },
+        {
+          "time": 10.17402,
+          "duration": 0.18331,
+          "control": "Viseme_EE"
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "word": "link",
+      "start": 10.40538,
+      "end": 10.84262,
+      "phonemes": [
+        {
+          "time": 10.40538,
+          "duration": 0.43724,
+          "control": "Viseme_EE"
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "word": "on",
+      "start": 10.89067,
+      "end": 11.29723,
+      "phonemes": [
+        {
+          "time": 10.89067,
+          "duration": 0.40656,
+          "control": "Viseme_OO"
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "word": "my",
+      "start": 11.34528,
+      "end": 11.8132,
+      "phonemes": [
+        {
+          "time": 11.34528,
+          "duration": 0.17097,
+          "control": "Viseme_MBP"
+        },
+        {
+          "time": 11.51625,
+          "duration": 0.29695,
+          "control": "Viseme_EE"
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "word": "signal",
+      "start": 11.86125,
+      "end": 12.3215,
+      "phonemes": [
+        {
+          "time": 11.86125,
+          "duration": 0.23013,
+          "control": "Viseme_EE"
+        },
+        {
+          "time": 12.09137,
+          "duration": 0.23013,
+          "control": "Viseme_AA"
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "word": "Good",
+      "start": 12.70589,
+      "end": 13.0204,
+      "phonemes": [
+        {
+          "time": 12.70589,
+          "duration": 0.15726,
+          "control": "Viseme_OO"
+        },
+        {
+          "time": 12.86314,
+          "duration": 0.15726,
+          "control": "Viseme_OO"
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "word": "We",
+      "start": 13.40479,
+      "end": 13.79601,
+      "phonemes": [
+        {
+          "time": 13.40479,
+          "duration": 0.39122,
+          "control": "Viseme_EE"
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "word": "hold",
+      "start": 13.84405,
+      "end": 14.36567,
+      "phonemes": [
+        {
+          "time": 13.84405,
+          "duration": 0.52161,
+          "control": "Viseme_OO"
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "word": "together",
+      "start": 14.41372,
+      "end": 15.0082,
+      "phonemes": [
+        {
+          "time": 14.41372,
+          "duration": 0.15821,
+          "control": "Viseme_OO"
+        },
+        {
+          "time": 14.57192,
+          "duration": 0.15821,
+          "control": "Viseme_EE"
+        },
+        {
+          "time": 14.73013,
+          "duration": 0.11986,
+          "control": "Viseme_TH"
+        },
+        {
+          "time": 14.84999,
+          "duration": 0.15821,
+          "control": "Viseme_EE"
+        }
+      ]
+    }
+  ],
+  "visemes": [
+    {
+      "time": 0.0,
+      "duration": 0.52161,
+      "control": "Viseme_OO"
+    },
+    {
+      "time": 0.56966,
+      "duration": 0.13887,
+      "control": "Viseme_TH"
+    },
+    {
+      "time": 0.70853,
+      "duration": 0.18331,
+      "control": "Viseme_EE"
+    },
+    {
+      "time": 0.93989,
+      "duration": 0.23396,
+      "control": "Viseme_AA"
+    },
+    {
+      "time": 1.17385,
+      "duration": 0.23396,
+      "control": "Viseme_EE"
+    },
+    {
+      "time": 1.7922,
+      "duration": 0.14444,
+      "control": "Viseme_EE"
+    },
+    {
+      "time": 1.93664,
+      "duration": 0.14444,
+      "control": "Viseme_EE"
+    },
+    {
+      "time": 2.08108,
+      "duration": 0.08316,
+      "control": "Viseme_MBP"
+    },
+    {
+      "time": 2.21229,
+      "duration": 0.13887,
+      "control": "Viseme_TH"
+    },
+    {
+      "time": 2.35117,
+      "duration": 0.18331,
+      "control": "Viseme_EE"
+    },
+    {
+      "time": 2.58253,
+      "duration": 0.28382,
+      "control": "Viseme_EE"
+    },
+    {
+      "time": 2.86634,
+      "duration": 0.28382,
+      "control": "Viseme_OO"
+    },
+    {
+      "time": 3.19821,
+      "duration": 0.16109,
+      "control": "Viseme_EE"
+    },
+    {
+      "time": 3.3593,
+      "duration": 0.16109,
+      "control": "Viseme_AA"
+    },
+    {
+      "time": 3.52039,
+      "duration": 0.16109,
+      "control": "Viseme_EE"
+    },
+    {
+      "time": 4.06586,
+      "duration": 0.16483,
+      "control": "Viseme_EE"
+    },
+    {
+      "time": 4.2307,
+      "duration": 0.0999,
+      "control": "Viseme_FV"
+    },
+    {
+      "time": 4.3306,
+      "duration": 0.16483,
+      "control": "Viseme_EE"
+    },
+    {
+      "time": 4.54348,
+      "duration": 0.37588,
+      "control": "Viseme_OO"
+    },
+    {
+      "time": 4.9674,
+      "duration": 0.13887,
+      "control": "Viseme_TH"
+    },
+    {
+      "time": 5.10628,
+      "duration": 0.18331,
+      "control": "Viseme_EE"
+    },
+    {
+      "time": 5.33764,
+      "duration": 0.1483,
+      "control": "Viseme_EE"
+    },
+    {
+      "time": 5.48594,
+      "duration": 0.1483,
+      "control": "Viseme_AA"
+    },
+    {
+      "time": 5.63424,
+      "duration": 0.1483,
+      "control": "Viseme_EE"
+    },
+    {
+      "time": 6.16694,
+      "duration": 0.26218,
+      "control": "Viseme_AA"
+    },
+    {
+      "time": 6.42912,
+      "duration": 0.18273,
+      "control": "Viseme_CH"
+    },
+    {
+      "time": 6.65989,
+      "duration": 0.13887,
+      "control": "Viseme_TH"
+    },
+    {
+      "time": 6.79877,
+      "duration": 0.18331,
+      "control": "Viseme_EE"
+    },
+    {
+      "time": 7.03013,
+      "duration": 0.26269,
+      "control": "Viseme_EE"
+    },
+    {
+      "time": 7.29282,
+      "duration": 0.15921,
+      "control": "Viseme_FV"
+    },
+    {
+      "time": 7.50007,
+      "duration": 0.19394,
+      "control": "Viseme_FV"
+    },
+    {
+      "time": 7.69402,
+      "duration": 0.32,
+      "control": "Viseme_AA"
+    },
+    {
+      "time": 8.39841,
+      "duration": 0.47559,
+      "control": "Viseme_OO"
+    },
+    {
+      "time": 9.25839,
+      "duration": 0.15926,
+      "control": "Viseme_AA"
+    },
+    {
+      "time": 9.41764,
+      "duration": 0.09169,
+      "control": "Viseme_MBP"
+    },
+    {
+      "time": 9.50933,
+      "duration": 0.15926,
+      "control": "Viseme_EE"
+    },
+    {
+      "time": 9.66859,
+      "duration": 0.15926,
+      "control": "Viseme_EE"
+    },
+    {
+      "time": 9.82785,
+      "duration": 0.15926,
+      "control": "Viseme_EE"
+    },
+    {
+      "time": 10.03515,
+      "duration": 0.13887,
+      "control": "Viseme_TH"
+    },
+    {
+      "time": 10.17402,
+      "duration": 0.18331,
+      "control": "Viseme_EE"
+    },
+    {
+      "time": 10.40538,
+      "duration": 0.43724,
+      "control": "Viseme_EE"
+    },
+    {
+      "time": 10.89067,
+      "duration": 0.40656,
+      "control": "Viseme_OO"
+    },
+    {
+      "time": 11.34528,
+      "duration": 0.17097,
+      "control": "Viseme_MBP"
+    },
+    {
+      "time": 11.51625,
+      "duration": 0.29695,
+      "control": "Viseme_EE"
+    },
+    {
+      "time": 11.86125,
+      "duration": 0.23013,
+      "control": "Viseme_EE"
+    },
+    {
+      "time": 12.09137,
+      "duration": 0.23013,
+      "control": "Viseme_AA"
+    },
+    {
+      "time": 12.70589,
+      "duration": 0.15726,
+      "control": "Viseme_OO"
+    },
+    {
+      "time": 12.86314,
+      "duration": 0.15726,
+      "control": "Viseme_OO"
+    },
+    {
+      "time": 13.40479,
+      "duration": 0.39122,
+      "control": "Viseme_EE"
+    },
+    {
+      "time": 13.84405,
+      "duration": 0.52161,
+      "control": "Viseme_OO"
+    },
+    {
+      "time": 14.41372,
+      "duration": 0.15821,
+      "control": "Viseme_OO"
+    },
+    {
+      "time": 14.57192,
+      "duration": 0.15821,
+      "control": "Viseme_EE"
+    },
+    {
+      "time": 14.73013,
+      "duration": 0.11986,
+      "control": "Viseme_TH"
+    },
+    {
+      "time": 14.84999,
+      "duration": 0.15821,
+      "control": "Viseme_EE"
+    }
+  ]
+}

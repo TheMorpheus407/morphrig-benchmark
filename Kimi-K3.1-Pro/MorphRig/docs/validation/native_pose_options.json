@@ -1,0 +1,20 @@
+{
+  "candidates": [
+    {
+      "mode": "exported_time",
+      "asset": "/Game/Operative/Diagnostics/Pose_exported_time.Pose_exported_time",
+      "duration": 0.03333333507180214,
+      "tracks": 70,
+      "frames": null,
+      "root": "<Struct 'Transform' (0x7e0f483c1ad0) {rotation: {x: -0.000000, y: 0.000000, z: 0.707107, w: 0.707107}, translation: {x: 0.000000, y: 0.000000, z: 0.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+    },
+    {
+      "mode": "one_frame_range",
+      "asset": "/Game/Operative/Diagnostics/Pose_one_frame_range.Pose_one_frame_range",
+      "duration": 0.03333333507180214,
+      "tracks": 70,
+      "frames": null,
+      "root": "<Struct 'Transform' (0x7e0f483c1a40) {rotation: {x: -0.000000, y: 0.000000, z: 0.707107, w: 0.707107}, translation: {x: 0.000000, y: 0.000000, z: 0.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+    }
+  ]
+}

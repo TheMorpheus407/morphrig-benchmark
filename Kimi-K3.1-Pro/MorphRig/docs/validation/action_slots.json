@@ -1,0 +1,326 @@
+[
+  {
+    "clip": "idle_relaxed",
+    "mode": "automatic",
+    "selected_slot": "<bpy_struct, ActionSlot(\"OBOperative_DEF\") at 0x74a1963e65e0>",
+    "slots": [
+      {
+        "handle": 929201142,
+        "identifier": "OBOperative_DEF",
+        "target_id_type": "OBJECT"
+      }
+    ],
+    "pelvis": [
+      0.0,
+      0.815000057220459,
+      0.0
+    ],
+    "head": [
+      0.0,
+      0.8149998784065247,
+      0.5600000023841858
+    ],
+    "root": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "clip": "idle_relaxed",
+    "mode": "explicit",
+    "selected_slot": "<bpy_struct, ActionSlot(\"OBOperative_DEF\") at 0x74a1963e65e0>",
+    "slots": [
+      {
+        "handle": 929201142,
+        "identifier": "OBOperative_DEF",
+        "target_id_type": "OBJECT"
+      }
+    ],
+    "pelvis": [
+      0.0,
+      0.815000057220459,
+      0.0
+    ],
+    "head": [
+      0.0,
+      0.8149998784065247,
+      0.5600000023841858
+    ],
+    "root": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "clip": "walk_l",
+    "mode": "automatic",
+    "selected_slot": "<bpy_struct, ActionSlot(\"OBOperative_DEF\") at 0x74a17e868920>",
+    "slots": [
+      {
+        "handle": 929201142,
+        "identifier": "OBOperative_DEF",
+        "target_id_type": "OBJECT"
+      }
+    ],
+    "pelvis": [
+      0.0,
+      0.799000084400177,
+      -0.05099993944168091
+    ],
+    "head": [
+      0.0,
+      0.7921963334083557,
+      0.508821964263916
+    ],
+    "root": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "clip": "walk_l",
+    "mode": "explicit",
+    "selected_slot": "<bpy_struct, ActionSlot(\"OBOperative_DEF\") at 0x74a17e868920>",
+    "slots": [
+      {
+        "handle": 929201142,
+        "identifier": "OBOperative_DEF",
+        "target_id_type": "OBJECT"
+      }
+    ],
+    "pelvis": [
+      0.0,
+      0.799000084400177,
+      -0.05099993944168091
+    ],
+    "head": [
+      0.0,
+      0.7921963334083557,
+      0.508821964263916
+    ],
+    "root": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "clip": "run_fr",
+    "mode": "automatic",
+    "selected_slot": "<bpy_struct, ActionSlot(\"OBOperative_DEF\") at 0x74a192759e60>",
+    "slots": [
+      {
+        "handle": 929201142,
+        "identifier": "OBOperative_DEF",
+        "target_id_type": "OBJECT"
+      }
+    ],
+    "pelvis": [
+      0.0,
+      0.7790000438690186,
+      -0.05099993944168091
+    ],
+    "head": [
+      0.0,
+      0.7586634159088135,
+      0.5073995590209961
+    ],
+    "root": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "clip": "run_fr",
+    "mode": "explicit",
+    "selected_slot": "<bpy_struct, ActionSlot(\"OBOperative_DEF\") at 0x74a192759e60>",
+    "slots": [
+      {
+        "handle": 929201142,
+        "identifier": "OBOperative_DEF",
+        "target_id_type": "OBJECT"
+      }
+    ],
+    "pelvis": [
+      0.0,
+      0.7790000438690186,
+      -0.05099993944168091
+    ],
+    "head": [
+      0.0,
+      0.7586634159088135,
+      0.5073995590209961
+    ],
+    "root": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "clip": "jump_air",
+    "mode": "automatic",
+    "selected_slot": "<bpy_struct, ActionSlot(\"OBOperative_DEF\") at 0x74a1963e60e0>",
+    "slots": [
+      {
+        "handle": 929201142,
+        "identifier": "OBOperative_DEF",
+        "target_id_type": "OBJECT"
+      }
+    ],
+    "pelvis": [
+      0.0,
+      0.815000057220459,
+      0.030000030994415283
+    ],
+    "head": [
+      0.0,
+      0.833092451095581,
+      0.5887348055839539
+    ],
+    "root": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "clip": "jump_air",
+    "mode": "explicit",
+    "selected_slot": "<bpy_struct, ActionSlot(\"OBOperative_DEF\") at 0x74a1963e60e0>",
+    "slots": [
+      {
+        "handle": 929201142,
+        "identifier": "OBOperative_DEF",
+        "target_id_type": "OBJECT"
+      }
+    ],
+    "pelvis": [
+      0.0,
+      0.815000057220459,
+      0.030000030994415283
+    ],
+    "head": [
+      0.0,
+      0.833092451095581,
+      0.5887348055839539
+    ],
+    "root": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "clip": "death_back",
+    "mode": "automatic",
+    "selected_slot": "<bpy_struct, ActionSlot(\"OBOperative_DEF\") at 0x74a19b685460>",
+    "slots": [
+      {
+        "handle": 929201142,
+        "identifier": "OBOperative_DEF",
+        "target_id_type": "OBJECT"
+      }
+    ],
+    "pelvis": [
+      0.0,
+      3.552713678800501e-15,
+      0.9950000643730164
+    ],
+    "head": [
+      -5.516186396548051e-10,
+      -0.011330293491482735,
+      1.5545055866241455
+    ],
+    "root": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "clip": "death_back",
+    "mode": "explicit",
+    "selected_slot": "<bpy_struct, ActionSlot(\"OBOperative_DEF\") at 0x74a19b685460>",
+    "slots": [
+      {
+        "handle": 929201142,
+        "identifier": "OBOperative_DEF",
+        "target_id_type": "OBJECT"
+      }
+    ],
+    "pelvis": [
+      0.0,
+      3.552713678800501e-15,
+      0.9950000643730164
+    ],
+    "head": [
+      -5.516186396548051e-10,
+      -0.011330293491482735,
+      1.5545055866241455
+    ],
+    "root": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "clip": "aim_up_right",
+    "mode": "automatic",
+    "selected_slot": "<bpy_struct, ActionSlot(\"OBOperative_DEF\") at 0x74a19eec5960>",
+    "slots": [
+      {
+        "handle": 929201142,
+        "identifier": "OBOperative_DEF",
+        "target_id_type": "OBJECT"
+      }
+    ],
+    "pelvis": [
+      0.0,
+      0.815000057220459,
+      -0.024999916553497314
+    ],
+    "head": [
+      -0.0005965687450952828,
+      0.7989475727081299,
+      0.5343162417411804
+    ],
+    "root": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "clip": "aim_up_right",
+    "mode": "explicit",
+    "selected_slot": "<bpy_struct, ActionSlot(\"OBOperative_DEF\") at 0x74a19eec5960>",
+    "slots": [
+      {
+        "handle": 929201142,
+        "identifier": "OBOperative_DEF",
+        "target_id_type": "OBJECT"
+      }
+    ],
+    "pelvis": [
+      0.0,
+      0.815000057220459,
+      -0.024999916553497314
+    ],
+    "head": [
+      -0.0005965687450952828,
+      0.7989475727081299,
+      0.5343162417411804
+    ],
+    "root": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+]

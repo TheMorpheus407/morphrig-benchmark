@@ -1,0 +1,15 @@
+{
+  "size": 1024,
+  "base_color_linear": [
+    0.006,
+    0.011,
+    0.017
+  ],
+  "roughness": 0.72,
+  "metalness": 0,
+  "maps": {
+    "BaseColor": "textures/hair_BaseColor.png",
+    "Roughness": "textures/hair_Roughness.png",
+    "Normal": "textures/hair_Normal.png"
+  }
+}

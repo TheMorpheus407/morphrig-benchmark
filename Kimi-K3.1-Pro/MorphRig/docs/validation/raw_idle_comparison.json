@@ -1,0 +1,270 @@
+{
+  "diagonal": {
+    "skeleton": "/Game/Operative/Diagnostics/BasisSource/SK_AnimationSource_Skeleton.SK_AnimationSource_Skeleton",
+    "sequence_skeleton": "/Game/Operative/Diagnostics/BasisSource/SK_AnimationSource_Skeleton.SK_AnimationSource_Skeleton",
+    "reference_root_local": "<Struct 'Transform' (0x70f802d9dd10) {rotation: {x: 0.707107, y: 0.000000, z: 0.000000, w: -0.707107}, translation: {x: 0.000000, y: 0.000000, z: 0.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "tracks": 70,
+    "poses": {
+      "root": "<Struct 'Transform' (0x70f802d9dd10) {rotation: {x: -0.000000, y: 0.000000, z: 0.707107, w: 0.707107}, translation: {x: 0.000000, y: 0.000000, z: 0.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+      "pelvis": "<Struct 'Transform' (0x70f802d9dd10) {rotation: {x: -0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: 0.000003, y: -0.000000, z: 99.500023}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+      "head": "<Struct 'Transform' (0x70f802d9dd10) {rotation: {x: 0.000000, y: 0.000000, z: -0.000000, w: 1.000000}, translation: {x: -0.000000, y: -0.000000, z: 6.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+      "eye_L": "<Struct 'Transform' (0x70f802d9dd10) {rotation: {x: 0.707107, y: -0.000000, z: 0.707107, w: 0.000000}, translation: {x: 5.800001, y: -3.700000, z: 14.200045}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000001}}>"
+    }
+  },
+  "original": {
+    "skeleton": "/Game/Operative/SK_Operative_Skeleton.SK_Operative_Skeleton",
+    "sequence_skeleton": "/Game/Operative/SK_Operative_Skeleton.SK_Operative_Skeleton",
+    "reference_root_local": "<Struct 'Transform' (0x70f802d9dda0) {rotation: {x: -0.000000, y: 0.000000, z: -0.000000, w: 1.000000}, translation: {x: 0.000000, y: 0.000000, z: 0.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "tracks": 70,
+    "poses": {
+      "root": "<Struct 'Transform' (0x70f802d9dda0) {rotation: {x: -0.000000, y: 0.000000, z: 0.707107, w: 0.707107}, translation: {x: 0.000000, y: 0.000000, z: 0.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+      "pelvis": "<Struct 'Transform' (0x70f802d9dda0) {rotation: {x: 0.000000, y: -0.000000, z: 0.000000, w: -1.000000}, translation: {x: 0.000000, y: -0.000000, z: 99.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+      "head": "<Struct 'Transform' (0x70f802d9dda0) {rotation: {x: 0.000000, y: -0.000000, z: 0.000000, w: -1.000000}, translation: {x: 0.000000, y: -0.000000, z: 6.000001}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+      "eye_L": "<Struct 'Transform' (0x70f802d9dda0) {rotation: {x: 0.707107, y: 0.000000, z: 0.707107, w: -0.000000}, translation: {x: 5.800000, y: -3.700000, z: 14.199999}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+    }
+  },
+  "target_reference_root": "<Struct 'Transform' (0x70f802d9dda0) {rotation: {x: -0.000000, y: 0.000000, z: -0.000000, w: 1.000000}, translation: {x: 0.000000, y: 0.000000, z: 0.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+  "source_mesh_reference_root": "<Struct 'Transform' (0x70f802d9dda0) {rotation: {x: -0.707107, y: 0.000000, z: 0.000000, w: 0.707107}, translation: {x: 0.000000, y: 0.000000, z: 0.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+  "source_skeleton_reference_root": "<Struct 'Transform' (0x70f802d9dda0) {rotation: {x: 0.707107, y: 0.000000, z: 0.000000, w: -0.707107}, translation: {x: 0.000000, y: 0.000000, z: 0.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+  "target_skeleton_reference_root": "<Struct 'Transform' (0x70f802d9dda0) {rotation: {x: -0.000000, y: 0.000000, z: -0.000000, w: 1.000000}, translation: {x: 0.000000, y: 0.000000, z: 0.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+  "source_reference": {
+    "source_to_unreal_matrix": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        -1,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "determinant": -1,
+    "native_forward": [
+      0,
+      1,
+      0
+    ],
+    "max_reference_error_cm": 3.139853149971778e-05,
+    "reference_samples": [
+      {
+        "bone": "eye.L",
+        "source_cm": [
+          3.7,
+          -5.8,
+          169.7
+        ],
+        "native_cm": [
+          3.700000047683716,
+          5.7999707589115435,
+          169.699988562157
+        ],
+        "converted_source_cm": [
+          3.7,
+          5.8,
+          169.7
+        ]
+      },
+      {
+        "bone": "hand.L",
+        "source_cm": [
+          30.5,
+          -3.6,
+          96.2
+        ],
+        "native_cm": [
+          30.500006221483925,
+          3.5999824957204796,
+          96.20000210178668
+        ],
+        "converted_source_cm": [
+          30.5,
+          3.6,
+          96.2
+        ]
+      },
+      {
+        "bone": "hand.R",
+        "source_cm": [
+          -30.5,
+          -3.6,
+          96.2
+        ],
+        "native_cm": [
+          -30.500006221483925,
+          3.5999824957204796,
+          96.20000210178668
+        ],
+        "converted_source_cm": [
+          -30.5,
+          3.6,
+          96.2
+        ]
+      },
+      {
+        "bone": "pelvis",
+        "source_cm": [
+          0.0,
+          0.0,
+          99.5
+        ],
+        "native_cm": [
+          0.0,
+          -1.6774444986822346e-05,
+          99.49999406933644
+        ],
+        "converted_source_cm": [
+          0.0,
+          0.0,
+          99.5
+        ]
+      },
+      {
+        "bone": "head",
+        "source_cm": [
+          0.0,
+          0.0,
+          155.5
+        ],
+        "native_cm": [
+          0.0,
+          -2.6215338740698257e-05,
+          155.4999912679171
+        ],
+        "converted_source_cm": [
+          0.0,
+          0.0,
+          155.5
+        ]
+      }
+    ],
+    "mesh_reference_forward_yaw": 90.0,
+    "source_to_unreal_yaw_degrees": null
+  },
+  "target_reference": {
+    "source_to_unreal_matrix": [
+      [
+        0,
+        -1,
+        0
+      ],
+      [
+        -1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "determinant": -1,
+    "native_forward": [
+      1,
+      0,
+      0
+    ],
+    "max_reference_error_cm": 8.240378444858952e-06,
+    "reference_samples": [
+      {
+        "bone": "eye.L",
+        "source_cm": [
+          3.7,
+          -5.8,
+          169.7
+        ],
+        "native_cm": [
+          5.799999713897705,
+          -3.7000000476837154,
+          169.6999976992607
+        ],
+        "converted_source_cm": [
+          5.8,
+          -3.7,
+          169.7
+        ]
+      },
+      {
+        "bone": "hand.L",
+        "source_cm": [
+          30.5,
+          -3.6,
+          96.2
+        ],
+        "native_cm": [
+          3.600004550618218,
+          -30.499993285587593,
+          96.2000014534018
+        ],
+        "converted_source_cm": [
+          3.6,
+          -30.5,
+          96.2
+        ]
+      },
+      {
+        "bone": "hand.R",
+        "source_cm": [
+          -30.5,
+          -3.6,
+          96.2
+        ],
+        "native_cm": [
+          3.600004550618218,
+          30.499993285587593,
+          96.2000014534018
+        ],
+        "converted_source_cm": [
+          3.6,
+          30.5,
+          96.2
+        ]
+      },
+      {
+        "bone": "pelvis",
+        "source_cm": [
+          0.0,
+          0.0,
+          99.5
+        ],
+        "native_cm": [
+          -3.985142630860635e-40,
+          3.110199103199384e-22,
+          99.5
+        ],
+        "converted_source_cm": [
+          0.0,
+          0.0,
+          99.5
+        ]
+      },
+      {
+        "bone": "head",
+        "source_cm": [
+          0.0,
+          0.0,
+          155.5
+        ],
+        "native_cm": [
+          -1.8045754038405232e-38,
+          2.015279339030845e-22,
+          155.5000005364416
+        ],
+        "converted_source_cm": [
+          0.0,
+          0.0,
+          155.5
+        ]
+      }
+    ],
+    "mesh_reference_forward_yaw": 0.0,
+    "source_to_unreal_yaw_degrees": null
+  }
+}

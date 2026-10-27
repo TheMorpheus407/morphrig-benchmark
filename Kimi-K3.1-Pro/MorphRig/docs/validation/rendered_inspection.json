@@ -1,0 +1,166 @@
+{
+  "schema": "MorphRig.rendered_inspection/1.0",
+  "status": "PASS",
+  "inspection_date": "2026-10-25",
+  "renderer": "Delivered native Unreal Engine Linux client; the presentations are captures of the same real-time character, not substitute assets or offline character renders.",
+  "method": "Direct visual review of the three delivered MP4 presentations and the enumerated native 1920x1080 screenshots. Mouth geometry was also reviewed in a native-resolution image crop.",
+  "inspected": [
+    {
+      "file": "presentation/turntable.mp4",
+      "type": "video",
+      "duration_seconds": 6.0,
+      "review": "Full-body neutral turn shows the standing character from front, side and rear. Skin, hair, suit, rigid armor and cyan accents are distinct; both arms, hands, legs, feet and equipped props remain attached without elongated limbs or missing materials."
+    },
+    {
+      "file": "presentation/motion_showcase.mp4",
+      "type": "video",
+      "duration_seconds": 42.0,
+      "review": "Locomotion, upper-body actions, sustained states, transitions, ground poses, recovery and prop actions are visibly distinct. The delivered clip/state captions are present, and transitions do not show the former broken skeleton or capsule/mesh separation."
+    },
+    {
+      "file": "presentation/face_performance.mp4",
+      "type": "video",
+      "duration_seconds": 16.0,
+      "review": "Close-up performance contains the original dialogue audio, articulated mouth shapes, gaze and eyelid changes, and a readable emotional shift. The face remains coherent through the speech and settles at the end; there is no substituted face or offline-only model."
+    },
+    {
+      "file": "build/Linux/MorphRig/Saved/MorphRig/MorphCapture/turntable/frame_0000.png",
+      "type": "png",
+      "time_seconds": 0.0,
+      "review": "Front three-quarter neutral view: coherent stylized proportions, organic left arm, equipped cybernetic right forearm, fitted suit, grounded feet and correctly bound materials."
+    },
+    {
+      "file": "build/Linux/MorphRig/Saved/MorphRig/MorphCapture/turntable/frame_0090.png",
+      "type": "png",
+      "time_seconds": 3.0,
+      "review": "Rear neutral view: attached shoulder armor, fitted back silhouette, cable/stowed accessories and stable lower-body proportions. No obvious detached or stretched mesh."
+    },
+    {
+      "file": "build/Linux/MorphRig/Saved/MorphRig/MorphCapture/motion/frame_0060.png",
+      "type": "png",
+      "time_seconds": 2.0,
+      "review": "Forward-right locomotion is visible with the character's facing preserved and legs/armor following the intended deformation."
+    },
+    {
+      "file": "build/Linux/MorphRig/Saved/MorphRig/MorphCapture/motion/frame_0390.png",
+      "type": "png",
+      "time_seconds": 13.0,
+      "review": "Moving upper-body action over locomotion: distinct torso/arm pose with continued lower-body gait and no capsule/mesh separation visible."
+    },
+    {
+      "file": "build/Linux/MorphRig/Saved/MorphRig/MorphCapture/motion/frame_0510.png",
+      "type": "png",
+      "time_seconds": 17.0,
+      "review": "Charge release preparation/arm position is coherent, with planted lower body and attached emitter equipment."
+    },
+    {
+      "file": "build/Linux/MorphRig/Saved/MorphRig/MorphCapture/motion/frame_0650.png",
+      "type": "png",
+      "time_seconds": 21.667,
+      "review": "Front knockdown has a clearly lowered and bent body configuration, not an unchanged standing pose. Limbs remain connected."
+    },
+    {
+      "file": "build/Linux/MorphRig/Saved/MorphRig/MorphCapture/motion/frame_0740.png",
+      "type": "png",
+      "time_seconds": 24.667,
+      "review": "Front recovery is visibly progressing through a kneeling/supporting posture rather than snapping immediately to idle."
+    },
+    {
+      "file": "build/Linux/MorphRig/Saved/MorphRig/MorphCapture/motion/frame_0800.png",
+      "type": "png",
+      "time_seconds": 26.667,
+      "review": "Back-impact death is in a distinct falling configuration with the dead state indicated; no uncontrolled limb distortion is visible."
+    },
+    {
+      "file": "build/Linux/MorphRig/Saved/MorphRig/MorphCapture/motion/frame_0990.png",
+      "type": "png",
+      "time_seconds": 33.0,
+      "review": "Reload supporting hand and cell are brought together at the emitter, with the CellGrip event visible. Exact contact distances are separately measured in runtime_verification.json."
+    },
+    {
+      "file": "build/Linux/MorphRig/Saved/MorphRig/MorphCapture/motion/frame_1060.png",
+      "type": "png",
+      "time_seconds": 35.333,
+      "review": "DeployContact is shown with the character kneeling and its hand at the beacon near the floor. The skinned floor-contact measurement is recorded separately."
+    },
+    {
+      "file": "build/Linux/MorphRig/Saved/MorphRig/MorphCapture/motion/frame_1215.png",
+      "type": "png",
+      "time_seconds": 40.5,
+      "review": "Blink anticipation is readable and the previously deployed beacon remains independently present on the floor."
+    },
+    {
+      "file": "build/Linux/MorphRig/Saved/MorphRig/MorphCapture/face/frame_0000.png",
+      "type": "png",
+      "time_seconds": 0.0,
+      "review": "Speech start: visible eyes, brows, eyelids, closed-lip configuration and intact face/hair geometry."
+    },
+    {
+      "file": "build/Linux/MorphRig/Saved/MorphRig/MorphCapture/face/frame_0060.png",
+      "type": "png",
+      "time_seconds": 2.0,
+      "review": "Open-vowel mouth and jaw configuration differs visibly from the neutral frame; the mouth interior and teeth remain bounded by the face."
+    },
+    {
+      "file": "build/Linux/MorphRig/Saved/MorphRig/MorphCapture/face/frame_0120.png",
+      "type": "png",
+      "time_seconds": 4.0,
+      "review": "Mid-speech mouth shape and eye direction change are visible, without facial collapse or a hole through the head."
+    },
+    {
+      "file": "build/Linux/MorphRig/Saved/MorphRig/MorphCapture/face/frame_0240.png",
+      "type": "png",
+      "time_seconds": 8.0,
+      "review": "Concern expression and speech shape are visible. A native-resolution crop also confirms the modeled lip/mouth configuration; the deliberately stylized mouth is not presented as photoreal facial topology."
+    },
+    {
+      "file": "build/Linux/MorphRig/Saved/MorphRig/MorphCapture/face/frame_0360.png",
+      "type": "png",
+      "time_seconds": 12.0,
+      "review": "Later speech has a distinct expression and mouth opening, with eyes, teeth and head surface remaining intact."
+    },
+    {
+      "file": "build/Linux/MorphRig/Saved/MorphRig/MorphCapture/face/frame_0455.png",
+      "type": "png",
+      "time_seconds": 15.167,
+      "review": "The dialogue endpoint is reached and the mouth settles without residual extreme deformation."
+    },
+    {
+      "file": "build/Linux/MorphRig/Saved/MorphRig/MorphVerify/ramp.png",
+      "type": "png",
+      "review": "Ramp traversal endpoint with the character upright on the supplied room geometry. Foot-contact and pelvis errors are measured by the native verification rather than inferred from this camera angle."
+    },
+    {
+      "file": "build/Linux/MorphRig/Saved/MorphRig/MorphVerify/steps.png",
+      "type": "png",
+      "review": "The character is visibly supported across two stair levels with aligned foot/ankle orientation and a gait pose; no inverted ankle is apparent."
+    },
+    {
+      "file": "build/Linux/MorphRig/Saved/MorphRig/MorphVerify/control_panel.png",
+      "type": "png",
+      "review": "The in-client panel exposes camera/display, team, LOD, instance count, locomotion, actions, sustained states, hits/disables and facial controls. Room steps and prop station are visible behind it."
+    },
+    {
+      "file": "build/Linux/MorphRig/Saved/MorphRig/MorphVerify/reload.png",
+      "type": "png",
+      "review": "Rear inspection of the reload manipulation: both arms participate in the action and equipment remains attached. Quantitative cell/hand contact is recorded separately."
+    },
+    {
+      "file": "build/Linux/MorphRig/Saved/MorphRig/MorphVerify/deploy_contact.png",
+      "type": "png",
+      "review": "Rear inspection of the kneeling deploy action, showing the lowered body and hand/beacon placement configuration."
+    },
+    {
+      "file": "build/Linux/MorphRig/Saved/MorphRig/MorphVerify/deploy_released.png",
+      "type": "png",
+      "review": "The character has recovered to standing after release, while the beacon's persisted position and lack of drift are measured in the native runtime report."
+    }
+  ],
+  "supporting_quantitative_evidence": [
+    "docs/validation/runtime_verification.json",
+    "docs/validation/analytic_motion.json",
+    "docs/validation/capture_face.log",
+    "docs/validation/states_trace.txt"
+  ],
+  "scope": "This report records visual inspection of the listed delivered captures, not a claim of exhaustive coverage of every frame or unbounded pose. Performance measurement is reported separately."
+}

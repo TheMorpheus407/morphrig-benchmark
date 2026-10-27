@@ -1,0 +1,432 @@
+{
+  "skeleton": "/Game/Operative/Diagnostics/UnitProbe_Skeleton.UnitProbe_Skeleton",
+  "height_cm": 180.0000008610358,
+  "morphs": 26,
+  "bones": {
+    "root": {
+      "<AnimPoseSpaces.LOCAL: 0>": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation": [
+          -3.0616171314629196e-17,
+          9.373498482632464e-34,
+          -3.0616171314629196e-17,
+          1.0
+        ]
+      },
+      "<AnimPoseSpaces.WORLD: 1>": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation": [
+          -3.0616171314629196e-17,
+          9.373498482632464e-34,
+          -3.0616171314629196e-17,
+          1.0
+        ]
+      }
+    },
+    "pelvis": {
+      "<AnimPoseSpaces.LOCAL: 0>": {
+        "translation": [
+          0.0,
+          -6.0926177805913e-15,
+          99.5
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation": [
+          0.0,
+          -0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "<AnimPoseSpaces.WORLD: 1>": {
+        "translation": [
+          -3.985142630860635e-40,
+          3.110199103199384e-22,
+          99.5
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation": [
+          3.0616171314629196e-17,
+          -9.373498482632464e-34,
+          3.0616171314629196e-17,
+          -1.0
+        ]
+      }
+    },
+    "head": {
+      "<AnimPoseSpaces.LOCAL: 0>": {
+        "translation": [
+          0.0,
+          -3.6739408224532996e-16,
+          6.000000953674316
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation": [
+          0.0,
+          -0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "<AnimPoseSpaces.WORLD: 1>": {
+        "translation": [
+          -1.8045754038405232e-38,
+          2.015279339030845e-22,
+          155.5000005364416
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          0.999999880790714
+        ],
+        "rotation": [
+          -3.0616167664897165e-17,
+          9.373497365224253e-34,
+          -3.0616171314629196e-17,
+          1.0
+        ]
+      }
+    },
+    "eye_L": {
+      "<AnimPoseSpaces.LOCAL: 0>": {
+        "translation": [
+          5.799999713897705,
+          -3.700000047683716,
+          14.19999885559082
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation": [
+          0.7071068109888686,
+          4.3297798624554794e-17,
+          0.7071067513842253,
+          -4.329780524199953e-17
+        ]
+      },
+      "<AnimPoseSpaces.WORLD: 1>": {
+        "translation": [
+          5.799999713897705,
+          -3.7000000476837154,
+          169.6999976992607
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          0.999999880790714
+        ],
+        "rotation": [
+          0.7071068109888686,
+          4.329779421893867e-17,
+          0.7071067513842253,
+          -3.1216632194973873e-24
+        ]
+      }
+    },
+    "hand_L": {
+      "<AnimPoseSpaces.LOCAL: 0>": {
+        "translation": [
+          -5.660757551595452e-07,
+          -1.3249491530586965e-06,
+          22.366262435913086
+        ],
+        "scale": [
+          1.0000001192092896,
+          1.0,
+          1.0000001192092896
+        ],
+        "rotation": [
+          0.06324419406791605,
+          -0.005543692061618628,
+          -0.06786585628755117,
+          -0.9956724687091552
+        ]
+      },
+      "<AnimPoseSpaces.WORLD: 1>": {
+        "translation": [
+          3.6000045506182192,
+          -30.499993285587596,
+          96.20000145340175
+        ],
+        "scale": [
+          1.0000000596046377,
+          0.999999880790714,
+          1.0000000596046235
+        ],
+        "rotation": [
+          -1.963366533713545e-08,
+          0.999379286224151,
+          4.418591968702312e-08,
+          0.03522842979901866
+        ]
+      }
+    },
+    "hand_R": {
+      "<AnimPoseSpaces.LOCAL: 0>": {
+        "translation": [
+          -5.660757551595452e-07,
+          1.3249491530586965e-06,
+          22.366262435913086
+        ],
+        "scale": [
+          1.0000001192092896,
+          1.0,
+          1.0000001192092896
+        ],
+        "rotation": [
+          -0.06324419406791605,
+          -0.005543692061618628,
+          0.06786585628755117,
+          -0.9956724687091552
+        ]
+      },
+      "<AnimPoseSpaces.WORLD: 1>": {
+        "translation": [
+          3.6000045506182192,
+          30.499993285587596,
+          96.20000145340175
+        ],
+        "scale": [
+          1.0000000596046377,
+          0.999999880790714,
+          1.0000000596046235
+        ],
+        "rotation": [
+          1.963366533713545e-08,
+          0.999379286224151,
+          -4.418591968702312e-08,
+          0.03522842979901866
+        ]
+      }
+    }
+  },
+  "lod_imports": [
+    {
+      "index": 1,
+      "returned": 1,
+      "triangle_count": 21482
+    },
+    {
+      "index": 2,
+      "returned": 2,
+      "triangle_count": 19062
+    }
+  ],
+  "pose_api": "x.get_ref_bone_pose(bone_name, space=AnimPoseSpaces.LOCAL) -> Transform\nRetrieves the reference pose transform for the provided bone name\n\nArgs:\n    bone_name (Name): Name of the bone to retrieve\n    space (AnimPoseSpaces): Space in which the transform should be retrieved\n\nReturns:\n    Transform: Transform in requested space for bone if found, otherwise return identity transform",
+  "animation_pose_methods": {
+    "get_bone_pose_for_frame": "X.get_bone_pose_for_frame(animation_sequence_base, bone_name, frame, extract_root_motion) -> Transform\nGet Bone Pose for Frame\n\nArgs:\n    animation_sequence_base (AnimSequenceBase): \n    bone_name (Name): \n    frame (int32): \n    extract_root_motion (bool): \n\nReturns:\n    Transform: \n\n    pose (Transform):",
+    "get_bone_pose_for_time": "X.get_bone_pose_for_time(animation_sequence_base, bone_name, time, extract_root_motion) -> Transform\nGet Bone Pose for Time\n\nArgs:\n    animation_sequence_base (AnimSequenceBase): \n    bone_name (Name): \n    time (float): \n    extract_root_motion (bool): \n\nReturns:\n    Transform: \n\n    pose (Transform):",
+    "get_bone_poses_for_frame": "X.get_bone_poses_for_frame(animation_sequence_base, bone_names, frame, extract_root_motion, preview_mesh=None) -> Array[Transform]\nGet Bone Poses for Frame\n\nArgs:\n    animation_sequence_base (AnimSequenceBase): \n    bone_names (Array[Name]): \n    frame (int32): \n    extract_root_motion (bool): \n    preview_mesh (SkeletalMesh): \n\nReturns:\n    Array[Transform]: \n\n    poses (Array[Transform]):",
+    "get_bone_poses_for_time": "X.get_bone_poses_for_time(animation_sequence_base, bone_names, time, extract_root_motion, preview_mesh=None) -> Array[Transform]\nGet Bone Poses for Time\n\nArgs:\n    animation_sequence_base (AnimSequenceBase): \n    bone_names (Array[Name]): \n    time (float): \n    extract_root_motion (bool): \n    preview_mesh (SkeletalMesh): \n\nReturns:\n    Array[Transform]: \n\n    poses (Array[Transform]):",
+    "get_root_motion_lock_type": "X.get_root_motion_lock_type(animation_sequence) -> RootMotionRootLock\nRetrieves the Root Motion Lock Type for the given Animation Sequence\n\nArgs:\n    animation_sequence (AnimSequence): \n\nReturns:\n    RootMotionRootLock: \n\n    lock_type (RootMotionRootLock):",
+    "is_root_motion_enabled": "X.is_root_motion_enabled(animation_sequence) -> bool\nChecks whether or not Root Motion is Enabled for the given Animation Sequence\n\nArgs:\n    animation_sequence (AnimSequence): \n\nReturns:\n    bool:",
+    "is_root_motion_lock_forced": "X.is_root_motion_lock_forced(animation_sequence) -> bool\nChecks whether or not Root Motion locking is Forced for the given Animation Sequence\n\nArgs:\n    animation_sequence (AnimSequence): \n\nReturns:\n    bool:",
+    "set_is_root_motion_lock_forced": "X.set_is_root_motion_lock_forced(animation_sequence, forced) -> None\nSets whether or not Root Motion locking is Forced for the given Animation Sequence\n\nArgs:\n    animation_sequence (AnimSequence): \n    forced (bool):",
+    "set_root_motion_enabled": "X.set_root_motion_enabled(animation_sequence, enabled) -> None\nSets whether or not Root Motion is Enabled for the given Animation Sequence\n\nArgs:\n    animation_sequence (AnimSequence): \n    enabled (bool):",
+    "set_root_motion_lock_type": "X.set_root_motion_lock_type(animation_sequence, root_motion_lock_type) -> None\nSets the Root Motion Lock Type for the given Animation Sequence\n\nArgs:\n    animation_sequence (AnimSequence): \n    root_motion_lock_type (RootMotionRootLock):"
+  },
+  "animation_imports": [
+    "/Game/Operative/Diagnostics/DashProbe.DashProbe"
+  ],
+  "import_settings": {
+    "convert_scene_unit": "False",
+    "convert_scene": "True",
+    "import_uniform_scale": "1.0"
+  },
+  "dash_samples": [
+    {
+      "frame": 0,
+      "local_root": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          -4.214684339067365e-08,
+          4.2146849002865686e-08,
+          0.7071067341080631,
+          0.7071068282650264
+        ]
+      },
+      "evaluated_world": {
+        "root": {
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            0.9999999403953552,
+            1.0,
+            0.9999999403953552
+          ]
+        },
+        "pelvis": {
+          "translation": [
+            1.5855233030220286e-12,
+            1.1861322952052105e-05,
+            99.49999406933713
+          ],
+          "scale": [
+            0.9999999403953552,
+            1.0,
+            0.9999999403953552
+          ]
+        },
+        "head": {
+          "translation": [
+            7.040854035238289e-07,
+            5.287591472118262,
+            154.3760633346916
+          ],
+          "scale": [
+            0.999999940395341,
+            1.0,
+            0.9999997615814387
+          ]
+        },
+        "hand_L": {
+          "translation": [
+            32.00033473478814,
+            -7.000021573549264,
+            104.00024392016078
+          ],
+          "scale": [
+            0.9999999999998259,
+            1.0000001788139201,
+            0.9999997615814245
+          ]
+        },
+        "eye_L": {
+          "translation": [
+            3.700001524085944,
+            11.087592040395341,
+            168.57605811332525
+          ],
+          "scale": [
+            0.999999940395341,
+            1.0,
+            0.9999997615814387
+          ]
+        }
+      }
+    },
+    {
+      "frame": 18,
+      "local_root": {
+        "translation": [
+          0.0,
+          200.0,
+          0.0
+        ],
+        "rotation": [
+          -4.214684339067365e-08,
+          4.2146849002865686e-08,
+          0.7071067341080631,
+          0.7071068282650264
+        ]
+      },
+      "evaluated_world": {
+        "root": {
+          "translation": [
+            0.0,
+            200.0,
+            0.0
+          ],
+          "scale": [
+            0.9999999403953552,
+            1.0,
+            0.9999999403953552
+          ]
+        },
+        "pelvis": {
+          "translation": [
+            -2.6631611746097406e-05,
+            -6.735318493156228e-06,
+            99.50004079937818
+          ],
+          "scale": [
+            1.0000001788139201,
+            1.0,
+            1.0000001788139201
+          ]
+        },
+        "head": {
+          "translation": [
+            -2.5927526017287315e-05,
+            5.287587219610748,
+            154.3761218875481
+          ],
+          "scale": [
+            1.000000178813906,
+            1.0,
+            0.9999999999999609
+          ]
+        },
+        "hand_L": {
+          "translation": [
+            24.893368117958712,
+            52.57516055172191,
+            132.933229787781
+          ],
+          "scale": [
+            1.000000238418405,
+            1.0000001788139201,
+            0.9999999999999467
+          ]
+        },
+        "eye_L": {
+          "translation": [
+            3.6999748924751574,
+            11.087592556258873,
+            168.57611866889567
+          ],
+          "scale": [
+            1.000000178813906,
+            1.0,
+            0.9999999999999609
+          ]
+        }
+      }
+    }
+  ],
+  "curve_value_methods": {},
+  "pose_range_options": {},
+  "model_curve_methods": {
+    "get_number_of_float_curves": "x.get_number_of_float_curves() -> int32\n\n\nReturns:\n    int32: Total number of stored float curves",
+    "get_number_of_transform_curves": "x.get_number_of_transform_curves() -> int32\n\n\nReturns:\n    int32: Total number of stored FTransform curves"
+  }
+}

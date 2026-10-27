@@ -1,0 +1,591 @@
+{
+  "status": "PASS",
+  "entries": 96,
+  "failures": [],
+  "samples": [
+    {
+      "id": "idle_relaxed",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "idle_combat",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "idle_wounded",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "walk_f",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "walk_fl",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "walk_l",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "walk_bl",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "walk_b",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "walk_br",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "walk_r",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "walk_fr",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "run_f",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "run_fl",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "run_l",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "run_bl",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "run_b",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "run_br",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "run_r",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "run_fr",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "sprint_f",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "start_f",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "stop_f",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "turn_l90",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "turn_r90",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "pivot_l180",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "pivot_r180",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "jump_start",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "jump_air",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "jump_land",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "fall",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "land_heavy",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "dash_f",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "dash_b",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "dash_l",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "dash_r",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "blink_out",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "blink_in",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "melee_1",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "melee_2",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "melee_3",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "ranged_fire",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "ranged_burst",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "reload",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": {
+        "wrist_to_prop_m": 0.0338840731665142,
+        "finger_to_prop_m": 0.08237504194938104
+      }
+    },
+    {
+      "id": "cast_directional",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "cast_ground",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "cast_self",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "channel_start",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "channel_loop",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "channel_end",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "channel_interrupt",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "charge_start",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "charge_hold",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "charge_release",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "charge_cancel",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "deploy",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": {
+        "wrist_to_prop_m": 0.11938176831199336,
+        "finger_to_prop_m": 0.04098334432027871,
+        "floor_height_m": 0.0011975113302469254,
+        "release_return_distance_m": 0.00043539022137639727
+      }
+    },
+    {
+      "id": "uplink_start",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "uplink_loop",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "uplink_end",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "uplink_cancel",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "hit_f",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "hit_b",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "hit_l",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "hit_r",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "stun_start",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "stun_loop",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "stun_end",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "knockback",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "knockup_start",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "knockup_air",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "knockdown_front",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "knockdown_back",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "prone_front",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "prone_back",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "getup_front",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "getup_back",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "sleep_start",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "sleep_loop",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "sleep_end",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "death_front",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "death_back",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "dead_front",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "dead_back",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "respawn",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "greet",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "victory",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "defeat",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "dialogue",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "aim_down_left",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "aim_down_center",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "aim_down_right",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "aim_level_left",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "aim_level_center",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "aim_level_right",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "aim_up_left",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "aim_up_center",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    },
+    {
+      "id": "aim_up_right",
+      "evaluated_samples": 5,
+      "root_policy_ok": true,
+      "support_contact": null
+    }
+  ]
+}

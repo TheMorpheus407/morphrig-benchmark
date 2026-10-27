@@ -1,0 +1,8 @@
+00:00.519  blend            | Read blend: "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/source/Operative.blend"
+Q180 [-4.371138828673793e-08, -0.0, -0.0, -1.0]
+TURN [-4.371138828673793e-08, -0.0, -0.0, -1.0]
+SAMPLE [-4.371138828673793e-08, -0.0, -0.0, -1.0]
+Blender 5.1.1
+scripts disabled for "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/source/Operative.blend", skipping 'START_HERE_Rig_Controls.py'
+
+Blender quit

@@ -1,0 +1,59 @@
+ffmpeg version 8.0 Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 14.3.0 (GCC)
+  configuration: --disable-static --prefix=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-ffmpeg-8.0 --target_os=linux --arch=x86_64 --pkg-config=pkg-config --enable-gpl --enable-version3 --disable-nonfree --disable-static --enable-shared --enable-pic --disable-thumb --disable-small --enable-runtime-cpudetect --disable-gray --enable-swscale-alpha --enable-hardcoded-tables --enable-safe-bitstream-reader --enable-pthreads --disable-w32threads --disable-os2threads --enable-network --enable-pixelutils --datadir=/nix/store/zr75jxzlk39h8n9yw03h1zrcnbgvz8rx-ffmpeg-8.0-data/share/ffmpeg --enable-ffmpeg --enable-ffplay --enable-ffprobe --bindir=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-ffmpeg-8.0-bin/bin --enable-avcodec --enable-avdevice --enable-avfilter --enable-avformat --enable-avutil --enable-swresample --enable-swscale --libdir=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-ffmpeg-8.0-lib/lib --incdir=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-ffmpeg-8.0-dev/include --enable-doc --enable-htmlpages --enable-manpages --mandir=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-ffmpeg-8.0-man/share/man --enable-podpages --enable-txtpages --docdir=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-ffmpeg-8.0-doc/share/doc/ffmpeg --enable-alsa --enable-amf --enable-libaom --disable-libaribb24 --disable-libaribcaption --enable-libass --disable-avisynth --enable-libbluray --disable-libbs2b --enable-bzlib --disable-libcaca --disable-libcdio --disable-libcelt --disable-chromaprint --disable-libcodec2 --disable-cuda --enable-cuda-llvm --disable-cuda-nvcc --enable-cuvid --enable-libdav1d --disable-libdavs2 --disable-libdc1394 --enable-libdrm --disable-libdvdnav --disable-libdvdread --disable-libfdk-aac --enable-ffnvcodec --disable-libflite --enable-fontconfig --enable-libfontconfig --enable-libfreetype --disable-frei0r --enable-libfribidi --disable-libgme --enable-gmp --enable-gnutls --disable-libgsm --enable-libharfbuzz --enable-iconv --disable-libilbc --disable-libjack --disable-libjxl --disable-libkvazaar --disable-ladspa --disable-liblc3 --disable-liblcevc-dec --disable-lcms2 --enable-lzma --disable-metal --disable-libmfx --disable-libmodplug --enable-libmp3lame --disable-libmysofa --disable-libnpp --enable-nvdec --enable-nvenc --disable-openal --enable-liboapv --enable-opencl --disable-libopencore-amrnb --disable-libopencore-amrwb --disable-opengl --disable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-libopus --disable-libplacebo --enable-libpulse --disable-libqrencode --disable-libquirc --disable-librav1e --enable-librist --disable-librtmp --disable-librubberband --disable-libsmbclient --enable-sdl2 --disable-libshaderc --disable-libshine --disable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --disable-librsvg --enable-libsvtav1 --disable-libtensorflow --enable-libtheora --disable-libtwolame --disable-libuavs3d --enable-libv4l2 --enable-v4l2-m2m --enable-vaapi --enable-vdpau --disable-libvpl --enable-libvidstab --disable-libvmaf --disable-libvo-amrwbenc --enable-libvorbis --enable-libvpx --enable-vulkan --disable-libvvenc --enable-libwebp --disable-whisper --enable-libx264 --enable-libx265 --disable-libxavs --disable-libxavs2 --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-libxevd --disable-libxeve --disable-xlib --enable-libxml2 --enable-libxvid --enable-libzimg --enable-zlib --disable-libzmq --enable-libzvbi --disable-debug --enable-optimizations --disable-extra-warnings --disable-stripping
+  libavutil      60.  8.100 / 60.  8.100
+  libavcodec     62. 11.100 / 62. 11.100
+  libavformat    62.  3.100 / 62.  3.100
+  libavdevice    62.  1.100 / 62.  1.100
+  libavfilter    11.  4.100 / 11.  4.100
+  libswscale      9.  1.100 /  9.  1.100
+  libswresample   6.  1.100 /  6.  1.100
+Input #0, image2, from '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/build/Linux/MorphRig/Saved/MorphRig/MorphCapture/face/frame_%04d.png':
+  Duration: 00:00:16.00, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: png, rgba(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+[aist#1:0/pcm_s16le @ 0x61bf8ba3f9c0] Guessed Channel Layout: mono
+Input #1, wav, from '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/source/audio/dialogue.wav':
+  Duration: 00:00:15.20, bitrate: 352 kb/s
+  Stream #1:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 22050 Hz, mono, s16, 352 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> h264 (libx264))
+  Stream #1:0 -> #0:1 (pcm_s16le (native) -> aac (native))
+Press [q] to stop, [?] for help
+[aac @ 0x61bf8baaedc0] Too many bits 7430.385488 > 6144 per frame requested, clamping to max
+[libx264 @ 0x61bf8ba41480] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2 AVX512
+[libx264 @ 0x61bf8ba41480] profile High, level 5.0, 4:2:0, 8-bit
+[libx264 @ 0x61bf8ba41480] 264 - core 164 - H.264/MPEG-4 AVC codec - Copyleft 2003-2025 - http://www.videolan.org/x264.html - options: cabac=1 ref=5 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=8 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=2 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=34 lookahead_threads=5 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=3 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=50 rc=crf mbtree=1 crf=18.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/presentation/face_performance.mp4':
+  Metadata:
+    encoder         : Lavf62.3.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(tv, progressive), 1920x1080, q=2-31, 30 fps, 15360 tbn
+    Metadata:
+      encoder         : Lavc62.11.100 libx264
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+  Stream #0:1: Audio: aac (LC) (mp4a / 0x6134706D), 22050 Hz, mono, fltp, 132 kb/s
+    Metadata:
+      encoder         : Lavc62.11.100 aac
+frame=    0 fps=0.0 q=0.0 size=       0KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:00.50    frame=    0 fps=0.0 q=0.0 size=       0KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:01.00    frame=   61 fps= 41 q=24.0 size=     256KiB time=00:00:01.96 bitrate=1066.5kbits/s speed=1.31x elapsed=0:00:01.50    frame=  231 fps=115 q=24.0 size=     768KiB time=00:00:07.63 bitrate= 824.3kbits/s speed=3.82x elapsed=0:00:02.00    frame=  440 fps=176 q=24.0 size=    1792KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:02.50    [mp4 @ 0x61bf8ba3c900] Starting second pass: moving the moov atom to the beginning of the file
+[out#0/mp4 @ 0x61bf8ba3c800] video:1845KiB audio:165KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.707901%
+frame=  480 fps=186 q=-1.0 Lsize=    2025KiB time=00:00:15.93 bitrate=1040.9kbits/s speed=6.19x elapsed=0:00:02.57    
+[libx264 @ 0x61bf8ba41480] frame I:2     Avg QP:11.98  size: 55176
+[libx264 @ 0x61bf8ba41480] frame P:121   Avg QP:15.82  size: 10370
+[libx264 @ 0x61bf8ba41480] frame B:357   Avg QP:17.19  size:  1467
+[libx264 @ 0x61bf8ba41480] consecutive B-frames:  0.8%  0.0%  0.0% 99.2%
+[libx264 @ 0x61bf8ba41480] mb I  I16..4: 46.9% 40.9% 12.2%
+[libx264 @ 0x61bf8ba41480] mb P  I16..4:  0.3%  0.3%  0.1%  P16..4: 12.1%  5.0%  2.9%  0.0%  0.0%    skip:79.4%
+[libx264 @ 0x61bf8ba41480] mb B  I16..4:  0.0%  0.0%  0.0%  B16..8: 11.9%  0.4%  0.1%  direct: 0.1%  skip:87.5%  L0:38.1% L1:58.2% BI: 3.7%
+[libx264 @ 0x61bf8ba41480] 8x8 transform intra:41.2% inter:31.1%
+[libx264 @ 0x61bf8ba41480] direct mvs  spatial:95.0% temporal:5.0%
+[libx264 @ 0x61bf8ba41480] coded y,uvDC,uvAC intra: 21.0% 24.2% 11.7% inter: 1.2% 1.5% 0.4%
+[libx264 @ 0x61bf8ba41480] i16 v,h,dc,p: 66% 11%  4% 19%
+[libx264 @ 0x61bf8ba41480] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 26%  6% 39%  4%  6%  5%  5%  4%  6%
+[libx264 @ 0x61bf8ba41480] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 14% 18% 17%  8% 11%  7%  9%  6%  9%
+[libx264 @ 0x61bf8ba41480] i8c dc,h,v,p: 69% 15%  8%  8%
+[libx264 @ 0x61bf8ba41480] Weighted P-Frames: Y:0.0% UV:0.0%
+[libx264 @ 0x61bf8ba41480] ref P L0: 57.4%  6.2% 22.2%  8.2%  6.0%
+[libx264 @ 0x61bf8ba41480] ref B L0: 73.8% 20.1%  4.6%  1.5%
+[libx264 @ 0x61bf8ba41480] ref B L1: 91.0%  9.0%
+[libx264 @ 0x61bf8ba41480] kb/s:944.33
+[aac @ 0x61bf8baaedc0] Qavg: 63360.520

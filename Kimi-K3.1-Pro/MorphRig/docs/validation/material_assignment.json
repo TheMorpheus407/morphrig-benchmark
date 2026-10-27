@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "slots": [
+    {
+      "slot": "M_Skin",
+      "asset": "/Game/Operative/Materials/M_Skin.M_Skin",
+      "expressions": 4
+    },
+    {
+      "slot": "M_Suit",
+      "asset": "/Game/Operative/Materials/M_Suit.M_Suit",
+      "expressions": 4
+    },
+    {
+      "slot": "M_Armor",
+      "asset": "/Game/Operative/Materials/M_Armor.M_Armor",
+      "expressions": 4
+    },
+    {
+      "slot": "M_Metal",
+      "asset": "/Game/Operative/Materials/M_Metal.M_Metal",
+      "expressions": 4
+    },
+    {
+      "slot": "M_Accent",
+      "asset": "/Game/Operative/Materials/M_Accent.M_Accent",
+      "expressions": 6
+    },
+    {
+      "slot": "M_Emissive",
+      "asset": "/Game/Operative/Materials/M_Emissive.M_Emissive",
+      "expressions": 6
+    },
+    {
+      "slot": "M_Eye",
+      "asset": "/Game/Operative/Materials/M_Eye.M_Eye",
+      "expressions": 4
+    },
+    {
+      "slot": "M_Hair",
+      "asset": "/Game/Operative/Materials/M_Hair.M_Hair",
+      "expressions": 4
+    }
+  ]
+}

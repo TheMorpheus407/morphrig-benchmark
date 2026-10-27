@@ -1,0 +1,12 @@
+Parts of this run that are not stored in git (packaged builds and files
+over 95 MB) are attached to the release
+https://github.com/TheMorpheus407/morphrig-benchmark/releases/tag/kimi-k3.1-pro
+
+name      build.tar.zst
+contents  MorphRig/build/ (packaged Linux build)
+size      367480759 bytes
+sha256    2c6205339c8de6f53bab34fde0095f7f6a2d724d5b2a10bd98c9675e7a20aaf8
+download  https://github.com/TheMorpheus407/morphrig-benchmark/releases/download/kimi-k3.1-pro/build.tar.zst
+
+Unpack an archive inside this folder:  zstd -d < NAME | tar -x
+Unreal runtime folders (Saved/) are not included.

@@ -1,0 +1,11 @@
+{
+  "mesh": "export/Operative.fbx",
+  "lods": [
+    "export/Operative_LOD0.fbx",
+    "export/Operative_LOD1.fbx",
+    "export/Operative_LOD2.fbx"
+  ],
+  "animations": 96,
+  "fps": 30,
+  "status": "exported; Unreal import audit is separate"
+}

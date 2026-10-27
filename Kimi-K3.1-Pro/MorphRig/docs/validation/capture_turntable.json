@@ -1,0 +1,28 @@
+{
+  "kind": "turntable",
+  "fps": 30,
+  "frames": 180,
+  "engine": "5.8.3-58210709+++UE5+Release-5.8",
+  "mesh_loaded": true,
+  "directory": "build/Linux/MorphRig/Saved/MorphRig/MorphCapture/turntable",
+  "capture_step_seconds": 0.03333333333333333,
+  "video": "presentation/turntable.mp4",
+  "verified_frame_count": 180,
+  "video_probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "duration": "6.000000",
+        "nb_frames": "180"
+      }
+    ],
+    "format": {
+      "duration": "6.000000"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+00:00.464  blend            | Read blend: "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/source/Operative.blend"
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/Beacon.fbx'
+export finished in 0.0077 sec.
+{
+  "source": "source/Operative.blend / Operative_Props[beacon]",
+  "file": "export/Beacon.fbx",
+  "vertices": 404,
+  "triangles": 788,
+  "uv_layers": 1,
+  "materials": [
+    "M_Skin",
+    "M_Suit",
+    "M_Armor",
+    "M_Metal",
+    "M_Accent",
+    "M_Emissive",
+    "M_Eye",
+    "M_Hair"
+  ],
+  "bounds_cm": [
+    [
+      -4.0000006556510925,
+      5.46608567237854
+    ],
+    [
+      -4.843330755829811,
+      4.843330383300781
+    ],
+    [
+      -3.123319149017334,
+      2.799999713897705
+    ]
+  ],
+  "socket_source_m": [
+    0.17000000178813934,
+    0.07500000298023224,
+    1.0230000019073486
+  ],
+  "object_scale": 100,
+  "fbx_sha256": "3d46e1708cadb38a2fc9ea1109618de23edf49487ea6b8e941c85991ced5083b"
+}
+Blender 5.1.1
+scripts disabled for "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/source/Operative.blend", skipping 'START_HERE_Rig_Controls.py'
+
+Blender quit

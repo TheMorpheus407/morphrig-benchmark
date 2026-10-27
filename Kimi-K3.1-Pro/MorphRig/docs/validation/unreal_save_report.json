@@ -1,0 +1,814 @@
+{
+  "assets": [
+    {
+      "asset": "/Game/Operative/Diagnostics/BasisSource/SK_Operative_BasisSource",
+      "saved": true,
+      "persisted": true,
+      "class": "SkeletalMesh"
+    },
+    {
+      "asset": "/Game/Operative/Diagnostics/BasisSource/Operative_LOD0_Skeleton",
+      "saved": true,
+      "persisted": true,
+      "class": "Skeleton"
+    },
+    {
+      "asset": "/Game/Operative/SK_Operative",
+      "saved": true,
+      "persisted": true,
+      "class": "SkeletalMesh"
+    },
+    {
+      "asset": "/Game/Operative/SK_Operative_Skeleton",
+      "saved": true,
+      "persisted": true,
+      "class": "Skeleton"
+    },
+    {
+      "asset": "/Game/Operative/Textures/skin_BaseColor",
+      "saved": true,
+      "persisted": true,
+      "class": "Texture2D"
+    },
+    {
+      "asset": "/Game/Operative/Textures/skin_Roughness",
+      "saved": true,
+      "persisted": true,
+      "class": "Texture2D"
+    },
+    {
+      "asset": "/Game/Operative/Textures/skin_Normal",
+      "saved": true,
+      "persisted": true,
+      "class": "Texture2D"
+    },
+    {
+      "asset": "/Game/Operative/Materials/M_Skin",
+      "saved": true,
+      "persisted": true,
+      "class": "Material"
+    },
+    {
+      "asset": "/Game/Operative/Textures/suit_BaseColor",
+      "saved": true,
+      "persisted": true,
+      "class": "Texture2D"
+    },
+    {
+      "asset": "/Game/Operative/Textures/suit_Roughness",
+      "saved": true,
+      "persisted": true,
+      "class": "Texture2D"
+    },
+    {
+      "asset": "/Game/Operative/Textures/suit_Normal",
+      "saved": true,
+      "persisted": true,
+      "class": "Texture2D"
+    },
+    {
+      "asset": "/Game/Operative/Materials/M_Suit",
+      "saved": true,
+      "persisted": true,
+      "class": "Material"
+    },
+    {
+      "asset": "/Game/Operative/Textures/armor_BaseColor",
+      "saved": true,
+      "persisted": true,
+      "class": "Texture2D"
+    },
+    {
+      "asset": "/Game/Operative/Textures/armor_Roughness",
+      "saved": true,
+      "persisted": true,
+      "class": "Texture2D"
+    },
+    {
+      "asset": "/Game/Operative/Textures/armor_Normal",
+      "saved": true,
+      "persisted": true,
+      "class": "Texture2D"
+    },
+    {
+      "asset": "/Game/Operative/Materials/M_Armor",
+      "saved": true,
+      "persisted": true,
+      "class": "Material"
+    },
+    {
+      "asset": "/Game/Operative/Textures/metal_BaseColor",
+      "saved": true,
+      "persisted": true,
+      "class": "Texture2D"
+    },
+    {
+      "asset": "/Game/Operative/Textures/metal_Roughness",
+      "saved": true,
+      "persisted": true,
+      "class": "Texture2D"
+    },
+    {
+      "asset": "/Game/Operative/Textures/metal_Normal",
+      "saved": true,
+      "persisted": true,
+      "class": "Texture2D"
+    },
+    {
+      "asset": "/Game/Operative/Materials/M_Metal",
+      "saved": true,
+      "persisted": true,
+      "class": "Material"
+    },
+    {
+      "asset": "/Game/Operative/Textures/accent_BaseColor",
+      "saved": true,
+      "persisted": true,
+      "class": "Texture2D"
+    },
+    {
+      "asset": "/Game/Operative/Textures/accent_Roughness",
+      "saved": true,
+      "persisted": true,
+      "class": "Texture2D"
+    },
+    {
+      "asset": "/Game/Operative/Textures/accent_Normal",
+      "saved": true,
+      "persisted": true,
+      "class": "Texture2D"
+    },
+    {
+      "asset": "/Game/Operative/Materials/M_Accent",
+      "saved": true,
+      "persisted": true,
+      "class": "Material"
+    },
+    {
+      "asset": "/Game/Operative/Textures/emissive_BaseColor",
+      "saved": true,
+      "persisted": true,
+      "class": "Texture2D"
+    },
+    {
+      "asset": "/Game/Operative/Textures/emissive_Roughness",
+      "saved": true,
+      "persisted": true,
+      "class": "Texture2D"
+    },
+    {
+      "asset": "/Game/Operative/Textures/emissive_Normal",
+      "saved": true,
+      "persisted": true,
+      "class": "Texture2D"
+    },
+    {
+      "asset": "/Game/Operative/Materials/M_Emissive",
+      "saved": true,
+      "persisted": true,
+      "class": "Material"
+    },
+    {
+      "asset": "/Game/Operative/Textures/eye_BaseColor",
+      "saved": true,
+      "persisted": true,
+      "class": "Texture2D"
+    },
+    {
+      "asset": "/Game/Operative/Textures/eye_Roughness",
+      "saved": true,
+      "persisted": true,
+      "class": "Texture2D"
+    },
+    {
+      "asset": "/Game/Operative/Textures/eye_Normal",
+      "saved": true,
+      "persisted": true,
+      "class": "Texture2D"
+    },
+    {
+      "asset": "/Game/Operative/Materials/M_Eye",
+      "saved": true,
+      "persisted": true,
+      "class": "Material"
+    },
+    {
+      "asset": "/Game/Operative/Textures/hair_BaseColor",
+      "saved": true,
+      "persisted": true,
+      "class": "Texture2D"
+    },
+    {
+      "asset": "/Game/Operative/Textures/hair_Roughness",
+      "saved": true,
+      "persisted": true,
+      "class": "Texture2D"
+    },
+    {
+      "asset": "/Game/Operative/Textures/hair_Normal",
+      "saved": true,
+      "persisted": true,
+      "class": "Texture2D"
+    },
+    {
+      "asset": "/Game/Operative/Materials/M_Hair",
+      "saved": true,
+      "persisted": true,
+      "class": "Material"
+    },
+    {
+      "asset": "/Game/Operative/Materials/MI_Team_Cyan",
+      "saved": true,
+      "persisted": true,
+      "class": "MaterialInstanceConstant"
+    },
+    {
+      "asset": "/Game/Operative/Materials/MI_Team_Amber",
+      "saved": true,
+      "persisted": true,
+      "class": "MaterialInstanceConstant"
+    },
+    {
+      "asset": "/Game/Operative/Audio/Dialogue",
+      "saved": true,
+      "persisted": true,
+      "class": "SoundWave"
+    },
+    {
+      "asset": "/Game/Operative/Animations/idle_relaxed",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/idle_combat",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/idle_wounded",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/walk_f",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/walk_fl",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/walk_l",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/walk_bl",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/walk_b",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/walk_br",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/walk_r",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/walk_fr",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/run_f",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/run_fl",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/run_l",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/run_bl",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/run_b",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/run_br",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/run_r",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/run_fr",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/sprint_f",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/start_f",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/stop_f",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/turn_l90",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/turn_r90",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/pivot_l180",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/pivot_r180",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/jump_start",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/jump_air",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/jump_land",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/fall",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/land_heavy",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/dash_f",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/dash_b",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/dash_l",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/dash_r",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/blink_out",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/blink_in",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/melee_1",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/melee_2",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/melee_3",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/ranged_fire",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/ranged_burst",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/reload",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/cast_directional",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/cast_ground",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/cast_self",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/channel_start",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/channel_loop",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/channel_end",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/channel_interrupt",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/charge_start",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/charge_hold",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/charge_release",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/charge_cancel",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/deploy",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/uplink_start",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/uplink_loop",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/uplink_end",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/uplink_cancel",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/hit_f",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/hit_b",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/hit_l",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/hit_r",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/stun_start",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/stun_loop",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/stun_end",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/knockback",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/knockup_start",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/knockup_air",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/knockdown_front",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/knockdown_back",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/prone_front",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/prone_back",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/getup_front",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/getup_back",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/sleep_start",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/sleep_loop",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/sleep_end",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/death_front",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/death_back",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/dead_front",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/dead_back",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/respawn",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/greet",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/victory",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/defeat",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/dialogue",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/aim_down_left",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/aim_down_center",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/aim_down_right",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/aim_level_left",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/aim_level_center",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/aim_level_right",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/aim_up_left",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/aim_up_center",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    },
+    {
+      "asset": "/Game/Operative/Animations/aim_up_right",
+      "saved": true,
+      "persisted": true,
+      "class": "AnimSequence"
+    }
+  ]
+}

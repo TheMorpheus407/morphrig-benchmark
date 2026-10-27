@@ -1,0 +1,15 @@
+{
+  "size": 2048,
+  "base_color_linear": [
+    0.105,
+    0.145,
+    0.17
+  ],
+  "roughness": 0.32,
+  "metalness": 0.68,
+  "maps": {
+    "BaseColor": "textures/armor_BaseColor.png",
+    "Roughness": "textures/armor_Roughness.png",
+    "Normal": "textures/armor_Normal.png"
+  }
+}

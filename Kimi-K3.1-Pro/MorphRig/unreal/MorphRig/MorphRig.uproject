@@ -1,0 +1,24 @@
+{
+  "FileVersion": 3,
+  "EngineAssociation": "5.8",
+  "Category": "CharacterShowcase",
+  "Description": "Native MorphRig Operative animation and character showcase",
+  "Modules": [
+    {
+      "Name": "MorphRig",
+      "Type": "Runtime",
+      "LoadingPhase": "Default",
+      "AdditionalDependencies": [ "Engine", "UMG", "AnimGraphRuntime", "AnimationCore" ]
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "PythonScriptPlugin",
+      "Enabled": true
+    },
+    {
+      "Name": "ProceduralMeshComponent",
+      "Enabled": true
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "body": [
+    "idle_relaxed",
+    "walk_l",
+    "run_fr",
+    "jump_air",
+    "melee_3",
+    "reload",
+    "deploy",
+    "aim_up_left",
+    "victory",
+    "getup_back",
+    "knockdown_front",
+    "prone_back"
+  ],
+  "face": [
+    "joy",
+    "anger",
+    "concern",
+    "surprise",
+    "pain",
+    "focus",
+    "left_blink",
+    "open_vowel",
+    "rounded_vowel"
+  ]
+}

@@ -1,0 +1,5318 @@
+[
+  {
+    "id": "idle_relaxed",
+    "form": "loop",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 3.0,
+    "duration_range_seconds": "2–5",
+    "required_behavior": "Relaxed breathing and attentive weight shifts.",
+    "frame_range": [
+      0,
+      90
+    ],
+    "frame_count": 91,
+    "sample_rate": 30,
+    "loop": true,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "locomotion_full_body",
+    "entry_state": "Idle",
+    "exit_state": "Idle",
+    "source_action": "idle_relaxed",
+    "editable_control_action": "SOURCE_idle_relaxed",
+    "exported_file": "animations/idle_relaxed.fbx",
+    "exported_take": "idle_relaxed",
+    "unreal_asset": "/Game/Operative/Animations/idle_relaxed",
+    "events": [
+      {
+        "name": "LoopStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "idle_combat",
+    "form": "loop",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 3.0,
+    "duration_range_seconds": "2–5",
+    "required_behavior": "Ready stance with free hands and readable silhouette.",
+    "frame_range": [
+      0,
+      90
+    ],
+    "frame_count": 91,
+    "sample_rate": 30,
+    "loop": true,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "locomotion_full_body",
+    "entry_state": "Idle",
+    "exit_state": "Idle",
+    "source_action": "idle_combat",
+    "editable_control_action": "SOURCE_idle_combat",
+    "exported_file": "animations/idle_combat.fbx",
+    "exported_take": "idle_combat",
+    "unreal_asset": "/Game/Operative/Animations/idle_combat",
+    "events": [
+      {
+        "name": "LoopStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "idle_wounded",
+    "form": "loop",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 3.0,
+    "duration_range_seconds": "2–5",
+    "required_behavior": "Injured but alert; no new skeleton or detached limbs.",
+    "frame_range": [
+      0,
+      90
+    ],
+    "frame_count": 91,
+    "sample_rate": 30,
+    "loop": true,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "locomotion_full_body",
+    "entry_state": "Idle",
+    "exit_state": "Idle",
+    "source_action": "idle_wounded",
+    "editable_control_action": "SOURCE_idle_wounded",
+    "exported_file": "animations/idle_wounded.fbx",
+    "exported_take": "idle_wounded",
+    "unreal_asset": "/Game/Operative/Animations/idle_wounded",
+    "events": [
+      {
+        "name": "LoopStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "walk_f",
+    "form": "loop",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 1.2,
+    "duration_range_seconds": "0.6–1.8",
+    "required_behavior": "Walk forward; retain facing, synchronized contacts, genuine directional gait.",
+    "frame_range": [
+      0,
+      36
+    ],
+    "frame_count": 37,
+    "sample_rate": 30,
+    "loop": true,
+    "nominal_speed_cm_s": 150,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "locomotion_full_body",
+    "entry_state": "Travel",
+    "exit_state": "Travel",
+    "source_action": "walk_f",
+    "editable_control_action": "SOURCE_walk_f",
+    "exported_file": "animations/walk_f.fbx",
+    "exported_take": "walk_f",
+    "unreal_asset": "/Game/Operative/Animations/walk_f",
+    "events": [
+      {
+        "name": "LoopStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "FootPlant.L",
+        "frame": 0,
+        "time": 0.0,
+        "type": "contact",
+        "value": 0
+      },
+      {
+        "name": "FootPlant.R",
+        "frame": 18,
+        "time": 0.6,
+        "type": "contact",
+        "value": 0
+      },
+      {
+        "name": "FootRelease.L",
+        "frame": 22,
+        "time": 0.733333,
+        "type": "contact",
+        "value": 0
+      },
+      {
+        "name": "FootRelease.R",
+        "frame": 4,
+        "time": 0.133333,
+        "type": "contact",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "walk_fl",
+    "form": "loop",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 1.2,
+    "duration_range_seconds": "0.6–1.8",
+    "required_behavior": "Walk forward-left; retain facing, synchronized contacts, genuine directional gait.",
+    "frame_range": [
+      0,
+      36
+    ],
+    "frame_count": 37,
+    "sample_rate": 30,
+    "loop": true,
+    "nominal_speed_cm_s": 150,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "locomotion_full_body",
+    "entry_state": "Travel",
+    "exit_state": "Travel",
+    "source_action": "walk_fl",
+    "editable_control_action": "SOURCE_walk_fl",
+    "exported_file": "animations/walk_fl.fbx",
+    "exported_take": "walk_fl",
+    "unreal_asset": "/Game/Operative/Animations/walk_fl",
+    "events": [
+      {
+        "name": "LoopStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "FootPlant.L",
+        "frame": 0,
+        "time": 0.0,
+        "type": "contact",
+        "value": 0
+      },
+      {
+        "name": "FootPlant.R",
+        "frame": 18,
+        "time": 0.6,
+        "type": "contact",
+        "value": 0
+      },
+      {
+        "name": "FootRelease.L",
+        "frame": 22,
+        "time": 0.733333,
+        "type": "contact",
+        "value": 0
+      },
+      {
+        "name": "FootRelease.R",
+        "frame": 4,
+        "time": 0.133333,
+        "type": "contact",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "walk_l",
+    "form": "loop",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 1.2,
+    "duration_range_seconds": "0.6–1.8",
+    "required_behavior": "Walk left strafe; retain facing, synchronized contacts, genuine directional gait.",
+    "frame_range": [
+      0,
+      36
+    ],
+    "frame_count": 37,
+    "sample_rate": 30,
+    "loop": true,
+    "nominal_speed_cm_s": 150,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "locomotion_full_body",
+    "entry_state": "Travel",
+    "exit_state": "Travel",
+    "source_action": "walk_l",
+    "editable_control_action": "SOURCE_walk_l",
+    "exported_file": "animations/walk_l.fbx",
+    "exported_take": "walk_l",
+    "unreal_asset": "/Game/Operative/Animations/walk_l",
+    "events": [
+      {
+        "name": "LoopStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "FootPlant.L",
+        "frame": 0,
+        "time": 0.0,
+        "type": "contact",
+        "value": 0
+      },
+      {
+        "name": "FootPlant.R",
+        "frame": 18,
+        "time": 0.6,
+        "type": "contact",
+        "value": 0
+      },
+      {
+        "name": "FootRelease.L",
+        "frame": 22,
+        "time": 0.733333,
+        "type": "contact",
+        "value": 0
+      },
+      {
+        "name": "FootRelease.R",
+        "frame": 4,
+        "time": 0.133333,
+        "type": "contact",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "walk_bl",
+    "form": "loop",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 1.2,
+    "duration_range_seconds": "0.6–1.8",
+    "required_behavior": "Walk back-left; retain facing, synchronized contacts, genuine directional gait.",
+    "frame_range": [
+      0,
+      36
+    ],
+    "frame_count": 37,
+    "sample_rate": 30,
+    "loop": true,
+    "nominal_speed_cm_s": 150,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "locomotion_full_body",
+    "entry_state": "Travel",
+    "exit_state": "Travel",
+    "source_action": "walk_bl",
+    "editable_control_action": "SOURCE_walk_bl",
+    "exported_file": "animations/walk_bl.fbx",
+    "exported_take": "walk_bl",
+    "unreal_asset": "/Game/Operative/Animations/walk_bl",
+    "events": [
+      {
+        "name": "LoopStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "FootPlant.L",
+        "frame": 0,
+        "time": 0.0,
+        "type": "contact",
+        "value": 0
+      },
+      {
+        "name": "FootPlant.R",
+        "frame": 18,
+        "time": 0.6,
+        "type": "contact",
+        "value": 0
+      },
+      {
+        "name": "FootRelease.L",
+        "frame": 22,
+        "time": 0.733333,
+        "type": "contact",
+        "value": 0
+      },
+      {
+        "name": "FootRelease.R",
+        "frame": 4,
+        "time": 0.133333,
+        "type": "contact",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "walk_b",
+    "form": "loop",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 1.2,
+    "duration_range_seconds": "0.6–1.8",
+    "required_behavior": "Walk backward; retain facing, synchronized contacts, genuine directional gait.",
+    "frame_range": [
+      0,
+      36
+    ],
+    "frame_count": 37,
+    "sample_rate": 30,
+    "loop": true,
+    "nominal_speed_cm_s": 150,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "locomotion_full_body",
+    "entry_state": "Travel",
+    "exit_state": "Travel",
+    "source_action": "walk_b",
+    "editable_control_action": "SOURCE_walk_b",
+    "exported_file": "animations/walk_b.fbx",
+    "exported_take": "walk_b",
+    "unreal_asset": "/Game/Operative/Animations/walk_b",
+    "events": [
+      {
+        "name": "LoopStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "FootPlant.L",
+        "frame": 0,
+        "time": 0.0,
+        "type": "contact",
+        "value": 0
+      },
+      {
+        "name": "FootPlant.R",
+        "frame": 18,
+        "time": 0.6,
+        "type": "contact",
+        "value": 0
+      },
+      {
+        "name": "FootRelease.L",
+        "frame": 22,
+        "time": 0.733333,
+        "type": "contact",
+        "value": 0
+      },
+      {
+        "name": "FootRelease.R",
+        "frame": 4,
+        "time": 0.133333,
+        "type": "contact",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "walk_br",
+    "form": "loop",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 1.2,
+    "duration_range_seconds": "0.6–1.8",
+    "required_behavior": "Walk back-right; retain facing, synchronized contacts, genuine directional gait.",
+    "frame_range": [
+      0,
+      36
+    ],
+    "frame_count": 37,
+    "sample_rate": 30,
+    "loop": true,
+    "nominal_speed_cm_s": 150,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "locomotion_full_body",
+    "entry_state": "Travel",
+    "exit_state": "Travel",
+    "source_action": "walk_br",
+    "editable_control_action": "SOURCE_walk_br",
+    "exported_file": "animations/walk_br.fbx",
+    "exported_take": "walk_br",
+    "unreal_asset": "/Game/Operative/Animations/walk_br",
+    "events": [
+      {
+        "name": "LoopStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "FootPlant.L",
+        "frame": 0,
+        "time": 0.0,
+        "type": "contact",
+        "value": 0
+      },
+      {
+        "name": "FootPlant.R",
+        "frame": 18,
+        "time": 0.6,
+        "type": "contact",
+        "value": 0
+      },
+      {
+        "name": "FootRelease.L",
+        "frame": 22,
+        "time": 0.733333,
+        "type": "contact",
+        "value": 0
+      },
+      {
+        "name": "FootRelease.R",
+        "frame": 4,
+        "time": 0.133333,
+        "type": "contact",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "walk_r",
+    "form": "loop",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 1.2,
+    "duration_range_seconds": "0.6–1.8",
+    "required_behavior": "Walk right strafe; retain facing, synchronized contacts, genuine directional gait.",
+    "frame_range": [
+      0,
+      36
+    ],
+    "frame_count": 37,
+    "sample_rate": 30,
+    "loop": true,
+    "nominal_speed_cm_s": 150,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "locomotion_full_body",
+    "entry_state": "Travel",
+    "exit_state": "Travel",
+    "source_action": "walk_r",
+    "editable_control_action": "SOURCE_walk_r",
+    "exported_file": "animations/walk_r.fbx",
+    "exported_take": "walk_r",
+    "unreal_asset": "/Game/Operative/Animations/walk_r",
+    "events": [
+      {
+        "name": "LoopStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "FootPlant.L",
+        "frame": 0,
+        "time": 0.0,
+        "type": "contact",
+        "value": 0
+      },
+      {
+        "name": "FootPlant.R",
+        "frame": 18,
+        "time": 0.6,
+        "type": "contact",
+        "value": 0
+      },
+      {
+        "name": "FootRelease.L",
+        "frame": 22,
+        "time": 0.733333,
+        "type": "contact",
+        "value": 0
+      },
+      {
+        "name": "FootRelease.R",
+        "frame": 4,
+        "time": 0.133333,
+        "type": "contact",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "walk_fr",
+    "form": "loop",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 1.2,
+    "duration_range_seconds": "0.6–1.8",
+    "required_behavior": "Walk forward-right; retain facing, synchronized contacts, genuine directional gait.",
+    "frame_range": [
+      0,
+      36
+    ],
+    "frame_count": 37,
+    "sample_rate": 30,
+    "loop": true,
+    "nominal_speed_cm_s": 150,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "locomotion_full_body",
+    "entry_state": "Travel",
+    "exit_state": "Travel",
+    "source_action": "walk_fr",
+    "editable_control_action": "SOURCE_walk_fr",
+    "exported_file": "animations/walk_fr.fbx",
+    "exported_take": "walk_fr",
+    "unreal_asset": "/Game/Operative/Animations/walk_fr",
+    "events": [
+      {
+        "name": "LoopStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "FootPlant.L",
+        "frame": 0,
+        "time": 0.0,
+        "type": "contact",
+        "value": 0
+      },
+      {
+        "name": "FootPlant.R",
+        "frame": 18,
+        "time": 0.6,
+        "type": "contact",
+        "value": 0
+      },
+      {
+        "name": "FootRelease.L",
+        "frame": 22,
+        "time": 0.733333,
+        "type": "contact",
+        "value": 0
+      },
+      {
+        "name": "FootRelease.R",
+        "frame": 4,
+        "time": 0.133333,
+        "type": "contact",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "run_f",
+    "form": "loop",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 0.8,
+    "duration_range_seconds": "0.6–1.8",
+    "required_behavior": "Run forward; retain facing, synchronized contacts, genuine directional gait.",
+    "frame_range": [
+      0,
+      24
+    ],
+    "frame_count": 25,
+    "sample_rate": 30,
+    "loop": true,
+    "nominal_speed_cm_s": 400,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "locomotion_full_body",
+    "entry_state": "Travel",
+    "exit_state": "Travel",
+    "source_action": "run_f",
+    "editable_control_action": "SOURCE_run_f",
+    "exported_file": "animations/run_f.fbx",
+    "exported_take": "run_f",
+    "unreal_asset": "/Game/Operative/Animations/run_f",
+    "events": [
+      {
+        "name": "LoopStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "FootPlant.L",
+        "frame": 0,
+        "time": 0.0,
+        "type": "contact",
+        "value": 0
+      },
+      {
+        "name": "FootPlant.R",
+        "frame": 12,
+        "time": 0.4,
+        "type": "contact",
+        "value": 0
+      },
+      {
+        "name": "FootRelease.L",
+        "frame": 14,
+        "time": 0.466667,
+        "type": "contact",
+        "value": 0
+      },
+      {
+        "name": "FootRelease.R",
+        "frame": 2,
+        "time": 0.066667,
+        "type": "contact",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "run_fl",
+    "form": "loop",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 0.8,
+    "duration_range_seconds": "0.6–1.8",
+    "required_behavior": "Run forward-left; retain facing, synchronized contacts, genuine directional gait.",
+    "frame_range": [
+      0,
+      24
+    ],
+    "frame_count": 25,
+    "sample_rate": 30,
+    "loop": true,
+    "nominal_speed_cm_s": 400,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "locomotion_full_body",
+    "entry_state": "Travel",
+    "exit_state": "Travel",
+    "source_action": "run_fl",
+    "editable_control_action": "SOURCE_run_fl",
+    "exported_file": "animations/run_fl.fbx",
+    "exported_take": "run_fl",
+    "unreal_asset": "/Game/Operative/Animations/run_fl",
+    "events": [
+      {
+        "name": "LoopStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "FootPlant.L",
+        "frame": 0,
+        "time": 0.0,
+        "type": "contact",
+        "value": 0
+      },
+      {
+        "name": "FootPlant.R",
+        "frame": 12,
+        "time": 0.4,
+        "type": "contact",
+        "value": 0
+      },
+      {
+        "name": "FootRelease.L",
+        "frame": 14,
+        "time": 0.466667,
+        "type": "contact",
+        "value": 0
+      },
+      {
+        "name": "FootRelease.R",
+        "frame": 2,
+        "time": 0.066667,
+        "type": "contact",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "run_l",
+    "form": "loop",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 0.8,
+    "duration_range_seconds": "0.6–1.8",
+    "required_behavior": "Run left strafe; retain facing, synchronized contacts, genuine directional gait.",
+    "frame_range": [
+      0,
+      24
+    ],
+    "frame_count": 25,
+    "sample_rate": 30,
+    "loop": true,
+    "nominal_speed_cm_s": 400,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "locomotion_full_body",
+    "entry_state": "Travel",
+    "exit_state": "Travel",
+    "source_action": "run_l",
+    "editable_control_action": "SOURCE_run_l",
+    "exported_file": "animations/run_l.fbx",
+    "exported_take": "run_l",
+    "unreal_asset": "/Game/Operative/Animations/run_l",
+    "events": [
+      {
+        "name": "LoopStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "FootPlant.L",
+        "frame": 0,
+        "time": 0.0,
+        "type": "contact",
+        "value": 0
+      },
+      {
+        "name": "FootPlant.R",
+        "frame": 12,
+        "time": 0.4,
+        "type": "contact",
+        "value": 0
+      },
+      {
+        "name": "FootRelease.L",
+        "frame": 14,
+        "time": 0.466667,
+        "type": "contact",
+        "value": 0
+      },
+      {
+        "name": "FootRelease.R",
+        "frame": 2,
+        "time": 0.066667,
+        "type": "contact",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "run_bl",
+    "form": "loop",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 0.8,
+    "duration_range_seconds": "0.6–1.8",
+    "required_behavior": "Run back-left; retain facing, synchronized contacts, genuine directional gait.",
+    "frame_range": [
+      0,
+      24
+    ],
+    "frame_count": 25,
+    "sample_rate": 30,
+    "loop": true,
+    "nominal_speed_cm_s": 400,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "locomotion_full_body",
+    "entry_state": "Travel",
+    "exit_state": "Travel",
+    "source_action": "run_bl",
+    "editable_control_action": "SOURCE_run_bl",
+    "exported_file": "animations/run_bl.fbx",
+    "exported_take": "run_bl",
+    "unreal_asset": "/Game/Operative/Animations/run_bl",
+    "events": [
+      {
+        "name": "LoopStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "FootPlant.L",
+        "frame": 0,
+        "time": 0.0,
+        "type": "contact",
+        "value": 0
+      },
+      {
+        "name": "FootPlant.R",
+        "frame": 12,
+        "time": 0.4,
+        "type": "contact",
+        "value": 0
+      },
+      {
+        "name": "FootRelease.L",
+        "frame": 14,
+        "time": 0.466667,
+        "type": "contact",
+        "value": 0
+      },
+      {
+        "name": "FootRelease.R",
+        "frame": 2,
+        "time": 0.066667,
+        "type": "contact",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "run_b",
+    "form": "loop",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 0.8,
+    "duration_range_seconds": "0.6–1.8",
+    "required_behavior": "Run backward; retain facing, synchronized contacts, genuine directional gait.",
+    "frame_range": [
+      0,
+      24
+    ],
+    "frame_count": 25,
+    "sample_rate": 30,
+    "loop": true,
+    "nominal_speed_cm_s": 400,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "locomotion_full_body",
+    "entry_state": "Travel",
+    "exit_state": "Travel",
+    "source_action": "run_b",
+    "editable_control_action": "SOURCE_run_b",
+    "exported_file": "animations/run_b.fbx",
+    "exported_take": "run_b",
+    "unreal_asset": "/Game/Operative/Animations/run_b",
+    "events": [
+      {
+        "name": "LoopStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "FootPlant.L",
+        "frame": 0,
+        "time": 0.0,
+        "type": "contact",
+        "value": 0
+      },
+      {
+        "name": "FootPlant.R",
+        "frame": 12,
+        "time": 0.4,
+        "type": "contact",
+        "value": 0
+      },
+      {
+        "name": "FootRelease.L",
+        "frame": 14,
+        "time": 0.466667,
+        "type": "contact",
+        "value": 0
+      },
+      {
+        "name": "FootRelease.R",
+        "frame": 2,
+        "time": 0.066667,
+        "type": "contact",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "run_br",
+    "form": "loop",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 0.8,
+    "duration_range_seconds": "0.6–1.8",
+    "required_behavior": "Run back-right; retain facing, synchronized contacts, genuine directional gait.",
+    "frame_range": [
+      0,
+      24
+    ],
+    "frame_count": 25,
+    "sample_rate": 30,
+    "loop": true,
+    "nominal_speed_cm_s": 400,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "locomotion_full_body",
+    "entry_state": "Travel",
+    "exit_state": "Travel",
+    "source_action": "run_br",
+    "editable_control_action": "SOURCE_run_br",
+    "exported_file": "animations/run_br.fbx",
+    "exported_take": "run_br",
+    "unreal_asset": "/Game/Operative/Animations/run_br",
+    "events": [
+      {
+        "name": "LoopStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "FootPlant.L",
+        "frame": 0,
+        "time": 0.0,
+        "type": "contact",
+        "value": 0
+      },
+      {
+        "name": "FootPlant.R",
+        "frame": 12,
+        "time": 0.4,
+        "type": "contact",
+        "value": 0
+      },
+      {
+        "name": "FootRelease.L",
+        "frame": 14,
+        "time": 0.466667,
+        "type": "contact",
+        "value": 0
+      },
+      {
+        "name": "FootRelease.R",
+        "frame": 2,
+        "time": 0.066667,
+        "type": "contact",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "run_r",
+    "form": "loop",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 0.8,
+    "duration_range_seconds": "0.6–1.8",
+    "required_behavior": "Run right strafe; retain facing, synchronized contacts, genuine directional gait.",
+    "frame_range": [
+      0,
+      24
+    ],
+    "frame_count": 25,
+    "sample_rate": 30,
+    "loop": true,
+    "nominal_speed_cm_s": 400,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "locomotion_full_body",
+    "entry_state": "Travel",
+    "exit_state": "Travel",
+    "source_action": "run_r",
+    "editable_control_action": "SOURCE_run_r",
+    "exported_file": "animations/run_r.fbx",
+    "exported_take": "run_r",
+    "unreal_asset": "/Game/Operative/Animations/run_r",
+    "events": [
+      {
+        "name": "LoopStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "FootPlant.L",
+        "frame": 0,
+        "time": 0.0,
+        "type": "contact",
+        "value": 0
+      },
+      {
+        "name": "FootPlant.R",
+        "frame": 12,
+        "time": 0.4,
+        "type": "contact",
+        "value": 0
+      },
+      {
+        "name": "FootRelease.L",
+        "frame": 14,
+        "time": 0.466667,
+        "type": "contact",
+        "value": 0
+      },
+      {
+        "name": "FootRelease.R",
+        "frame": 2,
+        "time": 0.066667,
+        "type": "contact",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "run_fr",
+    "form": "loop",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 0.8,
+    "duration_range_seconds": "0.6–1.8",
+    "required_behavior": "Run forward-right; retain facing, synchronized contacts, genuine directional gait.",
+    "frame_range": [
+      0,
+      24
+    ],
+    "frame_count": 25,
+    "sample_rate": 30,
+    "loop": true,
+    "nominal_speed_cm_s": 400,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "locomotion_full_body",
+    "entry_state": "Travel",
+    "exit_state": "Travel",
+    "source_action": "run_fr",
+    "editable_control_action": "SOURCE_run_fr",
+    "exported_file": "animations/run_fr.fbx",
+    "exported_take": "run_fr",
+    "unreal_asset": "/Game/Operative/Animations/run_fr",
+    "events": [
+      {
+        "name": "LoopStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "FootPlant.L",
+        "frame": 0,
+        "time": 0.0,
+        "type": "contact",
+        "value": 0
+      },
+      {
+        "name": "FootPlant.R",
+        "frame": 12,
+        "time": 0.4,
+        "type": "contact",
+        "value": 0
+      },
+      {
+        "name": "FootRelease.L",
+        "frame": 14,
+        "time": 0.466667,
+        "type": "contact",
+        "value": 0
+      },
+      {
+        "name": "FootRelease.R",
+        "frame": 2,
+        "time": 0.066667,
+        "type": "contact",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "sprint_f",
+    "form": "loop",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 0.6,
+    "duration_range_seconds": "0.4–1.2",
+    "required_behavior": "Distinct full-effort forward sprint; not only a faster walk.",
+    "frame_range": [
+      0,
+      18
+    ],
+    "frame_count": 19,
+    "sample_rate": 30,
+    "loop": true,
+    "nominal_speed_cm_s": 650,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "locomotion_full_body",
+    "entry_state": "Travel",
+    "exit_state": "Travel",
+    "source_action": "sprint_f",
+    "editable_control_action": "SOURCE_sprint_f",
+    "exported_file": "animations/sprint_f.fbx",
+    "exported_take": "sprint_f",
+    "unreal_asset": "/Game/Operative/Animations/sprint_f",
+    "events": [
+      {
+        "name": "LoopStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "FootPlant.L",
+        "frame": 0,
+        "time": 0.0,
+        "type": "contact",
+        "value": 0
+      },
+      {
+        "name": "FootPlant.R",
+        "frame": 9,
+        "time": 0.3,
+        "type": "contact",
+        "value": 0
+      },
+      {
+        "name": "FootRelease.L",
+        "frame": 11,
+        "time": 0.366667,
+        "type": "contact",
+        "value": 0
+      },
+      {
+        "name": "FootRelease.R",
+        "frame": 2,
+        "time": 0.066667,
+        "type": "contact",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "start_f",
+    "form": "one_shot",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 0.6,
+    "duration_range_seconds": "0.2–1.0",
+    "required_behavior": "Accelerate from stand to forward travel.",
+    "frame_range": [
+      0,
+      18
+    ],
+    "frame_count": 19,
+    "sample_rate": 30,
+    "loop": false,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "locomotion_full_body",
+    "entry_state": "Action",
+    "exit_state": "Travel",
+    "source_action": "start_f",
+    "editable_control_action": "SOURCE_start_f",
+    "exported_file": "animations/start_f.fbx",
+    "exported_take": "start_f",
+    "unreal_asset": "/Game/Operative/Animations/start_f",
+    "events": [
+      {
+        "name": "ActionStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "ActionEnd",
+        "frame": 18,
+        "time": 0.6,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "stop_f",
+    "form": "one_shot",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 0.6,
+    "duration_range_seconds": "0.2–1.0",
+    "required_behavior": "Brake into a planted stance.",
+    "frame_range": [
+      0,
+      18
+    ],
+    "frame_count": 19,
+    "sample_rate": 30,
+    "loop": false,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "locomotion_full_body",
+    "entry_state": "Action",
+    "exit_state": "Idle",
+    "source_action": "stop_f",
+    "editable_control_action": "SOURCE_stop_f",
+    "exported_file": "animations/stop_f.fbx",
+    "exported_take": "stop_f",
+    "unreal_asset": "/Game/Operative/Animations/stop_f",
+    "events": [
+      {
+        "name": "ActionStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "ActionEnd",
+        "frame": 18,
+        "time": 0.6,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "turn_l90",
+    "form": "one_shot",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 0.8,
+    "duration_range_seconds": "0.2–1.0",
+    "required_behavior": "Turn left 90 degrees with foot placement.",
+    "frame_range": [
+      0,
+      24
+    ],
+    "frame_count": 25,
+    "sample_rate": 30,
+    "loop": false,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "full_body_action",
+    "entry_state": "Action",
+    "exit_state": "Travel",
+    "source_action": "turn_l90",
+    "editable_control_action": "SOURCE_turn_l90",
+    "exported_file": "animations/turn_l90.fbx",
+    "exported_take": "turn_l90",
+    "unreal_asset": "/Game/Operative/Animations/turn_l90",
+    "events": [
+      {
+        "name": "ActionStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "FootPivot",
+        "frame": 10,
+        "time": 0.333333,
+        "type": "contact",
+        "value": 0
+      },
+      {
+        "name": "FacingCommit",
+        "frame": 22,
+        "time": 0.733333,
+        "type": "movement",
+        "value": 90
+      },
+      {
+        "name": "ActionEnd",
+        "frame": 24,
+        "time": 0.8,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "turn_r90",
+    "form": "one_shot",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 0.8,
+    "duration_range_seconds": "0.2–1.0",
+    "required_behavior": "Turn right 90 degrees with foot placement.",
+    "frame_range": [
+      0,
+      24
+    ],
+    "frame_count": 25,
+    "sample_rate": 30,
+    "loop": false,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "full_body_action",
+    "entry_state": "Action",
+    "exit_state": "Travel",
+    "source_action": "turn_r90",
+    "editable_control_action": "SOURCE_turn_r90",
+    "exported_file": "animations/turn_r90.fbx",
+    "exported_take": "turn_r90",
+    "unreal_asset": "/Game/Operative/Animations/turn_r90",
+    "events": [
+      {
+        "name": "ActionStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "FootPivot",
+        "frame": 10,
+        "time": 0.333333,
+        "type": "contact",
+        "value": 0
+      },
+      {
+        "name": "FacingCommit",
+        "frame": 22,
+        "time": 0.733333,
+        "type": "movement",
+        "value": -90
+      },
+      {
+        "name": "ActionEnd",
+        "frame": 24,
+        "time": 0.8,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "pivot_l180",
+    "form": "one_shot",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 0.8,
+    "duration_range_seconds": "0.2–1.0",
+    "required_behavior": "Left 180-degree moving direction change.",
+    "frame_range": [
+      0,
+      24
+    ],
+    "frame_count": 25,
+    "sample_rate": 30,
+    "loop": false,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "full_body_action",
+    "entry_state": "Action",
+    "exit_state": "Travel",
+    "source_action": "pivot_l180",
+    "editable_control_action": "SOURCE_pivot_l180",
+    "exported_file": "animations/pivot_l180.fbx",
+    "exported_take": "pivot_l180",
+    "unreal_asset": "/Game/Operative/Animations/pivot_l180",
+    "events": [
+      {
+        "name": "ActionStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "FootPivot",
+        "frame": 10,
+        "time": 0.333333,
+        "type": "contact",
+        "value": 0
+      },
+      {
+        "name": "FacingCommit",
+        "frame": 22,
+        "time": 0.733333,
+        "type": "movement",
+        "value": 180
+      },
+      {
+        "name": "ActionEnd",
+        "frame": 24,
+        "time": 0.8,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "pivot_r180",
+    "form": "one_shot",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 0.8,
+    "duration_range_seconds": "0.2–1.0",
+    "required_behavior": "Right 180-degree moving direction change.",
+    "frame_range": [
+      0,
+      24
+    ],
+    "frame_count": 25,
+    "sample_rate": 30,
+    "loop": false,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "full_body_action",
+    "entry_state": "Action",
+    "exit_state": "Travel",
+    "source_action": "pivot_r180",
+    "editable_control_action": "SOURCE_pivot_r180",
+    "exported_file": "animations/pivot_r180.fbx",
+    "exported_take": "pivot_r180",
+    "unreal_asset": "/Game/Operative/Animations/pivot_r180",
+    "events": [
+      {
+        "name": "ActionStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "FootPivot",
+        "frame": 10,
+        "time": 0.333333,
+        "type": "contact",
+        "value": 0
+      },
+      {
+        "name": "FacingCommit",
+        "frame": 22,
+        "time": 0.733333,
+        "type": "movement",
+        "value": -180
+      },
+      {
+        "name": "ActionEnd",
+        "frame": 24,
+        "time": 0.8,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "jump_start",
+    "form": "one_shot",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 0.6,
+    "duration_range_seconds": "0.2–1.2",
+    "required_behavior": "Visible anticipation and takeoff.",
+    "frame_range": [
+      0,
+      18
+    ],
+    "frame_count": 19,
+    "sample_rate": 30,
+    "loop": false,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "full_body_action",
+    "entry_state": "Action",
+    "exit_state": "Idle",
+    "source_action": "jump_start",
+    "editable_control_action": "SOURCE_jump_start",
+    "exported_file": "animations/jump_start.fbx",
+    "exported_take": "jump_start",
+    "unreal_asset": "/Game/Operative/Animations/jump_start",
+    "events": [
+      {
+        "name": "ActionStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "Takeoff",
+        "frame": 13,
+        "time": 0.433333,
+        "type": "movement",
+        "value": 0
+      },
+      {
+        "name": "ActionEnd",
+        "frame": 18,
+        "time": 0.6,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "jump_air",
+    "form": "loop",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 0.8,
+    "duration_range_seconds": "0.2–1.2",
+    "required_behavior": "Controllable airborne posture.",
+    "frame_range": [
+      0,
+      24
+    ],
+    "frame_count": 25,
+    "sample_rate": 30,
+    "loop": true,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "full_body_action",
+    "entry_state": "Idle",
+    "exit_state": "Idle",
+    "source_action": "jump_air",
+    "editable_control_action": "SOURCE_jump_air",
+    "exported_file": "animations/jump_air.fbx",
+    "exported_take": "jump_air",
+    "unreal_asset": "/Game/Operative/Animations/jump_air",
+    "events": [
+      {
+        "name": "LoopStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "jump_land",
+    "form": "one_shot",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 0.8,
+    "duration_range_seconds": "0.2–1.2",
+    "required_behavior": "Soft landing with compression and recovery.",
+    "frame_range": [
+      0,
+      24
+    ],
+    "frame_count": 25,
+    "sample_rate": 30,
+    "loop": false,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "full_body_action",
+    "entry_state": "Action",
+    "exit_state": "Idle",
+    "source_action": "jump_land",
+    "editable_control_action": "SOURCE_jump_land",
+    "exported_file": "animations/jump_land.fbx",
+    "exported_take": "jump_land",
+    "unreal_asset": "/Game/Operative/Animations/jump_land",
+    "events": [
+      {
+        "name": "ActionStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "LandingContact",
+        "frame": 5,
+        "time": 0.166667,
+        "type": "contact",
+        "value": 0
+      },
+      {
+        "name": "Recovery",
+        "frame": 16,
+        "time": 0.533333,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "ActionEnd",
+        "frame": 24,
+        "time": 0.8,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "fall",
+    "form": "loop",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 1.0,
+    "duration_range_seconds": "0.2–1.2",
+    "required_behavior": "Long-fall posture, distinct from the jump apex.",
+    "frame_range": [
+      0,
+      30
+    ],
+    "frame_count": 31,
+    "sample_rate": 30,
+    "loop": true,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "full_body_action",
+    "entry_state": "Idle",
+    "exit_state": "Idle",
+    "source_action": "fall",
+    "editable_control_action": "SOURCE_fall",
+    "exported_file": "animations/fall.fbx",
+    "exported_take": "fall",
+    "unreal_asset": "/Game/Operative/Animations/fall",
+    "events": [
+      {
+        "name": "LoopStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "land_heavy",
+    "form": "one_shot",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 1.0,
+    "duration_range_seconds": "0.2–1.2",
+    "required_behavior": "Hard landing with clear weight and recovery.",
+    "frame_range": [
+      0,
+      30
+    ],
+    "frame_count": 31,
+    "sample_rate": 30,
+    "loop": false,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "full_body_action",
+    "entry_state": "Action",
+    "exit_state": "Idle",
+    "source_action": "land_heavy",
+    "editable_control_action": "SOURCE_land_heavy",
+    "exported_file": "animations/land_heavy.fbx",
+    "exported_take": "land_heavy",
+    "unreal_asset": "/Game/Operative/Animations/land_heavy",
+    "events": [
+      {
+        "name": "ActionStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "LandingContact",
+        "frame": 6,
+        "time": 0.2,
+        "type": "contact",
+        "value": 0
+      },
+      {
+        "name": "Recovery",
+        "frame": 20,
+        "time": 0.666667,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "ActionEnd",
+        "frame": 30,
+        "time": 1.0,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "dash_f",
+    "form": "one_shot",
+    "root_motion_policy": "root_motion",
+    "duration_seconds": 0.6,
+    "duration_range_seconds": "0.25–0.65",
+    "required_behavior": "Ground dash forward, 2 m nominal horizontal displacement; controller/capsule tracks motion.",
+    "frame_range": [
+      0,
+      18
+    ],
+    "frame_count": 19,
+    "sample_rate": 30,
+    "loop": false,
+    "nominal_speed_cm_s": 333.3333,
+    "nominal_root_displacement_m": [
+      0,
+      -2,
+      0
+    ],
+    "layer": "full_body_root_motion",
+    "entry_state": "Action",
+    "exit_state": "Idle",
+    "source_action": "dash_f",
+    "editable_control_action": "SOURCE_dash_f",
+    "exported_file": "animations/dash_f.fbx",
+    "exported_take": "dash_f",
+    "unreal_asset": "/Game/Operative/Animations/dash_f",
+    "events": [
+      {
+        "name": "ActionStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "CapsuleDrive",
+        "frame": 0,
+        "time": 0.0,
+        "type": "root_motion",
+        "value": 200
+      },
+      {
+        "name": "DashEnd",
+        "frame": 18,
+        "time": 0.6,
+        "type": "root_motion",
+        "value": 0
+      },
+      {
+        "name": "ActionEnd",
+        "frame": 18,
+        "time": 0.6,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "dash_b",
+    "form": "one_shot",
+    "root_motion_policy": "root_motion",
+    "duration_seconds": 0.6,
+    "duration_range_seconds": "0.25–0.65",
+    "required_behavior": "Ground dash backward, 2 m nominal horizontal displacement; controller/capsule tracks motion.",
+    "frame_range": [
+      0,
+      18
+    ],
+    "frame_count": 19,
+    "sample_rate": 30,
+    "loop": false,
+    "nominal_speed_cm_s": 333.3333,
+    "nominal_root_displacement_m": [
+      0,
+      2,
+      0
+    ],
+    "layer": "full_body_root_motion",
+    "entry_state": "Action",
+    "exit_state": "Idle",
+    "source_action": "dash_b",
+    "editable_control_action": "SOURCE_dash_b",
+    "exported_file": "animations/dash_b.fbx",
+    "exported_take": "dash_b",
+    "unreal_asset": "/Game/Operative/Animations/dash_b",
+    "events": [
+      {
+        "name": "ActionStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "CapsuleDrive",
+        "frame": 0,
+        "time": 0.0,
+        "type": "root_motion",
+        "value": 200
+      },
+      {
+        "name": "DashEnd",
+        "frame": 18,
+        "time": 0.6,
+        "type": "root_motion",
+        "value": 0
+      },
+      {
+        "name": "ActionEnd",
+        "frame": 18,
+        "time": 0.6,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "dash_l",
+    "form": "one_shot",
+    "root_motion_policy": "root_motion",
+    "duration_seconds": 0.6,
+    "duration_range_seconds": "0.25–0.65",
+    "required_behavior": "Ground dash left, 2 m nominal horizontal displacement; controller/capsule tracks motion.",
+    "frame_range": [
+      0,
+      18
+    ],
+    "frame_count": 19,
+    "sample_rate": 30,
+    "loop": false,
+    "nominal_speed_cm_s": 333.3333,
+    "nominal_root_displacement_m": [
+      2,
+      0,
+      0
+    ],
+    "layer": "full_body_root_motion",
+    "entry_state": "Action",
+    "exit_state": "Idle",
+    "source_action": "dash_l",
+    "editable_control_action": "SOURCE_dash_l",
+    "exported_file": "animations/dash_l.fbx",
+    "exported_take": "dash_l",
+    "unreal_asset": "/Game/Operative/Animations/dash_l",
+    "events": [
+      {
+        "name": "ActionStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "CapsuleDrive",
+        "frame": 0,
+        "time": 0.0,
+        "type": "root_motion",
+        "value": 200
+      },
+      {
+        "name": "DashEnd",
+        "frame": 18,
+        "time": 0.6,
+        "type": "root_motion",
+        "value": 0
+      },
+      {
+        "name": "ActionEnd",
+        "frame": 18,
+        "time": 0.6,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "dash_r",
+    "form": "one_shot",
+    "root_motion_policy": "root_motion",
+    "duration_seconds": 0.6,
+    "duration_range_seconds": "0.25–0.65",
+    "required_behavior": "Ground dash right, 2 m nominal horizontal displacement; controller/capsule tracks motion.",
+    "frame_range": [
+      0,
+      18
+    ],
+    "frame_count": 19,
+    "sample_rate": 30,
+    "loop": false,
+    "nominal_speed_cm_s": 333.3333,
+    "nominal_root_displacement_m": [
+      -2,
+      0,
+      0
+    ],
+    "layer": "full_body_root_motion",
+    "entry_state": "Action",
+    "exit_state": "Idle",
+    "source_action": "dash_r",
+    "editable_control_action": "SOURCE_dash_r",
+    "exported_file": "animations/dash_r.fbx",
+    "exported_take": "dash_r",
+    "unreal_asset": "/Game/Operative/Animations/dash_r",
+    "events": [
+      {
+        "name": "ActionStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "CapsuleDrive",
+        "frame": 0,
+        "time": 0.0,
+        "type": "root_motion",
+        "value": 200
+      },
+      {
+        "name": "DashEnd",
+        "frame": 18,
+        "time": 0.6,
+        "type": "root_motion",
+        "value": 0
+      },
+      {
+        "name": "ActionEnd",
+        "frame": 18,
+        "time": 0.6,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "blink_out",
+    "form": "one_shot",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 0.4,
+    "duration_range_seconds": "0.15–0.6",
+    "required_behavior": "Anticipation and disappearance transition; actor teleport is an event, not baked travel.",
+    "frame_range": [
+      0,
+      12
+    ],
+    "frame_count": 13,
+    "sample_rate": 30,
+    "loop": false,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "full_body_action",
+    "entry_state": "Action",
+    "exit_state": "Idle",
+    "source_action": "blink_out",
+    "editable_control_action": "SOURCE_blink_out",
+    "exported_file": "animations/blink_out.fbx",
+    "exported_take": "blink_out",
+    "unreal_asset": "/Game/Operative/Animations/blink_out",
+    "events": [
+      {
+        "name": "ActionStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "TeleportOut",
+        "frame": 8,
+        "time": 0.266667,
+        "type": "teleport",
+        "value": 0
+      },
+      {
+        "name": "ActionEnd",
+        "frame": 12,
+        "time": 0.4,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "blink_in",
+    "form": "one_shot",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 0.4,
+    "duration_range_seconds": "0.15–0.6",
+    "required_behavior": "Reappearance, plant and settle at destination.",
+    "frame_range": [
+      0,
+      12
+    ],
+    "frame_count": 13,
+    "sample_rate": 30,
+    "loop": false,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "full_body_action",
+    "entry_state": "Action",
+    "exit_state": "Idle",
+    "source_action": "blink_in",
+    "editable_control_action": "SOURCE_blink_in",
+    "exported_file": "animations/blink_in.fbx",
+    "exported_take": "blink_in",
+    "unreal_asset": "/Game/Operative/Animations/blink_in",
+    "events": [
+      {
+        "name": "ActionStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "TeleportIn",
+        "frame": 1,
+        "time": 0.033333,
+        "type": "teleport",
+        "value": 0
+      },
+      {
+        "name": "LandingContact",
+        "frame": 4,
+        "time": 0.133333,
+        "type": "contact",
+        "value": 0
+      },
+      {
+        "name": "ActionEnd",
+        "frame": 12,
+        "time": 0.4,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "melee_1",
+    "form": "one_shot",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 1.0,
+    "duration_range_seconds": "0.4–1.2",
+    "required_behavior": "Diagonal forearm-blade slash. Supply hit-window and recovery markers.",
+    "frame_range": [
+      0,
+      30
+    ],
+    "frame_count": 31,
+    "sample_rate": 30,
+    "loop": false,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "full_body_action",
+    "entry_state": "Action",
+    "exit_state": "Idle",
+    "source_action": "melee_1",
+    "editable_control_action": "SOURCE_melee_1",
+    "exported_file": "animations/melee_1.fbx",
+    "exported_take": "melee_1",
+    "unreal_asset": "/Game/Operative/Animations/melee_1",
+    "events": [
+      {
+        "name": "ActionStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "MeleeWindowBegin",
+        "frame": 10,
+        "time": 0.333333,
+        "type": "hit_window",
+        "value": 0
+      },
+      {
+        "name": "MeleeWindowEnd",
+        "frame": 17,
+        "time": 0.566667,
+        "type": "hit_window",
+        "value": 0
+      },
+      {
+        "name": "Recovery",
+        "frame": 20,
+        "time": 0.666667,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "ActionEnd",
+        "frame": 30,
+        "time": 1.0,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "melee_2",
+    "form": "one_shot",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 1.0,
+    "duration_range_seconds": "0.4–1.2",
+    "required_behavior": "Reverse slash with different preparation and weight shift. Supply hit-window and recovery markers.",
+    "frame_range": [
+      0,
+      30
+    ],
+    "frame_count": 31,
+    "sample_rate": 30,
+    "loop": false,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "full_body_action",
+    "entry_state": "Action",
+    "exit_state": "Idle",
+    "source_action": "melee_2",
+    "editable_control_action": "SOURCE_melee_2",
+    "exported_file": "animations/melee_2.fbx",
+    "exported_take": "melee_2",
+    "unreal_asset": "/Game/Operative/Animations/melee_2",
+    "events": [
+      {
+        "name": "ActionStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "MeleeWindowBegin",
+        "frame": 10,
+        "time": 0.333333,
+        "type": "hit_window",
+        "value": 0
+      },
+      {
+        "name": "MeleeWindowEnd",
+        "frame": 17,
+        "time": 0.566667,
+        "type": "hit_window",
+        "value": 0
+      },
+      {
+        "name": "Recovery",
+        "frame": 20,
+        "time": 0.666667,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "ActionEnd",
+        "frame": 30,
+        "time": 1.0,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "melee_3",
+    "form": "one_shot",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 1.2,
+    "duration_range_seconds": "0.4–1.2",
+    "required_behavior": "Committed finisher with distinct follow-through. Supply hit-window and recovery markers.",
+    "frame_range": [
+      0,
+      36
+    ],
+    "frame_count": 37,
+    "sample_rate": 30,
+    "loop": false,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "full_body_action",
+    "entry_state": "Action",
+    "exit_state": "Idle",
+    "source_action": "melee_3",
+    "editable_control_action": "SOURCE_melee_3",
+    "exported_file": "animations/melee_3.fbx",
+    "exported_take": "melee_3",
+    "unreal_asset": "/Game/Operative/Animations/melee_3",
+    "events": [
+      {
+        "name": "ActionStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "MeleeWindowBegin",
+        "frame": 12,
+        "time": 0.4,
+        "type": "hit_window",
+        "value": 0
+      },
+      {
+        "name": "MeleeWindowEnd",
+        "frame": 20,
+        "time": 0.666667,
+        "type": "hit_window",
+        "value": 0
+      },
+      {
+        "name": "Recovery",
+        "frame": 24,
+        "time": 0.8,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "ActionEnd",
+        "frame": 36,
+        "time": 1.2,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "ranged_fire",
+    "form": "one_shot",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 0.4,
+    "duration_range_seconds": "0.15–0.5",
+    "required_behavior": "Wrist-emitter single shot, recoil and recovery; supports moving upper-body layering.",
+    "frame_range": [
+      0,
+      12
+    ],
+    "frame_count": 13,
+    "sample_rate": 30,
+    "loop": false,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "upper_body",
+    "entry_state": "Action",
+    "exit_state": "Idle",
+    "source_action": "ranged_fire",
+    "editable_control_action": "SOURCE_ranged_fire",
+    "exported_file": "animations/ranged_fire.fbx",
+    "exported_take": "ranged_fire",
+    "unreal_asset": "/Game/Operative/Animations/ranged_fire",
+    "events": [
+      {
+        "name": "ActionStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "MuzzleFire",
+        "frame": 3,
+        "time": 0.1,
+        "type": "muzzle",
+        "value": 0
+      },
+      {
+        "name": "Recovery",
+        "frame": 8,
+        "time": 0.266667,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "ActionEnd",
+        "frame": 12,
+        "time": 0.4,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "ranged_burst",
+    "form": "one_shot",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 0.6,
+    "duration_range_seconds": "0.35–0.8",
+    "required_behavior": "Three-shot burst with three distinct muzzle-event markers.",
+    "frame_range": [
+      0,
+      18
+    ],
+    "frame_count": 19,
+    "sample_rate": 30,
+    "loop": false,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "upper_body",
+    "entry_state": "Action",
+    "exit_state": "Idle",
+    "source_action": "ranged_burst",
+    "editable_control_action": "SOURCE_ranged_burst",
+    "exported_file": "animations/ranged_burst.fbx",
+    "exported_take": "ranged_burst",
+    "unreal_asset": "/Game/Operative/Animations/ranged_burst",
+    "events": [
+      {
+        "name": "ActionStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "MuzzleFire",
+        "frame": 3,
+        "time": 0.1,
+        "type": "muzzle",
+        "value": 1
+      },
+      {
+        "name": "MuzzleFire",
+        "frame": 8,
+        "time": 0.266667,
+        "type": "muzzle",
+        "value": 2
+      },
+      {
+        "name": "MuzzleFire",
+        "frame": 13,
+        "time": 0.433333,
+        "type": "muzzle",
+        "value": 3
+      },
+      {
+        "name": "Recovery",
+        "frame": 16,
+        "time": 0.533333,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "ActionEnd",
+        "frame": 18,
+        "time": 0.6,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "reload",
+    "form": "one_shot",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 2.0,
+    "duration_range_seconds": "1–2.5",
+    "required_behavior": "Physical emitter-cell manipulation with correct hand/object contact.",
+    "frame_range": [
+      0,
+      60
+    ],
+    "frame_count": 61,
+    "sample_rate": 30,
+    "loop": false,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "full_body_action",
+    "entry_state": "Action",
+    "exit_state": "Idle",
+    "source_action": "reload",
+    "editable_control_action": "SOURCE_reload",
+    "exported_file": "animations/reload.fbx",
+    "exported_take": "reload",
+    "unreal_asset": "/Game/Operative/Animations/reload",
+    "events": [
+      {
+        "name": "ActionStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "CellGrip",
+        "frame": 15,
+        "time": 0.5,
+        "type": "attachment",
+        "value": 0
+      },
+      {
+        "name": "CellDetach",
+        "frame": 26,
+        "time": 0.866667,
+        "type": "attachment",
+        "value": 0
+      },
+      {
+        "name": "CellSeat",
+        "frame": 46,
+        "time": 1.533333,
+        "type": "attachment",
+        "value": 0
+      },
+      {
+        "name": "CellRelease",
+        "frame": 53,
+        "time": 1.766667,
+        "type": "attachment",
+        "value": 0
+      },
+      {
+        "name": "Recovery",
+        "frame": 56,
+        "time": 1.866667,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "ActionEnd",
+        "frame": 60,
+        "time": 2.0,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "cast_directional",
+    "form": "one_shot",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 1.0,
+    "duration_range_seconds": "0.4–1.2",
+    "required_behavior": "Readable direction-targeted release.",
+    "frame_range": [
+      0,
+      30
+    ],
+    "frame_count": 31,
+    "sample_rate": 30,
+    "loop": false,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "upper_body",
+    "entry_state": "Action",
+    "exit_state": "Idle",
+    "source_action": "cast_directional",
+    "editable_control_action": "SOURCE_cast_directional",
+    "exported_file": "animations/cast_directional.fbx",
+    "exported_take": "cast_directional",
+    "unreal_asset": "/Game/Operative/Animations/cast_directional",
+    "events": [
+      {
+        "name": "ActionStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "CastRelease",
+        "frame": 16,
+        "time": 0.533333,
+        "type": "effect",
+        "value": 0
+      },
+      {
+        "name": "Recovery",
+        "frame": 22,
+        "time": 0.733333,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "ActionEnd",
+        "frame": 30,
+        "time": 1.0,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "cast_ground",
+    "form": "one_shot",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 1.2,
+    "duration_range_seconds": "0.5–1.5",
+    "required_behavior": "Ground-targeted placement/cast with look direction.",
+    "frame_range": [
+      0,
+      36
+    ],
+    "frame_count": 37,
+    "sample_rate": 30,
+    "loop": false,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "full_body_action",
+    "entry_state": "Action",
+    "exit_state": "Idle",
+    "source_action": "cast_ground",
+    "editable_control_action": "SOURCE_cast_ground",
+    "exported_file": "animations/cast_ground.fbx",
+    "exported_take": "cast_ground",
+    "unreal_asset": "/Game/Operative/Animations/cast_ground",
+    "events": [
+      {
+        "name": "ActionStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "CastRelease",
+        "frame": 19,
+        "time": 0.633333,
+        "type": "effect",
+        "value": 0
+      },
+      {
+        "name": "Recovery",
+        "frame": 27,
+        "time": 0.9,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "ActionEnd",
+        "frame": 36,
+        "time": 1.2,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "cast_self",
+    "form": "one_shot",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 1.0,
+    "duration_range_seconds": "0.4–1.2",
+    "required_behavior": "Self-centered defensive/emission cast.",
+    "frame_range": [
+      0,
+      30
+    ],
+    "frame_count": 31,
+    "sample_rate": 30,
+    "loop": false,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "full_body_action",
+    "entry_state": "Action",
+    "exit_state": "Idle",
+    "source_action": "cast_self",
+    "editable_control_action": "SOURCE_cast_self",
+    "exported_file": "animations/cast_self.fbx",
+    "exported_take": "cast_self",
+    "unreal_asset": "/Game/Operative/Animations/cast_self",
+    "events": [
+      {
+        "name": "ActionStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "CastRelease",
+        "frame": 16,
+        "time": 0.533333,
+        "type": "effect",
+        "value": 0
+      },
+      {
+        "name": "Recovery",
+        "frame": 22,
+        "time": 0.733333,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "ActionEnd",
+        "frame": 30,
+        "time": 1.0,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "channel_start",
+    "form": "one_shot",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 0.5,
+    "duration_range_seconds": "0.2–0.8",
+    "required_behavior": "Enter sustainable channel pose.",
+    "frame_range": [
+      0,
+      15
+    ],
+    "frame_count": 16,
+    "sample_rate": 30,
+    "loop": false,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "full_body_action",
+    "entry_state": "Channel",
+    "exit_state": "Channel",
+    "source_action": "channel_start",
+    "editable_control_action": "SOURCE_channel_start",
+    "exported_file": "animations/channel_start.fbx",
+    "exported_take": "channel_start",
+    "unreal_asset": "/Game/Operative/Animations/channel_start",
+    "events": [
+      {
+        "name": "ActionStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "ChannelStart",
+        "frame": 13,
+        "time": 0.433333,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "ActionEnd",
+        "frame": 15,
+        "time": 0.5,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "channel_loop",
+    "form": "loop",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 1.2,
+    "duration_range_seconds": "0.6–2",
+    "required_behavior": "Sustained beam-like emission, with restrained motion.",
+    "frame_range": [
+      0,
+      36
+    ],
+    "frame_count": 37,
+    "sample_rate": 30,
+    "loop": true,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "full_body_action",
+    "entry_state": "Channel",
+    "exit_state": "Channel",
+    "source_action": "channel_loop",
+    "editable_control_action": "SOURCE_channel_loop",
+    "exported_file": "animations/channel_loop.fbx",
+    "exported_take": "channel_loop",
+    "unreal_asset": "/Game/Operative/Animations/channel_loop",
+    "events": [
+      {
+        "name": "LoopStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "ChannelLoop",
+        "frame": 17,
+        "time": 0.566667,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "channel_end",
+    "form": "one_shot",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 0.6,
+    "duration_range_seconds": "0.2–0.8",
+    "required_behavior": "Deliberate successful channel release.",
+    "frame_range": [
+      0,
+      18
+    ],
+    "frame_count": 19,
+    "sample_rate": 30,
+    "loop": false,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "full_body_action",
+    "entry_state": "Channel",
+    "exit_state": "Idle",
+    "source_action": "channel_end",
+    "editable_control_action": "SOURCE_channel_end",
+    "exported_file": "animations/channel_end.fbx",
+    "exported_take": "channel_end",
+    "unreal_asset": "/Game/Operative/Animations/channel_end",
+    "events": [
+      {
+        "name": "ActionStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "ChannelEnd",
+        "frame": 9,
+        "time": 0.3,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "ActionEnd",
+        "frame": 18,
+        "time": 0.6,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "channel_interrupt",
+    "form": "one_shot",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 0.4,
+    "duration_range_seconds": "0.15–0.6",
+    "required_behavior": "Forced channel interruption distinct from completion.",
+    "frame_range": [
+      0,
+      12
+    ],
+    "frame_count": 13,
+    "sample_rate": 30,
+    "loop": false,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "full_body_action",
+    "entry_state": "Channel",
+    "exit_state": "Idle",
+    "source_action": "channel_interrupt",
+    "editable_control_action": "SOURCE_channel_interrupt",
+    "exported_file": "animations/channel_interrupt.fbx",
+    "exported_take": "channel_interrupt",
+    "unreal_asset": "/Game/Operative/Animations/channel_interrupt",
+    "events": [
+      {
+        "name": "ActionStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "ChannelInterrupt",
+        "frame": 6,
+        "time": 0.2,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "ActionEnd",
+        "frame": 12,
+        "time": 0.4,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "charge_start",
+    "form": "one_shot",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 0.8,
+    "duration_range_seconds": "0.3–1",
+    "required_behavior": "Wind up and accumulate energy.",
+    "frame_range": [
+      0,
+      24
+    ],
+    "frame_count": 25,
+    "sample_rate": 30,
+    "loop": false,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "full_body_action",
+    "entry_state": "Charge",
+    "exit_state": "Charge",
+    "source_action": "charge_start",
+    "editable_control_action": "SOURCE_charge_start",
+    "exported_file": "animations/charge_start.fbx",
+    "exported_take": "charge_start",
+    "unreal_asset": "/Game/Operative/Animations/charge_start",
+    "events": [
+      {
+        "name": "ActionStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "ChargeStart",
+        "frame": 19,
+        "time": 0.633333,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "ActionEnd",
+        "frame": 24,
+        "time": 0.8,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "charge_hold",
+    "form": "loop",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 1.2,
+    "duration_range_seconds": "0.5–1.5",
+    "required_behavior": "Hold charge without freezing the whole character.",
+    "frame_range": [
+      0,
+      36
+    ],
+    "frame_count": 37,
+    "sample_rate": 30,
+    "loop": true,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "full_body_action",
+    "entry_state": "Charge",
+    "exit_state": "Charge",
+    "source_action": "charge_hold",
+    "editable_control_action": "SOURCE_charge_hold",
+    "exported_file": "animations/charge_hold.fbx",
+    "exported_take": "charge_hold",
+    "unreal_asset": "/Game/Operative/Animations/charge_hold",
+    "events": [
+      {
+        "name": "LoopStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "ChargeHold",
+        "frame": 17,
+        "time": 0.566667,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "charge_release",
+    "form": "one_shot",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 0.8,
+    "duration_range_seconds": "0.3–1",
+    "required_behavior": "Forceful release with weight transfer.",
+    "frame_range": [
+      0,
+      24
+    ],
+    "frame_count": 25,
+    "sample_rate": 30,
+    "loop": false,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "full_body_action",
+    "entry_state": "Charge",
+    "exit_state": "Idle",
+    "source_action": "charge_release",
+    "editable_control_action": "SOURCE_charge_release",
+    "exported_file": "animations/charge_release.fbx",
+    "exported_take": "charge_release",
+    "unreal_asset": "/Game/Operative/Animations/charge_release",
+    "events": [
+      {
+        "name": "ActionStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "ChargeRelease",
+        "frame": 12,
+        "time": 0.4,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "ActionEnd",
+        "frame": 24,
+        "time": 0.8,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "charge_cancel",
+    "form": "one_shot",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 0.5,
+    "duration_range_seconds": "0.2–0.7",
+    "required_behavior": "Safely cancel the stored charge.",
+    "frame_range": [
+      0,
+      15
+    ],
+    "frame_count": 16,
+    "sample_rate": 30,
+    "loop": false,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "full_body_action",
+    "entry_state": "Charge",
+    "exit_state": "Idle",
+    "source_action": "charge_cancel",
+    "editable_control_action": "SOURCE_charge_cancel",
+    "exported_file": "animations/charge_cancel.fbx",
+    "exported_take": "charge_cancel",
+    "unreal_asset": "/Game/Operative/Animations/charge_cancel",
+    "events": [
+      {
+        "name": "ActionStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "ChargeCancel",
+        "frame": 7,
+        "time": 0.233333,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "ActionEnd",
+        "frame": 15,
+        "time": 0.5,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "deploy",
+    "form": "one_shot",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 1.6,
+    "duration_range_seconds": "0.6–1.8",
+    "required_behavior": "Place a visible small drone/beacon prop using believable contact.",
+    "frame_range": [
+      0,
+      48
+    ],
+    "frame_count": 49,
+    "sample_rate": 30,
+    "loop": false,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "full_body_action",
+    "entry_state": "Action",
+    "exit_state": "Idle",
+    "source_action": "deploy",
+    "editable_control_action": "SOURCE_deploy",
+    "exported_file": "animations/deploy.fbx",
+    "exported_take": "deploy",
+    "unreal_asset": "/Game/Operative/Animations/deploy",
+    "events": [
+      {
+        "name": "ActionStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "DeployGrip",
+        "frame": 8,
+        "time": 0.266667,
+        "type": "attachment",
+        "value": 0
+      },
+      {
+        "name": "DeployContact",
+        "frame": 30,
+        "time": 1.0,
+        "type": "attachment",
+        "value": 0
+      },
+      {
+        "name": "DeployRelease",
+        "frame": 35,
+        "time": 1.166667,
+        "type": "attachment",
+        "value": 0
+      },
+      {
+        "name": "Recovery",
+        "frame": 44,
+        "time": 1.466667,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "ActionEnd",
+        "frame": 48,
+        "time": 1.6,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "uplink_start",
+    "form": "one_shot",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 0.8,
+    "duration_range_seconds": "0.4–1",
+    "required_behavior": "Begin recall-like console gesture.",
+    "frame_range": [
+      0,
+      24
+    ],
+    "frame_count": 25,
+    "sample_rate": 30,
+    "loop": false,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "full_body_action",
+    "entry_state": "Uplink",
+    "exit_state": "Uplink",
+    "source_action": "uplink_start",
+    "editable_control_action": "SOURCE_uplink_start",
+    "exported_file": "animations/uplink_start.fbx",
+    "exported_take": "uplink_start",
+    "unreal_asset": "/Game/Operative/Animations/uplink_start",
+    "events": [
+      {
+        "name": "ActionStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "UplinkStart",
+        "frame": 20,
+        "time": 0.666667,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "ActionEnd",
+        "frame": 24,
+        "time": 0.8,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "uplink_loop",
+    "form": "loop",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 1.6,
+    "duration_range_seconds": "1–2",
+    "required_behavior": "Maintain recall gesture; feet remain planted.",
+    "frame_range": [
+      0,
+      48
+    ],
+    "frame_count": 49,
+    "sample_rate": 30,
+    "loop": true,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "full_body_action",
+    "entry_state": "Uplink",
+    "exit_state": "Uplink",
+    "source_action": "uplink_loop",
+    "editable_control_action": "SOURCE_uplink_loop",
+    "exported_file": "animations/uplink_loop.fbx",
+    "exported_take": "uplink_loop",
+    "unreal_asset": "/Game/Operative/Animations/uplink_loop",
+    "events": [
+      {
+        "name": "LoopStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "UplinkLoop",
+        "frame": 24,
+        "time": 0.8,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "uplink_end",
+    "form": "one_shot",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 0.6,
+    "duration_range_seconds": "0.2–0.8",
+    "required_behavior": "Successful completion cue; later blink is separate.",
+    "frame_range": [
+      0,
+      18
+    ],
+    "frame_count": 19,
+    "sample_rate": 30,
+    "loop": false,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "full_body_action",
+    "entry_state": "Uplink",
+    "exit_state": "Idle",
+    "source_action": "uplink_end",
+    "editable_control_action": "SOURCE_uplink_end",
+    "exported_file": "animations/uplink_end.fbx",
+    "exported_take": "uplink_end",
+    "unreal_asset": "/Game/Operative/Animations/uplink_end",
+    "events": [
+      {
+        "name": "ActionStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "UplinkEnd",
+        "frame": 9,
+        "time": 0.3,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "ActionEnd",
+        "frame": 18,
+        "time": 0.6,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "uplink_cancel",
+    "form": "one_shot",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 0.5,
+    "duration_range_seconds": "0.2–0.7",
+    "required_behavior": "Interrupted/canceled recall, clean return to control.",
+    "frame_range": [
+      0,
+      15
+    ],
+    "frame_count": 16,
+    "sample_rate": 30,
+    "loop": false,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "full_body_action",
+    "entry_state": "Uplink",
+    "exit_state": "Idle",
+    "source_action": "uplink_cancel",
+    "editable_control_action": "SOURCE_uplink_cancel",
+    "exported_file": "animations/uplink_cancel.fbx",
+    "exported_take": "uplink_cancel",
+    "unreal_asset": "/Game/Operative/Animations/uplink_cancel",
+    "events": [
+      {
+        "name": "ActionStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "UplinkCancel",
+        "frame": 8,
+        "time": 0.266667,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "ActionEnd",
+        "frame": 15,
+        "time": 0.5,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "hit_f",
+    "form": "additive",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 0.3,
+    "duration_range_seconds": "0.15–0.5",
+    "required_behavior": "Reaction to hit from front; layer over idle and motion without snapping planted feet.",
+    "frame_range": [
+      0,
+      9
+    ],
+    "frame_count": 10,
+    "sample_rate": 30,
+    "loop": false,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "additive_upper_body",
+    "entry_state": "HitAdditive",
+    "exit_state": "Previous",
+    "source_action": "hit_f",
+    "editable_control_action": "SOURCE_hit_f",
+    "exported_file": "animations/hit_f.fbx",
+    "exported_take": "hit_f",
+    "unreal_asset": "/Game/Operative/Animations/hit_f",
+    "events": [
+      {
+        "name": "ActionStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "HitPeak",
+        "frame": 3,
+        "time": 0.1,
+        "type": "reaction",
+        "value": 0
+      },
+      {
+        "name": "ActionEnd",
+        "frame": 9,
+        "time": 0.3,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": "idle_relaxed"
+  },
+  {
+    "id": "hit_b",
+    "form": "additive",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 0.3,
+    "duration_range_seconds": "0.15–0.5",
+    "required_behavior": "Reaction to hit from back; layer over idle and motion without snapping planted feet.",
+    "frame_range": [
+      0,
+      9
+    ],
+    "frame_count": 10,
+    "sample_rate": 30,
+    "loop": false,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "additive_upper_body",
+    "entry_state": "HitAdditive",
+    "exit_state": "Previous",
+    "source_action": "hit_b",
+    "editable_control_action": "SOURCE_hit_b",
+    "exported_file": "animations/hit_b.fbx",
+    "exported_take": "hit_b",
+    "unreal_asset": "/Game/Operative/Animations/hit_b",
+    "events": [
+      {
+        "name": "ActionStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "HitPeak",
+        "frame": 3,
+        "time": 0.1,
+        "type": "reaction",
+        "value": 0
+      },
+      {
+        "name": "ActionEnd",
+        "frame": 9,
+        "time": 0.3,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": "idle_relaxed"
+  },
+  {
+    "id": "hit_l",
+    "form": "additive",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 0.3,
+    "duration_range_seconds": "0.15–0.5",
+    "required_behavior": "Reaction to hit from left; layer over idle and motion without snapping planted feet.",
+    "frame_range": [
+      0,
+      9
+    ],
+    "frame_count": 10,
+    "sample_rate": 30,
+    "loop": false,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "additive_upper_body",
+    "entry_state": "HitAdditive",
+    "exit_state": "Previous",
+    "source_action": "hit_l",
+    "editable_control_action": "SOURCE_hit_l",
+    "exported_file": "animations/hit_l.fbx",
+    "exported_take": "hit_l",
+    "unreal_asset": "/Game/Operative/Animations/hit_l",
+    "events": [
+      {
+        "name": "ActionStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "HitPeak",
+        "frame": 3,
+        "time": 0.1,
+        "type": "reaction",
+        "value": 0
+      },
+      {
+        "name": "ActionEnd",
+        "frame": 9,
+        "time": 0.3,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": "idle_relaxed"
+  },
+  {
+    "id": "hit_r",
+    "form": "additive",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 0.3,
+    "duration_range_seconds": "0.15–0.5",
+    "required_behavior": "Reaction to hit from right; layer over idle and motion without snapping planted feet.",
+    "frame_range": [
+      0,
+      9
+    ],
+    "frame_count": 10,
+    "sample_rate": 30,
+    "loop": false,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "additive_upper_body",
+    "entry_state": "HitAdditive",
+    "exit_state": "Previous",
+    "source_action": "hit_r",
+    "editable_control_action": "SOURCE_hit_r",
+    "exported_file": "animations/hit_r.fbx",
+    "exported_take": "hit_r",
+    "unreal_asset": "/Game/Operative/Animations/hit_r",
+    "events": [
+      {
+        "name": "ActionStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "HitPeak",
+        "frame": 3,
+        "time": 0.1,
+        "type": "reaction",
+        "value": 0
+      },
+      {
+        "name": "ActionEnd",
+        "frame": 9,
+        "time": 0.3,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": "idle_relaxed"
+  },
+  {
+    "id": "stun_start",
+    "form": "one_shot",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 0.8,
+    "duration_range_seconds": "0.3–3",
+    "required_behavior": "Lose control and enter stun.",
+    "frame_range": [
+      0,
+      24
+    ],
+    "frame_count": 25,
+    "sample_rate": 30,
+    "loop": false,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "full_body_action",
+    "entry_state": "Incapacitated",
+    "exit_state": "Stun",
+    "source_action": "stun_start",
+    "editable_control_action": "SOURCE_stun_start",
+    "exported_file": "animations/stun_start.fbx",
+    "exported_take": "stun_start",
+    "unreal_asset": "/Game/Operative/Animations/stun_start",
+    "events": [
+      {
+        "name": "ActionStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "ActionEnd",
+        "frame": 24,
+        "time": 0.8,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "stun_loop",
+    "form": "loop",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 1.6,
+    "duration_range_seconds": "0.3–3",
+    "required_behavior": "Disoriented stable pose, alive and breathing.",
+    "frame_range": [
+      0,
+      48
+    ],
+    "frame_count": 49,
+    "sample_rate": 30,
+    "loop": true,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "full_body_action",
+    "entry_state": "Incapacitated",
+    "exit_state": "Stun",
+    "source_action": "stun_loop",
+    "editable_control_action": "SOURCE_stun_loop",
+    "exported_file": "animations/stun_loop.fbx",
+    "exported_take": "stun_loop",
+    "unreal_asset": "/Game/Operative/Animations/stun_loop",
+    "events": [
+      {
+        "name": "LoopStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "stun_end",
+    "form": "one_shot",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 0.8,
+    "duration_range_seconds": "0.3–3",
+    "required_behavior": "Regain control without sliding.",
+    "frame_range": [
+      0,
+      24
+    ],
+    "frame_count": 25,
+    "sample_rate": 30,
+    "loop": false,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "full_body_action",
+    "entry_state": "Incapacitated",
+    "exit_state": "Idle",
+    "source_action": "stun_end",
+    "editable_control_action": "SOURCE_stun_end",
+    "exported_file": "animations/stun_end.fbx",
+    "exported_take": "stun_end",
+    "unreal_asset": "/Game/Operative/Animations/stun_end",
+    "events": [
+      {
+        "name": "ActionStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "ActionEnd",
+        "frame": 24,
+        "time": 0.8,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "knockback",
+    "form": "one_shot",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 0.8,
+    "duration_range_seconds": "0.3–3",
+    "required_behavior": "Reaction to backward forced travel; travel is controlled by the host.",
+    "frame_range": [
+      0,
+      24
+    ],
+    "frame_count": 25,
+    "sample_rate": 30,
+    "loop": false,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "full_body_action",
+    "entry_state": "Incapacitated",
+    "exit_state": "Idle",
+    "source_action": "knockback",
+    "editable_control_action": "SOURCE_knockback",
+    "exported_file": "animations/knockback.fbx",
+    "exported_take": "knockback",
+    "unreal_asset": "/Game/Operative/Animations/knockback",
+    "events": [
+      {
+        "name": "ActionStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "ActionEnd",
+        "frame": 24,
+        "time": 0.8,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "knockup_start",
+    "form": "one_shot",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 0.6,
+    "duration_range_seconds": "0.3–3",
+    "required_behavior": "Forced launch, distinct from voluntary jump.",
+    "frame_range": [
+      0,
+      18
+    ],
+    "frame_count": 19,
+    "sample_rate": 30,
+    "loop": false,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "full_body_action",
+    "entry_state": "Incapacitated",
+    "exit_state": "Incapacitated",
+    "source_action": "knockup_start",
+    "editable_control_action": "SOURCE_knockup_start",
+    "exported_file": "animations/knockup_start.fbx",
+    "exported_take": "knockup_start",
+    "unreal_asset": "/Game/Operative/Animations/knockup_start",
+    "events": [
+      {
+        "name": "ActionStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "ActionEnd",
+        "frame": 18,
+        "time": 0.6,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "knockup_air",
+    "form": "loop",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 1.2,
+    "duration_range_seconds": "0.3–3",
+    "required_behavior": "Helpless airborne pose.",
+    "frame_range": [
+      0,
+      36
+    ],
+    "frame_count": 37,
+    "sample_rate": 30,
+    "loop": true,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "full_body_action",
+    "entry_state": "Incapacitated",
+    "exit_state": "Incapacitated",
+    "source_action": "knockup_air",
+    "editable_control_action": "SOURCE_knockup_air",
+    "exported_file": "animations/knockup_air.fbx",
+    "exported_take": "knockup_air",
+    "unreal_asset": "/Game/Operative/Animations/knockup_air",
+    "events": [
+      {
+        "name": "LoopStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "knockdown_front",
+    "form": "one_shot",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 2.2,
+    "duration_range_seconds": "0.3–3",
+    "required_behavior": "Fall into a face-down position.",
+    "frame_range": [
+      0,
+      66
+    ],
+    "frame_count": 67,
+    "sample_rate": 30,
+    "loop": false,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "full_body_action",
+    "entry_state": "Incapacitated",
+    "exit_state": "Incapacitated",
+    "source_action": "knockdown_front",
+    "editable_control_action": "SOURCE_knockdown_front",
+    "exported_file": "animations/knockdown_front.fbx",
+    "exported_take": "knockdown_front",
+    "unreal_asset": "/Game/Operative/Animations/knockdown_front",
+    "events": [
+      {
+        "name": "ActionStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "ActionEnd",
+        "frame": 66,
+        "time": 2.2,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "knockdown_back",
+    "form": "one_shot",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 2.2,
+    "duration_range_seconds": "0.3–3",
+    "required_behavior": "Fall into a face-up position.",
+    "frame_range": [
+      0,
+      66
+    ],
+    "frame_count": 67,
+    "sample_rate": 30,
+    "loop": false,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "full_body_action",
+    "entry_state": "Incapacitated",
+    "exit_state": "Incapacitated",
+    "source_action": "knockdown_back",
+    "editable_control_action": "SOURCE_knockdown_back",
+    "exported_file": "animations/knockdown_back.fbx",
+    "exported_take": "knockdown_back",
+    "unreal_asset": "/Game/Operative/Animations/knockdown_back",
+    "events": [
+      {
+        "name": "ActionStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "ActionEnd",
+        "frame": 66,
+        "time": 2.2,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "prone_front",
+    "form": "loop",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 2.0,
+    "duration_range_seconds": "0.3–3",
+    "required_behavior": "Face-down floor pose with restrained life motion.",
+    "frame_range": [
+      0,
+      60
+    ],
+    "frame_count": 61,
+    "sample_rate": 30,
+    "loop": true,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "full_body_action",
+    "entry_state": "Incapacitated",
+    "exit_state": "Incapacitated",
+    "source_action": "prone_front",
+    "editable_control_action": "SOURCE_prone_front",
+    "exported_file": "animations/prone_front.fbx",
+    "exported_take": "prone_front",
+    "unreal_asset": "/Game/Operative/Animations/prone_front",
+    "events": [
+      {
+        "name": "LoopStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "prone_back",
+    "form": "loop",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 2.0,
+    "duration_range_seconds": "0.3–3",
+    "required_behavior": "Face-up floor pose with restrained life motion.",
+    "frame_range": [
+      0,
+      60
+    ],
+    "frame_count": 61,
+    "sample_rate": 30,
+    "loop": true,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "full_body_action",
+    "entry_state": "Incapacitated",
+    "exit_state": "Incapacitated",
+    "source_action": "prone_back",
+    "editable_control_action": "SOURCE_prone_back",
+    "exported_file": "animations/prone_back.fbx",
+    "exported_take": "prone_back",
+    "unreal_asset": "/Game/Operative/Animations/prone_back",
+    "events": [
+      {
+        "name": "LoopStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "getup_front",
+    "form": "one_shot",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 3.0,
+    "duration_range_seconds": "0.3–3",
+    "required_behavior": "Stand from face-down through plausible supporting contacts.",
+    "frame_range": [
+      0,
+      90
+    ],
+    "frame_count": 91,
+    "sample_rate": 30,
+    "loop": false,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "full_body_action",
+    "entry_state": "Incapacitated",
+    "exit_state": "Idle",
+    "source_action": "getup_front",
+    "editable_control_action": "SOURCE_getup_front",
+    "exported_file": "animations/getup_front.fbx",
+    "exported_take": "getup_front",
+    "unreal_asset": "/Game/Operative/Animations/getup_front",
+    "events": [
+      {
+        "name": "ActionStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "ActionEnd",
+        "frame": 90,
+        "time": 3.0,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "getup_back",
+    "form": "one_shot",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 3.0,
+    "duration_range_seconds": "0.3–3",
+    "required_behavior": "Stand from face-up through plausible supporting contacts.",
+    "frame_range": [
+      0,
+      90
+    ],
+    "frame_count": 91,
+    "sample_rate": 30,
+    "loop": false,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "full_body_action",
+    "entry_state": "Incapacitated",
+    "exit_state": "Idle",
+    "source_action": "getup_back",
+    "editable_control_action": "SOURCE_getup_back",
+    "exported_file": "animations/getup_back.fbx",
+    "exported_take": "getup_back",
+    "unreal_asset": "/Game/Operative/Animations/getup_back",
+    "events": [
+      {
+        "name": "ActionStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "ActionEnd",
+        "frame": 90,
+        "time": 3.0,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "sleep_start",
+    "form": "one_shot",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 2.4,
+    "duration_range_seconds": "0.3–3",
+    "required_behavior": "Enter a stable sleep posture.",
+    "frame_range": [
+      0,
+      72
+    ],
+    "frame_count": 73,
+    "sample_rate": 30,
+    "loop": false,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "full_body_action",
+    "entry_state": "Incapacitated",
+    "exit_state": "Sleep",
+    "source_action": "sleep_start",
+    "editable_control_action": "SOURCE_sleep_start",
+    "exported_file": "animations/sleep_start.fbx",
+    "exported_take": "sleep_start",
+    "unreal_asset": "/Game/Operative/Animations/sleep_start",
+    "events": [
+      {
+        "name": "ActionStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "ActionEnd",
+        "frame": 72,
+        "time": 2.4,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "sleep_loop",
+    "form": "loop",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 3.0,
+    "duration_range_seconds": "0.3–3",
+    "required_behavior": "Sustained sleeping posture with breathing.",
+    "frame_range": [
+      0,
+      90
+    ],
+    "frame_count": 91,
+    "sample_rate": 30,
+    "loop": true,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "full_body_action",
+    "entry_state": "Incapacitated",
+    "exit_state": "Sleep",
+    "source_action": "sleep_loop",
+    "editable_control_action": "SOURCE_sleep_loop",
+    "exported_file": "animations/sleep_loop.fbx",
+    "exported_take": "sleep_loop",
+    "unreal_asset": "/Game/Operative/Animations/sleep_loop",
+    "events": [
+      {
+        "name": "LoopStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "sleep_end",
+    "form": "one_shot",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 2.4,
+    "duration_range_seconds": "0.3–3",
+    "required_behavior": "Awaken and return to readiness.",
+    "frame_range": [
+      0,
+      72
+    ],
+    "frame_count": 73,
+    "sample_rate": 30,
+    "loop": false,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "full_body_action",
+    "entry_state": "Incapacitated",
+    "exit_state": "Idle",
+    "source_action": "sleep_end",
+    "editable_control_action": "SOURCE_sleep_end",
+    "exported_file": "animations/sleep_end.fbx",
+    "exported_take": "sleep_end",
+    "unreal_asset": "/Game/Operative/Animations/sleep_end",
+    "events": [
+      {
+        "name": "ActionStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "ActionEnd",
+        "frame": 72,
+        "time": 2.4,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "death_front",
+    "form": "one_shot",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 3.2,
+    "duration_range_seconds": "1–4",
+    "required_behavior": "Front-impact death ending in a clear stable body pose.",
+    "frame_range": [
+      0,
+      96
+    ],
+    "frame_count": 97,
+    "sample_rate": 30,
+    "loop": false,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "full_body_action",
+    "entry_state": "Dead",
+    "exit_state": "Dead",
+    "source_action": "death_front",
+    "editable_control_action": "SOURCE_death_front",
+    "exported_file": "animations/death_front.fbx",
+    "exported_take": "death_front",
+    "unreal_asset": "/Game/Operative/Animations/death_front",
+    "events": [
+      {
+        "name": "ActionStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "DeathImpact",
+        "frame": 12,
+        "time": 0.4,
+        "type": "priority",
+        "value": 0
+      },
+      {
+        "name": "DeathSettled",
+        "frame": 90,
+        "time": 3.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "ActionEnd",
+        "frame": 96,
+        "time": 3.2,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "death_back",
+    "form": "one_shot",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 3.3,
+    "duration_range_seconds": "1–4",
+    "required_behavior": "Back-impact death, not a mirrored duplicate with impossible contacts.",
+    "frame_range": [
+      0,
+      99
+    ],
+    "frame_count": 100,
+    "sample_rate": 30,
+    "loop": false,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "full_body_action",
+    "entry_state": "Dead",
+    "exit_state": "Dead",
+    "source_action": "death_back",
+    "editable_control_action": "SOURCE_death_back",
+    "exported_file": "animations/death_back.fbx",
+    "exported_take": "death_back",
+    "unreal_asset": "/Game/Operative/Animations/death_back",
+    "events": [
+      {
+        "name": "ActionStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "DeathImpact",
+        "frame": 12,
+        "time": 0.4,
+        "type": "priority",
+        "value": 0
+      },
+      {
+        "name": "DeathSettled",
+        "frame": 93,
+        "time": 3.1,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "ActionEnd",
+        "frame": 99,
+        "time": 3.3,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "dead_front",
+    "form": "pose",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 0,
+    "duration_range_seconds": "pose",
+    "required_behavior": "Held final pose of death_front.",
+    "frame_range": [
+      0,
+      0
+    ],
+    "frame_count": 1,
+    "sample_rate": 30,
+    "loop": false,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "full_body_action",
+    "entry_state": "Dead",
+    "exit_state": "Dead",
+    "source_action": "dead_front",
+    "editable_control_action": "SOURCE_dead_front",
+    "exported_file": "animations/dead_front.fbx",
+    "exported_take": "dead_front",
+    "unreal_asset": "/Game/Operative/Animations/dead_front",
+    "events": [
+      {
+        "name": "PoseSample",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "dead_back",
+    "form": "pose",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 0,
+    "duration_range_seconds": "pose",
+    "required_behavior": "Held final pose of death_back.",
+    "frame_range": [
+      0,
+      0
+    ],
+    "frame_count": 1,
+    "sample_rate": 30,
+    "loop": false,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "full_body_action",
+    "entry_state": "Dead",
+    "exit_state": "Dead",
+    "source_action": "dead_back",
+    "editable_control_action": "SOURCE_dead_back",
+    "exported_file": "animations/dead_back.fbx",
+    "exported_take": "dead_back",
+    "unreal_asset": "/Game/Operative/Animations/dead_back",
+    "events": [
+      {
+        "name": "PoseSample",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "respawn",
+    "form": "one_shot",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 2.8,
+    "duration_range_seconds": "1–4",
+    "required_behavior": "Reconstruct/activate and settle into a ready living stance; not reverse playback of a death.",
+    "frame_range": [
+      0,
+      84
+    ],
+    "frame_count": 85,
+    "sample_rate": 30,
+    "loop": false,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "full_body_action",
+    "entry_state": "Action",
+    "exit_state": "Idle",
+    "source_action": "respawn",
+    "editable_control_action": "SOURCE_respawn",
+    "exported_file": "animations/respawn.fbx",
+    "exported_take": "respawn",
+    "unreal_asset": "/Game/Operative/Animations/respawn",
+    "events": [
+      {
+        "name": "ActionStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "Reconstruct",
+        "frame": 17,
+        "time": 0.566667,
+        "type": "effect",
+        "value": 0
+      },
+      {
+        "name": "RespawnLiving",
+        "frame": 72,
+        "time": 2.4,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "ActionEnd",
+        "frame": 84,
+        "time": 2.8,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "greet",
+    "form": "one_shot",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 2.2,
+    "duration_range_seconds": "1–4",
+    "required_behavior": "Short intentional social greeting.",
+    "frame_range": [
+      0,
+      66
+    ],
+    "frame_count": 67,
+    "sample_rate": 30,
+    "loop": false,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "full_body_action",
+    "entry_state": "Action",
+    "exit_state": "Idle",
+    "source_action": "greet",
+    "editable_control_action": "SOURCE_greet",
+    "exported_file": "animations/greet.fbx",
+    "exported_take": "greet",
+    "unreal_asset": "/Game/Operative/Animations/greet",
+    "events": [
+      {
+        "name": "ActionStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "ActionEnd",
+        "frame": 66,
+        "time": 2.2,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "victory",
+    "form": "one_shot",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 3.0,
+    "duration_range_seconds": "1–4",
+    "required_behavior": "Confident celebration with readable face and hands.",
+    "frame_range": [
+      0,
+      90
+    ],
+    "frame_count": 91,
+    "sample_rate": 30,
+    "loop": false,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "full_body_action",
+    "entry_state": "Action",
+    "exit_state": "Idle",
+    "source_action": "victory",
+    "editable_control_action": "SOURCE_victory",
+    "exported_file": "animations/victory.fbx",
+    "exported_take": "victory",
+    "unreal_asset": "/Game/Operative/Animations/victory",
+    "events": [
+      {
+        "name": "ActionStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "ActionEnd",
+        "frame": 90,
+        "time": 3.0,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "defeat",
+    "form": "one_shot",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 2.4,
+    "duration_range_seconds": "1–4",
+    "required_behavior": "Disappointment, nonfatal, distinct from death.",
+    "frame_range": [
+      0,
+      72
+    ],
+    "frame_count": 73,
+    "sample_rate": 30,
+    "loop": false,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "full_body_action",
+    "entry_state": "Action",
+    "exit_state": "Idle",
+    "source_action": "defeat",
+    "editable_control_action": "SOURCE_defeat",
+    "exported_file": "animations/defeat.fbx",
+    "exported_take": "defeat",
+    "unreal_asset": "/Game/Operative/Animations/defeat",
+    "events": [
+      {
+        "name": "ActionStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "ActionEnd",
+        "frame": 72,
+        "time": 2.4,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "dialogue",
+    "form": "one_shot",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 15.2,
+    "duration_range_seconds": "12–18",
+    "required_behavior": "Original spoken performance with synchronized lips, eyes, facial expression, hand gestures and body acting; include audio and alignment.",
+    "frame_range": [
+      0,
+      456
+    ],
+    "frame_count": 457,
+    "sample_rate": 30,
+    "loop": false,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "full_body_face_audio",
+    "entry_state": "Action",
+    "exit_state": "Idle",
+    "source_action": "dialogue",
+    "editable_control_action": "SOURCE_dialogue",
+    "exported_file": "animations/dialogue.fbx",
+    "exported_take": "dialogue",
+    "unreal_asset": "/Game/Operative/Animations/dialogue",
+    "events": [
+      {
+        "name": "ActionStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      },
+      {
+        "name": "SpeechStart",
+        "frame": 0,
+        "time": 0.0,
+        "type": "audio",
+        "value": 0
+      },
+      {
+        "name": "GestureLane",
+        "frame": 64,
+        "time": 2.133333,
+        "type": "acting",
+        "value": 0
+      },
+      {
+        "name": "GestureNetwork",
+        "frame": 146,
+        "time": 4.866667,
+        "type": "acting",
+        "value": 0
+      },
+      {
+        "name": "LookLeft",
+        "frame": 196,
+        "time": 6.533333,
+        "type": "acting",
+        "value": 0
+      },
+      {
+        "name": "EmotionConcern",
+        "frame": 214,
+        "time": 7.133333,
+        "type": "face",
+        "value": 0
+      },
+      {
+        "name": "GestureStabilize",
+        "frame": 301,
+        "time": 10.033333,
+        "type": "acting",
+        "value": 0
+      },
+      {
+        "name": "EmotionConfidence",
+        "frame": 360,
+        "time": 12.0,
+        "type": "face",
+        "value": 0
+      },
+      {
+        "name": "SpeechEnd",
+        "frame": 448,
+        "time": 14.933333,
+        "type": "audio",
+        "value": 0
+      },
+      {
+        "name": "ActionEnd",
+        "frame": 456,
+        "time": 15.2,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": null,
+    "additive_reference": null
+  },
+  {
+    "id": "aim_down_left",
+    "form": "pose",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 0,
+    "duration_range_seconds": "pose",
+    "required_behavior": "Aim pose at pitch down / yaw left; nine calibrated grid samples, stable wrists and shoulders.",
+    "frame_range": [
+      0,
+      0
+    ],
+    "frame_count": 1,
+    "sample_rate": 30,
+    "loop": false,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "upper_body",
+    "entry_state": "Aim",
+    "exit_state": "Aim",
+    "source_action": "aim_down_left",
+    "editable_control_action": "SOURCE_aim_down_left",
+    "exported_file": "animations/aim_down_left.fbx",
+    "exported_take": "aim_down_left",
+    "unreal_asset": "/Game/Operative/Animations/aim_down_left",
+    "events": [
+      {
+        "name": "PoseSample",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": {
+      "yaw_left_degrees": 60,
+      "pitch_up_degrees": -35
+    },
+    "additive_reference": null
+  },
+  {
+    "id": "aim_down_center",
+    "form": "pose",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 0,
+    "duration_range_seconds": "pose",
+    "required_behavior": "Aim pose at pitch down / yaw center; nine calibrated grid samples, stable wrists and shoulders.",
+    "frame_range": [
+      0,
+      0
+    ],
+    "frame_count": 1,
+    "sample_rate": 30,
+    "loop": false,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "upper_body",
+    "entry_state": "Aim",
+    "exit_state": "Aim",
+    "source_action": "aim_down_center",
+    "editable_control_action": "SOURCE_aim_down_center",
+    "exported_file": "animations/aim_down_center.fbx",
+    "exported_take": "aim_down_center",
+    "unreal_asset": "/Game/Operative/Animations/aim_down_center",
+    "events": [
+      {
+        "name": "PoseSample",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": {
+      "yaw_left_degrees": 0,
+      "pitch_up_degrees": -35
+    },
+    "additive_reference": null
+  },
+  {
+    "id": "aim_down_right",
+    "form": "pose",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 0,
+    "duration_range_seconds": "pose",
+    "required_behavior": "Aim pose at pitch down / yaw right; nine calibrated grid samples, stable wrists and shoulders.",
+    "frame_range": [
+      0,
+      0
+    ],
+    "frame_count": 1,
+    "sample_rate": 30,
+    "loop": false,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "upper_body",
+    "entry_state": "Aim",
+    "exit_state": "Aim",
+    "source_action": "aim_down_right",
+    "editable_control_action": "SOURCE_aim_down_right",
+    "exported_file": "animations/aim_down_right.fbx",
+    "exported_take": "aim_down_right",
+    "unreal_asset": "/Game/Operative/Animations/aim_down_right",
+    "events": [
+      {
+        "name": "PoseSample",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": {
+      "yaw_left_degrees": -60,
+      "pitch_up_degrees": -35
+    },
+    "additive_reference": null
+  },
+  {
+    "id": "aim_level_left",
+    "form": "pose",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 0,
+    "duration_range_seconds": "pose",
+    "required_behavior": "Aim pose at pitch level / yaw left; nine calibrated grid samples, stable wrists and shoulders.",
+    "frame_range": [
+      0,
+      0
+    ],
+    "frame_count": 1,
+    "sample_rate": 30,
+    "loop": false,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "upper_body",
+    "entry_state": "Aim",
+    "exit_state": "Aim",
+    "source_action": "aim_level_left",
+    "editable_control_action": "SOURCE_aim_level_left",
+    "exported_file": "animations/aim_level_left.fbx",
+    "exported_take": "aim_level_left",
+    "unreal_asset": "/Game/Operative/Animations/aim_level_left",
+    "events": [
+      {
+        "name": "PoseSample",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": {
+      "yaw_left_degrees": 60,
+      "pitch_up_degrees": 0
+    },
+    "additive_reference": null
+  },
+  {
+    "id": "aim_level_center",
+    "form": "pose",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 0,
+    "duration_range_seconds": "pose",
+    "required_behavior": "Aim pose at pitch level / yaw center; nine calibrated grid samples, stable wrists and shoulders.",
+    "frame_range": [
+      0,
+      0
+    ],
+    "frame_count": 1,
+    "sample_rate": 30,
+    "loop": false,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "upper_body",
+    "entry_state": "Aim",
+    "exit_state": "Aim",
+    "source_action": "aim_level_center",
+    "editable_control_action": "SOURCE_aim_level_center",
+    "exported_file": "animations/aim_level_center.fbx",
+    "exported_take": "aim_level_center",
+    "unreal_asset": "/Game/Operative/Animations/aim_level_center",
+    "events": [
+      {
+        "name": "PoseSample",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": {
+      "yaw_left_degrees": 0,
+      "pitch_up_degrees": 0
+    },
+    "additive_reference": null
+  },
+  {
+    "id": "aim_level_right",
+    "form": "pose",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 0,
+    "duration_range_seconds": "pose",
+    "required_behavior": "Aim pose at pitch level / yaw right; nine calibrated grid samples, stable wrists and shoulders.",
+    "frame_range": [
+      0,
+      0
+    ],
+    "frame_count": 1,
+    "sample_rate": 30,
+    "loop": false,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "upper_body",
+    "entry_state": "Aim",
+    "exit_state": "Aim",
+    "source_action": "aim_level_right",
+    "editable_control_action": "SOURCE_aim_level_right",
+    "exported_file": "animations/aim_level_right.fbx",
+    "exported_take": "aim_level_right",
+    "unreal_asset": "/Game/Operative/Animations/aim_level_right",
+    "events": [
+      {
+        "name": "PoseSample",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": {
+      "yaw_left_degrees": -60,
+      "pitch_up_degrees": 0
+    },
+    "additive_reference": null
+  },
+  {
+    "id": "aim_up_left",
+    "form": "pose",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 0,
+    "duration_range_seconds": "pose",
+    "required_behavior": "Aim pose at pitch up / yaw left; nine calibrated grid samples, stable wrists and shoulders.",
+    "frame_range": [
+      0,
+      0
+    ],
+    "frame_count": 1,
+    "sample_rate": 30,
+    "loop": false,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "upper_body",
+    "entry_state": "Aim",
+    "exit_state": "Aim",
+    "source_action": "aim_up_left",
+    "editable_control_action": "SOURCE_aim_up_left",
+    "exported_file": "animations/aim_up_left.fbx",
+    "exported_take": "aim_up_left",
+    "unreal_asset": "/Game/Operative/Animations/aim_up_left",
+    "events": [
+      {
+        "name": "PoseSample",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": {
+      "yaw_left_degrees": 60,
+      "pitch_up_degrees": 35
+    },
+    "additive_reference": null
+  },
+  {
+    "id": "aim_up_center",
+    "form": "pose",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 0,
+    "duration_range_seconds": "pose",
+    "required_behavior": "Aim pose at pitch up / yaw center; nine calibrated grid samples, stable wrists and shoulders.",
+    "frame_range": [
+      0,
+      0
+    ],
+    "frame_count": 1,
+    "sample_rate": 30,
+    "loop": false,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "upper_body",
+    "entry_state": "Aim",
+    "exit_state": "Aim",
+    "source_action": "aim_up_center",
+    "editable_control_action": "SOURCE_aim_up_center",
+    "exported_file": "animations/aim_up_center.fbx",
+    "exported_take": "aim_up_center",
+    "unreal_asset": "/Game/Operative/Animations/aim_up_center",
+    "events": [
+      {
+        "name": "PoseSample",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": {
+      "yaw_left_degrees": 0,
+      "pitch_up_degrees": 35
+    },
+    "additive_reference": null
+  },
+  {
+    "id": "aim_up_right",
+    "form": "pose",
+    "root_motion_policy": "in_place",
+    "duration_seconds": 0,
+    "duration_range_seconds": "pose",
+    "required_behavior": "Aim pose at pitch up / yaw right; nine calibrated grid samples, stable wrists and shoulders.",
+    "frame_range": [
+      0,
+      0
+    ],
+    "frame_count": 1,
+    "sample_rate": 30,
+    "loop": false,
+    "nominal_speed_cm_s": 0,
+    "nominal_root_displacement_m": [
+      0,
+      0,
+      0
+    ],
+    "layer": "upper_body",
+    "entry_state": "Aim",
+    "exit_state": "Aim",
+    "source_action": "aim_up_right",
+    "editable_control_action": "SOURCE_aim_up_right",
+    "exported_file": "animations/aim_up_right.fbx",
+    "exported_take": "aim_up_right",
+    "unreal_asset": "/Game/Operative/Animations/aim_up_right",
+    "events": [
+      {
+        "name": "PoseSample",
+        "frame": 0,
+        "time": 0.0,
+        "type": "state",
+        "value": 0
+      }
+    ],
+    "aim": {
+      "yaw_left_degrees": -60,
+      "pitch_up_degrees": 35
+    },
+    "additive_reference": null
+  }
+]

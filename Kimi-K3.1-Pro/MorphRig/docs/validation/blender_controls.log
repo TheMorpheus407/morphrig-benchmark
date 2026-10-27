@@ -1,0 +1,8 @@
+00:00.464  blend            | Read blend: "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/source/Operative.blend"
+Info: Baked idle_relaxed: 0–90; save the .blend to retain changes
+Info: Baked idle_relaxed: 0–2; save the .blend to retain changes
+{"status": "PASS", "operators": [{"operator": "reset", "passed": true, "error": ""}, {"operator": "clip_selection", "passed": true, "error": ""}, {"operator": "match_ik", "passed": true, "error": ""}, {"operator": "match_fk", "passed": true, "error": ""}, {"operator": "finger_curl_spread", "passed": true, "error": ""}, {"operator": "heel_toe_roll", "passed": true, "error": ""}, {"operator": "facial_preset", "passed": true, "error": ""}, {"operator": "range_rebake", "passed": true, "error": ""}, {"operator": "three_frame_range_rebake", "passed": true, "error": ""}]}
+Blender 5.1.1
+scripts disabled for "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/source/Operative.blend", skipping 'START_HERE_Rig_Controls.py'
+
+Blender quit

@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/tools/capture_presentations.py", line 114, in <module>
+    main()
+    ~~~~^^
+  File "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/tools/capture_presentations.py", line 109, in main
+    directory, frames, report = capture(kind, executable)
+                                ~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/tools/capture_presentations.py", line 52, in capture
+    raise RuntimeError(f"Capture directory is outside the task folder: {directory}")
+RuntimeError: Capture directory is outside the task folder: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Saved/MorphRig/MorphCapture/turntable

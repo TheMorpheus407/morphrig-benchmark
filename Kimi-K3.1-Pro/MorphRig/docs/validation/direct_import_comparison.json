@@ -1,0 +1,262 @@
+{
+  "direct_aligned": {
+    "corrected": true,
+    "mesh": "/Game/Operative/Diagnostics/Pose_DirectAligned.Pose_DirectAligned",
+    "clip": "/Game/Operative/Diagnostics/Pose_DirectIdle.Pose_DirectIdle",
+    "mesh_skeleton": "/Game/Operative/Diagnostics/BasisSource/SK_Operative_BasisSource_Skeleton.SK_Operative_BasisSource_Skeleton",
+    "clip_skeleton": "/Game/Operative/Diagnostics/BasisSource/SK_Operative_BasisSource_Skeleton.SK_Operative_BasisSource_Skeleton",
+    "root_reference": "<Struct 'Transform' (0x7dd41b385fe0) {rotation: {x: -0.000000, y: 0.000000, z: 0.707107, w: 0.707107}, translation: {x: 0.000000, y: 0.000000, z: 0.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "root_animation": "<Struct 'Transform' (0x7dd41b385fe0) {rotation: {x: -0.000000, y: 0.000000, z: 0.707107, w: 0.707107}, translation: {x: 0.000000, y: 0.000000, z: 0.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "basis": {
+      "source_to_unreal_matrix": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "determinant": -1,
+      "native_forward": [
+        0,
+        1,
+        0
+      ],
+      "max_reference_error_cm": 2.4910121707932836e-05,
+      "reference_samples": [
+        {
+          "bone": "eye.L",
+          "source_cm": [
+            3.7,
+            -5.8,
+            169.7
+          ],
+          "native_cm": [
+            3.700001409260459,
+            5.8000194836720285,
+            169.6999970078457
+          ],
+          "converted_source_cm": [
+            3.7,
+            5.8,
+            169.7
+          ]
+        },
+        {
+          "bone": "hand.L",
+          "source_cm": [
+            30.5,
+            -3.6,
+            96.2
+          ],
+          "native_cm": [
+            30.499995722948448,
+            3.6000087112077788,
+            96.19999527907791
+          ],
+          "converted_source_cm": [
+            30.5,
+            3.6,
+            96.2
+          ]
+        },
+        {
+          "bone": "hand.R",
+          "source_cm": [
+            -30.5,
+            -3.6,
+            96.2
+          ],
+          "native_cm": [
+            -30.49999390219979,
+            3.600023686364967,
+            96.19999527907734
+          ],
+          "converted_source_cm": [
+            -30.5,
+            3.6,
+            96.2
+          ]
+        },
+        {
+          "bone": "pelvis",
+          "source_cm": [
+            0.0,
+            0.0,
+            99.5
+          ],
+          "native_cm": [
+            2.005762297009226e-12,
+            1.1861323904306814e-05,
+            99.49999999999929
+          ],
+          "converted_source_cm": [
+            0.0,
+            0.0,
+            99.5
+          ]
+        },
+        {
+          "bone": "head",
+          "source_cm": [
+            0.0,
+            0.0,
+            155.5
+          ],
+          "native_cm": [
+            3.134633550402618e-12,
+            1.8537043954599165e-05,
+            155.5000005364405
+          ],
+          "converted_source_cm": [
+            0.0,
+            0.0,
+            155.5
+          ]
+        }
+      ],
+      "mesh_reference_forward_yaw": 90.0,
+      "source_to_unreal_yaw_degrees": null
+    },
+    "tracks": 70
+  },
+  "root_corrected": {
+    "corrected": true,
+    "mesh": "/Game/Operative/Diagnostics/Pose_RootCorrected.Pose_RootCorrected",
+    "clip": "/Game/Operative/Diagnostics/Pose_RootIdle.Pose_RootIdle",
+    "mesh_skeleton": "/Game/Operative/Diagnostics/BasisSource/SK_Operative_BasisSource_Skeleton.SK_Operative_BasisSource_Skeleton",
+    "clip_skeleton": "/Game/Operative/Diagnostics/BasisSource/SK_Operative_BasisSource_Skeleton.SK_Operative_BasisSource_Skeleton",
+    "root_reference": "<Struct 'Transform' (0x7dd41b385fe0) {rotation: {x: -0.000000, y: 0.000000, z: -0.000000, w: 1.000000}, translation: {x: 0.000000, y: 0.000000, z: 0.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "root_animation": "<Struct 'Transform' (0x7dd41b385fe0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: 0.000000, y: 0.000000, z: 0.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "basis": {
+      "source_to_unreal_matrix": [
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "determinant": -1,
+      "native_forward": [
+        1,
+        0,
+        0
+      ],
+      "max_reference_error_cm": 8.240378444858952e-06,
+      "reference_samples": [
+        {
+          "bone": "eye.L",
+          "source_cm": [
+            3.7,
+            -5.8,
+            169.7
+          ],
+          "native_cm": [
+            5.799999713897705,
+            -3.7000000476837154,
+            169.6999976992607
+          ],
+          "converted_source_cm": [
+            5.8,
+            -3.7,
+            169.7
+          ]
+        },
+        {
+          "bone": "hand.L",
+          "source_cm": [
+            30.5,
+            -3.6,
+            96.2
+          ],
+          "native_cm": [
+            3.600004550618218,
+            -30.499993285587593,
+            96.2000014534018
+          ],
+          "converted_source_cm": [
+            3.6,
+            -30.5,
+            96.2
+          ]
+        },
+        {
+          "bone": "hand.R",
+          "source_cm": [
+            -30.5,
+            -3.6,
+            96.2
+          ],
+          "native_cm": [
+            3.600004550618218,
+            30.499993285587593,
+            96.2000014534018
+          ],
+          "converted_source_cm": [
+            3.6,
+            30.5,
+            96.2
+          ]
+        },
+        {
+          "bone": "pelvis",
+          "source_cm": [
+            0.0,
+            0.0,
+            99.5
+          ],
+          "native_cm": [
+            -3.985142630860635e-40,
+            3.110199103199384e-22,
+            99.5
+          ],
+          "converted_source_cm": [
+            0.0,
+            0.0,
+            99.5
+          ]
+        },
+        {
+          "bone": "head",
+          "source_cm": [
+            0.0,
+            0.0,
+            155.5
+          ],
+          "native_cm": [
+            -1.8045754038405232e-38,
+            2.015279339030845e-22,
+            155.5000005364416
+          ],
+          "converted_source_cm": [
+            0.0,
+            0.0,
+            155.5
+          ]
+        }
+      ],
+      "mesh_reference_forward_yaw": 0.0,
+      "source_to_unreal_yaw_degrees": null
+    },
+    "tracks": 70
+  }
+}

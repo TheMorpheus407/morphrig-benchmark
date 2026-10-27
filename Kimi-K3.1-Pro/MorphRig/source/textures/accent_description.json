@@ -1,0 +1,15 @@
+{
+  "size": 1024,
+  "base_color_linear": [
+    0.68,
+    0.84,
+    0.85
+  ],
+  "roughness": 0.31,
+  "metalness": 0.35,
+  "maps": {
+    "BaseColor": "textures/accent_BaseColor.png",
+    "Roughness": "textures/accent_Roughness.png",
+    "Normal": "textures/accent_Normal.png"
+  }
+}

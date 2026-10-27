@@ -1,0 +1,15 @@
+{
+  "size": 2048,
+  "base_color_linear": [
+    0.026,
+    0.066,
+    0.076
+  ],
+  "roughness": 0.62,
+  "metalness": 0,
+  "maps": {
+    "BaseColor": "textures/suit_BaseColor.png",
+    "Roughness": "textures/suit_Roughness.png",
+    "Normal": "textures/suit_Normal.png"
+  }
+}

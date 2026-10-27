@@ -1,0 +1,27 @@
+00:00.570  blend            | Read blend: "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/source/Operative.blend"
+Blender 5.1.1
+scripts disabled for "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/source/Operative.blend", skipping 'START_HERE_Rig_Controls.py'
+00:03.274  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/docs/validation/pose_idle_relaxed.png'
+00:05.215  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/docs/validation/pose_walk_l.png'
+00:06.966  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/docs/validation/pose_run_fr.png'
+00:08.802  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/docs/validation/pose_jump_air.png'
+00:10.810  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/docs/validation/pose_melee_3.png'
+00:12.576  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/docs/validation/pose_reload.png'
+00:14.535  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/docs/validation/pose_deploy.png'
+00:16.288  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/docs/validation/pose_aim_up_left.png'
+00:18.187  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/docs/validation/pose_victory.png'
+00:20.164  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/docs/validation/pose_getup_back.png'
+00:21.670  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/docs/validation/pose_knockdown_front.png'
+00:23.196  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/docs/validation/pose_prone_back.png'
+00:24.794  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/docs/validation/face_joy.png'
+00:26.264  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/docs/validation/face_anger.png'
+00:27.775  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/docs/validation/face_concern.png'
+00:29.482  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/docs/validation/face_surprise.png'
+00:31.062  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/docs/validation/face_pain.png'
+00:32.536  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/docs/validation/face_focus.png'
+00:34.112  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/docs/validation/face_left_blink.png'
+00:35.643  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/docs/validation/face_open_vowel.png'
+00:37.158  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/docs/validation/face_rounded_vowel.png'
+MOTION_AND_FACE_INSPECTION_RENDERED
+
+Blender quit

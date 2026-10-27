@@ -1,0 +1,82 @@
+MR_STATE demo_step=0 state=Action clip=jump_land clip_time=0.0000 speed=1.00
+MR_EVENT event=FootPlant.L clip=run_fr time=0.000100 traversal=2 state=Locomotion clip_time=0.0333 speed=1.00
+MR_EVENT event=LoopStart clip=run_fr time=0.000100 traversal=3 state=Locomotion clip_time=0.0333 speed=1.00
+MR_EVENT event=ActionStart clip=ranged_burst time=0.000100 traversal=4 state=Locomotion clip_time=0.0333 speed=1.00
+MR_EVENT event=FootRelease.R clip=run_fr time=0.066667 traversal=5 state=Locomotion clip_time=0.0667 speed=1.00
+MR_EVENT event=MuzzleFire clip=ranged_burst time=0.100000 traversal=6 state=Locomotion clip_time=0.1000 speed=1.00
+MR_EVENT event=MuzzleFire clip=ranged_burst time=0.266667 traversal=7 state=Locomotion clip_time=0.2667 speed=1.00
+MR_EVENT event=FootPlant.R clip=run_fr time=0.400000 traversal=8 state=Locomotion clip_time=0.4000 speed=1.00
+MR_EVENT event=MuzzleFire clip=ranged_burst time=0.433333 traversal=9 state=Locomotion clip_time=0.4333 speed=1.00
+MR_EVENT event=FootRelease.L clip=run_fr time=0.466667 traversal=10 state=Locomotion clip_time=0.4667 speed=1.00
+MR_EVENT event=Recovery clip=ranged_burst time=0.533333 traversal=11 state=Locomotion clip_time=0.5333 speed=1.00
+MR_EVENT event=ActionEnd clip=ranged_burst time=0.599900 traversal=12 state=Locomotion clip_time=0.6000 speed=1.00
+MR_EVENT event=FootPlant.L clip=run_fr time=0.000100 traversal=13 state=Locomotion clip_time=0.0333 speed=1.00
+MR_EVENT event=LoopStart clip=run_fr time=0.000100 traversal=14 state=Locomotion clip_time=0.0333 speed=1.00
+MR_EVENT event=FootRelease.R clip=run_fr time=0.066667 traversal=15 state=Locomotion clip_time=0.0667 speed=1.00
+MR_STATE demo_step=1 state=Locomotion clip=run_fr clip_time=0.3333 speed=1.00
+MR_EVENT event=ActionStart clip=channel_start time=0.000100 traversal=16 state=Channel clip_time=0.0333 speed=1.00
+MR_EVENT event=ChannelStart clip=channel_start time=0.433333 traversal=17 state=Channel clip_time=0.4333 speed=1.00
+MR_EVENT event=ActionEnd clip=channel_start time=0.499900 traversal=18 state=Channel clip_time=0.0000 speed=1.00
+MR_EVENT event=LoopStart clip=channel_loop time=0.000100 traversal=19 state=Channel clip_time=0.0333 speed=1.00
+MR_EVENT event=ChannelLoop clip=channel_loop time=0.566667 traversal=20 state=Channel clip_time=0.5667 speed=1.00
+MR_STATE demo_step=2 state=Channel clip=channel_loop clip_time=0.8333 speed=1.00
+MR_EVENT event=ActionStart clip=channel_interrupt time=0.000100 traversal=21 state=Action clip_time=0.0333 speed=1.00
+MR_EVENT event=ChannelInterrupt clip=channel_interrupt time=0.200000 traversal=22 state=Action clip_time=0.2000 speed=1.00
+MR_EVENT event=ActionEnd clip=channel_interrupt time=0.399900 traversal=23 state=Action clip_time=0.4000 speed=1.00
+MR_EVENT event=LoopStart clip=idle_relaxed time=0.000100 traversal=24 state=Locomotion clip_time=0.0333 speed=1.00
+MR_STATE demo_step=3 state=Locomotion clip=idle_relaxed clip_time=0.1000 speed=1.00
+MR_EVENT event=ActionStart clip=charge_start time=0.000100 traversal=25 state=Charge clip_time=0.0333 speed=1.00
+MR_STATE demo_step=4 state=Charge clip=charge_start clip_time=0.4333 speed=1.00
+MR_EVENT event=ActionStart clip=charge_release time=0.000100 traversal=26 state=Action clip_time=0.0333 speed=1.00
+MR_EVENT event=ChargeRelease clip=charge_release time=0.400000 traversal=27 state=Action clip_time=0.4000 speed=1.00
+MR_EVENT event=ActionEnd clip=charge_release time=0.799900 traversal=28 state=Action clip_time=0.8000 speed=1.00
+MR_EVENT event=LoopStart clip=idle_relaxed time=0.000100 traversal=29 state=Locomotion clip_time=0.0333 speed=1.00
+MR_STATE demo_step=5 state=Locomotion clip=idle_relaxed clip_time=0.0667 speed=1.00
+MR_EVENT event=FootPlant.L clip=run_l time=0.000100 traversal=30 state=Locomotion clip_time=0.0333 speed=1.00
+MR_EVENT event=LoopStart clip=run_l time=0.000100 traversal=31 state=Locomotion clip_time=0.0333 speed=1.00
+MR_EVENT event=ActionStart clip=ranged_fire time=0.000100 traversal=32 state=Locomotion clip_time=0.0333 speed=1.00
+MR_EVENT event=ActionStart clip=hit_l time=0.000100 traversal=33 state=Locomotion clip_time=0.0333 speed=1.00
+MR_EVENT event=FootRelease.R clip=run_l time=0.066667 traversal=34 state=Locomotion clip_time=0.0667 speed=1.00
+MR_EVENT event=MuzzleFire clip=ranged_fire time=0.100000 traversal=35 state=Locomotion clip_time=0.1000 speed=1.00
+MR_EVENT event=HitPeak clip=hit_l time=0.100000 traversal=36 state=Locomotion clip_time=0.1000 speed=1.00
+MR_EVENT event=Recovery clip=ranged_fire time=0.266667 traversal=37 state=Locomotion clip_time=0.2667 speed=1.00
+MR_EVENT event=ActionEnd clip=hit_l time=0.299900 traversal=38 state=Locomotion clip_time=0.3000 speed=1.00
+MR_EVENT event=FootPlant.R clip=run_l time=0.400000 traversal=39 state=Locomotion clip_time=0.4000 speed=1.00
+MR_EVENT event=ActionEnd clip=ranged_fire time=0.399900 traversal=40 state=Locomotion clip_time=0.4000 speed=1.00
+MR_EVENT event=FootRelease.L clip=run_l time=0.466667 traversal=41 state=Locomotion clip_time=0.4667 speed=1.00
+MR_STATE demo_step=6 state=Locomotion clip=run_l clip_time=0.7000 speed=1.00
+MR_EVENT event=ActionStart clip=knockdown_front time=0.000100 traversal=42 state=Prone clip_time=0.0333 speed=1.00
+MR_EVENT event=ActionEnd clip=knockdown_front time=2.199900 traversal=43 state=Prone clip_time=0.0000 speed=1.00
+MR_EVENT event=LoopStart clip=prone_front time=0.000100 traversal=44 state=Prone clip_time=0.0333 speed=1.00
+MR_STATE demo_step=7 state=Prone clip=prone_front clip_time=0.3000 speed=1.00
+MR_EVENT event=ActionStart clip=getup_front time=0.000100 traversal=45 state=Action clip_time=0.0333 speed=1.00
+MR_STATE demo_step=8 state=Action clip=getup_front clip_time=0.5000 speed=1.00
+MR_EVENT event=ActionStart clip=sleep_start time=0.000100 traversal=46 state=Sleep clip_time=0.0333 speed=1.00
+MR_EVENT event=ActionEnd clip=sleep_start time=2.399900 traversal=47 state=Sleep clip_time=0.0000 speed=1.00
+MR_EVENT event=LoopStart clip=sleep_loop time=0.000100 traversal=48 state=Sleep clip_time=0.0333 speed=1.00
+MR_STATE demo_step=9 state=Sleep clip=sleep_loop clip_time=0.1667 speed=1.00
+MR_EVENT event=ActionStart clip=sleep_end time=0.000100 traversal=49 state=Action clip_time=0.0333 speed=1.00
+MR_STATE demo_step=10 state=Action clip=sleep_end clip_time=0.9000 speed=1.00
+MR_EVENT event=ActionStart clip=cast_ground time=0.000100 traversal=50 state=Action clip_time=0.0333 speed=1.00
+MR_STATE demo_step=11 state=Action clip=cast_ground clip_time=0.5000 speed=1.00
+MR_EVENT event=ActionStart clip=death_back time=0.000100 traversal=51 state=Dead clip_time=0.0333 speed=1.00
+MR_EVENT event=DeathImpact clip=death_back time=0.400000 traversal=52 state=Dead clip_time=0.4000 speed=1.00
+MR_STATE demo_step=12 state=Dead clip=death_back clip_time=1.0333 speed=1.00
+MR_STATE demo_step=13 state=Dead clip=death_back clip_time=1.2333 speed=1.00
+MR_EVENT event=ActionStart clip=respawn time=0.000100 traversal=53 state=Respawn clip_time=0.0333 speed=1.00
+MR_EVENT event=Reconstruct clip=respawn time=0.566667 traversal=54 state=Respawn clip_time=0.5667 speed=1.00
+MR_EVENT event=RespawnLiving clip=respawn time=2.400000 traversal=55 state=Respawn clip_time=2.4000 speed=1.00
+MR_EVENT event=ActionEnd clip=respawn time=2.799900 traversal=56 state=Respawn clip_time=2.8000 speed=1.00
+MR_EVENT event=LoopStart clip=idle_relaxed time=0.000100 traversal=57 state=Locomotion clip_time=0.0333 speed=1.00
+MR_STATE demo_step=14 state=Locomotion clip=idle_relaxed clip_time=0.2667 speed=1.00
+MR_EVENT event=SpeechStart clip=dialogue time=0.000100 traversal=58 state=Action clip_time=0.0333 speed=1.00
+MR_EVENT event=ActionStart clip=dialogue time=0.000100 traversal=59 state=Action clip_time=0.0333 speed=1.00
+MR_EVENT event=GestureLane clip=dialogue time=2.133333 traversal=60 state=Action clip_time=2.1333 speed=1.00
+MR_EVENT event=GestureNetwork clip=dialogue time=4.866667 traversal=61 state=Action clip_time=4.8667 speed=1.00
+MR_EVENT event=LookLeft clip=dialogue time=6.533333 traversal=62 state=Action clip_time=6.5333 speed=1.00
+MR_EVENT event=EmotionConcern clip=dialogue time=7.133333 traversal=63 state=Action clip_time=7.1333 speed=1.00
+MR_EVENT event=GestureStabilize clip=dialogue time=10.033333 traversal=64 state=Action clip_time=10.0334 speed=1.00
+MR_EVENT event=EmotionConfidence clip=dialogue time=12.000000 traversal=65 state=Action clip_time=12.0000 speed=1.00
+MR_EVENT event=SpeechEnd clip=dialogue time=14.933333 traversal=66 state=Action clip_time=14.9334 speed=1.00
+MR_EVENT event=ActionEnd clip=dialogue time=15.199900 traversal=67 state=Action clip_time=15.2000 speed=1.00
+MR_EVENT event=LoopStart clip=idle_relaxed time=0.000100 traversal=68 state=Locomotion clip_time=0.0333 speed=1.00

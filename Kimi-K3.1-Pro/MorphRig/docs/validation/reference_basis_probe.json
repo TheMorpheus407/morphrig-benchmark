@@ -1,0 +1,878 @@
+{
+  "status": "EVALUATED_NOT_YET_VISUALLY_APPROVED",
+  "mesh": "/Game/Operative/Diagnostics/SK_AxesUp_v8.SK_AxesUp_v8",
+  "clip": "/Game/Operative/Diagnostics/idle_axes_up_v8.idle_axes_up_v8",
+  "bones": 70,
+  "lods": 3,
+  "morphs_per_lod": [
+    26,
+    26,
+    26
+  ],
+  "triangles_per_lod": [
+    26326,
+    21482,
+    19062
+  ],
+  "expected_original_matrix": [
+    [
+      0,
+      -1,
+      0
+    ],
+    [
+      -1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "original_matrix_recovered": true,
+  "original_matrix_retained": true,
+  "non_root_local_changes": [],
+  "hierarchy_unchanged": true,
+  "root_angle_degrees": 0.0,
+  "root_location_preserved": true,
+  "root_scale_preserved": true,
+  "stages": {
+    "base": {
+      "axis_evidence": {
+        "source_to_unreal_matrix": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "determinant": -1,
+        "native_forward": [
+          1,
+          0,
+          0
+        ],
+        "max_reference_error_cm": 5.408418452077581e-06,
+        "reference_samples": [
+          {
+            "bone": "eye.L",
+            "source_cm": [
+              3.7,
+              -5.8,
+              169.7
+            ],
+            "native_cm": [
+              5.799999713897703,
+              -3.7000000476837163,
+              169.69999694824216
+            ],
+            "converted_source_cm": [
+              5.8,
+              -3.7,
+              169.7
+            ]
+          },
+          {
+            "bone": "hand.L",
+            "source_cm": [
+              30.5,
+              -3.6,
+              96.2
+            ],
+            "native_cm": [
+              3.6000038348236147,
+              -30.499996635091453,
+              96.20000179513467
+            ],
+            "converted_source_cm": [
+              3.6,
+              -30.5,
+              96.2
+            ]
+          },
+          {
+            "bone": "hand.R",
+            "source_cm": [
+              -30.5,
+              -3.6,
+              96.2
+            ],
+            "native_cm": [
+              3.6000038348236068,
+              30.49999663509148,
+              96.20000179513468
+            ],
+            "converted_source_cm": [
+              3.6,
+              30.5,
+              96.2
+            ]
+          },
+          {
+            "bone": "pelvis",
+            "source_cm": [
+              0.0,
+              0.0,
+              99.5
+            ],
+            "native_cm": [
+              -2.6337430703688397e-21,
+              1.582724660595574e-21,
+              99.49999999999999
+            ],
+            "converted_source_cm": [
+              0.0,
+              0.0,
+              99.5
+            ]
+          },
+          {
+            "bone": "head",
+            "source_cm": [
+              0.0,
+              0.0,
+              155.5
+            ],
+            "native_cm": [
+              -4.116050728063865e-21,
+              2.1888252697059787e-21,
+              155.49999999999997
+            ],
+            "converted_source_cm": [
+              0.0,
+              0.0,
+              155.5
+            ]
+          }
+        ],
+        "mesh_reference_forward_yaw": 0.0,
+        "source_to_unreal_yaw_degrees": null
+      },
+      "root_reference": {
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_quaternion": [
+          3.0616177932074097e-17,
+          1.3234889800848443e-23,
+          0.0,
+          -1.0
+        ],
+        "scale": [
+          0.9999999999999997,
+          1.0000000000000002,
+          0.9999999999999999
+        ]
+      },
+      "mesh_root_reference": {
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_quaternion": [
+          3.0616177932074097e-17,
+          1.3234889800848443e-23,
+          0.0,
+          -1.0
+        ],
+        "scale": [
+          0.9999999999999997,
+          1.0000000000000002,
+          0.9999999999999999
+        ]
+      },
+      "root_animation": null,
+      "height_cm": 180.0000008610358
+    },
+    "lod1": {
+      "axis_evidence": {
+        "source_to_unreal_matrix": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "determinant": -1,
+        "native_forward": [
+          1,
+          0,
+          0
+        ],
+        "max_reference_error_cm": 5.408418452077581e-06,
+        "reference_samples": [
+          {
+            "bone": "eye.L",
+            "source_cm": [
+              3.7,
+              -5.8,
+              169.7
+            ],
+            "native_cm": [
+              5.799999713897703,
+              -3.7000000476837163,
+              169.69999694824216
+            ],
+            "converted_source_cm": [
+              5.8,
+              -3.7,
+              169.7
+            ]
+          },
+          {
+            "bone": "hand.L",
+            "source_cm": [
+              30.5,
+              -3.6,
+              96.2
+            ],
+            "native_cm": [
+              3.6000038348236147,
+              -30.499996635091453,
+              96.20000179513467
+            ],
+            "converted_source_cm": [
+              3.6,
+              -30.5,
+              96.2
+            ]
+          },
+          {
+            "bone": "hand.R",
+            "source_cm": [
+              -30.5,
+              -3.6,
+              96.2
+            ],
+            "native_cm": [
+              3.6000038348236068,
+              30.49999663509148,
+              96.20000179513468
+            ],
+            "converted_source_cm": [
+              3.6,
+              30.5,
+              96.2
+            ]
+          },
+          {
+            "bone": "pelvis",
+            "source_cm": [
+              0.0,
+              0.0,
+              99.5
+            ],
+            "native_cm": [
+              -2.6337430703688397e-21,
+              1.582724660595574e-21,
+              99.49999999999999
+            ],
+            "converted_source_cm": [
+              0.0,
+              0.0,
+              99.5
+            ]
+          },
+          {
+            "bone": "head",
+            "source_cm": [
+              0.0,
+              0.0,
+              155.5
+            ],
+            "native_cm": [
+              -4.116050728063865e-21,
+              2.1888252697059787e-21,
+              155.49999999999997
+            ],
+            "converted_source_cm": [
+              0.0,
+              0.0,
+              155.5
+            ]
+          }
+        ],
+        "mesh_reference_forward_yaw": 0.0,
+        "source_to_unreal_yaw_degrees": null
+      },
+      "root_reference": {
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_quaternion": [
+          3.0616177932074097e-17,
+          1.3234889800848443e-23,
+          0.0,
+          -1.0
+        ],
+        "scale": [
+          0.9999999999999997,
+          1.0000000000000002,
+          0.9999999999999999
+        ]
+      },
+      "mesh_root_reference": {
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_quaternion": [
+          3.0616177932074097e-17,
+          1.3234889800848443e-23,
+          0.0,
+          -1.0
+        ],
+        "scale": [
+          0.9999999999999997,
+          1.0000000000000002,
+          0.9999999999999999
+        ]
+      },
+      "root_animation": null,
+      "height_cm": 180.0000008610358
+    },
+    "lod2": {
+      "axis_evidence": {
+        "source_to_unreal_matrix": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "determinant": -1,
+        "native_forward": [
+          1,
+          0,
+          0
+        ],
+        "max_reference_error_cm": 5.408418452077581e-06,
+        "reference_samples": [
+          {
+            "bone": "eye.L",
+            "source_cm": [
+              3.7,
+              -5.8,
+              169.7
+            ],
+            "native_cm": [
+              5.799999713897703,
+              -3.7000000476837163,
+              169.69999694824216
+            ],
+            "converted_source_cm": [
+              5.8,
+              -3.7,
+              169.7
+            ]
+          },
+          {
+            "bone": "hand.L",
+            "source_cm": [
+              30.5,
+              -3.6,
+              96.2
+            ],
+            "native_cm": [
+              3.6000038348236147,
+              -30.499996635091453,
+              96.20000179513467
+            ],
+            "converted_source_cm": [
+              3.6,
+              -30.5,
+              96.2
+            ]
+          },
+          {
+            "bone": "hand.R",
+            "source_cm": [
+              -30.5,
+              -3.6,
+              96.2
+            ],
+            "native_cm": [
+              3.6000038348236068,
+              30.49999663509148,
+              96.20000179513468
+            ],
+            "converted_source_cm": [
+              3.6,
+              30.5,
+              96.2
+            ]
+          },
+          {
+            "bone": "pelvis",
+            "source_cm": [
+              0.0,
+              0.0,
+              99.5
+            ],
+            "native_cm": [
+              -2.6337430703688397e-21,
+              1.582724660595574e-21,
+              99.49999999999999
+            ],
+            "converted_source_cm": [
+              0.0,
+              0.0,
+              99.5
+            ]
+          },
+          {
+            "bone": "head",
+            "source_cm": [
+              0.0,
+              0.0,
+              155.5
+            ],
+            "native_cm": [
+              -4.116050728063865e-21,
+              2.1888252697059787e-21,
+              155.49999999999997
+            ],
+            "converted_source_cm": [
+              0.0,
+              0.0,
+              155.5
+            ]
+          }
+        ],
+        "mesh_reference_forward_yaw": 0.0,
+        "source_to_unreal_yaw_degrees": null
+      },
+      "root_reference": {
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_quaternion": [
+          3.0616177932074097e-17,
+          1.3234889800848443e-23,
+          0.0,
+          -1.0
+        ],
+        "scale": [
+          0.9999999999999997,
+          1.0000000000000002,
+          0.9999999999999999
+        ]
+      },
+      "mesh_root_reference": {
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_quaternion": [
+          3.0616177932074097e-17,
+          1.3234889800848443e-23,
+          0.0,
+          -1.0
+        ],
+        "scale": [
+          0.9999999999999997,
+          1.0000000000000002,
+          0.9999999999999999
+        ]
+      },
+      "root_animation": null,
+      "height_cm": 180.0000008610358
+    }
+  },
+  "before": {
+    "axis_evidence": {
+      "source_to_unreal_matrix": [
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "determinant": -1,
+      "native_forward": [
+        1,
+        0,
+        0
+      ],
+      "max_reference_error_cm": 5.408418452077581e-06,
+      "reference_samples": [
+        {
+          "bone": "eye.L",
+          "source_cm": [
+            3.7,
+            -5.8,
+            169.7
+          ],
+          "native_cm": [
+            5.799999713897703,
+            -3.7000000476837163,
+            169.69999694824216
+          ],
+          "converted_source_cm": [
+            5.8,
+            -3.7,
+            169.7
+          ]
+        },
+        {
+          "bone": "hand.L",
+          "source_cm": [
+            30.5,
+            -3.6,
+            96.2
+          ],
+          "native_cm": [
+            3.6000038348236147,
+            -30.499996635091453,
+            96.20000179513467
+          ],
+          "converted_source_cm": [
+            3.6,
+            -30.5,
+            96.2
+          ]
+        },
+        {
+          "bone": "hand.R",
+          "source_cm": [
+            -30.5,
+            -3.6,
+            96.2
+          ],
+          "native_cm": [
+            3.6000038348236068,
+            30.49999663509148,
+            96.20000179513468
+          ],
+          "converted_source_cm": [
+            3.6,
+            30.5,
+            96.2
+          ]
+        },
+        {
+          "bone": "pelvis",
+          "source_cm": [
+            0.0,
+            0.0,
+            99.5
+          ],
+          "native_cm": [
+            -2.6337430703688397e-21,
+            1.582724660595574e-21,
+            99.49999999999999
+          ],
+          "converted_source_cm": [
+            0.0,
+            0.0,
+            99.5
+          ]
+        },
+        {
+          "bone": "head",
+          "source_cm": [
+            0.0,
+            0.0,
+            155.5
+          ],
+          "native_cm": [
+            -4.116050728063865e-21,
+            2.1888252697059787e-21,
+            155.49999999999997
+          ],
+          "converted_source_cm": [
+            0.0,
+            0.0,
+            155.5
+          ]
+        }
+      ],
+      "mesh_reference_forward_yaw": 0.0,
+      "source_to_unreal_yaw_degrees": null
+    },
+    "root_reference": {
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_quaternion": [
+        3.0616177932074097e-17,
+        1.3234889800848443e-23,
+        0.0,
+        -1.0
+      ],
+      "scale": [
+        0.9999999999999997,
+        1.0000000000000002,
+        0.9999999999999999
+      ]
+    },
+    "mesh_root_reference": {
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_quaternion": [
+        3.0616177932074097e-17,
+        1.3234889800848443e-23,
+        0.0,
+        -1.0
+      ],
+      "scale": [
+        0.9999999999999997,
+        1.0000000000000002,
+        0.9999999999999999
+      ]
+    },
+    "root_animation": {
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_quaternion": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "height_cm": 180.0000008610358
+  },
+  "after": {
+    "axis_evidence": {
+      "source_to_unreal_matrix": [
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "determinant": -1,
+      "native_forward": [
+        1,
+        0,
+        0
+      ],
+      "max_reference_error_cm": 5.408418452077581e-06,
+      "reference_samples": [
+        {
+          "bone": "eye.L",
+          "source_cm": [
+            3.7,
+            -5.8,
+            169.7
+          ],
+          "native_cm": [
+            5.799999713897703,
+            -3.7000000476837163,
+            169.69999694824216
+          ],
+          "converted_source_cm": [
+            5.8,
+            -3.7,
+            169.7
+          ]
+        },
+        {
+          "bone": "hand.L",
+          "source_cm": [
+            30.5,
+            -3.6,
+            96.2
+          ],
+          "native_cm": [
+            3.6000038348236147,
+            -30.499996635091453,
+            96.20000179513467
+          ],
+          "converted_source_cm": [
+            3.6,
+            -30.5,
+            96.2
+          ]
+        },
+        {
+          "bone": "hand.R",
+          "source_cm": [
+            -30.5,
+            -3.6,
+            96.2
+          ],
+          "native_cm": [
+            3.6000038348236068,
+            30.49999663509148,
+            96.20000179513468
+          ],
+          "converted_source_cm": [
+            3.6,
+            30.5,
+            96.2
+          ]
+        },
+        {
+          "bone": "pelvis",
+          "source_cm": [
+            0.0,
+            0.0,
+            99.5
+          ],
+          "native_cm": [
+            -2.6337430703688397e-21,
+            1.582724660595574e-21,
+            99.49999999999999
+          ],
+          "converted_source_cm": [
+            0.0,
+            0.0,
+            99.5
+          ]
+        },
+        {
+          "bone": "head",
+          "source_cm": [
+            0.0,
+            0.0,
+            155.5
+          ],
+          "native_cm": [
+            -4.116050728063865e-21,
+            2.1888252697059787e-21,
+            155.49999999999997
+          ],
+          "converted_source_cm": [
+            0.0,
+            0.0,
+            155.5
+          ]
+        }
+      ],
+      "mesh_reference_forward_yaw": 0.0,
+      "source_to_unreal_yaw_degrees": null
+    },
+    "root_reference": {
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_quaternion": [
+        3.0616177932074097e-17,
+        1.3234889800848443e-23,
+        0.0,
+        -1.0
+      ],
+      "scale": [
+        0.9999999999999997,
+        1.0000000000000002,
+        0.9999999999999999
+      ]
+    },
+    "mesh_root_reference": {
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_quaternion": [
+        3.0616177932074097e-17,
+        1.3234889800848443e-23,
+        0.0,
+        -1.0
+      ],
+      "scale": [
+        0.9999999999999997,
+        1.0000000000000002,
+        0.9999999999999999
+      ]
+    },
+    "root_animation": {
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_quaternion": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "height_cm": 180.0000008610358
+  },
+  "evaluated_geometry": "docs/validation/reference_basis_geometry.json"
+}

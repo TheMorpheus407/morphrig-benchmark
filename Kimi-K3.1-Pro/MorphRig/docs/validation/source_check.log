@@ -1,0 +1,6 @@
+00:00.783  blend            | Read blend: "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/source/Operative.blend"
+{"status": "PASS", "failures": [], "actions": 96, "deformation_bones": 70, "facial_shapes": 26, "source_action_count": 288, "mesh_objects_checked": 5, "neutral_bounds": {"min_z_m": 2.7939675018018306e-09, "max_z_m": 1.7999999523162842, "height_m": 1.7999999495223167}}
+Blender 5.1.1
+scripts disabled for "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/source/Operative.blend", skipping 'START_HERE_Rig_Controls.py'
+
+Blender quit

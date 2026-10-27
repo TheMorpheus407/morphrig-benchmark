@@ -1,0 +1,19 @@
+00:00.478  blend            | Read blend: "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/source/Operative.blend"
+ANIMATION_PROGRESS 1 96 idle_relaxed
+ANIMATION_PROGRESS 9 96 walk_br
+ANIMATION_PROGRESS 17 96 run_br
+ANIMATION_PROGRESS 25 96 pivot_l180
+ANIMATION_PROGRESS 33 96 dash_b
+ANIMATION_PROGRESS 41 96 ranged_fire
+ANIMATION_PROGRESS 49 96 channel_end
+ANIMATION_PROGRESS 57 96 uplink_loop
+ANIMATION_PROGRESS 65 96 stun_loop
+ANIMATION_PROGRESS 73 96 prone_back
+ANIMATION_PROGRESS 81 96 dead_front
+ANIMATION_PROGRESS 89 96 aim_down_center
+Info: Saved as "Operative.blend"
+ANIMATION_INVENTORY_COMPLETE 96
+Blender 5.1.1
+scripts disabled for "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/source/Operative.blend", skipping 'START_HERE_Rig_Controls.py'
+
+Blender quit

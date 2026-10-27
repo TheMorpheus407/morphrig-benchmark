@@ -1,0 +1,145 @@
+{
+  "steps": [
+    {
+      "step": "created first",
+      "returned": {
+        "path": "/Game/Operative/Diagnostics/EventProbe.EventProbe:MorphEventNotify_4",
+        "event": "None"
+      },
+      "stored": [
+        {
+          "path": "/Game/Operative/Diagnostics/EventProbe.EventProbe:MorphEventNotify_0",
+          "event": "None",
+          "timeline": "ActionEnd"
+        },
+        {
+          "path": "/Game/Operative/Diagnostics/EventProbe.EventProbe:MorphEventNotify_4",
+          "event": "None",
+          "timeline": "MorphEvent"
+        },
+        {
+          "path": "/Game/Operative/Diagnostics/EventProbe.EventProbe:MorphEventNotify_2",
+          "event": "None",
+          "timeline": "ActionEnd"
+        }
+      ]
+    },
+    {
+      "step": "set returned",
+      "returned": {
+        "path": "/Game/Operative/Diagnostics/EventProbe.EventProbe:MorphEventNotify_4",
+        "event": "ActionStart"
+      },
+      "stored": [
+        {
+          "path": "/Game/Operative/Diagnostics/EventProbe.EventProbe:MorphEventNotify_0",
+          "event": "None",
+          "timeline": "ActionEnd"
+        },
+        {
+          "path": "/Game/Operative/Diagnostics/EventProbe.EventProbe:MorphEventNotify_4",
+          "event": "ActionStart",
+          "timeline": "MorphEvent"
+        },
+        {
+          "path": "/Game/Operative/Diagnostics/EventProbe.EventProbe:MorphEventNotify_2",
+          "event": "None",
+          "timeline": "ActionEnd"
+        }
+      ]
+    },
+    {
+      "step": "set stored",
+      "returned": {
+        "path": "/Game/Operative/Diagnostics/EventProbe.EventProbe:MorphEventNotify_4",
+        "event": "ActionStart"
+      },
+      "stored": [
+        {
+          "path": "/Game/Operative/Diagnostics/EventProbe.EventProbe:MorphEventNotify_0",
+          "event": "ActionStart",
+          "timeline": "ActionEnd"
+        },
+        {
+          "path": "/Game/Operative/Diagnostics/EventProbe.EventProbe:MorphEventNotify_4",
+          "event": "ActionStart",
+          "timeline": "MorphEvent"
+        },
+        {
+          "path": "/Game/Operative/Diagnostics/EventProbe.EventProbe:MorphEventNotify_2",
+          "event": "None",
+          "timeline": "ActionEnd"
+        }
+      ]
+    },
+    {
+      "step": "created second",
+      "returned": {
+        "path": "/Game/Operative/Diagnostics/EventProbe.EventProbe:MorphEventNotify_5",
+        "event": "None"
+      },
+      "stored": [
+        {
+          "path": "/Game/Operative/Diagnostics/EventProbe.EventProbe:MorphEventNotify_0",
+          "event": "ActionStart",
+          "timeline": "ActionEnd"
+        },
+        {
+          "path": "/Game/Operative/Diagnostics/EventProbe.EventProbe:MorphEventNotify_4",
+          "event": "ActionStart",
+          "timeline": "MorphEvent"
+        },
+        {
+          "path": "/Game/Operative/Diagnostics/EventProbe.EventProbe:MorphEventNotify_2",
+          "event": "DashEnd",
+          "timeline": "ActionEnd"
+        },
+        {
+          "path": "/Game/Operative/Diagnostics/EventProbe.EventProbe:MorphEventNotify_5",
+          "event": "None",
+          "timeline": "MorphEvent"
+        }
+      ]
+    },
+    {
+      "step": "set timeline names",
+      "returned": {
+        "path": "/Game/Operative/Diagnostics/EventProbe.EventProbe:MorphEventNotify_4",
+        "event": "ActionStart"
+      },
+      "stored": [
+        {
+          "path": "/Game/Operative/Diagnostics/EventProbe.EventProbe:MorphEventNotify_0",
+          "event": "ActionStart",
+          "timeline": "ActionStart"
+        },
+        {
+          "path": "/Game/Operative/Diagnostics/EventProbe.EventProbe:MorphEventNotify_4",
+          "event": "ActionStart",
+          "timeline": "ActionStart"
+        },
+        {
+          "path": "/Game/Operative/Diagnostics/EventProbe.EventProbe:MorphEventNotify_2",
+          "event": "DashEnd",
+          "timeline": "DashEnd"
+        },
+        {
+          "path": "/Game/Operative/Diagnostics/EventProbe.EventProbe:MorphEventNotify_5",
+          "event": "None",
+          "timeline": "None"
+        }
+      ]
+    }
+  ],
+  "controller_notify_api": {},
+  "initial_tracks": [
+    "1",
+    "MorphEvents"
+  ],
+  "remove_result": 2,
+  "remaining_tracks": [
+    "1",
+    "MorphEvents"
+  ],
+  "default_after_set": "DashEnd"
+}

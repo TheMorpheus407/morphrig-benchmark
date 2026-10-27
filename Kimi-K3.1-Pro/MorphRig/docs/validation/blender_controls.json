@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "operators": [
+    {
+      "operator": "reset",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "operator": "clip_selection",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "operator": "match_ik",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "operator": "match_fk",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "operator": "finger_curl_spread",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "operator": "heel_toe_roll",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "operator": "facial_preset",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "operator": "range_rebake",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "operator": "three_frame_range_rebake",
+      "passed": true,
+      "error": ""
+    }
+  ]
+}

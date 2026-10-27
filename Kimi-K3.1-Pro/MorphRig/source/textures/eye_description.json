@@ -1,0 +1,15 @@
+{
+  "size": 512,
+  "base_color_linear": [
+    0.78,
+    0.79,
+    0.75
+  ],
+  "roughness": 0.26,
+  "metalness": 0,
+  "maps": {
+    "BaseColor": "textures/eye_BaseColor.png",
+    "Roughness": "textures/eye_Roughness.png",
+    "Normal": "textures/eye_Normal.png"
+  }
+}

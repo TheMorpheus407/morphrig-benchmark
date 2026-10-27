@@ -1,0 +1,161 @@
+{
+  "api": [
+    "connect_material_expressions",
+    "create_material_expression",
+    "create_material_expression_in_function",
+    "delete_all_material_expressions",
+    "delete_all_material_expressions_in_function",
+    "delete_material_expression",
+    "delete_material_expression_in_function",
+    "delete_unused_expressions",
+    "disconnect_material_expressions",
+    "duplicate_material_expression",
+    "get_input_node_output_name_for_material_expression",
+    "get_inputs_for_material_expression",
+    "get_inputs_for_material_function_expression",
+    "get_material_expression_input_names",
+    "get_material_expression_input_types",
+    "get_material_expression_node_position",
+    "get_material_expression_output_names",
+    "get_material_expressions",
+    "get_material_function_expressions",
+    "get_num_material_expressions",
+    "get_num_material_expressions_in_function",
+    "layout_material_expressions",
+    "layout_material_function_expressions"
+  ],
+  "materials": [
+    {
+      "slot": "M_Skin",
+      "path": "/Game/Operative/Materials/M_Skin.M_Skin",
+      "class": "Material",
+      "expressions": 4,
+      "expression_names": [
+        "<Object '/Game/Operative/Materials/M_Skin.M_Skin:MaterialExpressionTextureSample_0' (0x9cd9b8fbb80) Class 'MaterialExpressionTextureSample'>",
+        "<Object '/Game/Operative/Materials/M_Skin.M_Skin:MaterialExpressionTextureSample_1' (0x9cd9b8fbe00) Class 'MaterialExpressionTextureSample'>",
+        "<Object '/Game/Operative/Materials/M_Skin.M_Skin:MaterialExpressionTextureSample_2' (0x9cd9b8fc080) Class 'MaterialExpressionTextureSample'>",
+        "<Object '/Game/Operative/Materials/M_Skin.M_Skin:MaterialExpressionConstant_0' (0x9cd43a19140) Class 'MaterialExpressionConstant'>"
+      ]
+    },
+    {
+      "slot": "M_Suit",
+      "path": "/Game/Operative/Materials/M_Suit.M_Suit",
+      "class": "Material",
+      "expressions": 4,
+      "expression_names": [
+        "<Object '/Game/Operative/Materials/M_Suit.M_Suit:MaterialExpressionTextureSample_0' (0x9cd9b8fc300) Class 'MaterialExpressionTextureSample'>",
+        "<Object '/Game/Operative/Materials/M_Suit.M_Suit:MaterialExpressionTextureSample_1' (0x9cd9b8fc580) Class 'MaterialExpressionTextureSample'>",
+        "<Object '/Game/Operative/Materials/M_Suit.M_Suit:MaterialExpressionTextureSample_2' (0x9cd9b8fc800) Class 'MaterialExpressionTextureSample'>",
+        "<Object '/Game/Operative/Materials/M_Suit.M_Suit:MaterialExpressionConstant_0' (0x9cd43a19220) Class 'MaterialExpressionConstant'>"
+      ]
+    },
+    {
+      "slot": "M_Armor",
+      "path": "/Game/Operative/Materials/M_Armor.M_Armor",
+      "class": "Material",
+      "expressions": 4,
+      "expression_names": [
+        "<Object '/Game/Operative/Materials/M_Armor.M_Armor:MaterialExpressionTextureSample_0' (0x9cd8c8b9880) Class 'MaterialExpressionTextureSample'>",
+        "<Object '/Game/Operative/Materials/M_Armor.M_Armor:MaterialExpressionTextureSample_1' (0x9cd8c8b9b00) Class 'MaterialExpressionTextureSample'>",
+        "<Object '/Game/Operative/Materials/M_Armor.M_Armor:MaterialExpressionTextureSample_2' (0x9cd8c8b9d80) Class 'MaterialExpressionTextureSample'>",
+        "<Object '/Game/Operative/Materials/M_Armor.M_Armor:MaterialExpressionConstant_0' (0x9cd8c8ecda0) Class 'MaterialExpressionConstant'>"
+      ]
+    },
+    {
+      "slot": "M_Metal",
+      "path": "/Game/Operative/Materials/M_Metal.M_Metal",
+      "class": "Material",
+      "expressions": 4,
+      "expression_names": [
+        "<Object '/Game/Operative/Materials/M_Metal.M_Metal:MaterialExpressionTextureSample_0' (0x9cd8c8ba780) Class 'MaterialExpressionTextureSample'>",
+        "<Object '/Game/Operative/Materials/M_Metal.M_Metal:MaterialExpressionTextureSample_1' (0x9cd8c8baa00) Class 'MaterialExpressionTextureSample'>",
+        "<Object '/Game/Operative/Materials/M_Metal.M_Metal:MaterialExpressionTextureSample_2' (0x9cd8c8bac80) Class 'MaterialExpressionTextureSample'>",
+        "<Object '/Game/Operative/Materials/M_Metal.M_Metal:MaterialExpressionConstant_0' (0x9cd8c8ed040) Class 'MaterialExpressionConstant'>"
+      ]
+    },
+    {
+      "slot": "M_Accent",
+      "path": "/Game/Operative/Materials/M_Accent.M_Accent",
+      "class": "Material",
+      "expressions": 6,
+      "expression_names": [
+        "<Object '/Game/Operative/Materials/M_Accent.M_Accent:MaterialExpressionTextureSample_0' (0x9cd9b8fa500) Class 'MaterialExpressionTextureSample'>",
+        "<Object '/Game/Operative/Materials/M_Accent.M_Accent:MaterialExpressionTextureSample_1' (0x9cd9b8fa780) Class 'MaterialExpressionTextureSample'>",
+        "<Object '/Game/Operative/Materials/M_Accent.M_Accent:MaterialExpressionTextureSample_2' (0x9cd9b8faa00) Class 'MaterialExpressionTextureSample'>",
+        "<Object '/Game/Operative/Materials/M_Accent.M_Accent:MaterialExpressionVectorParameter_0' (0x9cd9bea2440) Class 'MaterialExpressionVectorParameter'>",
+        "<Object '/Game/Operative/Materials/M_Accent.M_Accent:MaterialExpressionMultiply_0' (0x9cd9bea2300) Class 'MaterialExpressionMultiply'>",
+        "<Object '/Game/Operative/Materials/M_Accent.M_Accent:MaterialExpressionConstant_0' (0x9cd43a18ea0) Class 'MaterialExpressionConstant'>"
+      ]
+    },
+    {
+      "slot": "M_Emissive",
+      "path": "/Game/Operative/Materials/M_Emissive.M_Emissive",
+      "class": "Material",
+      "expressions": 6,
+      "expression_names": [
+        "<Object '/Game/Operative/Materials/M_Emissive.M_Emissive:MaterialExpressionTextureSample_0' (0x9cd8c8ba000) Class 'MaterialExpressionTextureSample'>",
+        "<Object '/Game/Operative/Materials/M_Emissive.M_Emissive:MaterialExpressionTextureSample_1' (0x9cd8c8ba280) Class 'MaterialExpressionTextureSample'>",
+        "<Object '/Game/Operative/Materials/M_Emissive.M_Emissive:MaterialExpressionTextureSample_2' (0x9cd8c8ba500) Class 'MaterialExpressionTextureSample'>",
+        "<Object '/Game/Operative/Materials/M_Emissive.M_Emissive:MaterialExpressionConstant_0' (0x9cd8c8ece80) Class 'MaterialExpressionConstant'>",
+        "<Object '/Game/Operative/Materials/M_Emissive.M_Emissive:MaterialExpressionConstant_1' (0x9cd8c8ecf60) Class 'MaterialExpressionConstant'>",
+        "<Object '/Game/Operative/Materials/M_Emissive.M_Emissive:MaterialExpressionMultiply_0' (0x9cd89818e80) Class 'MaterialExpressionMultiply'>"
+      ]
+    },
+    {
+      "slot": "M_Eye",
+      "path": "/Game/Operative/Materials/M_Eye.M_Eye",
+      "class": "Material",
+      "expressions": 4,
+      "expression_names": [
+        "<Object '/Game/Operative/Materials/M_Eye.M_Eye:MaterialExpressionTextureSample_0' (0x9cd9b8fac80) Class 'MaterialExpressionTextureSample'>",
+        "<Object '/Game/Operative/Materials/M_Eye.M_Eye:MaterialExpressionTextureSample_1' (0x9cd9b8faf00) Class 'MaterialExpressionTextureSample'>",
+        "<Object '/Game/Operative/Materials/M_Eye.M_Eye:MaterialExpressionTextureSample_2' (0x9cd9b8fb180) Class 'MaterialExpressionTextureSample'>",
+        "<Object '/Game/Operative/Materials/M_Eye.M_Eye:MaterialExpressionConstant_0' (0x9cd43a18f80) Class 'MaterialExpressionConstant'>"
+      ]
+    },
+    {
+      "slot": "M_Hair",
+      "path": "/Game/Operative/Materials/M_Hair.M_Hair",
+      "class": "Material",
+      "expressions": 4,
+      "expression_names": [
+        "<Object '/Game/Operative/Materials/M_Hair.M_Hair:MaterialExpressionTextureSample_0' (0x9cd9b8fb400) Class 'MaterialExpressionTextureSample'>",
+        "<Object '/Game/Operative/Materials/M_Hair.M_Hair:MaterialExpressionTextureSample_1' (0x9cd9b8fb680) Class 'MaterialExpressionTextureSample'>",
+        "<Object '/Game/Operative/Materials/M_Hair.M_Hair:MaterialExpressionTextureSample_2' (0x9cd9b8fb900) Class 'MaterialExpressionTextureSample'>",
+        "<Object '/Game/Operative/Materials/M_Hair.M_Hair:MaterialExpressionConstant_0' (0x9cd43a19060) Class 'MaterialExpressionConstant'>"
+      ]
+    }
+  ],
+  "skin_BaseColor": {
+    "path": "/Game/Operative/Textures/skin_BaseColor.skin_BaseColor",
+    "srgb": true,
+    "size": [
+      1024,
+      1024
+    ]
+  },
+  "skin_Roughness": {
+    "path": "/Game/Operative/Textures/skin_Roughness.skin_Roughness",
+    "srgb": false,
+    "size": [
+      1024,
+      1024
+    ]
+  },
+  "skin_Normal": {
+    "path": "/Game/Operative/Textures/skin_Normal.skin_Normal",
+    "srgb": false,
+    "size": [
+      1024,
+      1024
+    ]
+  },
+  "suit_BaseColor": {
+    "path": "/Game/Operative/Textures/suit_BaseColor.suit_BaseColor",
+    "srgb": true,
+    "size": [
+      2048,
+      2048
+    ]
+  }
+}

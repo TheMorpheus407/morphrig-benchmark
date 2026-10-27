@@ -1,0 +1,15 @@
+{
+  "size": 1024,
+  "base_color_linear": [
+    0.56,
+    0.31,
+    0.205
+  ],
+  "roughness": 0.51,
+  "metalness": 0,
+  "maps": {
+    "BaseColor": "textures/skin_BaseColor.png",
+    "Roughness": "textures/skin_Roughness.png",
+    "Normal": "textures/skin_Normal.png"
+  }
+}

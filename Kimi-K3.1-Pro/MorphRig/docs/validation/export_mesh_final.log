@@ -1,0 +1,26 @@
+00:00.513  blend            | Read blend: "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/source/Operative.blend"
+MESH_LOD_PREPARED Operative_LOD0
+MESH_LOD_PREPARED Operative_LOD1
+MESH_LOD_PREPARED Operative_LOD2
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/Operative_LOD0.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1334 sec.
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/Operative_LOD1.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.0998 sec.
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/Operative_LOD2.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1010 sec.
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/Operative.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1155 sec.
+MESH_EXPORTED Operative.fbx as LOD0; Operative_LOD0/1/2.fbx are the explicit LOD import files
+BLENDER_EXPORT_COMPLETE {"mesh": "export/Operative.fbx", "lods": ["export/Operative_LOD0.fbx", "export/Operative_LOD1.fbx", "export/Operative_LOD2.fbx"], "animations": 96, "fps": 30, "status": "exported; Unreal import audit is separate"}
+Blender 5.1.1
+scripts disabled for "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/source/Operative.blend", skipping 'START_HERE_Rig_Controls.py'
+
+Blender quit

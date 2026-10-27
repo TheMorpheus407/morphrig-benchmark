@@ -1,0 +1,28 @@
+{
+  "kind": "motion",
+  "fps": 30,
+  "frames": 1260,
+  "engine": "5.8.3-58210709+++UE5+Release-5.8",
+  "mesh_loaded": true,
+  "directory": "build/Linux/MorphRig/Saved/MorphRig/MorphCapture/motion",
+  "capture_step_seconds": 0.03333333333333333,
+  "video": "presentation/motion_showcase.mp4",
+  "verified_frame_count": 1260,
+  "video_probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "duration": "42.000000",
+        "nb_frames": "1260"
+      }
+    ],
+    "format": {
+      "duration": "42.000000"
+    }
+  }
+}

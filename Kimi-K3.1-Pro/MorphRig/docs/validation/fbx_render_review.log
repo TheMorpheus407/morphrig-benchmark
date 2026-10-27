@@ -1,0 +1,26 @@
+00:02.641  render           | Saved: '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/docs/validation/fbx_face_review.png'
+FBX version: 7400
+{
+  "file": "export/Operative_LOD0.fbx",
+  "mesh_objects": 1,
+  "deformation_bones": 70,
+  "height_source_units": 180.00001788825648,
+  "eye_head_delta": [
+    0.0,
+    -5.799999713897705,
+    14.199996948242188
+  ],
+  "camera_location": [
+    0.0,
+    -25.53813362121582,
+    219.8243865966797
+  ],
+  "camera_forward": [
+    0.0,
+    19.738134384155273,
+    -50.1243896484375
+  ]
+}
+Blender 5.1.1
+
+Blender quit

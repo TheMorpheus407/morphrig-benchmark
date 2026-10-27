@@ -1,0 +1,50 @@
+{
+  "mesh_skeleton": "/Game/Operative/SK_Operative_Skeleton.SK_Operative_Skeleton",
+  "clip_skeleton": "/Game/Operative/SK_Operative_Skeleton.SK_Operative_Skeleton",
+  "clip_tracks": 70,
+  "clip_root": "<Struct 'Transform' (0x733780d87420) {rotation: {x: 0.500000, y: -0.500000, z: 0.500000, w: 0.500000}, translation: {x: 0.000000, y: 0.000000, z: 0.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+  "before": {
+    "root": {
+      "mesh_rest": "<Struct 'Transform' (0x733780d87420) {rotation: {x: -0.000000, y: 0.000000, z: -0.000000, w: 1.000000}, translation: {x: 0.000000, y: 0.000000, z: 0.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+      "skeleton_local": "<Struct 'Transform' (0x733780d87150) {rotation: {x: -0.000000, y: 0.000000, z: -0.000000, w: 1.000000}, translation: {x: 0.000000, y: 0.000000, z: 0.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+      "skeleton_world": "<Struct 'Transform' (0x733780d874b0) {rotation: {x: -0.000000, y: 0.000000, z: -0.000000, w: 1.000000}, translation: {x: 0.000000, y: 0.000000, z: 0.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+      "mesh_skeleton_angle": 0.0,
+      "mesh_skeleton_position_error": 0.0
+    },
+    "pelvis": {
+      "mesh_rest": "<Struct 'Transform' (0x733780d87780) {rotation: {x: 0.000000, y: -0.000000, z: 0.000000, w: -1.000000}, translation: {x: -0.000000, y: 0.000000, z: 99.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+      "skeleton_local": "<Struct 'Transform' (0x733780d87420) {rotation: {x: 0.000000, y: -0.000000, z: 0.000000, w: -1.000000}, translation: {x: 0.000000, y: -0.000000, z: 99.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+      "skeleton_world": "<Struct 'Transform' (0x733780d87150) {rotation: {x: 0.000000, y: -0.000000, z: 0.000000, w: -1.000000}, translation: {x: -0.000000, y: 0.000000, z: 99.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+      "mesh_skeleton_angle": 0.0,
+      "mesh_skeleton_position_error": 0.0
+    },
+    "head": {
+      "mesh_rest": "<Struct 'Transform' (0x733780d874b0) {rotation: {x: -0.000000, y: 0.000000, z: -0.000000, w: 1.000000}, translation: {x: -0.000000, y: 0.000000, z: 155.500001}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+      "skeleton_local": "<Struct 'Transform' (0x733780d87780) {rotation: {x: 0.000000, y: -0.000000, z: 0.000000, w: -1.000000}, translation: {x: 0.000000, y: -0.000000, z: 6.000001}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+      "skeleton_world": "<Struct 'Transform' (0x733780d87420) {rotation: {x: -0.000000, y: 0.000000, z: -0.000000, w: 1.000000}, translation: {x: -0.000000, y: 0.000000, z: 155.500001}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+      "mesh_skeleton_angle": 0.0,
+      "mesh_skeleton_position_error": 0.0
+    },
+    "eye_L": {
+      "mesh_rest": "<Struct 'Transform' (0x733780d87150) {rotation: {x: 0.707107, y: 0.000000, z: 0.707107, w: -0.000000}, translation: {x: 5.800000, y: -3.700000, z: 169.699998}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+      "skeleton_local": "<Struct 'Transform' (0x733780d874b0) {rotation: {x: 0.707107, y: 0.000000, z: 0.707107, w: -0.000000}, translation: {x: 5.800000, y: -3.700000, z: 14.199999}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+      "skeleton_world": "<Struct 'Transform' (0x733780d87780) {rotation: {x: 0.707107, y: 0.000000, z: 0.707107, w: -0.000000}, translation: {x: 5.800000, y: -3.700000, z: 169.699998}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+      "mesh_skeleton_angle": 1.7075472925031877e-06,
+      "mesh_skeleton_position_error": 0.0
+    },
+    "thigh_L": {
+      "mesh_rest": "<Struct 'Transform' (0x733780d87420) {rotation: {x: -0.003691, y: 0.999639, z: -0.003691, w: 0.026337}, translation: {x: -0.000000, y: -10.500000, z: 96.699997}, scale3d: {x: 1.000002, y: 1.000000, z: 1.000000}}>",
+      "skeleton_local": "<Struct 'Transform' (0x733780d87150) {rotation: {x: 0.003691, y: -0.999639, z: 0.003691, w: -0.026337}, translation: {x: 0.000000, y: -10.500000, z: -2.800003}, scale3d: {x: 1.000002, y: 1.000000, z: 1.000000}}>",
+      "skeleton_world": "<Struct 'Transform' (0x733780d874b0) {rotation: {x: -0.003691, y: 0.999639, z: -0.003691, w: 0.026337}, translation: {x: -0.000000, y: -10.500000, z: 96.699997}, scale3d: {x: 1.000002, y: 1.000000, z: 1.000000}}>",
+      "mesh_skeleton_angle": 0.0,
+      "mesh_skeleton_position_error": 0.0
+    },
+    "hand_L": {
+      "mesh_rest": "<Struct 'Transform' (0x733780d87780) {rotation: {x: -0.000000, y: 0.999379, z: 0.000000, w: 0.035228}, translation: {x: 3.600005, y: -30.499993, z: 96.200001}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+      "skeleton_local": "<Struct 'Transform' (0x733780d87420) {rotation: {x: 0.063244, y: -0.005544, z: -0.067866, w: -0.995672}, translation: {x: -0.000001, y: -0.000001, z: 22.366262}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+      "skeleton_world": "<Struct 'Transform' (0x733780d87150) {rotation: {x: -0.000000, y: 0.999379, z: 0.000000, w: 0.035228}, translation: {x: 3.600005, y: -30.499993, z: 96.200001}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+      "mesh_skeleton_angle": 4.517745362860617e-06,
+      "mesh_skeleton_position_error": 0.0
+    }
+  }
+}

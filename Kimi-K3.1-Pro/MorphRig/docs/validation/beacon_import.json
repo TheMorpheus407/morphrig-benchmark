@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "asset": "/Game/Operative/ST_Beacon",
+  "reused": true,
+  "vertices": 537,
+  "triangles": 788,
+  "sections": 3,
+  "bounds_extent_cm": [
+    4.73304295539856,
+    4.84333062171936,
+    2.9616594314575195
+  ],
+  "material_slots": [
+    "M_Armor",
+    "M_Metal",
+    "M_Emissive"
+  ],
+  "uv_channels": 1,
+  "source": "export/Beacon.fbx",
+  "fbx_sha256": "3d46e1708cadb38a2fc9ea1109618de23edf49487ea6b8e941c85991ced5083b",
+  "axis_mapping": [
+    [
+      0,
+      -1,
+      0
+    ],
+    [
+      -1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "persisted": true,
+  "scale": "Source-object scale 100; import_uniform_scale=1 and convert_scene_unit=False",
+  "bounds_extent_convention": "Unreal half-extents in centimeters; the source-axis full spans are halved for comparison"
+}

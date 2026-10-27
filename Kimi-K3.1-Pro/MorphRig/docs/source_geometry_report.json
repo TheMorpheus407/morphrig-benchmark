@@ -1,0 +1,50 @@
+{
+  "units": "meters",
+  "height_m": 1.8,
+  "bones": 70,
+  "triangles": {
+    "LOD0": 26326,
+    "LOD1": 21482,
+    "LOD2": 19062
+  },
+  "materials": [
+    "M_Skin",
+    "M_Suit",
+    "M_Armor",
+    "M_Metal",
+    "M_Accent",
+    "M_Emissive",
+    "M_Eye",
+    "M_Hair"
+  ],
+  "shape_keys": [
+    "JawOpen",
+    "Blink.L",
+    "Blink.R",
+    "Squint.L",
+    "Squint.R",
+    "BrowRaise.L",
+    "BrowRaise.R",
+    "BrowLower.L",
+    "BrowLower.R",
+    "Cheek.L",
+    "Cheek.R",
+    "LipClosed",
+    "Smile.L",
+    "Smile.R",
+    "Frown.L",
+    "Frown.R",
+    "MouthWidth",
+    "Pucker",
+    "Funnel",
+    "Viseme_MBP",
+    "Viseme_FV",
+    "Viseme_AA",
+    "Viseme_EE",
+    "Viseme_OO",
+    "Viseme_TH",
+    "Viseme_CH"
+  ],
+  "max_influences": 3,
+  "uv_sets": 1
+}

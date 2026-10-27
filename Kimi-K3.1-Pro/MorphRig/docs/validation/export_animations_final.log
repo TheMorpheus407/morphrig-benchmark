@@ -1,0 +1,486 @@
+00:00.517  blend            | Read blend: "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/source/Operative.blend"
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/idle_relaxed.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.2367 sec.
+ANIMATION_EXPORTED idle_relaxed 91
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/idle_combat.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.2290 sec.
+ANIMATION_EXPORTED idle_combat 91
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/idle_wounded.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.2342 sec.
+ANIMATION_EXPORTED idle_wounded 91
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/walk_f.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1446 sec.
+ANIMATION_EXPORTED walk_f 37
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/walk_fl.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1742 sec.
+ANIMATION_EXPORTED walk_fl 37
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/walk_l.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1569 sec.
+ANIMATION_EXPORTED walk_l 37
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/walk_bl.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1630 sec.
+ANIMATION_EXPORTED walk_bl 37
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/walk_b.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1591 sec.
+ANIMATION_EXPORTED walk_b 37
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/walk_br.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1450 sec.
+ANIMATION_EXPORTED walk_br 37
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/walk_r.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1727 sec.
+ANIMATION_EXPORTED walk_r 37
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/walk_fr.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1592 sec.
+ANIMATION_EXPORTED walk_fr 37
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/run_f.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1468 sec.
+ANIMATION_EXPORTED run_f 25
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/run_fl.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1413 sec.
+ANIMATION_EXPORTED run_fl 25
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/run_l.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1512 sec.
+ANIMATION_EXPORTED run_l 25
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/run_bl.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1471 sec.
+ANIMATION_EXPORTED run_bl 25
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/run_b.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1351 sec.
+ANIMATION_EXPORTED run_b 25
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/run_br.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1402 sec.
+ANIMATION_EXPORTED run_br 25
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/run_r.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1474 sec.
+ANIMATION_EXPORTED run_r 25
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/run_fr.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1468 sec.
+ANIMATION_EXPORTED run_fr 25
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/sprint_f.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1332 sec.
+ANIMATION_EXPORTED sprint_f 19
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/start_f.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1306 sec.
+ANIMATION_EXPORTED start_f 19
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/stop_f.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1438 sec.
+ANIMATION_EXPORTED stop_f 19
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/turn_l90.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1466 sec.
+ANIMATION_EXPORTED turn_l90 25
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/turn_r90.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1517 sec.
+ANIMATION_EXPORTED turn_r90 25
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/pivot_l180.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1381 sec.
+ANIMATION_EXPORTED pivot_l180 25
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/pivot_r180.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1458 sec.
+ANIMATION_EXPORTED pivot_r180 25
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/jump_start.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1223 sec.
+ANIMATION_EXPORTED jump_start 19
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/jump_air.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1446 sec.
+ANIMATION_EXPORTED jump_air 25
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/jump_land.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1489 sec.
+ANIMATION_EXPORTED jump_land 25
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/fall.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1540 sec.
+ANIMATION_EXPORTED fall 31
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/land_heavy.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1519 sec.
+ANIMATION_EXPORTED land_heavy 31
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/dash_f.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1474 sec.
+ANIMATION_EXPORTED dash_f 19
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/dash_b.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1518 sec.
+ANIMATION_EXPORTED dash_b 19
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/dash_l.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1200 sec.
+ANIMATION_EXPORTED dash_l 19
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/dash_r.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1354 sec.
+ANIMATION_EXPORTED dash_r 19
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/blink_out.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1283 sec.
+ANIMATION_EXPORTED blink_out 13
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/blink_in.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1310 sec.
+ANIMATION_EXPORTED blink_in 13
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/melee_1.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1578 sec.
+ANIMATION_EXPORTED melee_1 31
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/melee_2.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1596 sec.
+ANIMATION_EXPORTED melee_2 31
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/melee_3.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1808 sec.
+ANIMATION_EXPORTED melee_3 37
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/ranged_fire.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1214 sec.
+ANIMATION_EXPORTED ranged_fire 13
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/ranged_burst.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1430 sec.
+ANIMATION_EXPORTED ranged_burst 19
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/reload.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1787 sec.
+ANIMATION_EXPORTED reload 61
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/cast_directional.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1511 sec.
+ANIMATION_EXPORTED cast_directional 31
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/cast_ground.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1697 sec.
+ANIMATION_EXPORTED cast_ground 37
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/cast_self.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1552 sec.
+ANIMATION_EXPORTED cast_self 31
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/channel_start.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1400 sec.
+ANIMATION_EXPORTED channel_start 16
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/channel_loop.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1647 sec.
+ANIMATION_EXPORTED channel_loop 37
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/channel_end.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1294 sec.
+ANIMATION_EXPORTED channel_end 19
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/channel_interrupt.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1134 sec.
+ANIMATION_EXPORTED channel_interrupt 13
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/charge_start.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1462 sec.
+ANIMATION_EXPORTED charge_start 25
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/charge_hold.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1696 sec.
+ANIMATION_EXPORTED charge_hold 37
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/charge_release.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1463 sec.
+ANIMATION_EXPORTED charge_release 25
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/charge_cancel.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1401 sec.
+ANIMATION_EXPORTED charge_cancel 16
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/deploy.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1902 sec.
+ANIMATION_EXPORTED deploy 49
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/uplink_start.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1484 sec.
+ANIMATION_EXPORTED uplink_start 25
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/uplink_loop.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1864 sec.
+ANIMATION_EXPORTED uplink_loop 49
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/uplink_end.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1437 sec.
+ANIMATION_EXPORTED uplink_end 19
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/uplink_cancel.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1319 sec.
+ANIMATION_EXPORTED uplink_cancel 16
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/hit_f.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1203 sec.
+ANIMATION_EXPORTED hit_f 10
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/hit_b.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1322 sec.
+ANIMATION_EXPORTED hit_b 10
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/hit_l.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1177 sec.
+ANIMATION_EXPORTED hit_l 10
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/hit_r.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1209 sec.
+ANIMATION_EXPORTED hit_r 10
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/stun_start.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1530 sec.
+ANIMATION_EXPORTED stun_start 25
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/stun_loop.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1611 sec.
+ANIMATION_EXPORTED stun_loop 49
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/stun_end.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1484 sec.
+ANIMATION_EXPORTED stun_end 25
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/knockback.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1479 sec.
+ANIMATION_EXPORTED knockback 25
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/knockup_start.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1504 sec.
+ANIMATION_EXPORTED knockup_start 19
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/knockup_air.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1687 sec.
+ANIMATION_EXPORTED knockup_air 37
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/knockdown_front.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.2100 sec.
+ANIMATION_EXPORTED knockdown_front 67
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/knockdown_back.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1884 sec.
+ANIMATION_EXPORTED knockdown_back 67
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/prone_front.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.2023 sec.
+ANIMATION_EXPORTED prone_front 61
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/prone_back.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.2008 sec.
+ANIMATION_EXPORTED prone_back 61
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/getup_front.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.2293 sec.
+ANIMATION_EXPORTED getup_front 91
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/getup_back.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.2452 sec.
+ANIMATION_EXPORTED getup_back 91
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/sleep_start.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.2092 sec.
+ANIMATION_EXPORTED sleep_start 73
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/sleep_loop.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.2330 sec.
+ANIMATION_EXPORTED sleep_loop 91
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/sleep_end.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.2164 sec.
+ANIMATION_EXPORTED sleep_end 73
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/death_front.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.2505 sec.
+ANIMATION_EXPORTED death_front 97
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/death_back.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.2464 sec.
+ANIMATION_EXPORTED death_back 100
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/dead_front.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1081 sec.
+ANIMATION_EXPORTED dead_front 1
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/dead_back.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1264 sec.
+ANIMATION_EXPORTED dead_back 1
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/respawn.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.2336 sec.
+ANIMATION_EXPORTED respawn 85
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/greet.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.2139 sec.
+ANIMATION_EXPORTED greet 67
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/victory.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.2253 sec.
+ANIMATION_EXPORTED victory 91
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/defeat.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.2161 sec.
+ANIMATION_EXPORTED defeat 73
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/dialogue.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.6987 sec.
+ANIMATION_EXPORTED dialogue 457
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/aim_down_left.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1071 sec.
+ANIMATION_EXPORTED aim_down_left 1
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/aim_down_center.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1209 sec.
+ANIMATION_EXPORTED aim_down_center 1
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/aim_down_right.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1143 sec.
+ANIMATION_EXPORTED aim_down_right 1
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/aim_level_left.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1132 sec.
+ANIMATION_EXPORTED aim_level_left 1
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/aim_level_center.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1140 sec.
+ANIMATION_EXPORTED aim_level_center 1
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/aim_level_right.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1111 sec.
+ANIMATION_EXPORTED aim_level_right 1
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/aim_up_left.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1096 sec.
+ANIMATION_EXPORTED aim_up_left 1
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/aim_up_center.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1132 sec.
+ANIMATION_EXPORTED aim_up_center 1
+
+FBX export starting... '/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/export/animations/aim_up_right.fbx'
+(bpy.data.armatures['Operative_DEF_Skeleton'], 'POSE')
+export finished in 0.1274 sec.
+ANIMATION_EXPORTED aim_up_right 1
+BLENDER_EXPORT_COMPLETE {"mesh": "export/Operative.fbx", "lods": ["export/Operative_LOD0.fbx", "export/Operative_LOD1.fbx", "export/Operative_LOD2.fbx"], "animations": 96, "fps": 30, "status": "exported; Unreal import audit is separate"}
+Blender 5.1.1
+scripts disabled for "/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphRig/Kimi-K3.1/MorphRig/source/Operative.blend", skipping 'START_HERE_Rig_Controls.py'
+
+Blender quit

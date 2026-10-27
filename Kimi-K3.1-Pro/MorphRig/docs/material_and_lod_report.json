@@ -1,0 +1,491 @@
+{
+  "schema": "MorphRig.material_and_lod_report/1.2",
+  "source_units": "meters, Z-up, forward -Y, root at ground origin",
+  "unreal_units": "centimeters, Z-up; imported facing and actor-space yaw are documented in skeleton_and_sockets.json",
+  "standing_height": {
+    "source_m": 1.8,
+    "unreal_cm": 180.0,
+    "import_scale_repair": false
+  },
+  "material_slots_total": 8,
+  "materials": [
+    "M_Skin",
+    "M_Suit",
+    "M_Armor",
+    "M_Metal",
+    "M_Accent",
+    "M_Emissive",
+    "M_Eye",
+    "M_Hair"
+  ],
+  "texture_count": 24,
+  "texture_memory_estimate": {
+    "decoded_one_resident_rgba8_set_bytes": 157286400,
+    "decoded_with_4_3_mip_chain_bytes": 209715200,
+    "typical_block_compressed_with_mips_bytes": 43690667,
+    "basis": "One shared texture set, not duplicate source/export folders. Typical estimate uses 1 byte/pixel for BaseColor and normal and 0.5 byte/pixel for roughness, with a 4/3 mip chain. Actual GPU allocation is driver/compression dependent and is not presented as a measured allocation."
+  },
+  "textures": [
+    {
+      "file": "source/textures/accent_BaseColor.png",
+      "width": 1024,
+      "height": 1024,
+      "decoded_rgba8_bytes": 4194304,
+      "export_copy": "export/textures/accent_BaseColor.png",
+      "usage": "BaseColor"
+    },
+    {
+      "file": "source/textures/accent_Normal.png",
+      "width": 1024,
+      "height": 1024,
+      "decoded_rgba8_bytes": 4194304,
+      "export_copy": "export/textures/accent_Normal.png",
+      "usage": "Normal"
+    },
+    {
+      "file": "source/textures/accent_Roughness.png",
+      "width": 1024,
+      "height": 1024,
+      "decoded_rgba8_bytes": 4194304,
+      "export_copy": "export/textures/accent_Roughness.png",
+      "usage": "Roughness"
+    },
+    {
+      "file": "source/textures/armor_BaseColor.png",
+      "width": 2048,
+      "height": 2048,
+      "decoded_rgba8_bytes": 16777216,
+      "export_copy": "export/textures/armor_BaseColor.png",
+      "usage": "BaseColor"
+    },
+    {
+      "file": "source/textures/armor_Normal.png",
+      "width": 2048,
+      "height": 2048,
+      "decoded_rgba8_bytes": 16777216,
+      "export_copy": "export/textures/armor_Normal.png",
+      "usage": "Normal"
+    },
+    {
+      "file": "source/textures/armor_Roughness.png",
+      "width": 2048,
+      "height": 2048,
+      "decoded_rgba8_bytes": 16777216,
+      "export_copy": "export/textures/armor_Roughness.png",
+      "usage": "Roughness"
+    },
+    {
+      "file": "source/textures/emissive_BaseColor.png",
+      "width": 512,
+      "height": 512,
+      "decoded_rgba8_bytes": 1048576,
+      "export_copy": "export/textures/emissive_BaseColor.png",
+      "usage": "BaseColor"
+    },
+    {
+      "file": "source/textures/emissive_Normal.png",
+      "width": 512,
+      "height": 512,
+      "decoded_rgba8_bytes": 1048576,
+      "export_copy": "export/textures/emissive_Normal.png",
+      "usage": "Normal"
+    },
+    {
+      "file": "source/textures/emissive_Roughness.png",
+      "width": 512,
+      "height": 512,
+      "decoded_rgba8_bytes": 1048576,
+      "export_copy": "export/textures/emissive_Roughness.png",
+      "usage": "Roughness"
+    },
+    {
+      "file": "source/textures/eye_BaseColor.png",
+      "width": 512,
+      "height": 512,
+      "decoded_rgba8_bytes": 1048576,
+      "export_copy": "export/textures/eye_BaseColor.png",
+      "usage": "BaseColor"
+    },
+    {
+      "file": "source/textures/eye_Normal.png",
+      "width": 512,
+      "height": 512,
+      "decoded_rgba8_bytes": 1048576,
+      "export_copy": "export/textures/eye_Normal.png",
+      "usage": "Normal"
+    },
+    {
+      "file": "source/textures/eye_Roughness.png",
+      "width": 512,
+      "height": 512,
+      "decoded_rgba8_bytes": 1048576,
+      "export_copy": "export/textures/eye_Roughness.png",
+      "usage": "Roughness"
+    },
+    {
+      "file": "source/textures/hair_BaseColor.png",
+      "width": 1024,
+      "height": 1024,
+      "decoded_rgba8_bytes": 4194304,
+      "export_copy": "export/textures/hair_BaseColor.png",
+      "usage": "BaseColor"
+    },
+    {
+      "file": "source/textures/hair_Normal.png",
+      "width": 1024,
+      "height": 1024,
+      "decoded_rgba8_bytes": 4194304,
+      "export_copy": "export/textures/hair_Normal.png",
+      "usage": "Normal"
+    },
+    {
+      "file": "source/textures/hair_Roughness.png",
+      "width": 1024,
+      "height": 1024,
+      "decoded_rgba8_bytes": 4194304,
+      "export_copy": "export/textures/hair_Roughness.png",
+      "usage": "Roughness"
+    },
+    {
+      "file": "source/textures/metal_BaseColor.png",
+      "width": 1024,
+      "height": 1024,
+      "decoded_rgba8_bytes": 4194304,
+      "export_copy": "export/textures/metal_BaseColor.png",
+      "usage": "BaseColor"
+    },
+    {
+      "file": "source/textures/metal_Normal.png",
+      "width": 1024,
+      "height": 1024,
+      "decoded_rgba8_bytes": 4194304,
+      "export_copy": "export/textures/metal_Normal.png",
+      "usage": "Normal"
+    },
+    {
+      "file": "source/textures/metal_Roughness.png",
+      "width": 1024,
+      "height": 1024,
+      "decoded_rgba8_bytes": 4194304,
+      "export_copy": "export/textures/metal_Roughness.png",
+      "usage": "Roughness"
+    },
+    {
+      "file": "source/textures/skin_BaseColor.png",
+      "width": 1024,
+      "height": 1024,
+      "decoded_rgba8_bytes": 4194304,
+      "export_copy": "export/textures/skin_BaseColor.png",
+      "usage": "BaseColor"
+    },
+    {
+      "file": "source/textures/skin_Normal.png",
+      "width": 1024,
+      "height": 1024,
+      "decoded_rgba8_bytes": 4194304,
+      "export_copy": "export/textures/skin_Normal.png",
+      "usage": "Normal"
+    },
+    {
+      "file": "source/textures/skin_Roughness.png",
+      "width": 1024,
+      "height": 1024,
+      "decoded_rgba8_bytes": 4194304,
+      "export_copy": "export/textures/skin_Roughness.png",
+      "usage": "Roughness"
+    },
+    {
+      "file": "source/textures/suit_BaseColor.png",
+      "width": 2048,
+      "height": 2048,
+      "decoded_rgba8_bytes": 16777216,
+      "export_copy": "export/textures/suit_BaseColor.png",
+      "usage": "BaseColor"
+    },
+    {
+      "file": "source/textures/suit_Normal.png",
+      "width": 2048,
+      "height": 2048,
+      "decoded_rgba8_bytes": 16777216,
+      "export_copy": "export/textures/suit_Normal.png",
+      "usage": "Normal"
+    },
+    {
+      "file": "source/textures/suit_Roughness.png",
+      "width": 2048,
+      "height": 2048,
+      "decoded_rgba8_bytes": 16777216,
+      "export_copy": "export/textures/suit_Roughness.png",
+      "usage": "Roughness"
+    }
+  ],
+  "max_texture_dimension": 2048,
+  "deformation_bones": 70,
+  "max_effective_bone_influences": 3,
+  "uv_channels": 1,
+  "facial_shapes": 26,
+  "animation_inventory": {
+    "entries": 96,
+    "motion": 85,
+    "static_poses": 11,
+    "fps": 30
+  },
+  "lods": [
+    {
+      "lod": 0,
+      "source_triangles": 26326,
+      "required_triangle_budget": 80000,
+      "within_budget": true,
+      "reduction_method": "Collapse-decimated body with retained explicit skin weights and UVs; face/eyes/mouth and equipped props shared to preserve close inspection and morph usability",
+      "same_mesh_duplicate": false,
+      "skeleton": "Same 70-bone hierarchy",
+      "native_morph_target_count": 26,
+      "native_material_slot_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "unreal_render_triangles": 26326,
+      "unreal_vertices": 19235,
+      "unreal_sections": 8
+    },
+    {
+      "lod": 1,
+      "source_triangles": 21482,
+      "required_triangle_budget": 40000,
+      "within_budget": true,
+      "reduction_method": "Collapse-decimated body with retained explicit skin weights and UVs; face/eyes/mouth and equipped props shared to preserve close inspection and morph usability",
+      "same_mesh_duplicate": false,
+      "skeleton": "Same 70-bone hierarchy",
+      "native_morph_target_count": 26,
+      "native_material_slot_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "unreal_render_triangles": 21482,
+      "unreal_vertices": 16312,
+      "unreal_sections": 8
+    },
+    {
+      "lod": 2,
+      "source_triangles": 19062,
+      "required_triangle_budget": 20000,
+      "within_budget": true,
+      "reduction_method": "Collapse-decimated body with retained explicit skin weights and UVs; face/eyes/mouth and equipped props shared to preserve close inspection and morph usability",
+      "same_mesh_duplicate": false,
+      "skeleton": "Same 70-bone hierarchy",
+      "native_morph_target_count": 26,
+      "native_material_slot_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "unreal_render_triangles": 19062,
+      "unreal_vertices": 13901,
+      "unreal_sections": 8
+    }
+  ],
+  "unreal_import": {
+    "status": "PASS",
+    "height_cm": 180.0000008610358,
+    "bone_count": 70,
+    "morph_names": [
+      "JawOpen",
+      "Blink_L",
+      "Blink_R",
+      "Squint_L",
+      "Squint_R",
+      "BrowRaise_L",
+      "BrowRaise_R",
+      "BrowLower_L",
+      "BrowLower_R",
+      "Cheek_L",
+      "Cheek_R",
+      "LipClosed",
+      "Smile_L",
+      "Smile_R",
+      "Frown_L",
+      "Frown_R",
+      "MouthWidth",
+      "Pucker",
+      "Funnel",
+      "Viseme_MBP",
+      "Viseme_FV",
+      "Viseme_AA",
+      "Viseme_EE",
+      "Viseme_OO",
+      "Viseme_TH",
+      "Viseme_CH"
+    ],
+    "material_slots": [
+      "M_Skin",
+      "M_Suit",
+      "M_Armor",
+      "M_Metal",
+      "M_Accent",
+      "M_Emissive",
+      "M_Eye",
+      "M_Hair"
+    ],
+    "material_interfaces": [
+      {
+        "slot": "M_Skin",
+        "asset": "/Game/Operative/Materials/M_Skin.M_Skin",
+        "expressions": 4
+      },
+      {
+        "slot": "M_Suit",
+        "asset": "/Game/Operative/Materials/M_Suit.M_Suit",
+        "expressions": 4
+      },
+      {
+        "slot": "M_Armor",
+        "asset": "/Game/Operative/Materials/M_Armor.M_Armor",
+        "expressions": 4
+      },
+      {
+        "slot": "M_Metal",
+        "asset": "/Game/Operative/Materials/M_Metal.M_Metal",
+        "expressions": 4
+      },
+      {
+        "slot": "M_Accent",
+        "asset": "/Game/Operative/Materials/M_Accent.M_Accent",
+        "expressions": 6
+      },
+      {
+        "slot": "M_Emissive",
+        "asset": "/Game/Operative/Materials/M_Emissive.M_Emissive",
+        "expressions": 6
+      },
+      {
+        "slot": "M_Eye",
+        "asset": "/Game/Operative/Materials/M_Eye.M_Eye",
+        "expressions": 4
+      },
+      {
+        "slot": "M_Hair",
+        "asset": "/Game/Operative/Materials/M_Hair.M_Hair",
+        "expressions": 4
+      }
+    ],
+    "lod_render_data": [
+      {
+        "lod": 0,
+        "expected_source_triangles": 26326,
+        "render_triangles": 26326,
+        "vertices": 19235,
+        "sections": 8,
+        "material_slot_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "morph_target_count": 26
+      },
+      {
+        "lod": 1,
+        "expected_source_triangles": 21482,
+        "render_triangles": 21482,
+        "vertices": 16312,
+        "sections": 8,
+        "material_slot_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "morph_target_count": 26
+      },
+      {
+        "lod": 2,
+        "expected_source_triangles": 19062,
+        "render_triangles": 19062,
+        "vertices": 13901,
+        "sections": 8,
+        "material_slot_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "morph_target_count": 26
+      }
+    ],
+    "clip_count": 96,
+    "texture_count": 24,
+    "socket_count": 10,
+    "audio_duration_seconds": 15.199954986572266
+  },
+  "deployed_beacon": {
+    "status": "PASS",
+    "asset": "/Game/Operative/ST_Beacon",
+    "reused": true,
+    "vertices": 537,
+    "triangles": 788,
+    "sections": 3,
+    "bounds_extent_cm": [
+      4.73304295539856,
+      4.84333062171936,
+      2.9616594314575195
+    ],
+    "material_slots": [
+      "M_Armor",
+      "M_Metal",
+      "M_Emissive"
+    ],
+    "uv_channels": 1,
+    "source": "export/Beacon.fbx",
+    "fbx_sha256": "3d46e1708cadb38a2fc9ea1109618de23edf49487ea6b8e941c85991ced5083b",
+    "axis_mapping": [
+      [
+        0,
+        -1,
+        0
+      ],
+      [
+        -1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "persisted": true,
+    "scale": "Source-object scale 100; import_uniform_scale=1 and convert_scene_unit=False",
+    "bounds_extent_convention": "Unreal half-extents in centimeters; the source-axis full spans are halved for comparison"
+  },
+  "source_validation": "PASS"
+}
