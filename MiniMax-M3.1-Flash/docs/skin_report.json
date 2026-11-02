@@ -1,0 +1,19 @@
+{
+  "unbound": [],
+  "edge_ratio": {
+    "idle_combat": 1.0,
+    "walk_f": 0.995,
+    "run_f": 0.986,
+    "dash_f": 0.985,
+    "melee_1": 0.999,
+    "cast_directional": 0.996,
+    "ranged_fire": 0.993,
+    "reload": 0.984,
+    "death_front": 0.97,
+    "respawn": 0.996
+  },
+  "rest_edge_max": 0.1578,
+  "unbound_count": 0,
+  "generic_tag_vertices": [],
+  "generic_tag_count": 0
+}

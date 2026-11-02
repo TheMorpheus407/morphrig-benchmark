@@ -1,0 +1,268 @@
+{
+  "audio": "source/audio/dialogue.wav",
+  "transcript": "Command, this is Operative Seven. The relay is patched and the perimeter is clear. I am moving to the extraction point now. Keep the channel open. Stay off the grid until I confirm.",
+  "sample_rate": 22050,
+  "fps": 30,
+  "duration": 12.5332,
+  "lead_in": 0.25,
+  "phrases": [
+    {
+      "text": "Command, this is Operative Seven.",
+      "start": 0.25,
+      "end": 2.3862
+    },
+    {
+      "text": "The relay is patched and the perimeter is clear.",
+      "start": 2.6662,
+      "end": 5.232
+    },
+    {
+      "text": "I am moving to the extraction point now.",
+      "start": 5.512,
+      "end": 7.8108
+    },
+    {
+      "text": "Keep the channel open.",
+      "start": 8.0908,
+      "end": 9.217
+    },
+    {
+      "text": "Stay off the grid until I confirm.",
+      "start": 9.497,
+      "end": 11.6332
+    }
+  ],
+  "words": [
+    {
+      "word": "Command,",
+      "start": 0.25,
+      "end": 0.7045,
+      "start_frame": 8,
+      "end_frame": 21
+    },
+    {
+      "word": "this",
+      "start": 0.7045,
+      "end": 1.0528,
+      "start_frame": 21,
+      "end_frame": 32
+    },
+    {
+      "word": "is",
+      "start": 1.0528,
+      "end": 1.3572,
+      "start_frame": 32,
+      "end_frame": 41
+    },
+    {
+      "word": "Operative",
+      "start": 1.3572,
+      "end": 1.9758,
+      "start_frame": 41,
+      "end_frame": 59
+    },
+    {
+      "word": "Seven.",
+      "start": 1.9758,
+      "end": 2.3862,
+      "start_frame": 59,
+      "end_frame": 72
+    },
+    {
+      "word": "The",
+      "start": 2.6662,
+      "end": 2.9067,
+      "start_frame": 80,
+      "end_frame": 87
+    },
+    {
+      "word": "relay",
+      "start": 2.9067,
+      "end": 3.2387,
+      "start_frame": 87,
+      "end_frame": 97
+    },
+    {
+      "word": "is",
+      "start": 3.2387,
+      "end": 3.463,
+      "start_frame": 97,
+      "end_frame": 104
+    },
+    {
+      "word": "patched",
+      "start": 3.463,
+      "end": 3.7979,
+      "start_frame": 104,
+      "end_frame": 114
+    },
+    {
+      "word": "and",
+      "start": 3.7979,
+      "end": 4.0384,
+      "start_frame": 114,
+      "end_frame": 121
+    },
+    {
+      "word": "the",
+      "start": 4.0384,
+      "end": 4.2789,
+      "start_frame": 121,
+      "end_frame": 128
+    },
+    {
+      "word": "perimeter",
+      "start": 4.2789,
+      "end": 4.7053,
+      "start_frame": 128,
+      "end_frame": 141
+    },
+    {
+      "word": "is",
+      "start": 4.7053,
+      "end": 4.9296,
+      "start_frame": 141,
+      "end_frame": 148
+    },
+    {
+      "word": "clear.",
+      "start": 4.9296,
+      "end": 5.232,
+      "start_frame": 148,
+      "end_frame": 157
+    },
+    {
+      "word": "I",
+      "start": 5.512,
+      "end": 5.7293,
+      "start_frame": 165,
+      "end_frame": 172
+    },
+    {
+      "word": "am",
+      "start": 5.7293,
+      "end": 5.9635,
+      "start_frame": 172,
+      "end_frame": 179
+    },
+    {
+      "word": "moving",
+      "start": 5.9635,
+      "end": 6.2963,
+      "start_frame": 179,
+      "end_frame": 189
+    },
+    {
+      "word": "to",
+      "start": 6.2963,
+      "end": 6.5305,
+      "start_frame": 189,
+      "end_frame": 196
+    },
+    {
+      "word": "the",
+      "start": 6.5305,
+      "end": 6.7816,
+      "start_frame": 196,
+      "end_frame": 203
+    },
+    {
+      "word": "extraction",
+      "start": 6.7816,
+      "end": 7.2438,
+      "start_frame": 203,
+      "end_frame": 217
+    },
+    {
+      "word": "point",
+      "start": 7.2438,
+      "end": 7.5597,
+      "start_frame": 217,
+      "end_frame": 227
+    },
+    {
+      "word": "now.",
+      "start": 7.5597,
+      "end": 7.8108,
+      "start_frame": 227,
+      "end_frame": 234
+    },
+    {
+      "word": "Keep",
+      "start": 8.0908,
+      "end": 8.3716,
+      "start_frame": 243,
+      "end_frame": 251
+    },
+    {
+      "word": "the",
+      "start": 8.3716,
+      "end": 8.6076,
+      "start_frame": 251,
+      "end_frame": 258
+    },
+    {
+      "word": "channel",
+      "start": 8.6076,
+      "end": 8.9362,
+      "start_frame": 258,
+      "end_frame": 268
+    },
+    {
+      "word": "open.",
+      "start": 8.9362,
+      "end": 9.217,
+      "start_frame": 268,
+      "end_frame": 277
+    },
+    {
+      "word": "Stay",
+      "start": 9.497,
+      "end": 9.8241,
+      "start_frame": 285,
+      "end_frame": 295
+    },
+    {
+      "word": "off",
+      "start": 9.8241,
+      "end": 10.0989,
+      "start_frame": 295,
+      "end_frame": 303
+    },
+    {
+      "word": "the",
+      "start": 10.0989,
+      "end": 10.3737,
+      "start_frame": 303,
+      "end_frame": 311
+    },
+    {
+      "word": "grid",
+      "start": 10.3737,
+      "end": 10.6671,
+      "start_frame": 311,
+      "end_frame": 320
+    },
+    {
+      "word": "until",
+      "start": 10.6671,
+      "end": 11.0128,
+      "start_frame": 320,
+      "end_frame": 330
+    },
+    {
+      "word": "I",
+      "start": 11.0128,
+      "end": 11.2505,
+      "start_frame": 330,
+      "end_frame": 338
+    },
+    {
+      "word": "confirm.",
+      "start": 11.2505,
+      "end": 11.6332,
+      "start_frame": 338,
+      "end_frame": 349
+    }
+  ]
+}

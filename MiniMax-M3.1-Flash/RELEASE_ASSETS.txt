@@ -1,0 +1,12 @@
+Parts of this run that are not stored in git (packaged builds and files
+over 95 MB) are attached to the release
+https://github.com/TheMorpheus407/morphrig-benchmark/releases/tag/minimax-m3.1-flash
+
+name      build.tar.zst
+contents  build/Linux/ (packaged Linux build)
+size      357519167 bytes
+sha256    b0ce16cbb59bd4c79479769cf24059ac55db1d9b273ac8c742c5a284dc9db319
+download  https://github.com/TheMorpheus407/morphrig-benchmark/releases/download/minimax-m3.1-flash/build.tar.zst
+
+Unpack an archive inside this folder:  zstd -d < NAME | tar -x
+Unreal runtime folders (Saved/) are not included.

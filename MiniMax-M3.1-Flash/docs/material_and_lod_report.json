@@ -1,0 +1,202 @@
+{
+  "character": "Operative",
+  "unit": "metre",
+  "forward": "-Y",
+  "up": "+Z",
+  "lods": [
+    {
+      "object": "Operative_Body",
+      "vertices": 19704,
+      "polygons": 20167,
+      "triangles": 38902,
+      "material_slots": [
+        "M_Skin",
+        "M_Face",
+        "M_Suit",
+        "M_Armor",
+        "M_Metal",
+        "M_Optic",
+        "M_Energy",
+        "M_Accent"
+      ],
+      "material_slot_count": 8,
+      "deform_bones": 71,
+      "shape_keys": 31,
+      "lod": "LOD0",
+      "limit": 80000,
+      "within_limit": true,
+      "reduction": 1.0
+    },
+    {
+      "lod": "LOD1",
+      "object": "Operative_Body_LOD1",
+      "vertices": 12395,
+      "polygons": 23810,
+      "triangles": 23810,
+      "material_slots": [
+        "M_Skin",
+        "M_Face",
+        "M_Suit",
+        "M_Armor",
+        "M_Metal",
+        "M_Optic",
+        "M_Energy",
+        "M_Accent"
+      ],
+      "material_slot_count": 8,
+      "deform_bones": 71,
+      "shape_keys": 0,
+      "limit": 40000,
+      "within_limit": true,
+      "reduction": 0.6121
+    },
+    {
+      "lod": "LOD2",
+      "object": "Operative_Body_LOD2",
+      "vertices": 6990,
+      "polygons": 13057,
+      "triangles": 13057,
+      "material_slots": [
+        "M_Skin",
+        "M_Face",
+        "M_Suit",
+        "M_Armor",
+        "M_Metal",
+        "M_Optic",
+        "M_Energy",
+        "M_Accent"
+      ],
+      "material_slot_count": 8,
+      "deform_bones": 71,
+      "shape_keys": 0,
+      "limit": 20000,
+      "within_limit": true,
+      "reduction": 0.3356
+    }
+  ],
+  "textures": [
+    {
+      "file": "M_Accent_basecolor.png",
+      "size": "512x512",
+      "bytes_with_mips": 1398101
+    },
+    {
+      "file": "M_Accent_normal.png",
+      "size": "512x512",
+      "bytes_with_mips": 1398101
+    },
+    {
+      "file": "M_Accent_orm.png",
+      "size": "512x512",
+      "bytes_with_mips": 1398101
+    },
+    {
+      "file": "M_Armor_basecolor.png",
+      "size": "1024x1024",
+      "bytes_with_mips": 5592405
+    },
+    {
+      "file": "M_Armor_normal.png",
+      "size": "1024x1024",
+      "bytes_with_mips": 5592405
+    },
+    {
+      "file": "M_Armor_orm.png",
+      "size": "1024x1024",
+      "bytes_with_mips": 5592405
+    },
+    {
+      "file": "M_Energy_basecolor.png",
+      "size": "512x512",
+      "bytes_with_mips": 1398101
+    },
+    {
+      "file": "M_Energy_normal.png",
+      "size": "512x512",
+      "bytes_with_mips": 1398101
+    },
+    {
+      "file": "M_Energy_orm.png",
+      "size": "512x512",
+      "bytes_with_mips": 1398101
+    },
+    {
+      "file": "M_Face_basecolor.png",
+      "size": "2048x2048",
+      "bytes_with_mips": 22369621
+    },
+    {
+      "file": "M_Face_normal.png",
+      "size": "2048x2048",
+      "bytes_with_mips": 22369621
+    },
+    {
+      "file": "M_Face_orm.png",
+      "size": "2048x2048",
+      "bytes_with_mips": 22369621
+    },
+    {
+      "file": "M_Metal_basecolor.png",
+      "size": "1024x1024",
+      "bytes_with_mips": 5592405
+    },
+    {
+      "file": "M_Metal_normal.png",
+      "size": "1024x1024",
+      "bytes_with_mips": 5592405
+    },
+    {
+      "file": "M_Metal_orm.png",
+      "size": "1024x1024",
+      "bytes_with_mips": 5592405
+    },
+    {
+      "file": "M_Optic_basecolor.png",
+      "size": "1024x1024",
+      "bytes_with_mips": 5592405
+    },
+    {
+      "file": "M_Optic_normal.png",
+      "size": "1024x1024",
+      "bytes_with_mips": 5592405
+    },
+    {
+      "file": "M_Optic_orm.png",
+      "size": "1024x1024",
+      "bytes_with_mips": 5592405
+    },
+    {
+      "file": "M_Skin_basecolor.png",
+      "size": "1024x1024",
+      "bytes_with_mips": 5592405
+    },
+    {
+      "file": "M_Skin_normal.png",
+      "size": "1024x1024",
+      "bytes_with_mips": 5592405
+    },
+    {
+      "file": "M_Skin_orm.png",
+      "size": "1024x1024",
+      "bytes_with_mips": 5592405
+    },
+    {
+      "file": "M_Suit_basecolor.png",
+      "size": "1024x1024",
+      "bytes_with_mips": 5592405
+    },
+    {
+      "file": "M_Suit_normal.png",
+      "size": "1024x1024",
+      "bytes_with_mips": 5592405
+    },
+    {
+      "file": "M_Suit_orm.png",
+      "size": "1024x1024",
+      "bytes_with_mips": 5592405
+    }
+  ],
+  "texture_bytes_total": 159383544,
+  "texture_count": 24,
+  "max_texture_size": 2048
+}
