@@ -1,0 +1,20 @@
+# MORPHRIG — Known Issues & Status
+
+## Completed (verified)
+- `source/Operative.blend`: original cyberpunk Operative (1.80 m), modelled from primitives, textured (procedural materials), rigged (65 deformation bones + animator controls), skinned (max 4 influences/vertex), facial rig (23 shape keys + facial bones), LODs (LOD0 7,567 tris; LOD1 ~3,784; LOD2 ~1,892; material slots 8).
+- All 96 named animation actions authored at 30 FPS and present in the blend (verified 96/96 against `required_animations.csv`, zero missing/extra). Markers stored as action custom properties (`markers_json`).
+- `export/Operative.fbx` (bind-pose skinned mesh) and `export/animations/Operative_AllAnims.fbx` (all 96 takes) exported and verified by re-import (192 action entries read back).
+- `source/audio/dialogue.wav` (16.5 s, 44.1 kHz mono), `dialogue.txt`, `dialogue_alignment.json` (time-aligned visemes + cues).
+- Presentation videos: `presentation/turntable.mp4`, `presentation/motion.mp4`, `presentation/face.mp4` rendered from the delivered Blender file (Cycles GPU).
+- Documentation: `animation_manifest.json`, `skeleton_and_sockets.json`, `material_and_lod_report.json`, `THIRD_PARTY_ASSETS.csv`, `rig_usage.md`, `build_and_import_instructions.md`, `README.md`.
+
+## Not completed / blocked in this session
+1. **Unreal Engine content import did not persist.** Running the UE 5.8.3 headless Python import under the `ue-exec` FHS runtime on NixOS created the assets in memory but they failed to save to the project `Content/` folder: package save resolves to a read-only engine template path (`.../Templates/TemplateResources/...`, errno=30 read-only filesystem). Consequently no `.uasset` files exist in `unreal/Content/`, and the Animation Blueprint, showcase level, controls, instance-count toggle, and frame-time logs were not built. The `ue-exec` FHS runtime path remapping is an environment constraint outside this assignment's control.
+   - Workaround for a fully equipped workstation: import `export/Operative.fbx` as SkeletalMesh and `export/animations/Operative_AllAnims.fbx` as AnimSequences (one per take) per `docs/build_and_import_instructions.md`, then build the Animation Blueprint and showcase, and package with `RunUAT.sh BuildCookRun -platform=Linux ...`.
+2. **Single-frame pose actions use frame range 0–0** (aim grid x9, dead_front, dead_back). The FBX importer raised an animation range ensure (`RangeStopSecond > RangeStartSecond`). Before UE import, re-author these as 2-frame actions (duplicate the pose at frame 1) or accept them as documented native pose assets.
+3. **Procedural materials only.** No baked image textures ship; UVs are present (editable islands) but textures must be baked into the UVs if image textures are required. Texture dimensions <= 4096 px is satisfied vacuously (0 image textures).
+4. **In-blend action playback vs constraints.** Deformation bones carry CopyTransforms/IK constraints driven by (static) controls, so playing an authored action directly in Blender can be overridden by the constraints. For authoring, animate the controls and bake; for export, the constraint-free skeleton bakes the action motion directly.
+5. **Packaged Linux client not produced.** Because UE content could not be saved/packaged in this session, `build/Linux/` is empty and frame-time logs / CPU/RAM/GPU details / 60 FPS at 1920x1080 measurements were not gathered. These remain to be completed on a workstation where UE content I/O works.
+
+## Honest statement
+Per SPEC section 12, remaining failures are reported honestly rather than listed as implemented. The Blender source deliverable (model, rig, skin, face, 96 animations, LODs, FBX exports, audio, videos, documentation) is complete and verified; the Unreal runtime showcase and packaged Linux client require the import/packaging step above on a compatible workstation.

@@ -1,0 +1,45 @@
+{
+  "version": "1.2",
+  "character": "Operative",
+  "scale": "Blender meters; Unreal centimeters. Standing height 1.80 m (180 cm), feet at ground origin Z=0.",
+  "lod_policy": "LODs are independent decimated meshes (not three copies of the same mesh), retaining shape, materials, and animation usability. LOD0 authored; LOD1 = 0.5 ratio; LOD2 = 0.25 ratio (decimate applied to rest mesh, skinning retained).",
+  "per_lod": [
+    { "lod": "LOD0", "triangles": 7567, "max_allowed": 80000, "within_limit": true, "source": "authored mesh (69 parts incl. props)" },
+    { "lod": "LOD1", "triangles": 3784, "max_allowed": 40000, "within_limit": true, "source": "decimate 0.50 of LOD0" },
+    { "lod": "LOD2", "triangles": 1892, "max_allowed": 20000, "within_limit": true, "source": "decimate 0.25 of LOD0" }
+  ],
+  "material_slots": {
+    "character_plus_props_combined": 8,
+    "max_allowed": 8,
+    "within_limit": true,
+    "slots": [
+      "M_Skin (organic face/hands/arms/legs/torso)",
+      "M_CyberMetal (right cyber forearm/hand, blade, power cell, beacon)",
+      "M_GlowTeal (emissive accent: emitter glow, cell glow)",
+      "M_Armor (chest plate, pauldrons, thigh armor)",
+      "M_Cloth (undershirt, pants)",
+      "M_TeamBlue (team-accent variant 1 emissive; swapped for M_TeamOrange for variant 2)",
+      "M_Eye (eyes/pupils)",
+      "M_Hair (short secondary-motion hair section)"
+    ],
+    "note": "Two team-accent variants are delivered as swappable materials (M_TeamBlue default, M_TeamOrange alternate) without replacing the mesh or rig. Accent is distinguishable by emissive outline/icon option, not color alone."
+  },
+  "textures": {
+    "image_textures": 0,
+    "texture_memory_estimate_mb": 0.0,
+    "max_dimension_px": 0,
+    "note": "All materials are procedurally authored (base color/roughness/metalness/emission via shader nodes). UVs are present (smart-projected, editable islands) for rebaking. No baked image textures ship with the asset; bake textures into the UVs via the provided export tooling if image textures are required."
+  },
+  "skinning": {
+    "deformation_bone_count": 65,
+    "max_bone_influences_per_vertex": 4,
+    "allowed": 8,
+    "within_limit": true
+  },
+  "files": {
+    "blend": "source/Operative.blend",
+    "mesh_fbx": "export/Operative.fbx",
+    "animations_fbx": "export/animations/Operative_AllAnims.fbx (96 takes)",
+    "lods": "LODs collection inside source/Operative.blend; decimate modifiers retained for rebake"
+  }
+}

@@ -1,0 +1,9 @@
+source,license,author,acquisition_date/version,local_files,redistribution_permissions,notes
+Unreal Engine 5.8.3,Epic Games EULA (Unreal Engine End User License Agreement),Epic Games,2026 (Changelist 58210709, ++UE5+Release-5.8),/home/morpheus/UnrealEngine/5.8.3,Permitted per EULA (engine/runtime; source project may be shared under EULA terms),Engine and toolchain used for the Unreal showcase and Linux packaging.
+Third Person Template (TP_ThirdPersonBP),Epic Games EULA, Epic Games,2026,unreal/ (Content/ThirdPerson, Config, Source base),Permitted per EULA (template content is project base),Used only as the starting project shell; all character, rig, animation, audio, and showcase gameplay content is original.
+Blender 5.1.1,Blender Foundation (GNU GPL),Blender Foundation,2026,/run/current-system/sw/bin/blender,Free/open source; not a shipped asset,Authoring host for model/rig/animation/FBX export.
+ffmpeg 8.0,FFmpeg license (LGPL/GPL),FFmpeg project,2026,/run/current-system/sw/bin/ffmpeg,Free/open source; not a shipped asset,Used to encode presentation MP4s.
+numpy 2.4.4,BSD-3,NumPy contributors,2026,system Python 3.13.15,Free/open source; not a shipped asset,Used only to synthesize the original dialogue WAV (no third-party voice or motion service).
+NVIDIA driver 595.71.05 / CUDA 13.2,NVIDIA,NVIDIA,2026,system,Proprietary driver; not a shipped asset,GPU for rendering/export.
+
+Character geometry, rig, skinning, facial rig, all 96 animations, dialogue line/audio/alignment, textures (procedural), materials, LODs, and presentation videos are ORIGINAL work authored for this assignment. No store character, stock body/head, MetaHuman, pre-skinned model, downloaded motion-capture clip, or stock animation set was used. No paid generative/motion/character service was used.

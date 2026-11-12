@@ -1,0 +1,192 @@
+{
+  "transcript": "Sector seven, I am holding the lane. Network is degrading. Stabilizing the uplink now. Do not let them breach the perimeter.",
+  "sample_rate": 44100,
+  "duration": 16.5,
+  "mapping_viseme_to_shapekey": {
+    "closed": "viseme_closed",
+    "lipteeth": "viseme_lipteeth",
+    "open_a": "viseme_open_a",
+    "wide_e": "viseme_wide_e",
+    "rounded_o": "viseme_rounded_o",
+    "tongue_teeth": "viseme_tongue_teeth",
+    "consonant": "viseme_closed"
+  },
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 0.7,
+      "text": "S",
+      "viseme": "consonant"
+    },
+    {
+      "start": 0.7,
+      "end": 1.3,
+      "text": "eh",
+      "viseme": "wide_e"
+    },
+    {
+      "start": 1.3,
+      "end": 1.7,
+      "text": "k",
+      "viseme": "consonant"
+    },
+    {
+      "start": 1.7,
+      "end": 2.3,
+      "text": "ao",
+      "viseme": "rounded_o"
+    },
+    {
+      "start": 2.3,
+      "end": 2.7,
+      "text": "t",
+      "viseme": "consonant"
+    },
+    {
+      "start": 2.7,
+      "end": 3.3,
+      "text": "ih",
+      "viseme": "wide_e"
+    },
+    {
+      "start": 3.3,
+      "end": 3.9,
+      "text": "v",
+      "viseme": "lipteeth"
+    },
+    {
+      "start": 3.9,
+      "end": 4.5,
+      "text": "ah",
+      "viseme": "open_a"
+    },
+    {
+      "start": 4.5,
+      "end": 5.1,
+      "text": "l",
+      "viseme": "tongue_teeth"
+    },
+    {
+      "start": 5.1,
+      "end": 5.7,
+      "text": "eh",
+      "viseme": "wide_e"
+    },
+    {
+      "start": 5.7,
+      "end": 6.1,
+      "text": "n",
+      "viseme": "tongue_teeth"
+    },
+    {
+      "start": 6.1,
+      "end": 6.6,
+      "text": "ih",
+      "viseme": "wide_e"
+    },
+    {
+      "start": 6.6,
+      "end": 7.3,
+      "text": "ng",
+      "viseme": "rounded_o"
+    },
+    {
+      "start": 7.3,
+      "end": 8.0,
+      "text": "sil",
+      "viseme": "closed"
+    },
+    {
+      "start": 8.0,
+      "end": 8.6,
+      "text": "N",
+      "viseme": "consonant"
+    },
+    {
+      "start": 8.6,
+      "end": 9.2,
+      "text": "ih",
+      "viseme": "wide_e"
+    },
+    {
+      "start": 9.2,
+      "end": 9.9,
+      "text": "ao",
+      "viseme": "rounded_o"
+    },
+    {
+      "start": 9.9,
+      "end": 10.5,
+      "text": "d",
+      "viseme": "consonant"
+    },
+    {
+      "start": 10.5,
+      "end": 11.1,
+      "text": "eh",
+      "viseme": "wide_e"
+    },
+    {
+      "start": 11.1,
+      "end": 11.8,
+      "text": "r",
+      "viseme": "rounded_o"
+    },
+    {
+      "start": 11.8,
+      "end": 12.4,
+      "text": "ih",
+      "viseme": "wide_e"
+    },
+    {
+      "start": 12.4,
+      "end": 13.1,
+      "text": "ng",
+      "viseme": "rounded_o"
+    },
+    {
+      "start": 13.1,
+      "end": 13.6,
+      "text": "sil",
+      "viseme": "closed"
+    },
+    {
+      "start": 13.6,
+      "end": 14.3,
+      "text": "S",
+      "viseme": "consonant"
+    },
+    {
+      "start": 14.3,
+      "end": 14.9,
+      "text": "t",
+      "viseme": "consonant"
+    },
+    {
+      "start": 14.9,
+      "end": 15.6,
+      "text": "ih",
+      "viseme": "wide_e"
+    },
+    {
+      "start": 15.6,
+      "end": 16.4,
+      "text": "ao",
+      "viseme": "rounded_o"
+    }
+  ],
+  "cues": [
+    {
+      "time": 3.0,
+      "name": "gesture_hand"
+    },
+    {
+      "time": 7.5,
+      "name": "emotion_shift"
+    },
+    {
+      "time": 12.0,
+      "name": "phrase_end"
+    }
+  ]
+}

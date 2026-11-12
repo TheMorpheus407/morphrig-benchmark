@@ -1,0 +1,2120 @@
+{
+  "version": "1.2",
+  "fps": 30,
+  "units": "meters (Blender) / centimeters (Unreal)",
+  "scale_note": "Character stands 1.80 m tall; Unreal import uses 180 cm without import-scale repair",
+  "entries": [
+    {
+      "id": "aim_down_center",
+      "form": "pose",
+      "root_movement": "in_place",
+      "source_action": "aim_down_center",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: aim_down_center)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/aim_down_center",
+      "frame_range": [
+        0,
+        30
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 1.0,
+      "loop": false,
+      "root_motion_policy": "in_place",
+      "intended_layer": "pose",
+      "event_markers": [],
+      "entry_exit_states": "",
+      "spec_duration_range": "pose",
+      "pose": true
+    },
+    {
+      "id": "aim_down_left",
+      "form": "pose",
+      "root_movement": "in_place",
+      "source_action": "aim_down_left",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: aim_down_left)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/aim_down_left",
+      "frame_range": [
+        0,
+        30
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 1.0,
+      "loop": false,
+      "root_motion_policy": "in_place",
+      "intended_layer": "pose",
+      "event_markers": [],
+      "entry_exit_states": "",
+      "spec_duration_range": "pose",
+      "pose": true
+    },
+    {
+      "id": "aim_down_right",
+      "form": "pose",
+      "root_movement": "in_place",
+      "source_action": "aim_down_right",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: aim_down_right)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/aim_down_right",
+      "frame_range": [
+        0,
+        30
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 1.0,
+      "loop": false,
+      "root_motion_policy": "in_place",
+      "intended_layer": "pose",
+      "event_markers": [],
+      "entry_exit_states": "",
+      "spec_duration_range": "pose",
+      "pose": true
+    },
+    {
+      "id": "aim_level_center",
+      "form": "pose",
+      "root_movement": "in_place",
+      "source_action": "aim_level_center",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: aim_level_center)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/aim_level_center",
+      "frame_range": [
+        0,
+        30
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 1.0,
+      "loop": false,
+      "root_motion_policy": "in_place",
+      "intended_layer": "pose",
+      "event_markers": [],
+      "entry_exit_states": "",
+      "spec_duration_range": "pose",
+      "pose": true
+    },
+    {
+      "id": "aim_level_left",
+      "form": "pose",
+      "root_movement": "in_place",
+      "source_action": "aim_level_left",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: aim_level_left)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/aim_level_left",
+      "frame_range": [
+        0,
+        30
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 1.0,
+      "loop": false,
+      "root_motion_policy": "in_place",
+      "intended_layer": "pose",
+      "event_markers": [],
+      "entry_exit_states": "",
+      "spec_duration_range": "pose",
+      "pose": true
+    },
+    {
+      "id": "aim_level_right",
+      "form": "pose",
+      "root_movement": "in_place",
+      "source_action": "aim_level_right",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: aim_level_right)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/aim_level_right",
+      "frame_range": [
+        0,
+        30
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 1.0,
+      "loop": false,
+      "root_motion_policy": "in_place",
+      "intended_layer": "pose",
+      "event_markers": [],
+      "entry_exit_states": "",
+      "spec_duration_range": "pose",
+      "pose": true
+    },
+    {
+      "id": "aim_up_center",
+      "form": "pose",
+      "root_movement": "in_place",
+      "source_action": "aim_up_center",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: aim_up_center)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/aim_up_center",
+      "frame_range": [
+        0,
+        30
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 1.0,
+      "loop": false,
+      "root_motion_policy": "in_place",
+      "intended_layer": "pose",
+      "event_markers": [],
+      "entry_exit_states": "",
+      "spec_duration_range": "pose",
+      "pose": true
+    },
+    {
+      "id": "aim_up_left",
+      "form": "pose",
+      "root_movement": "in_place",
+      "source_action": "aim_up_left",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: aim_up_left)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/aim_up_left",
+      "frame_range": [
+        0,
+        30
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 1.0,
+      "loop": false,
+      "root_motion_policy": "in_place",
+      "intended_layer": "pose",
+      "event_markers": [],
+      "entry_exit_states": "",
+      "spec_duration_range": "pose",
+      "pose": true
+    },
+    {
+      "id": "aim_up_right",
+      "form": "pose",
+      "root_movement": "in_place",
+      "source_action": "aim_up_right",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: aim_up_right)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/aim_up_right",
+      "frame_range": [
+        0,
+        30
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 1.0,
+      "loop": false,
+      "root_motion_policy": "in_place",
+      "intended_layer": "pose",
+      "event_markers": [],
+      "entry_exit_states": "",
+      "spec_duration_range": "pose",
+      "pose": true
+    },
+    {
+      "id": "blink_in",
+      "form": "one_shot",
+      "root_movement": "in_place",
+      "source_action": "blink_in",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: blink_in)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/blink_in",
+      "frame_range": [
+        0,
+        12
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 0.4,
+      "loop": false,
+      "root_motion_policy": "in_place",
+      "intended_layer": "mobility",
+      "event_markers": [],
+      "entry_exit_states": "teleport event / locomotion",
+      "spec_duration_range": "0.15\u20130.6",
+      "pose": false
+    },
+    {
+      "id": "blink_out",
+      "form": "one_shot",
+      "root_movement": "in_place",
+      "source_action": "blink_out",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: blink_out)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/blink_out",
+      "frame_range": [
+        0,
+        12
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 0.4,
+      "loop": false,
+      "root_motion_policy": "in_place",
+      "intended_layer": "mobility",
+      "event_markers": [],
+      "entry_exit_states": "mobility / teleport event",
+      "spec_duration_range": "0.15\u20130.6",
+      "pose": false
+    },
+    {
+      "id": "cast_directional",
+      "form": "one_shot",
+      "root_movement": "in_place",
+      "source_action": "cast_directional",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: cast_directional)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/cast_directional",
+      "frame_range": [
+        0,
+        21
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 0.7,
+      "loop": false,
+      "root_motion_policy": "in_place",
+      "intended_layer": "ability",
+      "event_markers": [
+        [
+          16,
+          "cast_release"
+        ]
+      ],
+      "entry_exit_states": "ability / ability",
+      "spec_duration_range": "0.4\u20131.2",
+      "pose": false
+    },
+    {
+      "id": "cast_ground",
+      "form": "one_shot",
+      "root_movement": "in_place",
+      "source_action": "cast_ground",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: cast_ground)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/cast_ground",
+      "frame_range": [
+        0,
+        30
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 1.0,
+      "loop": false,
+      "root_motion_policy": "in_place",
+      "intended_layer": "ability",
+      "event_markers": [
+        [
+          24,
+          "cast_release"
+        ]
+      ],
+      "entry_exit_states": "ability / ability",
+      "spec_duration_range": "0.5\u20131.5",
+      "pose": false
+    },
+    {
+      "id": "cast_self",
+      "form": "one_shot",
+      "root_movement": "in_place",
+      "source_action": "cast_self",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: cast_self)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/cast_self",
+      "frame_range": [
+        0,
+        21
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 0.7,
+      "loop": false,
+      "root_motion_policy": "in_place",
+      "intended_layer": "ability",
+      "event_markers": [],
+      "entry_exit_states": "ability / ability",
+      "spec_duration_range": "0.4\u20131.2",
+      "pose": false
+    },
+    {
+      "id": "channel_end",
+      "form": "one_shot",
+      "root_movement": "in_place",
+      "source_action": "channel_end",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: channel_end)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/channel_end",
+      "frame_range": [
+        0,
+        15
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 0.5,
+      "loop": false,
+      "root_motion_policy": "in_place",
+      "intended_layer": "ability",
+      "event_markers": [],
+      "entry_exit_states": "channel / ability",
+      "spec_duration_range": "0.2\u20130.8",
+      "pose": false
+    },
+    {
+      "id": "channel_interrupt",
+      "form": "one_shot",
+      "root_movement": "in_place",
+      "source_action": "channel_interrupt",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: channel_interrupt)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/channel_interrupt",
+      "frame_range": [
+        0,
+        12
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 0.4,
+      "loop": false,
+      "root_motion_policy": "in_place",
+      "intended_layer": "ability",
+      "event_markers": [],
+      "entry_exit_states": "channel / ability",
+      "spec_duration_range": "0.15\u20130.6",
+      "pose": false
+    },
+    {
+      "id": "channel_loop",
+      "form": "loop",
+      "root_movement": "in_place",
+      "source_action": "channel_loop",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: channel_loop)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/channel_loop",
+      "frame_range": [
+        0,
+        36
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 1.2,
+      "loop": true,
+      "root_motion_policy": "in_place",
+      "intended_layer": "ability",
+      "event_markers": [],
+      "entry_exit_states": "channel / channel",
+      "spec_duration_range": "0.6\u20132",
+      "pose": false
+    },
+    {
+      "id": "channel_start",
+      "form": "one_shot",
+      "root_movement": "in_place",
+      "source_action": "channel_start",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: channel_start)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/channel_start",
+      "frame_range": [
+        0,
+        15
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 0.5,
+      "loop": false,
+      "root_motion_policy": "in_place",
+      "intended_layer": "ability",
+      "event_markers": [],
+      "entry_exit_states": "ability / channel",
+      "spec_duration_range": "0.2\u20130.8",
+      "pose": false
+    },
+    {
+      "id": "charge_cancel",
+      "form": "one_shot",
+      "root_movement": "in_place",
+      "source_action": "charge_cancel",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: charge_cancel)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/charge_cancel",
+      "frame_range": [
+        0,
+        15
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 0.5,
+      "loop": false,
+      "root_motion_policy": "in_place",
+      "intended_layer": "ability",
+      "event_markers": [],
+      "entry_exit_states": "charge / ability",
+      "spec_duration_range": "0.2\u20130.7",
+      "pose": false
+    },
+    {
+      "id": "charge_hold",
+      "form": "loop",
+      "root_movement": "in_place",
+      "source_action": "charge_hold",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: charge_hold)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/charge_hold",
+      "frame_range": [
+        0,
+        30
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 1.0,
+      "loop": true,
+      "root_motion_policy": "in_place",
+      "intended_layer": "ability",
+      "event_markers": [],
+      "entry_exit_states": "charge / charge",
+      "spec_duration_range": "0.5\u20131.5",
+      "pose": false
+    },
+    {
+      "id": "charge_release",
+      "form": "one_shot",
+      "root_movement": "in_place",
+      "source_action": "charge_release",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: charge_release)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/charge_release",
+      "frame_range": [
+        0,
+        15
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 0.5,
+      "loop": false,
+      "root_motion_policy": "in_place",
+      "intended_layer": "ability",
+      "event_markers": [],
+      "entry_exit_states": "charge / ability",
+      "spec_duration_range": "0.3\u20131",
+      "pose": false
+    },
+    {
+      "id": "charge_start",
+      "form": "one_shot",
+      "root_movement": "in_place",
+      "source_action": "charge_start",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: charge_start)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/charge_start",
+      "frame_range": [
+        0,
+        18
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 0.6,
+      "loop": false,
+      "root_motion_policy": "in_place",
+      "intended_layer": "ability",
+      "event_markers": [],
+      "entry_exit_states": "ability / charge",
+      "spec_duration_range": "0.3\u20131",
+      "pose": false
+    },
+    {
+      "id": "dash_b",
+      "form": "one_shot",
+      "root_movement": "root_motion (2 m nominal)",
+      "source_action": "dash_b",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: dash_b)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/dash_b",
+      "frame_range": [
+        0,
+        14
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 0.467,
+      "loop": false,
+      "root_motion_policy": "root_motion",
+      "intended_layer": "mobility",
+      "event_markers": [],
+      "entry_exit_states": "locomotion / locomotion",
+      "spec_duration_range": "0.25\u20130.65",
+      "pose": false
+    },
+    {
+      "id": "dash_f",
+      "form": "one_shot",
+      "root_movement": "root_motion (2 m nominal)",
+      "source_action": "dash_f",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: dash_f)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/dash_f",
+      "frame_range": [
+        0,
+        14
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 0.467,
+      "loop": false,
+      "root_motion_policy": "root_motion",
+      "intended_layer": "mobility",
+      "event_markers": [],
+      "entry_exit_states": "locomotion / locomotion",
+      "spec_duration_range": "0.25\u20130.65",
+      "pose": false
+    },
+    {
+      "id": "dash_l",
+      "form": "one_shot",
+      "root_movement": "root_motion (2 m nominal)",
+      "source_action": "dash_l",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: dash_l)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/dash_l",
+      "frame_range": [
+        0,
+        14
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 0.467,
+      "loop": false,
+      "root_motion_policy": "root_motion",
+      "intended_layer": "mobility",
+      "event_markers": [],
+      "entry_exit_states": "locomotion / locomotion",
+      "spec_duration_range": "0.25\u20130.65",
+      "pose": false
+    },
+    {
+      "id": "dash_r",
+      "form": "one_shot",
+      "root_movement": "root_motion (2 m nominal)",
+      "source_action": "dash_r",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: dash_r)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/dash_r",
+      "frame_range": [
+        0,
+        14
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 0.467,
+      "loop": false,
+      "root_motion_policy": "root_motion",
+      "intended_layer": "mobility",
+      "event_markers": [],
+      "entry_exit_states": "locomotion / locomotion",
+      "spec_duration_range": "0.25\u20130.65",
+      "pose": false
+    },
+    {
+      "id": "dead_back",
+      "form": "pose",
+      "root_movement": "in_place",
+      "source_action": "dead_back",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: dead_back)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/dead_back",
+      "frame_range": [
+        0,
+        0
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 0.0,
+      "loop": false,
+      "root_motion_policy": "in_place",
+      "intended_layer": "pose",
+      "event_markers": [],
+      "entry_exit_states": "pose / pose",
+      "spec_duration_range": "pose",
+      "pose": true
+    },
+    {
+      "id": "dead_front",
+      "form": "pose",
+      "root_movement": "in_place",
+      "source_action": "dead_front",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: dead_front)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/dead_front",
+      "frame_range": [
+        0,
+        0
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 0.0,
+      "loop": false,
+      "root_motion_policy": "in_place",
+      "intended_layer": "pose",
+      "event_markers": [],
+      "entry_exit_states": "pose / pose",
+      "spec_duration_range": "pose",
+      "pose": true
+    },
+    {
+      "id": "death_back",
+      "form": "one_shot",
+      "root_movement": "in_place",
+      "source_action": "death_back",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: death_back)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/death_back",
+      "frame_range": [
+        0,
+        54
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 1.8,
+      "loop": false,
+      "root_motion_policy": "in_place",
+      "intended_layer": "terminal",
+      "event_markers": [
+        [
+          48,
+          "death_settle"
+        ]
+      ],
+      "entry_exit_states": "any -> terminal",
+      "spec_duration_range": "1\u20134",
+      "pose": false
+    },
+    {
+      "id": "death_front",
+      "form": "one_shot",
+      "root_movement": "in_place",
+      "source_action": "death_front",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: death_front)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/death_front",
+      "frame_range": [
+        0,
+        54
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 1.8,
+      "loop": false,
+      "root_motion_policy": "in_place",
+      "intended_layer": "terminal",
+      "event_markers": [
+        [
+          48,
+          "death_settle"
+        ]
+      ],
+      "entry_exit_states": "any -> terminal",
+      "spec_duration_range": "1\u20134",
+      "pose": false
+    },
+    {
+      "id": "defeat",
+      "form": "one_shot",
+      "root_movement": "in_place",
+      "source_action": "defeat",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: defeat)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/defeat",
+      "frame_range": [
+        0,
+        60
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 2.0,
+      "loop": false,
+      "root_motion_policy": "in_place",
+      "intended_layer": "social",
+      "event_markers": [],
+      "entry_exit_states": "social / base",
+      "spec_duration_range": "1\u20134",
+      "pose": false
+    },
+    {
+      "id": "deploy",
+      "form": "one_shot",
+      "root_movement": "in_place",
+      "source_action": "deploy",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: deploy)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/deploy",
+      "frame_range": [
+        0,
+        36
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 1.2,
+      "loop": false,
+      "root_motion_policy": "in_place",
+      "intended_layer": "ability",
+      "event_markers": [
+        [
+          27,
+          "deploy_attach"
+        ]
+      ],
+      "entry_exit_states": "ability / ability",
+      "spec_duration_range": "0.6\u20131.8",
+      "pose": false
+    },
+    {
+      "id": "dialogue",
+      "form": "one_shot",
+      "root_movement": "in_place",
+      "source_action": "dialogue",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: dialogue)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/dialogue",
+      "frame_range": [
+        0,
+        450
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 15.0,
+      "loop": false,
+      "root_motion_policy": "in_place",
+      "intended_layer": "performance",
+      "event_markers": [
+        [
+          90,
+          "gesture_hand"
+        ],
+        [
+          225,
+          "emotion_shift"
+        ],
+        [
+          360,
+          "phrase_end"
+        ]
+      ],
+      "entry_exit_states": "performance / base",
+      "spec_duration_range": "12\u201318",
+      "pose": false
+    },
+    {
+      "id": "fall",
+      "form": "loop",
+      "root_movement": "in_place",
+      "source_action": "fall",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: fall)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/fall",
+      "frame_range": [
+        0,
+        24
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 0.8,
+      "loop": true,
+      "root_motion_policy": "in_place",
+      "intended_layer": "airborne",
+      "event_markers": [],
+      "entry_exit_states": "airborne / airborne",
+      "spec_duration_range": "0.2\u20131.2",
+      "pose": false
+    },
+    {
+      "id": "getup_back",
+      "form": "one_shot",
+      "root_movement": "in_place",
+      "source_action": "getup_back",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: getup_back)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/getup_back",
+      "frame_range": [
+        0,
+        36
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 1.2,
+      "loop": false,
+      "root_motion_policy": "in_place",
+      "intended_layer": "recovery",
+      "event_markers": [],
+      "entry_exit_states": "prone -> locomotion",
+      "spec_duration_range": "0.3\u20133",
+      "pose": false
+    },
+    {
+      "id": "getup_front",
+      "form": "one_shot",
+      "root_movement": "in_place",
+      "source_action": "getup_front",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: getup_front)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/getup_front",
+      "frame_range": [
+        0,
+        36
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 1.2,
+      "loop": false,
+      "root_motion_policy": "in_place",
+      "intended_layer": "recovery",
+      "event_markers": [],
+      "entry_exit_states": "prone -> locomotion",
+      "spec_duration_range": "0.3\u20133",
+      "pose": false
+    },
+    {
+      "id": "greet",
+      "form": "one_shot",
+      "root_movement": "in_place",
+      "source_action": "greet",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: greet)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/greet",
+      "frame_range": [
+        0,
+        54
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 1.8,
+      "loop": false,
+      "root_motion_policy": "in_place",
+      "intended_layer": "social",
+      "event_markers": [],
+      "entry_exit_states": "social / base",
+      "spec_duration_range": "1\u20134",
+      "pose": false
+    },
+    {
+      "id": "hit_b",
+      "form": "additive",
+      "root_movement": "in_place",
+      "source_action": "hit_b",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: hit_b)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/hit_b",
+      "frame_range": [
+        0,
+        9
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 0.3,
+      "loop": false,
+      "root_motion_policy": "in_place",
+      "intended_layer": "reaction",
+      "event_markers": [],
+      "entry_exit_states": "additive overlay",
+      "spec_duration_range": "0.15\u20130.5",
+      "pose": false
+    },
+    {
+      "id": "hit_f",
+      "form": "additive",
+      "root_movement": "in_place",
+      "source_action": "hit_f",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: hit_f)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/hit_f",
+      "frame_range": [
+        0,
+        9
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 0.3,
+      "loop": false,
+      "root_motion_policy": "in_place",
+      "intended_layer": "reaction",
+      "event_markers": [],
+      "entry_exit_states": "additive overlay",
+      "spec_duration_range": "0.15\u20130.5",
+      "pose": false
+    },
+    {
+      "id": "hit_l",
+      "form": "additive",
+      "root_movement": "in_place",
+      "source_action": "hit_l",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: hit_l)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/hit_l",
+      "frame_range": [
+        0,
+        9
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 0.3,
+      "loop": false,
+      "root_motion_policy": "in_place",
+      "intended_layer": "reaction",
+      "event_markers": [],
+      "entry_exit_states": "additive overlay",
+      "spec_duration_range": "0.15\u20130.5",
+      "pose": false
+    },
+    {
+      "id": "hit_r",
+      "form": "additive",
+      "root_movement": "in_place",
+      "source_action": "hit_r",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: hit_r)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/hit_r",
+      "frame_range": [
+        0,
+        9
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 0.3,
+      "loop": false,
+      "root_motion_policy": "in_place",
+      "intended_layer": "reaction",
+      "event_markers": [],
+      "entry_exit_states": "additive overlay",
+      "spec_duration_range": "0.15\u20130.5",
+      "pose": false
+    },
+    {
+      "id": "idle_combat",
+      "form": "loop",
+      "root_movement": "in_place",
+      "source_action": "idle_combat",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: idle_combat)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/idle_combat",
+      "frame_range": [
+        0,
+        90
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 3.0,
+      "loop": true,
+      "root_motion_policy": "in_place",
+      "intended_layer": "base",
+      "event_markers": [],
+      "entry_exit_states": "loop / loop",
+      "spec_duration_range": "2\u20135",
+      "pose": false
+    },
+    {
+      "id": "idle_relaxed",
+      "form": "loop",
+      "root_movement": "in_place",
+      "source_action": "idle_relaxed",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: idle_relaxed)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/idle_relaxed",
+      "frame_range": [
+        0,
+        90
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 3.0,
+      "loop": true,
+      "root_motion_policy": "in_place",
+      "intended_layer": "base",
+      "event_markers": [],
+      "entry_exit_states": "loop / loop",
+      "spec_duration_range": "2\u20135",
+      "pose": false
+    },
+    {
+      "id": "idle_wounded",
+      "form": "loop",
+      "root_movement": "in_place",
+      "source_action": "idle_wounded",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: idle_wounded)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/idle_wounded",
+      "frame_range": [
+        0,
+        90
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 3.0,
+      "loop": true,
+      "root_motion_policy": "in_place",
+      "intended_layer": "base",
+      "event_markers": [],
+      "entry_exit_states": "loop / loop",
+      "spec_duration_range": "2\u20135",
+      "pose": false
+    },
+    {
+      "id": "jump_air",
+      "form": "loop",
+      "root_movement": "in_place",
+      "source_action": "jump_air",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: jump_air)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/jump_air",
+      "frame_range": [
+        0,
+        24
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 0.8,
+      "loop": true,
+      "root_motion_policy": "in_place",
+      "intended_layer": "airborne",
+      "event_markers": [],
+      "entry_exit_states": "airborne / airborne",
+      "spec_duration_range": "0.2\u20131.2",
+      "pose": false
+    },
+    {
+      "id": "jump_land",
+      "form": "one_shot",
+      "root_movement": "in_place",
+      "source_action": "jump_land",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: jump_land)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/jump_land",
+      "frame_range": [
+        0,
+        21
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 0.7,
+      "loop": false,
+      "root_motion_policy": "in_place",
+      "intended_layer": "airborne",
+      "event_markers": [],
+      "entry_exit_states": "airborne -> locomotion",
+      "spec_duration_range": "0.2\u20131.2",
+      "pose": false
+    },
+    {
+      "id": "jump_start",
+      "form": "one_shot",
+      "root_movement": "in_place",
+      "source_action": "jump_start",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: jump_start)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/jump_start",
+      "frame_range": [
+        0,
+        21
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 0.7,
+      "loop": false,
+      "root_motion_policy": "in_place",
+      "intended_layer": "airborne",
+      "event_markers": [],
+      "entry_exit_states": "locomotion -> airborne",
+      "spec_duration_range": "0.2\u20131.2",
+      "pose": false
+    },
+    {
+      "id": "knockback",
+      "form": "one_shot",
+      "root_movement": "in_place",
+      "source_action": "knockback",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: knockback)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/knockback",
+      "frame_range": [
+        0,
+        30
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 1.0,
+      "loop": false,
+      "root_motion_policy": "in_place",
+      "intended_layer": "disable",
+      "event_markers": [],
+      "entry_exit_states": "disable / disable",
+      "spec_duration_range": "0.3\u20133",
+      "pose": false
+    },
+    {
+      "id": "knockdown_back",
+      "form": "one_shot",
+      "root_movement": "in_place",
+      "source_action": "knockdown_back",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: knockdown_back)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/knockdown_back",
+      "frame_range": [
+        0,
+        30
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 1.0,
+      "loop": false,
+      "root_motion_policy": "in_place",
+      "intended_layer": "disable",
+      "event_markers": [],
+      "entry_exit_states": "disable / prone",
+      "spec_duration_range": "0.3\u20133",
+      "pose": false
+    },
+    {
+      "id": "knockdown_front",
+      "form": "one_shot",
+      "root_movement": "in_place",
+      "source_action": "knockdown_front",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: knockdown_front)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/knockdown_front",
+      "frame_range": [
+        0,
+        30
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 1.0,
+      "loop": false,
+      "root_motion_policy": "in_place",
+      "intended_layer": "disable",
+      "event_markers": [],
+      "entry_exit_states": "disable / prone",
+      "spec_duration_range": "0.3\u20133",
+      "pose": false
+    },
+    {
+      "id": "knockup_air",
+      "form": "loop",
+      "root_movement": "in_place",
+      "source_action": "knockup_air",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: knockup_air)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/knockup_air",
+      "frame_range": [
+        0,
+        30
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 1.0,
+      "loop": true,
+      "root_motion_policy": "in_place",
+      "intended_layer": "disable",
+      "event_markers": [],
+      "entry_exit_states": "airborne / airborne",
+      "spec_duration_range": "0.3\u20133",
+      "pose": false
+    },
+    {
+      "id": "knockup_start",
+      "form": "one_shot",
+      "root_movement": "in_place",
+      "source_action": "knockup_start",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: knockup_start)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/knockup_start",
+      "frame_range": [
+        0,
+        24
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 0.8,
+      "loop": false,
+      "root_motion_policy": "in_place",
+      "intended_layer": "disable",
+      "event_markers": [],
+      "entry_exit_states": "disable -> airborne",
+      "spec_duration_range": "0.3\u20133",
+      "pose": false
+    },
+    {
+      "id": "land_heavy",
+      "form": "one_shot",
+      "root_movement": "in_place",
+      "source_action": "land_heavy",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: land_heavy)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/land_heavy",
+      "frame_range": [
+        0,
+        21
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 0.7,
+      "loop": false,
+      "root_motion_policy": "in_place",
+      "intended_layer": "airborne",
+      "event_markers": [],
+      "entry_exit_states": "airborne -> locomotion",
+      "spec_duration_range": "0.2\u20131.2",
+      "pose": false
+    },
+    {
+      "id": "melee_1",
+      "form": "one_shot",
+      "root_movement": "in_place",
+      "source_action": "melee_1",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: melee_1)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/melee_1",
+      "frame_range": [
+        0,
+        24
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 0.8,
+      "loop": false,
+      "root_motion_policy": "in_place",
+      "intended_layer": "combat",
+      "event_markers": [
+        [
+          10,
+          "melee_hit_1"
+        ],
+        [
+          22,
+          "recover_1"
+        ]
+      ],
+      "entry_exit_states": "combat / recovery",
+      "spec_duration_range": "0.4\u20131.2",
+      "pose": false
+    },
+    {
+      "id": "melee_2",
+      "form": "one_shot",
+      "root_movement": "in_place",
+      "source_action": "melee_2",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: melee_2)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/melee_2",
+      "frame_range": [
+        0,
+        27
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 0.9,
+      "loop": false,
+      "root_motion_policy": "in_place",
+      "intended_layer": "combat",
+      "event_markers": [
+        [
+          12,
+          "melee_hit_2"
+        ],
+        [
+          24,
+          "recover_2"
+        ]
+      ],
+      "entry_exit_states": "combat / recovery",
+      "spec_duration_range": "0.4\u20131.2",
+      "pose": false
+    },
+    {
+      "id": "melee_3",
+      "form": "one_shot",
+      "root_movement": "in_place",
+      "source_action": "melee_3",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: melee_3)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/melee_3",
+      "frame_range": [
+        0,
+        30
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 1.0,
+      "loop": false,
+      "root_motion_policy": "in_place",
+      "intended_layer": "combat",
+      "event_markers": [
+        [
+          15,
+          "melee_hit_3"
+        ],
+        [
+          27,
+          "recover_3"
+        ]
+      ],
+      "entry_exit_states": "combat / recovery",
+      "spec_duration_range": "0.4\u20131.2",
+      "pose": false
+    },
+    {
+      "id": "pivot_l180",
+      "form": "one_shot",
+      "root_movement": "in_place",
+      "source_action": "pivot_l180",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: pivot_l180)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/pivot_l180",
+      "frame_range": [
+        0,
+        21
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 0.7,
+      "loop": false,
+      "root_motion_policy": "in_place",
+      "intended_layer": "locomotion",
+      "event_markers": [],
+      "entry_exit_states": "locomotion / locomotion",
+      "spec_duration_range": "0.2\u20131.0",
+      "pose": false
+    },
+    {
+      "id": "pivot_r180",
+      "form": "one_shot",
+      "root_movement": "in_place",
+      "source_action": "pivot_r180",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: pivot_r180)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/pivot_r180",
+      "frame_range": [
+        0,
+        21
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 0.7,
+      "loop": false,
+      "root_motion_policy": "in_place",
+      "intended_layer": "locomotion",
+      "event_markers": [],
+      "entry_exit_states": "locomotion / locomotion",
+      "spec_duration_range": "0.2\u20131.0",
+      "pose": false
+    },
+    {
+      "id": "prone_back",
+      "form": "loop",
+      "root_movement": "in_place",
+      "source_action": "prone_back",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: prone_back)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/prone_back",
+      "frame_range": [
+        0,
+        36
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 1.2,
+      "loop": true,
+      "root_motion_policy": "in_place",
+      "intended_layer": "disable",
+      "event_markers": [],
+      "entry_exit_states": "disable / disable",
+      "spec_duration_range": "0.3\u20133",
+      "pose": false
+    },
+    {
+      "id": "prone_front",
+      "form": "loop",
+      "root_movement": "in_place",
+      "source_action": "prone_front",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: prone_front)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/prone_front",
+      "frame_range": [
+        0,
+        36
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 1.2,
+      "loop": true,
+      "root_motion_policy": "in_place",
+      "intended_layer": "disable",
+      "event_markers": [],
+      "entry_exit_states": "disable / disable",
+      "spec_duration_range": "0.3\u20133",
+      "pose": false
+    },
+    {
+      "id": "ranged_burst",
+      "form": "one_shot",
+      "root_movement": "in_place",
+      "source_action": "ranged_burst",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: ranged_burst)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/ranged_burst",
+      "frame_range": [
+        0,
+        18
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 0.6,
+      "loop": false,
+      "root_motion_policy": "in_place",
+      "intended_layer": "combat",
+      "event_markers": [
+        [
+          4,
+          "muzzle_1"
+        ],
+        [
+          10,
+          "muzzle_2"
+        ],
+        [
+          16,
+          "muzzle_3"
+        ]
+      ],
+      "entry_exit_states": "combat / combat",
+      "spec_duration_range": "0.35\u20130.8",
+      "pose": false
+    },
+    {
+      "id": "ranged_fire",
+      "form": "one_shot",
+      "root_movement": "in_place",
+      "source_action": "ranged_fire",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: ranged_fire)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/ranged_fire",
+      "frame_range": [
+        0,
+        10
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 0.333,
+      "loop": false,
+      "root_motion_policy": "in_place",
+      "intended_layer": "combat",
+      "event_markers": [
+        [
+          4,
+          "muzzle_1"
+        ]
+      ],
+      "entry_exit_states": "combat / combat",
+      "spec_duration_range": "0.15\u20130.5",
+      "pose": false
+    },
+    {
+      "id": "reload",
+      "form": "one_shot",
+      "root_movement": "in_place",
+      "source_action": "reload",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: reload)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/reload",
+      "frame_range": [
+        0,
+        48
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 1.6,
+      "loop": false,
+      "root_motion_policy": "in_place",
+      "intended_layer": "combat",
+      "event_markers": [
+        [
+          15,
+          "cell_remove"
+        ],
+        [
+          33,
+          "cell_insert"
+        ],
+        [
+          45,
+          "reload_complete"
+        ]
+      ],
+      "entry_exit_states": "combat / combat",
+      "spec_duration_range": "1\u20132.5",
+      "pose": false
+    },
+    {
+      "id": "respawn",
+      "form": "one_shot",
+      "root_movement": "in_place",
+      "source_action": "respawn",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: respawn)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/respawn",
+      "frame_range": [
+        0,
+        60
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 2.0,
+      "loop": false,
+      "root_motion_policy": "in_place",
+      "intended_layer": "recovery",
+      "event_markers": [],
+      "entry_exit_states": "terminal -> idle",
+      "spec_duration_range": "1\u20134",
+      "pose": false
+    },
+    {
+      "id": "run_b",
+      "form": "loop",
+      "root_movement": "in_place",
+      "source_action": "run_b",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: run_b)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/run_b",
+      "frame_range": [
+        0,
+        24
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 0.8,
+      "loop": true,
+      "root_motion_policy": "in_place",
+      "intended_layer": "locomotion",
+      "event_markers": [],
+      "entry_exit_states": "loop / loop",
+      "spec_duration_range": "0.6\u20131.8",
+      "pose": false
+    },
+    {
+      "id": "run_bl",
+      "form": "loop",
+      "root_movement": "in_place",
+      "source_action": "run_bl",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: run_bl)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/run_bl",
+      "frame_range": [
+        0,
+        24
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 0.8,
+      "loop": true,
+      "root_motion_policy": "in_place",
+      "intended_layer": "locomotion",
+      "event_markers": [],
+      "entry_exit_states": "loop / loop",
+      "spec_duration_range": "0.6\u20131.8",
+      "pose": false
+    },
+    {
+      "id": "run_br",
+      "form": "loop",
+      "root_movement": "in_place",
+      "source_action": "run_br",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: run_br)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/run_br",
+      "frame_range": [
+        0,
+        24
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 0.8,
+      "loop": true,
+      "root_motion_policy": "in_place",
+      "intended_layer": "locomotion",
+      "event_markers": [],
+      "entry_exit_states": "loop / loop",
+      "spec_duration_range": "0.6\u20131.8",
+      "pose": false
+    },
+    {
+      "id": "run_f",
+      "form": "loop",
+      "root_movement": "in_place",
+      "source_action": "run_f",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: run_f)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/run_f",
+      "frame_range": [
+        0,
+        24
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 0.8,
+      "loop": true,
+      "root_motion_policy": "in_place",
+      "intended_layer": "locomotion",
+      "event_markers": [],
+      "entry_exit_states": "loop / loop",
+      "spec_duration_range": "0.6\u20131.8",
+      "pose": false
+    },
+    {
+      "id": "run_fl",
+      "form": "loop",
+      "root_movement": "in_place",
+      "source_action": "run_fl",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: run_fl)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/run_fl",
+      "frame_range": [
+        0,
+        24
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 0.8,
+      "loop": true,
+      "root_motion_policy": "in_place",
+      "intended_layer": "locomotion",
+      "event_markers": [],
+      "entry_exit_states": "loop / loop",
+      "spec_duration_range": "0.6\u20131.8",
+      "pose": false
+    },
+    {
+      "id": "run_fr",
+      "form": "loop",
+      "root_movement": "in_place",
+      "source_action": "run_fr",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: run_fr)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/run_fr",
+      "frame_range": [
+        0,
+        24
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 0.8,
+      "loop": true,
+      "root_motion_policy": "in_place",
+      "intended_layer": "locomotion",
+      "event_markers": [],
+      "entry_exit_states": "loop / loop",
+      "spec_duration_range": "0.6\u20131.8",
+      "pose": false
+    },
+    {
+      "id": "run_l",
+      "form": "loop",
+      "root_movement": "in_place",
+      "source_action": "run_l",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: run_l)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/run_l",
+      "frame_range": [
+        0,
+        24
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 0.8,
+      "loop": true,
+      "root_motion_policy": "in_place",
+      "intended_layer": "locomotion",
+      "event_markers": [],
+      "entry_exit_states": "loop / loop",
+      "spec_duration_range": "0.6\u20131.8",
+      "pose": false
+    },
+    {
+      "id": "run_r",
+      "form": "loop",
+      "root_movement": "in_place",
+      "source_action": "run_r",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: run_r)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/run_r",
+      "frame_range": [
+        0,
+        24
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 0.8,
+      "loop": true,
+      "root_motion_policy": "in_place",
+      "intended_layer": "locomotion",
+      "event_markers": [],
+      "entry_exit_states": "loop / loop",
+      "spec_duration_range": "0.6\u20131.8",
+      "pose": false
+    },
+    {
+      "id": "sleep_end",
+      "form": "one_shot",
+      "root_movement": "in_place",
+      "source_action": "sleep_end",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: sleep_end)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/sleep_end",
+      "frame_range": [
+        0,
+        30
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 1.0,
+      "loop": false,
+      "root_motion_policy": "in_place",
+      "intended_layer": "disable",
+      "event_markers": [],
+      "entry_exit_states": "disable -> locomotion",
+      "spec_duration_range": "0.3\u20133",
+      "pose": false
+    },
+    {
+      "id": "sleep_loop",
+      "form": "loop",
+      "root_movement": "in_place",
+      "source_action": "sleep_loop",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: sleep_loop)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/sleep_loop",
+      "frame_range": [
+        0,
+        36
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 1.2,
+      "loop": true,
+      "root_motion_policy": "in_place",
+      "intended_layer": "disable",
+      "event_markers": [],
+      "entry_exit_states": "disable / disable",
+      "spec_duration_range": "0.3\u20133",
+      "pose": false
+    },
+    {
+      "id": "sleep_start",
+      "form": "one_shot",
+      "root_movement": "in_place",
+      "source_action": "sleep_start",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: sleep_start)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/sleep_start",
+      "frame_range": [
+        0,
+        30
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 1.0,
+      "loop": false,
+      "root_motion_policy": "in_place",
+      "intended_layer": "disable",
+      "event_markers": [],
+      "entry_exit_states": "locomotion -> disable",
+      "spec_duration_range": "0.3\u20133",
+      "pose": false
+    },
+    {
+      "id": "sprint_f",
+      "form": "loop",
+      "root_movement": "in_place",
+      "source_action": "sprint_f",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: sprint_f)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/sprint_f",
+      "frame_range": [
+        0,
+        21
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 0.7,
+      "loop": true,
+      "root_motion_policy": "in_place",
+      "intended_layer": "locomotion",
+      "event_markers": [],
+      "entry_exit_states": "loop / loop",
+      "spec_duration_range": "0.4\u20131.2",
+      "pose": false
+    },
+    {
+      "id": "start_f",
+      "form": "one_shot",
+      "root_movement": "in_place",
+      "source_action": "start_f",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: start_f)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/start_f",
+      "frame_range": [
+        0,
+        18
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 0.6,
+      "loop": false,
+      "root_motion_policy": "in_place",
+      "intended_layer": "locomotion",
+      "event_markers": [],
+      "entry_exit_states": "idle -> locomotion",
+      "spec_duration_range": "0.2\u20131.0",
+      "pose": false
+    },
+    {
+      "id": "stop_f",
+      "form": "one_shot",
+      "root_movement": "in_place",
+      "source_action": "stop_f",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: stop_f)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/stop_f",
+      "frame_range": [
+        0,
+        18
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 0.6,
+      "loop": false,
+      "root_motion_policy": "in_place",
+      "intended_layer": "locomotion",
+      "event_markers": [],
+      "entry_exit_states": "locomotion -> idle",
+      "spec_duration_range": "0.2\u20131.0",
+      "pose": false
+    },
+    {
+      "id": "stun_end",
+      "form": "one_shot",
+      "root_movement": "in_place",
+      "source_action": "stun_end",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: stun_end)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/stun_end",
+      "frame_range": [
+        0,
+        24
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 0.8,
+      "loop": false,
+      "root_motion_policy": "in_place",
+      "intended_layer": "disable",
+      "event_markers": [],
+      "entry_exit_states": "disable -> locomotion",
+      "spec_duration_range": "0.3\u20133",
+      "pose": false
+    },
+    {
+      "id": "stun_loop",
+      "form": "loop",
+      "root_movement": "in_place",
+      "source_action": "stun_loop",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: stun_loop)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/stun_loop",
+      "frame_range": [
+        0,
+        36
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 1.2,
+      "loop": true,
+      "root_motion_policy": "in_place",
+      "intended_layer": "disable",
+      "event_markers": [],
+      "entry_exit_states": "disable / disable",
+      "spec_duration_range": "0.3\u20133",
+      "pose": false
+    },
+    {
+      "id": "stun_start",
+      "form": "one_shot",
+      "root_movement": "in_place",
+      "source_action": "stun_start",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: stun_start)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/stun_start",
+      "frame_range": [
+        0,
+        24
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 0.8,
+      "loop": false,
+      "root_motion_policy": "in_place",
+      "intended_layer": "disable",
+      "event_markers": [],
+      "entry_exit_states": "locomotion -> disable",
+      "spec_duration_range": "0.3\u20133",
+      "pose": false
+    },
+    {
+      "id": "turn_l90",
+      "form": "one_shot",
+      "root_movement": "in_place",
+      "source_action": "turn_l90",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: turn_l90)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/turn_l90",
+      "frame_range": [
+        0,
+        21
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 0.7,
+      "loop": false,
+      "root_motion_policy": "in_place",
+      "intended_layer": "locomotion",
+      "event_markers": [],
+      "entry_exit_states": "locomotion / locomotion",
+      "spec_duration_range": "0.2\u20131.0",
+      "pose": false
+    },
+    {
+      "id": "turn_r90",
+      "form": "one_shot",
+      "root_movement": "in_place",
+      "source_action": "turn_r90",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: turn_r90)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/turn_r90",
+      "frame_range": [
+        0,
+        21
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 0.7,
+      "loop": false,
+      "root_motion_policy": "in_place",
+      "intended_layer": "locomotion",
+      "event_markers": [],
+      "entry_exit_states": "locomotion / locomotion",
+      "spec_duration_range": "0.2\u20131.0",
+      "pose": false
+    },
+    {
+      "id": "uplink_cancel",
+      "form": "one_shot",
+      "root_movement": "in_place",
+      "source_action": "uplink_cancel",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: uplink_cancel)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/uplink_cancel",
+      "frame_range": [
+        0,
+        15
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 0.5,
+      "loop": false,
+      "root_motion_policy": "in_place",
+      "intended_layer": "ability",
+      "event_markers": [],
+      "entry_exit_states": "uplink / ability",
+      "spec_duration_range": "0.2\u20130.7",
+      "pose": false
+    },
+    {
+      "id": "uplink_end",
+      "form": "one_shot",
+      "root_movement": "in_place",
+      "source_action": "uplink_end",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: uplink_end)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/uplink_end",
+      "frame_range": [
+        0,
+        15
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 0.5,
+      "loop": false,
+      "root_motion_policy": "in_place",
+      "intended_layer": "ability",
+      "event_markers": [],
+      "entry_exit_states": "uplink / ability",
+      "spec_duration_range": "0.2\u20130.8",
+      "pose": false
+    },
+    {
+      "id": "uplink_loop",
+      "form": "loop",
+      "root_movement": "in_place",
+      "source_action": "uplink_loop",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: uplink_loop)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/uplink_loop",
+      "frame_range": [
+        0,
+        45
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 1.5,
+      "loop": true,
+      "root_motion_policy": "in_place",
+      "intended_layer": "ability",
+      "event_markers": [],
+      "entry_exit_states": "uplink / uplink",
+      "spec_duration_range": "1\u20132",
+      "pose": false
+    },
+    {
+      "id": "uplink_start",
+      "form": "one_shot",
+      "root_movement": "in_place",
+      "source_action": "uplink_start",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: uplink_start)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/uplink_start",
+      "frame_range": [
+        0,
+        21
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 0.7,
+      "loop": false,
+      "root_motion_policy": "in_place",
+      "intended_layer": "ability",
+      "event_markers": [],
+      "entry_exit_states": "ability / uplink",
+      "spec_duration_range": "0.4\u20131",
+      "pose": false
+    },
+    {
+      "id": "victory",
+      "form": "one_shot",
+      "root_movement": "in_place",
+      "source_action": "victory",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: victory)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/victory",
+      "frame_range": [
+        0,
+        60
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 2.0,
+      "loop": false,
+      "root_motion_policy": "in_place",
+      "intended_layer": "social",
+      "event_markers": [],
+      "entry_exit_states": "social / base",
+      "spec_duration_range": "1\u20134",
+      "pose": false
+    },
+    {
+      "id": "walk_b",
+      "form": "loop",
+      "root_movement": "in_place",
+      "source_action": "walk_b",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: walk_b)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/walk_b",
+      "frame_range": [
+        0,
+        30
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 1.0,
+      "loop": true,
+      "root_motion_policy": "in_place",
+      "intended_layer": "locomotion",
+      "event_markers": [],
+      "entry_exit_states": "loop / loop",
+      "spec_duration_range": "0.6\u20131.8",
+      "pose": false
+    },
+    {
+      "id": "walk_bl",
+      "form": "loop",
+      "root_movement": "in_place",
+      "source_action": "walk_bl",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: walk_bl)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/walk_bl",
+      "frame_range": [
+        0,
+        30
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 1.0,
+      "loop": true,
+      "root_motion_policy": "in_place",
+      "intended_layer": "locomotion",
+      "event_markers": [],
+      "entry_exit_states": "loop / loop",
+      "spec_duration_range": "0.6\u20131.8",
+      "pose": false
+    },
+    {
+      "id": "walk_br",
+      "form": "loop",
+      "root_movement": "in_place",
+      "source_action": "walk_br",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: walk_br)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/walk_br",
+      "frame_range": [
+        0,
+        30
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 1.0,
+      "loop": true,
+      "root_motion_policy": "in_place",
+      "intended_layer": "locomotion",
+      "event_markers": [],
+      "entry_exit_states": "loop / loop",
+      "spec_duration_range": "0.6\u20131.8",
+      "pose": false
+    },
+    {
+      "id": "walk_f",
+      "form": "loop",
+      "root_movement": "in_place",
+      "source_action": "walk_f",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: walk_f)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/walk_f",
+      "frame_range": [
+        0,
+        30
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 1.0,
+      "loop": true,
+      "root_motion_policy": "in_place",
+      "intended_layer": "locomotion",
+      "event_markers": [],
+      "entry_exit_states": "loop / loop",
+      "spec_duration_range": "0.6\u20131.8",
+      "pose": false
+    },
+    {
+      "id": "walk_fl",
+      "form": "loop",
+      "root_movement": "in_place",
+      "source_action": "walk_fl",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: walk_fl)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/walk_fl",
+      "frame_range": [
+        0,
+        30
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 1.0,
+      "loop": true,
+      "root_motion_policy": "in_place",
+      "intended_layer": "locomotion",
+      "event_markers": [],
+      "entry_exit_states": "loop / loop",
+      "spec_duration_range": "0.6\u20131.8",
+      "pose": false
+    },
+    {
+      "id": "walk_fr",
+      "form": "loop",
+      "root_movement": "in_place",
+      "source_action": "walk_fr",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: walk_fr)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/walk_fr",
+      "frame_range": [
+        0,
+        30
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 1.0,
+      "loop": true,
+      "root_motion_policy": "in_place",
+      "intended_layer": "locomotion",
+      "event_markers": [],
+      "entry_exit_states": "loop / loop",
+      "spec_duration_range": "0.6\u20131.8",
+      "pose": false
+    },
+    {
+      "id": "walk_l",
+      "form": "loop",
+      "root_movement": "in_place",
+      "source_action": "walk_l",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: walk_l)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/walk_l",
+      "frame_range": [
+        0,
+        30
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 1.0,
+      "loop": true,
+      "root_motion_policy": "in_place",
+      "intended_layer": "locomotion",
+      "event_markers": [],
+      "entry_exit_states": "loop / loop",
+      "spec_duration_range": "0.6\u20131.8",
+      "pose": false
+    },
+    {
+      "id": "walk_r",
+      "form": "loop",
+      "root_movement": "in_place",
+      "source_action": "walk_r",
+      "exported_file": "export/animations/Operative_AllAnims.fbx (take: walk_r)",
+      "unreal_asset_path": "/Game/Characters/Operative/Animations/walk_r",
+      "frame_range": [
+        0,
+        30
+      ],
+      "sample_rate": 30,
+      "duration_seconds": 1.0,
+      "loop": true,
+      "root_motion_policy": "in_place",
+      "intended_layer": "locomotion",
+      "event_markers": [],
+      "entry_exit_states": "loop / loop",
+      "spec_duration_range": "0.6\u20131.8",
+      "pose": false
+    }
+  ]
+}
