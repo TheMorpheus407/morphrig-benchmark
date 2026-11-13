@@ -1,0 +1,1023 @@
+# MORPHRIG showcase trace (2026.11.10-23.14.25)
+[    0.000] DATA clips=96 bones=84 morphs=32 placeholder=0 
+[    0.000] CAPTURE requested dir=/home/candidate/workspace/MorphRig/unreal/Saved/Capture/motion fps=30 (fixed time step from the next frame)
+[    0.000] SCRIPT deterministic showcase sequence started (338 commands)
+[    0.033] CMD hud on
+[    0.033] CMD panel off
+[    0.033] CMD instances 1
+[    0.033] INSTANCES 1
+[    0.033] CMD reset
+[    0.033] RESET character returned to the spawn point in a clean living state
+[    0.033] CMD cam third
+[    0.033] SEQUENCE begin: idle variants
+[    0.033] CAPTURE first frame (frame_00000 shows t=0.033)
+[    2.033] CMD cam top
+[    2.033] CMD aim on
+[    2.033] CMD aimat 900 0 150
+[    2.033] SEQUENCE eight-direction walk with independent facing
+[    2.033] CMD walk on
+[    2.033] CMD move 1 0 1.3
+[    2.033] IDLE idle_combat
+[    2.067] GAIT walk_f (dominant; speed 63 cm/s, travel dir -0 deg, rate 0.50x)
+[    2.167] AIM pose aim_level_center reached (yaw -0 pitch +1, layer weight 1.00)
+[    2.600] EVENT foot_r_contact @0.533 clip=walk_f #0
+[    3.133] EVENT foot_l_contact @0.000 clip=walk_f #0
+[    3.333] CMD move 1 1 1.3
+[    3.400] GAIT walk_fr (dominant; speed 150 cm/s, travel dir -33 deg, rate 1.00x)
+[    3.667] EVENT foot_r_contact @0.500 clip=walk_fr #0
+[    4.133] EVENT foot_l_contact @0.000 clip=walk_fr #0
+[    4.633] CMD move 0 1 1.3
+[    4.633] EVENT foot_r_contact @0.500 clip=walk_fr #0
+[    4.667] GAIT walk_r (dominant; speed 150 cm/s, travel dir -80 deg, rate 1.00x)
+[    5.067] EVENT foot_l_contact @0.000 clip=walk_r #0
+[    5.333] GAIT walk_br (dominant; speed 150 cm/s, travel dir -113 deg, rate 1.00x)
+[    5.533] EVENT foot_r_contact @0.467 clip=walk_br #0
+[    5.933] CMD move -1 1 1.3
+[    5.967] EVENT foot_l_contact @0.000 clip=walk_br #0
+[    6.033] GAIT walk_b (dominant; speed 150 cm/s, travel dir -160 deg, rate 1.00x)
+[    6.467] EVENT foot_r_contact @0.500 clip=walk_b #0
+[    6.967] EVENT foot_l_contact @0.000 clip=walk_b #0
+[    7.233] CMD move -1 0 1.3
+[    7.333] GAIT walk_bl (dominant; speed 150 cm/s, travel dir +152 deg, rate 1.00x)
+[    7.433] EVENT foot_r_contact @0.467 clip=walk_bl #0
+[    7.933] EVENT foot_l_contact @0.000 clip=walk_bl #0
+[    8.400] EVENT foot_r_contact @0.467 clip=walk_bl #0
+[    8.533] CMD move -1 -1 1.3
+[    8.667] GAIT walk_l (dominant; speed 150 cm/s, travel dir +111 deg, rate 1.00x)
+[    8.867] EVENT foot_l_contact @0.000 clip=walk_l #0
+[    9.300] GAIT walk_bl (dominant; speed 150 cm/s, travel dir +113 deg, rate 1.00x)
+[    9.300] EVENT foot_r_contact @0.467 clip=walk_bl #0
+[    9.767] EVENT foot_l_contact @0.000 clip=walk_bl #0
+[    9.833] CMD move 0 -1 1.3
+[    9.867] GAIT walk_l (dominant; speed 150 cm/s, travel dir +95 deg, rate 1.00x)
+[   10.200] EVENT foot_r_contact @0.433 clip=walk_l #0
+[   10.667] EVENT foot_l_contact @0.000 clip=walk_l #0
+[   11.133] CMD move 1 -1 1.3
+[   11.133] EVENT foot_r_contact @0.433 clip=walk_l #0
+[   11.167] GAIT walk_fl (dominant; speed 150 cm/s, travel dir +60 deg, rate 1.00x)
+[   11.600] EVENT foot_l_contact @0.000 clip=walk_fl #0
+[   12.133] EVENT foot_r_contact @0.500 clip=walk_fl #0
+[   12.433] CMD walk off
+[   12.433] SEQUENCE eight-direction run with independent facing
+[   12.433] CMD move 1 0 1.1
+[   12.500] GAIT walk_f (dominant; speed 255 cm/s, travel dir +13 deg, rate 1.00x)
+[   12.533] GAIT run_f (dominant; speed 317 cm/s, travel dir +8 deg, rate 1.00x)
+[   12.600] EVENT foot_l_contact @0.000 clip=run_f #0
+[   12.967] EVENT foot_r_contact @0.367 clip=run_f #0
+[   13.333] EVENT foot_l_contact @0.000 clip=run_f #0
+[   13.533] CMD move 1 1 1.1
+[   13.600] GAIT run_fr (dominant; speed 400 cm/s, travel dir -27 deg, rate 1.00x)
+[   13.700] EVENT foot_r_contact @0.367 clip=run_fr #0
+[   14.067] EVENT foot_l_contact @0.000 clip=run_fr #0
+[   14.133] GAIT run_r (dominant; speed 400 cm/s, travel dir -70 deg, rate 1.00x)
+[   14.400] EVENT foot_r_contact @0.333 clip=run_r #0
+[   14.633] CMD move 0 1 1.1
+[   14.667] GAIT run_br (dominant; speed 400 cm/s, travel dir -123 deg, rate 1.00x)
+[   14.733] EVENT foot_l_contact @0.000 clip=run_br #0
+[   14.900] GAIT run_b (dominant; speed 400 cm/s, travel dir -159 deg, rate 1.00x)
+[   15.067] EVENT foot_r_contact @0.367 clip=run_b #0
+[   15.433] EVENT foot_l_contact @0.000 clip=run_b #0
+[   15.733] CMD move -1 1 1.1
+[   15.800] EVENT foot_r_contact @0.367 clip=run_b #0
+[   15.867] GAIT run_bl (dominant; speed 400 cm/s, travel dir +154 deg, rate 1.00x)
+[   16.133] EVENT foot_l_contact @0.000 clip=run_bl #0
+[   16.500] EVENT foot_r_contact @0.333 clip=run_bl #0
+[   16.833] CMD move -1 0 1.1
+[   16.833] EVENT foot_l_contact @0.000 clip=run_bl #0
+[   17.167] EVENT foot_r_contact @0.333 clip=run_bl #0
+[   17.500] EVENT foot_l_contact @0.000 clip=run_bl #0
+[   17.833] EVENT foot_r_contact @0.333 clip=run_bl #0
+[   17.933] CMD move -1 -1 1.1
+[   18.000] GAIT run_l (dominant; speed 400 cm/s, travel dir +103 deg, rate 1.00x)
+[   18.167] EVENT foot_l_contact @0.000 clip=run_l #0
+[   18.500] EVENT foot_r_contact @0.333 clip=run_l #0
+[   18.833] EVENT foot_l_contact @0.000 clip=run_l #0
+[   19.033] CMD move 0 -1 1.1
+[   19.167] GAIT run_fl (dominant; speed 400 cm/s, travel dir +66 deg, rate 1.00x)
+[   19.167] EVENT foot_r_contact @0.367 clip=run_fl #0
+[   19.533] EVENT foot_l_contact @0.000 clip=run_fl #0
+[   19.767] GAIT run_l (dominant; speed 400 cm/s, travel dir +68 deg, rate 1.00x)
+[   19.867] EVENT foot_r_contact @0.333 clip=run_l #0
+[   20.133] CMD move 1 -1 1.1
+[   20.167] GAIT run_fl (dominant; speed 400 cm/s, travel dir +58 deg, rate 1.00x)
+[   20.233] EVENT foot_l_contact @0.000 clip=run_fl #0
+[   20.600] EVENT foot_r_contact @0.367 clip=run_fl #0
+[   20.967] EVENT foot_l_contact @0.000 clip=run_fl #0
+[   21.233] CMD move stop
+[   21.267] GAIT walk_fl (dominant; speed 166 cm/s, travel dir +44 deg, rate 1.00x)
+[   21.833] SEQUENCE moving ranged attacks, burst and directional cast (upper body layer + aim)
+[   21.833] CMD move 0 1
+[   21.867] GAIT walk_r (dominant; speed 63 cm/s, travel dir -91 deg, rate 0.50x)
+[   22.000] GAIT run_r (dominant; speed 317 cm/s, travel dir -92 deg, rate 1.00x)
+[   22.233] EVENT foot_r_contact @0.333 clip=run_r #0
+[   22.533] CMD fire
+[   22.533] CLIP upper ranged_fire #1 blend=0.08 speed=400
+[   22.567] EVENT foot_l_contact @0.000 clip=run_r #0
+[   22.600] EVENT muzzle_1 @0.067 clip=ranged_fire #1
+[   22.700] EVENT recovery @0.167 clip=ranged_fire #1
+[   22.833] CLIP upper ranged_fire #1 ended (finished)
+[   22.900] GAIT run_br (dominant; speed 400 cm/s, travel dir -113 deg, rate 1.00x)
+[   22.900] EVENT foot_r_contact @0.333 clip=run_br #0
+[   23.233] CMD burst
+[   23.233] CLIP upper ranged_burst #2 blend=0.08 speed=400
+[   23.233] EVENT foot_l_contact @0.000 clip=run_br #0
+[   23.300] EVENT muzzle_1 @0.067 clip=ranged_burst #2
+[   23.400] EVENT muzzle_2 @0.200 clip=ranged_burst #2
+[   23.533] EVENT muzzle_3 @0.333 clip=ranged_burst #2
+[   23.567] EVENT foot_r_contact @0.333 clip=run_br #0
+[   23.633] EVENT recovery @0.433 clip=ranged_burst #2
+[   23.800] CLIP upper ranged_burst #2 ended (finished)
+[   23.900] EVENT foot_l_contact @0.000 clip=run_br #0
+[   24.133] CMD move 0 -1
+[   24.167] GAIT walk_br (dominant; speed 123 cm/s, travel dir -134 deg, rate 0.82x)
+[   24.233] GAIT walk_fl (dominant; speed 69 cm/s, travel dir +45 deg, rate 0.50x)
+[   24.300] EVENT foot_r_contact @0.500 clip=walk_fl #0
+[   24.367] GAIT run_fl (dominant; speed 322 cm/s, travel dir +46 deg, rate 1.00x)
+[   24.700] EVENT foot_l_contact @0.000 clip=run_fl #0
+[   24.733] CMD aimat 700 500 260
+[   24.733] CMD cast directional
+[   24.733] CLIP upper cast_directional #3 blend=0.10 speed=400
+[   24.800] GAIT run_l (dominant; speed 400 cm/s, travel dir +74 deg, rate 1.00x)
+[   25.033] EVENT foot_r_contact @0.333 clip=run_l #0
+[   25.100] EVENT cast_release @0.367 clip=cast_directional #3
+[   25.233] EVENT recovery @0.533 clip=cast_directional #3
+[   25.367] EVENT foot_l_contact @0.000 clip=run_l #0
+[   25.500] CLIP upper cast_directional #3 ended (finished)
+[   25.700] EVENT foot_r_contact @0.333 clip=run_l #0
+[   25.933] CMD aimat 900 -300 40
+[   25.933] CMD fire
+[   25.933] CLIP upper ranged_fire #4 blend=0.08 speed=400
+[   26.000] EVENT muzzle_1 @0.067 clip=ranged_fire #4
+[   26.033] GAIT run_fl (dominant; speed 400 cm/s, travel dir +67 deg, rate 1.00x)
+[   26.033] EVENT foot_l_contact @0.000 clip=run_fl #0
+[   26.100] EVENT recovery @0.167 clip=ranged_fire #4
+[   26.233] CLIP upper ranged_fire #4 ended (finished)
+[   26.400] GAIT run_l (dominant; speed 400 cm/s, travel dir +68 deg, rate 1.00x)
+[   26.400] EVENT foot_r_contact @0.333 clip=run_l #0
+[   26.533] CMD move stop
+[   26.567] GAIT walk_l (dominant; speed 166 cm/s, travel dir +72 deg, rate 1.00x)
+[   27.133] CMD aim off
+[   27.133] CMD aimclear
+[   27.133] AIM target lock released
+[   27.133] SEQUENCE aim grid: yaw -60/0/+60 x pitch -35/0/+35 on the upper body, feet planted
+[   27.133] CMD goto spawn
+[   27.133] CMD cam front
+[   27.133] CMD move stop
+[   27.133] CMD aim on
+[   27.133] CMD aimat 500 0 132
+[   27.933] CMD aimat 265 -424 132
+[   28.067] AIM pose aim_level_left reached (yaw +53 pitch +1, layer weight 1.00)
+[   28.733] CMD aimat 265 -424 455
+[   28.800] AIM pose aim_up_left reached (yaw +58 pitch +27, layer weight 1.00)
+[   29.533] CMD aimat 500 0 455
+[   29.633] AIM pose aim_up_center reached (yaw +8 pitch +34, layer weight 1.00)
+[   30.333] CMD aimat 265 424 455
+[   30.467] AIM pose aim_up_right reached (yaw -53 pitch +34, layer weight 1.00)
+[   31.133] CMD aimat 265 424 132
+[   31.200] AIM pose aim_level_right reached (yaw -58 pitch +8, layer weight 1.00)
+[   31.933] CMD aimat 265 424 -190
+[   32.033] AIM pose aim_down_right reached (yaw -58 pitch -28, layer weight 1.00)
+[   32.733] CMD aimat 500 0 -190
+[   32.833] AIM pose aim_down_center reached (yaw -7 pitch -32, layer weight 1.00)
+[   33.533] CMD aimat 265 -424 -190
+[   33.667] AIM pose aim_down_left reached (yaw +54 pitch -32, layer weight 1.00)
+[   34.333] CMD aimat 500 0 132
+[   34.433] AIM pose aim_level_center reached (yaw +8 pitch -3, layer weight 1.00)
+[   34.833] CMD aim off
+[   34.833] CMD aimclear
+[   34.833] AIM target lock released
+[   34.833] IDLE idle_relaxed
+[   35.233] SEQUENCE travel mode: start, sprint, stop, pivot, turn in place
+[   35.233] CMD goto -1250 150
+[   35.233] CMD strafe off
+[   35.233] MODE travel
+[   35.233] CMD cam third
+[   35.733] CMD move 1 0 1.5
+[   35.733] STATE Locomotion -> Locomotion:start
+[   35.733] CLIP base start_f #5 t=0.000 blend=0.10
+[   35.767] PROFILE start_f #5: the capsule follows the authored speed profile (12 frames, 0 -> 400 cm/s, scale 1.00)
+[   35.867] EVENT foot_r_contact @0.133 clip=start_f #5
+[   36.133] EVENT foot_l_contact @0.400 clip=start_f #5
+[   36.133] CLIP base start_f #5 finished speed=333
+[   36.133] STATE Locomotion:start -> Locomotion
+[   36.133] GAIT run_f (dominant; speed 367 cm/s, travel dir -0 deg, rate 1.00x)
+[   36.500] EVENT foot_r_contact @0.367 clip=run_f #0
+[   36.867] EVENT foot_l_contact @0.000 clip=run_f #0
+[   37.233] CMD sprint on
+[   37.233] CMD move 1 0 1.3
+[   37.233] EVENT foot_r_contact @0.367 clip=run_f #0
+[   37.300] GAIT sprint_f (dominant; speed 527 cm/s, travel dir -0 deg, rate 1.00x)
+[   37.500] EVENT foot_l_contact @0.000 clip=sprint_f #0
+[   37.767] EVENT foot_r_contact @0.267 clip=sprint_f #0
+[   38.033] EVENT foot_l_contact @0.000 clip=sprint_f #0
+[   38.300] EVENT foot_r_contact @0.267 clip=sprint_f #0
+[   38.533] CMD sprint off
+[   38.533] CMD move stop
+[   38.533] STATE Locomotion -> Locomotion:stop
+[   38.533] CLIP base stop_f #6 t=0.000 blend=0.12
+[   38.567] PROFILE stop_f #6: the capsule follows the authored speed profile (14 frames, 400 -> 0 cm/s, scale 1.60)
+[   38.633] EVENT foot_r_contact @0.100 clip=stop_f #6
+[   38.833] EVENT foot_l_contact @0.300 clip=stop_f #6
+[   39.033] CLIP base stop_f #6 finished speed=0
+[   39.033] STATE Locomotion:stop -> Locomotion
+[   39.533] CMD move 1 0 1.2
+[   39.533] STATE Locomotion -> Locomotion:start
+[   39.533] CLIP base start_f #7 t=0.000 blend=0.10
+[   39.567] PROFILE start_f #7: the capsule follows the authored speed profile (12 frames, 0 -> 400 cm/s, scale 1.00)
+[   39.667] EVENT foot_r_contact @0.133 clip=start_f #7
+[   39.933] EVENT foot_l_contact @0.400 clip=start_f #7
+[   39.933] CLIP base start_f #7 finished speed=333
+[   39.933] STATE Locomotion:start -> Locomotion
+[   39.933] GAIT run_f (dominant; speed 367 cm/s, travel dir -0 deg, rate 1.00x)
+[   40.300] EVENT foot_r_contact @0.367 clip=run_f #0
+[   40.667] EVENT foot_l_contact @0.000 clip=run_f #0
+[   40.733] CMD move -1 -0.2 1.5
+[   40.733] PIVOT: travel input reversed by -169 deg at 400 cm/s (facing 0, wanted -169)
+[   40.733] STATE Locomotion -> Locomotion:pivot
+[   40.733] CLIP base pivot_l180 #8 t=0.000 blend=0.10
+[   40.767] PROFILE pivot_l180 #8: the capsule follows the authored speed profile (16 frames, 400 -> -400 cm/s, scale 1.00)
+[   40.867] EVENT foot_r_contact @0.133 clip=pivot_l180 #8
+[   41.133] EVENT foot_l_contact @0.367 clip=pivot_l180 #8
+[   41.267] CLIP base pivot_l180 #8 finished speed=300
+[   41.267] STATE Locomotion:pivot -> Locomotion
+[   41.267] GAIT run_f (dominant; speed 350 cm/s, travel dir -0 deg, rate 1.00x)
+[   41.467] EVENT foot_r_contact @0.367 clip=run_f #0
+[   41.833] EVENT foot_l_contact @0.000 clip=run_f #0
+[   42.200] EVENT foot_r_contact @0.367 clip=run_f #0
+[   42.233] CMD move 1 -0.2 1.5
+[   42.233] PIVOT: travel input reversed by 157 deg at 400 cm/s (facing -169, wanted -11)
+[   42.233] STATE Locomotion -> Locomotion:pivot
+[   42.233] CLIP base pivot_r180 #9 t=0.000 blend=0.10
+[   42.267] PROFILE pivot_r180 #9: the capsule follows the authored speed profile (16 frames, 400 -> -400 cm/s, scale 1.00)
+[   42.367] EVENT foot_l_contact @0.133 clip=pivot_r180 #9
+[   42.633] EVENT foot_r_contact @0.367 clip=pivot_r180 #9
+[   42.767] CLIP base pivot_r180 #9 finished speed=300
+[   42.767] STATE Locomotion:pivot -> Locomotion
+[   42.767] GAIT run_f (dominant; speed 350 cm/s, travel dir +0 deg, rate 1.00x)
+[   42.967] EVENT foot_l_contact @0.000 clip=run_f #0
+[   43.333] EVENT foot_r_contact @0.367 clip=run_f #0
+[   43.700] EVENT foot_l_contact @0.000 clip=run_f #0
+[   43.733] CMD move stop
+[   43.733] STATE Locomotion -> Locomotion:stop
+[   43.733] CLIP base stop_f #10 t=0.000 blend=0.12
+[   43.767] PROFILE stop_f #10: the capsule follows the authored speed profile (14 frames, 400 -> 0 cm/s, scale 1.00)
+[   43.833] EVENT foot_r_contact @0.100 clip=stop_f #10
+[   44.033] EVENT foot_l_contact @0.300 clip=stop_f #10
+[   44.233] CLIP base stop_f #10 finished speed=0
+[   44.233] STATE Locomotion:stop -> Locomotion
+[   44.633] CMD turn l
+[   44.633] STATE Locomotion -> Locomotion:turn
+[   44.633] CLIP base turn_l90 #11 t=0.000 blend=0.10
+[   44.900] EVENT foot_l_contact @0.267 clip=turn_l90 #11
+[   45.100] EVENT foot_r_contact @0.467 clip=turn_l90 #11
+[   45.200] CLIP base turn_l90 #11 finished speed=0
+[   45.200] STATE Locomotion:turn -> Locomotion
+[   45.533] CMD turn r
+[   45.533] STATE Locomotion -> Locomotion:turn
+[   45.533] CLIP base turn_r90 #12 t=0.000 blend=0.10
+[   45.800] EVENT foot_r_contact @0.267 clip=turn_r90 #12
+[   46.000] EVENT foot_l_contact @0.467 clip=turn_r90 #12
+[   46.100] CLIP base turn_r90 #12 finished speed=0
+[   46.100] STATE Locomotion:turn -> Locomotion
+[   46.433] CMD strafe on
+[   46.433] MODE strafe / aim
+[   46.433] SEQUENCE jump, fall and landings
+[   46.433] CMD goto spawn
+[   46.433] CMD cam side
+[   46.833] CMD jump
+[   46.833] STATE Locomotion -> Air:jump
+[   46.833] CLIP base jump_start #13 t=0.000 blend=0.10
+[   47.000] EVENT jump_takeoff @0.200 clip=jump_start #13
+[   47.100] STATE Air:jump -> Air:jump_air
+[   47.100] CLIP base jump_air #14 t=0.000 blend=0.12
+[   47.700] LANDED at 558 cm/s -> jump_land
+[   47.700] STATE Air:jump_air -> Air:land
+[   47.700] CLIP base jump_land #15 t=0.000 blend=0.08
+[   47.733] EVENT land_impact @0.000 clip=jump_land #15
+[   47.733] EVENT foot_l_contact @0.000 clip=jump_land #15
+[   47.733] EVENT foot_r_contact @0.000 clip=jump_land #15
+[   48.200] STATE Air:land -> Locomotion
+[   48.433] CMD move 1 0
+[   48.467] GAIT walk_f (dominant; speed 63 cm/s, travel dir -0 deg, rate 0.50x)
+[   48.600] GAIT run_f (dominant; speed 317 cm/s, travel dir -0 deg, rate 1.00x)
+[   48.867] EVENT foot_r_contact @0.367 clip=run_f #0
+[   49.233] EVENT foot_l_contact @0.000 clip=run_f #0
+[   49.333] CMD jump
+[   49.333] STATE Locomotion -> Air:jump
+[   49.333] CLIP base jump_start #16 t=0.000 blend=0.10
+[   49.500] EVENT jump_takeoff @0.200 clip=jump_start #16
+[   49.600] STATE Air:jump -> Air:jump_air
+[   49.600] CLIP base jump_air #17 t=0.000 blend=0.12
+[   50.200] LANDED at 558 cm/s -> jump_land
+[   50.200] STATE Air:jump_air -> Air:land
+[   50.200] CLIP base jump_land #18 t=0.000 blend=0.08
+[   50.233] EVENT land_impact @0.000 clip=jump_land #18
+[   50.233] EVENT foot_l_contact @0.000 clip=jump_land #18
+[   50.233] EVENT foot_r_contact @0.000 clip=jump_land #18
+[   50.500] STATE Air:land -> Locomotion
+[   50.500] GAIT run_f (dominant; speed 400 cm/s, travel dir -0 deg, rate 1.00x)
+[   50.633] CMD move stop
+[   50.667] GAIT walk_f (dominant; speed 166 cm/s, travel dir -0 deg, rate 1.00x)
+[   51.133] CMD drop
+[   51.133] DROP character lifted 360 cm for a long fall
+[   51.267] STATE Locomotion -> Air:fall
+[   51.267] CLIP base fall #19 t=0.000 blend=0.20
+[   51.867] LANDED at 1078 cm/s -> land_heavy
+[   51.867] STATE Air:fall -> Air:land
+[   51.867] CLIP base land_heavy #20 t=0.000 blend=0.08
+[   51.900] EVENT land_impact @0.000 clip=land_heavy #20
+[   51.900] EVENT foot_l_contact @0.000 clip=land_heavy #20
+[   51.900] EVENT foot_r_contact @0.000 clip=land_heavy #20
+[   52.067] EVENT hand_plant @0.167 clip=land_heavy #20
+[   52.500] EVENT foot_l_contact @0.633 clip=land_heavy #20
+[   52.667] EVENT foot_r_contact @0.800 clip=land_heavy #20
+[   52.733] STATE Air:land -> Locomotion
+[   53.533] SEQUENCE dashes with root motion and blink
+[   53.533] CMD cam top
+[   53.533] CMD goto spawn
+[   53.833] CMD dash f
+[   53.833] STATE Locomotion -> Action:dash
+[   53.833] CLIP base dash_f #21 t=0.000 blend=0.08
+[   53.900] EVENT dash_start @0.067 clip=dash_f #21
+[   54.133] EVENT dash_end @0.333 clip=dash_f #21
+[   54.133] EVENT foot_l_contact @0.333 clip=dash_f #21
+[   54.133] EVENT foot_r_contact @0.333 clip=dash_f #21
+[   54.200] CLIP base dash_f #21 finished
+[   54.200] STATE Action:dash -> Locomotion
+[   54.533] CMD dash b
+[   54.533] STATE Locomotion -> Action:dash
+[   54.533] CLIP base dash_b #22 t=0.000 blend=0.08
+[   54.600] EVENT dash_start @0.067 clip=dash_b #22
+[   54.833] EVENT dash_end @0.333 clip=dash_b #22
+[   54.833] EVENT foot_l_contact @0.333 clip=dash_b #22
+[   54.833] EVENT foot_r_contact @0.333 clip=dash_b #22
+[   54.900] CLIP base dash_b #22 finished
+[   54.900] STATE Action:dash -> Locomotion
+[   55.233] CMD dash l
+[   55.233] STATE Locomotion -> Action:dash
+[   55.233] CLIP base dash_l #23 t=0.000 blend=0.08
+[   55.300] EVENT dash_start @0.067 clip=dash_l #23
+[   55.533] EVENT dash_end @0.333 clip=dash_l #23
+[   55.533] EVENT foot_l_contact @0.333 clip=dash_l #23
+[   55.533] EVENT foot_r_contact @0.333 clip=dash_l #23
+[   55.600] CLIP base dash_l #23 finished
+[   55.600] STATE Action:dash -> Locomotion
+[   55.933] CMD dash r
+[   55.933] STATE Locomotion -> Action:dash
+[   55.933] CLIP base dash_r #24 t=0.000 blend=0.08
+[   56.000] EVENT dash_start @0.067 clip=dash_r #24
+[   56.233] EVENT dash_end @0.333 clip=dash_r #24
+[   56.233] EVENT foot_l_contact @0.333 clip=dash_r #24
+[   56.233] EVENT foot_r_contact @0.333 clip=dash_r #24
+[   56.300] CLIP base dash_r #24 finished
+[   56.300] STATE Action:dash -> Locomotion
+[   56.733] CMD blink 400 300
+[   56.733] STATE Locomotion -> Action:blink
+[   56.733] CLIP base blink_out #25 t=0.000 blend=0.08
+[   57.000] EVENT blink_vanish @0.267 clip=blink_out #25
+[   57.000] TELEPORT to V(X=400.00, Y=300.00, Z=92.00)
+[   57.000] CLIP base blink_out #25 finished
+[   57.000] CLIP base blink_in #26 t=0.000 blend=0.00
+[   57.033] EVENT blink_appear @0.000 clip=blink_in #26
+[   57.100] EVENT foot_l_contact @0.100 clip=blink_in #26
+[   57.100] EVENT foot_r_contact @0.100 clip=blink_in #26
+[   57.400] CLIP base blink_in #26 finished
+[   57.400] STATE Action:blink -> Locomotion
+[   57.933] CMD blink 0 0
+[   57.933] STATE Locomotion -> Action:blink
+[   57.933] CLIP base blink_out #27 t=0.000 blend=0.08
+[   58.200] EVENT blink_vanish @0.267 clip=blink_out #27
+[   58.200] TELEPORT to V(Z=92.00)
+[   58.200] CLIP base blink_out #27 finished
+[   58.200] CLIP base blink_in #28 t=0.000 blend=0.00
+[   58.233] EVENT blink_appear @0.000 clip=blink_in #28
+[   58.300] EVENT foot_l_contact @0.100 clip=blink_in #28
+[   58.300] EVENT foot_r_contact @0.100 clip=blink_in #28
+[   58.600] CLIP base blink_in #28 finished
+[   58.600] STATE Action:blink -> Locomotion
+[   59.133] SEQUENCE melee combo with hit windows
+[   59.133] CMD cam third
+[   59.133] CMD melee
+[   59.133] STATE Locomotion -> Action:melee
+[   59.133] CLIP base melee_1 #29 t=0.000 blend=0.10
+[   59.133] IDLE idle_combat
+[   59.200] EVENT blade_extend @0.067 clip=melee_1 #29
+[   59.400] EVENT hit_begin @0.267 clip=melee_1 #29
+[   59.500] EVENT hit_end @0.400 clip=melee_1 #29
+[   59.533] EVENT combo_window @0.433 clip=melee_1 #29
+[   59.633] CMD melee
+[   59.633] MELEE combo input buffered
+[   59.633] EVENT recovery @0.533 clip=melee_1 #29
+[   59.633] CLIP base melee_2 #30 t=0.000 blend=0.10
+[   59.933] EVENT hit_begin @0.267 clip=melee_2 #30
+[   60.033] EVENT hit_end @0.400 clip=melee_2 #30
+[   60.067] EVENT combo_window @0.433 clip=melee_2 #30
+[   60.167] EVENT recovery @0.533 clip=melee_2 #30
+[   60.433] CMD melee
+[   60.433] MELEE combo input buffered
+[   60.433] CLIP base melee_3 #31 t=0.000 blend=0.10
+[   60.833] EVENT hit_begin @0.400 clip=melee_3 #31
+[   60.933] EVENT foot_r_contact @0.467 clip=melee_3 #31
+[   61.033] EVENT hit_end @0.567 clip=melee_3 #31
+[   61.167] EVENT recovery @0.733 clip=melee_3 #31
+[   61.333] EVENT blade_retract @0.900 clip=melee_3 #31
+[   61.467] EVENT foot_r_contact @1.033 clip=melee_3 #31
+[   61.533] CLIP base melee_3 #31 finished
+[   61.533] STATE Action:melee -> Locomotion
+[   62.033] CMD melee
+[   62.033] STATE Locomotion -> Action:melee
+[   62.033] CLIP base melee_1 #32 t=0.000 blend=0.10
+[   62.100] EVENT blade_extend @0.067 clip=melee_1 #32
+[   62.300] EVENT hit_begin @0.267 clip=melee_1 #32
+[   62.400] EVENT hit_end @0.400 clip=melee_1 #32
+[   62.433] EVENT combo_window @0.433 clip=melee_1 #32
+[   62.533] EVENT recovery @0.533 clip=melee_1 #32
+[   62.800] CLIP base melee_1 #32 finished
+[   62.800] STATE Action:melee -> Locomotion
+[   63.233] SEQUENCE reload while walking, then a cancelled reload
+[   63.233] CMD cam third
+[   63.233] CMD walk on
+[   63.233] CMD move 0 1
+[   63.267] GAIT walk_r (dominant; speed 63 cm/s, travel dir -90 deg, rate 0.50x)
+[   63.700] EVENT foot_r_contact @0.433 clip=walk_r #0
+[   64.033] CMD reload
+[   64.033] CLIP upper reload #33 blend=0.15 speed=150
+[   64.133] EVENT foot_l_contact @0.000 clip=walk_r #0
+[   64.500] EVENT reload_eject @0.467 clip=reload #33
+[   64.567] EVENT foot_r_contact @0.433 clip=walk_r #0
+[   64.867] EVENT reload_stow @0.867 clip=reload #33
+[   65.000] EVENT foot_l_contact @0.000 clip=walk_r #0
+[   65.033] EVENT reload_grab_new @1.033 clip=reload #33
+[   65.433] EVENT foot_r_contact @0.433 clip=walk_r #0
+[   65.533] EVENT reload_insert @1.500 clip=reload #33
+[   65.700] EVENT reload_done @1.667 clip=reload #33
+[   65.867] EVENT foot_l_contact @0.000 clip=walk_r #0
+[   66.033] CLIP upper reload #33 ended (finished)
+[   66.300] EVENT foot_r_contact @0.433 clip=walk_r #0
+[   66.633] CMD move stop
+[   66.633] CMD walk off
+[   67.133] CMD reload
+[   67.133] CLIP upper reload #34 blend=0.15 speed=0
+[   67.500] CMD dash b
+[   67.500] CLIP upper reload #34 ended (dash)
+[   67.500] RELOAD cancelled before reload_insert: no ammo, props return to their mounts
+[   67.500] STATE Locomotion -> Action:dash
+[   67.500] CLIP base dash_b #35 t=0.000 blend=0.08
+[   67.567] EVENT dash_start @0.067 clip=dash_b #35
+[   67.800] EVENT dash_end @0.333 clip=dash_b #35
+[   67.800] EVENT foot_l_contact @0.333 clip=dash_b #35
+[   67.800] EVENT foot_r_contact @0.333 clip=dash_b #35
+[   67.867] CLIP base dash_b #35 finished
+[   67.867] STATE Action:dash -> Locomotion
+[   68.500] SEQUENCE charge released early, released full, cancelled
+[   68.500] CMD aim on
+[   68.500] CMD aimat 800 200 150
+[   68.500] CMD charge start
+[   68.500] CLIP upper charge_start #36 blend=0.12 speed=0
+[   68.500] AIM pose aim_level_center reached (yaw +7 pitch +1, layer weight 1.00)
+[   68.567] EVENT charge_begin @0.100 clip=charge_start #36
+[   68.867] CMD charge release
+[   68.867] CHARGE release requested at level 0.18 (charge_start t=0.367)
+[   68.867] CLIP upper charge_release #37 blend=0.10 speed=0
+[   68.967] EVENT charge_released @0.133 clip=charge_release #37
+[   69.233] EVENT recovery @0.400 clip=charge_release #37
+[   69.533] CLIP upper charge_release #37 ended (finished)
+[   69.967] CMD charge start
+[   69.967] CLIP upper charge_start #38 blend=0.12 speed=0
+[   70.033] EVENT charge_begin @0.100 clip=charge_start #38
+[   70.533] EVENT charge_ready @0.567 clip=charge_start #38
+[   70.533] CLIP upper charge_hold #39 blend=0.12 speed=0
+[   70.567] EVENT charge_pulse @0.000 clip=charge_hold #39
+[   71.533] EVENT charge_pulse @0.000 clip=charge_hold #39
+[   72.367] CMD charge release
+[   72.367] CHARGE release requested at level 1.00 (charge_hold t=0.800)
+[   72.367] CLIP upper charge_release #40 blend=0.10 speed=0
+[   72.467] EVENT charge_released @0.133 clip=charge_release #40
+[   72.733] EVENT recovery @0.400 clip=charge_release #40
+[   73.033] CLIP upper charge_release #40 ended (finished)
+[   73.467] CMD charge start
+[   73.467] CLIP upper charge_start #41 blend=0.12 speed=0
+[   73.533] EVENT charge_begin @0.100 clip=charge_start #41
+[   74.033] EVENT charge_ready @0.567 clip=charge_start #41
+[   74.033] CLIP upper charge_hold #42 blend=0.12 speed=0
+[   74.067] EVENT charge_pulse @0.000 clip=charge_hold #42
+[   74.467] CMD charge cancel
+[   74.467] CHARGE cancelled (cancel command) at level 0.60
+[   74.467] CLIP upper charge_cancel #43 blend=0.12 speed=0
+[   74.533] EVENT charge_cancelled @0.067 clip=charge_cancel #43
+[   74.933] CLIP upper charge_cancel #43 ended (finished)
+[   75.367] CMD aim off
+[   75.367] SEQUENCE channel interrupted midway, then completed normally
+[   75.367] CMD aimat 800 200 120
+[   75.367] CMD channel start
+[   75.367] STATE Locomotion -> Action:Channel
+[   75.367] CLIP base channel_start #44 t=0.000 blend=0.12
+[   75.667] EVENT channel_begin @0.333 clip=channel_start #44
+[   75.733] CLIP base channel_start #44 finished
+[   75.733] CLIP base channel_loop #45 t=0.000 blend=0.12
+[   75.767] EVENT channel_tick @0.000 clip=channel_loop #45
+[   76.433] EVENT channel_tick @0.667 clip=channel_loop #45
+[   76.667] CMD channel interrupt
+[   76.667] CHANNEL interrupted (interrupt command) at channel_loop t=0.900
+[   76.667] CLIP base channel_interrupt #46 t=0.000 blend=0.10
+[   76.667] EVENT channel_interrupted @0.000 clip=channel_interrupt #46
+[   77.033] CLIP base channel_interrupt #46 finished
+[   77.033] STATE Action:Channel -> Locomotion
+[   77.567] CMD channel start
+[   77.567] STATE Locomotion -> Action:Channel
+[   77.567] CLIP base channel_start #47 t=0.000 blend=0.12
+[   77.867] EVENT channel_begin @0.333 clip=channel_start #47
+[   77.933] CLIP base channel_start #47 finished
+[   77.933] CLIP base channel_loop #48 t=0.000 blend=0.12
+[   77.967] EVENT channel_tick @0.000 clip=channel_loop #48
+[   78.633] EVENT channel_tick @0.667 clip=channel_loop #48
+[   79.267] EVENT channel_tick @0.000 clip=channel_loop #48
+[   79.767] CMD channel release
+[   79.767] CHANNEL released normally at channel_loop t=0.467
+[   79.767] CLIP base channel_end #49 t=0.000 blend=0.15
+[   79.833] EVENT channel_complete @0.100 clip=channel_end #49
+[   80.233] CLIP base channel_end #49 finished
+[   80.233] STATE Action:Channel -> Locomotion
+[   80.767] CMD aimclear
+[   80.767] AIM target lock released
+[   80.767] SEQUENCE ground cast, self cast, deploy at the prop station, uplink cancel and completion
+[   80.767] CMD aimat 300 250 0
+[   80.767] CMD cast ground
+[   80.767] STATE Locomotion -> Action:cast_ground
+[   80.767] CLIP base cast_ground #50 t=0.000 blend=0.12
+[   81.333] EVENT cast_release @0.600 clip=cast_ground #50
+[   81.600] EVENT recovery @0.867 clip=cast_ground #50
+[   81.867] EVENT foot_r_contact @1.133 clip=cast_ground #50
+[   81.933] CLIP base cast_ground #50 finished
+[   81.933] STATE Action:cast_ground -> Locomotion
+[   82.267] CMD cast self
+[   82.267] STATE Locomotion -> Action:cast_self
+[   82.267] CLIP base cast_self #51 t=0.000 blend=0.12
+[   82.667] EVENT cast_release @0.433 clip=cast_self #51
+[   82.933] EVENT recovery @0.700 clip=cast_self #51
+[   83.233] CLIP base cast_self #51 finished
+[   83.233] STATE Action:cast_self -> Locomotion
+[   83.567] CMD aimclear
+[   83.567] AIM target lock released
+[   83.567] CMD goto station
+[   83.567] CMD cam side
+[   83.967] CMD deploy
+[   83.967] STATE Locomotion -> Action:deploy
+[   83.967] CLIP base deploy #52 t=0.000 blend=0.15
+[   84.233] EVENT deploy_grab @0.300 clip=deploy #52
+[   84.833] EVENT deploy_release @0.900 clip=deploy #52
+[   84.833] BEACON world prop placed 1.0 cm above the floor, up axis (-0.00 0.00 1.00)
+[   85.067] EVENT recovery @1.133 clip=deploy #52
+[   85.467] CLIP base deploy #52 finished
+[   85.467] STATE Action:deploy -> Locomotion
+[   85.967] CMD uplink start
+[   85.967] STATE Locomotion -> Action:uplink
+[   85.967] CLIP base uplink_start #53 t=0.000 blend=0.15
+[   86.233] EVENT foot_r_contact @0.267 clip=uplink_start #53
+[   86.367] EVENT foot_l_contact @0.433 clip=uplink_start #53
+[   86.467] EVENT uplink_begin @0.533 clip=uplink_start #53
+[   86.633] CLIP base uplink_start #53 finished
+[   86.633] CLIP base uplink_loop #54 t=0.000 blend=0.12
+[   86.667] EVENT uplink_pulse @0.000 clip=uplink_loop #54
+[   87.367] CMD hit f
+[   87.367] HIT from 0 deg over Action:uplink, speed=0, additive clips: hit_f=1.00
+[   87.367] UPLINK cancelled (damage) at uplink_loop t=0.700
+[   87.367] CLIP base uplink_cancel #55 t=0.000 blend=0.10
+[   87.367] EVENT uplink_cancelled @0.000 clip=uplink_cancel #55
+[   87.667] EVENT foot_r_contact @0.333 clip=uplink_cancel #55
+[   87.767] EVENT foot_l_contact @0.433 clip=uplink_cancel #55
+[   87.767] CLIP base uplink_cancel #55 finished
+[   87.767] STATE Action:uplink -> Locomotion
+[   88.367] CMD uplink start
+[   88.367] STATE Locomotion -> Action:uplink
+[   88.367] CLIP base uplink_start #56 t=0.000 blend=0.15
+[   88.633] EVENT foot_r_contact @0.267 clip=uplink_start #56
+[   88.767] EVENT foot_l_contact @0.433 clip=uplink_start #56
+[   88.867] EVENT uplink_begin @0.533 clip=uplink_start #56
+[   89.033] CLIP base uplink_start #56 finished
+[   89.033] CLIP base uplink_loop #57 t=0.000 blend=0.12
+[   89.067] EVENT uplink_pulse @0.000 clip=uplink_loop #57
+[   90.567] EVENT uplink_pulse @0.000 clip=uplink_loop #57
+[   92.067] EVENT uplink_pulse @0.000 clip=uplink_loop #57
+[   92.067] CLIP base uplink_end #58 t=0.000 blend=0.15
+[   92.267] EVENT uplink_complete @0.167 clip=uplink_end #58
+[   92.600] CLIP base uplink_end #58 finished
+[   92.600] STATE Action:uplink -> Locomotion
+[   92.867] BEACON restocked on the belt
+[   93.200] STATE Locomotion -> Action:blink
+[   93.200] CLIP base blink_out #59 t=0.000 blend=0.08
+[   93.367] IDLE idle_relaxed
+[   93.500] EVENT blink_vanish @0.267 clip=blink_out #59
+[   93.500] TELEPORT to V(Z=92.00)
+[   93.500] CLIP base blink_out #59 finished
+[   93.500] CLIP base blink_in #60 t=0.000 blend=0.00
+[   93.533] EVENT blink_appear @0.000 clip=blink_in #60
+[   93.600] EVENT foot_l_contact @0.100 clip=blink_in #60
+[   93.600] EVENT foot_r_contact @0.100 clip=blink_in #60
+[   93.900] CLIP base blink_in #60 finished
+[   93.900] STATE Action:blink -> Locomotion
+[   93.967] CMD cam top
+[   96.167] SEQUENCE additive hits while moving
+[   96.167] CMD goto 0 -900
+[   96.167] CMD cam third
+[   96.167] CMD move 0 1
+[   96.200] GAIT walk_r (dominant; speed 63 cm/s, travel dir -90 deg, rate 0.50x)
+[   96.333] GAIT run_r (dominant; speed 317 cm/s, travel dir -90 deg, rate 1.00x)
+[   96.567] EVENT foot_r_contact @0.333 clip=run_r #0
+[   96.867] CMD hit f
+[   96.867] HIT from 0 deg over Locomotion, speed=400, additive clips: hit_f=1.00
+[   96.867] IDLE idle_combat
+[   96.900] EVENT foot_l_contact @0.000 clip=run_r #0
+[   97.233] EVENT foot_r_contact @0.333 clip=run_r #0
+[   97.467] CMD hit l
+[   97.467] HIT from 90 deg over Locomotion, speed=400, additive clips: hit_l=1.00
+[   97.567] EVENT foot_l_contact @0.000 clip=run_r #0
+[   97.900] EVENT foot_r_contact @0.333 clip=run_r #0
+[   98.067] CMD hit b
+[   98.067] HIT from 180 deg over Locomotion, speed=400, additive clips: hit_b=1.00
+[   98.233] EVENT foot_l_contact @0.000 clip=run_r #0
+[   98.567] EVENT foot_r_contact @0.333 clip=run_r #0
+[   98.667] CMD hit r
+[   98.667] HIT from -90 deg over Locomotion, speed=400, additive clips: hit_r=1.00
+[   98.900] EVENT foot_l_contact @0.000 clip=run_r #0
+[   99.233] EVENT foot_r_contact @0.333 clip=run_r #0
+[   99.367] CMD move stop
+[   99.400] GAIT walk_r (dominant; speed 166 cm/s, travel dir -90 deg, rate 1.00x)
+[   99.967] SEQUENCE stun, sleep (woken by damage), knock-back, knock-up, knock-downs and get-ups
+[   99.967] CMD cam front
+[   99.967] CMD stun 1.2
+[   99.967] STATE Locomotion -> Stun
+[   99.967] CLIP base stun_start #61 t=0.000 blend=0.12
+[   99.967] EVENT stun_begin @0.000 clip=stun_start #61
+[  100.233] EVENT foot_l_contact @0.267 clip=stun_start #61
+[  100.333] EVENT foot_r_contact @0.400 clip=stun_start #61
+[  100.433] CLIP base stun_loop #62 t=0.000 blend=0.15
+[  101.633] CLIP base stun_end #63 t=0.000 blend=0.15
+[  102.133] EVENT foot_l_contact @0.467 clip=stun_end #63
+[  102.133] EVENT control_regained @0.467 clip=stun_end #63
+[  102.167] EVENT foot_r_contact @0.533 clip=stun_end #63
+[  102.233] STATE Stun -> Locomotion
+[  102.767] CMD sleep 6
+[  102.767] STATE Locomotion -> Sleep
+[  102.767] CLIP base sleep_start #64 t=0.000 blend=0.20
+[  102.767] EVENT sleep_begin @0.000 clip=sleep_start #64
+[  104.067] EVENT settled @1.333 clip=sleep_start #64
+[  104.267] CLIP base sleep_loop #65 t=0.000 blend=0.20
+[  104.667] IDLE idle_relaxed
+[  105.767] CMD hit f
+[  105.767] HIT from 0 deg over Sleep, speed=0, additive clips: hit_f=1.00
+[  105.767] SLEEP broken by damage
+[  105.767] CLIP base sleep_end #66 t=0.000 blend=0.15
+[  105.767] IDLE idle_combat
+[  106.433] EVENT foot_l_contact @0.700 clip=sleep_end #66
+[  106.733] EVENT foot_r_contact @1.000 clip=sleep_end #66
+[  106.733] EVENT control_regained @1.000 clip=sleep_end #66
+[  106.933] STATE Sleep -> Locomotion
+[  107.567] CMD knockback 0
+[  107.567] STATE Locomotion -> Knockback
+[  107.567] CLIP base knockback #67 t=0.000 blend=0.10
+[  107.567] EVENT knockback_begin @0.000 clip=knockback #67
+[  108.033] EVENT foot_l_contact @0.467 clip=knockback #67
+[  108.133] EVENT foot_r_contact @0.600 clip=knockback #67
+[  108.233] EVENT control_regained @0.667 clip=knockback #67
+[  108.333] STATE Knockback -> Locomotion
+[  108.867] CMD knockup
+[  108.867] STATE Locomotion -> Knockup
+[  108.867] CLIP base knockup_start #68 t=0.000 blend=0.10
+[  108.933] EVENT knockup_launch @0.067 clip=knockup_start #68
+[  109.233] CLIP base knockup_air #69 t=0.000 blend=0.15
+[  109.900] LANDED from knock-up at 750 cm/s -> knockdown_back from ground_impact
+[  109.900] STATE Knockup -> Knockdown
+[  109.900] CLIP base knockdown_back #70 t=0.667 blend=0.12
+[  109.933] EVENT ground_impact @0.667 clip=knockdown_back #70
+[  110.300] EVENT settled @1.067 clip=knockdown_back #70
+[  110.433] CLIP base prone_back #71 t=0.000 blend=0.15
+[  111.633] CLIP base getup_back #72 t=0.000 blend=0.20
+[  111.767] IDLE idle_relaxed
+[  112.033] EVENT hand_plant @0.400 clip=getup_back #72
+[  112.767] EVENT foot_l_contact @1.133 clip=getup_back #72
+[  112.767] EVENT foot_r_contact @1.133 clip=getup_back #72
+[  113.367] EVENT foot_r_contact @1.700 clip=getup_back #72
+[  113.467] EVENT control_regained @1.800 clip=getup_back #72
+[  113.567] EVENT foot_l_contact @1.900 clip=getup_back #72
+[  113.667] STATE Knockdown -> Locomotion
+[  114.067] CMD knockdown front
+[  114.067] KNOCKDOWN hit from front -> knockdown_back
+[  114.067] STATE Locomotion -> Knockdown
+[  114.067] CLIP base knockdown_back #73 t=0.000 blend=0.12
+[  114.733] EVENT ground_impact @0.667 clip=knockdown_back #73
+[  115.100] EVENT settled @1.067 clip=knockdown_back #73
+[  115.233] CLIP base prone_back #74 t=0.000 blend=0.15
+[  116.433] CLIP base getup_back #75 t=0.000 blend=0.20
+[  116.833] EVENT hand_plant @0.400 clip=getup_back #75
+[  117.567] EVENT foot_l_contact @1.133 clip=getup_back #75
+[  117.567] EVENT foot_r_contact @1.133 clip=getup_back #75
+[  118.167] EVENT foot_r_contact @1.700 clip=getup_back #75
+[  118.267] EVENT control_regained @1.800 clip=getup_back #75
+[  118.367] EVENT foot_l_contact @1.900 clip=getup_back #75
+[  118.467] STATE Knockdown -> Locomotion
+[  118.667] CMD knockdown back
+[  118.667] KNOCKDOWN hit from behind -> knockdown_front
+[  118.667] STATE Locomotion -> Knockdown
+[  118.667] CLIP base knockdown_front #76 t=0.000 blend=0.12
+[  119.333] EVENT ground_impact @0.667 clip=knockdown_front #76
+[  119.700] EVENT settled @1.067 clip=knockdown_front #76
+[  119.833] CLIP base prone_front #77 t=0.000 blend=0.15
+[  121.033] CLIP base getup_front #78 t=0.000 blend=0.20
+[  121.367] EVENT hand_plant @0.333 clip=getup_front #78
+[  122.033] EVENT foot_r_contact @1.000 clip=getup_front #78
+[  122.433] EVENT foot_l_contact @1.400 clip=getup_front #78
+[  122.667] EVENT control_regained @1.600 clip=getup_front #78
+[  122.667] EVENT foot_r_contact @1.633 clip=getup_front #78
+[  122.867] STATE Knockdown -> Locomotion
+[  123.267] SEQUENCE death overrides a cast, respawn, death during a jump, respawn
+[  123.267] CMD cam side
+[  123.267] CMD cast ground
+[  123.267] STATE Locomotion -> Action:cast_ground
+[  123.267] CLIP base cast_ground #79 t=0.000 blend=0.12
+[  123.267] IDLE idle_combat
+[  123.567] CMD kill front
+[  123.567] DEATH requested during Action:cast_ground (hit from front)
+[  123.567] INTERRUPT Action:cast_ground by death (no exit clip)
+[  123.567] STATE Action:cast_ground -> Dead:Front
+[  123.567] CLIP base death_front #80 t=0.000 blend=0.12
+[  123.567] EVENT death_begin @0.000 clip=death_front #80
+[  123.833] EVENT foot_r_contact @0.267 clip=death_front #80
+[  124.067] CMD kill back
+[  124.067] REFUSED death (already dead - death occurs once)
+[  124.533] EVENT ground_impact @1.000 clip=death_front #80
+[  125.367] EVENT death_settled @1.800 clip=death_front #80
+[  125.567] CLIP base dead_front #81 t=0.000 blend=0.00
+[  126.667] CMD respawn
+[  126.667] RESPAWN props, flags, ammo and layers reset
+[  126.667] STATE Dead:Front -> Respawn
+[  126.667] CLIP base respawn #82 t=0.000 blend=0.00
+[  126.667] EVENT respawn_materialize @0.000 clip=respawn #82
+[  127.967] EVENT respawn_active @1.333 clip=respawn #82
+[  128.500] EVENT foot_l_contact @1.833 clip=respawn #82
+[  128.800] EVENT foot_r_contact @2.133 clip=respawn #82
+[  128.933] EVENT control_regained @2.267 clip=respawn #82
+[  129.167] STATE Respawn -> Locomotion
+[  129.267] IDLE idle_relaxed
+[  129.667] CMD jump
+[  129.667] STATE Locomotion -> Air:jump
+[  129.667] CLIP base jump_start #83 t=0.000 blend=0.10
+[  129.833] EVENT jump_takeoff @0.200 clip=jump_start #83
+[  129.933] STATE Air:jump -> Air:jump_air
+[  129.933] CLIP base jump_air #84 t=0.000 blend=0.12
+[  130.133] CMD kill back
+[  130.133] DEATH requested during Air:jump_air (hit from behind)
+[  130.133] STATE Air:jump_air -> Dead:Back
+[  130.133] CLIP base death_back #85 t=0.000 blend=0.12
+[  130.133] EVENT death_begin @0.000 clip=death_back #85
+[  130.400] EVENT foot_l_contact @0.267 clip=death_back #85
+[  131.300] EVENT ground_impact @1.200 clip=death_back #85
+[  132.133] EVENT death_settled @2.000 clip=death_back #85
+[  132.333] CLIP base dead_back #86 t=0.000 blend=0.00
+[  133.333] CMD respawn
+[  133.333] RESPAWN props, flags, ammo and layers reset
+[  133.333] STATE Dead:Back -> Respawn
+[  133.333] CLIP base respawn #87 t=0.000 blend=0.00
+[  133.333] EVENT respawn_materialize @0.000 clip=respawn #87
+[  134.633] EVENT respawn_active @1.333 clip=respawn #87
+[  135.167] EVENT foot_l_contact @1.833 clip=respawn #87
+[  135.467] EVENT foot_r_contact @2.133 clip=respawn #87
+[  135.600] EVENT control_regained @2.267 clip=respawn #87
+[  135.833] STATE Respawn -> Locomotion
+[  136.333] SEQUENCE status flags: root, silence, disarm, stasis, fear, charm, taunt
+[  136.333] CMD cam top
+[  136.333] CMD flag root on
+[  136.333] FLAG Root on
+[  136.333] CMD move 1 0
+[  136.833] CMD fire
+[  136.833] CLIP upper ranged_fire #88 blend=0.08 speed=0
+[  136.833] IDLE idle_combat
+[  136.833] AIM pose aim_level_center reached (yaw +0 pitch +0, layer weight 1.00)
+[  136.900] EVENT muzzle_1 @0.067 clip=ranged_fire #88
+[  137.000] EVENT recovery @0.167 clip=ranged_fire #88
+[  137.133] CLIP upper ranged_fire #88 ended (finished)
+[  137.733] CMD move stop
+[  137.733] CMD flag root off
+[  137.733] FLAG Root off
+[  137.733] CMD flag silence on
+[  137.733] FLAG silence on
+[  137.733] CMD cast self
+[  137.733] REFUSED cast (silenced)
+[  137.733] CMD channel start
+[  137.733] REFUSED channel (silenced)
+[  138.233] CMD flag silence off
+[  138.233] FLAG silence off
+[  138.233] CMD flag disarm on
+[  138.233] FLAG disarm on
+[  138.233] CMD melee
+[  138.233] REFUSED melee (disarmed)
+[  138.233] CMD fire
+[  138.233] REFUSED ranged (disarmed)
+[  138.733] CMD flag disarm off
+[  138.733] FLAG disarm off
+[  138.733] CMD move 0 1
+[  138.767] GAIT walk_r (dominant; speed 63 cm/s, travel dir -90 deg, rate 0.50x)
+[  138.900] GAIT run_r (dominant; speed 317 cm/s, travel dir -90 deg, rate 1.00x)
+[  139.133] EVENT foot_r_contact @0.333 clip=run_r #0
+[  139.467] EVENT foot_l_contact @0.000 clip=run_r #0
+[  139.533] CMD flag stasis on
+[  139.533] FLAG stasis on
+[  140.533] CMD flag stasis off
+[  140.533] FLAG stasis off
+[  140.567] GAIT walk_r (dominant; speed 63 cm/s, travel dir -90 deg, rate 0.50x)
+[  140.700] GAIT run_r (dominant; speed 317 cm/s, travel dir -90 deg, rate 1.00x)
+[  140.933] EVENT foot_r_contact @0.333 clip=run_r #0
+[  141.133] CMD move stop
+[  141.133] CMD flag fear on 300 0
+[  141.133] FLAG fear on
+[  141.233] GAIT run_fr (dominant; speed 400 cm/s, travel dir -59 deg, rate 1.00x)
+[  141.267] EVENT foot_l_contact @0.000 clip=run_fr #0
+[  141.333] GAIT run_f (dominant; speed 400 cm/s, travel dir -11 deg, rate 1.00x)
+[  141.633] EVENT foot_r_contact @0.367 clip=run_f #0
+[  142.000] EVENT foot_l_contact @0.000 clip=run_f #0
+[  142.367] EVENT foot_r_contact @0.367 clip=run_f #0
+[  142.733] CMD flag fear off
+[  142.733] FLAG fear off
+[  142.733] CMD flag charm on 300 0
+[  142.733] FLAG charm on
+[  142.733] EVENT foot_l_contact @0.000 clip=run_f #0
+[  142.767] GAIT walk_f (dominant; speed 123 cm/s, travel dir +18 deg, rate 0.82x)
+[  142.833] GAIT walk_br (dominant; speed 69 cm/s, travel dir -126 deg, rate 0.50x)
+[  142.867] GAIT walk_r (dominant; speed 132 cm/s, travel dir -108 deg, rate 0.88x)
+[  142.967] GAIT run_fr (dominant; speed 322 cm/s, travel dir -54 deg, rate 1.00x)
+[  143.033] GAIT run_f (dominant; speed 400 cm/s, travel dir -18 deg, rate 1.00x)
+[  143.167] EVENT foot_r_contact @0.367 clip=run_f #0
+[  143.533] EVENT foot_l_contact @0.000 clip=run_f #0
+[  143.833] IDLE idle_relaxed
+[  143.900] EVENT foot_r_contact @0.367 clip=run_f #0
+[  144.267] EVENT foot_l_contact @0.000 clip=run_f #0
+[  144.533] CMD flag charm off
+[  144.533] FLAG charm off
+[  144.533] CMD flag taunt on 0 400
+[  144.533] FLAG taunt on
+[  144.567] GAIT walk_f (dominant; speed 166 cm/s, travel dir -12 deg, rate 1.00x)
+[  144.600] GAIT walk_fr (dominant; speed 40 cm/s, travel dir -24 deg, rate 0.50x)
+[  146.133] CMD flag taunt off
+[  146.133] FLAG taunt off
+[  146.133] SEQUENCE wounded presentation
+[  146.133] CMD cam third
+[  146.133] CMD wounded on
+[  146.133] WOUNDED 1
+[  146.133] IDLE idle_wounded
+[  147.633] CMD move 0 1 2.0
+[  147.667] GAIT walk_b (dominant; speed 63 cm/s, travel dir +164 deg, rate 0.50x)
+[  148.167] EVENT foot_r_contact @0.500 clip=walk_b #0
+[  148.633] EVENT foot_l_contact @0.000 clip=walk_b #0
+[  149.133] EVENT foot_r_contact @0.500 clip=walk_b #0
+[  149.633] EVENT foot_l_contact @0.000 clip=walk_b #0
+[  152.033] CMD wounded off
+[  152.033] WOUNDED 0
+[  152.033] SEQUENCE ramp (20 deg) and steps (20 cm) with ground adaptation, walking
+[  152.033] CMD goto ramp
+[  152.033] CMD cam side
+[  152.033] IDLE idle_relaxed
+[  152.433] CMD walk on
+[  152.433] CMD move 1 0 5.1
+[  152.467] GAIT walk_f (dominant; speed 63 cm/s, travel dir -0 deg, rate 0.50x)
+[  153.000] EVENT foot_r_contact @0.533 clip=walk_f #0
+[  153.533] EVENT foot_l_contact @0.000 clip=walk_f #0
+[  154.067] EVENT foot_r_contact @0.533 clip=walk_f #0
+[  154.600] EVENT foot_l_contact @0.000 clip=walk_f #0
+[  155.133] EVENT foot_r_contact @0.533 clip=walk_f #0
+[  155.667] EVENT foot_l_contact @0.000 clip=walk_f #0
+[  156.200] EVENT foot_r_contact @0.533 clip=walk_f #0
+[  156.733] EVENT foot_l_contact @0.000 clip=walk_f #0
+[  157.267] EVENT foot_r_contact @0.533 clip=walk_f #0
+[  157.533] CMD move 0 1 2.0
+[  157.567] GAIT walk_fr (dominant; speed 150 cm/s, travel dir -43 deg, rate 1.00x)
+[  157.633] GAIT walk_r (dominant; speed 150 cm/s, travel dir -78 deg, rate 1.00x)
+[  157.767] EVENT foot_l_contact @0.000 clip=walk_r #0
+[  158.200] EVENT foot_r_contact @0.433 clip=walk_r #0
+[  158.633] EVENT foot_l_contact @0.000 clip=walk_r #0
+[  159.067] EVENT foot_r_contact @0.433 clip=walk_r #0
+[  159.500] EVENT foot_l_contact @0.000 clip=walk_r #0
+[  159.533] CMD move -1 0 5.6
+[  159.567] GAIT walk_br (dominant; speed 150 cm/s, travel dir -133 deg, rate 1.00x)
+[  159.633] GAIT walk_b (dominant; speed 150 cm/s, travel dir -168 deg, rate 1.00x)
+[  160.000] EVENT foot_r_contact @0.500 clip=walk_b #0
+[  160.500] EVENT foot_l_contact @0.000 clip=walk_b #0
+[  161.000] EVENT foot_r_contact @0.500 clip=walk_b #0
+[  161.500] EVENT foot_l_contact @0.000 clip=walk_b #0
+[  162.000] EVENT foot_r_contact @0.500 clip=walk_b #0
+[  162.500] EVENT foot_l_contact @0.000 clip=walk_b #0
+[  163.000] EVENT foot_r_contact @0.500 clip=walk_b #0
+[  163.500] EVENT foot_l_contact @0.000 clip=walk_b #0
+[  164.000] EVENT foot_r_contact @0.500 clip=walk_b #0
+[  164.500] EVENT foot_l_contact @0.000 clip=walk_b #0
+[  165.000] EVENT foot_r_contact @0.500 clip=walk_b #0
+[  165.133] CMD walk off
+[  165.133] SEQUENCE ramp and steps, running
+[  165.133] CMD goto ramp
+[  165.433] CMD move 1 0 1.9
+[  165.467] GAIT walk_f (dominant; speed 63 cm/s, travel dir -0 deg, rate 0.50x)
+[  165.600] GAIT run_f (dominant; speed 317 cm/s, travel dir -0 deg, rate 1.00x)
+[  165.867] EVENT foot_r_contact @0.367 clip=run_f #0
+[  166.233] EVENT foot_l_contact @0.000 clip=run_f #0
+[  166.600] EVENT foot_r_contact @0.367 clip=run_f #0
+[  166.967] EVENT foot_l_contact @0.000 clip=run_f #0
+[  167.333] CMD move 0 1 0.75
+[  167.333] EVENT foot_r_contact @0.367 clip=run_f #0
+[  167.367] GAIT run_fr (dominant; speed 339 cm/s, travel dir -30 deg, rate 1.00x)
+[  167.467] GAIT run_r (dominant; speed 400 cm/s, travel dir -75 deg, rate 1.00x)
+[  167.700] EVENT foot_l_contact @0.000 clip=run_r #0
+[  168.033] EVENT foot_r_contact @0.333 clip=run_r #0
+[  168.100] CMD move -1 0 1.7
+[  168.133] GAIT run_br (dominant; speed 339 cm/s, travel dir -120 deg, rate 1.00x)
+[  168.233] GAIT run_b (dominant; speed 400 cm/s, travel dir -165 deg, rate 1.00x)
+[  168.367] EVENT foot_l_contact @0.000 clip=run_b #0
+[  168.733] EVENT foot_r_contact @0.367 clip=run_b #0
+[  169.100] EVENT foot_l_contact @0.000 clip=run_b #0
+[  169.467] EVENT foot_r_contact @0.367 clip=run_b #0
+[  169.800] CMD move stop
+[  169.833] GAIT walk_b (dominant; speed 166 cm/s, travel dir -180 deg, rate 1.00x)
+[  169.867] EVENT foot_l_contact @0.000 clip=walk_b #0
+[  170.400] SEQUENCE action rate 0.5x and 1.5x
+[  170.400] CMD goto spawn
+[  170.400] CMD cam third
+[  170.400] CMD rate 0.5
+[  170.400] ACTION RATE 0.50x
+[  170.400] CMD melee
+[  170.400] STATE Locomotion -> Action:melee
+[  170.400] CLIP base melee_1 #89 t=0.000 blend=0.10
+[  170.400] IDLE idle_combat
+[  170.533] EVENT blade_extend @0.067 clip=melee_1 #89
+[  170.933] EVENT hit_begin @0.267 clip=melee_1 #89
+[  171.167] EVENT hit_end @0.400 clip=melee_1 #89
+[  171.233] EVENT combo_window @0.433 clip=melee_1 #89
+[  171.433] EVENT recovery @0.533 clip=melee_1 #89
+[  172.000] CLIP base melee_1 #89 finished
+[  172.000] STATE Action:melee -> Locomotion
+[  172.400] CMD fire
+[  172.400] CLIP upper ranged_fire #90 blend=0.08 speed=0
+[  172.400] AIM pose aim_level_center reached (yaw +0 pitch +0, layer weight 1.00)
+[  172.533] EVENT muzzle_1 @0.067 clip=ranged_fire #90
+[  172.733] EVENT recovery @0.167 clip=ranged_fire #90
+[  173.033] CLIP upper ranged_fire #90 ended (finished)
+[  173.400] CMD rate 1.5
+[  173.400] ACTION RATE 1.50x
+[  173.400] CMD melee
+[  173.400] STATE Locomotion -> Action:melee
+[  173.400] CLIP base melee_1 #91 t=0.000 blend=0.10
+[  173.433] EVENT blade_extend @0.067 clip=melee_1 #91
+[  173.567] EVENT hit_begin @0.267 clip=melee_1 #91
+[  173.633] EVENT hit_end @0.400 clip=melee_1 #91
+[  173.667] EVENT combo_window @0.433 clip=melee_1 #91
+[  173.733] EVENT recovery @0.533 clip=melee_1 #91
+[  173.800] CMD melee
+[  173.800] MELEE combo input buffered
+[  173.800] CLIP base melee_2 #92 t=0.000 blend=0.10
+[  174.000] EVENT hit_begin @0.267 clip=melee_2 #92
+[  174.067] EVENT hit_end @0.400 clip=melee_2 #92
+[  174.100] EVENT combo_window @0.433 clip=melee_2 #92
+[  174.167] EVENT recovery @0.533 clip=melee_2 #92
+[  174.333] CLIP base melee_2 #92 finished
+[  174.333] STATE Action:melee -> Locomotion
+[  174.700] CMD reload
+[  174.700] CLIP upper reload #93 blend=0.15 speed=0
+[  175.000] EVENT reload_eject @0.467 clip=reload #93
+[  175.267] EVENT reload_stow @0.867 clip=reload #93
+[  175.367] EVENT reload_grab_new @1.033 clip=reload #93
+[  175.700] EVENT reload_insert @1.500 clip=reload #93
+[  175.800] EVENT reload_done @1.667 clip=reload #93
+[  176.033] CLIP upper reload #93 ended (finished)
+[  176.300] CMD rate 1.0
+[  176.300] ACTION RATE 1.00x
+[  176.300] SEQUENCE greet, victory, defeat, speech sample
+[  176.300] CMD cam front
+[  176.300] CMD emote greet
+[  176.300] STATE Locomotion -> Emote:greet
+[  176.300] CLIP base greet #94 t=0.000 blend=0.25
+[  177.067] EVENT gesture_peak @0.800 clip=greet #94
+[  178.300] STATE Emote:greet -> Locomotion
+[  178.600] CMD emote victory
+[  178.600] STATE Locomotion -> Emote:victory
+[  178.600] CLIP base victory #95 t=0.000 blend=0.25
+[  179.167] EVENT gesture_peak @0.567 clip=victory #95
+[  179.600] EVENT foot_l_contact @1.033 clip=victory #95
+[  179.600] EVENT foot_r_contact @1.033 clip=victory #95
+[  180.700] IDLE idle_relaxed
+[  181.600] STATE Emote:victory -> Locomotion
+[  181.900] CMD emote defeat
+[  181.900] STATE Locomotion -> Emote:defeat
+[  181.900] CLIP base defeat #96 t=0.000 blend=0.25
+[  182.933] EVENT gesture_peak @1.067 clip=defeat #96
+[  184.700] STATE Emote:defeat -> Locomotion
+[  185.000] CMD cam bust
+[  185.000] CMD emote dialogue
+[  185.000] STATE Locomotion -> Emote:dialogue
+[  185.000] CLIP base dialogue #97 t=0.000 blend=0.25
+[  185.267] EVENT line_start @0.300 clip=dialogue #97
+[  190.167] EVENT gesture_hold @5.167 clip=dialogue #97
+[  195.967] EVENT emotion_shift @11.000 clip=dialogue #97
+[  198.433] EVENT gesture_push @13.467 clip=dialogue #97
+[  200.933] EVENT line_end @15.967 clip=dialogue #97
+[  201.600] STATE Emote:dialogue -> Locomotion
+[  202.033] CMD cam third
+[  202.633] SEQUENCE end
+[  202.633] SCRIPT deterministic showcase sequence finished at t=202.633
+[  202.633] CAPTURE stop after 6078 frames

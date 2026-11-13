@@ -1,0 +1,19 @@
+mesh /Game/Operative/Mesh/SK_Operative.SK_Operative skeleton /Game/Operative/Mesh/SK_Operative_Skeleton.SK_Operative_Skeleton
+import_lod 1 Operative_LOD1.fbx -> 1
+import_lod 2 Operative_LOD2.fbx -> 2
+root motion dash_f [0.0, 200.0, 0.0]
+root motion dash_b [0.0, -200.0, 0.0]
+root motion dash_l [200.0, 0.0, 0.0]
+root motion dash_r [-200.0, 0.0, 0.0]
+================ SUMMARY ================
+placeholder inputs: False
+root bone: root | bones: 84 | ref pose max error cm: 0.0001
+mesh bounds z: 0.00 .. 180.76 cm
+LODs: [(0, 38178, 28096, 8), (1, 20249, 16579, 8), (2, 12700, 10308, 8)] (lod, tris, verts, max influences)
+material slots: ['M_Skin', 'M_EyesMouth', 'M_Hair', 'M_Suit', 'M_Armor', 'M_Cyber']
+morph targets: 32 missing: [] implausible: 0 with data per LOD: [32, 32, 32]
+sockets: 15 max error cm: 0.0
+animations: 96 with curves: 84 notifies total: 189
+textures: 22 | largest: 4096 | GPU memory estimate MB (block compressed, with mips): 81.33 | props: 2
+problems: 0
+IMPORT OK

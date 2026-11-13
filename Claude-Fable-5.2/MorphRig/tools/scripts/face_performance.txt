@@ -1,0 +1,132 @@
+# Speech performance in the head-and-shoulders view (lips and hand gestures), then a face control sweep in the tight
+# face view (presentation/face_performance.mp4).
+# Run through tools/capture_presentation.sh face  (muxes source/audio/dialogue.wav at the traced line_start time)
+hud off
+panel off
+ring off
+cam bust
+wait 1.5
+capture start default 30
+wait 0.5
+emote dialogue
+waitidle 60
+wait 0.6
+cam face
+wait 0.8
+autoblink off
+caption Expression preset: joy / confidence
+expr joy 1
+wait 1.3
+expr joy 0
+caption Expression preset: anger
+expr anger 1
+wait 1.3
+expr anger 0
+caption Expression preset: concern / sadness
+expr concern 1
+wait 1.3
+expr concern 0
+caption Expression preset: surprise
+expr surprise 1
+wait 1.3
+expr surprise 0
+caption Expression preset: pain
+expr pain 1
+wait 1.3
+expr pain 0
+caption Expression preset: focus
+expr focus 1
+wait 1.3
+expr focus 0
+wait 0.4
+caption Independent blinks (left, right) and squint
+face blink_l 1
+wait 0.5
+face blink_l 0
+wait 0.3
+face blink_r 1
+wait 0.5
+face blink_r 0
+wait 0.3
+face squint_l 1
+wait 0.5
+face squint_l 0
+face squint_r 1
+wait 0.5
+face squint_r 0
+wait 0.3
+caption Independent eye look - eyelids follow the eyeballs
+gaze 30 0
+wait 0.6
+gaze -30 0
+wait 0.6
+gaze 0 20
+wait 0.6
+gaze 0 -26
+wait 0.6
+gaze off
+wait 0.4
+caption Asymmetric controls: smile left, brow right, sneer left
+face smile_l 1
+wait 0.6
+face brow_outer_up_r 1
+wait 0.6
+face nose_sneer_l 1
+wait 0.7
+face reset
+wait 0.4
+caption Viseme PP - lip closure (p b m)
+viseme PP 1
+wait 0.6
+viseme PP 0
+caption Viseme FF - labiodental (f v)
+viseme FF 1
+wait 0.6
+viseme FF 0
+caption Viseme TH - tongue to teeth
+viseme TH 1
+wait 0.6
+viseme TH 0
+caption Viseme DD - alveolar (t d n l)
+viseme DD 1
+wait 0.6
+viseme DD 0
+caption Viseme KK - velar (k g)
+viseme KK 1
+wait 0.6
+viseme KK 0
+caption Viseme CH - post-alveolar (ch sh)
+viseme CH 1
+wait 0.6
+viseme CH 0
+caption Viseme SS - sibilant (s z)
+viseme SS 1
+wait 0.6
+viseme SS 0
+caption Viseme RR - r-coloured
+viseme RR 1
+wait 0.6
+viseme RR 0
+caption Viseme AA - open vowel
+viseme AA 1
+wait 0.6
+viseme AA 0
+caption Viseme EH - mid vowel
+viseme EH 1
+wait 0.6
+viseme EH 0
+caption Viseme EE - wide vowel
+viseme EE 1
+wait 0.6
+viseme EE 0
+caption Viseme OH - rounded vowel
+viseme OH 1
+wait 0.6
+viseme OH 0
+caption Viseme OO - tight rounded vowel
+viseme OO 1
+wait 0.6
+viseme OO 0
+wait 0.5
+capture stop
+quit

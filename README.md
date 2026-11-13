@@ -31,6 +31,7 @@ at the end of its run, including its own copy of the inputs above.
 | [`MiniMax-M3.1-Flash/`](MiniMax-M3.1-Flash/) | MiniMax M3.1 Flash | 2026-10-23 |
 | [`Nemotron-3.5-Super-VL/`](Nemotron-3.5-Super-VL/) | Nemotron 3.5 Super VL | 2026-11-08 |
 | [`Gemini-4-Carbon/`](Gemini-4-Carbon/) | Gemini 4 Carbon | 2026-11-11 |
+| [`Claude-Fable-5.2/`](Claude-Fable-5.2/) | Claude Fable 5.2 | 2026-11-10 |
 
 Packaged Linux builds and other large parts are attached to the GitHub
 release of each run; `RELEASE_ASSETS.txt` in the run folder lists them with

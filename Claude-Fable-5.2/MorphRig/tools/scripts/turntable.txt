@@ -1,0 +1,43 @@
+# Neutral full-body turntable (presentation/turntable.mp4). Run through tools/capture_presentation.sh turntable
+hud off
+panel off
+ring off
+lookat off
+autoblink off
+refpose
+cam turntable 45
+wait 1.5
+capture start default 30
+caption Neutral reference pose - LOD0 - textured - team A
+wait 8.0
+display wireframe
+caption LOD0 mesh topology (wireframe)
+wait 4.0
+display clay
+caption LOD0 untextured (clay)
+wait 4.0
+display normals
+caption World-space normals including the normal map
+wait 4.0
+display textured
+lod 1
+caption LOD1 - textured
+wait 4.0
+lod 2
+caption LOD2 - textured
+wait 4.0
+lod auto
+skeleton on
+caption Deformation skeleton overlay (orange: twist / helper bones, magenta: props and cable)
+wait 4.0
+skeleton off
+team B
+outline on
+ring on
+caption Team B accent: colour + icon, dashed outline, segmented ground ring
+wait 4.0
+team A
+caption Team A accent: colour + icon, solid outline, solid ground ring with chevron
+wait 4.0
+capture stop
+quit

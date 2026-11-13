@@ -1,0 +1,338 @@
+{
+ "schema": "morphrig.material_and_lod_report/1",
+ "lods": [
+  {
+   "object": "Operative_LOD0",
+   "triangles": 38178,
+   "vertices": 19969,
+   "material_slots": 6,
+   "max_bone_influences": 7,
+   "morph_targets": 32,
+   "vertex_groups": 83,
+   "loose_vertices": 0,
+   "zero_area_faces": 0,
+   "non_manifold_edges_over_2_faces": 0,
+   "triangle_limit": 80000
+  },
+  {
+   "object": "Operative_LOD1",
+   "triangles": 20249,
+   "vertices": 10897,
+   "material_slots": 6,
+   "max_bone_influences": 7,
+   "morph_targets": 32,
+   "vertex_groups": 83,
+   "loose_vertices": 0,
+   "zero_area_faces": 0,
+   "non_manifold_edges_over_2_faces": 0,
+   "triangle_limit": 40000
+  },
+  {
+   "object": "Operative_LOD2",
+   "triangles": 12700,
+   "vertices": 6909,
+   "material_slots": 6,
+   "max_bone_influences": 8,
+   "morph_targets": 32,
+   "vertex_groups": 83,
+   "loose_vertices": 0,
+   "zero_area_faces": 0,
+   "non_manifold_edges_over_2_faces": 0,
+   "triangle_limit": 20000
+  }
+ ],
+ "lod_method": "LOD1/LOD2: collapse decimation of everything except the head skin, which keeps its topology so all morph targets exist on every LOD; skin weights limited to 8 influences",
+ "material_slots": [
+  {
+   "index": 0,
+   "name": "M_Skin",
+   "shading": "skin"
+  },
+  {
+   "index": 1,
+   "name": "M_EyesMouth",
+   "shading": "wet"
+  },
+  {
+   "index": 2,
+   "name": "M_Hair",
+   "shading": "hair"
+  },
+  {
+   "index": 3,
+   "name": "M_Suit",
+   "shading": "cloth"
+  },
+  {
+   "index": 4,
+   "name": "M_Armor",
+   "shading": "hard"
+  },
+  {
+   "index": 5,
+   "name": "M_Cyber",
+   "shading": "metal"
+  }
+ ],
+ "textures": [
+  {
+   "file": "T_Skin_BaseColor.png",
+   "slot": "M_Skin",
+   "kind": "base_color",
+   "width": 4096,
+   "height": 4096,
+   "uncompressed_rgba8_mib": 64.0,
+   "gpu_compressed_estimate_mib": 10.67
+  },
+  {
+   "file": "T_Skin_Normal.png",
+   "slot": "M_Skin",
+   "kind": "normal",
+   "width": 2048,
+   "height": 2048,
+   "uncompressed_rgba8_mib": 16.0,
+   "gpu_compressed_estimate_mib": 5.33
+  },
+  {
+   "file": "T_Skin_ORM.png",
+   "slot": "M_Skin",
+   "kind": "orm",
+   "width": 2048,
+   "height": 2048,
+   "uncompressed_rgba8_mib": 16.0,
+   "gpu_compressed_estimate_mib": 2.67
+  },
+  {
+   "file": "T_EyesMouth_BaseColor.png",
+   "slot": "M_EyesMouth",
+   "kind": "base_color",
+   "width": 1024,
+   "height": 1024,
+   "uncompressed_rgba8_mib": 4.0,
+   "gpu_compressed_estimate_mib": 0.67
+  },
+  {
+   "file": "T_EyesMouth_Normal.png",
+   "slot": "M_EyesMouth",
+   "kind": "normal",
+   "width": 1024,
+   "height": 1024,
+   "uncompressed_rgba8_mib": 4.0,
+   "gpu_compressed_estimate_mib": 1.33
+  },
+  {
+   "file": "T_EyesMouth_ORM.png",
+   "slot": "M_EyesMouth",
+   "kind": "orm",
+   "width": 1024,
+   "height": 1024,
+   "uncompressed_rgba8_mib": 4.0,
+   "gpu_compressed_estimate_mib": 0.67
+  },
+  {
+   "file": "T_EyesMouth_Mask.png",
+   "slot": "M_EyesMouth",
+   "kind": "mask",
+   "width": 1024,
+   "height": 1024,
+   "uncompressed_rgba8_mib": 4.0,
+   "gpu_compressed_estimate_mib": 1.33
+  },
+  {
+   "file": "T_Hair_BaseColor.png",
+   "slot": "M_Hair",
+   "kind": "base_color",
+   "width": 2048,
+   "height": 2048,
+   "uncompressed_rgba8_mib": 16.0,
+   "gpu_compressed_estimate_mib": 2.67
+  },
+  {
+   "file": "T_Hair_Normal.png",
+   "slot": "M_Hair",
+   "kind": "normal",
+   "width": 2048,
+   "height": 2048,
+   "uncompressed_rgba8_mib": 16.0,
+   "gpu_compressed_estimate_mib": 5.33
+  },
+  {
+   "file": "T_Hair_ORM.png",
+   "slot": "M_Hair",
+   "kind": "orm",
+   "width": 2048,
+   "height": 2048,
+   "uncompressed_rgba8_mib": 16.0,
+   "gpu_compressed_estimate_mib": 2.67
+  },
+  {
+   "file": "T_Suit_BaseColor.png",
+   "slot": "M_Suit",
+   "kind": "base_color",
+   "width": 2048,
+   "height": 2048,
+   "uncompressed_rgba8_mib": 16.0,
+   "gpu_compressed_estimate_mib": 2.67
+  },
+  {
+   "file": "T_Suit_Normal.png",
+   "slot": "M_Suit",
+   "kind": "normal",
+   "width": 2048,
+   "height": 2048,
+   "uncompressed_rgba8_mib": 16.0,
+   "gpu_compressed_estimate_mib": 5.33
+  },
+  {
+   "file": "T_Suit_ORM.png",
+   "slot": "M_Suit",
+   "kind": "orm",
+   "width": 2048,
+   "height": 2048,
+   "uncompressed_rgba8_mib": 16.0,
+   "gpu_compressed_estimate_mib": 2.67
+  },
+  {
+   "file": "T_Suit_Mask.png",
+   "slot": "M_Suit",
+   "kind": "mask",
+   "width": 2048,
+   "height": 2048,
+   "uncompressed_rgba8_mib": 16.0,
+   "gpu_compressed_estimate_mib": 5.33
+  },
+  {
+   "file": "T_Armor_BaseColor.png",
+   "slot": "M_Armor",
+   "kind": "base_color",
+   "width": 2048,
+   "height": 2048,
+   "uncompressed_rgba8_mib": 16.0,
+   "gpu_compressed_estimate_mib": 2.67
+  },
+  {
+   "file": "T_Armor_Normal.png",
+   "slot": "M_Armor",
+   "kind": "normal",
+   "width": 2048,
+   "height": 2048,
+   "uncompressed_rgba8_mib": 16.0,
+   "gpu_compressed_estimate_mib": 5.33
+  },
+  {
+   "file": "T_Armor_ORM.png",
+   "slot": "M_Armor",
+   "kind": "orm",
+   "width": 2048,
+   "height": 2048,
+   "uncompressed_rgba8_mib": 16.0,
+   "gpu_compressed_estimate_mib": 2.67
+  },
+  {
+   "file": "T_Armor_Mask.png",
+   "slot": "M_Armor",
+   "kind": "mask",
+   "width": 2048,
+   "height": 2048,
+   "uncompressed_rgba8_mib": 16.0,
+   "gpu_compressed_estimate_mib": 5.33
+  },
+  {
+   "file": "T_Cyber_BaseColor.png",
+   "slot": "M_Cyber",
+   "kind": "base_color",
+   "width": 2048,
+   "height": 2048,
+   "uncompressed_rgba8_mib": 16.0,
+   "gpu_compressed_estimate_mib": 2.67
+  },
+  {
+   "file": "T_Cyber_Normal.png",
+   "slot": "M_Cyber",
+   "kind": "normal",
+   "width": 2048,
+   "height": 2048,
+   "uncompressed_rgba8_mib": 16.0,
+   "gpu_compressed_estimate_mib": 5.33
+  },
+  {
+   "file": "T_Cyber_ORM.png",
+   "slot": "M_Cyber",
+   "kind": "orm",
+   "width": 2048,
+   "height": 2048,
+   "uncompressed_rgba8_mib": 16.0,
+   "gpu_compressed_estimate_mib": 2.67
+  },
+  {
+   "file": "T_Cyber_Mask.png",
+   "slot": "M_Cyber",
+   "kind": "mask",
+   "width": 2048,
+   "height": 2048,
+   "uncompressed_rgba8_mib": 16.0,
+   "gpu_compressed_estimate_mib": 5.33
+  }
+ ],
+ "texture_max_dimension": 4096,
+ "texture_memory": {
+  "gpu_compressed_estimate_mib": 81.3,
+  "uncompressed_rgba8_mib": 352.0,
+  "note": "estimate for BC1 (base colour, ORM), BC5 (normal), BC3 (mask) with full mip chains; the Unreal import report lists the formats that were actually cooked"
+ },
+ "deform_bone_count": 84,
+ "control_rig_bone_count": 191,
+ "morph_target_count": 32,
+ "height_m": 1.8076,
+ "uv": {
+  "sets": 1,
+  "stats": {
+   "M_Skin": {
+    "islands": 28,
+    "faces": 4152
+   },
+   "M_EyesMouth": {
+    "islands": 34,
+    "faces": 1000
+   },
+   "M_Hair": {
+    "islands": 239,
+    "faces": 3364
+   },
+   "M_Suit": {
+    "islands": 49,
+    "faces": 3468
+   },
+   "M_Armor": {
+    "islands": 186,
+    "faces": 4934
+   },
+   "M_Cyber": {
+    "islands": 495,
+    "faces": 2738
+   }
+  }
+ },
+ "team_variants": {
+  "A": {
+   "name": "Team A / cyan chevron",
+   "color_linear": [
+    0.0,
+    0.62,
+    1.0
+   ],
+   "icon_channel": "G",
+   "outline_style": "solid"
+  },
+  "B": {
+   "name": "Team B / amber ring",
+   "color_linear": [
+    1.0,
+    0.36,
+    0.02
+   ],
+   "icon_channel": "B",
+   "outline_style": "dashed"
+  }
+ }
+}

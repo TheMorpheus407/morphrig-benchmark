@@ -1,0 +1,6 @@
+trace: docs/verification/ui_selftest_trace.log
+activations: 25 (4 loops)   markers dispatched: 63 (+5 gait foot contacts)   clips used: 34 of 96
+lives: 2   refused extra deaths: 0
+clips not exercised in this trace (62): aim_down_center aim_down_left aim_down_right aim_level_left aim_level_right aim_up_center aim_up_left aim_up_right blink_in blink_out cast_directional cast_ground cast_self channel_end charge_cancel dash_b dash_l dash_r dead_back death_back defeat deploy fall getup_back getup_front greet hit_b hit_l hit_r idle_wounded knockback knockdown_back knockdown_front knockup_air knockup_start land_heavy pivot_l180 pivot_r180 prone_back prone_front ranged_burst reload run_bl run_br run_l sleep_end sleep_loop sleep_start sprint_f start_f stop_f turn_r90 uplink_cancel uplink_end uplink_loop uplink_start victory walk_bl walk_br walk_f walk_fl walk_l
+interaction expectations: 9 of 9 met
+RESULT: no rule violated (A once per pass, B nothing after replacement, C ordered, D entry offset, E single death, F muzzle counts, G manifest names, I interaction)

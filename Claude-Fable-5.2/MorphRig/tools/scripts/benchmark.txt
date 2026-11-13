@@ -1,0 +1,50 @@
+# Frame-time benchmark: one Operative, then ten (nine on autopilot). Run through tools/run_benchmark.sh
+hud off
+panel off
+cam top
+instances 1
+aim on
+aimat 600 300 150
+wait 2.0
+bench 10 20 one_operative
+move 1 0 3
+move 0 1 3
+fire
+move -1 0 3
+melee
+wait 2
+move 0 -1 3
+burst
+move 1 1 3
+cast directional
+move -1 -1 3
+jump
+wait 2
+dash l
+wait 1
+move stop
+waitidle 5
+wait 9
+instances 10
+camdist 2700
+wait 2.0
+bench 10 20 ten_operatives
+move 1 0 3
+move 0 1 3
+fire
+move -1 0 3
+melee
+wait 2
+move 0 -1 3
+burst
+move 1 1 3
+cast directional
+move -1 -1 3
+jump
+wait 2
+dash l
+wait 1
+move stop
+waitidle 5
+wait 9
+quit

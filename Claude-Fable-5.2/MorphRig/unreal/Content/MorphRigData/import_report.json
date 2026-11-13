@@ -1,0 +1,1335 @@
+{
+ "placeholder_inputs": false,
+ "mesh": {
+  "bounds_bottom_cm": 0.0,
+  "bounds_top_cm": 180.76,
+  "head_joint_z_cm": 159.0,
+  "bone_count": 84,
+  "ref_pose_max_error_cm": 0.0001
+ },
+ "morph_targets": {
+  "count": 32,
+  "names": [
+   "brow_down_l",
+   "brow_down_r",
+   "brow_inner_up_l",
+   "brow_inner_up_r",
+   "brow_outer_up_l",
+   "brow_outer_up_r",
+   "cheek_puff_l",
+   "cheek_puff_r",
+   "cheek_raise_l",
+   "cheek_raise_r",
+   "chin_raise",
+   "frown_l",
+   "frown_r",
+   "funnel",
+   "labiodental",
+   "lip_press",
+   "lip_roll_lower",
+   "lip_roll_upper",
+   "lower_lip_down_l",
+   "lower_lip_down_r",
+   "mouth_close",
+   "mouth_wide_l",
+   "mouth_wide_r",
+   "nose_sneer_l",
+   "nose_sneer_r",
+   "pucker",
+   "smile_l",
+   "smile_r",
+   "squint_l",
+   "squint_r",
+   "upper_lip_up_l",
+   "upper_lip_up_r"
+  ],
+  "missing": [],
+  "extra": [],
+  "stats": [
+   {
+    "name": "brow_down_l",
+    "max_delta_cm": 0.5047,
+    "vertices": 128
+   },
+   {
+    "name": "brow_down_r",
+    "max_delta_cm": 0.5047,
+    "vertices": 128
+   },
+   {
+    "name": "brow_inner_up_l",
+    "max_delta_cm": 0.6543,
+    "vertices": 70
+   },
+   {
+    "name": "brow_inner_up_r",
+    "max_delta_cm": 0.6543,
+    "vertices": 70
+   },
+   {
+    "name": "brow_outer_up_l",
+    "max_delta_cm": 0.6427,
+    "vertices": 104
+   },
+   {
+    "name": "brow_outer_up_r",
+    "max_delta_cm": 0.6427,
+    "vertices": 104
+   },
+   {
+    "name": "cheek_puff_l",
+    "max_delta_cm": 0.8041,
+    "vertices": 240
+   },
+   {
+    "name": "cheek_puff_r",
+    "max_delta_cm": 0.8041,
+    "vertices": 240
+   },
+   {
+    "name": "cheek_raise_l",
+    "max_delta_cm": 0.3447,
+    "vertices": 164
+   },
+   {
+    "name": "cheek_raise_r",
+    "max_delta_cm": 0.3447,
+    "vertices": 164
+   },
+   {
+    "name": "chin_raise",
+    "max_delta_cm": 0.3826,
+    "vertices": 199
+   },
+   {
+    "name": "frown_l",
+    "max_delta_cm": 1.2718,
+    "vertices": 489
+   },
+   {
+    "name": "frown_r",
+    "max_delta_cm": 1.2718,
+    "vertices": 489
+   },
+   {
+    "name": "funnel",
+    "max_delta_cm": 0.96,
+    "vertices": 622
+   },
+   {
+    "name": "labiodental",
+    "max_delta_cm": 0.6823,
+    "vertices": 278
+   },
+   {
+    "name": "lip_press",
+    "max_delta_cm": 0.2054,
+    "vertices": 318
+   },
+   {
+    "name": "lip_roll_lower",
+    "max_delta_cm": 0.4285,
+    "vertices": 167
+   },
+   {
+    "name": "lip_roll_upper",
+    "max_delta_cm": 0.4265,
+    "vertices": 160
+   },
+   {
+    "name": "lower_lip_down_l",
+    "max_delta_cm": 0.575,
+    "vertices": 125
+   },
+   {
+    "name": "lower_lip_down_r",
+    "max_delta_cm": 0.575,
+    "vertices": 125
+   },
+   {
+    "name": "mouth_close",
+    "max_delta_cm": 0.8244,
+    "vertices": 365
+   },
+   {
+    "name": "mouth_wide_l",
+    "max_delta_cm": 1.6447,
+    "vertices": 547
+   },
+   {
+    "name": "mouth_wide_r",
+    "max_delta_cm": 1.6447,
+    "vertices": 547
+   },
+   {
+    "name": "nose_sneer_l",
+    "max_delta_cm": 0.3228,
+    "vertices": 125
+   },
+   {
+    "name": "nose_sneer_r",
+    "max_delta_cm": 0.3228,
+    "vertices": 124
+   },
+   {
+    "name": "pucker",
+    "max_delta_cm": 0.8491,
+    "vertices": 640
+   },
+   {
+    "name": "smile_l",
+    "max_delta_cm": 1.9464,
+    "vertices": 602
+   },
+   {
+    "name": "smile_r",
+    "max_delta_cm": 1.9464,
+    "vertices": 602
+   },
+   {
+    "name": "squint_l",
+    "max_delta_cm": 0.2143,
+    "vertices": 74
+   },
+   {
+    "name": "squint_r",
+    "max_delta_cm": 0.2143,
+    "vertices": 74
+   },
+   {
+    "name": "upper_lip_up_l",
+    "max_delta_cm": 0.5294,
+    "vertices": 127
+   },
+   {
+    "name": "upper_lip_up_r",
+    "max_delta_cm": 0.5294,
+    "vertices": 127
+   }
+  ],
+  "disabled": [],
+  "with_data_per_lod": [
+   32,
+   32,
+   32
+  ],
+  "implausible": []
+ },
+ "sockets": {
+  "count": 15,
+  "max_error_cm": 0.0,
+  "names": [
+   "hand_l_socket",
+   "hand_r_socket",
+   "emitter_muzzle",
+   "cell_slot",
+   "blade_base",
+   "blade_tip",
+   "fx_chest",
+   "fx_back",
+   "fx_head",
+   "fx_root",
+   "beacon_mount",
+   "cell_pouch",
+   "cell_cradle_rear",
+   "foot_l_socket",
+   "foot_r_socket"
+  ]
+ },
+ "lods": [
+  {
+   "lod": 0,
+   "triangles": 38178,
+   "vertices": 28096,
+   "sections": 6,
+   "max_bone_influences": 8
+  },
+  {
+   "lod": 1,
+   "triangles": 20249,
+   "vertices": 16579,
+   "sections": 6,
+   "max_bone_influences": 8
+  },
+  {
+   "lod": 2,
+   "triangles": 12700,
+   "vertices": 10308,
+   "sections": 6,
+   "max_bone_influences": 8
+  }
+ ],
+ "animations": {
+  "count": 96,
+  "clips": [
+   {
+    "id": "idle_relaxed",
+    "length": 4.0,
+    "frames": 120,
+    "curves": 0,
+    "notifies": 0,
+    "root_motion": false
+   },
+   {
+    "id": "idle_combat",
+    "length": 3.0,
+    "frames": 90,
+    "curves": 5,
+    "notifies": 0,
+    "root_motion": false
+   },
+   {
+    "id": "idle_wounded",
+    "length": 3.2,
+    "frames": 96,
+    "curves": 15,
+    "notifies": 0,
+    "root_motion": false
+   },
+   {
+    "id": "walk_f",
+    "length": 1.066667,
+    "frames": 32,
+    "curves": 0,
+    "notifies": 2,
+    "root_motion": false
+   },
+   {
+    "id": "walk_fl",
+    "length": 1.0,
+    "frames": 30,
+    "curves": 0,
+    "notifies": 2,
+    "root_motion": false
+   },
+   {
+    "id": "walk_l",
+    "length": 0.866667,
+    "frames": 26,
+    "curves": 0,
+    "notifies": 2,
+    "root_motion": false
+   },
+   {
+    "id": "walk_bl",
+    "length": 0.933333,
+    "frames": 28,
+    "curves": 0,
+    "notifies": 2,
+    "root_motion": false
+   },
+   {
+    "id": "walk_b",
+    "length": 1.0,
+    "frames": 30,
+    "curves": 0,
+    "notifies": 2,
+    "root_motion": false
+   },
+   {
+    "id": "walk_br",
+    "length": 0.933333,
+    "frames": 28,
+    "curves": 0,
+    "notifies": 2,
+    "root_motion": false
+   },
+   {
+    "id": "walk_r",
+    "length": 0.866667,
+    "frames": 26,
+    "curves": 0,
+    "notifies": 2,
+    "root_motion": false
+   },
+   {
+    "id": "walk_fr",
+    "length": 1.0,
+    "frames": 30,
+    "curves": 0,
+    "notifies": 2,
+    "root_motion": false
+   },
+   {
+    "id": "run_f",
+    "length": 0.733333,
+    "frames": 22,
+    "curves": 5,
+    "notifies": 2,
+    "root_motion": false
+   },
+   {
+    "id": "run_fl",
+    "length": 0.733333,
+    "frames": 22,
+    "curves": 5,
+    "notifies": 2,
+    "root_motion": false
+   },
+   {
+    "id": "run_l",
+    "length": 0.666667,
+    "frames": 20,
+    "curves": 5,
+    "notifies": 2,
+    "root_motion": false
+   },
+   {
+    "id": "run_bl",
+    "length": 0.666667,
+    "frames": 20,
+    "curves": 5,
+    "notifies": 2,
+    "root_motion": false
+   },
+   {
+    "id": "run_b",
+    "length": 0.733333,
+    "frames": 22,
+    "curves": 5,
+    "notifies": 2,
+    "root_motion": false
+   },
+   {
+    "id": "run_br",
+    "length": 0.666667,
+    "frames": 20,
+    "curves": 5,
+    "notifies": 2,
+    "root_motion": false
+   },
+   {
+    "id": "run_r",
+    "length": 0.666667,
+    "frames": 20,
+    "curves": 5,
+    "notifies": 2,
+    "root_motion": false
+   },
+   {
+    "id": "run_fr",
+    "length": 0.733333,
+    "frames": 22,
+    "curves": 5,
+    "notifies": 2,
+    "root_motion": false
+   },
+   {
+    "id": "sprint_f",
+    "length": 0.533333,
+    "frames": 16,
+    "curves": 5,
+    "notifies": 2,
+    "root_motion": false
+   },
+   {
+    "id": "start_f",
+    "length": 0.4,
+    "frames": 12,
+    "curves": 5,
+    "notifies": 2,
+    "root_motion": false
+   },
+   {
+    "id": "stop_f",
+    "length": 0.466667,
+    "frames": 14,
+    "curves": 5,
+    "notifies": 2,
+    "root_motion": false
+   },
+   {
+    "id": "turn_l90",
+    "length": 0.6,
+    "frames": 18,
+    "curves": 0,
+    "notifies": 2,
+    "root_motion": false
+   },
+   {
+    "id": "turn_r90",
+    "length": 0.6,
+    "frames": 18,
+    "curves": 0,
+    "notifies": 2,
+    "root_motion": false
+   },
+   {
+    "id": "pivot_l180",
+    "length": 0.533333,
+    "frames": 16,
+    "curves": 5,
+    "notifies": 2,
+    "root_motion": false
+   },
+   {
+    "id": "pivot_r180",
+    "length": 0.533333,
+    "frames": 16,
+    "curves": 5,
+    "notifies": 2,
+    "root_motion": false
+   },
+   {
+    "id": "jump_start",
+    "length": 0.3,
+    "frames": 9,
+    "curves": 5,
+    "notifies": 1,
+    "root_motion": false
+   },
+   {
+    "id": "jump_air",
+    "length": 0.666667,
+    "frames": 20,
+    "curves": 5,
+    "notifies": 0,
+    "root_motion": false
+   },
+   {
+    "id": "jump_land",
+    "length": 0.466667,
+    "frames": 14,
+    "curves": 5,
+    "notifies": 3,
+    "root_motion": false
+   },
+   {
+    "id": "fall",
+    "length": 0.533333,
+    "frames": 16,
+    "curves": 10,
+    "notifies": 0,
+    "root_motion": false
+   },
+   {
+    "id": "land_heavy",
+    "length": 0.866667,
+    "frames": 26,
+    "curves": 15,
+    "notifies": 6,
+    "root_motion": false
+   },
+   {
+    "id": "dash_f",
+    "length": 0.4,
+    "frames": 12,
+    "curves": 5,
+    "notifies": 4,
+    "root_motion": true
+   },
+   {
+    "id": "dash_b",
+    "length": 0.4,
+    "frames": 12,
+    "curves": 5,
+    "notifies": 4,
+    "root_motion": true
+   },
+   {
+    "id": "dash_l",
+    "length": 0.4,
+    "frames": 12,
+    "curves": 5,
+    "notifies": 4,
+    "root_motion": true
+   },
+   {
+    "id": "dash_r",
+    "length": 0.4,
+    "frames": 12,
+    "curves": 5,
+    "notifies": 4,
+    "root_motion": true
+   },
+   {
+    "id": "blink_out",
+    "length": 0.3,
+    "frames": 9,
+    "curves": 5,
+    "notifies": 1,
+    "root_motion": false
+   },
+   {
+    "id": "blink_in",
+    "length": 0.4,
+    "frames": 12,
+    "curves": 5,
+    "notifies": 3,
+    "root_motion": false
+   },
+   {
+    "id": "melee_1",
+    "length": 0.8,
+    "frames": 24,
+    "curves": 11,
+    "notifies": 5,
+    "root_motion": false
+   },
+   {
+    "id": "melee_2",
+    "length": 0.8,
+    "frames": 24,
+    "curves": 11,
+    "notifies": 4,
+    "root_motion": false
+   },
+   {
+    "id": "melee_3",
+    "length": 1.1,
+    "frames": 33,
+    "curves": 11,
+    "notifies": 6,
+    "root_motion": false
+   },
+   {
+    "id": "ranged_fire",
+    "length": 0.333333,
+    "frames": 10,
+    "curves": 5,
+    "notifies": 2,
+    "root_motion": false
+   },
+   {
+    "id": "ranged_burst",
+    "length": 0.6,
+    "frames": 18,
+    "curves": 5,
+    "notifies": 4,
+    "root_motion": false
+   },
+   {
+    "id": "reload",
+    "length": 2.0,
+    "frames": 60,
+    "curves": 5,
+    "notifies": 5,
+    "root_motion": false
+   },
+   {
+    "id": "cast_directional",
+    "length": 0.8,
+    "frames": 24,
+    "curves": 11,
+    "notifies": 2,
+    "root_motion": false
+   },
+   {
+    "id": "cast_ground",
+    "length": 1.2,
+    "frames": 36,
+    "curves": 11,
+    "notifies": 3,
+    "root_motion": false
+   },
+   {
+    "id": "cast_self",
+    "length": 1.0,
+    "frames": 30,
+    "curves": 11,
+    "notifies": 2,
+    "root_motion": false
+   },
+   {
+    "id": "channel_start",
+    "length": 0.4,
+    "frames": 12,
+    "curves": 11,
+    "notifies": 1,
+    "root_motion": false
+   },
+   {
+    "id": "channel_loop",
+    "length": 1.333333,
+    "frames": 40,
+    "curves": 11,
+    "notifies": 2,
+    "root_motion": false
+   },
+   {
+    "id": "channel_end",
+    "length": 0.5,
+    "frames": 15,
+    "curves": 11,
+    "notifies": 1,
+    "root_motion": false
+   },
+   {
+    "id": "channel_interrupt",
+    "length": 0.4,
+    "frames": 12,
+    "curves": 20,
+    "notifies": 1,
+    "root_motion": false
+   },
+   {
+    "id": "charge_start",
+    "length": 0.6,
+    "frames": 18,
+    "curves": 11,
+    "notifies": 2,
+    "root_motion": false
+   },
+   {
+    "id": "charge_hold",
+    "length": 1.0,
+    "frames": 30,
+    "curves": 11,
+    "notifies": 1,
+    "root_motion": false
+   },
+   {
+    "id": "charge_release",
+    "length": 0.666667,
+    "frames": 20,
+    "curves": 11,
+    "notifies": 2,
+    "root_motion": false
+   },
+   {
+    "id": "charge_cancel",
+    "length": 0.466667,
+    "frames": 14,
+    "curves": 11,
+    "notifies": 1,
+    "root_motion": false
+   },
+   {
+    "id": "deploy",
+    "length": 1.5,
+    "frames": 45,
+    "curves": 5,
+    "notifies": 3,
+    "root_motion": false
+   },
+   {
+    "id": "uplink_start",
+    "length": 0.666667,
+    "frames": 20,
+    "curves": 5,
+    "notifies": 3,
+    "root_motion": false
+   },
+   {
+    "id": "uplink_loop",
+    "length": 1.5,
+    "frames": 45,
+    "curves": 5,
+    "notifies": 1,
+    "root_motion": false
+   },
+   {
+    "id": "uplink_end",
+    "length": 0.533333,
+    "frames": 16,
+    "curves": 5,
+    "notifies": 1,
+    "root_motion": false
+   },
+   {
+    "id": "uplink_cancel",
+    "length": 0.433333,
+    "frames": 13,
+    "curves": 16,
+    "notifies": 3,
+    "root_motion": false
+   },
+   {
+    "id": "hit_f",
+    "length": 0.333333,
+    "frames": 10,
+    "curves": 15,
+    "notifies": 1,
+    "root_motion": false
+   },
+   {
+    "id": "hit_b",
+    "length": 0.333333,
+    "frames": 10,
+    "curves": 15,
+    "notifies": 1,
+    "root_motion": false
+   },
+   {
+    "id": "hit_l",
+    "length": 0.333333,
+    "frames": 10,
+    "curves": 15,
+    "notifies": 1,
+    "root_motion": false
+   },
+   {
+    "id": "hit_r",
+    "length": 0.333333,
+    "frames": 10,
+    "curves": 15,
+    "notifies": 1,
+    "root_motion": false
+   },
+   {
+    "id": "stun_start",
+    "length": 0.5,
+    "frames": 15,
+    "curves": 15,
+    "notifies": 3,
+    "root_motion": false
+   },
+   {
+    "id": "stun_loop",
+    "length": 2.0,
+    "frames": 60,
+    "curves": 15,
+    "notifies": 0,
+    "root_motion": false
+   },
+   {
+    "id": "stun_end",
+    "length": 0.6,
+    "frames": 18,
+    "curves": 15,
+    "notifies": 3,
+    "root_motion": false
+   },
+   {
+    "id": "knockback",
+    "length": 0.8,
+    "frames": 24,
+    "curves": 15,
+    "notifies": 4,
+    "root_motion": false
+   },
+   {
+    "id": "knockup_start",
+    "length": 0.4,
+    "frames": 12,
+    "curves": 18,
+    "notifies": 1,
+    "root_motion": false
+   },
+   {
+    "id": "knockup_air",
+    "length": 1.0,
+    "frames": 30,
+    "curves": 18,
+    "notifies": 0,
+    "root_motion": false
+   },
+   {
+    "id": "knockdown_front",
+    "length": 1.2,
+    "frames": 36,
+    "curves": 15,
+    "notifies": 2,
+    "root_motion": false
+   },
+   {
+    "id": "knockdown_back",
+    "length": 1.2,
+    "frames": 36,
+    "curves": 18,
+    "notifies": 2,
+    "root_motion": false
+   },
+   {
+    "id": "prone_front",
+    "length": 2.5,
+    "frames": 75,
+    "curves": 14,
+    "notifies": 0,
+    "root_motion": false
+   },
+   {
+    "id": "prone_back",
+    "length": 2.5,
+    "frames": 75,
+    "curves": 14,
+    "notifies": 0,
+    "root_motion": false
+   },
+   {
+    "id": "getup_front",
+    "length": 1.8,
+    "frames": 54,
+    "curves": 15,
+    "notifies": 5,
+    "root_motion": false
+   },
+   {
+    "id": "getup_back",
+    "length": 2.0,
+    "frames": 60,
+    "curves": 15,
+    "notifies": 6,
+    "root_motion": false
+   },
+   {
+    "id": "sleep_start",
+    "length": 1.5,
+    "frames": 45,
+    "curves": 5,
+    "notifies": 2,
+    "root_motion": false
+   },
+   {
+    "id": "sleep_loop",
+    "length": 3.0,
+    "frames": 90,
+    "curves": 0,
+    "notifies": 0,
+    "root_motion": false
+   },
+   {
+    "id": "sleep_end",
+    "length": 1.2,
+    "frames": 36,
+    "curves": 10,
+    "notifies": 3,
+    "root_motion": false
+   },
+   {
+    "id": "death_front",
+    "length": 2.0,
+    "frames": 60,
+    "curves": 18,
+    "notifies": 4,
+    "root_motion": false
+   },
+   {
+    "id": "death_back",
+    "length": 2.2,
+    "frames": 66,
+    "curves": 18,
+    "notifies": 4,
+    "root_motion": false
+   },
+   {
+    "id": "dead_front",
+    "length": 0.033333,
+    "frames": 1,
+    "curves": 14,
+    "notifies": 0,
+    "root_motion": false
+   },
+   {
+    "id": "dead_back",
+    "length": 0.033333,
+    "frames": 1,
+    "curves": 14,
+    "notifies": 0,
+    "root_motion": false
+   },
+   {
+    "id": "respawn",
+    "length": 2.5,
+    "frames": 75,
+    "curves": 5,
+    "notifies": 5,
+    "root_motion": false
+   },
+   {
+    "id": "greet",
+    "length": 2.0,
+    "frames": 60,
+    "curves": 8,
+    "notifies": 1,
+    "root_motion": false
+   },
+   {
+    "id": "victory",
+    "length": 3.0,
+    "frames": 90,
+    "curves": 11,
+    "notifies": 3,
+    "root_motion": false
+   },
+   {
+    "id": "defeat",
+    "length": 2.8,
+    "frames": 84,
+    "curves": 21,
+    "notifies": 1,
+    "root_motion": false
+   },
+   {
+    "id": "dialogue",
+    "length": 16.633333,
+    "frames": 499,
+    "curves": 30,
+    "notifies": 5,
+    "root_motion": false
+   },
+   {
+    "id": "aim_down_left",
+    "length": 0.033333,
+    "frames": 1,
+    "curves": 5,
+    "notifies": 0,
+    "root_motion": false
+   },
+   {
+    "id": "aim_down_center",
+    "length": 0.033333,
+    "frames": 1,
+    "curves": 5,
+    "notifies": 0,
+    "root_motion": false
+   },
+   {
+    "id": "aim_down_right",
+    "length": 0.033333,
+    "frames": 1,
+    "curves": 5,
+    "notifies": 0,
+    "root_motion": false
+   },
+   {
+    "id": "aim_level_left",
+    "length": 0.033333,
+    "frames": 1,
+    "curves": 5,
+    "notifies": 0,
+    "root_motion": false
+   },
+   {
+    "id": "aim_level_center",
+    "length": 0.033333,
+    "frames": 1,
+    "curves": 5,
+    "notifies": 0,
+    "root_motion": false
+   },
+   {
+    "id": "aim_level_right",
+    "length": 0.033333,
+    "frames": 1,
+    "curves": 5,
+    "notifies": 0,
+    "root_motion": false
+   },
+   {
+    "id": "aim_up_left",
+    "length": 0.033333,
+    "frames": 1,
+    "curves": 5,
+    "notifies": 0,
+    "root_motion": false
+   },
+   {
+    "id": "aim_up_center",
+    "length": 0.033333,
+    "frames": 1,
+    "curves": 5,
+    "notifies": 0,
+    "root_motion": false
+   },
+   {
+    "id": "aim_up_right",
+    "length": 0.033333,
+    "frames": 1,
+    "curves": 5,
+    "notifies": 0,
+    "root_motion": false
+   }
+  ],
+  "curves_not_matching_a_morph_target": {}
+ },
+ "textures": [
+  {
+   "file": "T_Skin_BaseColor.png",
+   "slot": "M_Skin",
+   "kind": "base_color",
+   "width": 4096,
+   "height": 4096,
+   "gpu_format_estimate": "BC1",
+   "gpu_bytes_estimate": 11184811
+  },
+  {
+   "file": "T_Skin_Normal.png",
+   "slot": "M_Skin",
+   "kind": "normal",
+   "width": 2048,
+   "height": 2048,
+   "gpu_format_estimate": "BC5",
+   "gpu_bytes_estimate": 5592405
+  },
+  {
+   "file": "T_Skin_ORM.png",
+   "slot": "M_Skin",
+   "kind": "orm",
+   "width": 2048,
+   "height": 2048,
+   "gpu_format_estimate": "BC1",
+   "gpu_bytes_estimate": 2796203
+  },
+  {
+   "file": "T_EyesMouth_BaseColor.png",
+   "slot": "M_EyesMouth",
+   "kind": "base_color",
+   "width": 1024,
+   "height": 1024,
+   "gpu_format_estimate": "BC1",
+   "gpu_bytes_estimate": 699051
+  },
+  {
+   "file": "T_EyesMouth_Normal.png",
+   "slot": "M_EyesMouth",
+   "kind": "normal",
+   "width": 1024,
+   "height": 1024,
+   "gpu_format_estimate": "BC5",
+   "gpu_bytes_estimate": 1398101
+  },
+  {
+   "file": "T_EyesMouth_ORM.png",
+   "slot": "M_EyesMouth",
+   "kind": "orm",
+   "width": 1024,
+   "height": 1024,
+   "gpu_format_estimate": "BC1",
+   "gpu_bytes_estimate": 699051
+  },
+  {
+   "file": "T_EyesMouth_Mask.png",
+   "slot": "M_EyesMouth",
+   "kind": "mask",
+   "width": 1024,
+   "height": 1024,
+   "gpu_format_estimate": "BC3",
+   "gpu_bytes_estimate": 1398101
+  },
+  {
+   "file": "T_Hair_BaseColor.png",
+   "slot": "M_Hair",
+   "kind": "base_color",
+   "width": 2048,
+   "height": 2048,
+   "gpu_format_estimate": "BC1",
+   "gpu_bytes_estimate": 2796203
+  },
+  {
+   "file": "T_Hair_Normal.png",
+   "slot": "M_Hair",
+   "kind": "normal",
+   "width": 2048,
+   "height": 2048,
+   "gpu_format_estimate": "BC5",
+   "gpu_bytes_estimate": 5592405
+  },
+  {
+   "file": "T_Hair_ORM.png",
+   "slot": "M_Hair",
+   "kind": "orm",
+   "width": 2048,
+   "height": 2048,
+   "gpu_format_estimate": "BC1",
+   "gpu_bytes_estimate": 2796203
+  },
+  {
+   "file": "T_Suit_BaseColor.png",
+   "slot": "M_Suit",
+   "kind": "base_color",
+   "width": 2048,
+   "height": 2048,
+   "gpu_format_estimate": "BC1",
+   "gpu_bytes_estimate": 2796203
+  },
+  {
+   "file": "T_Suit_Normal.png",
+   "slot": "M_Suit",
+   "kind": "normal",
+   "width": 2048,
+   "height": 2048,
+   "gpu_format_estimate": "BC5",
+   "gpu_bytes_estimate": 5592405
+  },
+  {
+   "file": "T_Suit_ORM.png",
+   "slot": "M_Suit",
+   "kind": "orm",
+   "width": 2048,
+   "height": 2048,
+   "gpu_format_estimate": "BC1",
+   "gpu_bytes_estimate": 2796203
+  },
+  {
+   "file": "T_Suit_Mask.png",
+   "slot": "M_Suit",
+   "kind": "mask",
+   "width": 2048,
+   "height": 2048,
+   "gpu_format_estimate": "BC3",
+   "gpu_bytes_estimate": 5592405
+  },
+  {
+   "file": "T_Armor_BaseColor.png",
+   "slot": "M_Armor",
+   "kind": "base_color",
+   "width": 2048,
+   "height": 2048,
+   "gpu_format_estimate": "BC1",
+   "gpu_bytes_estimate": 2796203
+  },
+  {
+   "file": "T_Armor_Normal.png",
+   "slot": "M_Armor",
+   "kind": "normal",
+   "width": 2048,
+   "height": 2048,
+   "gpu_format_estimate": "BC5",
+   "gpu_bytes_estimate": 5592405
+  },
+  {
+   "file": "T_Armor_ORM.png",
+   "slot": "M_Armor",
+   "kind": "orm",
+   "width": 2048,
+   "height": 2048,
+   "gpu_format_estimate": "BC1",
+   "gpu_bytes_estimate": 2796203
+  },
+  {
+   "file": "T_Armor_Mask.png",
+   "slot": "M_Armor",
+   "kind": "mask",
+   "width": 2048,
+   "height": 2048,
+   "gpu_format_estimate": "BC3",
+   "gpu_bytes_estimate": 5592405
+  },
+  {
+   "file": "T_Cyber_BaseColor.png",
+   "slot": "M_Cyber",
+   "kind": "base_color",
+   "width": 2048,
+   "height": 2048,
+   "gpu_format_estimate": "BC1",
+   "gpu_bytes_estimate": 2796203
+  },
+  {
+   "file": "T_Cyber_Normal.png",
+   "slot": "M_Cyber",
+   "kind": "normal",
+   "width": 2048,
+   "height": 2048,
+   "gpu_format_estimate": "BC5",
+   "gpu_bytes_estimate": 5592405
+  },
+  {
+   "file": "T_Cyber_ORM.png",
+   "slot": "M_Cyber",
+   "kind": "orm",
+   "width": 2048,
+   "height": 2048,
+   "gpu_format_estimate": "BC1",
+   "gpu_bytes_estimate": 2796203
+  },
+  {
+   "file": "T_Cyber_Mask.png",
+   "slot": "M_Cyber",
+   "kind": "mask",
+   "width": 2048,
+   "height": 2048,
+   "gpu_format_estimate": "BC3",
+   "gpu_bytes_estimate": 5592405
+  }
+ ],
+ "texture_memory_estimate_mb": 81.33,
+ "materials": {
+  "mesh_slots": [
+   "M_Skin",
+   "M_EyesMouth",
+   "M_Hair",
+   "M_Suit",
+   "M_Armor",
+   "M_Cyber"
+  ],
+  "slot_count": 6,
+  "instances": [
+   {
+    "slot": "M_Skin",
+    "shading": "skin",
+    "instance": "/Game/Operative/Materials/MI_Operative_Skin.MI_Operative_Skin",
+    "team_a": "/Game/Operative/Materials/MI_Operative_Skin_TeamA.MI_Operative_Skin_TeamA",
+    "team_b": "/Game/Operative/Materials/MI_Operative_Skin_TeamB.MI_Operative_Skin_TeamB",
+    "textures": {
+     "base_color": "T_Skin_BaseColor",
+     "normal": "T_Skin_Normal",
+     "orm": "T_Skin_ORM"
+    }
+   },
+   {
+    "slot": "M_EyesMouth",
+    "shading": "wet",
+    "instance": "/Game/Operative/Materials/MI_Operative_EyesMouth.MI_Operative_EyesMouth",
+    "team_a": "/Game/Operative/Materials/MI_Operative_EyesMouth_TeamA.MI_Operative_EyesMouth_TeamA",
+    "team_b": "/Game/Operative/Materials/MI_Operative_EyesMouth_TeamB.MI_Operative_EyesMouth_TeamB",
+    "textures": {
+     "base_color": "T_EyesMouth_BaseColor",
+     "normal": "T_EyesMouth_Normal",
+     "orm": "T_EyesMouth_ORM",
+     "mask": "T_EyesMouth_Mask"
+    }
+   },
+   {
+    "slot": "M_Hair",
+    "shading": "hair",
+    "instance": "/Game/Operative/Materials/MI_Operative_Hair.MI_Operative_Hair",
+    "team_a": "/Game/Operative/Materials/MI_Operative_Hair_TeamA.MI_Operative_Hair_TeamA",
+    "team_b": "/Game/Operative/Materials/MI_Operative_Hair_TeamB.MI_Operative_Hair_TeamB",
+    "textures": {
+     "base_color": "T_Hair_BaseColor",
+     "normal": "T_Hair_Normal",
+     "orm": "T_Hair_ORM"
+    }
+   },
+   {
+    "slot": "M_Suit",
+    "shading": "cloth",
+    "instance": "/Game/Operative/Materials/MI_Operative_Suit.MI_Operative_Suit",
+    "team_a": "/Game/Operative/Materials/MI_Operative_Suit_TeamA.MI_Operative_Suit_TeamA",
+    "team_b": "/Game/Operative/Materials/MI_Operative_Suit_TeamB.MI_Operative_Suit_TeamB",
+    "textures": {
+     "base_color": "T_Suit_BaseColor",
+     "normal": "T_Suit_Normal",
+     "orm": "T_Suit_ORM",
+     "mask": "T_Suit_Mask"
+    }
+   },
+   {
+    "slot": "M_Armor",
+    "shading": "hard",
+    "instance": "/Game/Operative/Materials/MI_Operative_Armor.MI_Operative_Armor",
+    "team_a": "/Game/Operative/Materials/MI_Operative_Armor_TeamA.MI_Operative_Armor_TeamA",
+    "team_b": "/Game/Operative/Materials/MI_Operative_Armor_TeamB.MI_Operative_Armor_TeamB",
+    "textures": {
+     "base_color": "T_Armor_BaseColor",
+     "normal": "T_Armor_Normal",
+     "orm": "T_Armor_ORM",
+     "mask": "T_Armor_Mask"
+    }
+   },
+   {
+    "slot": "M_Cyber",
+    "shading": "metal",
+    "instance": "/Game/Operative/Materials/MI_Operative_Cyber.MI_Operative_Cyber",
+    "team_a": "/Game/Operative/Materials/MI_Operative_Cyber_TeamA.MI_Operative_Cyber_TeamA",
+    "team_b": "/Game/Operative/Materials/MI_Operative_Cyber_TeamB.MI_Operative_Cyber_TeamB",
+    "textures": {
+     "base_color": "T_Cyber_BaseColor",
+     "normal": "T_Cyber_Normal",
+     "orm": "T_Cyber_ORM",
+     "mask": "T_Cyber_Mask"
+    }
+   }
+  ]
+ },
+ "audio": {
+  "asset": "/Game/Operative/Audio/dialogue.dialogue",
+  "duration": 15.7284
+ },
+ "props": [
+  "/Game/Operative/Props/SM_Beacon.SM_Beacon",
+  "/Game/Operative/Props/SM_PowerCell.SM_PowerCell"
+ ],
+ "problems": []
+}

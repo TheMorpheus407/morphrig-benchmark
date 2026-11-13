@@ -1,0 +1,91 @@
+# Unattended interaction test at 1920x1080: every step goes through Slate (injected mouse / keyboard events), i.e. the
+# same path a user's input takes. Coordinates are normalised viewport positions of the default panel layout.
+#   MORPHRIG_OFFSCREEN=1 tools/run_showcase.sh -MorphScript=<this file> -MorphQuit -MorphFixedFps=30 -MorphTrace=<file>
+hud on
+panel on
+cam top
+scriptinput off
+wait 1.0
+log UITEST panel: open the Animations tab, type a filter, click the first entry
+mouse 0.8245 0.0278 click
+wait 0.3
+mouse 0.875 0.0824 click
+wait 0.2
+type melee_3
+wait 0.4
+mouse 0.84 0.1722 click
+wait 1.4
+log UITEST focus: first click on the 3D view only returns keyboard focus, Backspace resets the character
+mouse 0.35 0.55 click
+wait 0.3
+key BackSpace tap
+wait 0.6
+log UITEST aim while moving: W held, mouse aims, left button fires
+key W down
+wait 0.5
+mouse 0.62 0.35 move
+wait 0.3
+mouse 0.62 0.35 click
+wait 0.5
+mouse 0.30 0.30 move
+wait 0.3
+mouse 0.30 0.30 click
+wait 0.5
+key W up
+wait 0.6
+log UITEST channel interrupted midway: C held, X pressed during the loop
+key C down
+wait 1.2
+key X tap
+wait 0.3
+key C up
+wait 0.9
+log UITEST charge: G held and released
+key G down
+wait 1.3
+key G up
+wait 1.2
+log UITEST jump, dash, melee combo
+key SpaceBar tap
+wait 1.9
+key Q tap
+wait 0.9
+key F tap
+wait 0.5
+key F tap
+wait 0.8
+key F tap
+wait 1.6
+log UITEST hits, stun, death and respawn
+key Seven tap
+wait 0.4
+key Four tap
+wait 3.2
+key K tap
+wait 2.6
+key P tap
+wait 3.2
+log UITEST views and display toggles
+key F4 tap
+key F5 tap
+key F6 tap
+key F8 tap
+key End tap
+wait 0.5
+key F8 tap
+key F8 tap
+key F8 tap
+key F4 tap
+key F5 tap
+key F6 tap
+key Home tap
+wait 0.4
+log UITEST speech sample from the keyboard
+key Enter tap
+wait 2.0
+key W down
+wait 0.3
+key W up
+wait 0.6
+log UITEST done
+quit

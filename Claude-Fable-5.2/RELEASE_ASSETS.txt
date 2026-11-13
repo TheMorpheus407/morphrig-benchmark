@@ -1,0 +1,20 @@
+Parts of this run that are not stored in git (packaged builds, the working folder
+and files over 100 MB) are attached to the release
+https://github.com/TheMorpheus407/morphrig-benchmark/releases/tag/claude-fable-5-2
+
+name      MorphRig-build.tar.zst
+contents  MorphRig/build/ (packaged Linux build)
+size      420234595 bytes
+sha256    a0ddea6cb0d6455f38003be9df2eaf186346c1f4d9db956d8f77dbb505e99e64
+download  https://github.com/TheMorpheus407/morphrig-benchmark/releases/download/claude-fable-5-2/MorphRig-build.tar.zst
+
+name      _scratch.tar.zst
+contents  _scratch/ (working folder of the run)
+size      998944714 bytes
+sha256    14db38a3ea98f3f71d08f8b663abbc092678d066ed51740eed00a87d2cc326c9
+download  https://github.com/TheMorpheus407/morphrig-benchmark/releases/download/claude-fable-5-2/_scratch.tar.zst
+
+Unpack an archive inside this folder:  zstd -d < NAME | tar -x
+Unreal runtime folders (Saved/, Intermediate/, DerivedDataCache/) and Unreal Binaries/
+outside the packaged build are not included.
+Blender backup files (.blend1) are not included.

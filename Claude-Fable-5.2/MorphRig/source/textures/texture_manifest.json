@@ -1,0 +1,113 @@
+{
+ "schema": "morphrig.textures/1",
+ "max_dimension": 4096,
+ "materials": [
+  {
+   "slot": "M_Skin",
+   "shading": "skin",
+   "size": 4096,
+   "aux_size": 2048,
+   "coverage": 0.702,
+   "texel_mm_median": 0.126,
+   "base_color": "T_Skin_BaseColor.png",
+   "normal": "T_Skin_Normal.png",
+   "orm": "T_Skin_ORM.png",
+   "mask": null,
+   "emissive": null
+  },
+  {
+   "slot": "M_EyesMouth",
+   "shading": "wet",
+   "size": 1024,
+   "aux_size": 1024,
+   "coverage": 0.635,
+   "texel_mm_median": 0.103,
+   "base_color": "T_EyesMouth_BaseColor.png",
+   "normal": "T_EyesMouth_Normal.png",
+   "orm": "T_EyesMouth_ORM.png",
+   "mask": "T_EyesMouth_Mask.png",
+   "emissive": null
+  },
+  {
+   "slot": "M_Hair",
+   "shading": "hair",
+   "size": 2048,
+   "aux_size": 2048,
+   "coverage": 0.37,
+   "texel_mm_median": 0.333,
+   "base_color": "T_Hair_BaseColor.png",
+   "normal": "T_Hair_Normal.png",
+   "orm": "T_Hair_ORM.png",
+   "mask": null,
+   "emissive": null
+  },
+  {
+   "slot": "M_Suit",
+   "shading": "cloth",
+   "size": 2048,
+   "aux_size": 2048,
+   "coverage": 0.614,
+   "texel_mm_median": 0.687,
+   "base_color": "T_Suit_BaseColor.png",
+   "normal": "T_Suit_Normal.png",
+   "orm": "T_Suit_ORM.png",
+   "mask": "T_Suit_Mask.png",
+   "emissive": null
+  },
+  {
+   "slot": "M_Armor",
+   "shading": "hard",
+   "size": 2048,
+   "aux_size": 2048,
+   "coverage": 0.445,
+   "texel_mm_median": 0.734,
+   "base_color": "T_Armor_BaseColor.png",
+   "normal": "T_Armor_Normal.png",
+   "orm": "T_Armor_ORM.png",
+   "mask": "T_Armor_Mask.png",
+   "emissive": null
+  },
+  {
+   "slot": "M_Cyber",
+   "shading": "metal",
+   "size": 2048,
+   "aux_size": 2048,
+   "coverage": 0.535,
+   "texel_mm_median": 0.375,
+   "base_color": "T_Cyber_BaseColor.png",
+   "normal": "T_Cyber_Normal.png",
+   "orm": "T_Cyber_ORM.png",
+   "mask": "T_Cyber_Mask.png",
+   "emissive": null
+  }
+ ],
+ "packing": {
+  "base_color": "sRGB",
+  "normal": "tangent space, OpenGL (+Y) convention; flip green in Unreal",
+  "orm": "linear: R = ambient occlusion, G = roughness, B = metallic",
+  "mask": "linear: R = team accent paint area, G = team icon A (chevron) + solid trim line, B = team icon B (ring) + dashed trim line, A = emissive accent weight"
+ },
+ "team_variants": {
+  "A": {
+   "name": "Team A / cyan chevron",
+   "color_linear": [
+    0.0,
+    0.62,
+    1.0
+   ],
+   "icon_channel": "G",
+   "outline_style": "solid"
+  },
+  "B": {
+   "name": "Team B / amber ring",
+   "color_linear": [
+    1.0,
+    0.36,
+    0.02
+   ],
+   "icon_channel": "B",
+   "outline_style": "dashed"
+  }
+ },
+ "generator": "source/generators/mr/texgen.py (procedural, painted in UV space from the rest mesh; AO baked with Cycles)"
+}

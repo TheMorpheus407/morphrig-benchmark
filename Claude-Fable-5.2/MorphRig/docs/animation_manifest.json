@@ -1,0 +1,5724 @@
+{
+ "schema": "morphrig.animation_manifest/1",
+ "placeholder": false,
+ "fps": 30,
+ "counts": {
+  "total": 96,
+  "motions": 85,
+  "poses": 11
+ },
+ "conventions": {
+  "frames": "frame_start..frame_end inclusive at 30 fps; duration = (frame_end - frame_start) / 30; loops repeat their first pose on the last frame",
+  "poses": "static entries are exported as two identical frames (duration 1/30 s) so they import as ordinary pose clips",
+  "travel_dir_deg": "0 = forward, +90 = character left, measured counter-clockwise seen from above",
+  "aim": "yaw + = towards the character left, pitch + = up; grid yaw -60/0/+60, pitch -35/0/+35",
+  "events": "event frames are clip-local; Unreal notifies are created from this list at import",
+  "prop_tracks": "frames during which a prop bone is carried by another bone than its rest parent (holder = bone name, or \"world\" = stays where it was released, in root space)",
+  "floor_contact": "clips whose hands / knees / torso rest on the floor: play them without foot IK or additive layers",
+  "source_keys": "sparse = hand keyed poses on the control rig; dense = one key per frame on the control rig (floor-constrained or simulated channels)",
+  "qa": "measured on the baked skeleton: loop_error (max joint channel difference between first and last frame), slide_max_cm_s (planted foot speed relative to the ground speed), min_sole_height_cm, body_clear_cm",
+  "nominal_speeds_cm_s": {
+   "walk": 150.0,
+   "run": 400.0,
+   "sprint": 650.0
+  }
+ },
+ "clips": [
+  {
+   "id": "idle_relaxed",
+   "form": "loop",
+   "root_movement": "in_place",
+   "source_action": "idle_relaxed",
+   "baked_action": "BAKED_idle_relaxed",
+   "export_file": "export/animations/idle_relaxed.fbx",
+   "take": "idle_relaxed",
+   "unreal_asset": "/Game/Operative/Animations/idle_relaxed.idle_relaxed",
+   "frame_start": 0,
+   "frame_end": 120,
+   "sample_count": 121,
+   "sample_rate": 30,
+   "duration": 4.0,
+   "loop": true,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "base",
+   "events": [],
+   "entry_states": [
+    "locomotion",
+    "any_recovery"
+   ],
+   "exit_states": [
+    "locomotion",
+    "action",
+    "disable",
+    "death"
+   ],
+   "source_keys": "sparse",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": 0.0,
+    "body_clear_cm": 5.3,
+    "loop_error": 0.0
+   }
+  },
+  {
+   "id": "idle_combat",
+   "form": "loop",
+   "root_movement": "in_place",
+   "source_action": "idle_combat",
+   "baked_action": "BAKED_idle_combat",
+   "export_file": "export/animations/idle_combat.fbx",
+   "take": "idle_combat",
+   "unreal_asset": "/Game/Operative/Animations/idle_combat.idle_combat",
+   "frame_start": 0,
+   "frame_end": 90,
+   "sample_count": 91,
+   "sample_rate": 30,
+   "duration": 3.0,
+   "loop": true,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "base",
+   "events": [],
+   "entry_states": [
+    "locomotion",
+    "action_end"
+   ],
+   "exit_states": [
+    "locomotion",
+    "action",
+    "disable",
+    "death"
+   ],
+   "source_keys": "sparse",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": 0.0,
+    "body_clear_cm": 5.3,
+    "loop_error": 0.0
+   }
+  },
+  {
+   "id": "idle_wounded",
+   "form": "loop",
+   "root_movement": "in_place",
+   "source_action": "idle_wounded",
+   "baked_action": "BAKED_idle_wounded",
+   "export_file": "export/animations/idle_wounded.fbx",
+   "take": "idle_wounded",
+   "unreal_asset": "/Game/Operative/Animations/idle_wounded.idle_wounded",
+   "frame_start": 0,
+   "frame_end": 96,
+   "sample_count": 97,
+   "sample_rate": 30,
+   "duration": 3.2,
+   "loop": true,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "base",
+   "events": [],
+   "entry_states": [
+    "locomotion"
+   ],
+   "exit_states": [
+    "locomotion",
+    "action",
+    "disable",
+    "death"
+   ],
+   "source_keys": "sparse",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": 0.0,
+    "body_clear_cm": 5.3,
+    "loop_error": 0.0
+   }
+  },
+  {
+   "id": "walk_f",
+   "form": "loop",
+   "root_movement": "in_place",
+   "source_action": "walk_f",
+   "baked_action": "BAKED_walk_f",
+   "export_file": "export/animations/walk_f.fbx",
+   "take": "walk_f",
+   "unreal_asset": "/Game/Operative/Animations/walk_f.walk_f",
+   "frame_start": 0,
+   "frame_end": 32,
+   "sample_count": 33,
+   "sample_rate": 30,
+   "duration": 1.066667,
+   "loop": true,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "locomotion",
+   "events": [
+    {
+     "name": "foot_l_contact",
+     "frame": 0,
+     "time": 0.0,
+     "normalized": 0.0
+    },
+    {
+     "name": "foot_r_contact",
+     "frame": 16,
+     "time": 0.533333,
+     "normalized": 0.5
+    }
+   ],
+   "entry_states": [
+    "idle",
+    "locomotion"
+   ],
+   "exit_states": [
+    "idle",
+    "locomotion",
+    "action",
+    "disable",
+    "death"
+   ],
+   "nominal_speed_cm_s": 150.0,
+   "travel_dir_deg": 0.0,
+   "gait": "walk",
+   "phase_sync": "foot_l_contact@0",
+   "source_keys": "dense",
+   "qa": {
+    "slide_max_cm_s": 13.88,
+    "min_sole_height_cm": -0.0,
+    "body_clear_cm": 5.3,
+    "loop_error": 0.0
+   }
+  },
+  {
+   "id": "walk_fl",
+   "form": "loop",
+   "root_movement": "in_place",
+   "source_action": "walk_fl",
+   "baked_action": "BAKED_walk_fl",
+   "export_file": "export/animations/walk_fl.fbx",
+   "take": "walk_fl",
+   "unreal_asset": "/Game/Operative/Animations/walk_fl.walk_fl",
+   "frame_start": 0,
+   "frame_end": 30,
+   "sample_count": 31,
+   "sample_rate": 30,
+   "duration": 1.0,
+   "loop": true,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "locomotion",
+   "events": [
+    {
+     "name": "foot_l_contact",
+     "frame": 0,
+     "time": 0.0,
+     "normalized": 0.0
+    },
+    {
+     "name": "foot_r_contact",
+     "frame": 15,
+     "time": 0.5,
+     "normalized": 0.5
+    }
+   ],
+   "entry_states": [
+    "idle",
+    "locomotion"
+   ],
+   "exit_states": [
+    "idle",
+    "locomotion",
+    "action",
+    "disable",
+    "death"
+   ],
+   "nominal_speed_cm_s": 150.0,
+   "travel_dir_deg": 45.0,
+   "gait": "walk",
+   "phase_sync": "foot_l_contact@0",
+   "source_keys": "dense",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": -0.0,
+    "body_clear_cm": 5.3,
+    "loop_error": 0.0
+   }
+  },
+  {
+   "id": "walk_l",
+   "form": "loop",
+   "root_movement": "in_place",
+   "source_action": "walk_l",
+   "baked_action": "BAKED_walk_l",
+   "export_file": "export/animations/walk_l.fbx",
+   "take": "walk_l",
+   "unreal_asset": "/Game/Operative/Animations/walk_l.walk_l",
+   "frame_start": 0,
+   "frame_end": 26,
+   "sample_count": 27,
+   "sample_rate": 30,
+   "duration": 0.866667,
+   "loop": true,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "locomotion",
+   "events": [
+    {
+     "name": "foot_l_contact",
+     "frame": 0,
+     "time": 0.0,
+     "normalized": 0.0
+    },
+    {
+     "name": "foot_r_contact",
+     "frame": 13,
+     "time": 0.433333,
+     "normalized": 0.5
+    }
+   ],
+   "entry_states": [
+    "idle",
+    "locomotion"
+   ],
+   "exit_states": [
+    "idle",
+    "locomotion",
+    "action",
+    "disable",
+    "death"
+   ],
+   "nominal_speed_cm_s": 150.0,
+   "travel_dir_deg": 90.0,
+   "gait": "walk",
+   "phase_sync": "foot_l_contact@0",
+   "source_keys": "dense",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": -0.0,
+    "body_clear_cm": 5.3,
+    "loop_error": 0.0
+   }
+  },
+  {
+   "id": "walk_bl",
+   "form": "loop",
+   "root_movement": "in_place",
+   "source_action": "walk_bl",
+   "baked_action": "BAKED_walk_bl",
+   "export_file": "export/animations/walk_bl.fbx",
+   "take": "walk_bl",
+   "unreal_asset": "/Game/Operative/Animations/walk_bl.walk_bl",
+   "frame_start": 0,
+   "frame_end": 28,
+   "sample_count": 29,
+   "sample_rate": 30,
+   "duration": 0.933333,
+   "loop": true,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "locomotion",
+   "events": [
+    {
+     "name": "foot_l_contact",
+     "frame": 0,
+     "time": 0.0,
+     "normalized": 0.0
+    },
+    {
+     "name": "foot_r_contact",
+     "frame": 14,
+     "time": 0.466667,
+     "normalized": 0.5
+    }
+   ],
+   "entry_states": [
+    "idle",
+    "locomotion"
+   ],
+   "exit_states": [
+    "idle",
+    "locomotion",
+    "action",
+    "disable",
+    "death"
+   ],
+   "nominal_speed_cm_s": 150.0,
+   "travel_dir_deg": 135.0,
+   "gait": "walk",
+   "phase_sync": "foot_l_contact@0",
+   "source_keys": "dense",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": 0.0,
+    "body_clear_cm": 5.3,
+    "loop_error": 0.0
+   }
+  },
+  {
+   "id": "walk_b",
+   "form": "loop",
+   "root_movement": "in_place",
+   "source_action": "walk_b",
+   "baked_action": "BAKED_walk_b",
+   "export_file": "export/animations/walk_b.fbx",
+   "take": "walk_b",
+   "unreal_asset": "/Game/Operative/Animations/walk_b.walk_b",
+   "frame_start": 0,
+   "frame_end": 30,
+   "sample_count": 31,
+   "sample_rate": 30,
+   "duration": 1.0,
+   "loop": true,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "locomotion",
+   "events": [
+    {
+     "name": "foot_l_contact",
+     "frame": 0,
+     "time": 0.0,
+     "normalized": 0.0
+    },
+    {
+     "name": "foot_r_contact",
+     "frame": 15,
+     "time": 0.5,
+     "normalized": 0.5
+    }
+   ],
+   "entry_states": [
+    "idle",
+    "locomotion"
+   ],
+   "exit_states": [
+    "idle",
+    "locomotion",
+    "action",
+    "disable",
+    "death"
+   ],
+   "nominal_speed_cm_s": 150.0,
+   "travel_dir_deg": 180.0,
+   "gait": "walk",
+   "phase_sync": "foot_l_contact@0",
+   "source_keys": "dense",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": 0.0,
+    "body_clear_cm": 5.3,
+    "loop_error": 0.0
+   }
+  },
+  {
+   "id": "walk_br",
+   "form": "loop",
+   "root_movement": "in_place",
+   "source_action": "walk_br",
+   "baked_action": "BAKED_walk_br",
+   "export_file": "export/animations/walk_br.fbx",
+   "take": "walk_br",
+   "unreal_asset": "/Game/Operative/Animations/walk_br.walk_br",
+   "frame_start": 0,
+   "frame_end": 28,
+   "sample_count": 29,
+   "sample_rate": 30,
+   "duration": 0.933333,
+   "loop": true,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "locomotion",
+   "events": [
+    {
+     "name": "foot_l_contact",
+     "frame": 0,
+     "time": 0.0,
+     "normalized": 0.0
+    },
+    {
+     "name": "foot_r_contact",
+     "frame": 14,
+     "time": 0.466667,
+     "normalized": 0.5
+    }
+   ],
+   "entry_states": [
+    "idle",
+    "locomotion"
+   ],
+   "exit_states": [
+    "idle",
+    "locomotion",
+    "action",
+    "disable",
+    "death"
+   ],
+   "nominal_speed_cm_s": 150.0,
+   "travel_dir_deg": -135.0,
+   "gait": "walk",
+   "phase_sync": "foot_l_contact@0",
+   "source_keys": "dense",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": 0.0,
+    "body_clear_cm": 5.3,
+    "loop_error": 0.0
+   }
+  },
+  {
+   "id": "walk_r",
+   "form": "loop",
+   "root_movement": "in_place",
+   "source_action": "walk_r",
+   "baked_action": "BAKED_walk_r",
+   "export_file": "export/animations/walk_r.fbx",
+   "take": "walk_r",
+   "unreal_asset": "/Game/Operative/Animations/walk_r.walk_r",
+   "frame_start": 0,
+   "frame_end": 26,
+   "sample_count": 27,
+   "sample_rate": 30,
+   "duration": 0.866667,
+   "loop": true,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "locomotion",
+   "events": [
+    {
+     "name": "foot_l_contact",
+     "frame": 0,
+     "time": 0.0,
+     "normalized": 0.0
+    },
+    {
+     "name": "foot_r_contact",
+     "frame": 13,
+     "time": 0.433333,
+     "normalized": 0.5
+    }
+   ],
+   "entry_states": [
+    "idle",
+    "locomotion"
+   ],
+   "exit_states": [
+    "idle",
+    "locomotion",
+    "action",
+    "disable",
+    "death"
+   ],
+   "nominal_speed_cm_s": 150.0,
+   "travel_dir_deg": -90.0,
+   "gait": "walk",
+   "phase_sync": "foot_l_contact@0",
+   "source_keys": "dense",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": -0.0,
+    "body_clear_cm": 5.3,
+    "loop_error": 0.0
+   }
+  },
+  {
+   "id": "walk_fr",
+   "form": "loop",
+   "root_movement": "in_place",
+   "source_action": "walk_fr",
+   "baked_action": "BAKED_walk_fr",
+   "export_file": "export/animations/walk_fr.fbx",
+   "take": "walk_fr",
+   "unreal_asset": "/Game/Operative/Animations/walk_fr.walk_fr",
+   "frame_start": 0,
+   "frame_end": 30,
+   "sample_count": 31,
+   "sample_rate": 30,
+   "duration": 1.0,
+   "loop": true,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "locomotion",
+   "events": [
+    {
+     "name": "foot_l_contact",
+     "frame": 0,
+     "time": 0.0,
+     "normalized": 0.0
+    },
+    {
+     "name": "foot_r_contact",
+     "frame": 15,
+     "time": 0.5,
+     "normalized": 0.5
+    }
+   ],
+   "entry_states": [
+    "idle",
+    "locomotion"
+   ],
+   "exit_states": [
+    "idle",
+    "locomotion",
+    "action",
+    "disable",
+    "death"
+   ],
+   "nominal_speed_cm_s": 150.0,
+   "travel_dir_deg": -45.0,
+   "gait": "walk",
+   "phase_sync": "foot_l_contact@0",
+   "source_keys": "dense",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": -0.0,
+    "body_clear_cm": 5.3,
+    "loop_error": 0.0
+   }
+  },
+  {
+   "id": "run_f",
+   "form": "loop",
+   "root_movement": "in_place",
+   "source_action": "run_f",
+   "baked_action": "BAKED_run_f",
+   "export_file": "export/animations/run_f.fbx",
+   "take": "run_f",
+   "unreal_asset": "/Game/Operative/Animations/run_f.run_f",
+   "frame_start": 0,
+   "frame_end": 22,
+   "sample_count": 23,
+   "sample_rate": 30,
+   "duration": 0.733333,
+   "loop": true,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "locomotion",
+   "events": [
+    {
+     "name": "foot_l_contact",
+     "frame": 0,
+     "time": 0.0,
+     "normalized": 0.0
+    },
+    {
+     "name": "foot_r_contact",
+     "frame": 11,
+     "time": 0.366667,
+     "normalized": 0.5
+    }
+   ],
+   "entry_states": [
+    "idle",
+    "locomotion"
+   ],
+   "exit_states": [
+    "idle",
+    "locomotion",
+    "action",
+    "disable",
+    "death"
+   ],
+   "nominal_speed_cm_s": 400.0,
+   "travel_dir_deg": 0.0,
+   "gait": "run",
+   "phase_sync": "foot_l_contact@0",
+   "source_keys": "dense",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": -0.0,
+    "body_clear_cm": 5.3,
+    "loop_error": 0.0
+   }
+  },
+  {
+   "id": "run_fl",
+   "form": "loop",
+   "root_movement": "in_place",
+   "source_action": "run_fl",
+   "baked_action": "BAKED_run_fl",
+   "export_file": "export/animations/run_fl.fbx",
+   "take": "run_fl",
+   "unreal_asset": "/Game/Operative/Animations/run_fl.run_fl",
+   "frame_start": 0,
+   "frame_end": 22,
+   "sample_count": 23,
+   "sample_rate": 30,
+   "duration": 0.733333,
+   "loop": true,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "locomotion",
+   "events": [
+    {
+     "name": "foot_l_contact",
+     "frame": 0,
+     "time": 0.0,
+     "normalized": 0.0
+    },
+    {
+     "name": "foot_r_contact",
+     "frame": 11,
+     "time": 0.366667,
+     "normalized": 0.5
+    }
+   ],
+   "entry_states": [
+    "idle",
+    "locomotion"
+   ],
+   "exit_states": [
+    "idle",
+    "locomotion",
+    "action",
+    "disable",
+    "death"
+   ],
+   "nominal_speed_cm_s": 400.0,
+   "travel_dir_deg": 45.0,
+   "gait": "run",
+   "phase_sync": "foot_l_contact@0",
+   "source_keys": "dense",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": -0.0,
+    "body_clear_cm": 5.3,
+    "loop_error": 0.0
+   }
+  },
+  {
+   "id": "run_l",
+   "form": "loop",
+   "root_movement": "in_place",
+   "source_action": "run_l",
+   "baked_action": "BAKED_run_l",
+   "export_file": "export/animations/run_l.fbx",
+   "take": "run_l",
+   "unreal_asset": "/Game/Operative/Animations/run_l.run_l",
+   "frame_start": 0,
+   "frame_end": 20,
+   "sample_count": 21,
+   "sample_rate": 30,
+   "duration": 0.666667,
+   "loop": true,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "locomotion",
+   "events": [
+    {
+     "name": "foot_l_contact",
+     "frame": 0,
+     "time": 0.0,
+     "normalized": 0.0
+    },
+    {
+     "name": "foot_r_contact",
+     "frame": 10,
+     "time": 0.333333,
+     "normalized": 0.5
+    }
+   ],
+   "entry_states": [
+    "idle",
+    "locomotion"
+   ],
+   "exit_states": [
+    "idle",
+    "locomotion",
+    "action",
+    "disable",
+    "death"
+   ],
+   "nominal_speed_cm_s": 400.0,
+   "travel_dir_deg": 90.0,
+   "gait": "run",
+   "phase_sync": "foot_l_contact@0",
+   "source_keys": "dense",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": 0.0,
+    "body_clear_cm": 5.3,
+    "loop_error": 0.0
+   }
+  },
+  {
+   "id": "run_bl",
+   "form": "loop",
+   "root_movement": "in_place",
+   "source_action": "run_bl",
+   "baked_action": "BAKED_run_bl",
+   "export_file": "export/animations/run_bl.fbx",
+   "take": "run_bl",
+   "unreal_asset": "/Game/Operative/Animations/run_bl.run_bl",
+   "frame_start": 0,
+   "frame_end": 20,
+   "sample_count": 21,
+   "sample_rate": 30,
+   "duration": 0.666667,
+   "loop": true,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "locomotion",
+   "events": [
+    {
+     "name": "foot_l_contact",
+     "frame": 0,
+     "time": 0.0,
+     "normalized": 0.0
+    },
+    {
+     "name": "foot_r_contact",
+     "frame": 10,
+     "time": 0.333333,
+     "normalized": 0.5
+    }
+   ],
+   "entry_states": [
+    "idle",
+    "locomotion"
+   ],
+   "exit_states": [
+    "idle",
+    "locomotion",
+    "action",
+    "disable",
+    "death"
+   ],
+   "nominal_speed_cm_s": 400.0,
+   "travel_dir_deg": 135.0,
+   "gait": "run",
+   "phase_sync": "foot_l_contact@0",
+   "source_keys": "dense",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": 0.0,
+    "body_clear_cm": 5.3,
+    "loop_error": 0.0
+   }
+  },
+  {
+   "id": "run_b",
+   "form": "loop",
+   "root_movement": "in_place",
+   "source_action": "run_b",
+   "baked_action": "BAKED_run_b",
+   "export_file": "export/animations/run_b.fbx",
+   "take": "run_b",
+   "unreal_asset": "/Game/Operative/Animations/run_b.run_b",
+   "frame_start": 0,
+   "frame_end": 22,
+   "sample_count": 23,
+   "sample_rate": 30,
+   "duration": 0.733333,
+   "loop": true,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "locomotion",
+   "events": [
+    {
+     "name": "foot_l_contact",
+     "frame": 0,
+     "time": 0.0,
+     "normalized": 0.0
+    },
+    {
+     "name": "foot_r_contact",
+     "frame": 11,
+     "time": 0.366667,
+     "normalized": 0.5
+    }
+   ],
+   "entry_states": [
+    "idle",
+    "locomotion"
+   ],
+   "exit_states": [
+    "idle",
+    "locomotion",
+    "action",
+    "disable",
+    "death"
+   ],
+   "nominal_speed_cm_s": 400.0,
+   "travel_dir_deg": 180.0,
+   "gait": "run",
+   "phase_sync": "foot_l_contact@0",
+   "source_keys": "dense",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": 0.0,
+    "body_clear_cm": 5.3,
+    "loop_error": 0.0
+   }
+  },
+  {
+   "id": "run_br",
+   "form": "loop",
+   "root_movement": "in_place",
+   "source_action": "run_br",
+   "baked_action": "BAKED_run_br",
+   "export_file": "export/animations/run_br.fbx",
+   "take": "run_br",
+   "unreal_asset": "/Game/Operative/Animations/run_br.run_br",
+   "frame_start": 0,
+   "frame_end": 20,
+   "sample_count": 21,
+   "sample_rate": 30,
+   "duration": 0.666667,
+   "loop": true,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "locomotion",
+   "events": [
+    {
+     "name": "foot_l_contact",
+     "frame": 0,
+     "time": 0.0,
+     "normalized": 0.0
+    },
+    {
+     "name": "foot_r_contact",
+     "frame": 10,
+     "time": 0.333333,
+     "normalized": 0.5
+    }
+   ],
+   "entry_states": [
+    "idle",
+    "locomotion"
+   ],
+   "exit_states": [
+    "idle",
+    "locomotion",
+    "action",
+    "disable",
+    "death"
+   ],
+   "nominal_speed_cm_s": 400.0,
+   "travel_dir_deg": -135.0,
+   "gait": "run",
+   "phase_sync": "foot_l_contact@0",
+   "source_keys": "dense",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": 0.0,
+    "body_clear_cm": 5.3,
+    "loop_error": 0.0
+   }
+  },
+  {
+   "id": "run_r",
+   "form": "loop",
+   "root_movement": "in_place",
+   "source_action": "run_r",
+   "baked_action": "BAKED_run_r",
+   "export_file": "export/animations/run_r.fbx",
+   "take": "run_r",
+   "unreal_asset": "/Game/Operative/Animations/run_r.run_r",
+   "frame_start": 0,
+   "frame_end": 20,
+   "sample_count": 21,
+   "sample_rate": 30,
+   "duration": 0.666667,
+   "loop": true,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "locomotion",
+   "events": [
+    {
+     "name": "foot_l_contact",
+     "frame": 0,
+     "time": 0.0,
+     "normalized": 0.0
+    },
+    {
+     "name": "foot_r_contact",
+     "frame": 10,
+     "time": 0.333333,
+     "normalized": 0.5
+    }
+   ],
+   "entry_states": [
+    "idle",
+    "locomotion"
+   ],
+   "exit_states": [
+    "idle",
+    "locomotion",
+    "action",
+    "disable",
+    "death"
+   ],
+   "nominal_speed_cm_s": 400.0,
+   "travel_dir_deg": -90.0,
+   "gait": "run",
+   "phase_sync": "foot_l_contact@0",
+   "source_keys": "dense",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": 0.0,
+    "body_clear_cm": 5.3,
+    "loop_error": 0.0
+   }
+  },
+  {
+   "id": "run_fr",
+   "form": "loop",
+   "root_movement": "in_place",
+   "source_action": "run_fr",
+   "baked_action": "BAKED_run_fr",
+   "export_file": "export/animations/run_fr.fbx",
+   "take": "run_fr",
+   "unreal_asset": "/Game/Operative/Animations/run_fr.run_fr",
+   "frame_start": 0,
+   "frame_end": 22,
+   "sample_count": 23,
+   "sample_rate": 30,
+   "duration": 0.733333,
+   "loop": true,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "locomotion",
+   "events": [
+    {
+     "name": "foot_l_contact",
+     "frame": 0,
+     "time": 0.0,
+     "normalized": 0.0
+    },
+    {
+     "name": "foot_r_contact",
+     "frame": 11,
+     "time": 0.366667,
+     "normalized": 0.5
+    }
+   ],
+   "entry_states": [
+    "idle",
+    "locomotion"
+   ],
+   "exit_states": [
+    "idle",
+    "locomotion",
+    "action",
+    "disable",
+    "death"
+   ],
+   "nominal_speed_cm_s": 400.0,
+   "travel_dir_deg": -45.0,
+   "gait": "run",
+   "phase_sync": "foot_l_contact@0",
+   "source_keys": "dense",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": -0.0,
+    "body_clear_cm": 5.3,
+    "loop_error": 0.0
+   }
+  },
+  {
+   "id": "sprint_f",
+   "form": "loop",
+   "root_movement": "in_place",
+   "source_action": "sprint_f",
+   "baked_action": "BAKED_sprint_f",
+   "export_file": "export/animations/sprint_f.fbx",
+   "take": "sprint_f",
+   "unreal_asset": "/Game/Operative/Animations/sprint_f.sprint_f",
+   "frame_start": 0,
+   "frame_end": 16,
+   "sample_count": 17,
+   "sample_rate": 30,
+   "duration": 0.533333,
+   "loop": true,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "locomotion",
+   "events": [
+    {
+     "name": "foot_l_contact",
+     "frame": 0,
+     "time": 0.0,
+     "normalized": 0.0
+    },
+    {
+     "name": "foot_r_contact",
+     "frame": 8,
+     "time": 0.266667,
+     "normalized": 0.5
+    }
+   ],
+   "entry_states": [
+    "locomotion"
+   ],
+   "exit_states": [
+    "locomotion",
+    "action",
+    "disable",
+    "death"
+   ],
+   "nominal_speed_cm_s": 650.0,
+   "travel_dir_deg": 0.0,
+   "gait": "sprint",
+   "phase_sync": "foot_l_contact@0",
+   "source_keys": "dense",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": 0.0,
+    "body_clear_cm": 5.3,
+    "loop_error": 0.0
+   }
+  },
+  {
+   "id": "start_f",
+   "form": "one_shot",
+   "root_movement": "in_place",
+   "source_action": "start_f",
+   "baked_action": "BAKED_start_f",
+   "export_file": "export/animations/start_f.fbx",
+   "take": "start_f",
+   "unreal_asset": "/Game/Operative/Animations/start_f.start_f",
+   "frame_start": 0,
+   "frame_end": 12,
+   "sample_count": 13,
+   "sample_rate": 30,
+   "duration": 0.4,
+   "loop": false,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "base",
+   "events": [
+    {
+     "name": "foot_r_contact",
+     "frame": 4,
+     "time": 0.133333,
+     "normalized": 0.333333
+    },
+    {
+     "name": "foot_l_contact",
+     "frame": 12,
+     "time": 0.4,
+     "normalized": 1.0
+    }
+   ],
+   "entry_states": [
+    "idle"
+   ],
+   "exit_states": [
+    "locomotion"
+   ],
+   "nominal_speed_cm_s": 400.0,
+   "travel_dir_deg": 0.0,
+   "speed_profile": [
+    0.0,
+    0.333,
+    0.667,
+    1.0,
+    1.333,
+    1.667,
+    2.0,
+    2.333,
+    2.667,
+    3.0,
+    3.333,
+    3.667,
+    4.0
+   ],
+   "speed_profile_cm_s": [
+    0.0,
+    33.3,
+    66.7,
+    100.0,
+    133.3,
+    166.7,
+    200.0,
+    233.3,
+    266.7,
+    300.0,
+    333.3,
+    366.7,
+    400.0
+   ],
+   "speed_profile_note": "ground speed along the facing at clip start, one value per frame (m/s and cm/s); the clip is authored in place",
+   "exit_phase": 0.0,
+   "exit_loop": "run_f",
+   "source_keys": "dense",
+   "qa": {
+    "slide_max_cm_s": 0.02,
+    "min_sole_height_cm": -0.0,
+    "body_clear_cm": 5.3
+   }
+  },
+  {
+   "id": "stop_f",
+   "form": "one_shot",
+   "root_movement": "in_place",
+   "source_action": "stop_f",
+   "baked_action": "BAKED_stop_f",
+   "export_file": "export/animations/stop_f.fbx",
+   "take": "stop_f",
+   "unreal_asset": "/Game/Operative/Animations/stop_f.stop_f",
+   "frame_start": 0,
+   "frame_end": 14,
+   "sample_count": 15,
+   "sample_rate": 30,
+   "duration": 0.466667,
+   "loop": false,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "base",
+   "events": [
+    {
+     "name": "foot_r_contact",
+     "frame": 3,
+     "time": 0.1,
+     "normalized": 0.214286
+    },
+    {
+     "name": "foot_l_contact",
+     "frame": 9,
+     "time": 0.3,
+     "normalized": 0.642857
+    }
+   ],
+   "entry_states": [
+    "locomotion"
+   ],
+   "exit_states": [
+    "idle"
+   ],
+   "nominal_speed_cm_s": 400.0,
+   "travel_dir_deg": 0.0,
+   "speed_profile": [
+    4.0,
+    3.636,
+    3.273,
+    2.909,
+    2.545,
+    2.182,
+    1.818,
+    1.455,
+    1.091,
+    0.727,
+    0.364,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "speed_profile_cm_s": [
+    400.0,
+    363.6,
+    327.3,
+    290.9,
+    254.5,
+    218.2,
+    181.8,
+    145.5,
+    109.1,
+    72.7,
+    36.4,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "speed_profile_note": "ground speed along the facing at clip start, one value per frame (m/s and cm/s); the clip is authored in place",
+   "entry_phase": 0.0,
+   "entry_loop": "run_f",
+   "source_keys": "dense",
+   "qa": {
+    "slide_max_cm_s": 0.03,
+    "min_sole_height_cm": -0.0,
+    "body_clear_cm": 5.3
+   }
+  },
+  {
+   "id": "turn_l90",
+   "form": "one_shot",
+   "root_movement": "in_place",
+   "source_action": "turn_l90",
+   "baked_action": "BAKED_turn_l90",
+   "export_file": "export/animations/turn_l90.fbx",
+   "take": "turn_l90",
+   "unreal_asset": "/Game/Operative/Animations/turn_l90.turn_l90",
+   "frame_start": 0,
+   "frame_end": 18,
+   "sample_count": 19,
+   "sample_rate": 30,
+   "duration": 0.6,
+   "loop": false,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "base",
+   "events": [
+    {
+     "name": "foot_l_contact",
+     "frame": 8,
+     "time": 0.266667,
+     "normalized": 0.444444
+    },
+    {
+     "name": "foot_r_contact",
+     "frame": 14,
+     "time": 0.466667,
+     "normalized": 0.777778
+    }
+   ],
+   "entry_states": [
+    "idle"
+   ],
+   "exit_states": [
+    "idle"
+   ],
+   "turn_yaw_deg": 90.0,
+   "source_keys": "sparse",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": 0.0,
+    "body_clear_cm": 5.3
+   }
+  },
+  {
+   "id": "turn_r90",
+   "form": "one_shot",
+   "root_movement": "in_place",
+   "source_action": "turn_r90",
+   "baked_action": "BAKED_turn_r90",
+   "export_file": "export/animations/turn_r90.fbx",
+   "take": "turn_r90",
+   "unreal_asset": "/Game/Operative/Animations/turn_r90.turn_r90",
+   "frame_start": 0,
+   "frame_end": 18,
+   "sample_count": 19,
+   "sample_rate": 30,
+   "duration": 0.6,
+   "loop": false,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "base",
+   "events": [
+    {
+     "name": "foot_r_contact",
+     "frame": 8,
+     "time": 0.266667,
+     "normalized": 0.444444
+    },
+    {
+     "name": "foot_l_contact",
+     "frame": 14,
+     "time": 0.466667,
+     "normalized": 0.777778
+    }
+   ],
+   "entry_states": [
+    "idle"
+   ],
+   "exit_states": [
+    "idle"
+   ],
+   "turn_yaw_deg": -90.0,
+   "source_keys": "sparse",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": 0.0,
+    "body_clear_cm": 5.3
+   }
+  },
+  {
+   "id": "pivot_l180",
+   "form": "one_shot",
+   "root_movement": "in_place",
+   "source_action": "pivot_l180",
+   "baked_action": "BAKED_pivot_l180",
+   "export_file": "export/animations/pivot_l180.fbx",
+   "take": "pivot_l180",
+   "unreal_asset": "/Game/Operative/Animations/pivot_l180.pivot_l180",
+   "frame_start": 0,
+   "frame_end": 16,
+   "sample_count": 17,
+   "sample_rate": 30,
+   "duration": 0.533333,
+   "loop": false,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "base",
+   "events": [
+    {
+     "name": "foot_r_contact",
+     "frame": 4,
+     "time": 0.133333,
+     "normalized": 0.25
+    },
+    {
+     "name": "foot_l_contact",
+     "frame": 11,
+     "time": 0.366667,
+     "normalized": 0.6875
+    }
+   ],
+   "entry_states": [
+    "locomotion"
+   ],
+   "exit_states": [
+    "locomotion"
+   ],
+   "nominal_speed_cm_s": 400.0,
+   "turn_yaw_deg": 180.0,
+   "speed_profile": [
+    4.0,
+    3.5,
+    3.0,
+    2.5,
+    2.0,
+    1.5,
+    1.0,
+    0.5,
+    0.0,
+    -0.5,
+    -1.0,
+    -1.5,
+    -2.0,
+    -2.5,
+    -3.0,
+    -3.5,
+    -4.0
+   ],
+   "speed_profile_cm_s": [
+    400.0,
+    350.0,
+    300.0,
+    250.0,
+    200.0,
+    150.0,
+    100.0,
+    50.0,
+    0.0,
+    -50.0,
+    -100.0,
+    -150.0,
+    -200.0,
+    -250.0,
+    -300.0,
+    -350.0,
+    -400.0
+   ],
+   "speed_profile_note": "ground speed along the facing at clip start, one value per frame (m/s and cm/s); the clip is authored in place",
+   "exit_phase": 0.22727272727272727,
+   "entry_phase": 0.0,
+   "entry_loop": "run_f",
+   "exit_loop": "run_f",
+   "source_keys": "dense",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": -0.0,
+    "body_clear_cm": 5.3
+   }
+  },
+  {
+   "id": "pivot_r180",
+   "form": "one_shot",
+   "root_movement": "in_place",
+   "source_action": "pivot_r180",
+   "baked_action": "BAKED_pivot_r180",
+   "export_file": "export/animations/pivot_r180.fbx",
+   "take": "pivot_r180",
+   "unreal_asset": "/Game/Operative/Animations/pivot_r180.pivot_r180",
+   "frame_start": 0,
+   "frame_end": 16,
+   "sample_count": 17,
+   "sample_rate": 30,
+   "duration": 0.533333,
+   "loop": false,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "base",
+   "events": [
+    {
+     "name": "foot_l_contact",
+     "frame": 4,
+     "time": 0.133333,
+     "normalized": 0.25
+    },
+    {
+     "name": "foot_r_contact",
+     "frame": 11,
+     "time": 0.366667,
+     "normalized": 0.6875
+    }
+   ],
+   "entry_states": [
+    "locomotion"
+   ],
+   "exit_states": [
+    "locomotion"
+   ],
+   "nominal_speed_cm_s": 400.0,
+   "turn_yaw_deg": -180.0,
+   "speed_profile": [
+    4.0,
+    3.5,
+    3.0,
+    2.5,
+    2.0,
+    1.5,
+    1.0,
+    0.5,
+    0.0,
+    -0.5,
+    -1.0,
+    -1.5,
+    -2.0,
+    -2.5,
+    -3.0,
+    -3.5,
+    -4.0
+   ],
+   "speed_profile_cm_s": [
+    400.0,
+    350.0,
+    300.0,
+    250.0,
+    200.0,
+    150.0,
+    100.0,
+    50.0,
+    0.0,
+    -50.0,
+    -100.0,
+    -150.0,
+    -200.0,
+    -250.0,
+    -300.0,
+    -350.0,
+    -400.0
+   ],
+   "speed_profile_note": "ground speed along the facing at clip start, one value per frame (m/s and cm/s); the clip is authored in place",
+   "exit_phase": 0.7272727272727273,
+   "entry_phase": 0.5,
+   "entry_loop": "run_f",
+   "exit_loop": "run_f",
+   "source_keys": "dense",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": -0.0,
+    "body_clear_cm": 5.3
+   }
+  },
+  {
+   "id": "jump_start",
+   "form": "one_shot",
+   "root_movement": "in_place",
+   "source_action": "jump_start",
+   "baked_action": "BAKED_jump_start",
+   "export_file": "export/animations/jump_start.fbx",
+   "take": "jump_start",
+   "unreal_asset": "/Game/Operative/Animations/jump_start.jump_start",
+   "frame_start": 0,
+   "frame_end": 9,
+   "sample_count": 10,
+   "sample_rate": 30,
+   "duration": 0.3,
+   "loop": false,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "base",
+   "events": [
+    {
+     "name": "jump_takeoff",
+     "frame": 6,
+     "time": 0.2,
+     "normalized": 0.666667
+    }
+   ],
+   "entry_states": [
+    "idle",
+    "locomotion"
+   ],
+   "exit_states": [
+    "jump_air"
+   ],
+   "source_keys": "sparse",
+   "qa": {
+    "slide_max_cm_s": 106.08,
+    "min_sole_height_cm": -0.42,
+    "body_clear_cm": 5.3
+   }
+  },
+  {
+   "id": "jump_air",
+   "form": "loop",
+   "root_movement": "in_place",
+   "source_action": "jump_air",
+   "baked_action": "BAKED_jump_air",
+   "export_file": "export/animations/jump_air.fbx",
+   "take": "jump_air",
+   "unreal_asset": "/Game/Operative/Animations/jump_air.jump_air",
+   "frame_start": 0,
+   "frame_end": 20,
+   "sample_count": 21,
+   "sample_rate": 30,
+   "duration": 0.666667,
+   "loop": true,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "base",
+   "events": [],
+   "entry_states": [
+    "jump_start"
+   ],
+   "exit_states": [
+    "fall",
+    "jump_land",
+    "land_heavy"
+   ],
+   "source_keys": "sparse",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": 0.36,
+    "body_clear_cm": 19.5,
+    "loop_error": 0.0
+   }
+  },
+  {
+   "id": "jump_land",
+   "form": "one_shot",
+   "root_movement": "in_place",
+   "source_action": "jump_land",
+   "baked_action": "BAKED_jump_land",
+   "export_file": "export/animations/jump_land.fbx",
+   "take": "jump_land",
+   "unreal_asset": "/Game/Operative/Animations/jump_land.jump_land",
+   "frame_start": 0,
+   "frame_end": 14,
+   "sample_count": 15,
+   "sample_rate": 30,
+   "duration": 0.466667,
+   "loop": false,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "base",
+   "events": [
+    {
+     "name": "land_impact",
+     "frame": 0,
+     "time": 0.0,
+     "normalized": 0.0
+    },
+    {
+     "name": "foot_l_contact",
+     "frame": 0,
+     "time": 0.0,
+     "normalized": 0.0
+    },
+    {
+     "name": "foot_r_contact",
+     "frame": 0,
+     "time": 0.0,
+     "normalized": 0.0
+    }
+   ],
+   "entry_states": [
+    "jump_air",
+    "fall"
+   ],
+   "exit_states": [
+    "idle",
+    "locomotion"
+   ],
+   "source_keys": "sparse",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": 0.0,
+    "body_clear_cm": 5.3
+   }
+  },
+  {
+   "id": "fall",
+   "form": "loop",
+   "root_movement": "in_place",
+   "source_action": "fall",
+   "baked_action": "BAKED_fall",
+   "export_file": "export/animations/fall.fbx",
+   "take": "fall",
+   "unreal_asset": "/Game/Operative/Animations/fall.fall",
+   "frame_start": 0,
+   "frame_end": 16,
+   "sample_count": 17,
+   "sample_rate": 30,
+   "duration": 0.533333,
+   "loop": true,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "base",
+   "events": [],
+   "entry_states": [
+    "jump_air",
+    "locomotion"
+   ],
+   "exit_states": [
+    "jump_land",
+    "land_heavy"
+   ],
+   "source_keys": "sparse",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": 1.45,
+    "body_clear_cm": 19.5,
+    "loop_error": 0.0
+   }
+  },
+  {
+   "id": "land_heavy",
+   "form": "one_shot",
+   "root_movement": "in_place",
+   "source_action": "land_heavy",
+   "baked_action": "BAKED_land_heavy",
+   "export_file": "export/animations/land_heavy.fbx",
+   "take": "land_heavy",
+   "unreal_asset": "/Game/Operative/Animations/land_heavy.land_heavy",
+   "frame_start": 0,
+   "frame_end": 26,
+   "sample_count": 27,
+   "sample_rate": 30,
+   "duration": 0.866667,
+   "loop": false,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "base",
+   "events": [
+    {
+     "name": "land_impact",
+     "frame": 0,
+     "time": 0.0,
+     "normalized": 0.0
+    },
+    {
+     "name": "foot_l_contact",
+     "frame": 0,
+     "time": 0.0,
+     "normalized": 0.0
+    },
+    {
+     "name": "foot_r_contact",
+     "frame": 0,
+     "time": 0.0,
+     "normalized": 0.0
+    },
+    {
+     "name": "hand_plant",
+     "frame": 5,
+     "time": 0.166667,
+     "normalized": 0.192308
+    },
+    {
+     "name": "foot_l_contact",
+     "frame": 19,
+     "time": 0.633333,
+     "normalized": 0.730769
+    },
+    {
+     "name": "foot_r_contact",
+     "frame": 24,
+     "time": 0.8,
+     "normalized": 0.923077
+    }
+   ],
+   "entry_states": [
+    "fall",
+    "knockup_air"
+   ],
+   "exit_states": [
+    "idle",
+    "locomotion"
+   ],
+   "floor_contact": true,
+   "source_keys": "dense",
+   "qa": {
+    "slide_max_cm_s": 234.46,
+    "min_sole_height_cm": 0.0,
+    "body_clear_cm": 1.2
+   }
+  },
+  {
+   "id": "dash_f",
+   "form": "one_shot",
+   "root_movement": "root_motion",
+   "source_action": "dash_f",
+   "baked_action": "BAKED_dash_f",
+   "export_file": "export/animations/dash_f.fbx",
+   "take": "dash_f",
+   "unreal_asset": "/Game/Operative/Animations/dash_f.dash_f",
+   "frame_start": 0,
+   "frame_end": 12,
+   "sample_count": 13,
+   "sample_rate": 30,
+   "duration": 0.4,
+   "loop": false,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "root_motion",
+    "displacement_cm": [
+     0.0,
+     200.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)",
+    "travel_m": [
+     0.0,
+     0.0,
+     0.0686,
+     0.2524,
+     0.5185,
+     0.834,
+     1.166,
+     1.4815,
+     1.7476,
+     1.9314,
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "layer": "fullbody",
+   "events": [
+    {
+     "name": "dash_start",
+     "frame": 2,
+     "time": 0.066667,
+     "normalized": 0.166667
+    },
+    {
+     "name": "dash_end",
+     "frame": 10,
+     "time": 0.333333,
+     "normalized": 0.833333
+    },
+    {
+     "name": "foot_l_contact",
+     "frame": 10,
+     "time": 0.333333,
+     "normalized": 0.833333
+    },
+    {
+     "name": "foot_r_contact",
+     "frame": 10,
+     "time": 0.333333,
+     "normalized": 0.833333
+    }
+   ],
+   "entry_states": [
+    "idle",
+    "locomotion"
+   ],
+   "exit_states": [
+    "idle",
+    "locomotion"
+   ],
+   "travel_dir_deg": 0.0,
+   "source_keys": "dense",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": 0.0,
+    "body_clear_cm": 5.5
+   }
+  },
+  {
+   "id": "dash_b",
+   "form": "one_shot",
+   "root_movement": "root_motion",
+   "source_action": "dash_b",
+   "baked_action": "BAKED_dash_b",
+   "export_file": "export/animations/dash_b.fbx",
+   "take": "dash_b",
+   "unreal_asset": "/Game/Operative/Animations/dash_b.dash_b",
+   "frame_start": 0,
+   "frame_end": 12,
+   "sample_count": 13,
+   "sample_rate": 30,
+   "duration": 0.4,
+   "loop": false,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "root_motion",
+    "displacement_cm": [
+     0.0,
+     -200.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)",
+    "travel_m": [
+     0.0,
+     0.0,
+     0.0686,
+     0.2524,
+     0.5185,
+     0.834,
+     1.166,
+     1.4815,
+     1.7476,
+     1.9314,
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "layer": "fullbody",
+   "events": [
+    {
+     "name": "dash_start",
+     "frame": 2,
+     "time": 0.066667,
+     "normalized": 0.166667
+    },
+    {
+     "name": "dash_end",
+     "frame": 10,
+     "time": 0.333333,
+     "normalized": 0.833333
+    },
+    {
+     "name": "foot_l_contact",
+     "frame": 10,
+     "time": 0.333333,
+     "normalized": 0.833333
+    },
+    {
+     "name": "foot_r_contact",
+     "frame": 10,
+     "time": 0.333333,
+     "normalized": 0.833333
+    }
+   ],
+   "entry_states": [
+    "idle",
+    "locomotion"
+   ],
+   "exit_states": [
+    "idle",
+    "locomotion"
+   ],
+   "travel_dir_deg": 180.0,
+   "source_keys": "dense",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": 0.0,
+    "body_clear_cm": 5.3
+   }
+  },
+  {
+   "id": "dash_l",
+   "form": "one_shot",
+   "root_movement": "root_motion",
+   "source_action": "dash_l",
+   "baked_action": "BAKED_dash_l",
+   "export_file": "export/animations/dash_l.fbx",
+   "take": "dash_l",
+   "unreal_asset": "/Game/Operative/Animations/dash_l.dash_l",
+   "frame_start": 0,
+   "frame_end": 12,
+   "sample_count": 13,
+   "sample_rate": 30,
+   "duration": 0.4,
+   "loop": false,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "root_motion",
+    "displacement_cm": [
+     200.0,
+     0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)",
+    "travel_m": [
+     0.0,
+     0.0,
+     0.0686,
+     0.2524,
+     0.5185,
+     0.834,
+     1.166,
+     1.4815,
+     1.7476,
+     1.9314,
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "layer": "fullbody",
+   "events": [
+    {
+     "name": "dash_start",
+     "frame": 2,
+     "time": 0.066667,
+     "normalized": 0.166667
+    },
+    {
+     "name": "dash_end",
+     "frame": 10,
+     "time": 0.333333,
+     "normalized": 0.833333
+    },
+    {
+     "name": "foot_l_contact",
+     "frame": 10,
+     "time": 0.333333,
+     "normalized": 0.833333
+    },
+    {
+     "name": "foot_r_contact",
+     "frame": 10,
+     "time": 0.333333,
+     "normalized": 0.833333
+    }
+   ],
+   "entry_states": [
+    "idle",
+    "locomotion"
+   ],
+   "exit_states": [
+    "idle",
+    "locomotion"
+   ],
+   "travel_dir_deg": 90.0,
+   "source_keys": "dense",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": 0.0,
+    "body_clear_cm": 5.5
+   }
+  },
+  {
+   "id": "dash_r",
+   "form": "one_shot",
+   "root_movement": "root_motion",
+   "source_action": "dash_r",
+   "baked_action": "BAKED_dash_r",
+   "export_file": "export/animations/dash_r.fbx",
+   "take": "dash_r",
+   "unreal_asset": "/Game/Operative/Animations/dash_r.dash_r",
+   "frame_start": 0,
+   "frame_end": 12,
+   "sample_count": 13,
+   "sample_rate": 30,
+   "duration": 0.4,
+   "loop": false,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "root_motion",
+    "displacement_cm": [
+     -200.0,
+     0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)",
+    "travel_m": [
+     0.0,
+     0.0,
+     0.0686,
+     0.2524,
+     0.5185,
+     0.834,
+     1.166,
+     1.4815,
+     1.7476,
+     1.9314,
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "layer": "fullbody",
+   "events": [
+    {
+     "name": "dash_start",
+     "frame": 2,
+     "time": 0.066667,
+     "normalized": 0.166667
+    },
+    {
+     "name": "dash_end",
+     "frame": 10,
+     "time": 0.333333,
+     "normalized": 0.833333
+    },
+    {
+     "name": "foot_l_contact",
+     "frame": 10,
+     "time": 0.333333,
+     "normalized": 0.833333
+    },
+    {
+     "name": "foot_r_contact",
+     "frame": 10,
+     "time": 0.333333,
+     "normalized": 0.833333
+    }
+   ],
+   "entry_states": [
+    "idle",
+    "locomotion"
+   ],
+   "exit_states": [
+    "idle",
+    "locomotion"
+   ],
+   "travel_dir_deg": -90.0,
+   "source_keys": "dense",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": 0.0,
+    "body_clear_cm": 5.3
+   }
+  },
+  {
+   "id": "blink_out",
+   "form": "one_shot",
+   "root_movement": "in_place",
+   "source_action": "blink_out",
+   "baked_action": "BAKED_blink_out",
+   "export_file": "export/animations/blink_out.fbx",
+   "take": "blink_out",
+   "unreal_asset": "/Game/Operative/Animations/blink_out.blink_out",
+   "frame_start": 0,
+   "frame_end": 9,
+   "sample_count": 10,
+   "sample_rate": 30,
+   "duration": 0.3,
+   "loop": false,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "fullbody",
+   "events": [
+    {
+     "name": "blink_vanish",
+     "frame": 8,
+     "time": 0.266667,
+     "normalized": 0.888889
+    }
+   ],
+   "entry_states": [
+    "idle",
+    "locomotion"
+   ],
+   "exit_states": [
+    "blink_in"
+   ],
+   "source_keys": "sparse",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": -0.0,
+    "body_clear_cm": 5.3
+   }
+  },
+  {
+   "id": "blink_in",
+   "form": "one_shot",
+   "root_movement": "in_place",
+   "source_action": "blink_in",
+   "baked_action": "BAKED_blink_in",
+   "export_file": "export/animations/blink_in.fbx",
+   "take": "blink_in",
+   "unreal_asset": "/Game/Operative/Animations/blink_in.blink_in",
+   "frame_start": 0,
+   "frame_end": 12,
+   "sample_count": 13,
+   "sample_rate": 30,
+   "duration": 0.4,
+   "loop": false,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "fullbody",
+   "events": [
+    {
+     "name": "blink_appear",
+     "frame": 0,
+     "time": 0.0,
+     "normalized": 0.0
+    },
+    {
+     "name": "foot_l_contact",
+     "frame": 3,
+     "time": 0.1,
+     "normalized": 0.25
+    },
+    {
+     "name": "foot_r_contact",
+     "frame": 3,
+     "time": 0.1,
+     "normalized": 0.25
+    }
+   ],
+   "entry_states": [
+    "blink_out"
+   ],
+   "exit_states": [
+    "idle",
+    "locomotion"
+   ],
+   "source_keys": "sparse",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": -0.0,
+    "body_clear_cm": 5.3
+   }
+  },
+  {
+   "id": "melee_1",
+   "form": "one_shot",
+   "root_movement": "in_place",
+   "source_action": "melee_1",
+   "baked_action": "BAKED_melee_1",
+   "export_file": "export/animations/melee_1.fbx",
+   "take": "melee_1",
+   "unreal_asset": "/Game/Operative/Animations/melee_1.melee_1",
+   "frame_start": 0,
+   "frame_end": 24,
+   "sample_count": 25,
+   "sample_rate": 30,
+   "duration": 0.8,
+   "loop": false,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "fullbody",
+   "events": [
+    {
+     "name": "blade_extend",
+     "frame": 2,
+     "time": 0.066667,
+     "normalized": 0.083333
+    },
+    {
+     "name": "hit_begin",
+     "frame": 8,
+     "time": 0.266667,
+     "normalized": 0.333333
+    },
+    {
+     "name": "hit_end",
+     "frame": 12,
+     "time": 0.4,
+     "normalized": 0.5
+    },
+    {
+     "name": "combo_window",
+     "frame": 13,
+     "time": 0.433333,
+     "normalized": 0.541667
+    },
+    {
+     "name": "recovery",
+     "frame": 16,
+     "time": 0.533333,
+     "normalized": 0.666667
+    }
+   ],
+   "entry_states": [
+    "idle",
+    "locomotion"
+   ],
+   "exit_states": [
+    "melee_2",
+    "idle",
+    "locomotion"
+   ],
+   "source_keys": "sparse",
+   "qa": {
+    "slide_max_cm_s": 0.08,
+    "min_sole_height_cm": 0.0,
+    "body_clear_cm": 5.3
+   }
+  },
+  {
+   "id": "melee_2",
+   "form": "one_shot",
+   "root_movement": "in_place",
+   "source_action": "melee_2",
+   "baked_action": "BAKED_melee_2",
+   "export_file": "export/animations/melee_2.fbx",
+   "take": "melee_2",
+   "unreal_asset": "/Game/Operative/Animations/melee_2.melee_2",
+   "frame_start": 0,
+   "frame_end": 24,
+   "sample_count": 25,
+   "sample_rate": 30,
+   "duration": 0.8,
+   "loop": false,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "fullbody",
+   "events": [
+    {
+     "name": "hit_begin",
+     "frame": 8,
+     "time": 0.266667,
+     "normalized": 0.333333
+    },
+    {
+     "name": "hit_end",
+     "frame": 12,
+     "time": 0.4,
+     "normalized": 0.5
+    },
+    {
+     "name": "combo_window",
+     "frame": 13,
+     "time": 0.433333,
+     "normalized": 0.541667
+    },
+    {
+     "name": "recovery",
+     "frame": 16,
+     "time": 0.533333,
+     "normalized": 0.666667
+    }
+   ],
+   "entry_states": [
+    "melee_1",
+    "idle",
+    "locomotion"
+   ],
+   "exit_states": [
+    "melee_3",
+    "idle",
+    "locomotion"
+   ],
+   "source_keys": "sparse",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": -0.0,
+    "body_clear_cm": 5.3
+   }
+  },
+  {
+   "id": "melee_3",
+   "form": "one_shot",
+   "root_movement": "in_place",
+   "source_action": "melee_3",
+   "baked_action": "BAKED_melee_3",
+   "export_file": "export/animations/melee_3.fbx",
+   "take": "melee_3",
+   "unreal_asset": "/Game/Operative/Animations/melee_3.melee_3",
+   "frame_start": 0,
+   "frame_end": 33,
+   "sample_count": 34,
+   "sample_rate": 30,
+   "duration": 1.1,
+   "loop": false,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "fullbody",
+   "events": [
+    {
+     "name": "hit_begin",
+     "frame": 12,
+     "time": 0.4,
+     "normalized": 0.363636
+    },
+    {
+     "name": "foot_r_contact",
+     "frame": 14,
+     "time": 0.466667,
+     "normalized": 0.424242
+    },
+    {
+     "name": "hit_end",
+     "frame": 17,
+     "time": 0.566667,
+     "normalized": 0.515152
+    },
+    {
+     "name": "recovery",
+     "frame": 22,
+     "time": 0.733333,
+     "normalized": 0.666667
+    },
+    {
+     "name": "blade_retract",
+     "frame": 27,
+     "time": 0.9,
+     "normalized": 0.818182
+    },
+    {
+     "name": "foot_r_contact",
+     "frame": 31,
+     "time": 1.033333,
+     "normalized": 0.939394
+    }
+   ],
+   "entry_states": [
+    "melee_2",
+    "idle",
+    "locomotion"
+   ],
+   "exit_states": [
+    "idle",
+    "locomotion"
+   ],
+   "source_keys": "sparse",
+   "qa": {
+    "slide_max_cm_s": 170.36,
+    "min_sole_height_cm": -0.1,
+    "body_clear_cm": 5.3
+   }
+  },
+  {
+   "id": "ranged_fire",
+   "form": "one_shot",
+   "root_movement": "in_place",
+   "source_action": "ranged_fire",
+   "baked_action": "BAKED_ranged_fire",
+   "export_file": "export/animations/ranged_fire.fbx",
+   "take": "ranged_fire",
+   "unreal_asset": "/Game/Operative/Animations/ranged_fire.ranged_fire",
+   "frame_start": 0,
+   "frame_end": 10,
+   "sample_count": 11,
+   "sample_rate": 30,
+   "duration": 0.333333,
+   "loop": false,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "upperbody",
+   "events": [
+    {
+     "name": "muzzle_1",
+     "frame": 2,
+     "time": 0.066667,
+     "normalized": 0.2
+    },
+    {
+     "name": "recovery",
+     "frame": 5,
+     "time": 0.166667,
+     "normalized": 0.5
+    }
+   ],
+   "entry_states": [
+    "idle",
+    "locomotion"
+   ],
+   "exit_states": [
+    "idle",
+    "locomotion"
+   ],
+   "source_keys": "sparse",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": 0.0,
+    "body_clear_cm": 5.3
+   }
+  },
+  {
+   "id": "ranged_burst",
+   "form": "one_shot",
+   "root_movement": "in_place",
+   "source_action": "ranged_burst",
+   "baked_action": "BAKED_ranged_burst",
+   "export_file": "export/animations/ranged_burst.fbx",
+   "take": "ranged_burst",
+   "unreal_asset": "/Game/Operative/Animations/ranged_burst.ranged_burst",
+   "frame_start": 0,
+   "frame_end": 18,
+   "sample_count": 19,
+   "sample_rate": 30,
+   "duration": 0.6,
+   "loop": false,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "upperbody",
+   "events": [
+    {
+     "name": "muzzle_1",
+     "frame": 2,
+     "time": 0.066667,
+     "normalized": 0.111111
+    },
+    {
+     "name": "muzzle_2",
+     "frame": 6,
+     "time": 0.2,
+     "normalized": 0.333333
+    },
+    {
+     "name": "muzzle_3",
+     "frame": 10,
+     "time": 0.333333,
+     "normalized": 0.555556
+    },
+    {
+     "name": "recovery",
+     "frame": 13,
+     "time": 0.433333,
+     "normalized": 0.722222
+    }
+   ],
+   "entry_states": [
+    "idle",
+    "locomotion"
+   ],
+   "exit_states": [
+    "idle",
+    "locomotion"
+   ],
+   "source_keys": "sparse",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": 0.0,
+    "body_clear_cm": 5.3
+   }
+  },
+  {
+   "id": "reload",
+   "form": "one_shot",
+   "root_movement": "in_place",
+   "source_action": "reload",
+   "baked_action": "BAKED_reload",
+   "export_file": "export/animations/reload.fbx",
+   "take": "reload",
+   "unreal_asset": "/Game/Operative/Animations/reload.reload",
+   "frame_start": 0,
+   "frame_end": 60,
+   "sample_count": 61,
+   "sample_rate": 30,
+   "duration": 2.0,
+   "loop": false,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "upperbody",
+   "events": [
+    {
+     "name": "reload_eject",
+     "frame": 14,
+     "time": 0.466667,
+     "normalized": 0.233333
+    },
+    {
+     "name": "reload_stow",
+     "frame": 26,
+     "time": 0.866667,
+     "normalized": 0.433333
+    },
+    {
+     "name": "reload_grab_new",
+     "frame": 31,
+     "time": 1.033333,
+     "normalized": 0.516667
+    },
+    {
+     "name": "reload_insert",
+     "frame": 45,
+     "time": 1.5,
+     "normalized": 0.75
+    },
+    {
+     "name": "reload_done",
+     "frame": 50,
+     "time": 1.666667,
+     "normalized": 0.833333
+    }
+   ],
+   "entry_states": [
+    "idle",
+    "locomotion"
+   ],
+   "exit_states": [
+    "idle",
+    "locomotion"
+   ],
+   "prop_tracks": [
+    {
+     "prop": "prop_cell",
+     "holder": "hand_l",
+     "frame_start": 14,
+     "frame_end": 26
+    },
+    {
+     "prop": "prop_cell",
+     "holder": "pelvis",
+     "frame_start": 27,
+     "frame_end": 60,
+     "note": "stowed in the rear belt cradle (socket cell_cradle_rear)"
+    },
+    {
+     "prop": "prop_cell_spare",
+     "holder": "hand_l",
+     "frame_start": 31,
+     "frame_end": 45
+    },
+    {
+     "prop": "prop_cell_spare",
+     "holder": "lowerarm_r",
+     "frame_start": 46,
+     "frame_end": 60,
+     "note": "seated in the emitter (socket cell_slot)"
+    }
+   ],
+   "prop_swap": "after the clip prop_cell_spare sits in the emitter and prop_cell in the rear belt cradle; both snap to their rest mounts when the clip ends (identical cells, no visible change in the emitter)",
+   "source_keys": "sparse",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": 0.0,
+    "body_clear_cm": 5.3
+   }
+  },
+  {
+   "id": "cast_directional",
+   "form": "one_shot",
+   "root_movement": "in_place",
+   "source_action": "cast_directional",
+   "baked_action": "BAKED_cast_directional",
+   "export_file": "export/animations/cast_directional.fbx",
+   "take": "cast_directional",
+   "unreal_asset": "/Game/Operative/Animations/cast_directional.cast_directional",
+   "frame_start": 0,
+   "frame_end": 24,
+   "sample_count": 25,
+   "sample_rate": 30,
+   "duration": 0.8,
+   "loop": false,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "upperbody",
+   "events": [
+    {
+     "name": "cast_release",
+     "frame": 11,
+     "time": 0.366667,
+     "normalized": 0.458333
+    },
+    {
+     "name": "recovery",
+     "frame": 16,
+     "time": 0.533333,
+     "normalized": 0.666667
+    }
+   ],
+   "entry_states": [
+    "idle",
+    "locomotion"
+   ],
+   "exit_states": [
+    "idle",
+    "locomotion"
+   ],
+   "source_keys": "sparse",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": 0.0,
+    "body_clear_cm": 5.3
+   }
+  },
+  {
+   "id": "cast_ground",
+   "form": "one_shot",
+   "root_movement": "in_place",
+   "source_action": "cast_ground",
+   "baked_action": "BAKED_cast_ground",
+   "export_file": "export/animations/cast_ground.fbx",
+   "take": "cast_ground",
+   "unreal_asset": "/Game/Operative/Animations/cast_ground.cast_ground",
+   "frame_start": 0,
+   "frame_end": 36,
+   "sample_count": 37,
+   "sample_rate": 30,
+   "duration": 1.2,
+   "loop": false,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "fullbody",
+   "events": [
+    {
+     "name": "cast_release",
+     "frame": 18,
+     "time": 0.6,
+     "normalized": 0.5
+    },
+    {
+     "name": "recovery",
+     "frame": 26,
+     "time": 0.866667,
+     "normalized": 0.722222
+    },
+    {
+     "name": "foot_r_contact",
+     "frame": 34,
+     "time": 1.133333,
+     "normalized": 0.944444
+    }
+   ],
+   "entry_states": [
+    "idle",
+    "locomotion"
+   ],
+   "exit_states": [
+    "idle",
+    "locomotion"
+   ],
+   "floor_contact": true,
+   "source_keys": "dense",
+   "qa": {
+    "slide_max_cm_s": 103.43,
+    "min_sole_height_cm": 0.0,
+    "body_clear_cm": 1.2
+   }
+  },
+  {
+   "id": "cast_self",
+   "form": "one_shot",
+   "root_movement": "in_place",
+   "source_action": "cast_self",
+   "baked_action": "BAKED_cast_self",
+   "export_file": "export/animations/cast_self.fbx",
+   "take": "cast_self",
+   "unreal_asset": "/Game/Operative/Animations/cast_self.cast_self",
+   "frame_start": 0,
+   "frame_end": 30,
+   "sample_count": 31,
+   "sample_rate": 30,
+   "duration": 1.0,
+   "loop": false,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "fullbody",
+   "events": [
+    {
+     "name": "cast_release",
+     "frame": 13,
+     "time": 0.433333,
+     "normalized": 0.433333
+    },
+    {
+     "name": "recovery",
+     "frame": 21,
+     "time": 0.7,
+     "normalized": 0.7
+    }
+   ],
+   "entry_states": [
+    "idle",
+    "locomotion"
+   ],
+   "exit_states": [
+    "idle",
+    "locomotion"
+   ],
+   "source_keys": "sparse",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": 0.0,
+    "body_clear_cm": 5.3
+   }
+  },
+  {
+   "id": "channel_start",
+   "form": "one_shot",
+   "root_movement": "in_place",
+   "source_action": "channel_start",
+   "baked_action": "BAKED_channel_start",
+   "export_file": "export/animations/channel_start.fbx",
+   "take": "channel_start",
+   "unreal_asset": "/Game/Operative/Animations/channel_start.channel_start",
+   "frame_start": 0,
+   "frame_end": 12,
+   "sample_count": 13,
+   "sample_rate": 30,
+   "duration": 0.4,
+   "loop": false,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "fullbody",
+   "events": [
+    {
+     "name": "channel_begin",
+     "frame": 10,
+     "time": 0.333333,
+     "normalized": 0.833333
+    }
+   ],
+   "entry_states": [
+    "idle",
+    "locomotion"
+   ],
+   "exit_states": [
+    "channel_loop",
+    "channel_interrupt",
+    "channel_end"
+   ],
+   "source_keys": "sparse",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": 0.0,
+    "body_clear_cm": 5.3
+   }
+  },
+  {
+   "id": "channel_loop",
+   "form": "loop",
+   "root_movement": "in_place",
+   "source_action": "channel_loop",
+   "baked_action": "BAKED_channel_loop",
+   "export_file": "export/animations/channel_loop.fbx",
+   "take": "channel_loop",
+   "unreal_asset": "/Game/Operative/Animations/channel_loop.channel_loop",
+   "frame_start": 0,
+   "frame_end": 40,
+   "sample_count": 41,
+   "sample_rate": 30,
+   "duration": 1.333333,
+   "loop": true,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "fullbody",
+   "events": [
+    {
+     "name": "channel_tick",
+     "frame": 0,
+     "time": 0.0,
+     "normalized": 0.0
+    },
+    {
+     "name": "channel_tick",
+     "frame": 20,
+     "time": 0.666667,
+     "normalized": 0.5
+    }
+   ],
+   "entry_states": [
+    "channel_start"
+   ],
+   "exit_states": [
+    "channel_end",
+    "channel_interrupt"
+   ],
+   "source_keys": "sparse",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": 0.0,
+    "body_clear_cm": 5.3,
+    "loop_error": 0.0
+   }
+  },
+  {
+   "id": "channel_end",
+   "form": "one_shot",
+   "root_movement": "in_place",
+   "source_action": "channel_end",
+   "baked_action": "BAKED_channel_end",
+   "export_file": "export/animations/channel_end.fbx",
+   "take": "channel_end",
+   "unreal_asset": "/Game/Operative/Animations/channel_end.channel_end",
+   "frame_start": 0,
+   "frame_end": 15,
+   "sample_count": 16,
+   "sample_rate": 30,
+   "duration": 0.5,
+   "loop": false,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "fullbody",
+   "events": [
+    {
+     "name": "channel_complete",
+     "frame": 3,
+     "time": 0.1,
+     "normalized": 0.2
+    }
+   ],
+   "entry_states": [
+    "channel_loop",
+    "channel_start"
+   ],
+   "exit_states": [
+    "idle",
+    "locomotion"
+   ],
+   "source_keys": "sparse",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": 0.0,
+    "body_clear_cm": 5.3
+   }
+  },
+  {
+   "id": "channel_interrupt",
+   "form": "one_shot",
+   "root_movement": "in_place",
+   "source_action": "channel_interrupt",
+   "baked_action": "BAKED_channel_interrupt",
+   "export_file": "export/animations/channel_interrupt.fbx",
+   "take": "channel_interrupt",
+   "unreal_asset": "/Game/Operative/Animations/channel_interrupt.channel_interrupt",
+   "frame_start": 0,
+   "frame_end": 12,
+   "sample_count": 13,
+   "sample_rate": 30,
+   "duration": 0.4,
+   "loop": false,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "fullbody",
+   "events": [
+    {
+     "name": "channel_interrupted",
+     "frame": 0,
+     "time": 0.0,
+     "normalized": 0.0
+    }
+   ],
+   "entry_states": [
+    "channel_loop",
+    "channel_start"
+   ],
+   "exit_states": [
+    "idle",
+    "locomotion"
+   ],
+   "source_keys": "sparse",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": 0.0,
+    "body_clear_cm": 5.3
+   }
+  },
+  {
+   "id": "charge_start",
+   "form": "one_shot",
+   "root_movement": "in_place",
+   "source_action": "charge_start",
+   "baked_action": "BAKED_charge_start",
+   "export_file": "export/animations/charge_start.fbx",
+   "take": "charge_start",
+   "unreal_asset": "/Game/Operative/Animations/charge_start.charge_start",
+   "frame_start": 0,
+   "frame_end": 18,
+   "sample_count": 19,
+   "sample_rate": 30,
+   "duration": 0.6,
+   "loop": false,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "upperbody",
+   "events": [
+    {
+     "name": "charge_begin",
+     "frame": 3,
+     "time": 0.1,
+     "normalized": 0.166667
+    },
+    {
+     "name": "charge_ready",
+     "frame": 17,
+     "time": 0.566667,
+     "normalized": 0.944444
+    }
+   ],
+   "entry_states": [
+    "idle",
+    "locomotion"
+   ],
+   "exit_states": [
+    "charge_hold",
+    "charge_release",
+    "charge_cancel"
+   ],
+   "source_keys": "sparse",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": 0.0,
+    "body_clear_cm": 5.3
+   }
+  },
+  {
+   "id": "charge_hold",
+   "form": "loop",
+   "root_movement": "in_place",
+   "source_action": "charge_hold",
+   "baked_action": "BAKED_charge_hold",
+   "export_file": "export/animations/charge_hold.fbx",
+   "take": "charge_hold",
+   "unreal_asset": "/Game/Operative/Animations/charge_hold.charge_hold",
+   "frame_start": 0,
+   "frame_end": 30,
+   "sample_count": 31,
+   "sample_rate": 30,
+   "duration": 1.0,
+   "loop": true,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "upperbody",
+   "events": [
+    {
+     "name": "charge_pulse",
+     "frame": 0,
+     "time": 0.0,
+     "normalized": 0.0
+    }
+   ],
+   "entry_states": [
+    "charge_start"
+   ],
+   "exit_states": [
+    "charge_release",
+    "charge_cancel"
+   ],
+   "source_keys": "sparse",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": 0.0,
+    "body_clear_cm": 5.3,
+    "loop_error": 0.0
+   }
+  },
+  {
+   "id": "charge_release",
+   "form": "one_shot",
+   "root_movement": "in_place",
+   "source_action": "charge_release",
+   "baked_action": "BAKED_charge_release",
+   "export_file": "export/animations/charge_release.fbx",
+   "take": "charge_release",
+   "unreal_asset": "/Game/Operative/Animations/charge_release.charge_release",
+   "frame_start": 0,
+   "frame_end": 20,
+   "sample_count": 21,
+   "sample_rate": 30,
+   "duration": 0.666667,
+   "loop": false,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "upperbody",
+   "events": [
+    {
+     "name": "charge_released",
+     "frame": 4,
+     "time": 0.133333,
+     "normalized": 0.2
+    },
+    {
+     "name": "recovery",
+     "frame": 12,
+     "time": 0.4,
+     "normalized": 0.6
+    }
+   ],
+   "entry_states": [
+    "charge_hold",
+    "charge_start"
+   ],
+   "exit_states": [
+    "idle",
+    "locomotion"
+   ],
+   "source_keys": "sparse",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": -0.0,
+    "body_clear_cm": 5.3
+   }
+  },
+  {
+   "id": "charge_cancel",
+   "form": "one_shot",
+   "root_movement": "in_place",
+   "source_action": "charge_cancel",
+   "baked_action": "BAKED_charge_cancel",
+   "export_file": "export/animations/charge_cancel.fbx",
+   "take": "charge_cancel",
+   "unreal_asset": "/Game/Operative/Animations/charge_cancel.charge_cancel",
+   "frame_start": 0,
+   "frame_end": 14,
+   "sample_count": 15,
+   "sample_rate": 30,
+   "duration": 0.466667,
+   "loop": false,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "upperbody",
+   "events": [
+    {
+     "name": "charge_cancelled",
+     "frame": 2,
+     "time": 0.066667,
+     "normalized": 0.142857
+    }
+   ],
+   "entry_states": [
+    "charge_hold",
+    "charge_start"
+   ],
+   "exit_states": [
+    "idle",
+    "locomotion"
+   ],
+   "source_keys": "sparse",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": 0.0,
+    "body_clear_cm": 5.3
+   }
+  },
+  {
+   "id": "deploy",
+   "form": "one_shot",
+   "root_movement": "in_place",
+   "source_action": "deploy",
+   "baked_action": "BAKED_deploy",
+   "export_file": "export/animations/deploy.fbx",
+   "take": "deploy",
+   "unreal_asset": "/Game/Operative/Animations/deploy.deploy",
+   "frame_start": 0,
+   "frame_end": 45,
+   "sample_count": 46,
+   "sample_rate": 30,
+   "duration": 1.5,
+   "loop": false,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "fullbody",
+   "events": [
+    {
+     "name": "deploy_grab",
+     "frame": 9,
+     "time": 0.3,
+     "normalized": 0.2
+    },
+    {
+     "name": "deploy_release",
+     "frame": 27,
+     "time": 0.9,
+     "normalized": 0.6
+    },
+    {
+     "name": "recovery",
+     "frame": 34,
+     "time": 1.133333,
+     "normalized": 0.755556
+    }
+   ],
+   "entry_states": [
+    "idle",
+    "locomotion"
+   ],
+   "exit_states": [
+    "idle",
+    "locomotion"
+   ],
+   "prop_tracks": [
+    {
+     "prop": "prop_beacon",
+     "holder": "hand_r",
+     "frame_start": 9,
+     "frame_end": 27
+    },
+    {
+     "prop": "prop_beacon",
+     "holder": "world",
+     "frame_start": 28,
+     "frame_end": 45,
+     "note": "left on the ground (root space)"
+    }
+   ],
+   "floor_contact": true,
+   "source_keys": "dense",
+   "qa": {
+    "slide_max_cm_s": 92.48,
+    "min_sole_height_cm": 0.0,
+    "body_clear_cm": 1.2
+   }
+  },
+  {
+   "id": "uplink_start",
+   "form": "one_shot",
+   "root_movement": "in_place",
+   "source_action": "uplink_start",
+   "baked_action": "BAKED_uplink_start",
+   "export_file": "export/animations/uplink_start.fbx",
+   "take": "uplink_start",
+   "unreal_asset": "/Game/Operative/Animations/uplink_start.uplink_start",
+   "frame_start": 0,
+   "frame_end": 20,
+   "sample_count": 21,
+   "sample_rate": 30,
+   "duration": 0.666667,
+   "loop": false,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "fullbody",
+   "events": [
+    {
+     "name": "foot_r_contact",
+     "frame": 8,
+     "time": 0.266667,
+     "normalized": 0.4
+    },
+    {
+     "name": "foot_l_contact",
+     "frame": 13,
+     "time": 0.433333,
+     "normalized": 0.65
+    },
+    {
+     "name": "uplink_begin",
+     "frame": 16,
+     "time": 0.533333,
+     "normalized": 0.8
+    }
+   ],
+   "entry_states": [
+    "idle",
+    "locomotion"
+   ],
+   "exit_states": [
+    "uplink_loop",
+    "uplink_cancel"
+   ],
+   "source_keys": "sparse",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": -0.0,
+    "body_clear_cm": 5.3
+   }
+  },
+  {
+   "id": "uplink_loop",
+   "form": "loop",
+   "root_movement": "in_place",
+   "source_action": "uplink_loop",
+   "baked_action": "BAKED_uplink_loop",
+   "export_file": "export/animations/uplink_loop.fbx",
+   "take": "uplink_loop",
+   "unreal_asset": "/Game/Operative/Animations/uplink_loop.uplink_loop",
+   "frame_start": 0,
+   "frame_end": 45,
+   "sample_count": 46,
+   "sample_rate": 30,
+   "duration": 1.5,
+   "loop": true,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "fullbody",
+   "events": [
+    {
+     "name": "uplink_pulse",
+     "frame": 0,
+     "time": 0.0,
+     "normalized": 0.0
+    }
+   ],
+   "entry_states": [
+    "uplink_start"
+   ],
+   "exit_states": [
+    "uplink_end",
+    "uplink_cancel"
+   ],
+   "source_keys": "sparse",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": 0.0,
+    "body_clear_cm": 5.3,
+    "loop_error": 0.0
+   }
+  },
+  {
+   "id": "uplink_end",
+   "form": "one_shot",
+   "root_movement": "in_place",
+   "source_action": "uplink_end",
+   "baked_action": "BAKED_uplink_end",
+   "export_file": "export/animations/uplink_end.fbx",
+   "take": "uplink_end",
+   "unreal_asset": "/Game/Operative/Animations/uplink_end.uplink_end",
+   "frame_start": 0,
+   "frame_end": 16,
+   "sample_count": 17,
+   "sample_rate": 30,
+   "duration": 0.533333,
+   "loop": false,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "fullbody",
+   "events": [
+    {
+     "name": "uplink_complete",
+     "frame": 5,
+     "time": 0.166667,
+     "normalized": 0.3125
+    }
+   ],
+   "entry_states": [
+    "uplink_loop"
+   ],
+   "exit_states": [
+    "blink_out",
+    "idle"
+   ],
+   "source_keys": "sparse",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": 0.0,
+    "body_clear_cm": 5.3
+   }
+  },
+  {
+   "id": "uplink_cancel",
+   "form": "one_shot",
+   "root_movement": "in_place",
+   "source_action": "uplink_cancel",
+   "baked_action": "BAKED_uplink_cancel",
+   "export_file": "export/animations/uplink_cancel.fbx",
+   "take": "uplink_cancel",
+   "unreal_asset": "/Game/Operative/Animations/uplink_cancel.uplink_cancel",
+   "frame_start": 0,
+   "frame_end": 13,
+   "sample_count": 14,
+   "sample_rate": 30,
+   "duration": 0.433333,
+   "loop": false,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "fullbody",
+   "events": [
+    {
+     "name": "uplink_cancelled",
+     "frame": 0,
+     "time": 0.0,
+     "normalized": 0.0
+    },
+    {
+     "name": "foot_r_contact",
+     "frame": 10,
+     "time": 0.333333,
+     "normalized": 0.769231
+    },
+    {
+     "name": "foot_l_contact",
+     "frame": 13,
+     "time": 0.433333,
+     "normalized": 1.0
+    }
+   ],
+   "entry_states": [
+    "uplink_loop",
+    "uplink_start"
+   ],
+   "exit_states": [
+    "idle",
+    "locomotion"
+   ],
+   "source_keys": "sparse",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": 0.0,
+    "body_clear_cm": 5.3
+   }
+  },
+  {
+   "id": "hit_f",
+   "form": "additive",
+   "root_movement": "in_place",
+   "source_action": "hit_f",
+   "baked_action": "BAKED_hit_f",
+   "export_file": "export/animations/hit_f.fbx",
+   "take": "hit_f",
+   "unreal_asset": "/Game/Operative/Animations/hit_f.hit_f",
+   "frame_start": 0,
+   "frame_end": 10,
+   "sample_count": 11,
+   "sample_rate": 30,
+   "duration": 0.333333,
+   "loop": false,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "additive",
+   "events": [
+    {
+     "name": "hit_peak",
+     "frame": 2,
+     "time": 0.066667,
+     "normalized": 0.2
+    }
+   ],
+   "entry_states": [
+    "any_alive"
+   ],
+   "exit_states": [
+    "any_alive"
+   ],
+   "additive": {
+    "space": "local",
+    "base": "frame_0"
+   },
+   "hit_from_deg": 0.0,
+   "source_keys": "sparse",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": 0.0,
+    "body_clear_cm": 5.3
+   }
+  },
+  {
+   "id": "hit_b",
+   "form": "additive",
+   "root_movement": "in_place",
+   "source_action": "hit_b",
+   "baked_action": "BAKED_hit_b",
+   "export_file": "export/animations/hit_b.fbx",
+   "take": "hit_b",
+   "unreal_asset": "/Game/Operative/Animations/hit_b.hit_b",
+   "frame_start": 0,
+   "frame_end": 10,
+   "sample_count": 11,
+   "sample_rate": 30,
+   "duration": 0.333333,
+   "loop": false,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "additive",
+   "events": [
+    {
+     "name": "hit_peak",
+     "frame": 2,
+     "time": 0.066667,
+     "normalized": 0.2
+    }
+   ],
+   "entry_states": [
+    "any_alive"
+   ],
+   "exit_states": [
+    "any_alive"
+   ],
+   "additive": {
+    "space": "local",
+    "base": "frame_0"
+   },
+   "hit_from_deg": 180.0,
+   "source_keys": "sparse",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": 0.0,
+    "body_clear_cm": 5.3
+   }
+  },
+  {
+   "id": "hit_l",
+   "form": "additive",
+   "root_movement": "in_place",
+   "source_action": "hit_l",
+   "baked_action": "BAKED_hit_l",
+   "export_file": "export/animations/hit_l.fbx",
+   "take": "hit_l",
+   "unreal_asset": "/Game/Operative/Animations/hit_l.hit_l",
+   "frame_start": 0,
+   "frame_end": 10,
+   "sample_count": 11,
+   "sample_rate": 30,
+   "duration": 0.333333,
+   "loop": false,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "additive",
+   "events": [
+    {
+     "name": "hit_peak",
+     "frame": 2,
+     "time": 0.066667,
+     "normalized": 0.2
+    }
+   ],
+   "entry_states": [
+    "any_alive"
+   ],
+   "exit_states": [
+    "any_alive"
+   ],
+   "additive": {
+    "space": "local",
+    "base": "frame_0"
+   },
+   "hit_from_deg": 90.0,
+   "source_keys": "sparse",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": 0.0,
+    "body_clear_cm": 5.3
+   }
+  },
+  {
+   "id": "hit_r",
+   "form": "additive",
+   "root_movement": "in_place",
+   "source_action": "hit_r",
+   "baked_action": "BAKED_hit_r",
+   "export_file": "export/animations/hit_r.fbx",
+   "take": "hit_r",
+   "unreal_asset": "/Game/Operative/Animations/hit_r.hit_r",
+   "frame_start": 0,
+   "frame_end": 10,
+   "sample_count": 11,
+   "sample_rate": 30,
+   "duration": 0.333333,
+   "loop": false,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "additive",
+   "events": [
+    {
+     "name": "hit_peak",
+     "frame": 2,
+     "time": 0.066667,
+     "normalized": 0.2
+    }
+   ],
+   "entry_states": [
+    "any_alive"
+   ],
+   "exit_states": [
+    "any_alive"
+   ],
+   "additive": {
+    "space": "local",
+    "base": "frame_0"
+   },
+   "hit_from_deg": -90.0,
+   "source_keys": "sparse",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": 0.0,
+    "body_clear_cm": 5.3
+   }
+  },
+  {
+   "id": "stun_start",
+   "form": "one_shot",
+   "root_movement": "in_place",
+   "source_action": "stun_start",
+   "baked_action": "BAKED_stun_start",
+   "export_file": "export/animations/stun_start.fbx",
+   "take": "stun_start",
+   "unreal_asset": "/Game/Operative/Animations/stun_start.stun_start",
+   "frame_start": 0,
+   "frame_end": 15,
+   "sample_count": 16,
+   "sample_rate": 30,
+   "duration": 0.5,
+   "loop": false,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "fullbody",
+   "events": [
+    {
+     "name": "stun_begin",
+     "frame": 0,
+     "time": 0.0,
+     "normalized": 0.0
+    },
+    {
+     "name": "foot_l_contact",
+     "frame": 8,
+     "time": 0.266667,
+     "normalized": 0.533333
+    },
+    {
+     "name": "foot_r_contact",
+     "frame": 12,
+     "time": 0.4,
+     "normalized": 0.8
+    }
+   ],
+   "entry_states": [
+    "any_alive"
+   ],
+   "exit_states": [
+    "stun_loop"
+   ],
+   "source_keys": "sparse",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": 0.0,
+    "body_clear_cm": 5.3
+   }
+  },
+  {
+   "id": "stun_loop",
+   "form": "loop",
+   "root_movement": "in_place",
+   "source_action": "stun_loop",
+   "baked_action": "BAKED_stun_loop",
+   "export_file": "export/animations/stun_loop.fbx",
+   "take": "stun_loop",
+   "unreal_asset": "/Game/Operative/Animations/stun_loop.stun_loop",
+   "frame_start": 0,
+   "frame_end": 60,
+   "sample_count": 61,
+   "sample_rate": 30,
+   "duration": 2.0,
+   "loop": true,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "fullbody",
+   "events": [],
+   "entry_states": [
+    "stun_start"
+   ],
+   "exit_states": [
+    "stun_end",
+    "death"
+   ],
+   "source_keys": "sparse",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": 0.0,
+    "body_clear_cm": 5.3,
+    "loop_error": 0.0
+   }
+  },
+  {
+   "id": "stun_end",
+   "form": "one_shot",
+   "root_movement": "in_place",
+   "source_action": "stun_end",
+   "baked_action": "BAKED_stun_end",
+   "export_file": "export/animations/stun_end.fbx",
+   "take": "stun_end",
+   "unreal_asset": "/Game/Operative/Animations/stun_end.stun_end",
+   "frame_start": 0,
+   "frame_end": 18,
+   "sample_count": 19,
+   "sample_rate": 30,
+   "duration": 0.6,
+   "loop": false,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "fullbody",
+   "events": [
+    {
+     "name": "foot_l_contact",
+     "frame": 14,
+     "time": 0.466667,
+     "normalized": 0.777778
+    },
+    {
+     "name": "control_regained",
+     "frame": 14,
+     "time": 0.466667,
+     "normalized": 0.777778
+    },
+    {
+     "name": "foot_r_contact",
+     "frame": 16,
+     "time": 0.533333,
+     "normalized": 0.888889
+    }
+   ],
+   "entry_states": [
+    "stun_loop"
+   ],
+   "exit_states": [
+    "idle",
+    "locomotion"
+   ],
+   "source_keys": "sparse",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": 0.0,
+    "body_clear_cm": 5.3
+   }
+  },
+  {
+   "id": "knockback",
+   "form": "one_shot",
+   "root_movement": "in_place",
+   "source_action": "knockback",
+   "baked_action": "BAKED_knockback",
+   "export_file": "export/animations/knockback.fbx",
+   "take": "knockback",
+   "unreal_asset": "/Game/Operative/Animations/knockback.knockback",
+   "frame_start": 0,
+   "frame_end": 24,
+   "sample_count": 25,
+   "sample_rate": 30,
+   "duration": 0.8,
+   "loop": false,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "fullbody",
+   "events": [
+    {
+     "name": "knockback_begin",
+     "frame": 0,
+     "time": 0.0,
+     "normalized": 0.0
+    },
+    {
+     "name": "foot_l_contact",
+     "frame": 14,
+     "time": 0.466667,
+     "normalized": 0.583333
+    },
+    {
+     "name": "foot_r_contact",
+     "frame": 18,
+     "time": 0.6,
+     "normalized": 0.75
+    },
+    {
+     "name": "control_regained",
+     "frame": 20,
+     "time": 0.666667,
+     "normalized": 0.833333
+    }
+   ],
+   "entry_states": [
+    "any_alive"
+   ],
+   "exit_states": [
+    "idle",
+    "locomotion"
+   ],
+   "source_keys": "sparse",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": 0.0,
+    "body_clear_cm": 5.3
+   }
+  },
+  {
+   "id": "knockup_start",
+   "form": "one_shot",
+   "root_movement": "in_place",
+   "source_action": "knockup_start",
+   "baked_action": "BAKED_knockup_start",
+   "export_file": "export/animations/knockup_start.fbx",
+   "take": "knockup_start",
+   "unreal_asset": "/Game/Operative/Animations/knockup_start.knockup_start",
+   "frame_start": 0,
+   "frame_end": 12,
+   "sample_count": 13,
+   "sample_rate": 30,
+   "duration": 0.4,
+   "loop": false,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "fullbody",
+   "events": [
+    {
+     "name": "knockup_launch",
+     "frame": 2,
+     "time": 0.066667,
+     "normalized": 0.166667
+    }
+   ],
+   "entry_states": [
+    "any_alive"
+   ],
+   "exit_states": [
+    "knockup_air"
+   ],
+   "source_keys": "sparse",
+   "qa": {
+    "slide_max_cm_s": 29.17,
+    "min_sole_height_cm": -0.0,
+    "body_clear_cm": 5.3
+   }
+  },
+  {
+   "id": "knockup_air",
+   "form": "loop",
+   "root_movement": "in_place",
+   "source_action": "knockup_air",
+   "baked_action": "BAKED_knockup_air",
+   "export_file": "export/animations/knockup_air.fbx",
+   "take": "knockup_air",
+   "unreal_asset": "/Game/Operative/Animations/knockup_air.knockup_air",
+   "frame_start": 0,
+   "frame_end": 30,
+   "sample_count": 31,
+   "sample_rate": 30,
+   "duration": 1.0,
+   "loop": true,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "fullbody",
+   "events": [],
+   "entry_states": [
+    "knockup_start"
+   ],
+   "exit_states": [
+    "knockdown_back",
+    "knockdown_front",
+    "land_heavy"
+   ],
+   "source_keys": "sparse",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": 8.32,
+    "body_clear_cm": 25.5,
+    "loop_error": 0.0
+   }
+  },
+  {
+   "id": "knockdown_front",
+   "form": "one_shot",
+   "root_movement": "in_place",
+   "source_action": "knockdown_front",
+   "baked_action": "BAKED_knockdown_front",
+   "export_file": "export/animations/knockdown_front.fbx",
+   "take": "knockdown_front",
+   "unreal_asset": "/Game/Operative/Animations/knockdown_front.knockdown_front",
+   "frame_start": 0,
+   "frame_end": 36,
+   "sample_count": 37,
+   "sample_rate": 30,
+   "duration": 1.2,
+   "loop": false,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "fullbody",
+   "events": [
+    {
+     "name": "ground_impact",
+     "frame": 20,
+     "time": 0.666667,
+     "normalized": 0.555556
+    },
+    {
+     "name": "settled",
+     "frame": 32,
+     "time": 1.066667,
+     "normalized": 0.888889
+    }
+   ],
+   "entry_states": [
+    "any_alive",
+    "knockup_air"
+   ],
+   "exit_states": [
+    "prone_front"
+   ],
+   "floor_contact": true,
+   "source_keys": "dense",
+   "qa": {
+    "slide_max_cm_s": 429.47,
+    "min_sole_height_cm": -0.0,
+    "body_clear_cm": 0.2
+   }
+  },
+  {
+   "id": "knockdown_back",
+   "form": "one_shot",
+   "root_movement": "in_place",
+   "source_action": "knockdown_back",
+   "baked_action": "BAKED_knockdown_back",
+   "export_file": "export/animations/knockdown_back.fbx",
+   "take": "knockdown_back",
+   "unreal_asset": "/Game/Operative/Animations/knockdown_back.knockdown_back",
+   "frame_start": 0,
+   "frame_end": 36,
+   "sample_count": 37,
+   "sample_rate": 30,
+   "duration": 1.2,
+   "loop": false,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "fullbody",
+   "events": [
+    {
+     "name": "ground_impact",
+     "frame": 20,
+     "time": 0.666667,
+     "normalized": 0.555556
+    },
+    {
+     "name": "settled",
+     "frame": 32,
+     "time": 1.066667,
+     "normalized": 0.888889
+    }
+   ],
+   "entry_states": [
+    "any_alive",
+    "knockup_air"
+   ],
+   "exit_states": [
+    "prone_back"
+   ],
+   "floor_contact": true,
+   "source_keys": "dense",
+   "qa": {
+    "slide_max_cm_s": 97.42,
+    "min_sole_height_cm": 0.0,
+    "body_clear_cm": 1.0
+   }
+  },
+  {
+   "id": "prone_front",
+   "form": "loop",
+   "root_movement": "in_place",
+   "source_action": "prone_front",
+   "baked_action": "BAKED_prone_front",
+   "export_file": "export/animations/prone_front.fbx",
+   "take": "prone_front",
+   "unreal_asset": "/Game/Operative/Animations/prone_front.prone_front",
+   "frame_start": 0,
+   "frame_end": 75,
+   "sample_count": 76,
+   "sample_rate": 30,
+   "duration": 2.5,
+   "loop": true,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "fullbody",
+   "events": [],
+   "entry_states": [
+    "knockdown_front"
+   ],
+   "exit_states": [
+    "getup_front",
+    "death"
+   ],
+   "floor_contact": true,
+   "source_keys": "dense",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": 12.25,
+    "body_clear_cm": 0.3,
+    "loop_error": 0.0
+   }
+  },
+  {
+   "id": "prone_back",
+   "form": "loop",
+   "root_movement": "in_place",
+   "source_action": "prone_back",
+   "baked_action": "BAKED_prone_back",
+   "export_file": "export/animations/prone_back.fbx",
+   "take": "prone_back",
+   "unreal_asset": "/Game/Operative/Animations/prone_back.prone_back",
+   "frame_start": 0,
+   "frame_end": 75,
+   "sample_count": 76,
+   "sample_rate": 30,
+   "duration": 2.5,
+   "loop": true,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "fullbody",
+   "events": [],
+   "entry_states": [
+    "knockdown_back"
+   ],
+   "exit_states": [
+    "getup_back",
+    "death"
+   ],
+   "floor_contact": true,
+   "source_keys": "dense",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": 0.0,
+    "body_clear_cm": 1.8,
+    "loop_error": 0.0
+   }
+  },
+  {
+   "id": "getup_front",
+   "form": "one_shot",
+   "root_movement": "in_place",
+   "source_action": "getup_front",
+   "baked_action": "BAKED_getup_front",
+   "export_file": "export/animations/getup_front.fbx",
+   "take": "getup_front",
+   "unreal_asset": "/Game/Operative/Animations/getup_front.getup_front",
+   "frame_start": 0,
+   "frame_end": 54,
+   "sample_count": 55,
+   "sample_rate": 30,
+   "duration": 1.8,
+   "loop": false,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "fullbody",
+   "events": [
+    {
+     "name": "hand_plant",
+     "frame": 10,
+     "time": 0.333333,
+     "normalized": 0.185185
+    },
+    {
+     "name": "foot_r_contact",
+     "frame": 30,
+     "time": 1.0,
+     "normalized": 0.555556
+    },
+    {
+     "name": "foot_l_contact",
+     "frame": 42,
+     "time": 1.4,
+     "normalized": 0.777778
+    },
+    {
+     "name": "control_regained",
+     "frame": 48,
+     "time": 1.6,
+     "normalized": 0.888889
+    },
+    {
+     "name": "foot_r_contact",
+     "frame": 49,
+     "time": 1.633333,
+     "normalized": 0.907407
+    }
+   ],
+   "entry_states": [
+    "prone_front"
+   ],
+   "exit_states": [
+    "idle",
+    "locomotion"
+   ],
+   "floor_contact": true,
+   "source_keys": "dense",
+   "qa": {
+    "slide_max_cm_s": 297.59,
+    "min_sole_height_cm": -0.0,
+    "body_clear_cm": 0.2
+   }
+  },
+  {
+   "id": "getup_back",
+   "form": "one_shot",
+   "root_movement": "in_place",
+   "source_action": "getup_back",
+   "baked_action": "BAKED_getup_back",
+   "export_file": "export/animations/getup_back.fbx",
+   "take": "getup_back",
+   "unreal_asset": "/Game/Operative/Animations/getup_back.getup_back",
+   "frame_start": 0,
+   "frame_end": 60,
+   "sample_count": 61,
+   "sample_rate": 30,
+   "duration": 2.0,
+   "loop": false,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "fullbody",
+   "events": [
+    {
+     "name": "hand_plant",
+     "frame": 12,
+     "time": 0.4,
+     "normalized": 0.2
+    },
+    {
+     "name": "foot_l_contact",
+     "frame": 34,
+     "time": 1.133333,
+     "normalized": 0.566667
+    },
+    {
+     "name": "foot_r_contact",
+     "frame": 34,
+     "time": 1.133333,
+     "normalized": 0.566667
+    },
+    {
+     "name": "foot_r_contact",
+     "frame": 51,
+     "time": 1.7,
+     "normalized": 0.85
+    },
+    {
+     "name": "control_regained",
+     "frame": 54,
+     "time": 1.8,
+     "normalized": 0.9
+    },
+    {
+     "name": "foot_l_contact",
+     "frame": 57,
+     "time": 1.9,
+     "normalized": 0.95
+    }
+   ],
+   "entry_states": [
+    "prone_back"
+   ],
+   "exit_states": [
+    "idle",
+    "locomotion"
+   ],
+   "floor_contact": true,
+   "source_keys": "dense",
+   "qa": {
+    "slide_max_cm_s": 177.55,
+    "min_sole_height_cm": -0.0,
+    "body_clear_cm": 1.4
+   }
+  },
+  {
+   "id": "sleep_start",
+   "form": "one_shot",
+   "root_movement": "in_place",
+   "source_action": "sleep_start",
+   "baked_action": "BAKED_sleep_start",
+   "export_file": "export/animations/sleep_start.fbx",
+   "take": "sleep_start",
+   "unreal_asset": "/Game/Operative/Animations/sleep_start.sleep_start",
+   "frame_start": 0,
+   "frame_end": 45,
+   "sample_count": 46,
+   "sample_rate": 30,
+   "duration": 1.5,
+   "loop": false,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "fullbody",
+   "events": [
+    {
+     "name": "sleep_begin",
+     "frame": 0,
+     "time": 0.0,
+     "normalized": 0.0
+    },
+    {
+     "name": "settled",
+     "frame": 40,
+     "time": 1.333333,
+     "normalized": 0.888889
+    }
+   ],
+   "entry_states": [
+    "any_alive"
+   ],
+   "exit_states": [
+    "sleep_loop"
+   ],
+   "floor_contact": true,
+   "source_keys": "dense",
+   "qa": {
+    "slide_max_cm_s": 130.71,
+    "min_sole_height_cm": 0.0,
+    "body_clear_cm": 0.3
+   }
+  },
+  {
+   "id": "sleep_loop",
+   "form": "loop",
+   "root_movement": "in_place",
+   "source_action": "sleep_loop",
+   "baked_action": "BAKED_sleep_loop",
+   "export_file": "export/animations/sleep_loop.fbx",
+   "take": "sleep_loop",
+   "unreal_asset": "/Game/Operative/Animations/sleep_loop.sleep_loop",
+   "frame_start": 0,
+   "frame_end": 90,
+   "sample_count": 91,
+   "sample_rate": 30,
+   "duration": 3.0,
+   "loop": true,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "fullbody",
+   "events": [],
+   "entry_states": [
+    "sleep_start"
+   ],
+   "exit_states": [
+    "sleep_end",
+    "death"
+   ],
+   "floor_contact": true,
+   "source_keys": "dense",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": 0.0,
+    "body_clear_cm": 1.2,
+    "loop_error": 0.0
+   }
+  },
+  {
+   "id": "sleep_end",
+   "form": "one_shot",
+   "root_movement": "in_place",
+   "source_action": "sleep_end",
+   "baked_action": "BAKED_sleep_end",
+   "export_file": "export/animations/sleep_end.fbx",
+   "take": "sleep_end",
+   "unreal_asset": "/Game/Operative/Animations/sleep_end.sleep_end",
+   "frame_start": 0,
+   "frame_end": 36,
+   "sample_count": 37,
+   "sample_rate": 30,
+   "duration": 1.2,
+   "loop": false,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "fullbody",
+   "events": [
+    {
+     "name": "foot_l_contact",
+     "frame": 21,
+     "time": 0.7,
+     "normalized": 0.583333
+    },
+    {
+     "name": "foot_r_contact",
+     "frame": 30,
+     "time": 1.0,
+     "normalized": 0.833333
+    },
+    {
+     "name": "control_regained",
+     "frame": 30,
+     "time": 1.0,
+     "normalized": 0.833333
+    }
+   ],
+   "entry_states": [
+    "sleep_loop"
+   ],
+   "exit_states": [
+    "idle",
+    "locomotion"
+   ],
+   "floor_contact": true,
+   "source_keys": "dense",
+   "qa": {
+    "slide_max_cm_s": 194.86,
+    "min_sole_height_cm": 0.0,
+    "body_clear_cm": 1.0
+   }
+  },
+  {
+   "id": "death_front",
+   "form": "one_shot",
+   "root_movement": "in_place",
+   "source_action": "death_front",
+   "baked_action": "BAKED_death_front",
+   "export_file": "export/animations/death_front.fbx",
+   "take": "death_front",
+   "unreal_asset": "/Game/Operative/Animations/death_front.death_front",
+   "frame_start": 0,
+   "frame_end": 60,
+   "sample_count": 61,
+   "sample_rate": 30,
+   "duration": 2.0,
+   "loop": false,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "fullbody",
+   "events": [
+    {
+     "name": "death_begin",
+     "frame": 0,
+     "time": 0.0,
+     "normalized": 0.0
+    },
+    {
+     "name": "foot_r_contact",
+     "frame": 8,
+     "time": 0.266667,
+     "normalized": 0.133333
+    },
+    {
+     "name": "ground_impact",
+     "frame": 30,
+     "time": 1.0,
+     "normalized": 0.5
+    },
+    {
+     "name": "death_settled",
+     "frame": 54,
+     "time": 1.8,
+     "normalized": 0.9
+    }
+   ],
+   "entry_states": [
+    "any_alive"
+   ],
+   "exit_states": [
+    "dead_front"
+   ],
+   "final_pose": "dead_front",
+   "floor_contact": true,
+   "source_keys": "dense",
+   "qa": {
+    "slide_max_cm_s": 204.55,
+    "min_sole_height_cm": -0.0,
+    "body_clear_cm": 0.4
+   }
+  },
+  {
+   "id": "death_back",
+   "form": "one_shot",
+   "root_movement": "in_place",
+   "source_action": "death_back",
+   "baked_action": "BAKED_death_back",
+   "export_file": "export/animations/death_back.fbx",
+   "take": "death_back",
+   "unreal_asset": "/Game/Operative/Animations/death_back.death_back",
+   "frame_start": 0,
+   "frame_end": 66,
+   "sample_count": 67,
+   "sample_rate": 30,
+   "duration": 2.2,
+   "loop": false,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "fullbody",
+   "events": [
+    {
+     "name": "death_begin",
+     "frame": 0,
+     "time": 0.0,
+     "normalized": 0.0
+    },
+    {
+     "name": "foot_l_contact",
+     "frame": 8,
+     "time": 0.266667,
+     "normalized": 0.121212
+    },
+    {
+     "name": "ground_impact",
+     "frame": 36,
+     "time": 1.2,
+     "normalized": 0.545455
+    },
+    {
+     "name": "death_settled",
+     "frame": 60,
+     "time": 2.0,
+     "normalized": 0.909091
+    }
+   ],
+   "entry_states": [
+    "any_alive"
+   ],
+   "exit_states": [
+    "dead_back"
+   ],
+   "final_pose": "dead_back",
+   "floor_contact": true,
+   "source_keys": "dense",
+   "qa": {
+    "slide_max_cm_s": 550.76,
+    "min_sole_height_cm": -0.0,
+    "body_clear_cm": 0.2
+   }
+  },
+  {
+   "id": "dead_front",
+   "form": "pose",
+   "root_movement": "in_place",
+   "source_action": "dead_front",
+   "baked_action": "BAKED_dead_front",
+   "export_file": "export/animations/dead_front.fbx",
+   "take": "dead_front",
+   "unreal_asset": "/Game/Operative/Animations/dead_front.dead_front",
+   "frame_start": 0,
+   "frame_end": 1,
+   "sample_count": 2,
+   "sample_rate": 30,
+   "duration": 0.033333,
+   "loop": false,
+   "is_pose": true,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "fullbody",
+   "events": [],
+   "entry_states": [
+    "death_front"
+   ],
+   "exit_states": [
+    "respawn"
+   ],
+   "pose_of": [
+    "death_front",
+    "last"
+   ],
+   "floor_contact": true,
+   "source_keys": "sparse",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": 0.0,
+    "body_clear_cm": 1.2
+   }
+  },
+  {
+   "id": "dead_back",
+   "form": "pose",
+   "root_movement": "in_place",
+   "source_action": "dead_back",
+   "baked_action": "BAKED_dead_back",
+   "export_file": "export/animations/dead_back.fbx",
+   "take": "dead_back",
+   "unreal_asset": "/Game/Operative/Animations/dead_back.dead_back",
+   "frame_start": 0,
+   "frame_end": 1,
+   "sample_count": 2,
+   "sample_rate": 30,
+   "duration": 0.033333,
+   "loop": false,
+   "is_pose": true,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "fullbody",
+   "events": [],
+   "entry_states": [
+    "death_back"
+   ],
+   "exit_states": [
+    "respawn"
+   ],
+   "pose_of": [
+    "death_back",
+    "last"
+   ],
+   "floor_contact": true,
+   "source_keys": "sparse",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": 12.25,
+    "body_clear_cm": 0.5
+   }
+  },
+  {
+   "id": "respawn",
+   "form": "one_shot",
+   "root_movement": "in_place",
+   "source_action": "respawn",
+   "baked_action": "BAKED_respawn",
+   "export_file": "export/animations/respawn.fbx",
+   "take": "respawn",
+   "unreal_asset": "/Game/Operative/Animations/respawn.respawn",
+   "frame_start": 0,
+   "frame_end": 75,
+   "sample_count": 76,
+   "sample_rate": 30,
+   "duration": 2.5,
+   "loop": false,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "fullbody",
+   "events": [
+    {
+     "name": "respawn_materialize",
+     "frame": 0,
+     "time": 0.0,
+     "normalized": 0.0
+    },
+    {
+     "name": "respawn_active",
+     "frame": 40,
+     "time": 1.333333,
+     "normalized": 0.533333
+    },
+    {
+     "name": "foot_l_contact",
+     "frame": 55,
+     "time": 1.833333,
+     "normalized": 0.733333
+    },
+    {
+     "name": "foot_r_contact",
+     "frame": 64,
+     "time": 2.133333,
+     "normalized": 0.853333
+    },
+    {
+     "name": "control_regained",
+     "frame": 68,
+     "time": 2.266667,
+     "normalized": 0.906667
+    }
+   ],
+   "entry_states": [
+    "dead_front",
+    "dead_back"
+   ],
+   "exit_states": [
+    "idle"
+   ],
+   "floor_contact": true,
+   "source_keys": "dense",
+   "qa": {
+    "slide_max_cm_s": 117.21,
+    "min_sole_height_cm": 0.0,
+    "body_clear_cm": 1.2
+   }
+  },
+  {
+   "id": "greet",
+   "form": "one_shot",
+   "root_movement": "in_place",
+   "source_action": "greet",
+   "baked_action": "BAKED_greet",
+   "export_file": "export/animations/greet.fbx",
+   "take": "greet",
+   "unreal_asset": "/Game/Operative/Animations/greet.greet",
+   "frame_start": 0,
+   "frame_end": 60,
+   "sample_count": 61,
+   "sample_rate": 30,
+   "duration": 2.0,
+   "loop": false,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "fullbody",
+   "events": [
+    {
+     "name": "gesture_peak",
+     "frame": 24,
+     "time": 0.8,
+     "normalized": 0.4
+    }
+   ],
+   "entry_states": [
+    "idle"
+   ],
+   "exit_states": [
+    "idle"
+   ],
+   "source_keys": "dense",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": 0.0,
+    "body_clear_cm": 5.3
+   }
+  },
+  {
+   "id": "victory",
+   "form": "one_shot",
+   "root_movement": "in_place",
+   "source_action": "victory",
+   "baked_action": "BAKED_victory",
+   "export_file": "export/animations/victory.fbx",
+   "take": "victory",
+   "unreal_asset": "/Game/Operative/Animations/victory.victory",
+   "frame_start": 0,
+   "frame_end": 90,
+   "sample_count": 91,
+   "sample_rate": 30,
+   "duration": 3.0,
+   "loop": false,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "fullbody",
+   "events": [
+    {
+     "name": "gesture_peak",
+     "frame": 17,
+     "time": 0.566667,
+     "normalized": 0.188889
+    },
+    {
+     "name": "foot_l_contact",
+     "frame": 31,
+     "time": 1.033333,
+     "normalized": 0.344444
+    },
+    {
+     "name": "foot_r_contact",
+     "frame": 31,
+     "time": 1.033333,
+     "normalized": 0.344444
+    }
+   ],
+   "entry_states": [
+    "idle"
+   ],
+   "exit_states": [
+    "idle"
+   ],
+   "source_keys": "dense",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": -0.0,
+    "body_clear_cm": 5.3
+   }
+  },
+  {
+   "id": "defeat",
+   "form": "one_shot",
+   "root_movement": "in_place",
+   "source_action": "defeat",
+   "baked_action": "BAKED_defeat",
+   "export_file": "export/animations/defeat.fbx",
+   "take": "defeat",
+   "unreal_asset": "/Game/Operative/Animations/defeat.defeat",
+   "frame_start": 0,
+   "frame_end": 84,
+   "sample_count": 85,
+   "sample_rate": 30,
+   "duration": 2.8,
+   "loop": false,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "fullbody",
+   "events": [
+    {
+     "name": "gesture_peak",
+     "frame": 32,
+     "time": 1.066667,
+     "normalized": 0.380952
+    }
+   ],
+   "entry_states": [
+    "idle"
+   ],
+   "exit_states": [
+    "idle"
+   ],
+   "source_keys": "dense",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": 0.0,
+    "body_clear_cm": 5.3
+   }
+  },
+  {
+   "id": "dialogue",
+   "form": "one_shot",
+   "root_movement": "in_place",
+   "source_action": "dialogue",
+   "baked_action": "BAKED_dialogue",
+   "export_file": "export/animations/dialogue.fbx",
+   "take": "dialogue",
+   "unreal_asset": "/Game/Operative/Animations/dialogue.dialogue",
+   "frame_start": 0,
+   "frame_end": 499,
+   "sample_count": 500,
+   "sample_rate": 30,
+   "duration": 16.633333,
+   "loop": false,
+   "is_pose": false,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "fullbody",
+   "events": [
+    {
+     "name": "line_start",
+     "frame": 9,
+     "time": 0.3,
+     "normalized": 0.018036
+    },
+    {
+     "name": "gesture_hold",
+     "frame": 155,
+     "time": 5.166667,
+     "normalized": 0.310621
+    },
+    {
+     "name": "emotion_shift",
+     "frame": 330,
+     "time": 11.0,
+     "normalized": 0.661323
+    },
+    {
+     "name": "gesture_push",
+     "frame": 404,
+     "time": 13.466667,
+     "normalized": 0.809619
+    },
+    {
+     "name": "line_end",
+     "frame": 479,
+     "time": 15.966667,
+     "normalized": 0.95992
+    }
+   ],
+   "entry_states": [
+    "idle"
+   ],
+   "exit_states": [
+    "idle"
+   ],
+   "audio": "source/audio/dialogue.wav",
+   "source_keys": "dense",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": 0.0,
+    "body_clear_cm": 5.3
+   }
+  },
+  {
+   "id": "aim_down_left",
+   "form": "pose",
+   "root_movement": "in_place",
+   "source_action": "aim_down_left",
+   "baked_action": "BAKED_aim_down_left",
+   "export_file": "export/animations/aim_down_left.fbx",
+   "take": "aim_down_left",
+   "unreal_asset": "/Game/Operative/Animations/aim_down_left.aim_down_left",
+   "frame_start": 0,
+   "frame_end": 1,
+   "sample_count": 2,
+   "sample_rate": 30,
+   "duration": 0.033333,
+   "loop": false,
+   "is_pose": true,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "aim",
+   "events": [],
+   "entry_states": [
+    "aim_layer"
+   ],
+   "exit_states": [
+    "aim_layer"
+   ],
+   "aim_yaw_deg": 60.0,
+   "aim_pitch_deg": -35.0,
+   "additive": {
+    "space": "mesh",
+    "base": "aim_level_center"
+   },
+   "source_keys": "sparse",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": 0.0,
+    "body_clear_cm": 5.3
+   }
+  },
+  {
+   "id": "aim_down_center",
+   "form": "pose",
+   "root_movement": "in_place",
+   "source_action": "aim_down_center",
+   "baked_action": "BAKED_aim_down_center",
+   "export_file": "export/animations/aim_down_center.fbx",
+   "take": "aim_down_center",
+   "unreal_asset": "/Game/Operative/Animations/aim_down_center.aim_down_center",
+   "frame_start": 0,
+   "frame_end": 1,
+   "sample_count": 2,
+   "sample_rate": 30,
+   "duration": 0.033333,
+   "loop": false,
+   "is_pose": true,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "aim",
+   "events": [],
+   "entry_states": [
+    "aim_layer"
+   ],
+   "exit_states": [
+    "aim_layer"
+   ],
+   "aim_yaw_deg": 0.0,
+   "aim_pitch_deg": -35.0,
+   "additive": {
+    "space": "mesh",
+    "base": "aim_level_center"
+   },
+   "source_keys": "sparse",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": 0.0,
+    "body_clear_cm": 5.3
+   }
+  },
+  {
+   "id": "aim_down_right",
+   "form": "pose",
+   "root_movement": "in_place",
+   "source_action": "aim_down_right",
+   "baked_action": "BAKED_aim_down_right",
+   "export_file": "export/animations/aim_down_right.fbx",
+   "take": "aim_down_right",
+   "unreal_asset": "/Game/Operative/Animations/aim_down_right.aim_down_right",
+   "frame_start": 0,
+   "frame_end": 1,
+   "sample_count": 2,
+   "sample_rate": 30,
+   "duration": 0.033333,
+   "loop": false,
+   "is_pose": true,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "aim",
+   "events": [],
+   "entry_states": [
+    "aim_layer"
+   ],
+   "exit_states": [
+    "aim_layer"
+   ],
+   "aim_yaw_deg": -60.0,
+   "aim_pitch_deg": -35.0,
+   "additive": {
+    "space": "mesh",
+    "base": "aim_level_center"
+   },
+   "source_keys": "sparse",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": 0.0,
+    "body_clear_cm": 5.3
+   }
+  },
+  {
+   "id": "aim_level_left",
+   "form": "pose",
+   "root_movement": "in_place",
+   "source_action": "aim_level_left",
+   "baked_action": "BAKED_aim_level_left",
+   "export_file": "export/animations/aim_level_left.fbx",
+   "take": "aim_level_left",
+   "unreal_asset": "/Game/Operative/Animations/aim_level_left.aim_level_left",
+   "frame_start": 0,
+   "frame_end": 1,
+   "sample_count": 2,
+   "sample_rate": 30,
+   "duration": 0.033333,
+   "loop": false,
+   "is_pose": true,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "aim",
+   "events": [],
+   "entry_states": [
+    "aim_layer"
+   ],
+   "exit_states": [
+    "aim_layer"
+   ],
+   "aim_yaw_deg": 60.0,
+   "aim_pitch_deg": 0.0,
+   "additive": {
+    "space": "mesh",
+    "base": "aim_level_center"
+   },
+   "source_keys": "sparse",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": 0.0,
+    "body_clear_cm": 5.3
+   }
+  },
+  {
+   "id": "aim_level_center",
+   "form": "pose",
+   "root_movement": "in_place",
+   "source_action": "aim_level_center",
+   "baked_action": "BAKED_aim_level_center",
+   "export_file": "export/animations/aim_level_center.fbx",
+   "take": "aim_level_center",
+   "unreal_asset": "/Game/Operative/Animations/aim_level_center.aim_level_center",
+   "frame_start": 0,
+   "frame_end": 1,
+   "sample_count": 2,
+   "sample_rate": 30,
+   "duration": 0.033333,
+   "loop": false,
+   "is_pose": true,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "aim",
+   "events": [],
+   "entry_states": [
+    "aim_layer"
+   ],
+   "exit_states": [
+    "aim_layer"
+   ],
+   "aim_yaw_deg": 0.0,
+   "aim_pitch_deg": 0.0,
+   "additive": {
+    "space": "mesh",
+    "base": "aim_level_center"
+   },
+   "source_keys": "sparse",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": 0.0,
+    "body_clear_cm": 5.3
+   }
+  },
+  {
+   "id": "aim_level_right",
+   "form": "pose",
+   "root_movement": "in_place",
+   "source_action": "aim_level_right",
+   "baked_action": "BAKED_aim_level_right",
+   "export_file": "export/animations/aim_level_right.fbx",
+   "take": "aim_level_right",
+   "unreal_asset": "/Game/Operative/Animations/aim_level_right.aim_level_right",
+   "frame_start": 0,
+   "frame_end": 1,
+   "sample_count": 2,
+   "sample_rate": 30,
+   "duration": 0.033333,
+   "loop": false,
+   "is_pose": true,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "aim",
+   "events": [],
+   "entry_states": [
+    "aim_layer"
+   ],
+   "exit_states": [
+    "aim_layer"
+   ],
+   "aim_yaw_deg": -60.0,
+   "aim_pitch_deg": 0.0,
+   "additive": {
+    "space": "mesh",
+    "base": "aim_level_center"
+   },
+   "source_keys": "sparse",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": 0.0,
+    "body_clear_cm": 5.3
+   }
+  },
+  {
+   "id": "aim_up_left",
+   "form": "pose",
+   "root_movement": "in_place",
+   "source_action": "aim_up_left",
+   "baked_action": "BAKED_aim_up_left",
+   "export_file": "export/animations/aim_up_left.fbx",
+   "take": "aim_up_left",
+   "unreal_asset": "/Game/Operative/Animations/aim_up_left.aim_up_left",
+   "frame_start": 0,
+   "frame_end": 1,
+   "sample_count": 2,
+   "sample_rate": 30,
+   "duration": 0.033333,
+   "loop": false,
+   "is_pose": true,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "aim",
+   "events": [],
+   "entry_states": [
+    "aim_layer"
+   ],
+   "exit_states": [
+    "aim_layer"
+   ],
+   "aim_yaw_deg": 60.0,
+   "aim_pitch_deg": 35.0,
+   "additive": {
+    "space": "mesh",
+    "base": "aim_level_center"
+   },
+   "source_keys": "sparse",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": 0.0,
+    "body_clear_cm": 5.3
+   }
+  },
+  {
+   "id": "aim_up_center",
+   "form": "pose",
+   "root_movement": "in_place",
+   "source_action": "aim_up_center",
+   "baked_action": "BAKED_aim_up_center",
+   "export_file": "export/animations/aim_up_center.fbx",
+   "take": "aim_up_center",
+   "unreal_asset": "/Game/Operative/Animations/aim_up_center.aim_up_center",
+   "frame_start": 0,
+   "frame_end": 1,
+   "sample_count": 2,
+   "sample_rate": 30,
+   "duration": 0.033333,
+   "loop": false,
+   "is_pose": true,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "aim",
+   "events": [],
+   "entry_states": [
+    "aim_layer"
+   ],
+   "exit_states": [
+    "aim_layer"
+   ],
+   "aim_yaw_deg": 0.0,
+   "aim_pitch_deg": 35.0,
+   "additive": {
+    "space": "mesh",
+    "base": "aim_level_center"
+   },
+   "source_keys": "sparse",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": 0.0,
+    "body_clear_cm": 5.3
+   }
+  },
+  {
+   "id": "aim_up_right",
+   "form": "pose",
+   "root_movement": "in_place",
+   "source_action": "aim_up_right",
+   "baked_action": "BAKED_aim_up_right",
+   "export_file": "export/animations/aim_up_right.fbx",
+   "take": "aim_up_right",
+   "unreal_asset": "/Game/Operative/Animations/aim_up_right.aim_up_right",
+   "frame_start": 0,
+   "frame_end": 1,
+   "sample_count": 2,
+   "sample_rate": 30,
+   "duration": 0.033333,
+   "loop": false,
+   "is_pose": true,
+   "root_motion": {
+    "policy": "in_place",
+    "displacement_cm": [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    "note": "Unreal component space (x = character left, y = forward, z = up)"
+   },
+   "layer": "aim",
+   "events": [],
+   "entry_states": [
+    "aim_layer"
+   ],
+   "exit_states": [
+    "aim_layer"
+   ],
+   "aim_yaw_deg": -60.0,
+   "aim_pitch_deg": 35.0,
+   "additive": {
+    "space": "mesh",
+    "base": "aim_level_center"
+   },
+   "source_keys": "sparse",
+   "qa": {
+    "slide_max_cm_s": 0.0,
+    "min_sole_height_cm": 0.0,
+    "body_clear_cm": 5.3
+   }
+  }
+ ]
+}

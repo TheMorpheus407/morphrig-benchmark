@@ -1,0 +1,102 @@
+# MORPHRIG showcase trace (2026.11.10-23.16.41)
+[    0.000] DATA clips=96 bones=84 morphs=32 placeholder=0 
+[    0.000] SCRIPT face_performance.txt started (129 commands)
+[    0.400] CMD hud off
+[    0.400] CMD panel off
+[    0.400] CMD ring off
+[    0.400] CMD cam bust
+[    1.901] CMD capture start default 30
+[    1.901] CAPTURE requested dir=/home/candidate/workspace/MorphRig/unreal/Saved/Capture/face fps=30 (fixed time step from the next frame)
+[    1.935] CAPTURE first frame (frame_00000 shows t=1.935)
+[    2.401] CMD emote dialogue
+[    2.401] STATE Locomotion -> Emote:dialogue
+[    2.401] CLIP base dialogue #1 t=0.000 blend=0.25
+[    2.668] EVENT line_start @0.300 clip=dialogue #1
+[    7.568] EVENT gesture_hold @5.167 clip=dialogue #1
+[   13.368] EVENT emotion_shift @11.000 clip=dialogue #1
+[   15.835] EVENT gesture_push @13.467 clip=dialogue #1
+[   18.335] EVENT line_end @15.967 clip=dialogue #1
+[   19.001] STATE Emote:dialogue -> Locomotion
+[   19.635] CMD cam face
+[   20.435] CMD autoblink off
+[   20.435] CMD caption Expression preset: joy / confidence
+[   20.435] CMD expr joy 1
+[   21.735] CMD expr joy 0
+[   21.735] CMD caption Expression preset: anger
+[   21.735] CMD expr anger 1
+[   23.035] CMD expr anger 0
+[   23.035] CMD caption Expression preset: concern / sadness
+[   23.035] CMD expr concern 1
+[   24.335] CMD expr concern 0
+[   24.335] CMD caption Expression preset: surprise
+[   24.335] CMD expr surprise 1
+[   25.635] CMD expr surprise 0
+[   25.635] CMD caption Expression preset: pain
+[   25.635] CMD expr pain 1
+[   26.935] CMD expr pain 0
+[   26.935] CMD caption Expression preset: focus
+[   26.935] CMD expr focus 1
+[   28.235] CMD expr focus 0
+[   28.635] CMD caption Independent blinks (left, right) and squint
+[   28.635] CMD face blink_l 1
+[   29.135] CMD face blink_l 0
+[   29.435] CMD face blink_r 1
+[   29.935] CMD face blink_r 0
+[   30.235] CMD face squint_l 1
+[   30.735] CMD face squint_l 0
+[   30.735] CMD face squint_r 1
+[   31.235] CMD face squint_r 0
+[   31.535] CMD caption Independent eye look - eyelids follow the eyeballs
+[   31.535] CMD gaze 30 0
+[   32.135] CMD gaze -30 0
+[   32.735] CMD gaze 0 20
+[   33.335] CMD gaze 0 -26
+[   33.935] CMD gaze off
+[   34.335] CMD caption Asymmetric controls: smile left, brow right, sneer left
+[   34.335] CMD face smile_l 1
+[   34.935] CMD face brow_outer_up_r 1
+[   35.535] CMD face nose_sneer_l 1
+[   36.235] CMD face reset
+[   36.635] CMD caption Viseme PP - lip closure (p b m)
+[   36.635] CMD viseme PP 1
+[   37.235] CMD viseme PP 0
+[   37.235] CMD caption Viseme FF - labiodental (f v)
+[   37.235] CMD viseme FF 1
+[   37.835] CMD viseme FF 0
+[   37.835] CMD caption Viseme TH - tongue to teeth
+[   37.835] CMD viseme TH 1
+[   38.435] CMD viseme TH 0
+[   38.435] CMD caption Viseme DD - alveolar (t d n l)
+[   38.435] CMD viseme DD 1
+[   39.035] CMD viseme DD 0
+[   39.035] CMD caption Viseme KK - velar (k g)
+[   39.035] CMD viseme KK 1
+[   39.635] CMD viseme KK 0
+[   39.635] CMD caption Viseme CH - post-alveolar (ch sh)
+[   39.635] CMD viseme CH 1
+[   40.235] CMD viseme CH 0
+[   40.235] CMD caption Viseme SS - sibilant (s z)
+[   40.235] CMD viseme SS 1
+[   40.835] CMD viseme SS 0
+[   40.835] CMD caption Viseme RR - r-coloured
+[   40.835] CMD viseme RR 1
+[   41.435] CMD viseme RR 0
+[   41.435] CMD caption Viseme AA - open vowel
+[   41.435] CMD viseme AA 1
+[   42.035] CMD viseme AA 0
+[   42.035] CMD caption Viseme EH - mid vowel
+[   42.035] CMD viseme EH 1
+[   42.635] CMD viseme EH 0
+[   42.635] CMD caption Viseme EE - wide vowel
+[   42.635] CMD viseme EE 1
+[   43.235] CMD viseme EE 0
+[   43.235] CMD caption Viseme OH - rounded vowel
+[   43.235] CMD viseme OH 1
+[   43.835] CMD viseme OH 0
+[   43.835] CMD caption Viseme OO - tight rounded vowel
+[   43.835] CMD viseme OO 1
+[   44.435] CMD viseme OO 0
+[   44.935] CMD capture stop
+[   44.935] CAPTURE stop after 1290 frames
+[   44.935] CMD quit
+[   44.935] SCRIPT face_performance.txt finished at t=44.935

@@ -1,0 +1,2063 @@
+{
+ "schema": "morphrig.dialogue_alignment/1",
+ "audio": "dialogue.wav",
+ "sample_rate": 48000,
+ "duration": 15.7284,
+ "text": "Operative to all teams. The relay is failing, and the lane is wide open. Hold your positions. Give me thirty seconds. I'll stabilize the network myself. There. Signal is back. Push forward, and thank you for trusting me.",
+ "clip": {
+  "id": "dialogue",
+  "fps": 30,
+  "frames": 499,
+  "audio_start_frame": 9,
+  "audio_start_time": 0.3,
+  "note": "audio time 0 corresponds to clip frame audio_start_frame (the line_start marker); clip frame = audio_start_frame + time * fps"
+ },
+ "markers": {
+  "line_start": 0.0,
+  "emotion_shift": 10.7039,
+  "line_end": 15.6784
+ },
+ "method": "Phoneme boundaries are the per-phoneme sample counts returned by the synthesiser (Piper VITS duration predictor, hop 256 at 22.05 kHz), accumulated over the authored segments and pauses. Stress marks are merged into the following phoneme and length marks into the preceding vowel.",
+ "synthesis": {
+  "tool": "Piper TTS 1.4.2 (local)",
+  "voice": "en_US-ljspeech-high",
+  "phonemizer": "eSpeak NG (bundled with Piper)",
+  "noise_scale": 0.45,
+  "noise_w_scale": 0.5,
+  "seeds": "4200 + segment index"
+ },
+ "segments": [
+  {
+   "index": 0,
+   "text": "Operative to all teams.",
+   "emotion": "urgent",
+   "start": 0.0,
+   "end": 1.7183,
+   "length_scale": 0.85,
+   "pause_after": 0.22
+  },
+  {
+   "index": 1,
+   "text": "The relay is failing, and the lane is wide open.",
+   "emotion": "urgent",
+   "start": 1.9383,
+   "end": 4.4576,
+   "length_scale": 0.83,
+   "pause_after": 0.28
+  },
+  {
+   "index": 2,
+   "text": "Hold your positions.",
+   "emotion": "urgent",
+   "start": 4.7376,
+   "end": 5.9451,
+   "length_scale": 0.88,
+   "pause_after": 0.32
+  },
+  {
+   "index": 3,
+   "text": "Give me thirty seconds.",
+   "emotion": "urgent",
+   "start": 6.2651,
+   "end": 7.6699,
+   "length_scale": 0.85,
+   "pause_after": 0.18
+  },
+  {
+   "index": 4,
+   "text": "I'll stabilize the network myself.",
+   "emotion": "urgent",
+   "start": 7.8499,
+   "end": 9.7539,
+   "length_scale": 0.85,
+   "pause_after": 0.95
+  },
+  {
+   "index": 5,
+   "text": "There.",
+   "emotion": "relief",
+   "start": 10.7039,
+   "end": 11.0522,
+   "length_scale": 1.05,
+   "pause_after": 0.3
+  },
+  {
+   "index": 6,
+   "text": "Signal is back.",
+   "emotion": "relief",
+   "start": 11.3522,
+   "end": 12.6642,
+   "length_scale": 0.97,
+   "pause_after": 0.34
+  },
+  {
+   "index": 7,
+   "text": "Push forward,",
+   "emotion": "confident",
+   "start": 13.0042,
+   "end": 13.9214,
+   "length_scale": 0.95,
+   "pause_after": 0.12
+  },
+  {
+   "index": 8,
+   "text": "and thank you for trusting me.",
+   "emotion": "warm",
+   "start": 14.0414,
+   "end": 15.6784,
+   "length_scale": 0.96,
+   "pause_after": 0.05
+  }
+ ],
+ "words": [
+  {
+   "word": "Operative",
+   "start": 0.0813,
+   "end": 0.6385,
+   "segment": 0
+  },
+  {
+   "word": "to",
+   "start": 0.7082,
+   "end": 0.8011,
+   "segment": 0
+  },
+  {
+   "word": "all",
+   "start": 0.8591,
+   "end": 1.0565,
+   "segment": 0
+  },
+  {
+   "word": "teams",
+   "start": 1.1378,
+   "end": 1.6254,
+   "segment": 0
+  },
+  {
+   "word": "The",
+   "start": 1.9615,
+   "end": 2.0312,
+   "segment": 1
+  },
+  {
+   "word": "relay",
+   "start": 2.066,
+   "end": 2.3562,
+   "segment": 1
+  },
+  {
+   "word": "is",
+   "start": 2.3911,
+   "end": 2.5072,
+   "segment": 1
+  },
+  {
+   "word": "failing",
+   "start": 2.5536,
+   "end": 2.9135,
+   "segment": 1
+  },
+  {
+   "word": "and",
+   "start": 3.0528,
+   "end": 3.1457,
+   "segment": 1
+  },
+  {
+   "word": "the",
+   "start": 3.1805,
+   "end": 3.2502,
+   "segment": 1
+  },
+  {
+   "word": "lane",
+   "start": 3.285,
+   "end": 3.4824,
+   "segment": 1
+  },
+  {
+   "word": "is",
+   "start": 3.5172,
+   "end": 3.6333,
+   "segment": 1
+  },
+  {
+   "word": "wide",
+   "start": 3.703,
+   "end": 3.9352,
+   "segment": 1
+  },
+  {
+   "word": "open",
+   "start": 4.0165,
+   "end": 4.3532,
+   "segment": 1
+  },
+  {
+   "word": "Hold",
+   "start": 4.7609,
+   "end": 5.0047,
+   "segment": 2
+  },
+  {
+   "word": "your",
+   "start": 5.0395,
+   "end": 5.1208,
+   "segment": 2
+  },
+  {
+   "word": "positions",
+   "start": 5.202,
+   "end": 5.8522,
+   "segment": 2
+  },
+  {
+   "word": "Give",
+   "start": 6.2999,
+   "end": 6.4624,
+   "segment": 3
+  },
+  {
+   "word": "me",
+   "start": 6.5089,
+   "end": 6.6366,
+   "segment": 3
+  },
+  {
+   "word": "thirty",
+   "start": 6.7295,
+   "end": 7.0313,
+   "segment": 3
+  },
+  {
+   "word": "seconds",
+   "start": 7.0778,
+   "end": 7.577,
+   "segment": 3
+  },
+  {
+   "word": "I'll",
+   "start": 7.8847,
+   "end": 8.0473,
+   "segment": 4
+  },
+  {
+   "word": "stabilize",
+   "start": 8.1169,
+   "end": 8.6161,
+   "segment": 4
+  },
+  {
+   "word": "the",
+   "start": 8.6626,
+   "end": 8.7206,
+   "segment": 4
+  },
+  {
+   "word": "network",
+   "start": 8.7439,
+   "end": 9.1386,
+   "segment": 4
+  },
+  {
+   "word": "myself",
+   "start": 9.1734,
+   "end": 9.6843,
+   "segment": 4
+  },
+  {
+   "word": "There",
+   "start": 10.7272,
+   "end": 10.9361,
+   "segment": 5
+  },
+  {
+   "word": "Signal",
+   "start": 11.4567,
+   "end": 11.8166,
+   "segment": 6
+  },
+  {
+   "word": "is",
+   "start": 11.8979,
+   "end": 12.0024,
+   "segment": 6
+  },
+  {
+   "word": "back",
+   "start": 12.1069,
+   "end": 12.5597,
+   "segment": 6
+  },
+  {
+   "word": "Push",
+   "start": 13.0274,
+   "end": 13.2712,
+   "segment": 7
+  },
+  {
+   "word": "forward",
+   "start": 13.3293,
+   "end": 13.8285,
+   "segment": 7
+  },
+  {
+   "word": "and",
+   "start": 14.0762,
+   "end": 14.2155,
+   "segment": 8
+  },
+  {
+   "word": "thank",
+   "start": 14.2503,
+   "end": 14.5406,
+   "segment": 8
+  },
+  {
+   "word": "you",
+   "start": 14.5986,
+   "end": 14.6915,
+   "segment": 8
+  },
+  {
+   "word": "for",
+   "start": 14.7728,
+   "end": 14.8424,
+   "segment": 8
+  },
+  {
+   "word": "trusting",
+   "start": 14.9353,
+   "end": 15.3533,
+   "segment": 8
+  },
+  {
+   "word": "me",
+   "start": 15.4113,
+   "end": 15.5507,
+   "segment": 8
+  }
+ ],
+ "phonemes": [
+  {
+   "phoneme": "ɒ",
+   "viseme": "OH",
+   "start": 0.0813,
+   "end": 0.267,
+   "word": 0,
+   "stress": "primary",
+   "long": false,
+   "strength": 1.0,
+   "vowel": true
+  },
+  {
+   "phoneme": "p",
+   "viseme": "PP",
+   "start": 0.267,
+   "end": 0.2902,
+   "word": 0,
+   "stress": null,
+   "long": false,
+   "strength": 1.0,
+   "vowel": false
+  },
+  {
+   "phoneme": "ə",
+   "viseme": "EH",
+   "start": 0.2902,
+   "end": 0.3367,
+   "word": 0,
+   "stress": null,
+   "long": false,
+   "strength": 0.55,
+   "vowel": true
+  },
+  {
+   "phoneme": "ɹ",
+   "viseme": "RR",
+   "start": 0.3367,
+   "end": 0.3599,
+   "word": 0,
+   "stress": null,
+   "long": false,
+   "strength": 1.0,
+   "vowel": false
+  },
+  {
+   "phoneme": "ə",
+   "viseme": "EH",
+   "start": 0.3599,
+   "end": 0.4296,
+   "word": 0,
+   "stress": null,
+   "long": false,
+   "strength": 0.55,
+   "vowel": true
+  },
+  {
+   "phoneme": "t",
+   "viseme": "DD",
+   "start": 0.4296,
+   "end": 0.4876,
+   "word": 0,
+   "stress": null,
+   "long": false,
+   "strength": 0.75,
+   "vowel": false
+  },
+  {
+   "phoneme": "ɪ",
+   "viseme": "EE",
+   "start": 0.4876,
+   "end": 0.5921,
+   "word": 0,
+   "stress": "secondary",
+   "long": false,
+   "strength": 0.7,
+   "vowel": true
+  },
+  {
+   "phoneme": "v",
+   "viseme": "FF",
+   "start": 0.5921,
+   "end": 0.6385,
+   "word": 0,
+   "stress": null,
+   "long": false,
+   "strength": 1.0,
+   "vowel": false
+  },
+  {
+   "phoneme": "t",
+   "viseme": "DD",
+   "start": 0.7082,
+   "end": 0.7546,
+   "word": 1,
+   "stress": null,
+   "long": false,
+   "strength": 0.75,
+   "vowel": false
+  },
+  {
+   "phoneme": "ʊ",
+   "viseme": "OO",
+   "start": 0.7546,
+   "end": 0.8011,
+   "word": 1,
+   "stress": null,
+   "long": false,
+   "strength": 0.8,
+   "vowel": true
+  },
+  {
+   "phoneme": "ɔ",
+   "viseme": "OH",
+   "start": 0.8591,
+   "end": 1.0333,
+   "word": 2,
+   "stress": "primary",
+   "long": true,
+   "strength": 1.0,
+   "vowel": true
+  },
+  {
+   "phoneme": "l",
+   "viseme": "DD",
+   "start": 1.0333,
+   "end": 1.0565,
+   "word": 2,
+   "stress": null,
+   "long": false,
+   "strength": 0.8,
+   "vowel": false
+  },
+  {
+   "phoneme": "t",
+   "viseme": "DD",
+   "start": 1.1378,
+   "end": 1.1958,
+   "word": 3,
+   "stress": null,
+   "long": false,
+   "strength": 0.75,
+   "vowel": false
+  },
+  {
+   "phoneme": "i",
+   "viseme": "EE",
+   "start": 1.1958,
+   "end": 1.4629,
+   "word": 3,
+   "stress": "primary",
+   "long": true,
+   "strength": 1.0,
+   "vowel": true
+  },
+  {
+   "phoneme": "m",
+   "viseme": "PP",
+   "start": 1.4629,
+   "end": 1.5325,
+   "word": 3,
+   "stress": null,
+   "long": false,
+   "strength": 1.0,
+   "vowel": false
+  },
+  {
+   "phoneme": "z",
+   "viseme": "SS",
+   "start": 1.5325,
+   "end": 1.6254,
+   "word": 3,
+   "stress": null,
+   "long": false,
+   "strength": 1.0,
+   "vowel": false
+  },
+  {
+   "phoneme": "ð",
+   "viseme": "TH",
+   "start": 1.9615,
+   "end": 1.9963,
+   "word": 4,
+   "stress": null,
+   "long": false,
+   "strength": 1.0,
+   "vowel": false
+  },
+  {
+   "phoneme": "ə",
+   "viseme": "EH",
+   "start": 1.9963,
+   "end": 2.0312,
+   "word": 4,
+   "stress": null,
+   "long": false,
+   "strength": 0.55,
+   "vowel": true
+  },
+  {
+   "phoneme": "ɹ",
+   "viseme": "RR",
+   "start": 2.066,
+   "end": 2.1008,
+   "word": 5,
+   "stress": null,
+   "long": false,
+   "strength": 1.0,
+   "vowel": false
+  },
+  {
+   "phoneme": "i",
+   "viseme": "EE",
+   "start": 2.1008,
+   "end": 2.2401,
+   "word": 5,
+   "stress": "primary",
+   "long": true,
+   "strength": 1.0,
+   "vowel": true
+  },
+  {
+   "phoneme": "l",
+   "viseme": "DD",
+   "start": 2.2401,
+   "end": 2.275,
+   "word": 5,
+   "stress": null,
+   "long": false,
+   "strength": 0.8,
+   "vowel": false
+  },
+  {
+   "phoneme": "e",
+   "viseme": "EH",
+   "start": 2.275,
+   "end": 2.3214,
+   "word": 5,
+   "stress": null,
+   "long": false,
+   "strength": 1.0,
+   "vowel": true
+  },
+  {
+   "phoneme": "ɪ",
+   "viseme": "EE",
+   "start": 2.3214,
+   "end": 2.3562,
+   "word": 5,
+   "stress": null,
+   "long": false,
+   "strength": 0.7,
+   "vowel": true
+  },
+  {
+   "phoneme": "ɪ",
+   "viseme": "EE",
+   "start": 2.3911,
+   "end": 2.4375,
+   "word": 6,
+   "stress": null,
+   "long": false,
+   "strength": 0.7,
+   "vowel": true
+  },
+  {
+   "phoneme": "z",
+   "viseme": "SS",
+   "start": 2.4375,
+   "end": 2.5072,
+   "word": 6,
+   "stress": null,
+   "long": false,
+   "strength": 1.0,
+   "vowel": false
+  },
+  {
+   "phoneme": "f",
+   "viseme": "FF",
+   "start": 2.5536,
+   "end": 2.5884,
+   "word": 7,
+   "stress": null,
+   "long": false,
+   "strength": 1.0,
+   "vowel": false
+  },
+  {
+   "phoneme": "e",
+   "viseme": "EH",
+   "start": 2.5884,
+   "end": 2.7045,
+   "word": 7,
+   "stress": "primary",
+   "long": false,
+   "strength": 1.0,
+   "vowel": true
+  },
+  {
+   "phoneme": "ɪ",
+   "viseme": "EE",
+   "start": 2.7045,
+   "end": 2.7626,
+   "word": 7,
+   "stress": null,
+   "long": false,
+   "strength": 0.7,
+   "vowel": true
+  },
+  {
+   "phoneme": "l",
+   "viseme": "DD",
+   "start": 2.7626,
+   "end": 2.8206,
+   "word": 7,
+   "stress": null,
+   "long": false,
+   "strength": 0.8,
+   "vowel": false
+  },
+  {
+   "phoneme": "ɪ",
+   "viseme": "EE",
+   "start": 2.8206,
+   "end": 2.8555,
+   "word": 7,
+   "stress": null,
+   "long": false,
+   "strength": 0.7,
+   "vowel": true
+  },
+  {
+   "phoneme": "ŋ",
+   "viseme": "KK",
+   "start": 2.8555,
+   "end": 2.9135,
+   "word": 7,
+   "stress": null,
+   "long": false,
+   "strength": 0.6,
+   "vowel": false
+  },
+  {
+   "phoneme": "a",
+   "viseme": "AA",
+   "start": 3.0528,
+   "end": 3.0877,
+   "word": 8,
+   "stress": null,
+   "long": false,
+   "strength": 1.0,
+   "vowel": true
+  },
+  {
+   "phoneme": "n",
+   "viseme": "DD",
+   "start": 3.0877,
+   "end": 3.1109,
+   "word": 8,
+   "stress": null,
+   "long": false,
+   "strength": 0.7,
+   "vowel": false
+  },
+  {
+   "phoneme": "d",
+   "viseme": "DD",
+   "start": 3.1109,
+   "end": 3.1457,
+   "word": 8,
+   "stress": null,
+   "long": false,
+   "strength": 0.75,
+   "vowel": false
+  },
+  {
+   "phoneme": "ð",
+   "viseme": "TH",
+   "start": 3.1805,
+   "end": 3.2154,
+   "word": 9,
+   "stress": null,
+   "long": false,
+   "strength": 1.0,
+   "vowel": false
+  },
+  {
+   "phoneme": "ə",
+   "viseme": "EH",
+   "start": 3.2154,
+   "end": 3.2502,
+   "word": 9,
+   "stress": null,
+   "long": false,
+   "strength": 0.55,
+   "vowel": true
+  },
+  {
+   "phoneme": "l",
+   "viseme": "DD",
+   "start": 3.285,
+   "end": 3.3199,
+   "word": 10,
+   "stress": null,
+   "long": false,
+   "strength": 0.8,
+   "vowel": false
+  },
+  {
+   "phoneme": "e",
+   "viseme": "EH",
+   "start": 3.3199,
+   "end": 3.4011,
+   "word": 10,
+   "stress": "primary",
+   "long": false,
+   "strength": 1.0,
+   "vowel": true
+  },
+  {
+   "phoneme": "ɪ",
+   "viseme": "EE",
+   "start": 3.4011,
+   "end": 3.4476,
+   "word": 10,
+   "stress": null,
+   "long": false,
+   "strength": 0.7,
+   "vowel": true
+  },
+  {
+   "phoneme": "n",
+   "viseme": "DD",
+   "start": 3.4476,
+   "end": 3.4824,
+   "word": 10,
+   "stress": null,
+   "long": false,
+   "strength": 0.7,
+   "vowel": false
+  },
+  {
+   "phoneme": "ɪ",
+   "viseme": "EE",
+   "start": 3.5172,
+   "end": 3.5753,
+   "word": 11,
+   "stress": null,
+   "long": false,
+   "strength": 0.7,
+   "vowel": true
+  },
+  {
+   "phoneme": "z",
+   "viseme": "SS",
+   "start": 3.5753,
+   "end": 3.6333,
+   "word": 11,
+   "stress": null,
+   "long": false,
+   "strength": 1.0,
+   "vowel": false
+  },
+  {
+   "phoneme": "w",
+   "viseme": "OO",
+   "start": 3.703,
+   "end": 3.7494,
+   "word": 12,
+   "stress": null,
+   "long": false,
+   "strength": 1.0,
+   "vowel": false
+  },
+  {
+   "phoneme": "a",
+   "viseme": "AA",
+   "start": 3.7494,
+   "end": 3.8423,
+   "word": 12,
+   "stress": "primary",
+   "long": false,
+   "strength": 1.0,
+   "vowel": true
+  },
+  {
+   "phoneme": "ɪ",
+   "viseme": "EE",
+   "start": 3.8423,
+   "end": 3.8888,
+   "word": 12,
+   "stress": null,
+   "long": false,
+   "strength": 0.7,
+   "vowel": true
+  },
+  {
+   "phoneme": "d",
+   "viseme": "DD",
+   "start": 3.8888,
+   "end": 3.9352,
+   "word": 12,
+   "stress": null,
+   "long": false,
+   "strength": 0.75,
+   "vowel": false
+  },
+  {
+   "phoneme": "ə",
+   "viseme": "EH",
+   "start": 4.0165,
+   "end": 4.1326,
+   "word": 13,
+   "stress": "primary",
+   "long": false,
+   "strength": 0.55,
+   "vowel": true
+  },
+  {
+   "phoneme": "ʊ",
+   "viseme": "OO",
+   "start": 4.1326,
+   "end": 4.1906,
+   "word": 13,
+   "stress": null,
+   "long": false,
+   "strength": 0.8,
+   "vowel": true
+  },
+  {
+   "phoneme": "p",
+   "viseme": "PP",
+   "start": 4.1906,
+   "end": 4.2371,
+   "word": 13,
+   "stress": null,
+   "long": false,
+   "strength": 1.0,
+   "vowel": false
+  },
+  {
+   "phoneme": "ə",
+   "viseme": "EH",
+   "start": 4.2371,
+   "end": 4.2835,
+   "word": 13,
+   "stress": null,
+   "long": false,
+   "strength": 0.55,
+   "vowel": true
+  },
+  {
+   "phoneme": "n",
+   "viseme": "DD",
+   "start": 4.2835,
+   "end": 4.3532,
+   "word": 13,
+   "stress": null,
+   "long": false,
+   "strength": 0.7,
+   "vowel": false
+  },
+  {
+   "phoneme": "h",
+   "viseme": "KK",
+   "start": 4.7609,
+   "end": 4.7957,
+   "word": 14,
+   "stress": null,
+   "long": false,
+   "strength": 0.25,
+   "vowel": false
+  },
+  {
+   "phoneme": "ə",
+   "viseme": "EH",
+   "start": 4.7957,
+   "end": 4.8886,
+   "word": 14,
+   "stress": "primary",
+   "long": false,
+   "strength": 0.55,
+   "vowel": true
+  },
+  {
+   "phoneme": "ʊ",
+   "viseme": "OO",
+   "start": 4.8886,
+   "end": 4.9234,
+   "word": 14,
+   "stress": null,
+   "long": false,
+   "strength": 0.8,
+   "vowel": true
+  },
+  {
+   "phoneme": "l",
+   "viseme": "DD",
+   "start": 4.9234,
+   "end": 4.9582,
+   "word": 14,
+   "stress": null,
+   "long": false,
+   "strength": 0.8,
+   "vowel": false
+  },
+  {
+   "phoneme": "d",
+   "viseme": "DD",
+   "start": 4.9582,
+   "end": 5.0047,
+   "word": 14,
+   "stress": null,
+   "long": false,
+   "strength": 0.75,
+   "vowel": false
+  },
+  {
+   "phoneme": "j",
+   "viseme": "EE",
+   "start": 5.0395,
+   "end": 5.0859,
+   "word": 15,
+   "stress": null,
+   "long": false,
+   "strength": 1.0,
+   "vowel": false
+  },
+  {
+   "phoneme": "ɔ",
+   "viseme": "OH",
+   "start": 5.0859,
+   "end": 5.1556,
+   "word": 15,
+   "stress": null,
+   "long": true,
+   "strength": 1.0,
+   "vowel": true
+  },
+  {
+   "phoneme": "p",
+   "viseme": "PP",
+   "start": 5.202,
+   "end": 5.2485,
+   "word": 16,
+   "stress": null,
+   "long": false,
+   "strength": 1.0,
+   "vowel": false
+  },
+  {
+   "phoneme": "ə",
+   "viseme": "EH",
+   "start": 5.2485,
+   "end": 5.3298,
+   "word": 16,
+   "stress": null,
+   "long": false,
+   "strength": 0.55,
+   "vowel": true
+  },
+  {
+   "phoneme": "z",
+   "viseme": "SS",
+   "start": 5.3298,
+   "end": 5.3762,
+   "word": 16,
+   "stress": null,
+   "long": false,
+   "strength": 1.0,
+   "vowel": false
+  },
+  {
+   "phoneme": "ɪ",
+   "viseme": "EE",
+   "start": 5.3762,
+   "end": 5.5039,
+   "word": 16,
+   "stress": "primary",
+   "long": false,
+   "strength": 0.7,
+   "vowel": true
+  },
+  {
+   "phoneme": "ʃ",
+   "viseme": "CH",
+   "start": 5.5039,
+   "end": 5.562,
+   "word": 16,
+   "stress": null,
+   "long": false,
+   "strength": 1.0,
+   "vowel": false
+  },
+  {
+   "phoneme": "ə",
+   "viseme": "EH",
+   "start": 5.562,
+   "end": 5.6316,
+   "word": 16,
+   "stress": null,
+   "long": false,
+   "strength": 0.55,
+   "vowel": true
+  },
+  {
+   "phoneme": "n",
+   "viseme": "DD",
+   "start": 5.6316,
+   "end": 5.7477,
+   "word": 16,
+   "stress": null,
+   "long": false,
+   "strength": 0.7,
+   "vowel": false
+  },
+  {
+   "phoneme": "z",
+   "viseme": "SS",
+   "start": 5.7477,
+   "end": 5.8522,
+   "word": 16,
+   "stress": null,
+   "long": false,
+   "strength": 1.0,
+   "vowel": false
+  },
+  {
+   "phoneme": "ɡ",
+   "viseme": "KK",
+   "start": 6.2999,
+   "end": 6.3463,
+   "word": 17,
+   "stress": null,
+   "long": false,
+   "strength": 1.0,
+   "vowel": false
+  },
+  {
+   "phoneme": "ɪ",
+   "viseme": "EE",
+   "start": 6.3463,
+   "end": 6.4276,
+   "word": 17,
+   "stress": "primary",
+   "long": false,
+   "strength": 0.7,
+   "vowel": true
+  },
+  {
+   "phoneme": "v",
+   "viseme": "FF",
+   "start": 6.4276,
+   "end": 6.4624,
+   "word": 17,
+   "stress": null,
+   "long": false,
+   "strength": 1.0,
+   "vowel": false
+  },
+  {
+   "phoneme": "m",
+   "viseme": "PP",
+   "start": 6.5089,
+   "end": 6.5437,
+   "word": 18,
+   "stress": null,
+   "long": false,
+   "strength": 1.0,
+   "vowel": false
+  },
+  {
+   "phoneme": "i",
+   "viseme": "EE",
+   "start": 6.5437,
+   "end": 6.6714,
+   "word": 18,
+   "stress": "secondary",
+   "long": true,
+   "strength": 1.0,
+   "vowel": true
+  },
+  {
+   "phoneme": "θ",
+   "viseme": "TH",
+   "start": 6.7295,
+   "end": 6.7643,
+   "word": 19,
+   "stress": null,
+   "long": false,
+   "strength": 1.0,
+   "vowel": false
+  },
+  {
+   "phoneme": "ɜ",
+   "viseme": "EH",
+   "start": 6.7643,
+   "end": 6.9152,
+   "word": 19,
+   "stress": "primary",
+   "long": true,
+   "strength": 0.8,
+   "vowel": true
+  },
+  {
+   "phoneme": "t",
+   "viseme": "DD",
+   "start": 6.9152,
+   "end": 6.9733,
+   "word": 19,
+   "stress": null,
+   "long": false,
+   "strength": 0.75,
+   "vowel": false
+  },
+  {
+   "phoneme": "i",
+   "viseme": "EE",
+   "start": 6.9733,
+   "end": 7.0313,
+   "word": 19,
+   "stress": null,
+   "long": false,
+   "strength": 1.0,
+   "vowel": true
+  },
+  {
+   "phoneme": "s",
+   "viseme": "SS",
+   "start": 7.0778,
+   "end": 7.1474,
+   "word": 20,
+   "stress": null,
+   "long": false,
+   "strength": 1.0,
+   "vowel": false
+  },
+  {
+   "phoneme": "ɛ",
+   "viseme": "EH",
+   "start": 7.1474,
+   "end": 7.2868,
+   "word": 20,
+   "stress": "primary",
+   "long": false,
+   "strength": 1.0,
+   "vowel": true
+  },
+  {
+   "phoneme": "k",
+   "viseme": "KK",
+   "start": 7.2868,
+   "end": 7.3216,
+   "word": 20,
+   "stress": null,
+   "long": false,
+   "strength": 1.0,
+   "vowel": false
+  },
+  {
+   "phoneme": "ə",
+   "viseme": "EH",
+   "start": 7.3216,
+   "end": 7.368,
+   "word": 20,
+   "stress": null,
+   "long": false,
+   "strength": 0.55,
+   "vowel": true
+  },
+  {
+   "phoneme": "n",
+   "viseme": "DD",
+   "start": 7.368,
+   "end": 7.4261,
+   "word": 20,
+   "stress": null,
+   "long": false,
+   "strength": 0.7,
+   "vowel": false
+  },
+  {
+   "phoneme": "d",
+   "viseme": "DD",
+   "start": 7.4261,
+   "end": 7.4841,
+   "word": 20,
+   "stress": null,
+   "long": false,
+   "strength": 0.75,
+   "vowel": false
+  },
+  {
+   "phoneme": "z",
+   "viseme": "SS",
+   "start": 7.4841,
+   "end": 7.577,
+   "word": 20,
+   "stress": null,
+   "long": false,
+   "strength": 1.0,
+   "vowel": false
+  },
+  {
+   "phoneme": "a",
+   "viseme": "AA",
+   "start": 7.8847,
+   "end": 7.9312,
+   "word": 21,
+   "stress": null,
+   "long": false,
+   "strength": 1.0,
+   "vowel": true
+  },
+  {
+   "phoneme": "ɪ",
+   "viseme": "EE",
+   "start": 7.9312,
+   "end": 7.9892,
+   "word": 21,
+   "stress": null,
+   "long": false,
+   "strength": 0.7,
+   "vowel": true
+  },
+  {
+   "phoneme": "l",
+   "viseme": "DD",
+   "start": 7.9892,
+   "end": 8.0473,
+   "word": 21,
+   "stress": null,
+   "long": false,
+   "strength": 0.8,
+   "vowel": false
+  },
+  {
+   "phoneme": "s",
+   "viseme": "SS",
+   "start": 8.1169,
+   "end": 8.1517,
+   "word": 22,
+   "stress": null,
+   "long": false,
+   "strength": 1.0,
+   "vowel": false
+  },
+  {
+   "phoneme": "t",
+   "viseme": "DD",
+   "start": 8.1517,
+   "end": 8.1982,
+   "word": 22,
+   "stress": null,
+   "long": false,
+   "strength": 0.75,
+   "vowel": false
+  },
+  {
+   "phoneme": "e",
+   "viseme": "EH",
+   "start": 8.1982,
+   "end": 8.2795,
+   "word": 22,
+   "stress": "primary",
+   "long": false,
+   "strength": 1.0,
+   "vowel": true
+  },
+  {
+   "phoneme": "ɪ",
+   "viseme": "EE",
+   "start": 8.2795,
+   "end": 8.3143,
+   "word": 22,
+   "stress": null,
+   "long": false,
+   "strength": 0.7,
+   "vowel": true
+  },
+  {
+   "phoneme": "b",
+   "viseme": "PP",
+   "start": 8.3143,
+   "end": 8.3375,
+   "word": 22,
+   "stress": null,
+   "long": false,
+   "strength": 1.0,
+   "vowel": false
+  },
+  {
+   "phoneme": "ɪ",
+   "viseme": "EE",
+   "start": 8.3375,
+   "end": 8.3956,
+   "word": 22,
+   "stress": null,
+   "long": false,
+   "strength": 0.7,
+   "vowel": true
+  },
+  {
+   "phoneme": "l",
+   "viseme": "DD",
+   "start": 8.3956,
+   "end": 8.4304,
+   "word": 22,
+   "stress": null,
+   "long": false,
+   "strength": 0.8,
+   "vowel": false
+  },
+  {
+   "phoneme": "a",
+   "viseme": "AA",
+   "start": 8.4304,
+   "end": 8.5465,
+   "word": 22,
+   "stress": "secondary",
+   "long": false,
+   "strength": 1.0,
+   "vowel": true
+  },
+  {
+   "phoneme": "ɪ",
+   "viseme": "EE",
+   "start": 8.5465,
+   "end": 8.5813,
+   "word": 22,
+   "stress": null,
+   "long": false,
+   "strength": 0.7,
+   "vowel": true
+  },
+  {
+   "phoneme": "z",
+   "viseme": "SS",
+   "start": 8.5813,
+   "end": 8.6161,
+   "word": 22,
+   "stress": null,
+   "long": false,
+   "strength": 1.0,
+   "vowel": false
+  },
+  {
+   "phoneme": "ð",
+   "viseme": "TH",
+   "start": 8.6626,
+   "end": 8.6974,
+   "word": 23,
+   "stress": null,
+   "long": false,
+   "strength": 1.0,
+   "vowel": false
+  },
+  {
+   "phoneme": "ə",
+   "viseme": "EH",
+   "start": 8.6974,
+   "end": 8.7206,
+   "word": 23,
+   "stress": null,
+   "long": false,
+   "strength": 0.55,
+   "vowel": true
+  },
+  {
+   "phoneme": "n",
+   "viseme": "DD",
+   "start": 8.7439,
+   "end": 8.7903,
+   "word": 24,
+   "stress": null,
+   "long": false,
+   "strength": 0.7,
+   "vowel": false
+  },
+  {
+   "phoneme": "ɛ",
+   "viseme": "EH",
+   "start": 8.7903,
+   "end": 8.9064,
+   "word": 24,
+   "stress": "primary",
+   "long": false,
+   "strength": 1.0,
+   "vowel": true
+  },
+  {
+   "phoneme": "t",
+   "viseme": "DD",
+   "start": 8.9064,
+   "end": 8.9528,
+   "word": 24,
+   "stress": null,
+   "long": false,
+   "strength": 0.75,
+   "vowel": false
+  },
+  {
+   "phoneme": "w",
+   "viseme": "OO",
+   "start": 8.9528,
+   "end": 8.9761,
+   "word": 24,
+   "stress": null,
+   "long": false,
+   "strength": 1.0,
+   "vowel": false
+  },
+  {
+   "phoneme": "ɜ",
+   "viseme": "EH",
+   "start": 8.9761,
+   "end": 9.0922,
+   "word": 24,
+   "stress": null,
+   "long": true,
+   "strength": 0.8,
+   "vowel": true
+  },
+  {
+   "phoneme": "k",
+   "viseme": "KK",
+   "start": 9.0922,
+   "end": 9.1386,
+   "word": 24,
+   "stress": null,
+   "long": false,
+   "strength": 1.0,
+   "vowel": false
+  },
+  {
+   "phoneme": "m",
+   "viseme": "PP",
+   "start": 9.1734,
+   "end": 9.2083,
+   "word": 25,
+   "stress": null,
+   "long": false,
+   "strength": 1.0,
+   "vowel": false
+  },
+  {
+   "phoneme": "a",
+   "viseme": "AA",
+   "start": 9.2083,
+   "end": 9.2663,
+   "word": 25,
+   "stress": null,
+   "long": false,
+   "strength": 1.0,
+   "vowel": true
+  },
+  {
+   "phoneme": "ɪ",
+   "viseme": "EE",
+   "start": 9.2663,
+   "end": 9.336,
+   "word": 25,
+   "stress": null,
+   "long": false,
+   "strength": 0.7,
+   "vowel": true
+  },
+  {
+   "phoneme": "s",
+   "viseme": "SS",
+   "start": 9.336,
+   "end": 9.4637,
+   "word": 25,
+   "stress": null,
+   "long": false,
+   "strength": 1.0,
+   "vowel": false
+  },
+  {
+   "phoneme": "ɛ",
+   "viseme": "EH",
+   "start": 9.4637,
+   "end": 9.5798,
+   "word": 25,
+   "stress": "primary",
+   "long": false,
+   "strength": 1.0,
+   "vowel": true
+  },
+  {
+   "phoneme": "l",
+   "viseme": "DD",
+   "start": 9.5798,
+   "end": 9.6262,
+   "word": 25,
+   "stress": null,
+   "long": false,
+   "strength": 0.8,
+   "vowel": false
+  },
+  {
+   "phoneme": "f",
+   "viseme": "FF",
+   "start": 9.6262,
+   "end": 9.6843,
+   "word": 25,
+   "stress": null,
+   "long": false,
+   "strength": 1.0,
+   "vowel": false
+  },
+  {
+   "phoneme": "ð",
+   "viseme": "TH",
+   "start": 10.7272,
+   "end": 10.762,
+   "word": 26,
+   "stress": null,
+   "long": false,
+   "strength": 1.0,
+   "vowel": false
+  },
+  {
+   "phoneme": "e",
+   "viseme": "EH",
+   "start": 10.762,
+   "end": 10.8549,
+   "word": 26,
+   "stress": "primary",
+   "long": false,
+   "strength": 1.0,
+   "vowel": true
+  },
+  {
+   "phoneme": "ə",
+   "viseme": "EH",
+   "start": 10.8549,
+   "end": 10.9361,
+   "word": 26,
+   "stress": null,
+   "long": false,
+   "strength": 0.55,
+   "vowel": true
+  },
+  {
+   "phoneme": "s",
+   "viseme": "SS",
+   "start": 11.4567,
+   "end": 11.538,
+   "word": 27,
+   "stress": null,
+   "long": false,
+   "strength": 1.0,
+   "vowel": false
+  },
+  {
+   "phoneme": "ɪ",
+   "viseme": "EE",
+   "start": 11.538,
+   "end": 11.5961,
+   "word": 27,
+   "stress": "primary",
+   "long": false,
+   "strength": 0.7,
+   "vowel": true
+  },
+  {
+   "phoneme": "ɡ",
+   "viseme": "KK",
+   "start": 11.5961,
+   "end": 11.6425,
+   "word": 27,
+   "stress": null,
+   "long": false,
+   "strength": 1.0,
+   "vowel": false
+  },
+  {
+   "phoneme": "n",
+   "viseme": "DD",
+   "start": 11.6425,
+   "end": 11.6889,
+   "word": 27,
+   "stress": null,
+   "long": false,
+   "strength": 0.7,
+   "vowel": false
+  },
+  {
+   "phoneme": "ə",
+   "viseme": "EH",
+   "start": 11.6889,
+   "end": 11.7586,
+   "word": 27,
+   "stress": null,
+   "long": false,
+   "strength": 0.55,
+   "vowel": true
+  },
+  {
+   "phoneme": "l",
+   "viseme": "DD",
+   "start": 11.7586,
+   "end": 11.8166,
+   "word": 27,
+   "stress": null,
+   "long": false,
+   "strength": 0.8,
+   "vowel": false
+  },
+  {
+   "phoneme": "ɪ",
+   "viseme": "EE",
+   "start": 11.8979,
+   "end": 11.956,
+   "word": 28,
+   "stress": null,
+   "long": false,
+   "strength": 0.7,
+   "vowel": true
+  },
+  {
+   "phoneme": "z",
+   "viseme": "SS",
+   "start": 11.956,
+   "end": 12.0024,
+   "word": 28,
+   "stress": null,
+   "long": false,
+   "strength": 1.0,
+   "vowel": false
+  },
+  {
+   "phoneme": "b",
+   "viseme": "PP",
+   "start": 12.1069,
+   "end": 12.1533,
+   "word": 29,
+   "stress": null,
+   "long": false,
+   "strength": 1.0,
+   "vowel": false
+  },
+  {
+   "phoneme": "a",
+   "viseme": "AA",
+   "start": 12.1533,
+   "end": 12.4552,
+   "word": 29,
+   "stress": "primary",
+   "long": false,
+   "strength": 1.0,
+   "vowel": true
+  },
+  {
+   "phoneme": "k",
+   "viseme": "KK",
+   "start": 12.4552,
+   "end": 12.5597,
+   "word": 29,
+   "stress": null,
+   "long": false,
+   "strength": 1.0,
+   "vowel": false
+  },
+  {
+   "phoneme": "p",
+   "viseme": "PP",
+   "start": 13.0274,
+   "end": 13.0622,
+   "word": 30,
+   "stress": null,
+   "long": false,
+   "strength": 1.0,
+   "vowel": false
+  },
+  {
+   "phoneme": "ʊ",
+   "viseme": "OO",
+   "start": 13.0622,
+   "end": 13.2015,
+   "word": 30,
+   "stress": "primary",
+   "long": false,
+   "strength": 0.8,
+   "vowel": true
+  },
+  {
+   "phoneme": "ʃ",
+   "viseme": "CH",
+   "start": 13.2015,
+   "end": 13.2712,
+   "word": 30,
+   "stress": null,
+   "long": false,
+   "strength": 1.0,
+   "vowel": false
+  },
+  {
+   "phoneme": "f",
+   "viseme": "FF",
+   "start": 13.3293,
+   "end": 13.3989,
+   "word": 31,
+   "stress": null,
+   "long": false,
+   "strength": 1.0,
+   "vowel": false
+  },
+  {
+   "phoneme": "ɔ",
+   "viseme": "OH",
+   "start": 13.3989,
+   "end": 13.6079,
+   "word": 31,
+   "stress": "primary",
+   "long": true,
+   "strength": 1.0,
+   "vowel": true
+  },
+  {
+   "phoneme": "w",
+   "viseme": "OO",
+   "start": 13.6079,
+   "end": 13.6776,
+   "word": 31,
+   "stress": null,
+   "long": false,
+   "strength": 1.0,
+   "vowel": false
+  },
+  {
+   "phoneme": "ə",
+   "viseme": "EH",
+   "start": 13.6776,
+   "end": 13.7588,
+   "word": 31,
+   "stress": null,
+   "long": false,
+   "strength": 0.55,
+   "vowel": true
+  },
+  {
+   "phoneme": "d",
+   "viseme": "DD",
+   "start": 13.7588,
+   "end": 13.8285,
+   "word": 31,
+   "stress": null,
+   "long": false,
+   "strength": 0.75,
+   "vowel": false
+  },
+  {
+   "phoneme": "a",
+   "viseme": "AA",
+   "start": 14.0762,
+   "end": 14.111,
+   "word": 32,
+   "stress": null,
+   "long": false,
+   "strength": 1.0,
+   "vowel": true
+  },
+  {
+   "phoneme": "n",
+   "viseme": "DD",
+   "start": 14.111,
+   "end": 14.1691,
+   "word": 32,
+   "stress": null,
+   "long": false,
+   "strength": 0.7,
+   "vowel": false
+  },
+  {
+   "phoneme": "d",
+   "viseme": "DD",
+   "start": 14.1691,
+   "end": 14.2155,
+   "word": 32,
+   "stress": null,
+   "long": false,
+   "strength": 0.75,
+   "vowel": false
+  },
+  {
+   "phoneme": "θ",
+   "viseme": "TH",
+   "start": 14.2503,
+   "end": 14.3316,
+   "word": 33,
+   "stress": null,
+   "long": false,
+   "strength": 1.0,
+   "vowel": false
+  },
+  {
+   "phoneme": "a",
+   "viseme": "AA",
+   "start": 14.3316,
+   "end": 14.4477,
+   "word": 33,
+   "stress": "primary",
+   "long": false,
+   "strength": 1.0,
+   "vowel": true
+  },
+  {
+   "phoneme": "ŋ",
+   "viseme": "KK",
+   "start": 14.4477,
+   "end": 14.4941,
+   "word": 33,
+   "stress": null,
+   "long": false,
+   "strength": 0.6,
+   "vowel": false
+  },
+  {
+   "phoneme": "k",
+   "viseme": "KK",
+   "start": 14.4941,
+   "end": 14.5406,
+   "word": 33,
+   "stress": null,
+   "long": false,
+   "strength": 1.0,
+   "vowel": false
+  },
+  {
+   "phoneme": "j",
+   "viseme": "EE",
+   "start": 14.5986,
+   "end": 14.6451,
+   "word": 34,
+   "stress": null,
+   "long": false,
+   "strength": 1.0,
+   "vowel": false
+  },
+  {
+   "phoneme": "u",
+   "viseme": "OO",
+   "start": 14.6451,
+   "end": 14.738,
+   "word": 34,
+   "stress": null,
+   "long": true,
+   "strength": 1.0,
+   "vowel": true
+  },
+  {
+   "phoneme": "f",
+   "viseme": "FF",
+   "start": 14.7728,
+   "end": 14.8192,
+   "word": 35,
+   "stress": null,
+   "long": false,
+   "strength": 1.0,
+   "vowel": false
+  },
+  {
+   "phoneme": "ɔ",
+   "viseme": "OH",
+   "start": 14.8192,
+   "end": 14.8773,
+   "word": 35,
+   "stress": null,
+   "long": true,
+   "strength": 1.0,
+   "vowel": true
+  },
+  {
+   "phoneme": "t",
+   "viseme": "DD",
+   "start": 14.9353,
+   "end": 14.9818,
+   "word": 36,
+   "stress": null,
+   "long": false,
+   "strength": 0.75,
+   "vowel": false
+  },
+  {
+   "phoneme": "ɹ",
+   "viseme": "RR",
+   "start": 14.9818,
+   "end": 15.0282,
+   "word": 36,
+   "stress": null,
+   "long": false,
+   "strength": 1.0,
+   "vowel": false
+  },
+  {
+   "phoneme": "ʌ",
+   "viseme": "AA",
+   "start": 15.0282,
+   "end": 15.1095,
+   "word": 36,
+   "stress": "primary",
+   "long": false,
+   "strength": 1.0,
+   "vowel": true
+  },
+  {
+   "phoneme": "s",
+   "viseme": "SS",
+   "start": 15.1095,
+   "end": 15.214,
+   "word": 36,
+   "stress": null,
+   "long": false,
+   "strength": 1.0,
+   "vowel": false
+  },
+  {
+   "phoneme": "t",
+   "viseme": "DD",
+   "start": 15.214,
+   "end": 15.2604,
+   "word": 36,
+   "stress": null,
+   "long": false,
+   "strength": 0.75,
+   "vowel": false
+  },
+  {
+   "phoneme": "ɪ",
+   "viseme": "EE",
+   "start": 15.2604,
+   "end": 15.2952,
+   "word": 36,
+   "stress": null,
+   "long": false,
+   "strength": 0.7,
+   "vowel": true
+  },
+  {
+   "phoneme": "ŋ",
+   "viseme": "KK",
+   "start": 15.2952,
+   "end": 15.3533,
+   "word": 36,
+   "stress": null,
+   "long": false,
+   "strength": 0.6,
+   "vowel": false
+  },
+  {
+   "phoneme": "m",
+   "viseme": "PP",
+   "start": 15.4113,
+   "end": 15.4578,
+   "word": 37,
+   "stress": null,
+   "long": false,
+   "strength": 1.0,
+   "vowel": false
+  },
+  {
+   "phoneme": "i",
+   "viseme": "EE",
+   "start": 15.4578,
+   "end": 15.5971,
+   "word": 37,
+   "stress": "secondary",
+   "long": true,
+   "strength": 1.0,
+   "vowel": true
+  }
+ ],
+ "viseme_map": {
+  "a": "AA",
+  "b": "PP",
+  "d": "DD",
+  "e": "EH",
+  "f": "FF",
+  "g": "KK",
+  "h": "KK",
+  "i": "EE",
+  "j": "EE",
+  "k": "KK",
+  "l": "DD",
+  "m": "PP",
+  "n": "DD",
+  "o": "OH",
+  "p": "PP",
+  "r": "RR",
+  "s": "SS",
+  "t": "DD",
+  "u": "OO",
+  "v": "FF",
+  "w": "OO",
+  "z": "SS",
+  "æ": "AA",
+  "ð": "TH",
+  "ŋ": "KK",
+  "ɐ": "AA",
+  "ɑ": "AA",
+  "ɒ": "OH",
+  "ɔ": "OH",
+  "ə": "EH",
+  "ɚ": "RR",
+  "ɛ": "EH",
+  "ɜ": "EH",
+  "ɝ": "RR",
+  "ɡ": "KK",
+  "ɪ": "EE",
+  "ɫ": "DD",
+  "ɹ": "RR",
+  "ɾ": "DD",
+  "ʃ": "CH",
+  "ʊ": "OO",
+  "ʌ": "AA",
+  "ʒ": "CH",
+  "θ": "TH",
+  "ᵻ": "EE"
+ }
+}

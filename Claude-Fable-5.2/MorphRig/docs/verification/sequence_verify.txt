@@ -1,0 +1,6 @@
+trace: docs/verification/sequence_trace.log
+activations: 97 (16 loops)   markers dispatched: 232 (+145 gait foot contacts)   clips used: 96 of 96
+lives: 3   refused extra deaths: 1
+coverage: all 96 inventory entries were exercised (single clips, gait/idle blends, aim grid, additive hits)
+sequence expectations: 22 of 22 met
+RESULT: no rule violated (A once per pass, B nothing after replacement, C ordered, D entry offset, E single death, F muzzle counts, G manifest names, H combined states)

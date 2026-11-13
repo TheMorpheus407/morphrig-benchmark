@@ -1,0 +1,6 @@
+trace: docs/verification/browse_all_trace.log
+activations: 127 (34 loops)   markers dispatched: 174 (+0 gait foot contacts)   clips used: 96 of 96
+lives: 1   refused extra deaths: 0
+coverage: all 96 inventory entries were exercised (single clips, gait/idle blends, aim grid, additive hits)
+motion viewer: 96 of 96 inventory entries selected and started
+RESULT: no rule violated (A once per pass, B nothing after replacement, C ordered, D entry offset, E single death, F muzzle counts, G manifest names, J motion viewer)

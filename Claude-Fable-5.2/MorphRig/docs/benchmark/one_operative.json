@@ -1,0 +1,20 @@
+{
+ "label": "one_operative",
+ "instances": 1,
+ "sample_seconds": 20.000,
+ "warmup_seconds": 10.000,
+ "frames": 9854,
+ "frame_ms": {"avg": 2.0299, "median": 1.8155, "p95": 3.3597, "p99": 5.0095, "max": 13.1139, "min": 0.7905},
+ "fps": {"avg": 492.64, "median": 550.81, "p95_low": 297.65, "p99_low": 199.62},
+ "game_thread_ms": {"avg": 0.8270, "p95": 1.5020},
+ "render_thread_ms": {"avg": 1.6971, "p95": 2.6980},
+ "gpu_ms": {"avg": 1.5439, "p95": 1.6920},
+ "resolution": [1920, 1080],
+ "render_offscreen": true,
+ "fixed_time_step": false,
+ "settings": {"r.ScreenPercentage": "100", "r.AntiAliasingMethod": "2", "r.DynamicGlobalIlluminationMethod": "0", "r.ReflectionMethod": "2", "r.Shadow.Virtual.Enable": "1", "r.VSync": "0", "t.MaxFPS": "0", "frame_generation": "none", "upscaling": "none (100% screen percentage)"},
+ "character": {"lod_triangles": [38178, 20249, 12700], "lod_mode": 0, "display_mode": 0},
+ "system": {"cpu": "AMD Ryzen 9 9950X 16-Core Processor", "physical_cores": 16, "logical_cores": 32, "ram_gb": 92, "gpu": "NVIDIA GeForce RTX 5090", "gpu_driver": "595.71", "rhi": "Vulkan", "os": "nixos26.05"},
+ "engine": "++UE5+Release-5.8-CL-58210709",
+ "build_configuration": "Development"
+}

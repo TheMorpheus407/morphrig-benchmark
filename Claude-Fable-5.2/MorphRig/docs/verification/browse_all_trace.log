@@ -1,0 +1,512 @@
+# MORPHRIG showcase trace (2026.11.10-23.13.42)
+[    0.000] DATA clips=96 bones=84 morphs=32 placeholder=0 
+[    0.000] FIXED TIME STEP 30 fps
+[    0.000] SCRIPT browse_all.txt started (203 commands)
+[    0.033] CMD hud on
+[    0.033] CMD panel on
+[    0.033] CMD panel tab anim
+[    0.033] CMD goto viewer
+[    0.033] CMD cam front
+[    0.533] CMD view idle_relaxed
+[    0.533] STATE Locomotion -> Viewer:idle_relaxed
+[    0.533] CLIP base idle_relaxed #1 t=0.000 blend=0.20
+[    1.233] CMD view idle_combat
+[    1.233] STATE Viewer:idle_relaxed -> Viewer:idle_combat
+[    1.233] CLIP base idle_combat #2 t=0.000 blend=0.20
+[    1.933] CMD view idle_wounded
+[    1.933] STATE Viewer:idle_combat -> Viewer:idle_wounded
+[    1.933] CLIP base idle_wounded #3 t=0.000 blend=0.20
+[    2.633] CMD view walk_f
+[    2.633] STATE Viewer:idle_wounded -> Viewer:walk_f
+[    2.633] CLIP base walk_f #4 t=0.000 blend=0.20
+[    2.633] EVENT foot_l_contact @0.000 clip=walk_f #4
+[    3.133] EVENT foot_r_contact @0.533 clip=walk_f #4
+[    3.333] CMD view walk_fl
+[    3.333] STATE Viewer:walk_f -> Viewer:walk_fl
+[    3.333] CLIP base walk_fl #5 t=0.000 blend=0.20
+[    3.333] EVENT foot_l_contact @0.000 clip=walk_fl #5
+[    3.800] EVENT foot_r_contact @0.500 clip=walk_fl #5
+[    4.033] CMD view walk_l
+[    4.033] STATE Viewer:walk_fl -> Viewer:walk_l
+[    4.033] CLIP base walk_l #6 t=0.000 blend=0.20
+[    4.033] EVENT foot_l_contact @0.000 clip=walk_l #6
+[    4.433] EVENT foot_r_contact @0.433 clip=walk_l #6
+[    4.733] CMD view walk_bl
+[    4.733] STATE Viewer:walk_l -> Viewer:walk_bl
+[    4.733] CLIP base walk_bl #7 t=0.000 blend=0.20
+[    4.733] EVENT foot_l_contact @0.000 clip=walk_bl #7
+[    5.200] EVENT foot_r_contact @0.467 clip=walk_bl #7
+[    5.433] CMD view walk_b
+[    5.433] STATE Viewer:walk_bl -> Viewer:walk_b
+[    5.433] CLIP base walk_b #8 t=0.000 blend=0.20
+[    5.433] EVENT foot_l_contact @0.000 clip=walk_b #8
+[    5.900] EVENT foot_r_contact @0.500 clip=walk_b #8
+[    6.133] CMD view walk_br
+[    6.133] STATE Viewer:walk_b -> Viewer:walk_br
+[    6.133] CLIP base walk_br #9 t=0.000 blend=0.20
+[    6.133] EVENT foot_l_contact @0.000 clip=walk_br #9
+[    6.600] EVENT foot_r_contact @0.467 clip=walk_br #9
+[    6.833] CMD view walk_r
+[    6.833] STATE Viewer:walk_br -> Viewer:walk_r
+[    6.833] CLIP base walk_r #10 t=0.000 blend=0.20
+[    6.833] EVENT foot_l_contact @0.000 clip=walk_r #10
+[    7.233] EVENT foot_r_contact @0.433 clip=walk_r #10
+[    7.533] CMD view walk_fr
+[    7.533] STATE Viewer:walk_r -> Viewer:walk_fr
+[    7.533] CLIP base walk_fr #11 t=0.000 blend=0.20
+[    7.533] EVENT foot_l_contact @0.000 clip=walk_fr #11
+[    8.000] EVENT foot_r_contact @0.500 clip=walk_fr #11
+[    8.233] CMD view run_f
+[    8.233] STATE Viewer:walk_fr -> Viewer:run_f
+[    8.233] CLIP base run_f #12 t=0.000 blend=0.20
+[    8.233] EVENT foot_l_contact @0.000 clip=run_f #12
+[    8.600] EVENT foot_r_contact @0.367 clip=run_f #12
+[    8.933] CMD view run_fl
+[    8.933] STATE Viewer:run_f -> Viewer:run_fl
+[    8.933] CLIP base run_fl #13 t=0.000 blend=0.20
+[    8.933] EVENT foot_l_contact @0.000 clip=run_fl #13
+[    9.300] EVENT foot_r_contact @0.367 clip=run_fl #13
+[    9.633] CMD view run_l
+[    9.633] STATE Viewer:run_fl -> Viewer:run_l
+[    9.633] CLIP base run_l #14 t=0.000 blend=0.20
+[    9.633] EVENT foot_l_contact @0.000 clip=run_l #14
+[    9.933] EVENT foot_r_contact @0.333 clip=run_l #14
+[   10.300] EVENT foot_l_contact @0.000 clip=run_l #14
+[   10.333] CMD view run_bl
+[   10.333] STATE Viewer:run_l -> Viewer:run_bl
+[   10.333] CLIP base run_bl #15 t=0.000 blend=0.20
+[   10.333] EVENT foot_l_contact @0.000 clip=run_bl #15
+[   10.633] EVENT foot_r_contact @0.333 clip=run_bl #15
+[   11.000] EVENT foot_l_contact @0.000 clip=run_bl #15
+[   11.033] CMD view run_b
+[   11.033] STATE Viewer:run_bl -> Viewer:run_b
+[   11.033] CLIP base run_b #16 t=0.000 blend=0.20
+[   11.033] EVENT foot_l_contact @0.000 clip=run_b #16
+[   11.400] EVENT foot_r_contact @0.367 clip=run_b #16
+[   11.733] CMD view run_br
+[   11.733] STATE Viewer:run_b -> Viewer:run_br
+[   11.733] CLIP base run_br #17 t=0.000 blend=0.20
+[   11.733] EVENT foot_l_contact @0.000 clip=run_br #17
+[   12.033] EVENT foot_r_contact @0.333 clip=run_br #17
+[   12.400] EVENT foot_l_contact @0.000 clip=run_br #17
+[   12.433] CMD view run_r
+[   12.433] STATE Viewer:run_br -> Viewer:run_r
+[   12.433] CLIP base run_r #18 t=0.000 blend=0.20
+[   12.433] EVENT foot_l_contact @0.000 clip=run_r #18
+[   12.733] EVENT foot_r_contact @0.333 clip=run_r #18
+[   13.100] EVENT foot_l_contact @0.000 clip=run_r #18
+[   13.133] CMD view run_fr
+[   13.133] STATE Viewer:run_r -> Viewer:run_fr
+[   13.133] CLIP base run_fr #19 t=0.000 blend=0.20
+[   13.133] EVENT foot_l_contact @0.000 clip=run_fr #19
+[   13.500] EVENT foot_r_contact @0.367 clip=run_fr #19
+[   13.833] CMD view sprint_f
+[   13.833] STATE Viewer:run_fr -> Viewer:sprint_f
+[   13.833] CLIP base sprint_f #20 t=0.000 blend=0.20
+[   13.833] EVENT foot_l_contact @0.000 clip=sprint_f #20
+[   14.100] EVENT foot_r_contact @0.267 clip=sprint_f #20
+[   14.333] EVENT foot_l_contact @0.000 clip=sprint_f #20
+[   14.533] CMD view start_f
+[   14.533] STATE Viewer:sprint_f -> Viewer:start_f
+[   14.533] CLIP base start_f #21 t=0.000 blend=0.20
+[   14.633] EVENT foot_r_contact @0.133 clip=start_f #21
+[   14.900] EVENT foot_l_contact @0.400 clip=start_f #21
+[   14.900] CLIP base start_f #22 t=0.000 blend=0.00
+[   15.033] EVENT foot_r_contact @0.133 clip=start_f #22
+[   15.233] CMD view stop_f
+[   15.233] STATE Viewer:start_f -> Viewer:stop_f
+[   15.233] CLIP base stop_f #23 t=0.000 blend=0.20
+[   15.300] EVENT foot_r_contact @0.100 clip=stop_f #23
+[   15.500] EVENT foot_l_contact @0.300 clip=stop_f #23
+[   15.700] CLIP base stop_f #24 t=0.000 blend=0.00
+[   15.800] EVENT foot_r_contact @0.100 clip=stop_f #24
+[   15.933] CMD view turn_l90
+[   15.933] STATE Viewer:stop_f -> Viewer:turn_l90
+[   15.933] CLIP base turn_l90 #25 t=0.000 blend=0.20
+[   16.200] EVENT foot_l_contact @0.267 clip=turn_l90 #25
+[   16.400] EVENT foot_r_contact @0.467 clip=turn_l90 #25
+[   16.500] CLIP base turn_l90 #26 t=0.000 blend=0.00
+[   16.633] CMD view turn_r90
+[   16.633] STATE Viewer:turn_l90 -> Viewer:turn_r90
+[   16.633] CLIP base turn_r90 #27 t=0.000 blend=0.20
+[   16.900] EVENT foot_r_contact @0.267 clip=turn_r90 #27
+[   17.100] EVENT foot_l_contact @0.467 clip=turn_r90 #27
+[   17.200] CLIP base turn_r90 #28 t=0.000 blend=0.00
+[   17.333] CMD view pivot_l180
+[   17.333] STATE Viewer:turn_r90 -> Viewer:pivot_l180
+[   17.333] CLIP base pivot_l180 #29 t=0.000 blend=0.20
+[   17.433] EVENT foot_r_contact @0.133 clip=pivot_l180 #29
+[   17.700] EVENT foot_l_contact @0.367 clip=pivot_l180 #29
+[   17.833] CLIP base pivot_l180 #30 t=0.000 blend=0.00
+[   17.967] EVENT foot_r_contact @0.133 clip=pivot_l180 #30
+[   18.033] CMD view pivot_r180
+[   18.033] STATE Viewer:pivot_l180 -> Viewer:pivot_r180
+[   18.033] CLIP base pivot_r180 #31 t=0.000 blend=0.20
+[   18.133] EVENT foot_l_contact @0.133 clip=pivot_r180 #31
+[   18.400] EVENT foot_r_contact @0.367 clip=pivot_r180 #31
+[   18.533] CLIP base pivot_r180 #32 t=0.000 blend=0.00
+[   18.667] EVENT foot_l_contact @0.133 clip=pivot_r180 #32
+[   18.733] CMD view jump_start
+[   18.733] STATE Viewer:pivot_r180 -> Viewer:jump_start
+[   18.733] CLIP base jump_start #33 t=0.000 blend=0.20
+[   18.900] EVENT jump_takeoff @0.200 clip=jump_start #33
+[   19.000] CLIP base jump_start #34 t=0.000 blend=0.00
+[   19.200] EVENT jump_takeoff @0.200 clip=jump_start #34
+[   19.300] CLIP base jump_start #35 t=0.000 blend=0.00
+[   19.433] CMD view jump_air
+[   19.433] STATE Viewer:jump_start -> Viewer:jump_air
+[   19.433] CLIP base jump_air #36 t=0.000 blend=0.20
+[   20.133] CMD view jump_land
+[   20.133] STATE Viewer:jump_air -> Viewer:jump_land
+[   20.133] CLIP base jump_land #37 t=0.000 blend=0.20
+[   20.133] EVENT land_impact @0.000 clip=jump_land #37
+[   20.133] EVENT foot_l_contact @0.000 clip=jump_land #37
+[   20.133] EVENT foot_r_contact @0.000 clip=jump_land #37
+[   20.600] CLIP base jump_land #38 t=0.000 blend=0.00
+[   20.633] EVENT land_impact @0.000 clip=jump_land #38
+[   20.633] EVENT foot_l_contact @0.000 clip=jump_land #38
+[   20.633] EVENT foot_r_contact @0.000 clip=jump_land #38
+[   20.833] CMD view fall
+[   20.833] STATE Viewer:jump_land -> Viewer:fall
+[   20.833] CLIP base fall #39 t=0.000 blend=0.20
+[   21.533] CMD view land_heavy
+[   21.533] STATE Viewer:fall -> Viewer:land_heavy
+[   21.533] CLIP base land_heavy #40 t=0.000 blend=0.20
+[   21.533] EVENT land_impact @0.000 clip=land_heavy #40
+[   21.533] EVENT foot_l_contact @0.000 clip=land_heavy #40
+[   21.533] EVENT foot_r_contact @0.000 clip=land_heavy #40
+[   21.700] EVENT hand_plant @0.167 clip=land_heavy #40
+[   22.133] EVENT foot_l_contact @0.633 clip=land_heavy #40
+[   22.233] CMD view dash_f
+[   22.233] STATE Viewer:land_heavy -> Viewer:dash_f
+[   22.233] CLIP base dash_f #41 t=0.000 blend=0.20
+[   22.300] EVENT dash_start @0.067 clip=dash_f #41
+[   22.533] EVENT dash_end @0.333 clip=dash_f #41
+[   22.533] EVENT foot_l_contact @0.333 clip=dash_f #41
+[   22.533] EVENT foot_r_contact @0.333 clip=dash_f #41
+[   22.600] CLIP base dash_f #42 t=0.000 blend=0.00
+[   22.700] EVENT dash_start @0.067 clip=dash_f #42
+[   22.933] CMD view dash_b
+[   22.933] STATE Viewer:dash_f -> Viewer:dash_b
+[   22.933] CLIP base dash_b #43 t=0.000 blend=0.20
+[   23.000] EVENT dash_start @0.067 clip=dash_b #43
+[   23.233] EVENT dash_end @0.333 clip=dash_b #43
+[   23.233] EVENT foot_l_contact @0.333 clip=dash_b #43
+[   23.233] EVENT foot_r_contact @0.333 clip=dash_b #43
+[   23.300] CLIP base dash_b #44 t=0.000 blend=0.00
+[   23.400] EVENT dash_start @0.067 clip=dash_b #44
+[   23.633] CMD view dash_l
+[   23.633] STATE Viewer:dash_b -> Viewer:dash_l
+[   23.633] CLIP base dash_l #45 t=0.000 blend=0.20
+[   23.700] EVENT dash_start @0.067 clip=dash_l #45
+[   23.933] EVENT dash_end @0.333 clip=dash_l #45
+[   23.933] EVENT foot_l_contact @0.333 clip=dash_l #45
+[   23.933] EVENT foot_r_contact @0.333 clip=dash_l #45
+[   24.000] CLIP base dash_l #46 t=0.000 blend=0.00
+[   24.100] EVENT dash_start @0.067 clip=dash_l #46
+[   24.333] CMD view dash_r
+[   24.333] STATE Viewer:dash_l -> Viewer:dash_r
+[   24.333] CLIP base dash_r #47 t=0.000 blend=0.20
+[   24.400] EVENT dash_start @0.067 clip=dash_r #47
+[   24.633] EVENT dash_end @0.333 clip=dash_r #47
+[   24.633] EVENT foot_l_contact @0.333 clip=dash_r #47
+[   24.633] EVENT foot_r_contact @0.333 clip=dash_r #47
+[   24.700] CLIP base dash_r #48 t=0.000 blend=0.00
+[   24.800] EVENT dash_start @0.067 clip=dash_r #48
+[   25.033] CMD view blink_out
+[   25.033] STATE Viewer:dash_r -> Viewer:blink_out
+[   25.033] CLIP base blink_out #49 t=0.000 blend=0.20
+[   25.300] EVENT blink_vanish @0.267 clip=blink_out #49
+[   25.300] CLIP base blink_out #50 t=0.000 blend=0.00
+[   25.600] EVENT blink_vanish @0.267 clip=blink_out #50
+[   25.600] CLIP base blink_out #51 t=0.000 blend=0.00
+[   25.733] CMD view blink_in
+[   25.733] STATE Viewer:blink_out -> Viewer:blink_in
+[   25.733] CLIP base blink_in #52 t=0.000 blend=0.20
+[   25.733] EVENT blink_appear @0.000 clip=blink_in #52
+[   25.800] EVENT foot_l_contact @0.100 clip=blink_in #52
+[   25.800] EVENT foot_r_contact @0.100 clip=blink_in #52
+[   26.100] CLIP base blink_in #53 t=0.000 blend=0.00
+[   26.133] EVENT blink_appear @0.000 clip=blink_in #53
+[   26.200] EVENT foot_l_contact @0.100 clip=blink_in #53
+[   26.200] EVENT foot_r_contact @0.100 clip=blink_in #53
+[   26.433] CMD view melee_1
+[   26.433] STATE Viewer:blink_in -> Viewer:melee_1
+[   26.433] CLIP base melee_1 #54 t=0.000 blend=0.20
+[   26.500] EVENT blade_extend @0.067 clip=melee_1 #54
+[   26.700] EVENT hit_begin @0.267 clip=melee_1 #54
+[   26.800] EVENT hit_end @0.400 clip=melee_1 #54
+[   26.833] EVENT combo_window @0.433 clip=melee_1 #54
+[   26.933] EVENT recovery @0.533 clip=melee_1 #54
+[   27.133] CMD view melee_2
+[   27.133] STATE Viewer:melee_1 -> Viewer:melee_2
+[   27.133] CLIP base melee_2 #55 t=0.000 blend=0.20
+[   27.400] EVENT hit_begin @0.267 clip=melee_2 #55
+[   27.500] EVENT hit_end @0.400 clip=melee_2 #55
+[   27.533] EVENT combo_window @0.433 clip=melee_2 #55
+[   27.633] EVENT recovery @0.533 clip=melee_2 #55
+[   27.833] CMD view melee_3
+[   27.833] STATE Viewer:melee_2 -> Viewer:melee_3
+[   27.833] CLIP base melee_3 #56 t=0.000 blend=0.20
+[   28.200] EVENT hit_begin @0.400 clip=melee_3 #56
+[   28.300] EVENT foot_r_contact @0.467 clip=melee_3 #56
+[   28.400] EVENT hit_end @0.567 clip=melee_3 #56
+[   28.533] CMD view ranged_fire
+[   28.533] STATE Viewer:melee_3 -> Viewer:ranged_fire
+[   28.533] CLIP base ranged_fire #57 t=0.000 blend=0.20
+[   28.600] EVENT muzzle_1 @0.067 clip=ranged_fire #57
+[   28.700] EVENT recovery @0.167 clip=ranged_fire #57
+[   28.833] CLIP base ranged_fire #58 t=0.000 blend=0.00
+[   28.933] EVENT muzzle_1 @0.067 clip=ranged_fire #58
+[   29.033] EVENT recovery @0.167 clip=ranged_fire #58
+[   29.167] CLIP base ranged_fire #59 t=0.000 blend=0.00
+[   29.233] CMD view ranged_burst
+[   29.233] STATE Viewer:ranged_fire -> Viewer:ranged_burst
+[   29.233] CLIP base ranged_burst #60 t=0.000 blend=0.20
+[   29.300] EVENT muzzle_1 @0.067 clip=ranged_burst #60
+[   29.400] EVENT muzzle_2 @0.200 clip=ranged_burst #60
+[   29.533] EVENT muzzle_3 @0.333 clip=ranged_burst #60
+[   29.633] EVENT recovery @0.433 clip=ranged_burst #60
+[   29.800] CLIP base ranged_burst #61 t=0.000 blend=0.00
+[   29.900] EVENT muzzle_1 @0.067 clip=ranged_burst #61
+[   29.933] CMD view reload
+[   29.933] STATE Viewer:ranged_burst -> Viewer:reload
+[   29.933] CLIP base reload #62 t=0.000 blend=0.20
+[   30.400] EVENT reload_eject @0.467 clip=reload #62
+[   30.633] CMD view cast_directional
+[   30.633] STATE Viewer:reload -> Viewer:cast_directional
+[   30.633] CLIP base cast_directional #63 t=0.000 blend=0.20
+[   31.000] EVENT cast_release @0.367 clip=cast_directional #63
+[   31.133] EVENT recovery @0.533 clip=cast_directional #63
+[   31.333] CMD view cast_ground
+[   31.333] STATE Viewer:cast_directional -> Viewer:cast_ground
+[   31.333] CLIP base cast_ground #64 t=0.000 blend=0.20
+[   31.900] EVENT cast_release @0.600 clip=cast_ground #64
+[   32.033] CMD view cast_self
+[   32.033] STATE Viewer:cast_ground -> Viewer:cast_self
+[   32.033] CLIP base cast_self #65 t=0.000 blend=0.20
+[   32.433] EVENT cast_release @0.433 clip=cast_self #65
+[   32.700] EVENT recovery @0.700 clip=cast_self #65
+[   32.733] CMD view channel_start
+[   32.733] STATE Viewer:cast_self -> Viewer:channel_start
+[   32.733] CLIP base channel_start #66 t=0.000 blend=0.20
+[   33.033] EVENT channel_begin @0.333 clip=channel_start #66
+[   33.100] CLIP base channel_start #67 t=0.000 blend=0.00
+[   33.433] CMD view channel_loop
+[   33.433] STATE Viewer:channel_start -> Viewer:channel_loop
+[   33.433] CLIP base channel_loop #68 t=0.000 blend=0.20
+[   33.433] EVENT channel_tick @0.000 clip=channel_loop #68
+[   34.100] EVENT channel_tick @0.667 clip=channel_loop #68
+[   34.133] CMD view channel_end
+[   34.133] STATE Viewer:channel_loop -> Viewer:channel_end
+[   34.133] CLIP base channel_end #69 t=0.000 blend=0.20
+[   34.200] EVENT channel_complete @0.100 clip=channel_end #69
+[   34.600] CLIP base channel_end #70 t=0.000 blend=0.00
+[   34.700] EVENT channel_complete @0.100 clip=channel_end #70
+[   34.833] CMD view channel_interrupt
+[   34.833] STATE Viewer:channel_end -> Viewer:channel_interrupt
+[   34.833] CLIP base channel_interrupt #71 t=0.000 blend=0.20
+[   34.833] EVENT channel_interrupted @0.000 clip=channel_interrupt #71
+[   35.200] CLIP base channel_interrupt #72 t=0.000 blend=0.00
+[   35.233] EVENT channel_interrupted @0.000 clip=channel_interrupt #72
+[   35.533] CMD view charge_start
+[   35.533] STATE Viewer:channel_interrupt -> Viewer:charge_start
+[   35.533] CLIP base charge_start #73 t=0.000 blend=0.20
+[   35.600] EVENT charge_begin @0.100 clip=charge_start #73
+[   36.100] EVENT charge_ready @0.567 clip=charge_start #73
+[   36.100] CLIP base charge_start #74 t=0.000 blend=0.00
+[   36.200] EVENT charge_begin @0.100 clip=charge_start #74
+[   36.233] CMD view charge_hold
+[   36.233] STATE Viewer:charge_start -> Viewer:charge_hold
+[   36.233] CLIP base charge_hold #75 t=0.000 blend=0.20
+[   36.233] EVENT charge_pulse @0.000 clip=charge_hold #75
+[   36.933] CMD view charge_release
+[   36.933] STATE Viewer:charge_hold -> Viewer:charge_release
+[   36.933] CLIP base charge_release #76 t=0.000 blend=0.20
+[   37.033] EVENT charge_released @0.133 clip=charge_release #76
+[   37.300] EVENT recovery @0.400 clip=charge_release #76
+[   37.600] CLIP base charge_release #77 t=0.000 blend=0.00
+[   37.633] CMD view charge_cancel
+[   37.633] STATE Viewer:charge_release -> Viewer:charge_cancel
+[   37.633] CLIP base charge_cancel #78 t=0.000 blend=0.20
+[   37.700] EVENT charge_cancelled @0.067 clip=charge_cancel #78
+[   38.100] CLIP base charge_cancel #79 t=0.000 blend=0.00
+[   38.200] EVENT charge_cancelled @0.067 clip=charge_cancel #79
+[   38.333] CMD view deploy
+[   38.333] STATE Viewer:charge_cancel -> Viewer:deploy
+[   38.333] CLIP base deploy #80 t=0.000 blend=0.20
+[   38.600] EVENT deploy_grab @0.300 clip=deploy #80
+[   39.033] CMD view uplink_start
+[   39.033] STATE Viewer:deploy -> Viewer:uplink_start
+[   39.033] CLIP base uplink_start #81 t=0.000 blend=0.20
+[   39.300] EVENT foot_r_contact @0.267 clip=uplink_start #81
+[   39.433] EVENT foot_l_contact @0.433 clip=uplink_start #81
+[   39.533] EVENT uplink_begin @0.533 clip=uplink_start #81
+[   39.700] CLIP base uplink_start #82 t=0.000 blend=0.00
+[   39.733] CMD view uplink_loop
+[   39.733] STATE Viewer:uplink_start -> Viewer:uplink_loop
+[   39.733] CLIP base uplink_loop #83 t=0.000 blend=0.20
+[   39.733] EVENT uplink_pulse @0.000 clip=uplink_loop #83
+[   40.433] CMD view uplink_end
+[   40.433] STATE Viewer:uplink_loop -> Viewer:uplink_end
+[   40.433] CLIP base uplink_end #84 t=0.000 blend=0.20
+[   40.600] EVENT uplink_complete @0.167 clip=uplink_end #84
+[   40.933] CLIP base uplink_end #85 t=0.000 blend=0.00
+[   41.133] CMD view uplink_cancel
+[   41.133] STATE Viewer:uplink_end -> Viewer:uplink_cancel
+[   41.133] CLIP base uplink_cancel #86 t=0.000 blend=0.20
+[   41.133] EVENT uplink_cancelled @0.000 clip=uplink_cancel #86
+[   41.433] EVENT foot_r_contact @0.333 clip=uplink_cancel #86
+[   41.533] EVENT foot_l_contact @0.433 clip=uplink_cancel #86
+[   41.533] CLIP base uplink_cancel #87 t=0.000 blend=0.00
+[   41.567] EVENT uplink_cancelled @0.000 clip=uplink_cancel #87
+[   41.833] CMD view hit_f
+[   41.833] STATE Viewer:uplink_cancel -> Viewer:hit_f
+[   41.833] CLIP base idle_combat #88 t=0.000 blend=0.20
+[   41.833] VIEW additive hit_f layered over idle_combat (re-triggered every 0.93 s)
+[   42.533] CMD view hit_b
+[   42.533] STATE Viewer:hit_f -> Viewer:hit_b
+[   42.533] CLIP base idle_combat #89 t=0.000 blend=0.20
+[   42.533] VIEW additive hit_b layered over idle_combat (re-triggered every 0.93 s)
+[   43.233] CMD view hit_l
+[   43.233] STATE Viewer:hit_b -> Viewer:hit_l
+[   43.233] CLIP base idle_combat #90 t=0.000 blend=0.20
+[   43.233] VIEW additive hit_l layered over idle_combat (re-triggered every 0.93 s)
+[   43.933] CMD view hit_r
+[   43.933] STATE Viewer:hit_l -> Viewer:hit_r
+[   43.933] CLIP base idle_combat #91 t=0.000 blend=0.20
+[   43.933] VIEW additive hit_r layered over idle_combat (re-triggered every 0.93 s)
+[   44.633] CMD view stun_start
+[   44.633] STATE Viewer:hit_r -> Viewer:stun_start
+[   44.633] CLIP base stun_start #92 t=0.000 blend=0.20
+[   44.633] EVENT stun_begin @0.000 clip=stun_start #92
+[   44.900] EVENT foot_l_contact @0.267 clip=stun_start #92
+[   45.000] EVENT foot_r_contact @0.400 clip=stun_start #92
+[   45.100] CLIP base stun_start #93 t=0.000 blend=0.00
+[   45.133] EVENT stun_begin @0.000 clip=stun_start #93
+[   45.333] CMD view stun_loop
+[   45.333] STATE Viewer:stun_start -> Viewer:stun_loop
+[   45.333] CLIP base stun_loop #94 t=0.000 blend=0.20
+[   46.033] CMD view stun_end
+[   46.033] STATE Viewer:stun_loop -> Viewer:stun_end
+[   46.033] CLIP base stun_end #95 t=0.000 blend=0.20
+[   46.500] EVENT foot_l_contact @0.467 clip=stun_end #95
+[   46.500] EVENT control_regained @0.467 clip=stun_end #95
+[   46.533] EVENT foot_r_contact @0.533 clip=stun_end #95
+[   46.600] CLIP base stun_end #96 t=0.000 blend=0.00
+[   46.733] CMD view knockback
+[   46.733] STATE Viewer:stun_end -> Viewer:knockback
+[   46.733] CLIP base knockback #97 t=0.000 blend=0.20
+[   46.733] EVENT knockback_begin @0.000 clip=knockback #97
+[   47.200] EVENT foot_l_contact @0.467 clip=knockback #97
+[   47.300] EVENT foot_r_contact @0.600 clip=knockback #97
+[   47.400] EVENT control_regained @0.667 clip=knockback #97
+[   47.433] CMD view knockup_start
+[   47.433] STATE Viewer:knockback -> Viewer:knockup_start
+[   47.433] CLIP base knockup_start #98 t=0.000 blend=0.20
+[   47.500] EVENT knockup_launch @0.067 clip=knockup_start #98
+[   47.800] CLIP base knockup_start #99 t=0.000 blend=0.00
+[   47.900] EVENT knockup_launch @0.067 clip=knockup_start #99
+[   48.133] CMD view knockup_air
+[   48.133] STATE Viewer:knockup_start -> Viewer:knockup_air
+[   48.133] CLIP base knockup_air #100 t=0.000 blend=0.20
+[   48.833] CMD view knockdown_front
+[   48.833] STATE Viewer:knockup_air -> Viewer:knockdown_front
+[   48.833] CLIP base knockdown_front #101 t=0.000 blend=0.20
+[   49.500] EVENT ground_impact @0.667 clip=knockdown_front #101
+[   49.533] CMD view knockdown_back
+[   49.533] STATE Viewer:knockdown_front -> Viewer:knockdown_back
+[   49.533] CLIP base knockdown_back #102 t=0.000 blend=0.20
+[   50.200] EVENT ground_impact @0.667 clip=knockdown_back #102
+[   50.233] CMD view prone_front
+[   50.233] STATE Viewer:knockdown_back -> Viewer:prone_front
+[   50.233] CLIP base prone_front #103 t=0.000 blend=0.20
+[   50.933] CMD view prone_back
+[   50.933] STATE Viewer:prone_front -> Viewer:prone_back
+[   50.933] CLIP base prone_back #104 t=0.000 blend=0.20
+[   51.633] CMD view getup_front
+[   51.633] STATE Viewer:prone_back -> Viewer:getup_front
+[   51.633] CLIP base getup_front #105 t=0.000 blend=0.20
+[   51.933] EVENT hand_plant @0.333 clip=getup_front #105
+[   52.333] CMD view getup_back
+[   52.333] STATE Viewer:getup_front -> Viewer:getup_back
+[   52.333] CLIP base getup_back #106 t=0.000 blend=0.20
+[   52.700] EVENT hand_plant @0.400 clip=getup_back #106
+[   53.033] CMD view sleep_start
+[   53.033] STATE Viewer:getup_back -> Viewer:sleep_start
+[   53.033] CLIP base sleep_start #107 t=0.000 blend=0.20
+[   53.033] EVENT sleep_begin @0.000 clip=sleep_start #107
+[   53.733] CMD view sleep_loop
+[   53.733] STATE Viewer:sleep_start -> Viewer:sleep_loop
+[   53.733] CLIP base sleep_loop #108 t=0.000 blend=0.20
+[   54.433] CMD view sleep_end
+[   54.433] STATE Viewer:sleep_loop -> Viewer:sleep_end
+[   54.433] CLIP base sleep_end #109 t=0.000 blend=0.20
+[   55.100] EVENT foot_l_contact @0.700 clip=sleep_end #109
+[   55.133] CMD view death_front
+[   55.133] STATE Viewer:sleep_end -> Viewer:death_front
+[   55.133] CLIP base death_front #110 t=0.000 blend=0.20
+[   55.133] EVENT death_begin @0.000 clip=death_front #110
+[   55.400] EVENT foot_r_contact @0.267 clip=death_front #110
+[   55.833] CMD view death_back
+[   55.833] STATE Viewer:death_front -> Viewer:death_back
+[   55.833] CLIP base death_back #111 t=0.000 blend=0.20
+[   55.833] EVENT death_begin @0.000 clip=death_back #111
+[   56.100] EVENT foot_l_contact @0.267 clip=death_back #111
+[   56.533] CMD view dead_front
+[   56.533] STATE Viewer:death_back -> Viewer:dead_front
+[   56.533] CLIP base dead_front #112 t=0.000 blend=0.20
+[   57.233] CMD view dead_back
+[   57.233] STATE Viewer:dead_front -> Viewer:dead_back
+[   57.233] CLIP base dead_back #113 t=0.000 blend=0.20
+[   57.933] CMD view respawn
+[   57.933] STATE Viewer:dead_back -> Viewer:respawn
+[   57.933] CLIP base respawn #114 t=0.000 blend=0.20
+[   57.933] EVENT respawn_materialize @0.000 clip=respawn #114
+[   58.633] CMD view greet
+[   58.633] STATE Viewer:respawn -> Viewer:greet
+[   58.633] CLIP base greet #115 t=0.000 blend=0.20
+[   59.333] CMD view victory
+[   59.333] STATE Viewer:greet -> Viewer:victory
+[   59.333] CLIP base victory #116 t=0.000 blend=0.20
+[   59.900] EVENT gesture_peak @0.567 clip=victory #116
+[   60.033] CMD view defeat
+[   60.033] STATE Viewer:victory -> Viewer:defeat
+[   60.033] CLIP base defeat #117 t=0.000 blend=0.20
+[   60.733] CMD view dialogue
+[   60.733] STATE Viewer:defeat -> Viewer:dialogue
+[   60.733] CLIP base dialogue #118 t=0.000 blend=0.20
+[   61.000] EVENT line_start @0.300 clip=dialogue #118
+[   61.933] CMD view aim_down_left
+[   61.933] STATE Viewer:dialogue -> Viewer:aim_down_left
+[   61.933] CLIP base aim_down_left #119 t=0.000 blend=0.20
+[   62.633] CMD view aim_down_center
+[   62.633] STATE Viewer:aim_down_left -> Viewer:aim_down_center
+[   62.633] CLIP base aim_down_center #120 t=0.000 blend=0.20
+[   63.333] CMD view aim_down_right
+[   63.333] STATE Viewer:aim_down_center -> Viewer:aim_down_right
+[   63.333] CLIP base aim_down_right #121 t=0.000 blend=0.20
+[   64.033] CMD view aim_level_left
+[   64.033] STATE Viewer:aim_down_right -> Viewer:aim_level_left
+[   64.033] CLIP base aim_level_left #122 t=0.000 blend=0.20
+[   64.733] CMD view aim_level_center
+[   64.733] STATE Viewer:aim_level_left -> Viewer:aim_level_center
+[   64.733] CLIP base aim_level_center #123 t=0.000 blend=0.20
+[   65.433] CMD view aim_level_right
+[   65.433] STATE Viewer:aim_level_center -> Viewer:aim_level_right
+[   65.433] CLIP base aim_level_right #124 t=0.000 blend=0.20
+[   66.133] CMD view aim_up_left
+[   66.133] STATE Viewer:aim_level_right -> Viewer:aim_up_left
+[   66.133] CLIP base aim_up_left #125 t=0.000 blend=0.20
+[   66.833] CMD view aim_up_center
+[   66.833] STATE Viewer:aim_up_left -> Viewer:aim_up_center
+[   66.833] CLIP base aim_up_center #126 t=0.000 blend=0.20
+[   67.533] CMD view aim_up_right
+[   67.533] STATE Viewer:aim_up_center -> Viewer:aim_up_right
+[   67.533] CLIP base aim_up_right #127 t=0.000 blend=0.20
+[   68.233] CMD view refpose
+[   68.233] STATE Viewer:aim_up_right -> Viewer:reference_pose
+[   68.733] CMD viewer exit
+[   68.733] STATE Viewer:reference_pose -> Locomotion
+[   69.233] CMD quit
+[   69.233] SCRIPT browse_all.txt finished at t=69.233

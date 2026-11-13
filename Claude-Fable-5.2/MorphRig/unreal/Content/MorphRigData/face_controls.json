@@ -1,0 +1,660 @@
+{
+ "schema": "morphrig.face_controls/1",
+ "description": "Face control vocabulary. Controls are 0..1 channels; morph controls drive the morph target of the same name, bone controls add the listed bone-local offsets (scaled linearly; rotations by slerp from identity). Visemes and expressions are linear combinations of controls. final(control) = clamp01(direct + sum(viseme*w) + sum(expression*w)).",
+ "morph_targets": [
+  "brow_inner_up_l",
+  "brow_inner_up_r",
+  "brow_outer_up_l",
+  "brow_outer_up_r",
+  "brow_down_l",
+  "brow_down_r",
+  "squint_l",
+  "squint_r",
+  "cheek_raise_l",
+  "cheek_raise_r",
+  "cheek_puff_l",
+  "cheek_puff_r",
+  "nose_sneer_l",
+  "nose_sneer_r",
+  "smile_l",
+  "smile_r",
+  "frown_l",
+  "frown_r",
+  "mouth_wide_l",
+  "mouth_wide_r",
+  "upper_lip_up_l",
+  "upper_lip_up_r",
+  "lower_lip_down_l",
+  "lower_lip_down_r",
+  "pucker",
+  "funnel",
+  "lip_press",
+  "mouth_close",
+  "lip_roll_upper",
+  "lip_roll_lower",
+  "labiodental",
+  "chin_raise"
+ ],
+ "controls": [
+  "brow_inner_up_l",
+  "brow_inner_up_r",
+  "brow_outer_up_l",
+  "brow_outer_up_r",
+  "brow_down_l",
+  "brow_down_r",
+  "squint_l",
+  "squint_r",
+  "cheek_raise_l",
+  "cheek_raise_r",
+  "cheek_puff_l",
+  "cheek_puff_r",
+  "nose_sneer_l",
+  "nose_sneer_r",
+  "smile_l",
+  "smile_r",
+  "frown_l",
+  "frown_r",
+  "mouth_wide_l",
+  "mouth_wide_r",
+  "upper_lip_up_l",
+  "upper_lip_up_r",
+  "lower_lip_down_l",
+  "lower_lip_down_r",
+  "pucker",
+  "funnel",
+  "lip_press",
+  "mouth_close",
+  "lip_roll_upper",
+  "lip_roll_lower",
+  "labiodental",
+  "chin_raise",
+  "jaw_open",
+  "jaw_left",
+  "jaw_right",
+  "jaw_forward",
+  "blink_l",
+  "blink_r",
+  "eye_wide_l",
+  "eye_wide_r",
+  "tongue_up",
+  "tongue_out"
+ ],
+ "bone_controls": {
+  "jaw_open": [
+   {
+    "bone": "jaw",
+    "kind": "rot",
+    "blender_axis": "X",
+    "degrees": 21.0,
+    "blender_quat_wxyz": [
+     0.98325491,
+     0.18223553,
+     0.0,
+     0.0
+    ],
+    "unreal_quat_xyzw": [
+     -0.18223553,
+     0.0,
+     -0.0,
+     0.98325491
+    ]
+   }
+  ],
+  "jaw_left": [
+   {
+    "bone": "jaw",
+    "kind": "rot",
+    "blender_axis": "Z",
+    "degrees": 5.0,
+    "blender_quat_wxyz": [
+     0.99904822,
+     0.0,
+     0.0,
+     0.04361939
+    ],
+    "unreal_quat_xyzw": [
+     -0.0,
+     0.0,
+     -0.04361939,
+     0.99904822
+    ]
+   }
+  ],
+  "jaw_right": [
+   {
+    "bone": "jaw",
+    "kind": "rot",
+    "blender_axis": "Z",
+    "degrees": -5.0,
+    "blender_quat_wxyz": [
+     0.99904822,
+     -0.0,
+     -0.0,
+     -0.04361939
+    ],
+    "unreal_quat_xyzw": [
+     0.0,
+     -0.0,
+     0.04361939,
+     0.99904822
+    ]
+   }
+  ],
+  "jaw_forward": [
+   {
+    "bone": "jaw",
+    "kind": "loc",
+    "blender_axis": "Y",
+    "metres": 0.0035,
+    "blender_loc_m": [
+     0.0,
+     0.0035,
+     0.0
+    ],
+    "unreal_loc_cm": [
+     0.0,
+     -0.35,
+     0.0
+    ]
+   }
+  ],
+  "blink_l": [
+   {
+    "bone": "lid_upper_l",
+    "kind": "rot",
+    "blender_axis": "X",
+    "degrees": -40.5,
+    "blender_quat_wxyz": [
+     0.93819134,
+     -0.34611706,
+     -0.0,
+     -0.0
+    ],
+    "unreal_quat_xyzw": [
+     0.34611706,
+     -0.0,
+     0.0,
+     0.93819134
+    ]
+   },
+   {
+    "bone": "lid_lower_l",
+    "kind": "rot",
+    "blender_axis": "X",
+    "degrees": 11.0,
+    "blender_quat_wxyz": [
+     0.9953962,
+     0.09584575,
+     0.0,
+     0.0
+    ],
+    "unreal_quat_xyzw": [
+     -0.09584575,
+     0.0,
+     -0.0,
+     0.9953962
+    ]
+   }
+  ],
+  "blink_r": [
+   {
+    "bone": "lid_upper_r",
+    "kind": "rot",
+    "blender_axis": "X",
+    "degrees": -40.5,
+    "blender_quat_wxyz": [
+     0.93819134,
+     -0.34611706,
+     -0.0,
+     -0.0
+    ],
+    "unreal_quat_xyzw": [
+     0.34611706,
+     -0.0,
+     0.0,
+     0.93819134
+    ]
+   },
+   {
+    "bone": "lid_lower_r",
+    "kind": "rot",
+    "blender_axis": "X",
+    "degrees": 11.0,
+    "blender_quat_wxyz": [
+     0.9953962,
+     0.09584575,
+     0.0,
+     0.0
+    ],
+    "unreal_quat_xyzw": [
+     -0.09584575,
+     0.0,
+     -0.0,
+     0.9953962
+    ]
+   }
+  ],
+  "eye_wide_l": [
+   {
+    "bone": "lid_upper_l",
+    "kind": "rot",
+    "blender_axis": "X",
+    "degrees": 9.0,
+    "blender_quat_wxyz": [
+     0.99691733,
+     0.0784591,
+     0.0,
+     0.0
+    ],
+    "unreal_quat_xyzw": [
+     -0.0784591,
+     0.0,
+     -0.0,
+     0.99691733
+    ]
+   },
+   {
+    "bone": "lid_lower_l",
+    "kind": "rot",
+    "blender_axis": "X",
+    "degrees": -3.0,
+    "blender_quat_wxyz": [
+     0.99965732,
+     -0.02617695,
+     -0.0,
+     -0.0
+    ],
+    "unreal_quat_xyzw": [
+     0.02617695,
+     -0.0,
+     0.0,
+     0.99965732
+    ]
+   }
+  ],
+  "eye_wide_r": [
+   {
+    "bone": "lid_upper_r",
+    "kind": "rot",
+    "blender_axis": "X",
+    "degrees": 9.0,
+    "blender_quat_wxyz": [
+     0.99691733,
+     0.0784591,
+     0.0,
+     0.0
+    ],
+    "unreal_quat_xyzw": [
+     -0.0784591,
+     0.0,
+     -0.0,
+     0.99691733
+    ]
+   },
+   {
+    "bone": "lid_lower_r",
+    "kind": "rot",
+    "blender_axis": "X",
+    "degrees": -3.0,
+    "blender_quat_wxyz": [
+     0.99965732,
+     -0.02617695,
+     -0.0,
+     -0.0
+    ],
+    "unreal_quat_xyzw": [
+     0.02617695,
+     -0.0,
+     0.0,
+     0.99965732
+    ]
+   }
+  ],
+  "squint_l": [
+   {
+    "bone": "lid_lower_l",
+    "kind": "rot",
+    "blender_axis": "X",
+    "degrees": 10.0,
+    "blender_quat_wxyz": [
+     0.9961947,
+     0.08715574,
+     0.0,
+     0.0
+    ],
+    "unreal_quat_xyzw": [
+     -0.08715574,
+     0.0,
+     -0.0,
+     0.9961947
+    ]
+   },
+   {
+    "bone": "lid_upper_l",
+    "kind": "rot",
+    "blender_axis": "X",
+    "degrees": -6.0,
+    "blender_quat_wxyz": [
+     0.99862953,
+     -0.05233596,
+     -0.0,
+     -0.0
+    ],
+    "unreal_quat_xyzw": [
+     0.05233596,
+     -0.0,
+     0.0,
+     0.99862953
+    ]
+   }
+  ],
+  "squint_r": [
+   {
+    "bone": "lid_lower_r",
+    "kind": "rot",
+    "blender_axis": "X",
+    "degrees": 10.0,
+    "blender_quat_wxyz": [
+     0.9961947,
+     0.08715574,
+     0.0,
+     0.0
+    ],
+    "unreal_quat_xyzw": [
+     -0.08715574,
+     0.0,
+     -0.0,
+     0.9961947
+    ]
+   },
+   {
+    "bone": "lid_upper_r",
+    "kind": "rot",
+    "blender_axis": "X",
+    "degrees": -6.0,
+    "blender_quat_wxyz": [
+     0.99862953,
+     -0.05233596,
+     -0.0,
+     -0.0
+    ],
+    "unreal_quat_xyzw": [
+     0.05233596,
+     -0.0,
+     0.0,
+     0.99862953
+    ]
+   }
+  ],
+  "tongue_up": [
+   {
+    "bone": "tongue_01",
+    "kind": "rot",
+    "blender_axis": "X",
+    "degrees": 10.0,
+    "blender_quat_wxyz": [
+     0.9961947,
+     0.08715574,
+     0.0,
+     0.0
+    ],
+    "unreal_quat_xyzw": [
+     -0.08715574,
+     0.0,
+     -0.0,
+     0.9961947
+    ]
+   },
+   {
+    "bone": "tongue_02",
+    "kind": "rot",
+    "blender_axis": "X",
+    "degrees": 32.0,
+    "blender_quat_wxyz": [
+     0.9612617,
+     0.27563736,
+     0.0,
+     0.0
+    ],
+    "unreal_quat_xyzw": [
+     -0.27563736,
+     0.0,
+     -0.0,
+     0.9612617
+    ]
+   }
+  ],
+  "tongue_out": [
+   {
+    "bone": "tongue_01",
+    "kind": "loc",
+    "blender_axis": "Y",
+    "metres": 0.011,
+    "blender_loc_m": [
+     0.0,
+     0.011,
+     0.0
+    ],
+    "unreal_loc_cm": [
+     0.0,
+     -1.1,
+     0.0
+    ]
+   }
+  ]
+ },
+ "eye_look": {
+  "max_yaw_deg": 32.0,
+  "max_pitch_up_deg": 22.0,
+  "max_pitch_down_deg": 28.0,
+  "lid_upper_follow": 0.62,
+  "lid_lower_follow": 0.32,
+  "bones": [
+   "eye_l",
+   "eye_r"
+  ],
+  "note": "eye bones aim along their local Y (Blender) / -Y (Unreal); lids add follow * eye pitch about their local X"
+ },
+ "visemes": {
+  "sil": {
+   "phonemes": "silence / rest",
+   "controls": {}
+  },
+  "PP": {
+   "phonemes": "lip closure: p b m",
+   "controls": {
+    "jaw_open": 0.05,
+    "lip_press": 0.75,
+    "mouth_close": 0.2,
+    "lip_roll_upper": 0.25,
+    "lip_roll_lower": 0.25
+   }
+  },
+  "FF": {
+   "phonemes": "labiodental: f v",
+   "controls": {
+    "jaw_open": 0.1,
+    "labiodental": 1.0,
+    "upper_lip_up_l": 0.18,
+    "upper_lip_up_r": 0.18
+   }
+  },
+  "TH": {
+   "phonemes": "tongue to teeth: th dh",
+   "controls": {
+    "jaw_open": 0.17,
+    "tongue_out": 0.9,
+    "tongue_up": 0.22,
+    "mouth_wide_l": 0.1,
+    "mouth_wide_r": 0.1
+   }
+  },
+  "DD": {
+   "phonemes": "alveolar: t d n l",
+   "controls": {
+    "jaw_open": 0.19,
+    "tongue_up": 0.95,
+    "mouth_wide_l": 0.14,
+    "mouth_wide_r": 0.14
+   }
+  },
+  "KK": {
+   "phonemes": "velar: k g ng",
+   "controls": {
+    "jaw_open": 0.25,
+    "mouth_wide_l": 0.1,
+    "mouth_wide_r": 0.1
+   }
+  },
+  "CH": {
+   "phonemes": "post-alveolar: ch j sh zh",
+   "controls": {
+    "jaw_open": 0.14,
+    "funnel": 0.7,
+    "pucker": 0.22
+   }
+  },
+  "SS": {
+   "phonemes": "sibilant: s z",
+   "controls": {
+    "jaw_open": 0.07,
+    "mouth_wide_l": 0.42,
+    "mouth_wide_r": 0.42,
+    "upper_lip_up_l": 0.12,
+    "upper_lip_up_r": 0.12,
+    "lower_lip_down_l": 0.16,
+    "lower_lip_down_r": 0.16
+   }
+  },
+  "RR": {
+   "phonemes": "r-coloured: r er",
+   "controls": {
+    "jaw_open": 0.18,
+    "pucker": 0.42,
+    "funnel": 0.28
+   }
+  },
+  "AA": {
+   "phonemes": "open vowel: aa ah ay(start)",
+   "controls": {
+    "jaw_open": 0.64,
+    "mouth_wide_l": 0.12,
+    "mouth_wide_r": 0.12,
+    "lower_lip_down_l": 0.2,
+    "lower_lip_down_r": 0.2
+   }
+  },
+  "EH": {
+   "phonemes": "mid vowel: eh ae uh schwa",
+   "controls": {
+    "jaw_open": 0.38,
+    "mouth_wide_l": 0.28,
+    "mouth_wide_r": 0.28
+   }
+  },
+  "EE": {
+   "phonemes": "wide vowel: iy ih y",
+   "controls": {
+    "jaw_open": 0.15,
+    "mouth_wide_l": 0.62,
+    "mouth_wide_r": 0.62,
+    "smile_l": 0.14,
+    "smile_r": 0.14,
+    "upper_lip_up_l": 0.1,
+    "upper_lip_up_r": 0.1
+   }
+  },
+  "OH": {
+   "phonemes": "rounded vowel: ow ao",
+   "controls": {
+    "jaw_open": 0.42,
+    "funnel": 0.75,
+    "pucker": 0.15
+   }
+  },
+  "OO": {
+   "phonemes": "tight rounded vowel: uw w",
+   "controls": {
+    "jaw_open": 0.14,
+    "pucker": 0.85,
+    "funnel": 0.2
+   }
+  }
+ },
+ "expressions": {
+  "neutral": {},
+  "joy": {
+   "smile_l": 0.78,
+   "smile_r": 0.78,
+   "cheek_raise_l": 0.6,
+   "cheek_raise_r": 0.6,
+   "squint_l": 0.22,
+   "squint_r": 0.22,
+   "brow_outer_up_l": 0.18,
+   "brow_outer_up_r": 0.18,
+   "jaw_open": 0.04
+  },
+  "anger": {
+   "brow_down_l": 0.92,
+   "brow_down_r": 0.92,
+   "nose_sneer_l": 0.55,
+   "nose_sneer_r": 0.55,
+   "squint_l": 0.38,
+   "squint_r": 0.38,
+   "lip_press": 0.45,
+   "frown_l": 0.3,
+   "frown_r": 0.3,
+   "upper_lip_up_l": 0.18,
+   "upper_lip_up_r": 0.18,
+   "jaw_forward": 0.5
+  },
+  "concern": {
+   "brow_inner_up_l": 0.95,
+   "brow_inner_up_r": 0.95,
+   "frown_l": 0.52,
+   "frown_r": 0.52,
+   "chin_raise": 0.42,
+   "blink_l": 0.14,
+   "blink_r": 0.14,
+   "mouth_close": 0.1
+  },
+  "surprise": {
+   "brow_inner_up_l": 0.78,
+   "brow_inner_up_r": 0.78,
+   "brow_outer_up_l": 0.92,
+   "brow_outer_up_r": 0.92,
+   "eye_wide_l": 1.0,
+   "eye_wide_r": 1.0,
+   "jaw_open": 0.36,
+   "funnel": 0.18
+  },
+  "pain": {
+   "brow_down_l": 0.72,
+   "brow_down_r": 0.72,
+   "brow_inner_up_l": 0.5,
+   "brow_inner_up_r": 0.5,
+   "squint_l": 0.85,
+   "squint_r": 0.85,
+   "cheek_raise_l": 0.72,
+   "cheek_raise_r": 0.72,
+   "nose_sneer_l": 0.7,
+   "nose_sneer_r": 0.7,
+   "upper_lip_up_l": 0.5,
+   "upper_lip_up_r": 0.5,
+   "mouth_wide_l": 0.48,
+   "mouth_wide_r": 0.48,
+   "jaw_open": 0.2,
+   "blink_l": 0.35,
+   "blink_r": 0.35
+  },
+  "focus": {
+   "brow_down_l": 0.36,
+   "brow_down_r": 0.36,
+   "squint_l": 0.3,
+   "squint_r": 0.3,
+   "lip_press": 0.24,
+   "blink_l": 0.08,
+   "blink_r": 0.08
+  }
+ }
+}

@@ -1,0 +1,10 @@
+date: 2026-11-10T22:22:54Z
+render_offscreen: 1
+kernel: Linux 6.18.59
+cpu: AMD Ryzen 9 9950X 16-Core Processor
+logical_cpus: 32
+ram_total_kb: 96342956
+load_average_before_run (1/5/15 min, 32 logical CPUs): 30.51 28.79 26.38
+cpu_busy_before_run: 23 % (idle 77 %, iowait 0 %)
+gpu: NVIDIA GeForce RTX 5090, 595.71.05, 32607 MiB
+gpu_before_run (util %, memory used, other workloads share this GPU): 0 %, 5298 MiB
