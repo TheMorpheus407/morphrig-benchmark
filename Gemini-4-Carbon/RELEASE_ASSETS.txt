@@ -1,0 +1,7 @@
+Packaged Linux build from the frozen Gemini 4 Carbon run.
+
+Gemini-4-Carbon-MorphRig-build.tar.zst
+Bytes: 458011834
+SHA-256: ecf52c94e620e7a234a18330b5c7e7821db534698e99e4786341d22c87ef3e8e
+https://github.com/TheMorpheus407/morphrig-benchmark/releases/download/gemini-4-carbon/Gemini-4-Carbon-MorphRig-build.tar.zst
+

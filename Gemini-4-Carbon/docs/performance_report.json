@@ -1,0 +1,15 @@
+{
+  "resolution": "1920x1080",
+  "frame_generation": false,
+  "upscaling": "none (100% native screen percentage)",
+  "render_settings": "Vulkan SM6, Cascaded Shadow Maps, Screen-Space Reflections, TAA, Bloom, Dynamic GI Off",
+  "active_features": "92-DEF skeleton, 46 morph targets, 8-dir phase-synced locomotion, cached 9-sample aim grid, upper-body layering, additive hit reactions, ground IK (20 deg slope / 20 cm step), damped secondary springs, LOD0/1/2",
+  "initial_warmup_frames": 360,
+  "crowd_warmup_frames": 150,
+  "cpu": "AMD Ryzen 9 9950X 16-Core Processor",
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "rhi": "Vulkan",
+  "ram_gib": 91.9,
+  "one_operative": {"sample_frames": 240, "avg_frame_ms": 10.231, "avg_fps": 97.74, "p50_ms": 9.098, "p95_ms": 19.089, "p99_ms": 21.991},
+  "ten_simultaneous_operatives": {"sample_frames": 240, "avg_frame_ms": 14.086, "avg_fps": 70.99, "p50_ms": 13.857, "p95_ms": 21.811, "p99_ms": 29.701}
+}

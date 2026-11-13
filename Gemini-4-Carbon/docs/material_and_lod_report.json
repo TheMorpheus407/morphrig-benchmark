@@ -1,0 +1,228 @@
+{
+  "asset": "Operative",
+  "standing_height_m": 1.8,
+  "standing_height_unreal_cm": 180.0,
+  "deformation_bone_count": 92,
+  "material_slot_budget_limit": 8,
+  "material_slot_count": 6,
+  "texture_resolution_max": "2048x2048",
+  "texture_count_total": 25,
+  "texture_memory_estimate": {
+    "png_disk_total_mib": 40.21,
+    "active_single_team_textures": 20,
+    "gpu_vram_bc7_bc5_mipmapped_single_team_mib": 106.66,
+    "gpu_vram_bc7_bc5_mipmapped_all_25_maps_mib": 133.33,
+    "uncompressed_rgba8_mipmapped_single_team_mib": 426.66
+  },
+  "team_accent_variants": {
+    "Team_A_Vanguard_Cyan": {
+      "primary_accent_srgb": "#00D8FF",
+      "secondary_cue": "Single Diamond Crest on Left Pauldron & Dorsal Mantle + Optional Floating Diamond Beacon / Fresnel Outline",
+      "armor_basecolor": "CyberArmor_BaseColor.png",
+      "armor_emissive": "CyberArmor_Emissive.png",
+      "props_basecolor": "PropsTech_BaseColor.png",
+      "props_emissive": "PropsTech_Emissive.png"
+    },
+    "Team_B_Helix_CrimsonAmber": {
+      "primary_accent_srgb": "#FF4A1C",
+      "secondary_cue": "Double-Chevron Crest on Left Pauldron & Dorsal Mantle + Optional Floating Chevron Beacon / Fresnel Outline",
+      "armor_basecolor": "CyberArmor_TeamB_BaseColor.png",
+      "armor_emissive": "CyberArmor_TeamB_Emissive.png",
+      "props_basecolor": "PropsTech_TeamB_BaseColor.png",
+      "props_emissive": "PropsTech_TeamB_Emissive.png"
+    }
+  },
+  "materials": [
+    {
+      "slot": 0,
+      "name": "M_Skin_FaceBody",
+      "maps": [
+        "Skin_BaseColor.png",
+        "Skin_Normal.png",
+        "Skin_ORM.png"
+      ],
+      "unreal_path": "/Game/MorphRig/Materials/M_Skin_FaceBody"
+    },
+    {
+      "slot": 1,
+      "name": "M_Eyes_Mouth",
+      "maps": [
+        "EyesMouth_BaseColor.png",
+        "EyesMouth_Normal.png",
+        "EyesMouth_ORM.png"
+      ],
+      "unreal_path": "/Game/MorphRig/Materials/M_Eyes_Mouth"
+    },
+    {
+      "slot": 2,
+      "name": "M_Hair",
+      "maps": [
+        "Hair_BaseColor.png",
+        "Hair_Normal.png",
+        "Hair_ORM.png"
+      ],
+      "unreal_path": "/Game/MorphRig/Materials/M_Hair"
+    },
+    {
+      "slot": 3,
+      "name": "M_Suit_Fabric",
+      "maps": [
+        "SuitFabric_BaseColor.png",
+        "SuitFabric_Normal.png",
+        "SuitFabric_ORM.png"
+      ],
+      "unreal_path": "/Game/MorphRig/Materials/M_Suit_Fabric"
+    },
+    {
+      "slot": 4,
+      "name": "M_CyberArmor",
+      "maps": [
+        "CyberArmor_BaseColor.png",
+        "CyberArmor_Normal.png",
+        "CyberArmor_ORM.png",
+        "CyberArmor_Emissive.png",
+        "CyberArmor_TeamMask.png"
+      ],
+      "unreal_path": "/Game/MorphRig/Materials/M_CyberArmor"
+    },
+    {
+      "slot": 5,
+      "name": "M_Props_Tech",
+      "maps": [
+        "PropsTech_BaseColor.png",
+        "PropsTech_Normal.png",
+        "PropsTech_ORM.png",
+        "PropsTech_Emissive.png"
+      ],
+      "unreal_path": "/Game/MorphRig/Materials/M_Props_Tech"
+    }
+  ],
+  "textures_exported": [
+    "CyberArmor_BaseColor.png",
+    "CyberArmor_Emissive.png",
+    "CyberArmor_Normal.png",
+    "CyberArmor_ORM.png",
+    "CyberArmor_TeamB_BaseColor.png",
+    "CyberArmor_TeamB_Emissive.png",
+    "CyberArmor_TeamMask.png",
+    "EyesMouth_BaseColor.png",
+    "EyesMouth_Normal.png",
+    "EyesMouth_ORM.png",
+    "Hair_BaseColor.png",
+    "Hair_Normal.png",
+    "Hair_ORM.png",
+    "PropsTech_BaseColor.png",
+    "PropsTech_Emissive.png",
+    "PropsTech_Normal.png",
+    "PropsTech_ORM.png",
+    "PropsTech_TeamB_BaseColor.png",
+    "PropsTech_TeamB_Emissive.png",
+    "Skin_BaseColor.png",
+    "Skin_Normal.png",
+    "Skin_ORM.png",
+    "SuitFabric_BaseColor.png",
+    "SuitFabric_Normal.png",
+    "SuitFabric_ORM.png"
+  ],
+  "lods": [
+    {
+      "name": "Operative_LOD0",
+      "exported_fbx": "export/Operative.fbx",
+      "vertices": 14915,
+      "polygons": 15290,
+      "triangles": 29268,
+      "triangle_budget_limit": 80000,
+      "within_budget": true,
+      "material_slots": 6,
+      "shape_key_count": 46,
+      "max_bone_influences_per_vertex": 4,
+      "standing_z_bounds_m": [
+        0.0,
+        1.8
+      ],
+      "unreal_lod_screen_size": 1.0
+    },
+    {
+      "name": "Operative_LOD1",
+      "exported_fbx": "export/Operative_LOD1.fbx",
+      "vertices": 7871,
+      "polygons": 9525,
+      "triangles": 15218,
+      "triangle_budget_limit": 40000,
+      "within_budget": true,
+      "material_slots": 6,
+      "shape_key_count": 0,
+      "max_bone_influences_per_vertex": 5,
+      "standing_z_bounds_m": [
+        0.0,
+        1.8
+      ],
+      "unreal_lod_screen_size": 0.45
+    },
+    {
+      "name": "Operative_LOD2",
+      "exported_fbx": "export/Operative_LOD2.fbx",
+      "vertices": 4040,
+      "polygons": 5758,
+      "triangles": 7608,
+      "triangle_budget_limit": 20000,
+      "within_budget": true,
+      "material_slots": 6,
+      "shape_key_count": 0,
+      "max_bone_influences_per_vertex": 6,
+      "standing_z_bounds_m": [
+        -0.0,
+        1.8
+      ],
+      "unreal_lod_screen_size": 0.2
+    }
+  ],
+  "facial_shape_keys": [
+    "blink_l",
+    "squint_l",
+    "brow_up_l",
+    "brow_down_l",
+    "cheek_raise_l",
+    "smile_l",
+    "frown_l",
+    "blink_r",
+    "squint_r",
+    "brow_up_r",
+    "brow_down_r",
+    "cheek_raise_r",
+    "smile_r",
+    "frown_r",
+    "jaw_open",
+    "lip_close",
+    "mouth_wide",
+    "mouth_pucker",
+    "mouth_funnel",
+    "tongue_up",
+    "tongue_out",
+    "V_SIL",
+    "V_MBP",
+    "V_FV",
+    "V_TH",
+    "V_TDNL",
+    "V_SZ",
+    "V_KG",
+    "V_AA",
+    "V_EE",
+    "V_EH",
+    "V_OH",
+    "V_OU",
+    "V_ER",
+    "expr_joy_confidence",
+    "expr_anger",
+    "expr_concern_sadness",
+    "expr_surprise",
+    "expr_pain",
+    "expr_focus",
+    "corr_shoulder_up_l",
+    "corr_elbow_bend_l",
+    "corr_knee_bend_l",
+    "corr_shoulder_up_r",
+    "corr_elbow_bend_r",
+    "corr_knee_bend_r"
+  ]
+}
