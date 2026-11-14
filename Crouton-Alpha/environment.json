@@ -1,0 +1,38 @@
+{
+  "measured_on": "2026-09-23",
+  "host": {
+    "os": "NixOS 26.05.9729.c3eea5b2156d (Yarara), x86-64, kernel 6.18.43",
+    "cpu": "AMD Ryzen 9 9950X, 16 cores / 32 threads",
+    "ram_gib": 91,
+    "gpu": "NVIDIA GeForce RTX 5090, 32 GiB, driver 595.71.05",
+    "display": "KDE Plasma Wayland (XWayland DISPLAY=:0); 4K monitors at 200% scaling (logical 1920x1080)",
+    "gpu_note": "Other local GPU workloads are stopped before the run."
+  },
+  "blender": {
+    "binary": "/run/current-system/sw/bin/blender",
+    "version": "5.1.1",
+    "headless": "blender -b --factory-startup -P script.py -- args",
+    "gpu_devices": "Cycles sees the RTX 5090 via OptiX and CUDA",
+    "exporters": "FBX (bpy.ops.export_scene.fbx) and glTF export verified",
+    "python": "bundled Blender Python; system python3 is 3.13.15"
+  },
+  "unreal_engine": {
+    "version": "5.8.3 (Changelist 58210709, ++UE5+Release-5.8), official prebuilt Linux build",
+    "root": "/home/morpheus/UnrealEngine/5.8.3",
+    "runtime_wrapper": "/home/morpheus/UnrealEngine/bin/ue-exec — runs a command inside the Unreal FHS runtime needed on NixOS; UE_ROOT is set inside. Use it for the editor, commandlets, RunUAT/Build.sh and for starting the packaged Linux build. Example: ue-exec '$UE_ROOT/Engine/Build/BatchFiles/RunUAT.sh' BuildCookRun -project=/abs/X.uproject -platform=Linux -clientconfig=Development -build -cook -stage -pak -archive -archivedirectory=/abs/build/Linux",
+    "editor": "$UE_ROOT/Engine/Binaries/Linux/UnrealEditor (GUI), UnrealEditor-Cmd (headless, e.g. -run=pythonscript -script=/abs/file.py)",
+    "cpp_toolchain": "bundled clang 20.1.8 (v26_clang-20.1.8-rockylinux8); C++ game/editor modules compile via $UE_ROOT/Engine/Build/BatchFiles/Linux/Build.sh",
+    "rhi": "Vulkan SM6 on the RTX 5090 (verified in a packaged build)",
+    "verified_pipeline": "A neutral pilot (not a character) passed: Blender 5.1.1 skinned mesh + action -> FBX -> headless Python import in Unreal (180 cm, skeleton, AnimSequence) -> C++ module build -> BuildCookRun Linux package -> packaged client ran outside the editor and played the imported animation."
+  },
+  "media_tools": {
+    "ffmpeg": "8.0 (video encoding for presentation/*.mp4)",
+    "speech_synthesis": "Not installed system-wide. Available through nix: `nix-shell -p piper-tts espeak-ng` (piper, eSpeak NG 1.52). Piper voice models are downloadable separately; check each voice's license and record it in THIRD_PARTY_ASSETS.csv."
+  },
+  "build_tools": {
+    "cc": "gcc 15.2.0 (/run/current-system/sw/bin/gcc)",
+    "python": "3.13.15",
+    "nix": "Nix 2.34.8 / nixpkgs 26.05; extra tools via nix-shell -p, declare them in build instructions"
+  },
+  "limits": "none on time, tokens, iterations or generation cost (spec section 2)"
+}

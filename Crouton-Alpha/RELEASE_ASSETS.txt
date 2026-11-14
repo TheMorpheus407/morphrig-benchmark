@@ -1,0 +1,13 @@
+Parts of this run that are not stored in git (the packaged build) are attached to the release
+https://github.com/TheMorpheus407/morphrig-benchmark/releases/tag/crouton-alpha
+
+name      MorphRig-build.tar.zst
+contents  MorphRig/build/ (packaged Linux build)
+size      441616937 bytes
+sha256    6c81e62aa313685786d0b06e164f4cec38875135087d991ec78d1a85186cf4e4
+download  https://github.com/TheMorpheus407/morphrig-benchmark/releases/download/crouton-alpha/MorphRig-build.tar.zst
+
+Unpack an archive inside this folder:  zstd -d < NAME | tar -x
+Unreal runtime folders (Saved/, Intermediate/, DerivedDataCache/) and Unreal Binaries/
+outside the packaged build are not included.
+Blender backup files (.blend1) are not included.

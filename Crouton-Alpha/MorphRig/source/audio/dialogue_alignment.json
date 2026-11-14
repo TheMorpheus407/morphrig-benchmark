@@ -1,0 +1,12 @@
+{
+  "sample_rate": 22050,
+  "duration_seconds": 15.35,
+  "transcript": "Holding the lane at the relay station. Telemetry says the network is steady. Keep your eyes on the west approach. Stay ready and stay sharp.",
+  "sentences": [
+    {"start": 0.0, "end": 3.11, "text": "Holding the lane at the relay station.", "visemes": ["A","O","E","L"]},
+    {"start": 4.31, "end": 7.48, "text": "Telemetry says the network is steady.", "visemes": ["E","A","I","M"]},
+    {"start": 8.68, "end": 11.52, "text": "Keep your eyes on the west approach.", "visemes": ["I","U","O","P"]},
+    {"start": 12.72, "end": 15.35, "text": "Stay ready and stay sharp.", "visemes": ["A","E","A"]}
+  ],
+  "viseme_mapping": {"M": "Viseme_M (lip closure)", "F": "Viseme_F (labiodental)", "A": "Viseme_A (open vowel)", "I": "Viseme_I (wide vowel)", "U": "Viseme_U (rounded vowel)", "O": "Viseme_O, JawOpen", "L": "Viseme_L (tongue to teeth)"}
+}

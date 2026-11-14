@@ -1,0 +1,25 @@
+{
+  "LOD0_triangles": 17680,
+  "LOD1_triangles": 8840,
+  "LOD2_triangles": 4420,
+  "material_slots": 8,
+  "materials": [
+    "MAT_Skin",
+    "MAT_Clothing",
+    "MAT_Armor",
+    "MAT_Cyber",
+    "MAT_EmissiveAccent",
+    "MAT_Eye",
+    "MAT_MouthInterior",
+    "MAT_Hair"
+  ],
+  "deformation_bone_count": 64,
+  "max_bone_influences_per_vertex": 4,
+  "texture_max_dimension": 1024,
+  "texture_memory_mb_estimate": 64.0,
+  "team_accent_variants": {
+    "A": "cyan outline + cyan emissive",
+    "B": "orange outline + orange emissive"
+  },
+  "note": "LOD1/LOD2 are distinct decimated meshes with fewer shape keys (face preserved at LOD0; LOD1/2 keep blink/jaw via bones)."
+}

@@ -1,0 +1,1 @@
+Follow the instructions in SPEC.md completely. required_animations.csv and environment.json belong to the task. Keep all your work inside this folder.
